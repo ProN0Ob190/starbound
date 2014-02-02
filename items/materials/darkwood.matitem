@@ -1,0 +1,12 @@
+{
+  "itemName" : "darkwoodmaterial",
+  "rarity" : "Common",
+  "inventoryIcon" : "darkwood.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "I think I see alien woodworm.",
+  "shortdescription" : "Wood Planks",
+  "glitchdescription" : "Statement. Wood.",
+  "florandescription" : "Sssplintery wood.",
+
+  "materialId" : 7
+}

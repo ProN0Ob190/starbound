@@ -1,0 +1,44 @@
+{
+  "objectName" : "prisontorturebed2",
+  "rarity" : "Common",
+  "description" : "A torture bed. Terrifying! Thank goodness for the pillow.",
+  "shortdescription" : "Torture Bed",
+  "race" : "human",
+  "category" : "furniture",
+  "price" : 750,
+
+  "apexDescription" : "A torture bed. Already, I'm getting flashbacks.",
+  "avianDescription" : "A menacing torture bed. I don't even want to think about what's gone on here.",
+  "floranDescription" : "Gift wrapping for Floran prey.",
+  "glitchDescription" : "Morbid curiosity. I wonder which methods of torture humans currently employ.",
+  "humanDescription" : "Hey, a fairground ride! What's it doing in a prison though? Uh, right, it's a torture bed.",
+  "hylotlDescription" : "Torture should be outlawed. Barbaric and cruel. It's a sick, sad universe.",
+
+  "objectType" : "interactable",
+  "interactAction" : "sitdown",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-7, 17],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    { "kind" : "Nude" },
+    { "kind" : "Health", "amount" : 0.02 }
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "prisontorturebed2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "prisontorturebed2.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

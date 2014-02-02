@@ -1,0 +1,31 @@
+{
+  "objectName" : "prisongraffiti7",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 200,
+
+  "description" : "The words 'get out' have been written in blood. You can tell the writer was serious.",
+  "shortdescription" : "Graffiti",
+  "race" : "human",
+
+  "apexDescription" : "This graffiti seems to be written in blood.",
+  "avianDescription" : "Clearly the artist had a flair for the dramatic.",
+  "floranDescription" : "Floran think this sssay: happy birthday.",
+  "glitchDescription" : "Analysis: The blood used here came from a Hylotl.",
+  "humanDescription" : "No, YOU get out!",
+  "hylotlDescription" : "This graffiti artist needs to take a time out.",
+
+  "inventoryIcon" : "prisongraffiti7icon.png",
+  "orientations" : [
+    {
+      "image" : "prisongraffiti7.png:<color>",
+      "imagePosition" : [-52, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

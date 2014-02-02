@@ -1,0 +1,23 @@
+{
+  "name" : "heck",
+
+  "mainBlock" : "hellstone",
+  "subBlocks" : [ "brains", "rock04" ],
+  "ores" : "depth3",
+
+  "statusParameters" : {
+    "temperatureBounds" : [60, 80],
+    "dayNightTemperatureVariability" : 3,
+    "temperatureVariability" : 10
+  },
+
+  "hueShiftOptions" : [0],
+  "undergroundParallax" : "heck.undergroundparallax",
+
+  "sky" : {
+    "topColor" : [182, 204, 255],
+    "bottomColor" : [224, 239, 255],
+    "nightTopColor" : [0, 0, 30],
+    "nightBottomColor" : [0, 0, 0]
+  }
+}

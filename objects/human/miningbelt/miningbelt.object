@@ -1,0 +1,31 @@
+{
+  "objectName" : "miningbelt",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 500,
+  "description" : "A machine used to move large amounts of mined material.",
+  "shortdescription" : "Mining Conveyer Belt",
+  "race" : "human",
+
+  "apexDescription" : "A Conveyer Belt, for moving heavy loads a short distance.",
+  "avianDescription" : "A Conveyer Belt, currently not moving.",
+  "floranDescription" : "Floran bored of fencesss.",
+  "glitchDescription" : "Indifferent. The conveyer belt is seemingly nonfunctional.",
+  "humanDescription" : "A short Conveyer Belt for moving heavy loads.",
+  "hylotlDescription" : "An uninteresting human construct.",
+
+  "inventoryIcon" : "miningbelticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "miningbelt.png:<color>",
+
+      "imagePosition" : [-20, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

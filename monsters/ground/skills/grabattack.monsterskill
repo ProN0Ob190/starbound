@@ -1,0 +1,9 @@
+{
+  "name" : "grabAttack",
+  "label" : "GRAB",
+  "image" : "/monsters/ground/skills/icon.png",
+
+  "parameters" : {
+    "scripts" : [ "/monsters/ground/grabAttack.lua" ]
+  }
+}

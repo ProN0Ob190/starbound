@@ -1,0 +1,9 @@
+{
+  "name" : "neon2head",
+  "category" : "fish_organic",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "neon2head.png"
+  }
+}

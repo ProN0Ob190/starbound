@@ -1,0 +1,92 @@
+{
+  "name" : "colourful",
+
+  "surfaceParameters" : {
+    "mainBlock" : "sand2",
+    "subBlocks" : [ "sand", "dirt" ],
+    "ores" : "surfaceOres",
+
+    "statusParameters" : {
+      "temperatureBounds" : [50, 60],
+      "dayNightTemperatureVariability" : 70,
+      "temperatureVariability" : 5
+    },
+
+    "surfacePlaceables" : {
+      "grassMod" : [ "aridgrass" ],
+      "grassModDensity" : 0.3,
+
+      "items" : [
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:denseLarge",
+
+          "type" : "tree",
+          "treeFoliageHueShiftMax" : 0,
+          "treeStemHueShiftMax" : 0,
+          "treeStemList" : [ "colourfulstem" ],
+          "treeFoliageList" : [ "colourfulpalm" ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:minibiomeChests",
+
+          "type" : "treasureBox",
+          "treasureBoxSets" : [ "rainbowChest" ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 2.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+          "type" : "object",
+          "objectSets" : [
+            {
+              "pool" : [ [1, "wildneonmelonseed" ] ],
+              "parameters" : { "startingStage" : 2 }
+            }
+          ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 4.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:denseSmall",
+
+          "type" : "grass",
+          "grasses" : [ "colourfulflower" ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 3.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:denseMedium",
+
+          "type" : "object",
+          "objectSets" : [
+            {
+              "pool" : [ [0.35, "colourfulbush1" ], [0.35, "colourfulbush2" ], [0.35, "colourfulbush3" ], [0.35, "colourfulbush4" ], [0.35, "colourfulbush5" ] ],
+              "parameters" : { }
+            }
+          ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:denseLarge",
+
+          "type" : "microdungeon",
+          "microdungeons" : [ "colourfulencounter" ]
+        }
+      ]
+    }
+  }
+}
+
+

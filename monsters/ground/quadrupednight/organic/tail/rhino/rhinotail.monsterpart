@@ -1,0 +1,9 @@
+{
+  "name" : "nightrhinotail",
+  "category" : "quadruped_organic",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "rhinotail.png"
+  }
+}

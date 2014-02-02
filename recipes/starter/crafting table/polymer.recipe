@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "alienmeat", "count" : 2 },
+    { "item" : "copperore", "count" : 2 },
+    { "item" : "coal", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "polymer",
+    "count" : 1
+  },
+  "groups" : [ "crafting table", "all" ]
+}

@@ -1,0 +1,13 @@
+{
+  "itemName" : "coralcreep",
+  "rarity" : "Common",
+  "inventoryIcon" : "coralcreep.png",
+  "description" : "The berries are poisonous to anyone but those of aquatic disposition.",
+  "shortdescription" : "Coralcreep",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 25
+      }
+    ] ]
+}

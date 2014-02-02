@@ -1,0 +1,22 @@
+{
+  "projectileName" : "bomb",
+  "frames" : "bomb.png",
+  "physics" : "stickybomb",
+  "level" : 3,
+  "animationCycle" : 2,
+  "frameNumber" : 4,
+  "power" : 50,
+  "initialVelocity" : 50,
+  "timeToLive" : 5,
+  "bounces" : 1,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/regularexplosion/regularexplosion.config"
+    }
+  ],
+
+  "lightColor" : [255, 180, 0],
+  "damageType" : "hitTest",
+  "damageKind" : "default"
+}

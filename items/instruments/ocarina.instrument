@@ -1,0 +1,19 @@
+{
+  "itemName" : "ocarina",
+  "inventoryIcon" : "ocarinaicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "An ocarina. Make sure you have time to practise.",
+  "shortdescription" : "Ocarina",
+  "largeImage" : "ocarina.png",
+  "image" : "ocarina.png",
+  "inspectionKind" : "tool",
+  "activeImage" : "ocarina.png",
+  "activeAngle" : 6,
+  "activeHandPosition" : [-0.4, 0.2],
+
+  "handPosition" : [0, 0],
+  "twoHanded" : true,
+  "kind" : "ocarina"
+}

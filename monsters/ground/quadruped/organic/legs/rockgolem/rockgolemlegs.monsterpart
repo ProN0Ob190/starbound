@@ -1,0 +1,17 @@
+{
+  "name" : "rockgolemlegs",
+  "category" : "quadruped_organic",
+  "type" : "legs",
+
+  "frames" : {
+    "frontLegs" : "rockgolemflegs.png",
+    "backLegs" : "rockgolemblegs.png"
+  },
+
+  "parameters" : {
+    "walkMultiplier" : 0.4,
+    "runMultiplier" : 1.0,
+    "jumpMultiplier" : 1.0,
+    "skills" : [ "digGritAttack" ]
+  }
+}

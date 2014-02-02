@@ -1,0 +1,13 @@
+{
+  "itemName" : "apexshipplatform",
+  // "twoHanded" : false,
+  "rarity" : "Common",
+  "inventoryIcon" : "apexshipplatformicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Nicely carved wooden platforms.",
+  "shortdescription" : "Ship Platform",
+  "glitchdescription" : "Built Glitch tough.",
+  "florandescription" : "Strong to handle the darknesss.",
+
+  "materialId" : 176
+}

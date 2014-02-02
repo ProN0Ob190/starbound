@@ -1,0 +1,34 @@
+{
+  "objectName" : "owlclock",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 750,
+
+  "description" : "Tick, tock, tick, tock.",
+  "shortdescription" : "Owl Wall Clock",
+  "race" : "avian",
+
+  "apexDescription" : "A cute clock, its eyes move.",
+  "avianDescription" : "The grounded enjoy crafting for fun.",
+  "floranDescription" : "Birdman clock have sssneaky eyess.",
+  "glitchDescription" : "Amused. The eyes move each second.",
+  "humanDescription" : "What an adorable clock.",
+  "hylotlDescription" : "It is hard not to smile in the presence of this timer.",
+
+  "inventoryIcon" : "owlclockicon.png",
+  "orientations" : [
+
+    {
+      "dualImage" : "owlclock.png:<color>.<frame>",
+      "imagePosition" : [-8, -8],
+      "frames" : 8,
+      "animationCycle" : 2,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/clock_loop.wav"
+
+}

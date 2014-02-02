@@ -1,0 +1,30 @@
+{
+  "objectName" : "floranpainting1",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 400,
+  "description" : "This painting seems to illustrate how to build a fire.",
+  "shortdescription" : "Primitive Smoke Painting",
+  "race" : "floran",
+
+  "apexDescription" : "Are these instructions?",
+  "avianDescription" : "Is that fire?",
+  "floranDescription" : "Young Floran learn to make fire thisss way. Many young Floran burn.",
+  "glitchDescription" : "Explaining. It appears to be instructions on making fire.",
+  "humanDescription" : "An educational illustration on how to build a fire.",
+  "hylotlDescription" : "The Floran may be doing the Hylotl a favour by teaching their young to make fire.",
+
+  "inventoryIcon" : "floranpainting1icon.png",
+  "orientations" : [
+    {
+      "image" : "floranpainting1.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

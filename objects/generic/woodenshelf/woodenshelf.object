@@ -1,0 +1,33 @@
+{
+  "objectName" : "woodenshelf",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 200,
+
+  "description" : "A sturdy wooden shelf.",
+  "shortdescription" : "Wooden Shelf",
+  "race" : "generic",
+
+  "apexDescription" : "A basic shelf.",
+  "avianDescription" : "A simple shelf.",
+  "floranDescription" : "A ssshelf.",
+  "glitchDescription" : "Identify. A shelf.",
+  "humanDescription" : "A wooden shelf.",
+  "hylotlDescription" : "A shelf of wood.",
+
+
+  "inventoryIcon" : "woodenshelficon.png",
+  "orientations" : [
+    {
+      "image" : "woodenshelf.png:<color>",
+      "imagePosition" : [-16, -0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

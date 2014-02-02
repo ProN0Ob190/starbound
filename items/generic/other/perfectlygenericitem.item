@@ -1,0 +1,7 @@
+{
+  "itemName" : "perfectlygenericitem",
+  "rarity" : "Common",
+  "inventoryIcon" : "perfectlygenericitem.png",
+  "description" : "It's a perfectly generic item, perhaps a bit too perfect.",
+  "shortdescription" : "Perfectly Generic Item"
+}

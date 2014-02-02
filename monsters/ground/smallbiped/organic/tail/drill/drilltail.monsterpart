@@ -1,0 +1,9 @@
+{
+  "name" : "drilltail",
+  "category" : "smallbiped_organic",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "drilltail.png"
+  }
+}

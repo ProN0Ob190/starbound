@@ -1,0 +1,16 @@
+{
+  "materialId" : 8,
+  "materialName" : "dirt",
+  "frames" : "dirt.png",
+  "particleColor" : [112, 72, 39, 255],
+  "variants" : 5,
+  "itemDrop" : "dirtmaterial",
+  "description" : "Dirty looking dirt.",
+  "shortdescription" : "Dirt Block",
+  "glitchDescription" : "Statement. Dirt. Clarification. Just dirt.",
+  "floranDescription" : "Filthy dirt!",
+  "footstepSound" : "/sfx/blocks/footstep_dirt.wav",
+  "tillableMod" : 31,
+  "soil" : true,
+  "health" : 2.3
+}

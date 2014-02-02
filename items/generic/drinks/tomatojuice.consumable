@@ -1,0 +1,18 @@
+{
+  "itemName" : "tomatojuice",
+  "rarity" : "Common",
+  "inventoryIcon" : "tomatojuice.png",
+  "description" : "A hearty tomato juice.",
+  "shortdescription" : "Tomato Juice",
+  "handPosition" : [-8, 0],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 5
+      },
+      {
+        "kind" : "energy",
+        "amount" : 5
+      }
+    ] ]
+}

@@ -1,0 +1,31 @@
+{
+  "objectName" : "watermachine",
+  "rarity" : "Common",
+  "description" : "It's one of those drinking machines people use to make small-talk.",
+  "shortdescription" : "Water Cooler",
+  "race" : "human",
+  "category" : "decorative",
+  "price" : 600,
+
+  "apexDescription" : "Cool, clear water. Refreshing!",
+  "avianDescription" : "I could do with a drink.",
+  "floranDescription" : "Floran stand at water ssspitter, talk about who is ssstabbing whom.",
+  "glitchDescription" : "Gossiping. Did you see what that Hylotl was wearing? Outrageous. Also this appears to be a water cooler.",
+  "humanDescription" : "I'm so thirsty, I could drink a horse. If the horse was made of water.",
+  "hylotlDescription" : "A small container of water. To see it in such short supply makes me long for home.",
+
+  "inventoryIcon" : "watermachineicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "watermachine.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

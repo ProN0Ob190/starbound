@@ -1,0 +1,128 @@
+{
+  "objectName" : "prisonfloodlight",
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 400,
+  "lightColors" : {
+    "default" : [255, 255, 245],
+    "red" : [255, 127, 127],
+    "blue" : [71, 134, 255],
+    "green" : [88, 255, 0],
+    "yellow" : [255, 230, 127],
+    "orange" : [255, 179, 127],
+    "pink" : [255, 177, 255],
+    "black" : [100, 100, 100],
+    "white" : [255, 255, 255]
+  },
+  "pointLight" : true,
+  "pointBeam" : 0.2,
+  "description" : "It feels like I'm on stage! Except I'm not, I'm in a prison.",
+  "shortdescription" : "Small Floodlight",
+  "race" : "human",
+
+  "apexDescription" : "Such spotlights are used by the Miniknog to force people to talk. Spotlights, and worse...",
+  "avianDescription" : "An annoying, blinding light.",
+  "floranDescription" : "Floran feel like centre of attention.",
+  "glitchDescription" : "Stealthy. By analysing this floodlight's patterns, it would be easy to sneak around it.",
+  "humanDescription" : "I've always wanted to be in the spotlight.",
+  "hylotlDescription" : "A bright, piercing floodlight.",
+
+  "inventoryIcon" : "prisonfloodlighticon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "prisonfloodlightceiling1.png:<color>.<frame>", "unlit" : true }, { "image" : "prisonfloodlightceiling2.png:<color>.<frame>" } ],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "imagePosition" : [-4, -8],
+
+      "spaceScan" : 0.01,
+      "anchors" : [ "top" ],
+      "lightPosition" : [0, -1],
+      "pointAngle" : 270
+    },
+
+    {
+      "imageLayers" : [ { "image" : "prisonfloodlightceilingleft1.png:<color>.<frame>", "unlit" : true }, { "image" : "prisonfloodlightceilingleft2.png:<color>.<frame>" } ],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "imagePosition" : [0, -8],
+
+      "spaceScan" : 0.01,
+      "anchors" : [ "top", "left" ],
+      "lightPosition" : [0, 0],
+      "pointAngle" : 315
+    },
+
+    {
+      "imageLayers" : [ { "image" : "prisonfloodlightceilingright1.png:<color>.<frame>", "unlit" : true }, { "image" : "prisonfloodlightceilingright2.png:<color>.<frame>" } ],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.01,
+      "anchors" : [ "top", "right" ],
+      "lightPosition" : [0, 0],
+      "pointAngle" : 225
+    },
+
+    {
+      "imageLayers" : [ { "image" : "prisonfloodlightground1.png:<color>.<frame>", "unlit" : true }, { "image" : "prisonfloodlightground2.png:<color>.<frame>" } ],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "imagePosition" : [-4, 0],
+
+      "spaceScan" : 0.01,
+      "anchors" : [ "bottom" ],
+      "lightPosition" : [0, 1],
+      "pointAngle" : 90
+    },
+
+    {
+      "imageLayers" : [ { "image" : "prisonfloodlightgroundleft1.png:<color>.<frame>", "unlit" : true }, { "image" : "prisonfloodlightgroundleft2.png:<color>.<frame>" } ],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.01,
+      "anchors" : [ "bottom", "left" ],
+      "lightPosition" : [0, 0],
+      "pointAngle" : 45
+    },
+
+    {
+      "imageLayers" : [ { "image" : "prisonfloodlightgroundright1.png:<color>.<frame>", "unlit" : true }, { "image" : "prisonfloodlightgroundright2.png:<color>.<frame>" } ],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.01,
+      "anchors" : [ "bottom", "right" ],
+      "lightPosition" : [0, 0],
+      "pointAngle" : 135
+    },
+
+    {
+      "imageLayers" : [ { "image" : "prisonfloodlightleft1.png:<color>.<frame>", "unlit" : true }, { "image" : "prisonfloodlightleft2.png:<color>.<frame>" } ],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "imagePosition" : [0, -4],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ],
+      "lightPosition" : [1, 0],
+      "pointAngle" : 0
+    },
+
+    {
+      "imageLayers" : [ { "image" : "prisonfloodlightright1.png:<color>.<frame>", "unlit" : true }, { "image" : "prisonfloodlightright2.png:<color>.<frame>" } ],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "imagePosition" : [-8, -4],
+
+      "spaceScan" : 0.01,
+      "anchors" : [ "right" ],
+      "lightPosition" : [-1, 0],
+      "pointAngle" : 180
+    }
+  ]
+}

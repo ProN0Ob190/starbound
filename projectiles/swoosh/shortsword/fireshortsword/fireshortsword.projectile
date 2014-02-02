@@ -1,0 +1,25 @@
+{
+  "projectileName" : "fireshortsword",
+  "frames" : "fireshortsword.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 3,
+  "damageKindImage" : "icon.png",
+  "level" : 1,
+  "speed" : 0,
+  "orientationLocked" : true,
+  "damagePoly" : [ [-28, 9.5], [2, 9.5], [13, 6.5], [20, 1.5], [20, -1.5], [17, -4.5], [1, -9.5], [-28, -9.5] ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "damageKind" : "1hsword",
+  "lightColor" : [235, 126, 2],
+  "statusEffects" : [
+    {
+      "kind" : "glow",
+      "amount" : 100.0,
+      "color" : "orange",
+      "duration" : 5.0
+    },
+    { "kind" : "testburning" }
+  ]
+}

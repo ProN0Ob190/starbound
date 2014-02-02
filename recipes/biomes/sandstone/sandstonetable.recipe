@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "sandstoneblock", "count" : 35 },
+    { "item" : "money", "count" : 200 }
+  ],
+  "output" : { "item" : "sandstonetable", "count" : 1 },
+  "groups" : [ "craftingtable", "furniture", "objects", "all" ]
+}

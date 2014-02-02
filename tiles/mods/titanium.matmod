@@ -1,0 +1,10 @@
+{
+  "modId" : 25,
+  "modName" : "titanium",
+  "frames" : "titanium.png",
+  "variants" : 8,
+  "itemDrop" : "titaniumore",
+  "Description" : "Titanium.",
+  "health" : 10,
+  "breaksWithTile" : true
+}

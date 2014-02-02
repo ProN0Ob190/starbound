@@ -1,0 +1,14 @@
+{
+  "itemName" : "butter",
+  "rarity" : "Common",
+  "inventoryIcon" : "butter.png",
+  "description" : "For making everything less healthy and more awesome.",
+  "shortdescription" : "Butter",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 15
+      }
+    ] ]
+}

@@ -1,0 +1,40 @@
+{
+  "objectName" : "techconsolehuman",
+  "rarity" : "Common",
+  "objectType" : "interactable",
+  "interactAction" : "OpenTechInterface",
+  "interactData" : {
+  },
+  "description" : "Use this to create new techs to equip on adventures!",
+  "shortdescription" : "Tech Console",
+  "race" : "human",
+
+  "apexDescription" : "This console allows me to create techs.",
+  "avianDescription" : "The mystery of science. I can create techs here.",
+  "floranDescription" : "Floran pressss button, make magic thingsss.",
+  "glitchDescription" : "Pleased. A console that will allow me to create new techs.",
+  "humanDescription" : "The first time I used one of these to create new techs, it blew my mind. Then blew up my backpack, but that's besides the point.",
+  "hylotlDescription" : "A convenient, impressive way to create new techs.",
+
+  "category" : "light",
+  "lightColor" : [0, 40, 100],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 4,
+
+  "inventoryIcon" : "techconsolehumanicon.png",
+  "orientations" : [
+    {
+      "image" : "techconsolehuman.png:<color>.<frame>",
+      "imagePosition" : [-12, -0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/bunkerpanel1.wav"
+
+}

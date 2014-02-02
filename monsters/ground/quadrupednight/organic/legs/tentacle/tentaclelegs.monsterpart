@@ -1,0 +1,16 @@
+{
+  "name" : "nighttentaclelegs",
+  "category" : "quadruped_organic",
+  "type" : "legs",
+
+  "frames" : {
+    "frontLegs" : "tentacleflegs.png",
+    "backLegs" : "tentacleblegs.png"
+  },
+
+  "parameters" : {
+    "walkMultiplier" : 0.5,
+    "runMultiplier" : 1.0,
+    "jumpMultiplier" : 1.4
+  }
+}

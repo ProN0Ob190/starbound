@@ -1,0 +1,33 @@
+{
+  "objectName" : "arcademachine",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 2500,
+  "description" : "An old-school arcade machine. This one plays 'Super Tralgar Blaster 2'.",
+  "shortdescription" : "Arcade Machine",
+  "race" : "generic",
+
+  "apexDescription" : "The Apex rarely play games.",
+  "avianDescription" : "The Avians are unfamiliar with machines like these.",
+  "floranDescription" : "Which button doess Floran press to sstart.",
+  "glitchDescription" : "Observe. The player with the highest score has the initials CF.",
+  "humanDescription" : "I need a quarter.",
+  "hylotlDescription" : "I will obtain a state of Zen and use it to beat the high score.",
+
+  "inventoryIcon" : "arcademachineicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "arcademachine.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/arcademachine.wav"
+
+}

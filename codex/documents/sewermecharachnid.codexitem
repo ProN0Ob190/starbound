@@ -1,0 +1,10 @@
+{
+  "codexId" : "sewermecharachnid",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "glitchsewerbook_08.png",
+  "itemName" : "sewermecharachnidCodex",
+  "rarity" : "common",
+  "description" : "The Compiled Bestiary: Mecharachnid",
+  "shortdescription" : "Mecharachnid"
+}

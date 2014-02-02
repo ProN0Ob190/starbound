@@ -1,0 +1,14 @@
+{
+  "name" : "bonebird",
+  "category" : "bonebird_parts",
+  "type" : "wings",
+
+  "frames" : {
+    "backWings" : "bonebirdbwing.png",
+    "frontWings" : "bonebirdfwing.png"
+  },
+
+  "parameters" : {
+    "skills" : [ "flyingSwoopAttack" ]
+  }
+}

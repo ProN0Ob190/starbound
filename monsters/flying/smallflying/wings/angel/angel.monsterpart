@@ -1,0 +1,14 @@
+{
+  "name" : "angel",
+  "category" : "smallflying_organic",
+  "type" : "wings",
+
+  "frames" : {
+    "backWings" : "angelbwing.png",
+    "frontWings" : "angelfwing.png"
+  },
+
+  "parameters" : {
+    "skills" : [ "flyingSwoopAttack" ]
+  }
+}

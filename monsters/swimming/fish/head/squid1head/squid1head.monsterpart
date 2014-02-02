@@ -1,0 +1,9 @@
+{
+  "name" : "squid1head",
+  "category" : "fish_organic",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "squid1head.png"
+  }
+}

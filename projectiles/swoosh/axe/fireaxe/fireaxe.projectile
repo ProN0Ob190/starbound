@@ -1,0 +1,25 @@
+{
+  "projectileName" : "fireaxe",
+  "frames" : "fireaxe.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 3,
+  "damageKindImage" : "icon.png",
+  "level" : 1,
+  "speed" : 0,
+  "orientationLocked" : true,
+  "damagePoly" : [ [-25, 19], [-2, 19], [12, 14], [19, 7], [22, -1], [22, -9], [19, -16], [16, -19], [-10, -19] ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "damageKind" : "axe",
+  "lightColor" : [235, 126, 2],
+  "statusEffects" : [
+    {
+      "kind" : "glow",
+      "amount" : 100.0,
+      "color" : "orange",
+      "duration" : 5.0
+    },
+    { "kind" : "testburning" }
+  ]
+}

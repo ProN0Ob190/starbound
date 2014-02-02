@@ -1,0 +1,20 @@
+{
+  "name" : "tinyhorniesthead",
+  "category" : "tinyquadruped_organic",
+  "type" : "head",
+
+
+  "frames" : {
+    "head" : "tinyhorniesthead.png"
+  },
+
+  "parameters" :
+  {
+    "projectileSourcePosition" : [1, -0.5],
+    "idleNoise" : [ "/sfx/npc/smallbiped/horse_small_idle1.wav", "/sfx/npc/smallbiped/horse_small_idle2.wav" ],
+    "turnHostileNoise" : [ "/sfx/npc/smallbiped/horse_small_turnhostile.wav" ],
+    "attackNoise" : [ "/sfx/npc/smallbiped/horse_small_attack1.wav", "/sfx/npc/smallbiped/horse_small_attack2.wav" ],
+    "painNoise" : [ "/sfx/npc/smallbiped/horse_small_pain1.wav", "/sfx/npc/smallbiped/horse_small_pain2.wav" ],
+    "deathNoise" : [ "/sfx/npc/smallbiped/horse_small_death.wav" ]
+  }
+}

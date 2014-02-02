@@ -1,0 +1,31 @@
+{
+  "objectName" : "glitchspeare",
+  "rarity" : "Common",
+  "description" : "A portrait of William Glitchspeare.",
+  "shortdescription" : "Glitchspeare Portrait",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 1200,
+
+  "apexDescription" : "A Glitch with almost as much hair as an Apex?",
+  "avianDescription" : "This Glitch has facial hair. How is that possible?",
+  "floranDescription" : "Glitch have beard. Isss it real?",
+  "glitchDescription" : "Deduction. My database suggests that some Glitch were modelled on great personalities observed in other races. This could be one of them.",
+  "humanDescription" : "He looks a lot like an Earthling poet present at the beginning of our history.",
+  "hylotlDescription" : "A Glitch artist of some kind? Are the Glitch capable of art?",
+
+  "inventoryIcon" : "glitchspeareicon.png",
+  "orientations" : [
+    {
+      "image" : "glitchspeare.png:<color>",
+
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

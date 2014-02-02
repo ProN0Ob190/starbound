@@ -1,0 +1,24 @@
+{
+  "name" : "rocky",
+
+  "surfaceParameters" : {
+    "mainBlock" : "rock03",
+    "subBlocks" : [ "rock02", "rock04" ],
+    "ores" : "surfaceOres",
+
+    "statusParameters" : {
+      "temperatureBounds" : [15, 30],
+      "dayNightTemperatureVariability" : 12,
+      "temperatureVariability" : 3
+    },
+
+    "surfacePlaceables" : {
+      "grassMod" : [ "grass" ],
+      "grassModDensity" : 0.2
+
+
+    }
+  }
+}
+
+

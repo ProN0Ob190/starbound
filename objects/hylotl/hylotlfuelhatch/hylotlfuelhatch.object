@@ -1,0 +1,39 @@
+{
+  "objectName" : "hylotlfuelhatch",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "description" : "Accepts a bunch of different kinds of fuel.",
+  "shortdescription" : "Fuel Hatch",
+  "race" : "hylotl",
+
+  "apexDescription" : "A fuel hatch. Not the easiest design for pouring fuel into.",
+  "avianDescription" : "I'm surprised the Hylotl haven't adopted one of the numerous other fuel hatch designs. This is impractical.",
+  "floranDescription" : "Frogman fuel hatch.",
+  "glitchDescription" : "Critical. The Hylotl even manage to make their fuel hatches cumbersome and awkward. It's almost impressive.",
+  "humanDescription" : "I'm pretty sure I'll spill as much fuel as I pour, thanks to the odd design.",
+  "hylotlDescription" : "Hopefully other species will take cues from our practical fuel hatch design.",
+
+  "inventoryIcon" : "fuelhatchicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "hylotlfuelhatch.png:<color>.<frame>",
+
+      "imagePosition" : [-8, -16],
+      "frames" : 4,
+      "animationCycle" : 0.7,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "hasWindowIcon" : false,
+  "recipeGroup" : "fuel",
+  "slotCount" : 6,
+  "uiConfig" : "/interface/fuel/fuel.config",
+  "autoCloseCooldown" : 3600,
+  "frameCooldown" : 67,
+  "soundEffect" : "/sfx/objects/shipengine.wav",
+  "soundEffectRadius" : 300
+
+}

@@ -1,0 +1,46 @@
+{
+  "objectName" : "geometricbed",
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A sublime Rubium bed. Bit spiky, though.",
+  "shortdescription" : "Geometric Bed",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 1500,
+
+  "apexDescription" : "A hard, spiky bed.",
+  "avianDescription" : "This bed is imposing and spiky.",
+  "floranDescription" : "Floran not care about ssspikes. Floran sssleep.",
+  "glitchDescription" : "Content. The spikes on this bed fit perfectly into the contours of a Glitch shell.",
+  "humanDescription" : "A scary, spiky bed. I like it!",
+  "hylotlDescription" : "A bed, constructed of spikes and harsh angles. Unpleasant.",
+
+  "objectType" : "interactable",
+  "interactAction" : "sitdown",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-13, 12.5],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/minibiome/geometric/geometricbed/geometricbedcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    { "kind" : "Nude" },
+    { "kind" : "Health", "amount" : 0.02 }
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "geometricbedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "geometricbed.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

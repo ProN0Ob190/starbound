@@ -1,0 +1,32 @@
+{
+  "objectName" : "hylotllilydeco2",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 600,
+
+  "shortdescription" : "Tiny Lily Pads",
+  "description" : "A small set of lily pad wall hangings.",
+  "race" : "hylotl",
+
+  "apexDescription" : "A decorative set of lily pads. Nice.",
+  "avianDescription" : "I haven't seen this many lily pads since that time I crash-landed in a swamp.",
+  "floranDescription" : "Floran control plantsss. Frogmen make sssilly plastic thing.",
+  "glitchDescription" : "Critical. These lily pads would make for interesting decoration if it wasn't surrounded by numerous other lily pads.",
+  "humanDescription" : "The perfect gift for someone who adores lily pads. Unfortunately, that someone is not me.",
+  "hylotlDescription" : "The beauty of nature, captured in a single piece.",
+
+
+  "inventoryIcon" : "hylotllilydeco2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "hylotllilydeco2.png:<color>",
+      "imagePosition" : [-12, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

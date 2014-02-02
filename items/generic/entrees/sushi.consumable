@@ -1,0 +1,24 @@
+{
+  "itemName" : "sushi",
+  "rarity" : "Rare",
+  "inventoryIcon" : "sushi.png",
+  "description" : "A veggie-based sushi with Avesmingo instead of fish. A different flavor with every bite!",
+  "shortdescription" : "Sushi",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 100
+      },
+      {
+        "kind" : "mollyhealing3" },
+      {
+        "kind" : "energy",
+        "amount" : 15
+      },
+      {
+        "kind" : "shield",
+        "amount" : 30
+      }
+    ] ]
+}

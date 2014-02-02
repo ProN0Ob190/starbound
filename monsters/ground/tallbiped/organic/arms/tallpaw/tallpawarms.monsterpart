@@ -1,0 +1,10 @@
+{
+  "name" : "tallpawarms",
+  "category" : "tallbiped_organic",
+  "type" : "arms",
+
+  "frames" : {
+    "frontArm" : "tallpawfarm.png",
+    "backArm" : "tallpawbarm.png"
+  }
+}

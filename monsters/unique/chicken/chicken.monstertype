@@ -1,0 +1,80 @@
+{
+  "type" : "chicken",
+
+  "categories" : [ "chicken" ],
+  "parts" : [ "body" ],
+
+  "animation" : "chicken.animation",
+  "projectiles" : "/monsters/projectiles.config",
+  "colors" : "/monsters/colors.config",
+  "reversed" : true,
+
+  "dropPools" : [ "chickentreasure" ],
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/unique/chicken/behavior.lua",
+      "/scripts/sensors.lua",
+      "/scripts/stateMachine.lua",
+      "/scripts/util.lua",
+      "/scripts/vec2.lua"
+    ],
+
+    "scriptDelta" : 5,
+
+    "metaBoundBox" : [-1.0, -1.0, 1.0, 1.0],
+    "scale" : 1.0,
+
+    "movementSettings" : {
+      "collisionPoly" : [ [-1.0, -1.0], [1.0, -1.0], [1.0, 1.0], [-1.0, 1.0] ],
+
+      "mass" : 1.0,
+      "walkSpeed" : 3,
+      "runSpeed" : 6,
+      "jumpSpeed" : 5,
+      "flySpeed" : 15,
+      "airFriction" : 0.25,
+      "airForce" : 50.0
+    },
+
+    "bodyMaterialKind" : "organic",
+
+    "knockoutTime" : 1,
+    "knockoutEffect" : "blink",
+    "deathParticles" : "deathPoof",
+    "deathNoise" : [ ],
+    "turnHostileNoise" : [ ],
+
+    "touchDamage" : {
+      "poly" : [ [-1.0, -1.0], [1.0, -1.0], [1.0, 1.0], [-1.0, 1.0] ],
+      "damage" : 15,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "bite",
+      "statusEffects" : [ ]
+    },
+
+    "statusParameters" : {
+      "baseMaxHealth" : 2,
+      "bodyMaterialKind" : "organic",
+      "damageConfig" : "/damage/damageresponse/groundnpc.config"
+    },
+
+    "inateStatusEffects" : [
+      {
+        "kind" : "Protection",
+        "amount" : 1.0
+      }
+    ],
+
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -8],
+
+    "blockedSensors" : [ [1.25, 0.0] ],
+
+    "moveTimeRange" : [2.5, 5.0],
+
+    "fleeDistanceRange" : [10.0, 50.0],
+    "fleeMaxTime" : 20.0
+  }
+}

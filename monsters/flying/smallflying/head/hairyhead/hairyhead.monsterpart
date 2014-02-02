@@ -1,0 +1,9 @@
+{
+  "name" : "hairyhead",
+  "category" : "smallflying_organic",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "hairyhead.png"
+  }
+}

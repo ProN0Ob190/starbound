@@ -1,0 +1,19 @@
+{
+  "itemName" : "trumpet",
+  "inventoryIcon" : "trumpet.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "A trumpet. Try not to blow your own horn.",
+  "shortdescription" : "Trumpet",
+  "largeImage" : "trumpet.png",
+  "image" : "trumpet.png",
+  "inspectionKind" : "tool",
+  "activeImage" : "trumpet.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0.25, 0.375],
+
+  "handPosition" : [0, 0],
+  "twoHanded" : true,
+  "kind" : "trumpet"
+}

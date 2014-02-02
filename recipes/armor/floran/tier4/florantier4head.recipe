@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 20 }
+  ],
+  "output" : { "item" : "florantier4head", "count" : 1 },
+  "groups" : [ "craftingtable", "armors", "all" ]
+}

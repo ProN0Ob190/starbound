@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "Rubiumbar", "count" : 2 },
+    { "item" : "Ceruliumbar", "count" : 2 },
+    { "item" : "aegisaltbar", "count" : 2 },
+    { "item" : "titaniumbar", "count" : 2 },
+    { "item" : "ironbar", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "imperviumbar",
+    "count" : 1
+  },
+  "groups" : [ "crafting table", "all" ]
+}

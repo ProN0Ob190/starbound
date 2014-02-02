@@ -1,0 +1,7 @@
+{
+  "itemName" : "robotarms",
+  "rarity" : "Common",
+  "inventoryIcon" : "robotarms.png",
+  "description" : "Strong robot arms, capable of lifting heavy objects.",
+  "shortdescription" : "Robot Arms"
+}

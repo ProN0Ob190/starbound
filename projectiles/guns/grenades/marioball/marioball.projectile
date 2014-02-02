@@ -1,0 +1,21 @@
+{
+  "projectileName" : "marioball",
+  "physics" : "marioball",
+  "bounces" : -1,
+  "level" : 3,
+  "timeToLive" : 3,
+  "frames" : "marioball.png",
+  "damageKindImage" : "icon.png",
+  "speed" : 19,
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/smallregularexplosion/smallregularexplosion.config"
+    }
+  ],
+  "power" : 50,
+  "damageType" : "hitTest",
+  "damageKind" : "default"
+}

@@ -1,0 +1,16 @@
+{
+  "name" : "bigcatlegs",
+  "category" : "quadruped_organic",
+  "type" : "legs",
+
+  "frames" : {
+    "frontLegs" : "bigcatflegs.png",
+    "backLegs" : "bigcatblegs.png"
+  },
+
+  "parameters" : {
+    "walkMultiplier" : 0.8,
+    "runMultiplier" : 1.1,
+    "jumpMultiplier" : 1.3
+  }
+}

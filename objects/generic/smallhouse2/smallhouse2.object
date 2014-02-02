@@ -1,0 +1,38 @@
+{
+  "objectName" : "smallhouse2",
+  "rarity" : "Common",
+  "category" : "pot",
+  "price" : 400,
+
+  "description" : "A miniature house. Don't knock too hard!",
+  "shortdescription" : "Tiny House",
+  "race" : "apex",
+
+  "apexDescription" : "This is the smallest house I've ever seen.",
+  "avianDescription" : "A tiny little house.",
+  "floranDescription" : "Knock knock. Floran come in.",
+  "glitchDescription" : "Considering. I do not believe a Glitch could live here.",
+  "humanDescription" : "I can't remember, is this eat me or drink me?",
+  "hylotlDescription" : "I wonder where the tiny inhabitants are?",
+
+  "inventoryIcon" : "capsulebigicon.png",
+  "orientations" : [
+    {
+      "image" : "smallhouse2.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "smashSounds" : [ "/sfx/objects/capsule_break1.wav", "/sfx/objects/capsule_break2.wav", "/sfx/objects/capsule_break3.wav" ],
+  "smashDropOptions" : [
+    [ [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ] ]
+  ],
+  "breakDropOptions" : [
+    [ [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ] ]
+  ]
+}

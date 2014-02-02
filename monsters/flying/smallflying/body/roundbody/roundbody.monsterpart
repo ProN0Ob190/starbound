@@ -1,0 +1,9 @@
+{
+  "name" : "roundbody",
+  "category" : "smallflying_organic",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "roundbody.png"
+  }
+}

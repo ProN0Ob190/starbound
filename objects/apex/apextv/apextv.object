@@ -1,0 +1,36 @@
+{
+  "objectName" : "apextv",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 1000,
+
+  "description" : "There's nothing on. Every channel just displays a picture of Big Ape.",
+  "shortdescription" : "Big Ape TV",
+  "race" : "apex",
+
+  "apexDescription" : "Big Ape has never appeared on Big Ape TV.",
+  "avianDescription" : "There appears to be nothing to interact with on this device.",
+  "floranDescription" : "Uselesss machine.",
+  "glitchDescription" : "Investigate. The device is receiving thousands of different broadcasts, but they all appear to be the same.",
+  "humanDescription" : "Did its eyes just move?",
+  "hylotlDescription" : "The only images of Big Ape appear to be artificial.",
+
+  "lightColor" : [11, 68, 89],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 4,
+
+  "inventoryIcon" : "apextvicon.png",
+  "orientations" : [
+    {
+      "image" : "apextv.png:<color>",
+      "imagePosition" : [-16, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

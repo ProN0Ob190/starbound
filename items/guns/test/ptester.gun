@@ -1,0 +1,27 @@
+{
+  "itemName" : "ptester",
+  "inventoryIcon" : "generic-bulletrocket.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+
+  "level" : 1,
+
+  "rarity" : "Rare",
+  "inspectionKind" : "gun",
+  "image" : "rocket1.png",
+  "handPosition" : [1, -3],
+  "firePosition" : [20, 2],
+
+  "fireTime" : 0.2,
+  "twoHanded" : true,
+
+  "projectileType" : "firepart1",
+  "projectile" : {
+    "speed" : 60,
+    "color" : [10, 255, 10]
+  },
+  "muzzleEffect" : {
+    "animation" : "/animations/muzzleflash/bulletmuzzle3/bulletmuzzle3.animation",
+    "fireSound" : [ { "file" : "/sfx/melee/swing_dagger.wav" } ]
+  }
+}

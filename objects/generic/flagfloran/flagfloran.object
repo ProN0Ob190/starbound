@@ -1,0 +1,33 @@
+{
+  "objectName" : "flagfloran",
+  "rarity" : "Common",
+
+  "category" : "crafting",
+  "price" : 100,
+
+  "description" : "The Floran flag. Adorned with an adorable flower.",
+  "shortdescription" : "Floran Flag",
+  "race" : "human",
+
+  "apexDescription" : "The Floran flag is a lot less bloodthirsty than you'd expect.",
+  "avianDescription" : "The Floran flag is actually quite pretty.",
+  "floranDescription" : "Floran Floran Floran yeah! Ssstab with flagpole!",
+  "glitchDescription" : "Statement. The simplistic beauty of the Floran flag.",
+  "humanDescription" : "A flower for the Florans.",
+  "hylotlDescription" : "A horrifying Floran symbol for a horrifying species.",
+
+
+  "inventoryIcon" : "flagfloranicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "flagfloran.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

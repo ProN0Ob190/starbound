@@ -1,0 +1,9 @@
+{
+  "script" : "jetpack.lua",
+  "actions" : [ "jetpack" ],
+  "animator" : "hover.animation",
+
+  "jetpackSpeed" : 0.0,
+  "jetpackControlForce" : 100.0,
+  "energyUsagePerSecond" : 75.0
+}

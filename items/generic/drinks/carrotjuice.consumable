@@ -1,0 +1,14 @@
+{
+  "itemName" : "carrotjuice",
+  "rarity" : "Common",
+  "inventoryIcon" : "carrotjuice.png",
+  "description" : "Mild and sweet carrot juice!",
+  "shortdescription" : "Carrot Juice",
+  "handPosition" : [-8, 0],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 5
+      }
+    ] ]
+}

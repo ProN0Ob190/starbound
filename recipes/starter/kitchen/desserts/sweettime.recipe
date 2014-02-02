@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "neonmelon", "count" : 1 },
+    { "item" : "sugar", "count" : 1 },
+    { "item" : "diodia", "count" : 1 }
+  ],
+  "output" : { "item" : "sweettime", "count" : 1 },
+  "groups" : [ "kitchen", "consumables", "dessert" ]
+}

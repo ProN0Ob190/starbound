@@ -1,0 +1,34 @@
+{
+  "objectName" : "decoratedtree",
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "category" : "light",
+  "price" : 300,
+  "description" : "A synthetic tree decorated with strings of lights and festive ornaments.",
+  "shortdescription" : "Decorated Tree",
+  "race" : "generic",
+
+  "apexDescription" : "The sight of this tree makes me feel all warm and fuzzy inside.",
+  "avianDescription" : "I've got the strangest urge to burst out into song!",
+  "floranDescription" : "Sssparkly tree.",
+  "glitchDescription" : "Happy. This tree makes me want to sing Christmas songs.",
+  "humanDescription" : "This tree brings back a lot of memories of home...",
+  "hylotlDescription" : "I have to admit, this festive tree has a warming effect on my cold, amphibious heart.",
+
+  "lightColor" : [204, 189, 173],
+
+  "inventoryIcon" : "decoratedtreeicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "decoratedtree.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

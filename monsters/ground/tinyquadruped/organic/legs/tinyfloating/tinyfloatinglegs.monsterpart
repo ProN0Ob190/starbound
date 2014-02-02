@@ -1,0 +1,16 @@
+{
+  "name" : "tinyfloatinglegs",
+  "category" : "tinyquadruped_organic",
+  "type" : "legs",
+
+  "frames" : {
+    "frontLegs" : "tinyfloatingflegs.png",
+    "backLegs" : "tinyfloatingblegs.png"
+  },
+
+  "parameters" : {
+    "walkMultiplier" : 1.0,
+    "runMultiplier" : 1.2,
+    "jumpMultiplier" : 1.0
+  }
+}

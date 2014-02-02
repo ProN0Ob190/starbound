@@ -1,0 +1,35 @@
+{
+  "objectName" : "bunkerdesk",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 500,
+  "description" : "An office desk with a built-in monitor. Looks like someone was doing some coding.",
+  "shortdescription" : "Metal Office Desk",
+  "race" : "human",
+
+  "apexDescription" : "This desk has a monitor built into it.",
+  "avianDescription" : "The monitor makes the desk appear as if it has an eye.",
+  "floranDescription" : "Desssk with ssscreen. Floran not need thisss.",
+  "glitchDescription" : "Cynical. Inbuilt electronics are often inferior to their separate counterparts. Except in the case of Glitch, of course.",
+  "humanDescription" : "Ooh, this monitor is showing an old Geocities page. It's burned into the screen.",
+  "hylotlDescription" : "An intelligent fusion of technology and comfort.",
+
+
+  "inventoryIcon" : "bunkerdeskicon.png",
+  "orientations" : [
+    {
+      "image" : "bunkerdeskleft.png:default.off",
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left"
+    },
+    {
+      "image" : "bunkerdeskright.png:default.off",
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right"
+    }
+  ]
+}

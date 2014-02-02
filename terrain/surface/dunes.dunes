@@ -1,0 +1,9 @@
+{
+  "name" : "dunes",
+
+  "minHeight" : 20,
+  "maxHeight" : 40,
+
+  "minWidth" : 50,
+  "maxWidth" : 150
+}

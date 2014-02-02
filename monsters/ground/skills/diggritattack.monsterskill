@@ -1,0 +1,9 @@
+{
+  "name" : "digGritAttack",
+  "label" : "GRIT SHOWER",
+  "image" : "/monsters/ground/skills/icon.png",
+
+  "parameters" : {
+    "scripts" : [ "/monsters/ground/digGritAttack.lua" ]
+  }
+}

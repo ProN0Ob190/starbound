@@ -1,0 +1,9 @@
+{
+  "name" : "fuzzytail",
+  "category" : "quadruped_organic",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "fuzzytail.png"
+  }
+}

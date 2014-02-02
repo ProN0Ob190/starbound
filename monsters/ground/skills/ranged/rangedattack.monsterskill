@@ -1,0 +1,9 @@
+{
+  "name" : "rangedAttack",
+  "label" : "RANGED",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "scripts" : [ "/monsters/ground/rangedAttack.lua" ]
+  }
+}

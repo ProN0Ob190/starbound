@@ -1,0 +1,9 @@
+{
+  "name" : "scopefin",
+  "category" : "fish_organic",
+  "type" : "fin",
+
+  "frames" : {
+    "fin" : "scopefin.png"
+  }
+}

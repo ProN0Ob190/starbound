@@ -1,0 +1,31 @@
+{
+  "objectName" : "targetdummy",
+  "rarity" : "Common",
+  "description" : "Poor dummy, I'll name him Freddie!",
+  "shortdescription" : "Target Dummy",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 650,
+
+  "apexDescription" : "A dummy filled with straw. Used for combat training.",
+  "avianDescription" : "A straw man. He doesn't frighten me.",
+  "floranDescription" : "Metalman make ssstrawman. Now all we need isss lion.",
+  "glitchDescription" : "Identify. A training dummy. Glitch knights practice their swordplay for the first half of each day.",
+  "humanDescription" : "Looks like some kind of training dummy. Swordplay, perhaps.",
+  "hylotlDescription" : "A man filled with straw. Perhaps the Glitch practice combat with these.",
+
+  "inventoryIcon" : "targetdummyicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "targetdummy.png:<color>",
+
+      "imagePosition" : [-16, -0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

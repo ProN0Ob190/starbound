@@ -1,0 +1,9 @@
+{
+  "name" : "fantail",
+  "category" : "fish_organic",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "fantail.png"
+  }
+}

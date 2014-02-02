@@ -1,0 +1,15 @@
+{
+  "input" : [
+    { "item" : "composite01material", "count" : 20 },
+    { "item" : "copperbar", "count" : 10 },
+    { "item" : "silverbar", "count" : 10 },
+    { "item" : "goldbar", "count" : 10 },
+    { "item" : "circuitboard", "count" : 1 },
+    { "item" : "laserdiode", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "wiretool",
+    "count" : 1
+  },
+  "groups" : [ "wiringstation", "all", "tools" ]
+}

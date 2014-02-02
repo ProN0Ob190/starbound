@@ -1,0 +1,21 @@
+{
+  "itemName" : "plasmagrenade",
+  "rarity" : "Common",
+  "inventoryIcon" : "plasmagrenadeicon.png",
+  "image" : "plasmagrenadeicon.png",
+  "shortdescription" : "Plasma Grenade",
+  "description" : "A plasma grenade. Duck and cover!",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "plasmagrenade",
+  "projectileConfig" : {
+    "speed" : 45,
+    "power" : 50
+  }
+}
+

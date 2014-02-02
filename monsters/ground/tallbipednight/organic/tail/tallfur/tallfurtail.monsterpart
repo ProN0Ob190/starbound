@@ -1,0 +1,9 @@
+{
+  "name" : "nighttallfurtail",
+  "category" : "tallbiped_organic",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "tallfurtail.png"
+  }
+}

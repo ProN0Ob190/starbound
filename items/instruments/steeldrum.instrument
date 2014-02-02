@@ -1,0 +1,19 @@
+{
+  "itemName" : "steeldrum",
+  "inventoryIcon" : "steeldrumicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "A steel drum. Let's make some noise.",
+  "shortdescription" : "Steel Drum",
+  "largeImage" : "steeldrum.png",
+  "image" : "steeldrum.png",
+  "inspectionKind" : "tool",
+  "activeImage" : "steeldrum.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0, -0.1],
+  "handPosition" : [0, 0],
+  "twoHanded" : true,
+  "kind" : "steeldrum"
+}
+

@@ -1,0 +1,14 @@
+{
+  "name" : "flyingSwoopAttack",
+  "label" : "SWOOP",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "scripts" : [
+      "/monsters/flying/skills/flyingSwoopAttack.lua"
+    ],
+
+    "swoopTime" : 2.0,
+    "swoopDiameter" : 3.0
+  }
+}

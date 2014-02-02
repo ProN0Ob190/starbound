@@ -1,0 +1,18 @@
+{
+  "itemName" : "carrotcake",
+  "rarity" : "Common",
+  "inventoryIcon" : "carrotcake.png",
+  "description" : "It's a delicious carrot cake! Tastes better than it sounds.",
+  "shortdescription" : "Carrot Cake",
+  "handPosition" : [0, -12],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 100
+      },
+      {
+        "kind" : "mollyhealing3" },
+      {
+        "kind" : "sugarrush" }
+    ] ]
+}

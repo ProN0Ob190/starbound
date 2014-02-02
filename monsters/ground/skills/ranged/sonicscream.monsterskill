@@ -1,0 +1,11 @@
+{
+  "name" : "sonicscream",
+  "label" : "SONIC SCREAM",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "scripts" : [ "/monsters/ground/rangedAttack.lua" ],
+    "shooterProjectile" : [ "sonic" ],
+    "shooterSkillName" : "sonicscream"
+  }
+}

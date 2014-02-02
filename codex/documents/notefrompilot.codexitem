@@ -1,0 +1,10 @@
+{
+  "codexId" : "notefrompilot",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "aviantemplebook_07.png",
+  "itemName" : "notefrompilotCodex",
+  "rarity" : "common",
+  "description" : "Notes from a Pilot",
+  "shortdescription" : "Pilot's Notes"
+}

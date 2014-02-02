@@ -1,0 +1,9 @@
+{
+  "name" : "nightdragonbody",
+  "category" : "smallflying_organic",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "dragonbody.png"
+  }
+}

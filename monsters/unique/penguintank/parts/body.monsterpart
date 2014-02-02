@@ -1,0 +1,9 @@
+{
+  "name" : "body",
+  "category" : "penguinTank",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

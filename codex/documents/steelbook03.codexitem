@@ -1,0 +1,10 @@
+{
+  "codexId" : "steelbook03",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "glitchvillagebook_11.png",
+  "itemName" : "steelbook03Codex",
+  "rarity" : "common",
+  "description" : "Excerpt 03 from The Steel Casebook.",
+  "shortdescription" : "Steel Casebook 03"
+}

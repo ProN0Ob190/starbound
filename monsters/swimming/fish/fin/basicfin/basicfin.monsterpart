@@ -1,0 +1,9 @@
+{
+  "name" : "basicfin",
+  "category" : "fish_organic",
+  "type" : "fin",
+
+  "frames" : {
+    "fin" : "basicfin.png"
+  }
+}

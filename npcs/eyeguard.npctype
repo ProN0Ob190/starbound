@@ -1,0 +1,108 @@
+{
+  "type" : "eyeguard",
+  "baseType" : "guard",
+
+  "disableWornArmor" : true,
+  "inateStatusEffects" : [
+    {
+      "kind" : "Protection",
+      "amount" : 1.0
+    }
+  ],
+
+  "damageTeam" : 1,
+
+  "levelVariance" : [0.25, 0.5],
+
+  "scripts" : [
+    "/npcs/main.lua",
+    "/npcs/timers.lua",
+    "/scripts/sensors.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua",
+
+    "/npcs/meleeAttackState.lua",
+    "/npcs/rangedAttackState.lua",
+
+    "/npcs/guard/guardState.lua",
+    "/npcs/guard/returnToPostState.lua"
+  ],
+
+  "scriptConfig" : {
+    "attackerLimit" : 6,
+    "attackerLimitCooldown" : 3,
+    "noticePlayersRadius" : 30,
+
+    "guard" : {
+      "noticeDistance" : 30,
+      "hailDistance" : -1,
+      "stopDistance" : -1,
+      "attackDistance" : 30,
+
+      "attackSayingPercent" : 50,
+
+      "dialog" : {
+        "attack" : {
+          "default" : [ "Intruder!"
+          ],
+          "glitch" : {
+            "default" : [
+              "I... see... you!",
+              "You can't escape our gaze!",
+              "Death comes for us all... today it comes for you.",
+              "Your blood will appease our lords...",
+              "Something wicked this way comes... me!",
+              "Abandon hope, pitiable explorer.",
+              "I will show you the true meaning of fear.",
+              "We will tear your soul apart!",
+              "The Universe is a cruel place, as you will see.",
+              "Birds, fish, monkeys... they're all just meat to us.",
+              "The dread lords thank you in advance for your sacrifice.",
+              "We shall reap what you sow!",
+              "The universe will burn, and we shall watch.",
+              "Prepare to embrace the darkness.",
+              "Your soul smells tasty.",
+              "I am become Death, destroyer of worlds.",
+              "Your story ends here, little traveller.",
+              "I don't know who these guys are, I'm just going with the flow, sorry!"
+            ]
+          }
+        }
+      }
+    },
+
+    "returnToPost" : {
+      "moveTime" : 20,
+      "minDistance" : 2
+    }
+  },
+
+  "items" : {
+    "glitch" : [
+      [0, [
+          {
+
+            "chest" : [ { "name" : "aviantier4chest" } ],
+            "legs" : [ { "name" : "aviantier4pants" } ],
+            "head" : [ "eyehead2" ],
+            "back" : [ "batwingsback" ],
+            "primary" : [
+              [ "generatedsword", 1, { "definition" : "eyesword" } ]
+            ]
+          }
+        ] ]
+    ]
+  },
+
+  "dropPools" : [ "eyeguardtreasure" ],
+
+  "statusParameters" : {
+    "baseMaxHealth" : 40,
+    "baseMaxEnergy" : 40,
+    "bodyMaterialKind" : "organic",
+    "damageConfig" : "/damage/damageresponse/npcs.config",
+    "invulnerabilityTime" : 0,
+    "energyReplenishmentRate" : 10.0
+  }
+}

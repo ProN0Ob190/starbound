@@ -1,0 +1,17 @@
+{
+  "itemName" : "candyapple",
+  "rarity" : "Common",
+  "inventoryIcon" : "candyapple.png",
+  "description" : "All the nutritious value of an apple masked by globs of sweet, sweet sugar.",
+  "shortdescription" : "Candy Apple",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 65
+      },
+      {
+        "kind" : "mollyhealing1" },
+      {
+        "kind" : "sugarrush" }
+    ] ]
+}

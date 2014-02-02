@@ -1,0 +1,9 @@
+{
+  "name" : "chargeAttack",
+  "label" : "CHARGE",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "scripts" : [ "/monsters/ground/chargeAttack.lua" ]
+  }
+}

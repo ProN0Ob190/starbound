@@ -1,0 +1,20 @@
+{
+  "itemName" : "hamsandwich",
+  "rarity" : "Common",
+  "inventoryIcon" : "hamsandwich.png",
+  "description" : "Whoever thought to stick ham between two slices of bread was a genius.",
+  "shortdescription" : "Ham Sandwich",
+  "handPosition" : [-2, 4],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 100
+      },
+      {
+        "kind" : "mollyhealing3" },
+      {
+        "kind" : "energy",
+        "amount" : 15
+      }
+    ] ]
+}

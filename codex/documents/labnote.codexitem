@@ -1,0 +1,10 @@
+{
+  "codexId" : "labnote",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "apexlabbook_12.png",
+  "itemName" : "labnoteCodex",
+  "rarity" : "common",
+  "description" : "A Scribbled Note",
+  "shortdescription" : "Note"
+}

@@ -1,0 +1,13 @@
+{
+  "itemName" : "monsterplating",
+  "rarity" : "Common",
+  "inventoryIcon" : "monsterplating.png",
+  "description" : "Plating from a monster.",
+  "shortdescription" : "Hardened Monster Plate",
+
+  "learnBlueprintsOnPickup" : [
+    "t2helm1", "t2helm2"
+  ]
+
+
+}

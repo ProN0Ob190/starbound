@@ -1,0 +1,13 @@
+{
+  "itemName" : "pioneerlegs",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Pioneer Leg Armour. Armour for those who like to break new ground.",
+  "shortdescription" : "Pioneer Leg Armour",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png"
+}

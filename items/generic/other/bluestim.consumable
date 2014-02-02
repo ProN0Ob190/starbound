@@ -1,0 +1,16 @@
+{
+  "itemName" : "bluestim",
+  "rarity" : "Common",
+  "inventoryIcon" : "bluestim.png",
+  "description" : "A stimpack full of blue liquid",
+  "shortdescription" : "Blue Stim Pack",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      {
+        "kind" : "jumpboostinitiator",
+        "amount" : 0.5
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ]
+}

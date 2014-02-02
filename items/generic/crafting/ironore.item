@@ -1,0 +1,7 @@
+{
+  "itemName" : "ironore",
+  "rarity" : "Common",
+  "inventoryIcon" : "ironore.png",
+  "description" : "Iron ore. Can be used for smelting or repairs. Select ore and right click pickaxe.",
+  "shortdescription" : "Iron Ore"
+}

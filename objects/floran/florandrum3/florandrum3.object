@@ -1,0 +1,33 @@
+{
+  "objectName" : "florandrum3",
+  "rarity" : "Common",
+  "objectType" : "noisy",
+  "category" : "decorative",
+  "price" : 750,
+  "description" : "A bongo fashioned out of leather and wood.",
+  "shortdescription" : "Tall Leather Bongo",
+  "race" : "floran",
+
+  "apexDescription" : "A bongo drum. The Apex enjoy percussion.",
+  "avianDescription" : "The Avian prefer the sound of the gong.",
+  "floranDescription" : "Floran besst drummerss in entire universse.",
+  "glitchDescription" : "Analyse. A basic instrument. It appears to produce a single sound.",
+  "humanDescription" : "A bongo drum!",
+  "hylotlDescription" : "Floran music appears to be crude and violent.",
+
+  "inventoryIcon" : "florandrum3icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "florandrum3.png:<color>",
+      "imagePosition" : [-6, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "sounds" : [ "/sfx/objects/florandrum3.wav" ]
+}

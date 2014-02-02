@@ -1,0 +1,9 @@
+{
+  "name" : "bulbchest",
+  "category" : "quadruped_organic",
+  "type" : "chest",
+
+  "frames" : {
+    "chest" : "bulbchest.png"
+  }
+}

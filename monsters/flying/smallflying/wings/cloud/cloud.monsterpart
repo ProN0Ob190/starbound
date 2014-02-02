@@ -1,0 +1,14 @@
+{
+  "name" : "cloud",
+  "category" : "smallflying_organic",
+  "type" : "wings",
+
+  "frames" : {
+    "backWings" : "cloudbwing.png",
+    "frontWings" : "cloudfwing.png"
+  },
+
+  "parameters" : {
+    "skills" : [ "flyingSwoopAttack" ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name" : "nightsmoothcurltail",
+  "category" : "quadruped_organic",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "smoothcurltail.png"
+  },
+
+  "parameters" : {
+    "skills" : [ "gustAttack" ]
+  }
+}

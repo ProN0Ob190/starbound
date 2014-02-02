@@ -1,0 +1,9 @@
+{
+  "name" : "barreleyehead",
+  "category" : "fish_organic",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "barreleyehead.png"
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "type" : "friendlyguard",
+  "baseType" : "villageguard",
+
+  "damageTeam" : 1,
+
+  "levelVariance" : [0.75, 0.75],
+
+  "disableWornArmor" : true,
+  "inateStatusEffects" : [
+    {
+      "kind" : "Protection",
+      "amount" : 1.0
+    }
+  ],
+
+  "scripts" : [
+    "/npcs/main.lua",
+    "/npcs/timers.lua",
+    "/scripts/sensors.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua",
+
+    "/npcs/meleeAttackState.lua",
+    "/npcs/rangedAttackState.lua",
+
+    "/npcs/guard/guardState.lua",
+    "/npcs/guard/returnToPostState.lua"
+  ],
+
+  "scriptConfig" : {
+    "attackerLimit" : 8,
+    "attackerLimitCooldown" : 3,
+
+    "guard" : {
+      "patrolDistance" : 25,
+      "noticeDistance" : 30,
+      "hailDistance" : 5,
+      "hailPercent" : 50,
+      "stopDistance" : -1,
+      "attackDistance" : -1,
+      "loseSightTime" : 10,
+      "loseSightDistance" : 30,
+      "wallCheckDistance" : 5,
+      "changeDirectionTimeRange" : [10, 20],
+
+      "dialog" : {
+        "hail" : {
+          "default" : [
+            "Good to see you!"
+          ],
+          "avian" : {
+            "default" : [
+              "Erk! Uh, you surprised me. Hey, boss.",
+              "This isn't such a bad job... no Stargazers here, at least.",
+              "Hey there, boss - what can I do for you?",
+              "Phew. Long day. How's your day been, boss?"
+            ]
+          },
+          "apex" : {
+            "default" : [
+              "Hey, boss. Back from adventuring?",
+              "Argh, food stuck in my beard and the boss is here!",
+              "Boss is here. Gotta play it cool. Just like with Big Ape.",
+              "Don't worry, boss, I got this under control."
+            ]
+          },
+          "floran" : {
+            "default" : [
+              "Floran greetsss the almighty employer.",
+              "Floran hopesss that boss is trusting...",
+              "When does Floran'sss shift end?",
+              "Do not worry, boss, Floran will ssstab intrudersss."
+            ]
+          },
+          "glitch" : {
+            "default" : [
+              "Subservient. Hello, master.",
+              "Proud. I have experience guarding things. Like you.",
+              "Twitchy. I'll shoot at anything that moves.",
+              "Query. Boss, do you think I can get a day off soon?"
+            ]
+          },
+          "human" : {
+            "default" : [
+              "Hey, boss! I wasn't slacking off, I swear!",
+              "Man, look at me, being all guard-y and not sleeping on the job.",
+              "Sometimes it's hard to tell between Florans and the local wildlife!",
+              "I love being employed as a guard. Gives me lots of thinking time."
+            ]
+          },
+          "hylotl" : {
+            "default" : [
+              "Hey, boss. Think we could get a remodel here?",
+              "The only beautiful thing on this planet is me. Maybe you, also.",
+              "This gun you gave me is substandard, boss. It'll have to do...",
+              "I'm doing such a good job here, can I get a payrise?"
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "head" : [ { "name" : "humantier1head" } ],
+            "chest" : [ { "name" : "humantier1chest" } ],
+            "legs" : [ { "name" : "humantier1legs" } ],
+            "primary" : [
+              { "name" : "humantier1broadsword" },
+              { "name" : "generatedgun", "data" : { "definition" : "commonassaultrifle" } }
+            ]
+          }
+        ] ]
+    ],
+    "apex" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "apextier5chest", "data" : { "colorIndex" : 8 } } ],
+            "legs" : [ { "name" : "apextier5pants", "data" : { "colorIndex" : 8 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commonspear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonaxe" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonhammer" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonbroadsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonassaultrifle" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonshotgun" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonsniperrifle" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+            ]
+          }
+        ] ]
+    ],
+    "avian" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "aviantier6chest", "data" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "aviantier6pants", "data" : { "colorIndex" : 6 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 4 } } ],
+            "primary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commonspear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonaxe" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonhammer" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonbroadsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+            ]
+          }
+        ] ]
+    ],
+    "floran" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "florantier6chest", "data" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "florantier7pants", "data" : { "colorIndex" : 6 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 6 } } ],
+            "primary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commonspear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonaxe" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonhammer" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonbroadsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "floranstrongshield" } }
+            ]
+          }
+        ] ]
+    ],
+    "human" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "humantier5chest", "data" : { "colorIndex" : 3 } } ],
+            "legs" : [ { "name" : "humantier5pants", "data" : { "colorIndex" : 3 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commonspear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonaxe" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonhammer" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonbroadsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonassaultrifle" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonshotgun" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonsniperrifle" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+            ]
+          }
+        ] ]
+    ],
+    "glitch" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "glitchtier5chest", "data" : { "colorIndex" : 3 } } ],
+            "legs" : [ { "name" : "glitchtier4pants", "data" : { "colorIndex" : 3 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 4 } } ],
+            "primary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commonspear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonaxe" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonhammer" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonbroadsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "glitchlordshield" } }
+            ]
+          }
+        ] ]
+    ],
+    "hylotl" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "hylotltier6chest", "data" : { "colorIndex" : 7 } } ],
+            "legs" : [ { "name" : "hylotltier6pants", "data" : { "colorIndex" : 7 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commonspear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonaxe" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonhammer" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonbroadsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonassaultrifle" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonshotgun" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonsniperrifle" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "hylotlstrongshield" } }
+            ]
+          }
+        ] ]
+    ]
+  },
+
+  "dropPools" : [ "guardtreasure" ],
+
+  "statusParameters" : {
+    "baseMaxHealth" : 50,
+    "baseMaxEnergy" : 40,
+    "bodyMaterialKind" : "organic",
+    "damageConfig" : "/damage/damageresponse/npcs.config",
+    "invulnerabilityTime" : 0,
+    "energyReplenishmentRate" : 10.0
+  }
+}

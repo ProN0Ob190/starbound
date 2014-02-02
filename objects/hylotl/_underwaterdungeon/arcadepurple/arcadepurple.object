@@ -1,0 +1,33 @@
+{
+  "objectName" : "arcadepurple",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 2000,
+  "lightColor" : [150, 215, 235],
+
+  "description" : "This machine runs 'Screaming Fashion Agent'.",
+  "shortdescription" : "Purple Arcade Machine",
+  "race" : "hylotl",
+
+  "apexDescription" : "Screaming Fashion Agent. The things I've seen here...I cannot unsee them.",
+  "avianDescription" : "Screaming Fashion Agent, I think it's meant to be some sort of horror game.",
+  "floranDescription" : "Why can't Floran just ssstab the scary Screaming Fashion Agent? Not like this game.",
+  "glitchDescription" : "Terrified. Something about Screaming Fashion Agent is very unnerving. 6/10.",
+  "humanDescription" : "Are fashion agents usually as terrifying as the one in Screaming Fashion Agent? What exactly IS a fashion agent?",
+  "hylotlDescription" : "I have heard Screaming Fashion Agent is an artistic re-telling of a true story.",
+
+  "inventoryIcon" : "arcadepurpleicon.png",
+  "orientations" : [
+    {
+      "leftImage" : "arcadepurpleleft.png:<color>.<frame>",
+      "rightImage" : "arcadepurpleright.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "frames" : 2,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

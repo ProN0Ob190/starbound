@@ -1,0 +1,31 @@
+{
+  "objectName" : "apexspeaker",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 400,
+
+  "description" : "Announcements from Big Ape are broadcast over these speakers.",
+  "shortdescription" : "Big Ape Intercom",
+  "race" : "apex",
+
+  "apexDescription" : "As a child, the intercom's crackle filled me with fear. The sound of an incoming message. Would it be my parents summoned to the Miniknog this time, never to reappear?",
+  "avianDescription" : "A dull, low-pitched sound hums from this device.",
+  "floranDescription" : "Perhapsss it iss Apex drive-through. Floran would like one Apex, extra fur. hehehahaha.",
+  "glitchDescription" : "Nervous. It is receiving a silent signal from somewhere.",
+  "humanDescription" : "An intercom system. I wonder if anyone will answer if I speak into it.",
+  "hylotlDescription" : "The intercom seems to have a camera built into it.",
+
+  "inventoryIcon" : "apexspeakericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "apexspeaker.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

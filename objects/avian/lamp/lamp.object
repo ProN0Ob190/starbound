@@ -1,0 +1,31 @@
+{
+  "objectName" : "lamp",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 1000,
+  "description" : "A sickly-sweet scent clings to the inside.",
+  "shortdescription" : "Golden Lamp",
+  "race" : "avian",
+
+  "apexDescription" : "The scent from this lamp is old and sickly.",
+  "avianDescription" : "Once used to fill a temple with the smell of fruit. Now it just smells dead.",
+  "floranDescription" : "Ssmellss repulsssive.",
+  "glitchDescription" : "Identify. Rotting fruit within.",
+  "humanDescription" : "It smells of rotten fruit.",
+  "hylotlDescription" : "The smell of this lamp is unpleasant.",
+
+  "inventoryIcon" : "lampicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "lamp.png:<color>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [1, 0], [0, 1], [1, 1] ],
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "bushytail",
+  "category" : "smallbiped_organic",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "bushytail.png"
+  }
+}

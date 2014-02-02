@@ -1,0 +1,42 @@
+{
+  "objectName" : "tier3light",
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 300,
+
+  "description" : "A glowing titanium light.",
+  "shortdescription" : "Titanium Light",
+  "race" : "generic",
+
+  "apexDescription" : "A well-made light source.",
+  "avianDescription" : "This useful lantern will light up even the darkest room.",
+  "floranDescription" : "Lantern sssafe for Floran.",
+  "glitchDescription" : "Statement. A robust lantern.",
+  "humanDescription" : "A neat, sturdy lantern.",
+  "hylotlDescription" : "A useful light source.",
+
+  "statusEffects" : [
+    {
+      "kind" : "Warmth",
+      "amount" : 10,
+      "range" : 2
+    } ],
+
+  "lightColor" : [155, 225, 255],
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.1,
+
+  "inventoryIcon" : "tier3lighticon.png",
+  "orientations" : [
+
+    {
+      "image" : "tier3light.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [0, -1] ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "objectName" : "royalbed",
+  "rarity" : "Common",
+  "description" : "A beautiful bed made of shiny gold.",
+  "shortdescription" : "Glitch Royal Bed",
+  "race" : "glitch",
+  "category" : "furniture",
+  "price" : 1500,
+
+  "apexDescription" : "A bed of silk and gold. Fit for a king.",
+  "avianDescription" : "A bed forged from precious metals. Who sleeps amongst such precious materials?",
+  "floranDescription" : "Floran want to try out sshiny bed.",
+  "glitchDescription" : "Identify. A bed built for royalty. The Glitch spare no expense when pampering their monarchs.",
+  "humanDescription" : "I suspect the Glitch build these beds for royalty.",
+  "hylotlDescription" : "Does a king require such splendour? Does it make him a better king?",
+
+  "objectType" : "interactable",
+  "interactAction" : "sitdown",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-10, 15],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/glitch/royalbed/royalbedcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    { "kind" : "Nude" },
+    { "kind" : "Health", "amount" : 0.02 }
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "royalbedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "royalbed.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "codexId" : "towerresults",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "aviantowerbook_12.png",
+  "itemName" : "towerresults",
+  "rarity" : "common",
+  "description" : "Results of Ascension #38491",
+  "shortdescription" : "Results of Ascension"
+}

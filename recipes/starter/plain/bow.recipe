@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "fullwood1", "count" : 10 },
+    { "item" : "plantfibre", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "bow",
+    "count" : 1
+  },
+  "groups" : [ "plain", "all", "tools" ]
+}

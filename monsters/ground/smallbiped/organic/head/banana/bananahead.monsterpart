@@ -1,0 +1,18 @@
+{
+  "name" : "bananahead",
+  "category" : "smallbiped_organic",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "bananahead.png"
+  },
+
+  "parameters" :
+  {
+    "idleNoise" : [ "/sfx/npc/smallbiped/beastiehead_small_idle1.wav", "/sfx/npc/smallbiped/beastiehead_small_idle2.wav" ],
+    "turnHostileNoise" : [ "/sfx/npc/smallbiped/beastiehead_small_turnhostile.wav" ],
+    "attackNoise" : [ "/sfx/npc/smallbiped/beastiehead_small_attack1.wav", "/sfx/npc/smallbiped/beastiehead_small_attack2.wav" ],
+    "painNoise" : [ "/sfx/npc/smallbiped/beastiehead_small_pain1.wav", "/sfx/npc/smallbiped/beastiehead_small_pain2.wav" ],
+    "deathNoise" : [ "/sfx/npc/smallbiped/beastiehead_small_death.wav" ]
+  }
+}

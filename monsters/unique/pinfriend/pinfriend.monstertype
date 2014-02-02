@@ -1,0 +1,85 @@
+{
+  "type" : "pinfriend",
+
+  "categories" : [ "pinfriend" ],
+  "parts" : [ "body" ],
+
+  "animation" : "pinfriend.animation",
+  "projectiles" : "/monsters/projectiles.config",
+  "colors" : "/monsters/unique/pinfriend/colors.config",
+  "reversed" : true,
+
+  "dropPools" : [ "basicMonsterTreasure" ],
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/unique/pinfriend/behavior.lua",
+      "/scripts/stateMachine.lua",
+      "/scripts/util.lua",
+      "/scripts/vec2.lua"
+    ],
+
+    "scriptDelta" : 5,
+
+    "damageTeam" : 1,
+
+    "metaBoundBox" : [-3.0, -1.0, 3.0, 1.0],
+    "scale" : 1.0,
+
+    "movementSettings" : {
+      "collisionPoly" : [ [-1.75, -1.0], [1.75, -1.0], [1.75, 1.0], [-1.75, 1.0] ],
+
+      "mass" : 0.2,
+      "walkSpeed" : 7,
+      "runSpeed" : 10,
+      "jumpSpeed" : 5,
+      "flySpeed" : 15,
+      "airFriction" : 0.25,
+      "airForce" : 50.0
+    },
+
+    "knockoutTime" : 1,
+    "knockoutEffect" : "blink",
+    "deathParticles" : "deathPoof",
+    "deathNoise" : [ ],
+    "turnHostileNoise" : [ ],
+
+    "touchDamage" : {
+      "poly" : [ [-1.0, -0.65], [1.0, -0.65], [1.0, 0.65], [-1.0, 0.65] ],
+      "damage" : 15,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "bite",
+      "statusEffects" : [ ]
+    },
+
+    "statusParameters" : {
+      "baseMaxHealth" : 12,
+      "bodyMaterialKind" : "organic",
+      "damageConfig" : "/damage/damageresponse/groundnpc.config"
+    },
+
+    "inateStatusEffects" : [
+      {
+        "kind" : "Protection",
+        "amount" : 1.0
+      }
+    ],
+
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -8],
+
+    "collisionSensors" : [ [1.25, 0.0] ],
+
+    "nearGroundSensor" : [ [0.0, -1.0] ],
+    "midGroundSensor" : [ [0.0, -4.0] ],
+
+    "moveTimeRange" : [2.5, 5.0],
+    "idleTimeRange" : [1.0, 3.0],
+    "idleAnimations" : [ "idle", "idle2", "idle3", "idle4" ],
+
+    "attackTargetHoldTime" : 5.0,
+    "attackDistance" : 2.0,
+    "attackHoldTime" : 2.0
+  }
+}

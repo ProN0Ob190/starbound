@@ -1,0 +1,14 @@
+{
+  "itemName" : "pearlpea",
+  "rarity" : "Common",
+  "inventoryIcon" : "pearlpea.png",
+  "description" : "Pearlpeas! I'll need to bite down hard.",
+  "shortdescription" : "Pearlpeas",
+  "handPosition" : [-8, 0],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 25
+      }
+    ] ]
+}

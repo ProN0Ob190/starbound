@@ -1,0 +1,34 @@
+{
+  "objectName" : "apexpod",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 2500,
+  "lightColor" : [57, 89, 45],
+  "description" : "There's an Apex in there, connected to a bunch of wires and tubes.",
+  "shortdescription" : "Apex Life Support Pod",
+  "race" : "apex",
+
+  "apexDescription" : "Good god... what have they done? I would free him but he appears to be on life support.",
+  "avianDescription" : "What monstrous process is this?",
+  "floranDescription" : "Ssssoup!",
+  "glitchDescription" : "Shock. What is going on here!?",
+  "humanDescription" : "What the hell is going on here?",
+  "hylotlDescription" : "Poor soul...",
+
+  "inventoryIcon" : "apexpodicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "apexpod.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/apexpod.wav"
+
+}

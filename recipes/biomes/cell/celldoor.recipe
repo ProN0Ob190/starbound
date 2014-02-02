@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "cellmatter", "count" : 20 },
+    { "item" : "money", "count" : 150 }
+  ],
+  "output" : { "item" : "celldoor", "count" : 1 },
+  "groups" : [ "craftingtable", "furniture", "objects", "all" ]
+}

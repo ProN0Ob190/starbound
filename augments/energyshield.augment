@@ -1,0 +1,8 @@
+{
+  "name" : "energyshield",
+  "icon" : [ ],
+  "kind" : "statuseffect",
+  "statusEffects" : [
+    { "kind" : "energyshield", "chance" : 10.0 }
+  ]
+}

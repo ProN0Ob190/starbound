@@ -1,0 +1,31 @@
+{
+  "objectName" : "apexlamp1",
+  "rarity" : "Common",
+  "description" : "A short wooden lamp with a polka dot lamp shade.",
+  "shortdescription" : "Standard Issue Lamp",
+  "race" : "apex",
+
+  "apexDescription" : "A standard Apex lamp.",
+  "avianDescription" : "Do Apex like polka dots?",
+  "floranDescription" : "Sssucky sspotted lamp!",
+  "glitchDescription" : "Cheerful. The Glitch enjoy light.",
+  "humanDescription" : "An old lamp.",
+  "hylotlDescription" : "The lamp emits a dull light.",
+
+  "category" : "light",
+  "price" : 400,
+  "lightColor" : [217, 217, 190],
+
+  "inventoryIcon" : "apexlamp1icon.png",
+  "orientations" : [
+    {
+      "image" : "apexlamp1.png:<color>.<frame>",
+      "imagePosition" : [-6, 0],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

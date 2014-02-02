@@ -1,0 +1,83 @@
+{
+  "objectName" : "futurelight",
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 500,
+  "description" : "A cheap fluorescent light.",
+  "shortdescription" : "Cheap Light",
+  "race" : "generic",
+
+  "apexDescription" : "A basic light that does the job.",
+  "avianDescription" : "Provides luminosity.",
+  "floranDescription" : "Floran like light. Light make shadow, Floran creep in shadow.",
+  "glitchDescription" : "Bored. The components of this light are of little interest.",
+  "humanDescription" : "A handy light.",
+  "hylotlDescription" : "Waterproof lights.",
+
+  "lightColors" : {
+    "default" : [228, 255, 255],
+    "red" : [228, 255, 255],
+    "pink" : [228, 255, 255],
+    "blue" : [228, 255, 255],
+    "green" : [228, 255, 255],
+    "yellow" : [228, 255, 255],
+    "orange" : [228, 255, 255],
+    "black" : [228, 255, 255],
+    "white" : [228, 255, 255]
+  },
+
+  "flickerDistance" : 2.0,
+  "flickerStrength" : 0.0,
+  "inventoryIcon" : "futurelighticon.png",
+  "orientations" : [
+    {
+      "image" : "futurelightdockedleft.png:<color>",
+
+      "imagePosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [-1, 0], [-1, 1] ]
+    },
+
+    {
+      "image" : "futurelightdockedright.png:<color>",
+
+      "imagePosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [1, 0], [1, 1] ]
+    },
+
+    {
+      "leftImage" : "futurelightdockedceilingleft.png:<color>",
+      "rightImage" : "futurelightdockedceilingright.png:<color>",
+
+      "imagePosition" : [0, -4],
+
+      "spaces" : [ [0, 0], [0, -1] ],
+      "fgAnchors" : [ [0, 1] ]
+    },
+
+    {
+      "leftImage" : "futurelightdockedgroundleft.png:<color>",
+      "rightImage" : "futurelightdockedgroundright.png:<color>",
+
+      "imagePosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [0, -1] ]
+    },
+
+    {
+      "image" : "futurelightdockedbg.png:<color>",
+
+      "imagePosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "bgAnchors" : [ [0, 0] ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/fluorescent_light_quiet.wav"
+
+}

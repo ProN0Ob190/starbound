@@ -1,0 +1,10 @@
+{
+  "modId" : 28,
+  "modName" : "Rubium",
+  "frames" : "Rubium.png",
+  "variants" : 8,
+  "itemDrop" : "Rubiumore",
+  "Description" : "Rubium.",
+  "health" : 22,
+  "breaksWithTile" : true
+}

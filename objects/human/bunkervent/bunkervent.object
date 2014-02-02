@@ -1,0 +1,34 @@
+{
+  "objectName" : "bunkervent",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 300,
+
+  "description" : "Sterile, recycled air whirs through the fanblades at a steady pace.",
+  "shortdescription" : "Bunker Vent",
+  "race" : "human",
+
+  "apexDescription" : "A vent.",
+  "avianDescription" : "A vent to recycle air.",
+  "floranDescription" : "Blowing grate.",
+  "glitchDescription" : "Analyse. The recycling process isn't fully functional.",
+  "humanDescription" : "An uninspiring vent.",
+  "hylotlDescription" : "A vent with a fan.",
+
+  "inventoryIcon" : "bunkerventicon.png",
+  "orientations" : [
+    {
+      "image" : "bunkervent.png:<color>.<frame>",
+      "imagePosition" : [-8, -8],
+      "frames" : 3,
+      "animationCycle" : 0.2,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/bunkervent.wav"
+
+}

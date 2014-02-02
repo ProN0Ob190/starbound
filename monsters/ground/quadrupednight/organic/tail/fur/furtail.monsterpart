@@ -1,0 +1,9 @@
+{
+  "name" : "nightfurtail",
+  "category" : "quadruped_organic",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "furtail.png"
+  }
+}

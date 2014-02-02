@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "steelbar", "count" : 10 },
+    { "item" : "money", "count" : 350 }
+  ],
+  "output" : {
+    "item" : "brainextractor",
+    "count" : 1
+  },
+  "groups" : [ "metalworkstation", "all", "tools" ]
+}

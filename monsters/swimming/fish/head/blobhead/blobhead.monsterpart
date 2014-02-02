@@ -1,0 +1,9 @@
+{
+  "name" : "blobhead",
+  "category" : "fish_organic",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "blobhead.png"
+  }
+}

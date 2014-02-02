@@ -1,0 +1,9 @@
+{
+  "name" : "knifebladetail",
+  "category" : "quadruped_organic",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "knifebladetail.png"
+  }
+}

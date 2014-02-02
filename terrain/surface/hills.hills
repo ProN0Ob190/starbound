@@ -1,0 +1,15 @@
+{
+  "name" : "hills",
+
+  "height" : 30,
+  "width" : 60,
+
+  "hillynessFactor" : 1,
+
+  "noiseScale" : 4.0,
+  "horizontalNoiseDivider" : 2.0,
+  "verticalNoiseDivider" : 8.0,
+
+  "largeVerticalNoiseMult" : 10.0,
+  "largeVerticalFreqDivider" : 30.0
+}

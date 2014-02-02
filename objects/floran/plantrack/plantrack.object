@@ -1,0 +1,40 @@
+{
+  "objectName" : "plantrack",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 750,
+
+  "description" : "A torture rack. It's not a stretch to say this would hurt.",
+  "shortdescription" : "Torture Rack",
+  "race" : "floran",
+
+  "apexDescription" : "Big Ape uses similar devices.",
+  "avianDescription" : "A stretching rack. Barbaric.",
+  "floranDescription" : "*uncontrollable giggles*",
+  "glitchDescription" : "Judging. The Florans still have not outlawed torture.",
+  "humanDescription" : "I've always fancied being a bit taller.",
+  "hylotlDescription" : "I've seen so much Floran brutality that this no longer shocks me.",
+
+  "inventoryIcon" : "plantrackicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "plantrack.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+
+    {
+      "dualImage" : "plantrack.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

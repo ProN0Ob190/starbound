@@ -1,0 +1,10 @@
+{
+  "modId" : 21,
+  "modName" : "plutonium",
+  "frames" : "plutonium.png",
+  "variants" : 8,
+  "itemDrop" : "plutoniumore",
+  "Description" : "Plutonium.",
+  "health" : 15,
+  "breaksWithTile" : true
+}

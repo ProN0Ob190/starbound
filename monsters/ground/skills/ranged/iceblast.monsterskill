@@ -1,0 +1,11 @@
+{
+  "name" : "iceblast",
+  "label" : "ICE BLAST",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "scripts" : [ "/monsters/ground/rangedAttack.lua" ],
+    "shooterProjectile" : [ "icebreath" ],
+    "shooterSkillName" : "iceblast"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "tinyspineplatechest",
+  "category" : "tinyquadruped_organic",
+  "type" : "chest",
+
+  "frames" : {
+    "chest" : "tinyspineplatechest.png"
+  }
+}

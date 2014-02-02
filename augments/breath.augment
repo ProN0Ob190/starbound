@@ -1,0 +1,8 @@
+{
+  "name" : "breath",
+  "icon" : [ ],
+  "kind" : "statuseffect",
+  "statusEffects" : [
+    { "kind" : "breath", "amount" : 1.0 }
+  ]
+}

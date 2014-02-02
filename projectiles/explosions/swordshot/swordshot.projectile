@@ -1,0 +1,16 @@
+{
+  "projectileName" : "swordshot",
+  "frames" : "swordshot.png",
+  "animationCycle" : 0.2,
+  "level" : 3,
+  "timeToLive" : 0.5,
+  "frameNumber" : 6,
+  "speed" : 50,
+  "fallSpeed" : 0,
+  "damagePoly" : [ [-20, 5.5], [14, 5.5], [14, -5.5], [-20, -5.5] ],
+  "animationLoops" : true,
+  "piercing" : true,
+  "flippable" : true,
+  "universalDamage" : false,
+  "damageKind" : "retro"
+}

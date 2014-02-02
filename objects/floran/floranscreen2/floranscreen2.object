@@ -1,0 +1,29 @@
+{
+  "objectName" : "floranscreen2",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 800,
+  "description" : "A leather screen, for the modest Floran?",
+  "shortdescription" : "Leather Dressing Screen",
+  "race" : "floran",
+
+  "apexDescription" : "An Apex choosing to stand behind a screen would break hundreds of Apex laws.",
+  "avianDescription" : "The leather of this screen appears to have soaked up a lot of blood.",
+  "floranDescription" : "Floran sssurprise other Floran with food prepared behind screen. Bigger ssurprise mean more friends.",
+  "glitchDescription" : "Deduction. The blood stains on this screen suggests it hides food preparation.",
+  "humanDescription" : "There are remains stored in pouches behind this screen.",
+  "hylotlDescription" : "What butchery goes on behind these leather screens?",
+
+  "inventoryIcon" : "floranscreen2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "floranscreen2.png:<color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

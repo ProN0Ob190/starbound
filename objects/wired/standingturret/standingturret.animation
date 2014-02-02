@@ -1,0 +1,139 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "movement" : {
+        "priority" : 0,
+        "default" : "dead",
+
+        "states" : {
+          "idle" : {
+            "frames" : 1
+          },
+          "dead" : {
+            "frames" : 1
+          },
+          "attack" : {
+            "frames" : 4,
+            "cycle" : 0.25,
+            "mode" : "loop"
+          }
+        }
+      },
+      "energy" : {
+        "default" : "full",
+
+        "states" : {
+          "full" : { "frames" : 1 },
+          "high" : { "frames" : 1 },
+          "medium" : { "frames" : 1 },
+          "low" : { "frames" : 1 },
+          "none" : { "frames" : 1 }
+        }
+      }
+    },
+
+    "parts" : {
+      "gun" : {
+        "properties" : {
+          "offset" : [0, 0],
+          "rotationGroup" : "gun",
+          "centered" : false,
+          "zLevel" : 3
+        },
+
+        "partStates" : {
+          "movement" : {
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              }
+            },
+            "dead" : {
+              "properties" : {
+                "image" : "<partImage>:dead"
+              }
+            },
+            "attack" : {
+              "properties" : {
+                "image" : "<partImage>:attack.<frame>"
+              }
+            }
+          }
+        }
+      },
+
+      "stand" : {
+        "properties" : {
+          "offset" : [0, 0],
+          "centered" : false,
+          "zLevel" : 1
+        },
+
+        "partStates" : {
+          "movement" : {
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:stand"
+              }
+            },
+            "dead" : {
+              "properties" : {
+                "image" : "<partImage>:stand"
+              }
+            },
+            "attack" : {
+              "properties" : {
+                "image" : "<partImage>:stand"
+              }
+            }
+          }
+        }
+      },
+
+      "energy" : {
+        "properties" : {
+          "offset" : [0, 0.5],
+          "centered" : false,
+          "zLevel" : 2
+        },
+
+        "partStates" : {
+          "energy" : {
+            "full" : {
+              "properties" : {
+                "image" : "<partImage>:full"
+              }
+            },
+            "high" : {
+              "properties" : {
+                "image" : "<partImage>:high"
+              }
+            },
+            "medium" : {
+              "properties" : {
+                "image" : "<partImage>:medium"
+              }
+            },
+            "low" : {
+              "properties" : {
+                "image" : "<partImage>:low"
+              }
+            },
+            "none" : {
+              "properties" : {
+                "image" : "<partImage>:none"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "rotationGroups" : {
+    "gun" : {
+      "rotationCenter" : [1.5, 1.875],
+      "angularVelocity" : 1
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "notail",
+  "category" : "quadruped_organic",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "notail.png"
+  }
+}

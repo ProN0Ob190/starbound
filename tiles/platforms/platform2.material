@@ -1,0 +1,14 @@
+{
+  "materialId" : 109,
+  "materialName" : "platform2",
+  "platform" : true,
+  "transparent" : true,
+  "stairVariants" : 1,
+  "stairImage" : "woodstairs2.png",
+  "platformVariants" : 3,
+  "platformImage" : "woodplatform2.png",
+  "itemDrop" : "platform2",
+  "shortdescription" : "Wood Platform",
+  "description" : "A non-descript wood platform.",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.wav"
+}

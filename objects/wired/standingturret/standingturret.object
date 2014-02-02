@@ -1,0 +1,95 @@
+{
+  "objectName" : "standingturret",
+  "rarity" : "Common",
+  "objectType" : "wire",
+
+  "isInteractive" : true,
+
+  "description" : "Turret for your protection! Can only be placed once.",
+  "shortdescription" : "Defense Turret",
+  "race" : "generic",
+  "category" : "wire",
+
+  "breakDropOptions" : [
+    [ [ "circuitboard", 1, { } ], [ "laserdiode", 1, { } ] ]
+  ],
+
+
+  "apexDescription" : "Always watchful.",
+  "avianDescription" : "The monsters don't stand a chance, unless they can fly.",
+  "floranDescription" : "Effective againssst living thingsss.",
+  "glitchDescription" : "Care. Must not disrupt my brother in his vigilance.",
+  "humanDescription" : "An automated security system.",
+  "hylotlDescription" : "Looks like a turret of some sort.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "standingturret.png:dead",
+      "imagePosition" : [0, 0],
+      "imageLayers" : [ { "image" : "standingturret.png:dead" }, { "image" : "standingturret.png:stand" } ],
+      "spaces" : [
+        [0, 0], [1, 0], [2, 0], [3, 0],
+        [0, 1], [1, 1], [2, 1], [3, 1]
+      ],
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "objectWidth" : 4,
+
+  "animation" : "standingturret.animation",
+  "animationParts" : {
+    "gun" : "standingturret.png",
+    "stand" : "standingturret.png",
+    "energy" : "energy.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [
+    "/objects/wired/standingturret/standingturret.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua"
+  ],
+
+
+  "powerUpSound" : "/sfx/tech/mech_jump3.wav",
+  "powerDownSound" : "/sfx/tech/mech_powerdown2.wav",
+  "foundTargetSound" : "/sfx/interface/nav_computer_on.wav",
+  "scanSound" : "/sfx/interface/scan.wav",
+  "fireSound" : "/sfx/gun/ar5.wav",
+
+  "damageTeam" : {
+    "type" : "friendly"
+  },
+
+  "scriptDelta" : 5,
+
+  "outboundNodes" : [ [3, 0] ],
+  "inboundNodes" : [ [0, 2] ],
+
+  "rotationTime" : 5,
+  "rotationRange" : 30,
+
+  "baseOffset" : [1.5, 1.875],
+  "tipOffset" : [4, 1.9375],
+
+  "minTargetRange" : 2.5,
+  "targetRange" : 50,
+  "targetAngleRange" : 40,
+  "targetOffset" : [0, -0.5],
+  "letGoCooldown" : 0.5,
+  "targetCooldown" : 0.5,
+
+  "maxTrackingYVel" : 2.5,
+
+  "bulletType" : "turretbullet",
+  "bulletSpeed" : 50,
+  "bulletSize" : [11, 3],
+  "fireCooldown" : 0.25,
+
+  "maxEnergy" : 3600,
+  "energyTickTime" : 1,
+  "energyPerShot" : 10
+}

@@ -1,0 +1,6 @@
+{
+  "name" : "poweredarmor",
+  "icon" : [ ],
+  "regenModifier" : 10.0,
+  "bonusArmor" : 50.0
+}

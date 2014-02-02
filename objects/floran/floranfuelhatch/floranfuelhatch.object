@@ -1,0 +1,38 @@
+{
+  "objectName" : "floranfuelhatch",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "description" : "Accepts a bunch of different kinds of fuel.",
+  "shortdescription" : "Fuel Hatch",
+  "race" : "floran",
+
+  "apexDescription" : "This fuel system doesn't appear to be Floran in origin.",
+  "avianDescription" : "Where did the Floran find this tech, I wonder?",
+  "floranDescription" : "Floran enjoy fuel tech. Floran explore many worlds.",
+  "glitchDescription" : "Identify. This tech was not designed by the Floran.",
+  "humanDescription" : "I don't think this is Floran tech.",
+  "hylotlDescription" : "Floran don't design tech, they consume it.",
+
+  "inventoryIcon" : "fuelhatchicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "floranfuelhatch.png:<color>.<frame>",
+
+      "imagePosition" : [-8, -16],
+      "frames" : 4,
+      "animationCycle" : 0.7,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "hasWindowIcon" : false,
+  "recipeGroup" : "fuel",
+  "slotCount" : 6,
+  "uiConfig" : "/interface/fuel/fuel.config",
+  "autoCloseCooldown" : 3600,
+  "frameCooldown" : 67,
+  "soundEffect" : "/sfx/objects/shipengine.wav",
+  "soundEffectRadius" : 300
+}

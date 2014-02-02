@@ -1,0 +1,39 @@
+{
+  "objectName" : "consoletribalwall",
+  "rarity" : "Common",
+  "objectType" : "wire",
+  "category" : "wire",
+  "price" : 300,
+  "description" : "A small security panel.",
+  "shortdescription" : "Avian Security Panel",
+  "race" : "avian",
+
+  "apexDescription" : "This access panel contains technology I don't understand.",
+  "avianDescription" : "These panels send crystal vibrations to other crystal devices.",
+  "floranDescription" : "Ssstrange Avian technology. The Floran would love to devour.",
+  "glitchDescription" : "Mystified. This technology is new even to my creator. The crystals within seem capable of generating electrical current for compatibility.",
+  "humanDescription" : "It looks like some kind of access panel. It doesn't seem to require a power source.",
+  "hylotlDescription" : "Such beautiful technology. I can feel it thrum beneath my touch.",
+
+  "inventoryIcon" : "consoletribalwallicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "consoletribalwall.png:<color>.off",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/switch/switch.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switch4.animation",
+  "animationParts" : {
+    "switch" : "consoletribalwall.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "outboundNodes" : [ [0, 0] ]
+}

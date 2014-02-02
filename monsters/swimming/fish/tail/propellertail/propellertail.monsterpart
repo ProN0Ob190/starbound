@@ -1,0 +1,9 @@
+{
+  "name" : "propellertail",
+  "category" : "fish_organic",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "propellertail.png"
+  }
+}

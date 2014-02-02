@@ -1,0 +1,30 @@
+{
+  "objectName" : "florantanningrack",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 600,
+  "description" : "An animal pelt is stretched and dried between two large bones",
+  "shortdescription" : "Primitive Tanning Rack",
+  "race" : "floran",
+
+  "apexDescription" : "Is that a tanning rack, or some kind of Floran easel?",
+  "avianDescription" : "A Floran device for treating leather.",
+  "floranDescription" : "Floran ssstretch pelt and tan leather. Boness hold leather tight.",
+  "glitchDescription" : "Poor humour. There is little chance of a Glitch ending up here.",
+  "humanDescription" : "I think this process tans the leather.",
+  "hylotlDescription" : "This is how the Floran get tanned leather.",
+
+  "inventoryIcon" : "florantanningrackicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "florantanningrack.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

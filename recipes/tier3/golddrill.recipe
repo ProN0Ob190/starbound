@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "goldbar", "count" : 20 },
+    { "item" : "silverdrill", "count" : 1 },
+    { "item" : "money", "count" : 1600 }
+  ],
+  "output" : { "item" : "golddrill", "count" : 1 },
+  "groups" : [ "roboticcraftingtable", "tools", "all" ]
+}

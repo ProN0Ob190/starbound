@@ -1,0 +1,11 @@
+{
+  "name" : "barbspray",
+  "label" : "BARB SPRAY",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "scripts" : [ "/monsters/ground/rangedAttack.lua" ],
+    "shooterProjectile" : [ "thorns" ],
+    "shooterSkillName" : "barbspray"
+  }
+}

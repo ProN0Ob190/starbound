@@ -1,0 +1,20 @@
+{
+  "name" : "nightdragonhead",
+  "category" : "quadruped_organic",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "dragonhead.png"
+  },
+
+  "parameters" :
+  {
+    "projectileSourcePosition" : [1.4, -0.2],
+    "idleNoise" : [ "/sfx/npc/quadruped/angstyhead_idle1.wav", "/sfx/npc/quadruped/angstyhead_idle2.wav" ],
+    "turnHostileNoise" : [ "/sfx/npc/quadruped/angstyhead_turnhostile.wav" ],
+    "attackNoise" : [ "/sfx/npc/quadruped/angstyhead_attack1.wav", "/sfx/npc/quadruped/angstyhead_attack2.wav" ],
+    "painNoise" : [ "/sfx/npc/quadruped/angstyhead_pain1.wav", "/sfx/npc/quadruped/angstyhead_pain2.wav" ],
+    "deathNoise" : [ "/sfx/npc/quadruped/angstyhead_death.wav" ],
+    "skills" : [ "fireBreathRangedAttack" ]
+  }
+}

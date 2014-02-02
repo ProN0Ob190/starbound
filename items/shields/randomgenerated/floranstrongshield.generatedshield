@@ -1,0 +1,25 @@
+{
+  "name" : "floranstrongshield",
+  "kind" : "floranstrong",
+
+  "rarity" : "rare",
+  "palette" : [
+    { }
+  ],
+
+  "hitSound" : "/sfx/melee/shield_block_metal2.wav",
+
+  "baseline" : {
+    "recoil" : 0.2,
+    "knockbackPower" : 10,
+    "knockbackDamageKind" : "",
+    "statusEffects" : [
+      { "kind" : "Encumbered" },
+      { "kind" : "EnergyRegenSuppressed" },
+      { "kind" : "Shield", "amount" : 30 }
+    ],
+    "shieldPoly" : [ [-8, 0], [-8, 12], [8, 20], [8, -24], [-8, -12] ],
+    "damagePoly" : [ [-8, 0], [8, 18], [8, -18] ]
+  },
+  "nameGenerator" : "floranstrongshieldnames.config:namegen"
+}

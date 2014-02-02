@@ -1,0 +1,9 @@
+{
+  "name" : "wart1chest",
+  "category" : "quadruped_organic",
+  "type" : "chest",
+
+  "frames" : {
+    "chest" : "wart1chest.png"
+  }
+}

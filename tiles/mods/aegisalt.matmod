@@ -1,0 +1,10 @@
+{
+  "modId" : 26,
+  "modName" : "aegisalt",
+  "frames" : "aegisalt.png",
+  "variants" : 8,
+  "itemDrop" : "aegisaltore",
+  "Description" : "Aegisalt.",
+  "health" : 14,
+  "breaksWithTile" : true
+}

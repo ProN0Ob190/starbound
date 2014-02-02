@@ -1,0 +1,14 @@
+{
+  "materialId" : 77,
+  "materialName" : "moondust",
+  "frames" : "moondust.png",
+  "particleColor" : [112, 72, 39, 255],
+  "variants" : 5,
+  "itemDrop" : "moondust",
+  "description" : "Moondust, the thing dreams are made of.",
+  "shortdescription" : "Moondust",
+  "glitchDescription" : "Delight. Moondust.",
+  "floranDescription" : "Floran love glittery sssneezy dust.",
+  "footstepSound" : "/sfx/blocks/footstep_sand.wav",
+  "health" : 1.5
+}

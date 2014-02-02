@@ -1,0 +1,32 @@
+{
+  "objectName" : "marketstall3",
+  "rarity" : "Common",
+  "description" : "An assortment of pointy things.",
+  "shortdescription" : "Avian Weapon Stall",
+  "race" : "avian",
+  "category" : "decorative",
+  "price" : 600,
+
+  "apexDescription" : "This weaponry is crude.",
+  "avianDescription" : "Few of the grounded are warriors. This weaponry is poorly made.",
+  "floranDescription" : "Crude birdman weaponss. Sssnap like twig.",
+  "glitchDescription" : "Informative. This weaponry needs sharpening.",
+  "humanDescription" : "The weapons on this stall look as if they're only good for one swing.",
+  "hylotlDescription" : "Judging by this stall, these poor people can barely defend themselves.",
+
+  "inventoryIcon" : "marketstallicon1.png",
+  "orientations" : [
+    {
+      "dualImage" : "marketstall3.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

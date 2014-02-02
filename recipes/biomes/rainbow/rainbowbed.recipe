@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "rainbowwood", "count" : 80 },
+    { "item" : "leather", "count" : 4 },
+    { "item" : "crystal", "count" : 4 },
+    { "item" : "money", "count" : 225 }
+  ],
+  "output" : { "item" : "rainbowbed", "count" : 1 },
+  "groups" : [ "craftingtable", "furniture", "objects", "all" ]
+}

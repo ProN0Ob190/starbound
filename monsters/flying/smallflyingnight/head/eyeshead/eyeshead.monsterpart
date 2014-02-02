@@ -1,0 +1,9 @@
+{
+  "name" : "nighteyeshead",
+  "category" : "smallflying_organic",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "eyeshead.png"
+  }
+}

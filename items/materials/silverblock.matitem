@@ -1,0 +1,12 @@
+{
+  "itemName" : "silverblock",
+  "rarity" : "Common",
+  "inventoryIcon" : "silverblock.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A whole block of silver.",
+  "shortdescription" : "Silver Block",
+  "glitchdescription" : "Statement. A silver block.",
+  "florandescription" : "Sssilver.",
+
+  "materialId" : 34
+}

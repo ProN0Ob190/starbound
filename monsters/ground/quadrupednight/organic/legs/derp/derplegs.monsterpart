@@ -1,0 +1,16 @@
+{
+  "name" : "nightderplegs",
+  "category" : "quadruped_organic",
+  "type" : "legs",
+
+  "frames" : {
+    "frontLegs" : "derpflegs.png",
+    "backLegs" : "derpblegs.png"
+  },
+
+  "parameters" : {
+    "walkMultiplier" : 1.0,
+    "runMultiplier" : 1.0,
+    "jumpMultiplier" : 1.2
+  }
+}

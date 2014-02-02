@@ -1,0 +1,31 @@
+{
+  "objectName" : "genericpainting1",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 2500,
+
+  "description" : "Ahh The Son of Man, you make me hungry!",
+  "shortdescription" : "Painting",
+  "race" : "generic",
+
+  "apexDescription" : "This is rather abstract.",
+  "avianDescription" : "What is this creature?",
+  "floranDescription" : "Floran so confusssed.",
+  "glitchDescription" : "Cataloguing. Art possibly significant. Capturing snapshot.",
+  "humanDescription" : "How very abstract. Tasty, but abstract.",
+  "hylotlDescription" : "Ahh... I understand.",
+
+  "inventoryIcon" : "genericpainting1icon.png",
+  "orientations" : [
+    {
+      "image" : "genericpainting1.png:<color>",
+      "imagePosition" : [-16, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

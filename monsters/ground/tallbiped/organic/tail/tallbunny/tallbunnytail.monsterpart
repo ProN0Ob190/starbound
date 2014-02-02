@@ -1,0 +1,9 @@
+{
+  "name" : "tallbunnytail",
+  "category" : "tallbiped_organic",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "bunnytail.png"
+  }
+}

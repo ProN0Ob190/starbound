@@ -1,0 +1,19 @@
+{
+  "itemName" : "overdriveguitar",
+  "inventoryIcon" : "overdriveguitaricon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "A guitar. For those who like distortion.",
+  "shortdescription" : "Overdrive Guitar",
+  "largeImage" : "overdriveguitar.png",
+  "image" : "overdriveguitar.png",
+  "inspectionKind" : "tool",
+  "activeImage" : "overdriveguitar.png",
+  "activeAngle" : -80,
+  "activeHandPosition" : [0.1, 0.9],
+
+  "handPosition" : [0, 0.7],
+  "twoHanded" : true,
+  "kind" : "overdriveguitar"
+}

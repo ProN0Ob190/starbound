@@ -1,0 +1,29 @@
+{
+  "objectName" : "huntingplatformleaves",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 1200,
+  "description" : "Eats, Stabs and Leaves.",
+  "shortdescription" : "Leaves",
+  "race" : "floran",
+
+  "apexDescription" : "Some leaves.",
+  "avianDescription" : "Leaves.",
+  "floranDescription" : "Leaves.",
+  "glitchDescription" : "Statement. Leaves.",
+  "humanDescription" : "Leaves.",
+  "hylotlDescription" : "Leaves.",
+
+  "inventoryIcon" : "huntingplatformleavesicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "huntingplatformleaves.png:<color>",
+      "imagePosition" : [-28, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

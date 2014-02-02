@@ -1,0 +1,13 @@
+{
+  "materialId" : 125,
+  "materialName" : "stoneplatform",
+  "platform" : true,
+  "transparent" : true,
+  "stairVariants" : 1,
+  "stairImage" : "stonestairs.png",
+  "platformVariants" : 3,
+  "platformImage" : "stoneplatform.png",
+  "shortdescription" : "Stone Platform",
+  "description" : "A natural stone platform.",
+  "footstepSound" : "/sfx/blocks/footstep_stone.wav"
+}

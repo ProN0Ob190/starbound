@@ -1,0 +1,14 @@
+{
+  "itemName" : "dirturchin",
+  "rarity" : "Common",
+  "inventoryIcon" : "dirturchin.png",
+  "description" : "Kind of squidy and a bit tasteless.",
+  "shortdescription" : "Dirturchin",
+  "handPosition" : [-8, 0],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 25
+      }
+    ] ]
+}

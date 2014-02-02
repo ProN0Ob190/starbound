@@ -1,0 +1,13 @@
+{
+  "materialId" : 175,
+  "materialName" : "candyblock",
+  "frames" : "candyblock.png",
+  "particleColor" : [89, 127, 52, 255],
+  "variants" : 1,
+  "itemDrop" : "candyblock",
+  "description" : "Sweet-smelling rock candy!",
+  "shortdescription" : "Candy Block",
+  "multicolored" : false,
+  "footstepSound" : "/sfx/blocks/footstep_ice.wav",
+  "health" : 5
+}

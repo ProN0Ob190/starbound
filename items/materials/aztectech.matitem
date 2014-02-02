@@ -1,0 +1,12 @@
+{
+  "itemName" : "aztectech",
+  "rarity" : "Common",
+  "inventoryIcon" : "aztectech.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Avian Tech Block",
+  "description" : "An advanced synthetic Avian material. Its markings are printed on.",
+  "glitchdescription" : "Cryptography. I do not know what these glyphs say.",
+  "florandescription" : "Floran not can read this.",
+
+  "materialId" : 54
+}

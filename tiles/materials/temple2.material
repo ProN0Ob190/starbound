@@ -1,0 +1,15 @@
+{
+  "materialId" : 27,
+  "materialName" : "temple2",
+  "frames" : "temple2.png",
+  "particleColor" : [190, 159, 85, 255],
+  "variants" : 25,
+  "itemDrop" : "temple2",
+  "shortdescription" : "Temple Bricks",
+  "description" : "These bricks look ancient. Intricate words are scratched into their surface that even my translator can't read.",
+  "glitchDescription" : "Curiosity. These stone carvings are rather crude.",
+  "floranDescription" : "Floran like ssstone pictures.",
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_stone3.wav",
+  "health" : 30
+}

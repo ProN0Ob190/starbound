@@ -1,0 +1,9 @@
+{
+  "name" : "pcodhead",
+  "category" : "fish_organic",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "pcodhead.png"
+  }
+}

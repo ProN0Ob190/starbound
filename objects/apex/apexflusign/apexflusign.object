@@ -1,0 +1,38 @@
+{
+  "objectName" : "apexflusign",
+  "rarity" : "Common",
+  "category" : "light",
+  "lightColor" : [180, 180, 180],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 1,
+  "unlit" : true,
+  "price" : 500,
+  "description" : "Ape Flu? Sounds serious...",
+  "shortdescription" : "Ape Flu Poster",
+  "race" : "apex",
+
+  "apexDescription" : "Ape flu ravaged Apex society. Strangely no one in power was sick. There were rumours it was an experiment.",
+  "avianDescription" : "Can Avians catch ape flu?",
+  "floranDescription" : "Sssilly Apex Flu, Floran will eat you.",
+  "glitchDescription" : "Confident. Ape flu has no effect on the Glitch.",
+  "humanDescription" : "I hope humans can't catch ape flu.",
+  "hylotlDescription" : "Sickness and suffering. The Apex deserve our aid.",
+
+  "inventoryIcon" : "apexflusignicon.png",
+  "orientations" : [
+    {
+      "image" : "apexflusign.png:<color>",
+      "imagePosition" : [-16, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/fluorescent_light_quiet.wav"
+
+}

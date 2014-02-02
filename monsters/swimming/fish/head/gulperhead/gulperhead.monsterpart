@@ -1,0 +1,9 @@
+{
+  "name" : "gulperhead",
+  "category" : "fish_organic",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "gulperhead.png"
+  }
+}

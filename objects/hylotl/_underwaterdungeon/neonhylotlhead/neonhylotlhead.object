@@ -1,0 +1,32 @@
+{
+  "objectName" : "neonhylotlhead",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 650,
+  "lightColor" : [45, 170, 65],
+
+  "shortdescription" : "Neon Hylotl Sign",
+  "description" : "A neon sign depicting a Hylotl head.",
+  "race" : "hylotl",
+
+  "apexDescription" : "A neon Hylotl head sign. For what reason?",
+  "avianDescription" : "A sign depicting a Hylotl head. It does not seem to serve a purpose.",
+  "floranDescription" : "Frogman put himself on bright sign now?",
+  "glitchDescription" : "Curious. It's a neon sign in the shape of a Hylotl's head. Why?",
+  "humanDescription" : "I wonder if the Hylotl are really into taking selfies?",
+  "hylotlDescription" : "It's a neon sign in the shape of a Hylotl's head.",
+
+  "inventoryIcon" : "neonhylotlheadicon.png",
+  "orientations" : [
+    {
+      "image" : "neonhylotlhead.png:<color>",
+      "imagePosition" : [-12, -12],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

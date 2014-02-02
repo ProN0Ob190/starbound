@@ -1,0 +1,31 @@
+{
+  "objectName" : "miningskip",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 700,
+  "description" : "A large metal Skip full of rubble.",
+  "shortdescription" : "Mining Skip",
+  "race" : "human",
+
+  "apexDescription" : "A big painted Skip, full of rubble and dirt.",
+  "avianDescription" : "An ugly metal container, full of rubble and painted red.",
+  "floranDescription" : "Floran wants to sssleep in red box.",
+  "glitchDescription" : "Observant. The container appears to hold unwanted rubble.",
+  "humanDescription" : "A big Skip, full of rubble and dirt.",
+  "hylotlDescription" : "An ugly metal container, full of wasted material.",
+
+  "inventoryIcon" : "miningskipicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "miningskip.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

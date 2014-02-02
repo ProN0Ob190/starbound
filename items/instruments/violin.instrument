@@ -1,0 +1,19 @@
+{
+  "itemName" : "violin",
+  "inventoryIcon" : "violinicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "A violin. Don't bow out just yet.",
+  "shortdescription" : "Violin",
+  "largeImage" : "violin.png",
+  "image" : "violin.png",
+  "inspectionKind" : "tool",
+  "activeImage" : "violin.png",
+  "activeAngle" : -2,
+  "activeHandPosition" : [0.4, 0.2],
+
+  "handPosition" : [0.4, 0.2],
+  "twoHanded" : true,
+  "kind" : "violin"
+}

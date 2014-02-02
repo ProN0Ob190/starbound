@@ -1,0 +1,22 @@
+{
+  "itemName" : "fruitsalad",
+  "rarity" : "Common",
+  "inventoryIcon" : "fruitsalad.png",
+  "description" : "Various fruits all conveniently mixed together.",
+  "shortdescription" : "Fruit Salad",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 80
+      },
+      {
+        "kind" : "health",
+        "amount" : 10
+      },
+      {
+        "kind" : "energy",
+        "amount" : 10
+      }
+    ] ]
+}

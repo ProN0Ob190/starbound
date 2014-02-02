@@ -1,0 +1,21 @@
+{
+  "itemName" : "apegrapes",
+  "rarity" : "Common",
+  "inventoryIcon" : "apegrapes.png",
+  "description" : "A healthy mix of banana slices and grapes.",
+  "shortdescription" : "Ape Grapes",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 70
+      },
+      {
+        "kind" : "health",
+        "amount" : 10
+      },
+      {
+        "kind" : "energy",
+        "amount" : 10
+      }
+    ] ]
+}

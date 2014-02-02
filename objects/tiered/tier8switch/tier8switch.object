@@ -1,0 +1,36 @@
+{
+  "objectName" : "tier8switch",
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "wire",
+  "price" : 100,
+
+  "description" : "A Violium console. Sturdy enough to tap-dance on.",
+  "shortdescription" : "Violium Console",
+  "race" : "generic",
+
+  "apexDescription" : "This console offers a large degree of control.",
+  "avianDescription" : "A useful console.",
+  "floranDescription" : "Floran push buttons. Make thingsss happen!",
+  "glitchDescription" : "Impressed. A single console can control so many different mechanisms at once.",
+  "humanDescription" : "A control console. It's just gotta be played with.",
+  "hylotlDescription" : "A control console.",
+
+  "inventoryIcon" : "tier8switchicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "tier8switch.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "frames" : 3,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "script" : "/objects/scripts/switch.lua",
+  "outboundNodesLocation" : [0, 0]
+
+}

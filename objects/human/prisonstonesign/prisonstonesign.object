@@ -1,0 +1,32 @@
+{
+  "objectName" : "prisonstonesign",
+  "rarity" : "Common",
+  "description" : "USCM, huh? I wouldn't wanna be one of their prisoners.",
+  "shortdescription" : "USCM Penal Colony Sign",
+  "race" : "human",
+  "category" : "decorative",
+  "price" : 600,
+
+  "apexDescription" : "A bold display of USCM authority.",
+  "avianDescription" : "No danger of forgetting who runs this place.",
+  "floranDescription" : "Rock with lettersss. Floran sssmash with bone.",
+  "glitchDescription" : "Puzzlement. Analysis indicates this rock was removed from an ancient, cursed burial ground.",
+  "humanDescription" : "Something about this sign chills me to the core. Maybe it's the bloodstains.",
+  "hylotlDescription" : "The USCM, once again clamouring to make their presence felt.",
+
+  "inventoryIcon" : "prisonstonesignicon.png",
+  "orientations" : [
+    {
+      "leftImage" : "prisonstonesignleft.png:<color>",
+      "rightImage" : "prisonstonesignright.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

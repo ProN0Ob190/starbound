@@ -1,0 +1,38 @@
+{
+  "objectName" : "goldenurn",
+  "rarity" : "Common",
+  "description" : "The ashes of Avian stargazers are often stored in urns like this.",
+  "shortdescription" : "Golden Urn",
+  "race" : "avian",
+  "category" : "pot",
+  "price" : 1000,
+
+  "apexDescription" : "It's full of ashes and feathers.",
+  "avianDescription" : "A stargazer's urn. Contains not only their ashes but every single one of their plucked feathers.",
+  "floranDescription" : "Tasssty bird dust inssside.",
+  "glitchDescription" : "Questioning. Why does the urn contain feathers as well as ashes?",
+  "humanDescription" : "A collection of feathers and ashes.",
+  "hylotlDescription" : "It appears the Avians deeply value their feathers. This urn is full of them.",
+
+  "inventoryIcon" : "goldenurnicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "goldenurn.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "smashSounds" : [ "/sfx/objects/pot_break_medium1.wav", "/sfx/objects/pot_break_medium2.wav" ],
+  "smashDropOptions" : [
+    [ [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ] ]
+  ],
+  "breakDropOptions" : [
+    [ [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ] ]
+  ]
+}

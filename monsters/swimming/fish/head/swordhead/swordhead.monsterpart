@@ -1,0 +1,9 @@
+{
+  "name" : "swordhead",
+  "category" : "fish_organic",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "swordhead.png"
+  }
+}

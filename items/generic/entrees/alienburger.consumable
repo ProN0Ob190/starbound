@@ -1,0 +1,19 @@
+{
+  "itemName" : "alienburger",
+  "rarity" : "Common",
+  "inventoryIcon" : "alienburger.png",
+  "description" : "A burger made of green alien meat. Mm!",
+  "shortdescription" : "Alien Burger",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 100
+      },
+      {
+        "kind" : "mollyhealing3" },
+      {
+        "kind" : "energy",
+        "amount" : 25
+      }
+    ] ]
+}

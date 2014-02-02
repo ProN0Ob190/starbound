@@ -1,0 +1,22 @@
+{
+  "itemName" : "boltos",
+  "rarity" : "Common",
+  "inventoryIcon" : "boltos.png",
+  "description" : "Bolt O's, for when you wake up so hungry you don't care what you're putting in your mouth!",
+  "shortdescription" : "Bolt O's",
+  "handPosition" : [0, -2],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 85
+      },
+      {
+        "kind" : "health",
+        "amount" : 10
+      },
+      {
+        "kind" : "energy",
+        "amount" : 10
+      }
+    ] ]
+}

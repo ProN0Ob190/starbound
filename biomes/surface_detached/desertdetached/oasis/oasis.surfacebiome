@@ -1,0 +1,69 @@
+{
+  "name" : "oasis",
+
+  "surfaceParameters" : {
+    "mainBlock" : "sand2",
+    "subBlocks" : [ "sand", "sandstone01" ],
+    "ores" : "surfaceOres",
+
+    "statusParameters" : {
+      "temperatureBounds" : [50, 60],
+      "dayNightTemperatureVariability" : 70,
+      "temperatureVariability" : 5
+    },
+
+    "surfacePlaceables" : {
+      "grassMod" : [ "aridgrass" ],
+      "grassModDensity" : 0.3,
+
+      "items" : [
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:denseLarge",
+
+          "type" : "tree",
+          "treeFoliageHueShiftMax" : 180,
+          "treeStemHueShiftMax" : 15,
+          "treeStemList" : [ "desertpalm", "alienpalm", "bark", "beach", "blank", "cactus", "cross", "palm", "plain", "twirl" ],
+          "treeFoliageList" : [ "palmleaves", "palmy", "roseleaves", "lushleaves", "palmlush", "elegant" ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 3.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:denseSmall",
+
+          "type" : "grass",
+          "grasses" : [ "grass", "testflower", "testflower2", "testflower3", "testflower4", "testflower5", "testflower6", "testflower7" ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:denseMedium",
+
+          "type" : "object",
+          "objectSets" : [
+            {
+              "pool" : [ [0.35, "tallgrass1" ], [0.35, "tallgrass2" ], [0.35, "tallgrass3" ], [0.35, "tallgrass4" ] ],
+              "parameters" : { }
+            }
+          ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:denseLarge",
+
+          "type" : "microdungeon",
+          "microdungeons" : [ "oasis" ]
+        }
+      ]
+    }
+  }
+}
+
+

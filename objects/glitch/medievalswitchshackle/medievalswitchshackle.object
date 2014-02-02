@@ -1,0 +1,40 @@
+{
+  "objectName" : "medievalswitchshackle",
+  "rarity" : "Common",
+  "objectType" : "wire",
+  "description" : "One of these shackles looks suspicious...",
+  "shortdescription" : "Wall Shackles",
+  "race" : "glitch",
+  "category" : "wire",
+  "price" : 750,
+
+  "apexDescription" : "One of these chains swings strangely.",
+  "avianDescription" : "One of these chains looks fake.",
+  "floranDescription" : "Hsss trick chain!",
+  "glitchDescription" : "Scanning. One of these chains is not made of iron.",
+  "humanDescription" : "One of these chains is a fraction lower than the other.",
+  "hylotlDescription" : "One of these chains is a fraction higher than the other.",
+
+  "inventoryIcon" : "medievalswitchshackleicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "medievalswitchshackle.png:<color>.off",
+      "imagePosition" : [-8, -24],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/switch/switch.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switchtoggle.animation",
+  "animationParts" : {
+    "switch" : "medievalswitchshackle.png"
+  },
+  "animationPosition" : [-8, -24],
+
+  "outboundNodes" : [ [0, 0] ]
+}

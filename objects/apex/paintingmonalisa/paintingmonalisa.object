@@ -1,0 +1,31 @@
+{
+  "objectName" : "paintingmonalisa",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 2500,
+
+  "description" : "A very famous portrait of a mysterious lady.",
+  "shortdescription" : "Classic Painting",
+  "race" : "apex",
+
+  "apexDescription" : "Perhaps this is what the Miniknog aspire towards.",
+  "avianDescription" : "A human woman.",
+  "floranDescription" : "Human have nice sssmile, Floran ssmile scare human.",
+  "glitchDescription" : "Inspection. The paint is old beyond measure.",
+  "humanDescription" : "I read about this one... Moaning Lisa was it? She doesn't look unhappy.",
+  "hylotlDescription" : "A beautifully-captured smile.",
+
+  "inventoryIcon" : "paintingmonalisaicon.png",
+  "orientations" : [
+    {
+      "image" : "paintingmonalisa.png:<color>",
+      "imagePosition" : [-12, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

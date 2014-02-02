@@ -1,0 +1,12 @@
+{
+  "itemName" : "crosshatch",
+  "rarity" : "Common",
+  "inventoryIcon" : "crosshatch.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Window Lattice",
+  "description" : "A mouldy lattice made of wood.",
+  "glitchdescription" : "Statement. A window lattice.",
+  "florandescription" : "Window lettuce.",
+
+  "materialId" : 25
+}

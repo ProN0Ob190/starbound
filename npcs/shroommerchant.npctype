@@ -1,0 +1,141 @@
+{
+  "type" : "shroommerchant",
+  "baseType" : "merchant",
+
+  "disableWornArmor" : true,
+  "inateStatusEffects" : [
+    {
+      "kind" : "Protection",
+      "amount" : 1.0
+    }
+  ],
+
+  "damageTeam" : 1,
+  "levelVariance" : [0, 0],
+
+  "scripts" : [
+    "/npcs/main.lua",
+    "/npcs/timers.lua",
+    "/scripts/sensors.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua",
+
+    "/npcs/chatState.lua",
+    "/npcs/standingIdleState.lua",
+    "/npcs/wanderState.lua",
+
+    "/npcs/meleeAttackState.lua",
+    "/npcs/rangedAttackState.lua",
+
+    "/npcs/merchant/merchantState.lua"
+  ],
+
+  "scriptConfig" : {
+
+    "noticePlayersRadius" : 30.0,
+
+    "merchant" : {
+      "waitTime" : 10,
+      "storeRadius" : -1,
+      "categories" : [ "randomguns", "randomswords" ],
+      "priceVarianceRange" : [0.75, 1.25],
+      "numItems" : 10,
+
+      "dialog" : {
+        "start" : {
+          "default" : [
+            "Welcome to my shop.",
+            "See anything you like?",
+            "What can I do ya for?"
+          ],
+          "floran" : {
+            "default" : [
+              "Hoom! Exchanga habble pixels! Clink clink!",
+              "Hoom clinker. Habba shopshroom deka plesta?",
+              "Halhoom megaclinker. Habba chop chop workest!"
+            ],
+            "floran" : [
+              "Halhalhoom, plant! Exchanga habble pixels! Chop clink!",
+              "Hoom, nab feara plant! Habble pixels, mesta clink clink.",
+              "Hoom. Plant clinker habba shopshroom plesta?"
+            ],
+            "hylotl" : [
+              "Hum. Hoom. Squishfish nab feara halb clink.",
+              "Squishfish. Mesta nab tetrana chop clinker.",
+              "Hoom, squishfish. Nab smashroom habba clinker house. Okay?"
+            ]
+          }
+        },
+        "end" : {
+          "default" : [
+            "See ya next time!"
+          ],
+          "floran" : {
+            "default" : [
+              "Foom. Clink remore!",
+              "Fanfoom! Habba clink okay.",
+              "Foomfoom. Clink nab feara pixels!",
+              "Foom! Clink mesta plesta!"
+            ]
+          }
+        }
+      }
+    },
+
+    "meleeAttack" : {
+      "swingDistance" : 5,
+      "swingTime" : 0.4,
+      "swingCooldownTime" : 0.6,
+      "runThreshold" : 9,
+      "searchTime" : 10,
+      "backoffDistanceRange" : [8.0, 12.0],
+      "repositionCooldownTimeRange" : [2.0, 3.0]
+    },
+
+    "rangedAttack" : {
+      "minDistance" : 10,
+      "maxDistance" : 30,
+      "coverYOffset" : -1.5,
+      "coverYClearanceOffset" : 0.5,
+      "coverDistance" : 2.5,
+      "coverHideTimeRange" : [0.5, 1.0],
+      "coverFireTimeRange" : [1.0, 3.0],
+      "attackerSpacing" : 2.5,
+      "searchTime" : 10
+    }
+  },
+
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "head" : [ { "name" : "shroomhead" } ],
+            "chest" : [ { "name" : "florantier2chest" } ],
+            "legs" : [ { "name" : "florantier2pants" } ],
+            "sheathedprimary" : [ [ "generatedsword", 1, { "definition" : "tier2broadsword" } ] ]
+          }
+        ] ]
+    ],
+    "floran" : [
+      [0, [
+          {
+            "head" : [ { "name" : "shroomhead" } ],
+            "chest" : [ { "name" : "florantier2chest" } ],
+            "legs" : [ { "name" : "florantier2pants" } ],
+            "sheathedprimary" : [ [ "generatedsword", 1, { "definition" : "tier2broadsword" } ] ]
+          }
+        ] ]
+    ]
+  },
+
+  "statusParameters" : {
+    "baseMaxHealth" : 40,
+    "baseMaxEnergy" : 40,
+    "bodyMaterialKind" : "organic",
+    "damageConfig" : "/damage/damageresponse/npcs.config",
+    "invulnerabilityTime" : 0,
+    "energyReplenishmentRate" : 10.0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "toucanhead",
+  "category" : "smallflying_organic",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "toucanhead.png"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "objectName" : "huntingrail2",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 100,
+
+  "description" : "A railing. Maybe you can grind along it.",
+  "shortdescription" : "Railing",
+  "race" : "floran",
+
+  "apexDescription" : "A railing.",
+  "avianDescription" : "A railing.",
+  "floranDescription" : "Sssafety.",
+  "glitchDescription" : "Statement. A railing.",
+  "humanDescription" : "Railings.",
+  "hylotlDescription" : "Railings.",
+
+  "inventoryIcon" : "huntingrail2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "huntingrail2.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

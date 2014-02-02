@@ -1,0 +1,13 @@
+{
+  "itemName" : "diodia",
+  "rarity" : "Common",
+  "inventoryIcon" : "diodiaicon.png",
+  "description" : "Diodia, tastes like copper.",
+  "shortdescription" : "Diodia",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 25
+      }
+    ] ]
+}

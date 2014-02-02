@@ -1,0 +1,10 @@
+{
+  "codexId" : "bunkerorders",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "humanbunkerbook_12.png",
+  "itemName" : "bunkerordersCodex",
+  "rarity" : "common",
+  "description" : "Subject: Standing Orders",
+  "shortdescription" : "Standing Orders"
+}

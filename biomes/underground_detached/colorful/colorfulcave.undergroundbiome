@@ -1,0 +1,104 @@
+{
+  "name" : "colorfulcave",
+
+  "mainBlock" : "sand2",
+  "subBlocks" : [ "sand", "dirt" ],
+  "ores" : "depth2",
+
+  "statusParameters" : {
+    "temperatureBounds" : [5, 25],
+    "dayNightTemperatureVariability" : 3,
+    "temperatureVariability" : 3
+  },
+
+  "hueShiftOptions" : [0],
+  "undergroundParallax" : "colorfulcave.undergroundparallax",
+
+  "sky" : {
+    "topColor" : [182, 204, 255],
+    "bottomColor" : [224, 239, 255],
+    "nightTopColor" : [0, 0, 30],
+    "nightBottomColor" : [0, 0, 0]
+  },
+
+  "undergroundAmbientNoises" : {
+    "day" : {
+      "tracks" : [ "/sfx/environmental/desert_underground.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/sfx/environmental/desert_underground.ogg" ]
+    }
+  },
+
+  "undergroundMusicTrack" : {
+    "day" : {
+      "tracks" : [ "/music/epsilon-indi.ogg", "/music/hymn-to-the-stars.ogg", "/music/planetarium.ogg", "/music/procyon.ogg", "/music/stellarformation.ogg", "/music/vastimmortalsuns.ogg", "/music/atlas.ogg", "/music/blue-straggler.ogg", "/music/cygnus-x1.ogg", "/music/europa.ogg", "/music/haiku.ogg", "/music/M54.ogg", "/music/on-the-beach-at-night.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-Disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/M54.ogg", "/music/Nomads.ogg", "/music/on-the-beach-at-night.ogg" ]
+    }
+  },
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ "aridgrass" ],
+    "grassModDensity" : 0.3,
+
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:minibiomeChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "rainbowChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "wildneonmelonseed" ] ],
+            "parameters" : { "startingStage" : 2 }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 4.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseSmall",
+
+        "type" : "grass",
+        "grasses" : [ "colourfulflower" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseMedium",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "colourfulbush1" ], [0.35, "colourfulbush2" ], [0.35, "colourfulbush3" ], [0.35, "colourfulbush4" ], [0.35, "colourfulbush5" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseLarge",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "oasis" ]
+      }
+    ]
+  }
+}

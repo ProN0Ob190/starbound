@@ -1,0 +1,10 @@
+{
+  "codexId" : "huntslate",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "floranhuntinggroundsbook_15.png",
+  "itemName" : "huntslateCodex",
+  "rarity" : "common",
+  "description" : "A drawing etched on slate",
+  "shortdescription" : "Slate drawing"
+}

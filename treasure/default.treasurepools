@@ -1,0 +1,1489 @@
+{
+  "starterTreasure" : [
+    [0, {
+        "fill" : [
+          "beamaxe",
+          "flashlight",
+          [ "cornseed", 3],
+          [ "coalore", 3],
+          [ "generatedgun", 1, { "definition" : "commonassaultrifle" } ],
+          [ "generatedsword", 1, { "definition" : "crappybroadsword" } ]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+  "avianStarterTreasure" : [
+    [0, {
+        "fill" : [
+          "beamaxe",
+          "flashlight",
+          [ "torch", 10],
+          [ "feathercrownseed", 3],
+          [ "wheatseed", 3],
+          [ "avianstarter", 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+  "apexStarterTreasure" : [
+    [0, {
+        "fill" : [
+          "beamaxe",
+          "flashlight",
+          [ "torch", 10],
+          [ "bananaseed", 3],
+          [ "wheatseed", 3],
+          [ "apexstarter", 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+  "humanStarterTreasure" : [
+    [0, {
+        "fill" : [
+          "beamaxe",
+          "flashlight",
+          [ "torch", 10],
+          [ "cornseed", 3],
+          [ "wheatseed", 3],
+          [ "humanstarter", 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+  "glitchStarterTreasure" : [
+    [0, {
+        "fill" : [
+          "beamaxe",
+          "flashlight",
+          [ "torch", 10],
+          [ "boltbulbseed", 3],
+          [ "wheatseed", 3],
+          [ "glitchstarter", 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+  "hylotlStarterTreasure" : [
+    [0, {
+        "fill" : [
+          "beamaxe",
+          "flashlight",
+          [ "torch", 10],
+          [ "coralcreepseed", 3],
+          [ "wheatseed", 3],
+          [ "hylotlstarter", 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+  "floranStarterTreasure" : [
+    [0, {
+        "fill" : [
+          "beamaxe",
+          "flashlight",
+          [ "torch", 10],
+          [ "bonebooseed", 3],
+          [ "wheatseed", 3],
+          [ "floranstarter", 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+  "tombtreasure" : [
+    [1, {
+        "pool" : [
+
+          [0.10, [ "money", 50] ],
+          [0.10, [ "money", 25] ],
+          [0.10, [ "money", 75] ],
+          [0.10, [ "money", 125] ],
+          [0.10, [ "bookpiles", 5] ],
+          [0.10, [ "bookpiles", 3] ],
+          [0.10, [ "alienmeat", 2] ],
+          [0.10, [ "bone", 2] ],
+          [0.10, [ "bone", 1] ],
+          [0.10, [ "bone", 4] ],
+          [0.10, [ "silverbar", 4] ],
+          [0.10, [ "goldore", 4] ]
+        ],
+        "poolRounds" : [
+          [0.2, 0],
+          [0.4, 2],
+          [0.2, 3],
+          [0.2, 4]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "crappyWeapon" : [
+    [1, {
+        "pool" : [
+          [0.25, [ "generatedsword", 1, { "definition" : "crappybroadsword" } ] ],
+          [0.25, [ "generatedsword", 1, { "definition" : "crappyaxe" } ] ],
+          [0.25, [ "generatedsword", 1, { "definition" : "crappyspear" } ] ],
+          [0.25, [ "generatedsword", 1, { "definition" : "crappyhammer" } ] ]
+        ],
+        "poolRounds" : 1,
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ],
+    [2, {
+        "pool" : [
+          [0.25, [ "generatedsword", 1, { "definition" : "tier2broadsword" } ] ],
+          [0.25, [ "generatedsword", 1, { "definition" : "tier2axe" } ] ],
+          [0.25, [ "generatedsword", 1, { "definition" : "tier2spear" } ] ],
+          [0.25, [ "generatedsword", 1, { "definition" : "tier2dagger" } ] ],
+          [0.25, [ "generatedsword", 1, { "definition" : "tier2hammer" } ] ],
+          [0.25, [ "generatedsword", 1, { "definition" : "tier2shortsword" } ] ]
+        ],
+        "poolRounds" : 1,
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ],
+    [3, {
+        "pool" : [
+          [0.04, [ "generatedsword", 1, { "definition" : "commonbroadsword" } ] ],
+          [0.04, [ "generatedsword", 1, { "definition" : "commonaxe" } ] ],
+          [0.04, [ "generatedsword", 1, { "definition" : "commonspear" } ] ],
+          [0.04, [ "generatedsword", 1, { "definition" : "commonhammer" } ] ],
+          [0.04, [ "generatedsword", 1, { "definition" : "commondagger" } ] ],
+          [0.04, [ "generatedsword", 1, { "definition" : "commonshortsword" } ] ],
+          [0.04, [ "generatedshield", 1, { "definition" : "tierxshield" } ] ],
+
+          [0.02, [ "generatedsword", 1, { "definition" : "uncommonaxe" } ] ],
+          [0.02, [ "generatedsword", 1, { "definition" : "uncommonspear" } ] ],
+          [0.02, [ "generatedsword", 1, { "definition" : "uncommonhammer" } ] ],
+          [0.02, [ "generatedsword", 1, { "definition" : "uncommondagger" } ] ],
+          [0.02, [ "generatedsword", 1, { "definition" : "uncommonshortsword" } ] ],
+
+
+
+          [0.04, [ "generatedgun", 1, { "definition" : "commonassaultrifle" } ] ],
+          [0.04, [ "generatedgun", 1, { "definition" : "commonplasmaassaultrifle" } ] ],
+          [0.04, [ "generatedgun", 1, { "definition" : "commonshotgun" } ] ],
+          [0.04, [ "generatedgun", 1, { "definition" : "commonplasmashotgun" } ] ],
+          [0.04, [ "generatedgun", 1, { "definition" : "commonsniperrifle" } ] ],
+          [0.04, [ "generatedgun", 1, { "definition" : "commonplasmasniperrifle" } ] ],
+          [0.04, [ "generatedgun", 1, { "definition" : "commonpistol" } ] ],
+          [0.04, [ "generatedgun", 1, { "definition" : "commonplasmapistol" } ] ],
+          [0.04, [ "generatedgun", 1, { "definition" : "commonmachinepistol" } ] ],
+          [0.04, [ "generatedgun", 1, { "definition" : "commonplasmamachinepistol" } ] ],
+          [0.04, [ "generatedgun", 1, { "definition" : "commongrenadelauncher" } ] ],
+          [0.04, [ "generatedgun", 1, { "definition" : "commonrocketlauncher" } ] ],
+
+          [0.02, [ "generatedgun", 1, { "definition" : "uncommongrenadelauncher" } ] ],
+          [0.02, [ "generatedgun", 1, { "definition" : "uncommonassaultrifle" } ] ],
+          [0.02, [ "generatedgun", 1, { "definition" : "uncommonshotgun" } ] ],
+          [0.02, [ "generatedgun", 1, { "definition" : "uncommonsniperrifle" } ] ],
+          [0.02, [ "generatedgun", 1, { "definition" : "uncommonpistol" } ] ],
+          [0.02, [ "generatedgun", 1, { "definition" : "uncommonmachinepistol" } ] ],
+          [0.02, [ "generatedgun", 1, { "definition" : "uncommonrocketlauncher" } ] ],
+
+          [0.01, [ "generatedgun", 1, { "definition" : "rareassaultrifle" } ] ],
+          [0.01, [ "generatedgun", 1, { "definition" : "rareplasmaassaultrifle" } ] ],
+          [0.01, [ "generatedgun", 1, { "definition" : "rareshotgun" } ] ],
+          [0.01, [ "generatedgun", 1, { "definition" : "rareplasmashotgun" } ] ],
+          [0.01, [ "generatedgun", 1, { "definition" : "raresniperrifle" } ] ],
+          [0.01, [ "generatedgun", 1, { "definition" : "rareplasmasniperrifle" } ] ],
+          [0.01, [ "generatedgun", 1, { "definition" : "rarepistol" } ] ],
+          [0.01, [ "generatedgun", 1, { "definition" : "rareplasmapistol" } ] ],
+          [0.01, [ "generatedgun", 1, { "definition" : "raremachinepistol" } ] ],
+          [0.01, [ "generatedgun", 1, { "definition" : "rareplasmamachinepistol" } ] ],
+          [0.01, [ "generatedgun", 1, { "definition" : "rareplasmamachinepistol" } ] ],
+          [0.01, [ "generatedgun", 1, { "definition" : "raregrenadelauncher" } ] ],
+          [0.01, [ "generatedgun", 1, { "definition" : "rarerocketlauncher" } ] ],
+
+          [0.005, [ "generatedgun", 1, { "definition" : "legendarygrenadelauncher" } ] ],
+          [0.005, [ "generatedgun", 1, { "definition" : "legendaryassaultrifle" } ] ],
+          [0.005, [ "generatedgun", 1, { "definition" : "legendaryshotgun" } ] ],
+          [0.005, [ "generatedgun", 1, { "definition" : "legendarysniperrifle" } ] ],
+          [0.005, [ "generatedgun", 1, { "definition" : "legendarypistol" } ] ],
+          [0.005, [ "generatedgun", 1, { "definition" : "legendarymachinepistol" } ] ],
+          [0.005, [ "generatedgun", 1, { "definition" : "legendaryrocketlauncher" } ] ]
+        ],
+        "poolRounds" : 1,
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+  "eyeTreasure" : [
+    [1, {
+        "pool" : [
+          [0.02, [ "money", 25] ],
+          [0.03, [ "money", 100] ],
+          [0.05, "medkit" ],
+          [0.05, [ "torch", 10] ],
+          [0.02, [ "flare", 5] ],
+          [0.02, [ "eyeballhead", 1] ],
+          [0.03, [ "plantfibre", 10] ],
+          [0.02, [ "alienmeat", 2] ],
+          [0.06, "eyebed-recipe" ],
+          [0.05, "eyechair-recipe" ],
+          [0.06, "eyechest-recipe" ],
+          [0.05, "eyedoor-recipe" ],
+          [0.06, "eyetable-recipe" ],
+          [0.04, "eyehead-recipe" ],
+          [0.04, "eyeback" ],
+          [0.03, [ "generatedsword", 1, { "definition" : "eyeaxe" } ] ],
+          [0.03, [ "generatedshield", 1, { "definition" : "eyeshield" } ] ]
+        ],
+        "poolRounds" : [
+          [0.5, 1],
+          [0.5, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "toxicTreasure" : [
+    [1, {
+        "pool" : [
+          [0.03, [ "money", 25] ],
+          [0.05, [ "money", 100] ],
+          [0.05, "medkit" ],
+          [0.02, [ "torch", 10] ],
+          [0.03, [ "flare", 5] ],
+          [0.01, [ "plantfibre", 10] ],
+          [0.02, [ "alienmeat", 2] ],
+          [0.05, "toxicchair-recipe" ],
+          [0.05, "toxicchest-recipe" ],
+          [0.05, "toxiclamp1-recipe" ],
+          [0.05, "toxiclamp2-recipe" ],
+          [0.05, "toxictable-recipe" ],
+          [0.04, "toxicflowerback" ],
+          [0.03, [ "generatedsword", 1, { "definition" : "toxicbroadsword" } ] ]
+        ],
+        "poolRounds" : [
+          [0.5, 1],
+          [0.5, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "geometricTreasure" : [
+    [1, {
+        "pool" : [
+          [0.03, [ "money", 25] ],
+          [0.05, [ "money", 100] ],
+          [0.05, "medkit" ],
+          [0.03, [ "torch", 10] ],
+          [0.02, [ "flare", 5] ],
+          [0.02, [ "plantfibre", 10] ],
+          [0.02, [ "alienmeat", 2] ],
+          [0.05, "geometricchair-recipe" ],
+          [0.05, "geometricchest-recipe" ],
+          [0.05, "geometricbed-recipe" ],
+          [0.05, "geometricscreen-recipe" ],
+          [0.05, "geometrictable-recipe" ]
+        ],
+        "poolRounds" : [
+          [0.5, 1],
+          [0.5, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "icesphereTreasure" : [
+    [1, {
+        "pool" : [
+          [0.03, [ "money", 25] ],
+          [0.05, [ "money", 100] ],
+          [0.05, "medkit" ],
+          [0.03, [ "torch", 10] ],
+          [0.02, [ "flare", 5] ],
+          [0.01, [ "plantfibre", 10] ],
+          [0.02, [ "alienmeat", 2] ],
+          [0.2, "snowglobe1" ],
+          [0.2, "snowglobe2" ]
+        ],
+        "poolRounds" : [
+          [0.5, 1],
+          [0.5, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "rustTreasure" : [
+    [1, {
+        "pool" : [
+          [0.03, [ "money", 25] ],
+          [0.05, [ "money", 100] ],
+          [0.05, "medkit" ],
+          [0.03, [ "torch", 10] ],
+          [0.02, [ "flare", 5] ],
+          [0.02, [ "plantfibre", 10] ],
+          [0.02, [ "alienmeat", 2] ],
+          [0.05, "rustchair-recipe" ],
+          [0.05, "rustbed-recipe" ],
+          [0.05, "rustchest-recipe" ],
+          [0.05, "rustdoor-recipe" ],
+          [0.05, "rusttable-recipe" ],
+          [0.03, [ "generatedsword", 1, { "definition" : "rustsword" } ] ]
+        ],
+        "poolRounds" : [
+          [0.5, 1],
+          [0.5, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "crystalTreasure" : [
+    [1, {
+        "pool" : [
+          [0.03, [ "money", 25] ],
+          [0.05, [ "money", 100] ],
+          [0.05, "medkit" ],
+          [0.05, [ "torch", 10] ],
+          [0.03, [ "flare", 5] ],
+          [0.02, [ "plantfibre", 10] ],
+          [0.02, [ "alienmeat", 2] ],
+          [0.05, "crystalbed-recipe" ],
+          [0.05, "crystalchair-recipe" ],
+          [0.05, "crystalchest-recipe" ],
+          [0.05, "crystallamp-recipe" ],
+          [0.05, "crystaltable-recipe" ],
+          [0.03, "crystalbackpackback" ],
+          [0.03, [ "generatedsword", 1, { "definition" : "crystalspear" } ] ]
+        ],
+        "poolRounds" : [
+          [0.5, 1],
+          [0.5, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "cellTreasure" : [
+    [1, {
+        "pool" : [
+          [0.05, "cellchair-recipe" ],
+          [0.05, "celltable-recipe" ],
+          [0.05, "celldoor-recipe" ],
+          [0.05, "celllamp-recipe" ],
+          [0.05, "cellchest-recipe" ]
+        ],
+        "poolRounds" : [
+          [0.5, 1],
+          [0.5, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "sandstoneTreasure" : [
+    [1, {
+        "pool" : [
+          [0.03, [ "money", 25] ],
+          [0.05, [ "money", 100] ],
+          [0.05, "medkit" ],
+          [0.03, [ "torch", 10] ],
+          [0.02, [ "flare", 5] ],
+          [0.02, [ "plantfibre", 10] ],
+          [0.02, [ "alienmeat", 2] ],
+          [0.05, "sandstonebed-recipe" ],
+          [0.05, "sandstonechair-recipe" ],
+          [0.05, "sandstonechest-recipe" ],
+          [0.05, "sandstonedoor-recipe" ],
+          [0.05, "sandstonetable-recipe" ],
+          [0.05, "sandstonetorch-recipe" ]
+        ],
+        "poolRounds" : [
+          [0.5, 1],
+          [0.5, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "boneTreasure" : [
+    [1, {
+        "pool" : [
+          [0.03, [ "money", 25] ],
+          [0.05, [ "money", 100] ],
+          [0.05, "medkit" ],
+          [0.02, [ "torch", 10] ],
+          [0.02, [ "flare", 5] ],
+          [0.02, [ "plantfibre", 10] ],
+          [0.02, [ "alienmeat", 2] ],
+          [0.05, "bonebed-recipe" ],
+          [0.05, "bonechair-recipe" ],
+          [0.05, "bonechest-recipe" ],
+          [0.05, "bonedoor-recipe" ],
+          [0.05, "bonetable-recipe" ],
+          [0.03, [ "generatedsword", 1, { "definition" : "bonesword" } ] ]
+        ],
+        "poolRounds" : [
+          [0.5, 1],
+          [0.5, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "iceTreasure" : [
+    [1, {
+        "pool" : [
+          [0.03, [ "money", 25] ],
+          [0.05, [ "money", 100] ],
+          [0.05, "medkit" ],
+          [0.02, [ "torch", 10] ],
+          [0.03, [ "flare", 5] ],
+          [0.02, [ "plantfibre", 10] ],
+          [0.02, [ "alienmeat", 2] ],
+          [0.05, "icebed-recipe" ],
+          [0.05, "icechair-recipe" ],
+          [0.05, "icechest-recipe" ],
+          [0.05, "icedoor-recipe" ],
+          [0.05, "icetable-recipe" ]
+        ],
+        "poolRounds" : 1,
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+  "rainbowTreasure" : [
+    [1, {
+        "pool" : [
+          [0.03, [ "money", 25] ],
+          [0.05, [ "money", 100] ],
+          [0.05, "medkit" ],
+          [0.02, [ "torch", 10] ],
+          [0.02, [ "flare", 5] ],
+          [0.02, [ "plantfibre", 10] ],
+          [0.01, [ "alienmeat", 2] ],
+          [0.05, "rainbowbed-recipe" ],
+          [0.05, "rainbowchair-recipe" ],
+          [0.05, "rainbowchest-recipe" ],
+          [0.05, "rainbowdoor-recipe" ],
+          [0.03, "rainbowpainting-recipe" ],
+          [0.05, "rainbowtable-recipe" ],
+          [0.02, "rainbowunicornstatue-recipe" ],
+          [0.02, "rainbowcapeback" ],
+          [0.02, "rainbowhoodhead" ],
+          [0.02, "bubblegun" ],
+          [0.02, [ "generatedsword", 1, { "definition" : "rainbowspear" } ] ]
+        ],
+        "poolRounds" : 1,
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+  "mushroomTreasure" : [
+    [1, {
+        "pool" : [
+          [0.03, [ "money", 25] ],
+          [0.05, [ "money", 100] ],
+          [0.05, "medkit" ],
+          [0.02, [ "torch", 10] ],
+          [0.02, [ "flare", 5] ],
+          [0.02, [ "plantfibre", 10] ],
+          [0.02, [ "alienmeat", 2] ],
+          [0.05, "shroombed-recipe" ],
+          [0.05, "shroomchair-recipe" ],
+          [0.05, "shroomchest-recipe" ],
+          [0.05, "shroomdoor-recipe" ],
+          [0.05, "shroomlamp-recipe" ],
+          [0.05, "shroomtable-recipe" ],
+          [0.04, "mushroomhead-recipe" ],
+          [0.03, [ "generatedsword", 1, { "definition" : "mushroomsword" } ] ],
+          [0.03, [ "generatedshield", 1, { "definition" : "mushroomshield" } ] ]
+        ],
+        "poolRounds" : [
+          [0.5, 1],
+          [0.5, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "giantflowerTreasure" : [
+    [1, {
+        "pool" : [
+          [0.03, [ "money", 25] ],
+          [0.05, [ "money", 100] ],
+          [0.05, "medkit" ],
+          [0.02, [ "torch", 10] ],
+          [0.02, [ "flare", 5] ],
+          [0.01, [ "plantfibre", 10] ],
+          [0.01, [ "alienmeat", 2] ],
+          [0.05, "giantflowerbed-recipe" ],
+          [0.05, "giantflowerchair-recipe" ],
+          [0.05, "giantflowerchest-recipe" ],
+          [0.05, "giantflowerdoor-recipe" ],
+          [0.05, "giantflowerlamp-recipe" ],
+          [0.05, "giantflowertable-recipe" ]
+        ],
+        "poolRounds" : [
+          [0.5, 1],
+          [0.5, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+
+  "fleshTreasure" : [
+    [1, {
+        "pool" : [
+          [0.06, [ "money", 25] ],
+          [0.05, [ "money", 100] ],
+          [0.05, "medkit" ],
+          [0.05, [ "torch", 10] ],
+          [0.05, [ "flare", 5] ],
+          [0.05, [ "plantfibre", 10] ],
+          [0.05, [ "alienmeat", 2] ],
+          [0.05, "fleshchair-recipe" ],
+          [0.05, "fleshchest-recipe" ],
+          [0.05, "fleshdoor-recipe" ],
+          [0.05, "fleshtable-recipe" ]
+        ],
+        "poolRounds" : [
+          [0.5, 1],
+          [0.5, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "abandonedminesTreasure" : [
+    [1, {
+        "pool" : [
+          [0.55, [ "money", 45] ],
+          [0.65, [ "money", 25] ],
+          [0.35, [ "money", 42] ],
+          [0.25, [ "money", 62] ],
+          [0.35, [ "money", 22] ],
+          [0.44, [ "bomb", 4] ],
+          [0.44, [ "bomb", 1] ],
+          [0.44, [ "oillantern1", 2] ]
+        ],
+        "poolRounds" : [
+          [0.5, 1],
+          [0.5, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "techTreasure" : [
+
+    [1, {
+        "pool" : [
+          [0.33, [ "doublejumpTech-chip", 1] ],
+          [0.33, [ "dashTech-chip", 1] ]
+        ],
+        "poolRounds" : [
+          [1.0, 1]
+
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ],
+
+
+    [2, {
+        "pool" : [
+          [0.33, [ "doublejumpTech-chip", 1] ],
+          [0.33, [ "dashTech-chip", 1] ],
+          [0.33, [ "hoverTech-chip", 1] ],
+          [0.33, [ "rocketjump-chip", 1] ],
+          [0.33, [ "morphballTech-chip", 1] ],
+          [0.33, [ "jetpackTech-chip", 1] ],
+          [0.33, [ "butterflyboost-chip", 1] ]
+
+        ],
+        "poolRounds" : [
+          [1.0, 1]
+
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ],
+
+    [3, {
+        "pool" : [
+          [0.33, [ "humanMechTech-chip", 1] ],
+          [0.33, [ "targetblinktech-chip", 1] ],
+          [0.33, [ "bubbleboost-chip", 1] ],
+          [0.33, [ "doublejumpTech-chip", 1] ],
+          [0.33, [ "dashTech-chip", 1] ],
+          [0.33, [ "hoverTech-chip", 1] ],
+          [0.33, [ "rocketjump-chip", 1] ],
+          [0.33, [ "morphballTech-chip", 1] ],
+          [0.33, [ "jetpackTech-chip", 1] ],
+          [0.33, [ "butterflyboost-chip", 1] ]
+        ],
+        "poolRounds" : [
+          [1.0, 1]
+
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+  "potreasure" : [
+    [1, {
+        "pool" : [
+          [0.5, [ "money", 25] ],
+          [0.5, [ "poop", 1] ]
+
+
+
+        ],
+        "poolRounds" : [
+          [0.35, 0],
+          [0.65, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+  "royaltreasure" : [
+    [1, {
+        "pool" : [
+          [0.06, [ "money", 125] ],
+          [0.08, [ "money", 185] ],
+          [0.10, [ "money", 90] ],
+          [0.15, [ "money", 215] ],
+          [0.03, [ "money", 80] ],
+          [0.05, [ "money", 33] ],
+          [0.05, [ "redstim", 1] ],
+          [0.05, [ "bluestim", 1] ],
+          [0.08, [ "yellowstim", 1] ],
+          [0.08, [ "goldbar", 4] ],
+          [0.08, [ "generatedshield", 1, { "definition" : "glitchlordshield" } ] ],
+          [0.08, [ "wizardback", 1] ],
+          [0.08, [ "wizardhead", 1] ],
+          [0.08, [ "wizardchest", 1] ],
+          [0.08, [ "wizardlegs", 1] ]
+
+        ],
+        "poolRounds" : [
+          [0.25, 2],
+          [0.25, 3],
+          [0.25, 4],
+          [0.25, 5]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+  "stimtreasure" : [
+    [1, {
+        "pool" : [
+          [0.02, [ "money", 125] ],
+          [0.05, [ "money", 85] ],
+          [0.10, [ "money", 40] ],
+          [0.15, [ "money", 15] ],
+          [0.03, [ "money", 3] ],
+          [0.03, [ "money", 1] ],
+          [0.3, [ "redstim", 1] ],
+          [0.3, [ "bluestim", 1] ],
+          [0.2, [ "yellowstim", 1] ]
+        ],
+        "poolRounds" : [
+          [0.25, 0],
+          [0.25, 3],
+          [0.25, 4],
+          [0.25, 5]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+  "vendingtreasure" : [
+    [1, {
+        "pool" : [
+          [0.1, [ "cannedfood", 1] ]
+        ],
+        "poolRounds" : [
+          [0.5, 0],
+          [0.5, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+  //npc drops
+
+  "banditTreasure" : [
+    [1, {
+        "pool" : [
+          [0.15, [ "money", 35] ],
+          [0.15, [ "money", 20] ],
+          [0.15, [ "money", 5] ],
+          [0.08, "bandithat1" ],
+          [0.08, "bandithat2" ],
+          [0.012, "whiskeyflask" ],
+          [0.04, [ "bomb", 3] ]
+        ],
+        "poolRounds" : 2,
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+
+
+  "boss1Treasure" : [
+    [1, {
+        "fill" : [["moltencore", 5], "bossdreadwingCodex"]
+      } ]
+  ],
+
+  "boss2Treasure" : [
+    [1, {
+        "fill" : [["processor", 5], "bossfatalcircuitCodex"]
+      } ]
+  ],
+
+  "boss3Treasure" : [
+    [1, {
+        "fill" : [["dragonbone", 5], "bossbonedragonCodex"]
+      } ]
+  ],
+
+  "boss4Treasure" : [
+    [1, {
+        "fill" : [["endomorphicjelly", 5], "bossjellyCodex"]
+      } ]
+  ],
+
+  "bunkerSerpentDroidTreasure" : [
+    [1, {
+        "pool" : [
+          [0.02, [ "money", 50] ],
+          [0.05, [ "money", 25] ],
+          [0.10, [ "money", 15] ],
+          [0.15, [ "money", 10] ],
+          [0.25, [ "money", 5] ],
+          [0.3, [ "money", 3] ],
+          [0.03, [ "circuitboard", 1] ],
+          [0.03, [ "wire", 1] ],
+          [0.02, [ "wire", 2] ],
+          [0.01, [ "wire", 3] ],
+          [0.02, [ "laserdiode" ] ],
+          [0.02, [ "generatedgun", 1, { "definition" : "commonplasmapistol" } ] ]
+
+        ],
+        "poolRounds" : [
+          [0.5, 0],
+          [0.5, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+  "bunkerRepairBotTreasure" : [
+    [1, {
+        "pool" : [
+          [0.02, [ "money", 50] ],
+          [0.05, [ "money", 25] ],
+          [0.10, [ "money", 15] ],
+          [0.15, [ "money", 10] ],
+          [0.25, [ "money", 5] ],
+          [0.3, [ "money", 3] ],
+          [0.05, [ "medkit" ] ],
+          [0.03, [ "circuitboard", 1] ],
+          [0.03, [ "wire", 1] ],
+          [0.015, [ "wire", 2] ],
+          [0.005, [ "cardboardhead" ] ]
+        ],
+        "poolRounds" : [
+          [0.5, 0],
+          [0.5, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+  "bunkerCleaningBotTreasure" : [
+    [1, {
+        "pool" : [
+          [0.02, [ "money", 25] ],
+          [0.05, [ "money", 15] ],
+          [0.10, [ "money", 10] ],
+          [0.15, [ "money", 5] ],
+          [0.3, [ "money", 3] ],
+          [0.3, [ "money", 1] ],
+          [0.02, [ "circuitboard", 1] ],
+          [0.04, [ "wire", 1] ],
+          [0.02, [ "wire", 2] ]
+        ],
+        "poolRounds" : [
+          [0.5, 0],
+          [0.5, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+  "avianVillageLore" : [
+    [1, {
+        "pool" : [
+          [0.08, [ "childrenofkluexCodex", 1] ],
+          [0.08, [ "groundeddoctrineCodex", 1] ],
+          [0.08, [ "kluexcommandsCodex", 1] ],
+          [0.08, [ "kluexdelusion01Codex", 1] ],
+          [0.08, [ "kluexdelusion02Codex", 1] ],
+          [0.08, [ "kluexdelusion03Codex", 1] ],
+          [0.08, [ "kluexdelusion04Codex", 1] ],
+          [0.08, [ "kluexdelusion05Codex", 1] ],
+          [0.08, [ "lasladiary01Codex", 1] ],
+          [0.08, [ "lasladiary02Codex", 1] ],
+          [0.08, [ "lasladiary03Codex", 1] ],
+          [0.01, [ "poachedavesmingo-recipe", 1] ],
+          [0.01, [ "spicyfeathercrown-recipe", 1] ],
+          [0.01, [ "wartweedstew-recipe", 1] ],
+          [0.02, [ "curriedbeakseed-recipe", 1] ],
+          [0.03, [ "eggshootsalad-recipe", 1] ],
+          [0.03, [ "pearlpeaparcels-recipe", 1] ],
+          [0.03, [ "cornpeckers-recipe", 1] ],
+          [0.04, [ "boiledpearlpeas-recipe", 1] ],
+          [0.03, [ "crowncake-recipe", 1] ],
+          [0.03, [ "candiedcorn-recipe", 1] ],
+          [0.02, [ "pearlpeapancakes-recipe", 1] ],
+          [0.03, [ "carrotbread-recipe", 1] ],
+          [0.08, [ "notesfromthegroundCodex", 1] ],
+          [0.08, [ "progenitorsCodex", 1] ],
+          [0.08, [ "thefallCodex", 1] ],
+          [0.08, [ "villageprayerCodex", 1] ],
+          [0.15, [ "money", 5] ],
+          [0.45, [ "bookpiles", 5] ],
+          [0.45, [ "bookpiles", 3] ],
+          [0.15, [ "alienmeat", 2] ]
+        ],
+        "poolRounds" : [
+          [0.1, 0],
+          [0.5, 1],
+          [0.1, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "avianTempleLore" : [
+    [1, {
+        "pool" : [
+          [0.08, [ "ancientprayerCodex", 1] ],
+          [0.08, [ "avianhistoryCodex", 1] ],
+          [0.08, [ "clippedcouncilCodex", 1] ],
+          [0.08, [ "excommunicationCodex", 1] ],
+          [0.08, [ "flightlessmandateCodex", 1] ],
+          [0.08, [ "modernprayerCodex", 1] ],
+          [0.08, [ "natureofsacrificeCodex", 1] ],
+          [0.08, [ "notefrompilotCodex", 1] ],
+          [0.08, [ "rudeawakeningCodex", 1] ],
+          [0.08, [ "speciesandgodsCodex", 1] ],
+          [0.08, [ "templecoraleCodex", 1] ],
+          [0.08, [ "writingoftextsCodex", 1] ],
+          [0.02, [ "pearlpeaparcels-recipe", 1] ],
+          [0.02, [ "crowncake-recipe", 1] ],
+          [0.02, [ "poachedavesmingo-recipe", 1] ],
+          [0.02, [ "cornpeckers-recipe", 1] ],
+          [0.15, [ "money", 5] ],
+          [0.45, [ "bookpiles", 5] ],
+          [0.45, [ "bookpiles", 3] ],
+          [0.15, [ "alienmeat", 2] ]
+        ],
+        "poolRounds" : [
+          [0.1, 0],
+          [0.5, 1],
+          [0.1, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "avianTombLore" : [
+    [1, {
+        "pool" : [
+          [0.08, [ "avianburialsCodex", 1] ],
+          [0.08, [ "tombdiary01Codex", 1] ],
+          [0.08, [ "tombdiary02Codex", 1] ],
+          [0.08, [ "tombdiary03Codex", 1] ],
+          [0.08, [ "tombdiary04Codex", 1] ],
+          [0.08, [ "tombdiary05Codex", 1] ],
+          [0.08, [ "tombwordsCodex", 1] ],
+          [0.08, [ "avianafterlifeCodex", 1] ],
+          [0.08, [ "aviantraditionsCodex", 1] ],
+          [0.08, [ "aviantombkeepersCodex", 1] ],
+          [0.08, [ "sunborncorpsesCodex", 1] ],
+          [0.08, [ "trappedtombCodex", 1] ],
+          [0.02, [ "pearlpeaparcels-recipe", 1] ],
+          [0.02, [ "crowncake-recipe", 1] ],
+          [0.02, [ "poachedavesmingo-recipe", 1] ],
+          [0.02, [ "cornpeckers-recipe", 1] ],
+          [0.15, [ "money", 5] ],
+          [0.45, [ "bookpiles", 5] ],
+          [0.45, [ "bookpiles", 3] ],
+          [0.15, [ "alienmeat", 2] ]
+        ],
+        "poolRounds" : [
+          [0.1, 0],
+          [0.5, 1],
+          [0.1, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "avianAirshipLore" : [
+    [1, {
+        "pool" : [
+          [0.08, [ "shipairshantyCodex", 1] ],
+          [0.08, [ "shipmechanic01Codex", 1] ],
+          [0.08, [ "shipmechanic02Codex", 1] ],
+          [0.08, [ "shipmechanic03Codex", 1] ],
+          [0.08, [ "shipmechanic04Codex", 1] ],
+          [0.08, [ "shipmechanic05Codex", 1] ],
+          [0.08, [ "shipmechanic06Codex", 1] ],
+          [0.08, [ "shipfightflightCodex", 1] ],
+          [0.08, [ "shipheroCodex", 1] ],
+          [0.08, [ "shipironavianCodex", 1] ],
+          [0.08, [ "shipmaldiaryCodex", 1] ],
+          [0.08, [ "shippowercrystalsCodex", 1] ],
+          [0.08, [ "shipseasickCodex", 1] ],
+          [0.01, [ "eggshootsalad-recipe", 1] ],
+          [0.03, [ "spicyfeathercrown-recipe", 1] ],
+          [0.02, [ "cornpeckers-recipe", 1] ],
+          [0.15, [ "money", 5] ],
+          [0.45, [ "bookpiles", 5] ],
+          [0.45, [ "bookpiles", 3] ],
+          [0.15, [ "alienmeat", 2] ]
+        ],
+        "poolRounds" : [
+          [0.1, 0],
+          [0.5, 1],
+          [0.1, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "avianTowerLore" : [
+    [1, {
+        "pool" : [
+          [0.08, [ "towerascendant01Codex", 1] ],
+          [0.08, [ "towerascendant02Codex", 1] ],
+          [0.08, [ "towerascendant03Codex", 1] ],
+          [0.08, [ "towerascendant04Codex", 1] ],
+          [0.08, [ "towerascendant05Codex", 1] ],
+          [0.08, [ "towerascendant06Codex", 1] ],
+          [0.08, [ "towerascendant07Codex", 1] ],
+          [0.08, [ "towerascendant08Codex", 1] ],
+          [0.08, [ "towerascendant09Codex", 1] ],
+          [0.08, [ "towerascendant10Codex", 1] ],
+          [0.08, [ "towerbeverageCodex", 1] ],
+          [0.08, [ "towerresultsCodex", 1] ],
+          [0.02, [ "pearlpeaparcels-recipe", 1] ],
+          [0.01, [ "cornpeckers-recipe", 1] ],
+          [0.02, [ "eggshootsalad-recipe", 1] ],
+          [0.02, [ "boiledpearlpeas-recipe", 1] ],
+          [0.15, [ "money", 5] ],
+          [0.45, [ "bookpiles", 5] ],
+          [0.45, [ "bookpiles", 3] ],
+          [0.15, [ "alienmeat", 2] ]
+        ],
+        "poolRounds" : [
+          [0.1, 0],
+          [0.5, 1],
+          [0.1, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "apexTestLore" : [
+    [1, {
+        "pool" : [
+          [0.08, [ "testincarcerus01Codex", 1] ],
+          [0.08, [ "testincarcerus02Codex", 1] ],
+          [0.08, [ "testincarcerus03Codex", 1] ],
+          [0.08, [ "testincarcerus04Codex", 1] ],
+          [0.08, [ "testincarcerus05Codex", 1] ],
+          [0.08, [ "testincarcerus06Codex", 1] ],
+          [0.08, [ "testincarcerus07Codex", 1] ],
+          [0.08, [ "testincarcerus08Codex", 1] ],
+          [0.08, [ "testincarcerus09Codex", 1] ],
+          [0.08, [ "testincarcerus10Codex", 1] ],
+          [0.08, [ "testincarcerus11Codex", 1] ],
+          [0.08, [ "testapechantCodex", 1] ],
+          [0.08, [ "testlooseendsCodex", 1] ],
+          [0.02, [ "apegrapes-recipe", 1] ],
+          [0.02, [ "fruitsalad-recipe", 1] ],
+          [0.02, [ "luckydip-recipe", 1] ],
+          [0.01, [ "roastbanana-recipe", 1] ],
+          [0.15, [ "money", 5] ],
+          [0.45, [ "bookpiles", 5] ],
+          [0.45, [ "bookpiles", 3] ],
+          [0.15, [ "alienmeat", 2] ]
+        ],
+        "poolRounds" : [
+          [0.1, 0],
+          [0.5, 1],
+          [0.1, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "apexLabLore" : [
+    [1, {
+        "pool" : [
+          [0.08, [ "labblog01Codex", 1] ],
+          [0.08, [ "labblog02Codex", 1] ],
+          [0.08, [ "labblog03Codex", 1] ],
+          [0.08, [ "labblog04Codex", 1] ],
+          [0.08, [ "labblog05Codex", 1] ],
+          [0.08, [ "labblog06Codex", 1] ],
+          [0.08, [ "labblog07Codex", 1] ],
+          [0.08, [ "labblog08Codex", 1] ],
+          [0.08, [ "labblog09Codex", 1] ],
+          [0.08, [ "labblog10Codex", 1] ],
+          [0.08, [ "labannoyanceCodex", 1] ],
+          [0.08, [ "labnoteCodex", 1] ],
+          [0.02, [ "avesmingoicecream-recipe", 1] ],
+          [0.02, [ "fishfingers-recipe", 1] ],
+          [0.02, [ "roastdinner-recipe", 1] ],
+          [0.02, [ "bananacon-recipe", 1] ],
+          [0.03, [ "batteredbanana-recipe", 1] ],
+          [0.02, [ "luckydip-recipe", 1] ],
+          [0.01, [ "bananacreampie-recipe", 1] ],
+          [0.02, [ "bananabread-recipe", 1] ],
+          [0.15, [ "money", 5] ],
+          [0.45, [ "bookpiles", 5] ],
+          [0.45, [ "bookpiles", 3] ],
+          [0.15, [ "alienmeat", 2] ]
+        ],
+        "poolRounds" : [
+          [0.1, 0],
+          [0.5, 1],
+          [0.1, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "apexTownLore" : [
+    [1, {
+        "pool" : [
+          [0.08, [ "townadvertCodex", 1] ],
+          [0.08, [ "townbigapeCodex", 1] ],
+          [0.08, [ "towncaseapexCodex", 1] ],
+          [0.08, [ "townfolkCodex", 1] ],
+          [0.08, [ "townfriendsCodex", 1] ],
+          [0.08, [ "townheadlineCodex", 1] ],
+          [0.08, [ "townminutesCodex", 1] ],
+          [0.08, [ "townpleasantCodex", 1] ],
+          [0.08, [ "townposterCodex", 1] ],
+          [0.08, [ "townproblemsCodex", 1] ],
+          [0.08, [ "townresistanceCodex", 1] ],
+          [0.08, [ "townrhymeCodex", 1] ],
+          [0.08, [ "townsillyCodex", 1] ],
+          [0.03, [ "fishfingers-recipe", 1] ],
+          [0.04, [ "roastdinner-recipe", 1] ],
+          [0.02, [ "bananacon-recipe", 1] ],
+          [0.02, [ "batteredbanana-recipe", 1] ],
+          [0.03, [ "apegrapes-recipe", 1] ],
+          [0.02, [ "fruitsalad-recipe", 1] ],
+          [0.03, [ "avesmingoicecream-recipe", 1] ],
+          [0.03, [ "bananasplit-recipe", 1] ],
+          [0.03, [ "bananacreampie-recipe", 1] ],
+          [0.03, [ "bananabread-recipe", 1] ],
+          [0.03, [ "luckydip-recipe", 1] ],
+          [0.02, [ "roastbanana", 1] ],
+          [0.15, [ "money", 5] ],
+          [0.45, [ "bookpiles", 5] ],
+          [0.45, [ "bookpiles", 3] ],
+          [0.15, [ "alienmeat", 2] ]
+        ],
+        "poolRounds" : [
+          [0.1, 0],
+          [0.5, 1],
+          [0.1, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "floranHellLore" : [
+    [1, {
+        "pool" : [
+          [0.08, [ "helljournal01Codex", 1] ],
+          [0.08, [ "helljournal02Codex", 1] ],
+          [0.08, [ "helljournal03Codex", 1] ],
+          [0.08, [ "helljournal04Codex", 1] ],
+          [0.08, [ "helljournal05Codex", 1] ],
+          [0.08, [ "helljournal06Codex", 1] ],
+          [0.08, [ "helljournal07Codex", 1] ],
+          [0.08, [ "helljournal08Codex", 1] ],
+          [0.08, [ "helllogCodex", 1] ],
+          [0.08, [ "helldrysap01Codex", 1] ],
+          [0.08, [ "helldrysap02Codex", 1] ],
+          [0.08, [ "hellnoteCodex", 1] ],
+          [0.08, [ "hellbiologyCodex", 1] ],
+          [0.03, [ "sweetmeat-recipe", 1] ],
+          [0.01, [ "pussplumpie-recipe", 1] ],
+          [0.02, [ "burningeyeballs-recipe", 1] ],
+          [0.02, [ "hotbone-recipe", 1] ],
+          [0.15, [ "money", 5] ],
+          [0.45, [ "bookpiles", 5] ],
+          [0.45, [ "bookpiles", 3] ],
+          [0.15, [ "alienmeat", 2] ]
+        ],
+        "poolRounds" : [
+          [0.1, 0],
+          [0.5, 1],
+          [0.1, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "floranHuntLore" : [
+    [1, {
+        "pool" : [
+          [0.08, [ "huntslateCodex", 1] ],
+          [0.08, [ "huntart01Codex", 1] ],
+          [0.08, [ "huntart02Codex", 1] ],
+          [0.08, [ "huntart03Codex", 1] ],
+          [0.08, [ "huntart04Codex", 1] ],
+          [0.08, [ "huntart05Codex", 1] ],
+          [0.08, [ "huntnote01Codex", 1] ],
+          [0.08, [ "huntnote02Codex", 1] ],
+          [0.08, [ "huntnote03Codex", 1] ],
+          [0.08, [ "huntnote04Codex", 1] ],
+          [0.08, [ "hunttrial01Codex", 1] ],
+          [0.08, [ "hunttrial02Codex", 1] ],
+          [0.08, [ "hunttrial03Codex", 1] ],
+          [0.08, [ "hunttrial04Codex", 1] ],
+          [0.08, [ "hunttrial05Codex", 1] ],
+          [0.03, [ "thespecial-recipe", 1] ],
+          [0.01, [ "meatwich-recipe", 1] ],
+          [0.02, [ "meatandmarrow-recipe", 1] ],
+          [0.02, [ "oculemonstew-recipe", 1] ],
+          [0.03, [ "offal-recipe", 1] ],
+          [0.15, [ "money", 5] ],
+          [0.45, [ "bookpiles", 5] ],
+          [0.45, [ "bookpiles", 3] ],
+          [0.15, [ "alienmeat", 2] ]
+        ],
+        "poolRounds" : [
+          [0.1, 0],
+          [0.5, 1],
+          [0.1, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "floranVillageLore" : [
+    [1, {
+        "pool" : [
+          [0.08, [ "florviljournal01Codex", 1] ],
+          [0.08, [ "florviljournal02Codex", 1] ],
+          [0.08, [ "florvilteachingCodex", 1] ],
+          [0.08, [ "florvilwordsCodex", 1] ],
+          [0.08, [ "florvilarchitectCodex", 1] ],
+          [0.08, [ "florvilbanCodex", 1] ],
+          [0.08, [ "florvilbookCodex", 1] ],
+          [0.08, [ "florvildrawingCodex", 1] ],
+          [0.08, [ "florvilguestsCodex", 1] ],
+          [0.08, [ "florvilpeaceCodex", 1] ],
+          [0.08, [ "florvilprintCodex", 1] ],
+          [0.08, [ "florvilrantCodex", 1] ],
+          [0.08, [ "florvilreviewCodex", 1] ],
+          [0.08, [ "florviltreetopCodex", 1] ],
+          [0.02, [ "thespecial-recipe", 1] ],
+          [0.02, [ "meatwich-recipe", 1] ],
+          [0.02, [ "meatandmarrow-recipe", 1] ],
+          [0.03, [ "oculemonstew-recipe", 1] ],
+          [0.02, [ "fishinabone-recipe", 1] ],
+          [0.03, [ "eyebowls-recipe", 1] ],
+          [0.02, [ "offal-recipe", 1] ],
+          [0.02, [ "boneboomarrow-recipe", 1] ],
+          [0.02, [ "sweetmeat-recipe", 1] ],
+          [0.03, [ "pussplumpie-recipe", 1] ],
+          [0.03, [ "burningeyeballs-recipe", 1] ],
+          [0.02, [ "hotbone-recipe", 1] ],
+          [0.15, [ "money", 5] ],
+          [0.45, [ "bookpiles", 5] ],
+          [0.45, [ "bookpiles", 3] ],
+          [0.15, [ "alienmeat", 2] ]
+        ],
+        "poolRounds" : [
+          [0.1, 0],
+          [0.5, 1],
+          [0.1, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "humanBunkerLore" : [
+    [1, {
+        "pool" : [
+          [0.08, [ "bunkerlog01Codex", 1] ],
+          [0.08, [ "bunkerlog02Codex", 1] ],
+          [0.08, [ "bunkerlog03Codex", 1] ],
+          [0.08, [ "bunkerlog04Codex", 1] ],
+          [0.08, [ "bunkerlog05Codex", 1] ],
+          [0.08, [ "bunkerlog06Codex", 1] ],
+          [0.08, [ "bunkerpolicyCodex", 1] ],
+          [0.08, [ "bunkerhumansCodex", 1] ],
+          [0.08, [ "bunkerbeastCodex", 1] ],
+          [0.08, [ "bunkerbustersCodex", 1] ],
+          [0.08, [ "bunkerbookCodex", 1] ],
+          [0.08, [ "bunkerordersCodex", 1] ],
+          [0.01, [ "burger-recipe", 1] ],
+          [0.01, [ "vegetablesoup-recipe", 1] ],
+          [0.02, [ "chilistew-recipe", 1] ],
+          [0.01, [ "fishnchips-recipe", 1] ],
+          [0.02, [ "mashedpotato-recipe", 1] ],
+          [0.02, [ "gardensalad-recipe", 1] ],
+          [0.01, [ "sweetcorn-recipe", 1] ],
+          [0.02, [ "cake-recipe", 1] ],
+          [0.02, [ "applepie-recipe", 1] ],
+          [0.03, [ "candyapple-recipe", 1] ],
+          [0.03, [ "icecream-recipe", 1] ],
+          [0.15, [ "money", 5] ],
+          [0.45, [ "bookpiles", 5] ],
+          [0.45, [ "bookpiles", 3] ],
+          [0.15, [ "alienmeat", 2] ]
+        ],
+        "poolRounds" : [
+          [0.1, 0],
+          [0.5, 1],
+          [0.1, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "humanPrisonLore" : [
+    [1, {
+        "pool" : [
+          [0.08, [ "prisoncasebook01Codex", 1] ],
+          [0.08, [ "prisoncasebook02Codex", 1] ],
+          [0.08, [ "prisoncasebook03Codex", 1] ],
+          [0.08, [ "prisoncasebook04Codex", 1] ],
+          [0.08, [ "prisoncasebook05Codex", 1] ],
+          [0.08, [ "prisoncasebook06Codex", 1] ],
+          [0.08, [ "prisoncasebook07Codex", 1] ],
+          [0.08, [ "prisoncasebook08Codex", 1] ],
+          [0.08, [ "prisoncasebook09Codex", 1] ],
+          [0.08, [ "prisoncasebook10Codex", 1] ],
+          [0.08, [ "prisoncasebook11Codex", 1] ],
+          [0.08, [ "prisonghostsCodex", 1] ],
+          [0.01, [ "fishnchips-recipe", 1] ],
+          [0.01, [ "mashedpotato-recipe", 1] ],
+          [0.01, [ "applepie-recipe", 1] ],
+          [0.15, [ "money", 5] ],
+          [0.45, [ "bookpiles", 5] ],
+          [0.45, [ "bookpiles", 3] ],
+          [0.15, [ "alienmeat", 2] ]
+        ],
+        "poolRounds" : [
+          [0.1, 0],
+          [0.5, 1],
+          [0.1, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "chickentreasure" : [
+    [1, {
+        "pool" : [
+
+          [0.1, [ "rawpoultry", 2] ]
+        ],
+        "poolRounds" : [
+          [0.5, 0],
+          [0.5, 1]
+
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "glitchSewerLore" : [
+    [1, {
+        "pool" : [
+          [0.08, [ "sewerbattlegroundCodex", 1] ],
+          [0.08, [ "sewerconstructfreeCodex", 1] ],
+          [0.08, [ "sewerdayoutCodex", 1] ],
+          [0.08, [ "sewerferryingCodex", 1] ],
+          [0.08, [ "sewergrowflyCodex", 1] ],
+          [0.08, [ "sewerlamentCodex", 1] ],
+          [0.08, [ "sewerlonelyCodex", 1] ],
+          [0.08, [ "sewermecharachnidCodex", 1] ],
+          [0.08, [ "sewerpoCodex", 1] ],
+          [0.08, [ "sewerpometheusCodex", 1] ],
+          [0.08, [ "sewerseveringCodex", 1] ],
+          [0.08, [ "sewerstrangeCodex", 1] ],
+          [0.02, [ "pizzap-recipe", 1] ],
+          [0.03, [ "automatostew-recipe", 1] ],
+          [0.03, [ "smash-recipe", 1] ],
+          [0.03, [ "nutsandbolts-recipe", 1] ],
+          [0.02, [ "corntent-recipe", 1] ],
+          [0.02, [ "piodia-recipe", 1] ],
+          [0.02, [ "copperkeypie-recipe", 1] ],
+          [0.15, [ "money", 5] ],
+          [0.45, [ "bookpiles", 5] ],
+          [0.45, [ "bookpiles", 3] ],
+          [0.15, [ "alienmeat", 2] ]
+        ],
+        "poolRounds" : [
+          [0.1, 0],
+          [0.5, 1],
+          [0.1, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "glitchCastleLore" : [
+    [1, {
+        "pool" : [
+          [0.08, [ "castleking01Codex", 1] ],
+          [0.08, [ "castleking02Codex", 1] ],
+          [0.08, [ "castleking03Codex", 1] ],
+          [0.08, [ "castleking04Codex", 1] ],
+          [0.08, [ "castleking05Codex", 1] ],
+          [0.08, [ "castleking06Codex", 1] ],
+          [0.08, [ "castlecuriousCodex", 1] ],
+          [0.08, [ "castlefoldnoteCodex", 1] ],
+          [0.08, [ "castleguestCodex", 1] ],
+          [0.08, [ "castlemessageCodex", 1] ],
+          [0.08, [ "castlemisunderstandingCodex", 1] ],
+          [0.08, [ "castleprefixCodex", 1] ],
+          [0.02, [ "pizzap-recipe", 1] ],
+          [0.03, [ "automatostew-recipe", 1] ],
+          [0.02, [ "blackcurrentcrumble-recipe", 1] ],
+          [0.02, [ "sweettime-recipe", 1] ],
+          [0.03, [ "nutsandbolts-recipe", 1] ],
+          [0.03, [ "piodia-recipe", 1] ],
+          [0.02, [ "boltos-recipe", 1] ],
+          [0.02, [ "stuffedautomato-recipe", 1] ],
+          [0.03, [ "copperkeypie-recipe", 1] ],
+          [0.02, [ "candyautomato-recipe", 1] ],
+          [0.15, [ "money", 5] ],
+          [0.45, [ "bookpiles", 5] ],
+          [0.45, [ "bookpiles", 3] ],
+          [0.15, [ "alienmeat", 2] ]
+        ],
+        "poolRounds" : [
+          [0.1, 0],
+          [0.5, 1],
+          [0.1, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "glitchVillageLore" : [
+    [1, {
+        "pool" : [
+          [0.08, [ "deckardnoteCodex", 1] ],
+          [0.08, [ "outcastscoraleCodex", 1] ],
+          [0.08, [ "stamppamphletCodex", 1] ],
+          [0.08, [ "transcript0292Codex", 1] ],
+          [0.08, [ "transcript0293Codex", 1] ],
+          [0.08, [ "individualscoraleCodex", 1] ],
+          [0.08, [ "outcastposterCodex", 1] ],
+          [0.08, [ "hierarchycoraleCodex", 1] ],
+          [0.08, [ "steelbook01Codex", 1] ],
+          [0.08, [ "steelbook02Codex", 1] ],
+          [0.08, [ "steelbook03Codex", 1] ],
+          [0.08, [ "steelbook04Codex", 1] ],
+          [0.02, [ "pizzap-recipe", 1] ],
+          [0.03, [ "automatostew-recipe", 1] ],
+          [0.04, [ "piodia-recipe", 1] ],
+          [0.04, [ "boltos-recipe", 1] ],
+          [0.04, [ "smash-recipe", 1] ],
+          [0.03, [ "corntent-recipe", 1] ],
+          [0.04, [ "stuffedautomato-recipe", 1] ],
+          [0.04, [ "blackcurrentcrumble-recipe", 1] ],
+          [0.02, [ "sweettime-recipe", 1] ],
+          [0.04, [ "copperkeypie-recipe", 1] ],
+          [0.04, [ "candyautomato-recipe", 1] ],
+          [0.04, [ "nutsandbolts-recipe", 1] ],
+          [0.15, [ "money", 5] ],
+          [0.45, [ "bookpiles", 5] ],
+          [0.45, [ "bookpiles", 3] ],
+          [0.15, [ "alienmeat", 2] ],
+          [0.08, [ "todolistCodex", 1] ]
+        ],
+        "poolRounds" : [
+          [0.1, 0],
+          [0.5, 1],
+          [0.1, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ]
+}

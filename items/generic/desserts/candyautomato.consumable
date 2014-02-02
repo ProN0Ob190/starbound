@@ -1,0 +1,18 @@
+{
+  "itemName" : "candyautomato",
+  "rarity" : "Common",
+  "inventoryIcon" : "candyautomato.png",
+  "description" : "It's like an automato-flavored lollipop! Which is kind of weird.",
+  "shortdescription" : "Candy Automato",
+  "handPosition" : [-4, 2],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 65
+      },
+      {
+        "kind" : "mollyhealing1" },
+      {
+        "kind" : "sugarrush" }
+    ] ]
+}

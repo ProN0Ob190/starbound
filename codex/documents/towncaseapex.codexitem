@@ -1,0 +1,10 @@
+{
+  "codexId" : "towncaseapex",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "apexvillagebook_03.png",
+  "itemName" : "towncaseapexCodex",
+  "rarity" : "common",
+  "description" : "The Steel Casebook: Apex",
+  "shortdescription" : "Steel Casebook: Apex"
+}

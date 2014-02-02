@@ -1,0 +1,38 @@
+{
+  "objectName" : "tvstation",
+  "objectType" : "interactable",
+  "interactAction" : "OpenStreamingVideoInterface",
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 8000,
+  "lightColor" : [89, 89, 89],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.1,
+  "flickerTiming" : 8,
+  "description" : "Used to broadcast a video signal.",
+  "shortdescription" : "Streaming Station",
+  "race" : "generic",
+
+  "apexDescription" : "I could broadcast live video with this.",
+  "avianDescription" : "The words Twitch TV appear on the console.",
+  "floranDescription" : "Floran broadcassst to Twitch, become ccelebrity.",
+  "glitchDescription" : "Scan. This appears to broadcast to a race known as the stream monsters.",
+  "humanDescription" : "It's a Twitch TV broadcasting station. These were all the rage back on Earth.",
+  "hylotlDescription" : "The panel appears to send a video signal to TV that belongs to someone called Twitch.",
+
+  "inventoryIcon" : "tvstationicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "tvstation.png:<color>.<frame>",
+      "imagePosition" : [-20, 0],
+      "frames" : 6,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/tv_static.wav"
+}

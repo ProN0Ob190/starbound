@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "fullwood1", "count" : 1 },
+    { "item" : "coalore", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "torch",
+    "count" : 2
+  },
+  "groups" : [ "plain", "objects", "all" ]
+}

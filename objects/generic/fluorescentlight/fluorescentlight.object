@@ -1,0 +1,80 @@
+{
+  "objectName" : "fluorescentlight",
+  "rarity" : "Common",
+  "description" : "Bright fluorescent light.",
+  "shortdescription" : "Fluorescent Light.",
+  "race" : "generic",
+
+  "apexDescription" : "The light here is unnatural and unattractive.",
+  "avianDescription" : "This light is harsh.",
+  "floranDescription" : "Ugly light, Floran prefer sssunlight.",
+  "glitchDescription" : "Irritated. The light buzzes gently.",
+  "humanDescription" : "I've always hated lights like these.",
+  "hylotlDescription" : "The light this gives off is very synthetic.",
+
+  "category" : "light",
+  "price" : 400,
+  "lightColor" : [229, 229, 229],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 4,
+
+  "inventoryIcon" : "fluorescentlighticon.png",
+  "orientations" : [
+    {
+      "image" : "fluorescentlighttop.png:<color>.<frame>",
+      "imagePosition" : [-8, 4],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+
+    },
+
+    {
+      "image" : "fluorescentlightbottom.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+
+    {
+      "image" : "fluorescentlightleft.png:<color>.<frame>",
+      "imagePosition" : [0, -8],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ]
+    },
+
+    {
+      "image" : "fluorescentlightright.png:<color>.<frame>",
+      "imagePosition" : [4, -8],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ]
+    },
+
+    {
+      "image" : "fluorescentlight.png:<color>.<frame>",
+      "imagePosition" : [-8, 4],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/fluorescent_light_quiet.wav"
+
+}

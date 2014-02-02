@@ -1,0 +1,22 @@
+{
+  "itemName" : "blackcurrentcrumble",
+  "rarity" : "Common",
+  "inventoryIcon" : "blackcurrentcrumble.png",
+  "description" : "A crumble that holds a charge.",
+  "shortdescription" : "Black Current Crumble",
+  "handPosition" : [0, 12],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 100
+      },
+      {
+        "kind" : "mollyhealing3" },
+      {
+        "kind" : "electroshock",
+        "amount" : 5
+      },
+      {
+        "kind" : "sugarrush" }
+    ] ]
+}

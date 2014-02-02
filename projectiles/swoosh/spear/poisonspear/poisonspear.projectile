@@ -1,0 +1,19 @@
+{
+  "projectileName" : "poisonspear",
+  "frames" : "poisonspear.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 3,
+  "damageKindImage" : "icon.png",
+  "level" : 1,
+  "speed" : 0,
+  "orientationLocked" : true,
+  "damagePoly" : [ [-35, 5.5], [22.5, 5.5], [22.5, -5.5], [-35, -5.5] ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "damageKind" : "spear",
+  "lightColor" : [65, 98, 22],
+  "statusEffects" : [
+    { "kind" : "testpoison" }
+  ]
+}

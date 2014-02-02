@@ -1,0 +1,22 @@
+{
+  "kind" : "testpoison",
+  "mode" : "max",
+  "duration" : 15,
+  "initialTick" : false,
+  "interval" : 2.0,
+  "primitives" : [
+    { "name" : "periodic" }
+  ],
+  "effectSources" : [ "poisonsickness" ],
+  "tick" : {
+    "statusEffects" : [
+      {
+        "kind" : "directDamage",
+        "damageKind" : "testpoison",
+        "mode" : "max",
+        "amount" : 3
+      }
+    ]
+  },
+  "mainInterfaceIcon" : "/interface/statuses/poison.png"
+}

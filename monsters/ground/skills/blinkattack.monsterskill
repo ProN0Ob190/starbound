@@ -1,0 +1,10 @@
+{
+  "name" : "blinkAttack",
+  "label" : "BLINK",
+  "image" : "/monsters/ground/skills/icon.png",
+
+  "parameters" : {
+    "scripts" : [ "/monsters/ground/blinkAttack.lua" ],
+    "blinkAttackOffsetXRange" : [1, 4]
+  }
+}

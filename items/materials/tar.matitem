@@ -1,0 +1,12 @@
+{
+  "itemName" : "tar",
+  "rarity" : "Common",
+  "inventoryIcon" : "tar.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Thick, rancid tar. It reminds me of my mothers home-made jello.",
+  "shortdescription" : "Tar",
+  "glitchdescription" : "Statement. Tar as thick as a Hylotl's cooking.",
+  "florandescription" : "Ssstew? Tar.",
+
+  "materialId" : 48
+}

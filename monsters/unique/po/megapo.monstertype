@@ -1,0 +1,88 @@
+{
+  "type" : "megapo",
+
+  "categories" : [ "megapo" ],
+  "parts" : [ "body" ],
+
+  "animation" : "po.animation",
+  "projectiles" : "/monsters/projectiles.config",
+  "colors" : "/monsters/colors.config",
+  "reversed" : true,
+
+  "dropPools" : [ "basicMonsterTreasure" ],
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/capturepod.lua",
+      "/monsters/unique/po/behavior.lua",
+
+      "/scripts/sensors.lua",
+      "/scripts/stateMachine.lua",
+      "/scripts/util.lua",
+      "/scripts/vec2.lua"
+    ],
+
+    "scriptDelta" : 5,
+
+    "metaBoundBox" : [-1.0, -1.125, 1.0, 0.75],
+    "scale" : 1.0,
+
+    "movementSettings" : {
+      "collisionPoly" : [ [-1.0, -1.125], [1.0, -1.125], [1.0, 0.75], [-1.0, 0.75] ],
+
+      "mass" : 1.0,
+      "walkSpeed" : 3,
+      "runSpeed" : 6,
+      "jumpSpeed" : 2,
+      "flySpeed" : 15,
+      "airFriction" : 0.5,
+      "airForce" : 5.0,
+      "jumpControlForce" : 5
+    },
+
+    "bodyMaterialKind" : "organic",
+
+    "knockoutTime" : 1,
+    "knockoutEffect" : "blink",
+    "deathParticles" : "deathPoof",
+    "deathNoise" : [ ],
+    "turnHostileNoise" : [ ],
+
+    "touchDamage" : {
+      "poly" : [ [-1.0, -1.125], [1.0, -1.125], [1.0, 0.75], [-1.0, 0.75] ],
+      "damage" : 30,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "testpoison",
+      "statusEffects" : [ ]
+    },
+
+    "dropPools" : [ "potreasure" ],
+
+    "statusParameters" : {
+      "baseMaxHealth" : 2,
+      "bodyMaterialKind" : "organic",
+      "damageConfig" : "/damage/damageresponse/groundnpc.config"
+    },
+
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -8],
+
+    "blockedSensors" : [ [1.25, 0.0] ],
+
+    "moveTimeRange" : [1.0, 2.0],
+    "moveCooldownTimeRange" : [5.0, 10.0],
+
+    "largeJumpYThreshold" : 2.0,
+    "largeHumpHoldTime" : 5,
+
+    "noticeDistance" : 30,
+    "attackSearchTime" : 10,
+
+    "poSize" : "large",
+
+    "spawnVelocity" : [2, 30],
+
+    "captureHealthFraction" : 0.5
+  }
+}

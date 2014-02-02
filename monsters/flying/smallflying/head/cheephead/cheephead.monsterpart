@@ -1,0 +1,9 @@
+{
+  "name" : "cheephead",
+  "category" : "smallflying_organic",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "cheephead.png"
+  }
+}

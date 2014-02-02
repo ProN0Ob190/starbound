@@ -1,0 +1,10 @@
+{
+  "codexId" : "shipironavian",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "avianairshipbook_10.png",
+  "itemName" : "shipironavianCodex",
+  "rarity" : "common",
+  "description" : "The Iron Avian",
+  "shortdescription" : "Iron Avian"
+}

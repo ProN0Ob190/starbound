@@ -1,0 +1,38 @@
+{
+  "objectName" : "plasmadisc",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 800,
+  "description" : "Whoooaaaaa.",
+  "shortdescription" : "Plasma Disc",
+  "race" : "apex",
+  "unlit" : true,
+  "lightColor" : [17, 107, 140],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 3,
+
+  "apexDescription" : "More Apex equipment. Experimentation or torture, who knows?",
+  "avianDescription" : "Is this electricity? Avians use crystal resonance to power our technology.",
+  "floranDescription" : "Caged lightning. No threat to Floranss.",
+  "glitchDescription" : "Measure. This device harnesses many millions of volts.",
+  "humanDescription" : "A plasma disc. I wonder what it's for?",
+  "hylotlDescription" : "Such a device likely has dark purpose.",
+
+  "inventoryIcon" : "plasmadiscicon.png",
+  "orientations" : [
+    {
+      "image" : "plasmadisc.png:<color>.<frame>",
+      "imagePosition" : [-6, 2],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/plasmadisc.wav"
+
+}

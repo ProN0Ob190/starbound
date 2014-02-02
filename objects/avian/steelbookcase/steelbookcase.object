@@ -1,0 +1,32 @@
+{
+  "objectName" : "steelbookcase",
+  "rarity" : "Common",
+  "description" : "A ornate steel bookcase.",
+  "shortdescription" : "Large Steel Bookcase",
+  "race" : "avian",
+  "category" : "decorative",
+  "price" : 1000,
+
+  "apexDescription" : "The bookcase looks built to protect its contents.",
+  "avianDescription" : "The Avians do not collect many books. The books they do have are sacred.",
+  "floranDescription" : "Ssstrong bookcase. Floran not sssee point.",
+  "glitchDescription" : "Observation. The Avians appear to value their books greatly.",
+  "humanDescription" : "This bookcase is built like a tank.",
+  "hylotlDescription" : "All books deserve protection.",
+
+  "inventoryIcon" : "steelbookcaseicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "steelbookcase.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

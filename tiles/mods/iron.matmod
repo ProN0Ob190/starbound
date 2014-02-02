@@ -1,0 +1,10 @@
+{
+  "modId" : 18,
+  "modName" : "iron",
+  "frames" : "iron.png",
+  "variants" : 8,
+  "itemDrop" : "ironore",
+  "Description" : "Iron.",
+  "health" : 6,
+  "breaksWithTile" : true
+}

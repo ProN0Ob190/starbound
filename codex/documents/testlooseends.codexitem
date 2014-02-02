@@ -1,0 +1,10 @@
+{
+  "codexId" : "testlooseends",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "apextestchamberbook_13.png",
+  "itemName" : "testlooseendsCodex",
+  "rarity" : "common",
+  "description" : "Greenfinger's Notes: Loose Ends",
+  "shortdescription" : "Loose Ends"
+}

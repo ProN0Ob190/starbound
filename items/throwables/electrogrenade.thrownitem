@@ -1,0 +1,21 @@
+{
+  "itemName" : "electrogrenade",
+  "rarity" : "Common",
+  "inventoryIcon" : "electrogrenadeicon.png",
+  "image" : "electrogrenadeicon.png",
+  "shortdescription" : "Electro Grenade",
+  "description" : "An electro grenade. Shocking!",
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "electrogrenade",
+  "projectileConfig" : {
+    "speed" : 45,
+    "power" : 55,
+    "level" : 15
+  }
+}
+

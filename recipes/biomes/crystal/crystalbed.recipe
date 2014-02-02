@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "crystal", "count" : 35 },
+    { "item" : "silverbar", "count" : 5 },
+    { "item" : "money", "count" : 380 }
+  ],
+  "output" : { "item" : "crystalbed", "count" : 1 },
+  "groups" : [ "craftingtable", "furniture", "objects", "all" ]
+}

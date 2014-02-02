@@ -1,0 +1,11 @@
+{
+  "name" : "darkplasma",
+  "label" : "DARK PLASMA",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "scripts" : [ "/monsters/ground/rangedAttack.lua" ],
+    "shooterProjectile" : [ "darkplasma" ],
+    "shooterSkillName" : "darkplasma"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "materialId" : 1,
+  "materialName" : "aztec",
+  "frames" : "aztec.png",
+  "particleColor" : [255, 231, 170, 255],
+  "variants" : 5,
+  "itemDrop" : "aztecmaterial",
+  "shortdescription" : "Glyph Block",
+  "description" : "Small glyphs cover the stone.",
+  "glitchDescription" : "Cryptography. I do not know what these glyphs say.",
+  "floranDescription" : "Floran not can read this.",
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_stone.wav",
+  "health" : 30
+}

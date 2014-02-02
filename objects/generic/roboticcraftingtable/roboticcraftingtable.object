@@ -1,0 +1,38 @@
+{
+  "objectName" : "roboticcraftingtable",
+  "rarity" : "Common",
+  "objectType" : "interactable",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/robotcraftingtable.config",
+    "filter" : [ "craftingtable", "plain", "roboticcraftingtable" ]
+  },
+  "printable" : false,
+  "description" : "This table has arms! For precision!",
+  "shortdescription" : "Robotic Crafting Table",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 200,
+
+  "apexDescription" : "A fancy crafting table.",
+  "avianDescription" : "A mechanical crafting table.",
+  "floranDescription" : "Floran once get in fight with table like this.",
+  "glitchDescription" : "Confused. This table is familiar.",
+  "humanDescription" : "A robot table! The revolution begins!",
+  "hylotlDescription" : "How strange. A robotic crafting table.",
+
+  "inventoryIcon" : "roboticcraftingtableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "roboticcraftingtable.png:<color>.<frame>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 22,
+      "animationCycle" : 2.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

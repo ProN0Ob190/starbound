@@ -1,0 +1,23 @@
+{
+  "name" : "hive",
+
+  "mainBlock" : "hive",
+  "subBlocks" : [ "rock04" ],
+  "ores" : "depth3",
+
+  "statusParameters" : {
+    "temperatureBounds" : [5, 7],
+    "dayNightTemperatureVariability" : 3,
+    "temperatureVariability" : 3
+  },
+
+  "hueShiftOptions" : [-180, -135, -90, -45, 0, 45, 90, 135, 180],
+  "undergroundParallax" : "hive.undergroundparallax",
+
+  "sky" : {
+    "topColor" : [182, 204, 255],
+    "bottomColor" : [224, 239, 255],
+    "nightTopColor" : [0, 0, 30],
+    "nightBottomColor" : [0, 0, 0]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "meleeAttack",
+  "label" : "BASH",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "scripts" : [ "/monsters/ground/meleeAttack.lua" ]
+  }
+}

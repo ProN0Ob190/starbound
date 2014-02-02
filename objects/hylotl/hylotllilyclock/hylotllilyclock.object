@@ -1,0 +1,31 @@
+{
+  "objectName" : "hylotllilyclock",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 500,
+
+  "shortdescription" : "Lily Pad Clock",
+  "description" : "A clock in the shape of a lily pad.",
+  "race" : "hylotl",
+
+  "apexDescription" : "A clock in the shape of a lily pad. How adorable.",
+  "avianDescription" : "It looks like some kind of fairground novelty.",
+  "floranDescription" : "Tick tock tick tock frogmen have a ssstupid clock.",
+  "glitchDescription" : "Critical. Of course Hylotl clocks are shaped like lily pads.",
+  "humanDescription" : "This is kind of cute, for a gimmick.",
+  "hylotlDescription" : "Not just a remarkable example of practicality, but a commentary on the fleeting nature of time itself.",
+
+  "inventoryIcon" : "hylotllilyclockicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "hylotllilyclock.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

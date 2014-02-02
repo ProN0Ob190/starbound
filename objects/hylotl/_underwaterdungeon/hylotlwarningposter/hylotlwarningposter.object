@@ -1,0 +1,31 @@
+{
+  "objectName" : "hylotlwarningposter",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 300,
+
+  "shortdescription" : "Hylotl Warning Poster",
+  "description" : "It's a warning. The text is written in the Hylotl language.",
+  "race" : "hylotl",
+
+  "apexDescription" : "It's warning me of something, but I'm not really sure what it says...",
+  "avianDescription" : "Of all the things they could choose not to translate, they chose a warning sign. Hm.",
+  "floranDescription" : "Warning schmorning.",
+  "glitchDescription" : "Concerned. I'm not sure what this sign is warning me about.",
+  "humanDescription" : "It's a warning sign. I can't seem to read it, though.",
+  "hylotlDescription" : "The sign warns of the dangers of texting while walking.",
+
+  "inventoryIcon" : "hylotlwarningpostericon.png",
+  "orientations" : [
+    {
+      "image" : "hylotlwarningposter.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

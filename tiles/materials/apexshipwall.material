@@ -1,0 +1,15 @@
+{
+  "materialId" : 169,
+  "materialName" : "apexshipwall",
+  "frames" : "apexshipwall.png",
+  "particleColor" : [110, 110, 110, 255],
+  "variants" : 1,
+  "itemDrop" : "apexshipwall",
+  "description" : "A colourful wall panel.",
+  "shortdescription" : "Wall Panel",
+  "glitchDescription" : "Analysis. A wall panel.",
+  "floranDescription" : "Wall.",
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "health" : 20
+}

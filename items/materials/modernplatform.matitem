@@ -1,0 +1,13 @@
+{
+  "itemName" : "modernplatform",
+  // "twoHanded" : false,
+  "rarity" : "Common",
+  "inventoryIcon" : "modernplatform.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Made from a modern material, these are smooth to the touch.",
+  "shortdescription" : "Modern Platform",
+  "glitchdescription" : "Statement. A smooth modern platform.",
+  "florandescription" : "Platformsss.",
+
+  "materialId" : 47
+}

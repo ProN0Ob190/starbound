@@ -1,0 +1,9 @@
+{
+  "name" : "platechest",
+  "category" : "quadruped_organic",
+  "type" : "chest",
+
+  "frames" : {
+    "chest" : "platechest.png"
+  }
+}

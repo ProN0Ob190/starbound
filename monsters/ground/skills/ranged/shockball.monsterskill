@@ -1,0 +1,11 @@
+{
+  "name" : "shockball",
+  "label" : "SHOCK BALL",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "scripts" : [ "/monsters/ground/rangedAttack.lua" ],
+    "shooterProjectile" : [ "shock" ],
+    "shooterSkillName" : "shockball"
+  }
+}

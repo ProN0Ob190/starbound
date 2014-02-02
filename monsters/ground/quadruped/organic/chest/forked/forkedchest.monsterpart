@@ -1,0 +1,9 @@
+{
+  "name" : "forkedchest",
+  "category" : "quadruped_organic",
+  "type" : "chest",
+
+  "frames" : {
+    "chest" : "forkedchest.png"
+  }
+}

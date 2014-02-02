@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "Feroziumbar", "count" : 35 }
+  ],
+  "output" : { "item" : "glitchtier6chest", "count" : 1 },
+  "groups" : [ "craftingtable", "armors", "all" ]
+}

@@ -1,0 +1,12 @@
+{
+  "itemName" : "cheapwallpaper",
+  "rarity" : "Common",
+  "inventoryIcon" : "cheapwallpaper.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Cheap, tacky wallpaper.",
+  "shortdescription" : "Tacky Wallpaper",
+  "glitchdescription" : "Statement. Tacky wallpaper.",
+  "florandescription" : "Floran adore wall papers.",
+
+  "materialId" : 104
+}

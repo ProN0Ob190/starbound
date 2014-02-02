@@ -1,0 +1,32 @@
+{
+  "objectName" : "hylotlsign3g",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 500,
+  "lightColor" : [201, 239, 112],
+
+  "shortdescription" : "Green Neon Pod Sign",
+  "description" : "A sign displaying reefpods, a tasty hylotl delicacy.",
+  "race" : "hylotl",
+
+  "apexDescription" : "I think this is the sign for some kind of restaurant. Might drop in if I get exceptionally hungry.",
+  "avianDescription" : "Hylotl food. What a treat. Glad I packed my own lunch.",
+  "floranDescription" : "Floran prefer to eat frogmen than frogmen food.",
+  "glitchDescription" : "Critical. Hylotl cuisine is an... acquired taste. One which very few have actually acquired.",
+  "humanDescription" : "I'd be more enthusiastic about dining Hylotl if they served meat.",
+  "hylotlDescription" : "Hylotl cuisine has a reputation amongst other species for being some of the best in the galaxy.",
+
+  "inventoryIcon" : "hylotlsign3gicon.png",
+  "orientations" : [
+    {
+      "image" : "hylotlsign3g.png:<color>",
+      "imagePosition" : [-24, -20],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

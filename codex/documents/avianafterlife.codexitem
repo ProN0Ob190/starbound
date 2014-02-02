@@ -1,0 +1,10 @@
+{
+  "codexId" : "avianafterlife",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "aviantombbook_08.png",
+  "itemName" : "avianafterlifeCodex",
+  "rarity" : "common",
+  "description" : "The Avian Afterlife",
+  "shortdescription" : "Avian Afterlife"
+}

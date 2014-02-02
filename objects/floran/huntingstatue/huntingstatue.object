@@ -1,0 +1,30 @@
+{
+  "objectName" : "huntingstatue",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 1500,
+  "description" : "A statue of a Floran. It looks almost alive...",
+  "shortdescription" : "Floran Statue",
+  "race" : "floran",
+
+  "apexDescription" : "A Floran displaying its spear-throwing prowess.",
+  "avianDescription" : "A Floran doing what it does best; preparing to kill something.",
+  "floranDescription" : "This ssstatue is me. Bad likeness.",
+  "glitchDescription" : "Analysis. The spear has recently been used to impale a creature.",
+  "humanDescription" : "I'd like to display this on my ship.",
+  "hylotlDescription" : "Even a statue of a Floran makes me feel uncomfortable.",
+
+  "inventoryIcon" : "huntingstatueicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "huntingstatue.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

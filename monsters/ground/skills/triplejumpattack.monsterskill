@@ -1,0 +1,9 @@
+{
+  "name" : "tripleJumpAttack",
+  "label" : "TRIPLE HOP",
+  "image" : "/monsters/ground/skills/icon.png",
+
+  "parameters" : {
+    "scripts" : [ "/monsters/ground/tripleJumpAttack.lua" ]
+  }
+}

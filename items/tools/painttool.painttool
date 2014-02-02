@@ -1,0 +1,45 @@
+{
+  "itemName" : "painttool",
+  "inventoryIcon" : "paintergunicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "Primary fire applies paint, secondary changes the colour.",
+  "shortdescription" : "Paint Tool",
+
+  "fireTime" : 0.05,
+  "blockRadius" : 3,
+  "altBlockRadius" : 1,
+  "twoHanded" : true,
+  "strikeSound" : "/sfx/tools/paint_splash.wav",
+  "largeImage" : "paintgunlarge.png",
+  "inspectionKind" : "tool",
+
+  "image" : "/items/tools/paintergunvariants.png:0",
+  "endImages" : [ "/humanoid/any/ball.png", "/humanoid/any/tileglow.png", "/humanoid/any/4tileglow.png" ],
+  "handPosition" : [-2, 0],
+  "firePosition" : [5, 0],
+  "segmentsPerUnit" : 1,
+  "nearControlPointElasticity" : 0.1,
+  "farControlPointElasticity" : 0.9,
+  "nearControlPointDistance" : 0.9,
+  "targetSegmentRun" : 1,
+  "innerBrightnessScale" : 20,
+  "firstStripeThickness" : 0.2,
+  "secondStripeThickness" : 0.05,
+  "minBeamWidth" : 1,
+  "maxBeamWidth" : 5,
+  "maxBeamJitter" : 0.2,
+  "minBeamJitter" : 0.1,
+  "minBeamTrans" : 0.6,
+  "maxBeamTrans" : 0.6,
+  "minBeamLines" : 1,
+  "maxBeamLines" : 5,
+
+  "colorNumbers" : [
+    [0, 0, 0, 0], "red", "blue", "green", "yellow", "orange", [210, 45, 193, 255], "black", "white"
+  ],
+  "colorKeys" : [
+    "", ".red", ".blue", ".green", ".yellow", ".orange", ".pink", ".black", ".white"
+  ]
+}

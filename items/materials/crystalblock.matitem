@@ -1,0 +1,12 @@
+{
+  "itemName" : "crystalblock",
+  "rarity" : "Common",
+  "inventoryIcon" : "crystalblock.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A shining blue block of made of crystals.",
+  "shortdescription" : "Crystal Block",
+  "glitchdescription" : "Analysis. This block is made of crystal.",
+  "florandescription" : "Ssshiny block.",
+
+  "materialId" : 164
+}

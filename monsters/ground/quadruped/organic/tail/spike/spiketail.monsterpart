@@ -1,0 +1,9 @@
+{
+  "name" : "spiketail",
+  "category" : "quadruped_organic",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "spiketail.png"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "bughead",
+  "category" : "smallflying_organic",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "bughead.png"
+  }
+}

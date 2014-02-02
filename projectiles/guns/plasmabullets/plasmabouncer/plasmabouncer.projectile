@@ -1,0 +1,24 @@
+{
+  "projectileName" : "plasmabouncer",
+  "physics" : "marioball",
+  "bounces" : -1,
+  "level" : 3,
+  "timeToLive" : 3,
+  "frames" : "plasmabouncer.png",
+  "damageKindImage" : "icon.png",
+  "speed" : 19,
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "shock",
+      "inheritDamageFactor" : 1,
+      "angle" : 5
+    }
+  ],
+  "power" : 50,
+  "damageType" : "hitTest",
+  "lightColor" : [78, 202, 223],
+  "damageKind" : "plasma"
+}

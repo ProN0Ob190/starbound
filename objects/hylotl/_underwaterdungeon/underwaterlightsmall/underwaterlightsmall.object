@@ -1,0 +1,32 @@
+{
+  "objectName" : "underwaterlightsmall",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 150,
+  "lightColor" : [130, 170, 140],
+
+  "shortdescription" : "Small Waterproof Light",
+  "description" : "A tiny wall light.",
+  "race" : "hylotl",
+
+  "apexDescription" : "It's a wall light.",
+  "avianDescription" : "A wall light.",
+  "floranDescription" : "Light.",
+  "glitchDescription" : "Indifferent. A light.",
+  "humanDescription" : "It's a light.",
+  "hylotlDescription" : "A light fixture.",
+
+  "inventoryIcon" : "underwaterlightsmallicon.png",
+  "orientations" : [
+    {
+      "image" : "underwaterlightsmall.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

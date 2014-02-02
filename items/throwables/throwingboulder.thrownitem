@@ -1,0 +1,21 @@
+{
+  "itemName" : "throwingboulder",
+  "rarity" : "Common",
+  "inventoryIcon" : "throwingbouldericon.png",
+  "image" : "throwingbouldericon.png",
+  "shortdescription" : "Throwing Boulder.",
+  "description" : "A throwing boulder. For combat or just showing off.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "throwingboulder",
+  "projectileConfig" : {
+    "speed" : 10,
+    "power" : 130
+  }
+}
+

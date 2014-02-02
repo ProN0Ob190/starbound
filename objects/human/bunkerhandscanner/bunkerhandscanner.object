@@ -1,0 +1,41 @@
+{
+  "objectName" : "bunkerhandscanner",
+  "rarity" : "Common",
+  "objectType" : "wire",
+  "description" : "It scans fingerprints to match personnel data.",
+  "shortdescription" : "USCM Fingerprint Scanner",
+  "race" : "human",
+
+  "category" : "wire",
+  "price" : 300,
+
+  "apexDescription" : "A fingerprint scanner. Smaller than an Apex hand.",
+  "avianDescription" : "Avians do not have fingerprints. Such security devices are pointless for us.",
+  "floranDescription" : "Floran wonder if real human hand inssside.",
+  "glitchDescription" : "Resentful. Biometric security devices are a luxury only certain species can indulge in.",
+  "humanDescription" : "A fingerprint scanner. Sadly, I'm not registered. I've always wanted to activate one of these.",
+  "hylotlDescription" : "Hylotl hands can cause these things to go haywire.",
+
+  "inventoryIcon" : "bunkerhandscannericon.png",
+  "orientations" : [
+    {
+      "image" : "bunkerhandscanner.png:<color>.off",
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/switch/switch.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switch4.animation",
+
+  "animationParts" : {
+    "switch" : "bunkerhandscanner.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "outboundNodes" : [ [0, 0] ]
+}

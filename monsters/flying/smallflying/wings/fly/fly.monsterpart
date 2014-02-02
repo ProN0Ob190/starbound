@@ -1,0 +1,14 @@
+{
+  "name" : "fly",
+  "category" : "smallflying_organic",
+  "type" : "wings",
+
+  "frames" : {
+    "backWings" : "flybwing.png",
+    "frontWings" : "flyfwing.png"
+  },
+
+  "parameters" : {
+    "skills" : [ "flyingSwoopAttack" ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "itemName" : "brainextractor",
+  "inventoryIcon" : "brainextractoricon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Terminating a common monster with this gun will extract its brain.",
+  "shortdescription" : "Brain Extractor",
+  "image" : "brainextractor.png",
+  "handPosition" : [-3.5, -3],
+  "firePosition" : [20, 1.5],
+
+  "fireTime" : 1,
+  "twoHanded" : true,
+  "level" : 1,
+
+  "projectileType" : "brainshock",
+  "projectile" : { "speed" : 2,
+    "power" : 12,
+    "color" : [10, 255, 10]
+  }
+}

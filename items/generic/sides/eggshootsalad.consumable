@@ -1,0 +1,22 @@
+{
+  "itemName" : "eggshootsalad",
+  "rarity" : "Common",
+  "inventoryIcon" : "eggshootsalad.png",
+  "description" : "A simple side salad of eggshoot and feathercrown.",
+  "shortdescription" : "Eggshoot Salad",
+  "handPosition" : [0, 12],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 70
+      },
+      {
+        "kind" : "health",
+        "amount" : 10
+      },
+      {
+        "kind" : "energy",
+        "amount" : 10
+      }
+    ] ]
+}

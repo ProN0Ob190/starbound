@@ -1,0 +1,92 @@
+{
+  "type" : "pogolem",
+
+  "categories" : [ "pogolem" ],
+  "parts" : [ "body" ],
+
+  "animation" : "pogolem.animation",
+  "projectiles" : "/monsters/projectiles.config",
+  "colors" : "/monsters/colors.config",
+  "reversed" : true,
+
+  "dropPools" : [ "basicMonsterTreasure" ],
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/unique/pogolem/behavior.lua",
+      "/scripts/sensors.lua",
+      "/scripts/stateMachine.lua",
+      "/scripts/util.lua",
+      "/scripts/vec2.lua"
+    ],
+
+    "scriptDelta" : 5,
+
+    "metaBoundBox" : [-1.625, -2.375, 1.75, 2.0],
+    "scale" : 1.0,
+
+    "movementSettings" : {
+      "collisionPoly" : [ [-1.625, -2.375], [1.75, -2.375], [1.75, 2.0], [-1.625, 2.0] ],
+
+      "mass" : 1.0,
+      "walkSpeed" : 3,
+      "runSpeed" : 6,
+      "jumpSpeed" : 5,
+      "flySpeed" : 15,
+      "airFriction" : 0.25,
+      "airForce" : 50.0
+    },
+
+    "bodyMaterialKind" : "organic",
+
+    "knockoutTime" : 1,
+    "knockoutEffect" : "blink",
+    "deathParticles" : "deathPoof",
+    "deathNoise" : [ ],
+    "turnHostileNoise" : [ ],
+
+    "touchDamage" : {
+      "poly" : [ [-1.625, -2.375], [1.75, -2.375], [1.75, 2.0], [-1.625, 2.0] ],
+      "damage" : 30,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "bite",
+      "statusEffects" : [ ]
+    },
+
+    "dropPools" : [ "potreasure" ],
+
+    "statusParameters" : {
+      "baseMaxHealth" : 30,
+      "bodyMaterialKind" : "organic",
+      "damageConfig" : "/damage/damageresponse/groundnpc.config"
+    },
+
+    "inateStatusEffects" : [
+      {
+        "kind" : "Protection",
+        "amount" : 1.0
+      }
+    ],
+
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -8],
+
+    "blockedSensors" : [ [3, -2], [3, -1], [3, 0], [3, 1], [3, 1.5] ],
+
+    "moveTimeRange" : [2.5, 5.0],
+    "moveCooldown" : 2.0,
+
+    "targetNoticeRadius" : 30,
+
+    "throwMaxDistance" : 15,
+    "throwMaxMinions" : 5,
+    "throwStartTime" : 0.5,
+    "throwEndTime" : 0.5,
+    "throwSpawnOffset" : [1.875, 1],
+    "throwCooldown" : 5,
+
+    "shoutMaxDistance" : 10,
+    "shoutProjectileOffset" : [0.875, 0.75]
+  }
+}

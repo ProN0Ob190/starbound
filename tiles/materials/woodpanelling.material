@@ -1,0 +1,16 @@
+{
+  "materialId" : 105,
+  "materialName" : "woodpanelling",
+  "frames" : "woodpanelling.png",
+  "particleColor" : [154, 133, 90, 255],
+  "variants" : 5,
+  "itemDrop" : "woodpanelling",
+  "description" : "This wood panelling is the bad kind of retro.",
+  "shortdescription" : "Wood Panelling",
+  "glitchDescription" : "Statement. Wooden panelling.",
+  "floranDescription" : "Wood panelsss.",
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.wav",
+  "health" : 7,
+  "damageTable" : "/tiles/flammableDamage.config"
+}

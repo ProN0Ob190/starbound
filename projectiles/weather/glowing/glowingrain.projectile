@@ -1,0 +1,13 @@
+{
+  "projectileName" : "glowingrain",
+  "frames" : "glowingrain.png",
+  "animationCycle" : 0.25,
+  "level" : 3,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : true,
+  "power" : 0.0,
+  "lightColor" : [134, 111, 41],
+  "emitters" : [ "sparkles" ],
+  "damageKind" : "default"
+}

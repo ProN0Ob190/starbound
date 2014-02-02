@@ -1,0 +1,13 @@
+{
+  "itemName" : "ricewine",
+  "rarity" : "Common",
+  "inventoryIcon" : "ricewine.png",
+  "description" : "A traditional Hylotl drink with a very potent flavor.",
+  "shortdescription" : "Rice Wine",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 5
+      }
+    ] ]
+}

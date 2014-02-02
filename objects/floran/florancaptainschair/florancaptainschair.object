@@ -1,0 +1,36 @@
+{
+  "objectName" : "florancaptainschair",
+  "rarity" : "Common",
+  "objectType" : "interactable",
+
+  "description" : "ENGAGE!",
+  "shortdescription" : "Captain's Chair",
+  "race" : "floran",
+  "category" : "furniture",
+
+  "apexDescription" : "It doesn't look as if a Floran built this cockpit.",
+  "avianDescription" : "Did the Floran steal this technology?",
+  "floranDescription" : "Greenfingerss give Floran craft. Floran fly!",
+  "glitchDescription" : "Analysing. It appears as if much of this technology is not Floran.",
+  "humanDescription" : "That doesn't look Floran in origin.",
+  "hylotlDescription" : "I do not think the Floran developed this technology.",
+
+  "inventoryIcon" : "captainschairicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "florancaptainschair.png:<color>",
+
+      "imagePosition" : [-12, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "interactAction" : "openCockpitInterface",
+
+  "sitFlipDirection" : true,
+  "sitPosition" : [3, 21]
+}

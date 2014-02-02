@@ -1,0 +1,21 @@
+{
+  "projectileName" : "rock",
+  "physics" : "marioball",
+  "bounces" : 1,
+  "level" : 3,
+  "timeToLive" : 3,
+  "frames" : "rock.png",
+  "damageKindImage" : "icon.png",
+  "speed" : 19,
+  "animationCycle" : 0.5,
+  "frameNumber" : 1,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "power" : 50,
+  "damageKind" : "slash",
+  "emitters" : [ "defaultbrown" ]
+}

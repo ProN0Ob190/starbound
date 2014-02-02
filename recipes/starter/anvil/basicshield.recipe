@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 10 },
+    { "item" : "darkwoodmaterial", "count" : 10 },
+    { "item" : "money", "count" : 20 }
+  ],
+  "output" : { "item" : "generatedshield", "count" : 1, "data" : { "definition" : "startershield", "level" : 1 } },
+  "groups" : [ "anvil", "armor", "all" ]
+}

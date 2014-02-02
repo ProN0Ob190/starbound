@@ -1,0 +1,7 @@
+{
+  "itemName" : "rope",
+  "rarity" : "Common",
+  "inventoryIcon" : "rope.png",
+  "description" : "A length of rope, this must be useful for something.",
+  "shortdescription" : "Rope"
+}

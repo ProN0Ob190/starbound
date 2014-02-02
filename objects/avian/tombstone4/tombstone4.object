@@ -1,0 +1,31 @@
+{
+  "objectName" : "tombstone4",
+  "rarity" : "Common",
+  "description" : "This tombstone has been smashed beyond repair.",
+  "shortdescription" : "Smashed Tombstone",
+  "race" : "avian",
+  "category" : "decorative",
+  "price" : 350,
+
+  "apexDescription" : "A broken tombstone. Very old.",
+  "avianDescription" : "A standard Avian tombstone. These are old and numerous. This one's broken.",
+  "floranDescription" : "Floran mark dead with growth of flower.",
+  "glitchDescription" : "Observation. This tombstone has crumbled to pieces.",
+  "humanDescription" : "A very old tombstone. It's too broken to read the words.",
+  "hylotlDescription" : "The dead deserve more honour than this.",
+
+  "inventoryIcon" : "tombstone4icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "tombstone4.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

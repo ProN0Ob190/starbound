@@ -1,0 +1,32 @@
+{
+  "objectName" : "bunkertable1",
+  "rarity" : "Common",
+  "description" : "A simple metal table.",
+  "shortdescription" : "Metal Table",
+  "race" : "human",
+  "category" : "furniture",
+  "price" : 500,
+
+  "apexDescription" : "A simple table.",
+  "avianDescription" : "A basic table.",
+  "floranDescription" : "Table for ssslicing.",
+  "glitchDescription" : "Statement. A table.",
+  "humanDescription" : "This is the second most generic table I've ever seen.",
+  "hylotlDescription" : "A table. Unremarkable.",
+
+  "inventoryIcon" : "bunkertable1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bunkertable1.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

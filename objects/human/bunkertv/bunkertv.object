@@ -1,0 +1,51 @@
+{
+  "objectName" : "bunkertv",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 400,
+  "lightColor" : [0, 40, 100],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 4,
+  "description" : "The monitor displays a task list.'",
+  "shortdescription" : "Small USCM Monitor",
+  "race" : "human",
+
+  "apexDescription" : "This appears to display a list of tasks that need completing. Someone is going to be busy.",
+  "avianDescription" : "A well-ordered list. One of the items is 'cleaning the latrines'.",
+  "floranDescription" : "Lissst not the bossss of Floran.",
+  "glitchDescription" : "Wary. One of the items on the list is 'fix up the robot'.",
+  "humanDescription" : "A to-do list. It's not even mine and I'm feeling under stress.",
+  "hylotlDescription" : "A neat, comprehensive list of tasks to accomplish. I approve of such forward-planning.",
+
+  "inventoryIcon" : "bunkertvicon.png",
+  "orientations" : [
+    {
+      "image" : "bunkertvleft.png:<color>",
+
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ]
+    },
+
+    {
+      "image" : "bunkertvright.png:<color>",
+
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.01,
+      "anchors" : [ "right" ]
+    },
+
+    {
+      "image" : "bunkertvceiling.png:<color>",
+
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.01,
+      "anchors" : [ "top" ]
+    }
+
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "itemName" : "plutoniumrod",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "plutoniumrod.png",
+  "description" : "It's a plutonium rod.",
+  "shortdescription" : "Plutonium Rod",
+  "fuelAmount" : 6
+}

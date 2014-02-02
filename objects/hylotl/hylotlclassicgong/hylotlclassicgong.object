@@ -1,0 +1,31 @@
+{
+  "objectName" : "hylotlclassicgong",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 1500,
+  "description" : "Hey, this gong has a big chip in it... oh. Oh, I see. It's another lily pad.",
+  "shortdescription" : "Traditional Gong",
+  "race" : "hylotl",
+
+  "apexDescription" : "I guess this gong is nice if you're into this kind of thing.",
+  "avianDescription" : "The shape of the gong means it doesn't ring quite right.",
+  "floranDescription" : "Floran sssmash gong, but noissse not sssatisfying.",
+  "glitchDescription" : "Critical. It seems the Hylotl favour basic, repeated iconography.",
+  "humanDescription" : "A gong in the shape of a lily pad. I could picture these in a gift shop.",
+  "hylotlDescription" : "Such stunning work, it's almost a shame to hit it.",
+
+  "inventoryIcon" : "hylotlclassicgongicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "hylotlclassicgong.png:<color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

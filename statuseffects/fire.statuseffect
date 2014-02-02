@@ -1,0 +1,11 @@
+{
+  "kind" : "fire",
+  "tooltipLabel" : "FireDamage(%)",
+  "tooltipAmountLabel" : "%amount%",
+  "mainInterfaceIcon" : "/interface/statuses/fire.png",
+  "primitives" : [
+    { "name" : "directdamage", "value" : 1 }
+  ],
+  "damageKind" : "fire",
+  "effectSources" : [ ]
+}

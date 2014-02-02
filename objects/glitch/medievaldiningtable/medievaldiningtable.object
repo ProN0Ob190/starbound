@@ -1,0 +1,31 @@
+{
+  "objectName" : "medievaldiningtable",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 1500,
+  "description" : "A feast for Robots?",
+  "shortdescription" : "Glitch Royal Table",
+  "race" : "glitch",
+
+  "apexDescription" : "The main feature of this table seems to be the attractive tablecloth.",
+  "avianDescription" : "The Glitch have laid a cloth over this table to keep it clean.",
+  "floranDescription" : "Iss it bed or table?",
+  "glitchDescription" : "Hungry. It has been a long time since I was present at a Glitch feast. Few in the universe are capable of such merriment.",
+  "humanDescription" : "A giant dining table. Perfect for a feast.",
+  "hylotlDescription" : "Looks like a table at which Glitch gather socially. The tablecloth suggests a meal.",
+
+  "inventoryIcon" : "medievaldiningtableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "medievaldiningtable.png:<color>",
+      "imagePosition" : [-32, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

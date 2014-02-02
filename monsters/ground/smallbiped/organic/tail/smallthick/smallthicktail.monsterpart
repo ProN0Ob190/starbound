@@ -1,0 +1,9 @@
+{
+  "name" : "smallthicktail",
+  "category" : "smallbiped_organic",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "smallthicktail.png"
+  }
+}

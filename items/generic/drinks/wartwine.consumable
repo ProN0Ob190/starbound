@@ -1,0 +1,13 @@
+{
+  "itemName" : "wartwine",
+  "rarity" : "Common",
+  "inventoryIcon" : "wartwine.png",
+  "description" : "Popular Avian wine of wartweed and fermented grapes.",
+  "shortdescription" : "Wartwine",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 5
+      }
+    ] ]
+}

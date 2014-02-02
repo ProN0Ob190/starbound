@@ -1,0 +1,33 @@
+{
+  "objectName" : "flagglitch",
+  "rarity" : "Common",
+
+  "category" : "crafting",
+  "price" : 100,
+
+  "description" : "The flag of the Glitch. Not made of metal.",
+  "shortdescription" : "Glitch Flag",
+  "race" : "human",
+
+  "apexDescription" : "A Glitch flag. Quite striking.",
+  "avianDescription" : "I like the Glitch's flag.",
+  "floranDescription" : "Floran think this mean metal people nearby!",
+  "glitchDescription" : "Pride. The flag of the Glitch. Outcast or not, we all turn to this flag.",
+  "humanDescription" : "This flag belongs to the Glitch.",
+  "hylotlDescription" : "Oh look, it's the Glitch's basic, childish flag.",
+
+
+  "inventoryIcon" : "flagglitchicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "flagglitch.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "wheat", "count" : 1 },
+    { "item" : "pearlpea", "count" : 1 },
+    { "item" : "eggshoot", "count" : 1 }
+  ],
+  "output" : { "item" : "pearlpeapancakes", "count" : 1 },
+  "groups" : [ "kitchen", "consumables", "dessert" ]
+}

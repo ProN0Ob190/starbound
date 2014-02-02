@@ -1,0 +1,10 @@
+{
+  "kind" : "doping",
+  "duration" : 30,
+  "primitives" : [
+    { "name" : "jumpboost", "percentage" : 50, "mode" : "max" },
+    { "name" : "runboost", "mode" : "max" }
+  ],
+  "effectSources" : [ "burning" ],
+  "mainInterfaceIcon" : "/interface/statuses/fire.png"
+}

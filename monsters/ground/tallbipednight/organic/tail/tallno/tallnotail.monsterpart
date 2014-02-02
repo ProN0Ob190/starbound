@@ -1,0 +1,9 @@
+{
+  "name" : "nighttallnotail",
+  "category" : "tallbiped_organic",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "tallnotail.png"
+  }
+}

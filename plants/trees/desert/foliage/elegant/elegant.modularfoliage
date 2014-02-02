@@ -1,0 +1,89 @@
+{
+  "name" : "elegant",
+  "shape" : "desert",
+
+  "dropConfig" : {
+    "drops" : [
+      [ { "item" : "sapling" } ]
+    ],
+    "sounds" : {
+      "breakTree" : [
+        { "file" : "/sfx/environmental/tree_breaking.wav" },
+        { "file" : "/sfx/environmental/tree_breaking_alt.wav" }
+      ],
+      "hitGround" : [
+        { "file" : "/sfx/environmental/tree_hitground.wav" },
+        { "file" : "/sfx/environmental/tree_hitground2.wav" }
+      ]
+    },
+    "particles" : {
+      "breakTree" : {
+        "density" : 3,
+        "options" : [
+          {
+            "color" : [55, 55, 13],
+            "timeToLive" : 10
+          },
+          {
+            "color" : [73, 77, 22],
+            "timeToLive" : 10
+          },
+          {
+            "color" : [97, 111, 34],
+            "timeToLive" : 10
+          }
+        ]
+      },
+      "hitGround" : {
+        "density" : 3,
+        "options" : [
+          {
+            "color" : [55, 55, 13],
+            "timeToLive" : 10,
+            "initial" : "upwards"
+          },
+          {
+            "color" : [73, 77, 22],
+            "timeToLive" : 10,
+            "initial" : "upwards"
+          },
+          {
+            "color" : [97, 111, 34],
+            "timeToLive" : 10,
+            "initial" : "upwards"
+          }
+        ]
+      }
+    }
+  },
+
+  "crownLeaves" : {
+    "crown1" : {
+      "image" : "",
+      "backimage" : "crown1.png",
+      "attachment" : {
+        "bx" : -54,
+        "by" : -5
+      }
+    },
+    "crown2" : {
+      "image" : "",
+      "backimage" : "crown2.png",
+      "attachment" : {
+        "bx" : -53,
+        "by" : -8
+
+      }
+    },
+    "crown3" : {
+      "image" : "",
+      "backimage" : "crown3.png",
+      "attachment" : {
+        "bx" : -54,
+        "by" : -5
+      }
+    }
+  },
+  "branchLeaves" : {
+  }
+}

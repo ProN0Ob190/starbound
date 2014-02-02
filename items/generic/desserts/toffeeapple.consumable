@@ -1,0 +1,18 @@
+{
+  "itemName" : "toffeeapple",
+  "rarity" : "Common",
+  "inventoryIcon" : "toffeeapple.png",
+  "description" : "An apple slathered in toffee.",
+  "shortdescription" : "Toffee Apple",
+  "handPosition" : [-6, 0],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 65
+      },
+      {
+        "kind" : "mollyhealing1" },
+      {
+        "kind" : "sugarrush" }
+    ] ]
+}

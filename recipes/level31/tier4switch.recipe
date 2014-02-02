@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 2 }
+  ],
+  "output" : { "item" : "tier4switch", "count" : 1 },
+  "groups" : [ "metalworkstation", "wire", "objects", "all" ]
+}

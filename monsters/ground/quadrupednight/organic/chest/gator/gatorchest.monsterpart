@@ -1,0 +1,9 @@
+{
+  "name" : "nightgatorchest",
+  "category" : "quadruped_organic",
+  "type" : "chest",
+
+  "frames" : {
+    "chest" : "gatorchest.png"
+  }
+}

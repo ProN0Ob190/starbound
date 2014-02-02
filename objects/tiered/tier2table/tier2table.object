@@ -1,0 +1,33 @@
+{
+  "objectName" : "tier2table",
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A basic steel table.",
+  "shortdescription" : "Steel Table",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 500,
+
+  "apexDescription" : "This steel table serves its purpose.",
+  "avianDescription" : "A solid steel table.",
+  "floranDescription" : "Table good enough for Floran to ssslice meatsss.",
+  "glitchDescription" : "Approving. A well-made steel table.",
+  "humanDescription" : "A nice steel table.",
+  "hylotlDescription" : "As far as basic steel tables go, this one's not bad.",
+
+  "inventoryIcon" : "tier2tableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "tier2table.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

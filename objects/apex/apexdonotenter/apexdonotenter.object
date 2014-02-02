@@ -1,0 +1,31 @@
+{
+  "objectName" : "apexdonotenter",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 300,
+
+  "apexDescription" : "These signs are a common sight back home.",
+  "avianDescription" : "Under whose authority is this sign written?",
+  "floranDescription" : "Floran enter where Floran want to enter. Ssssilly sssign.",
+  "glitchDescription" : "Rebellious. I no longer take orders.",
+  "humanDescription" : "Thanks for the suggestion!",
+  "hylotlDescription" : "Time for caution, I believe.",
+
+  "description" : "Don't do it!",
+  "shortdescription" : "Do Not Enter Sign",
+  "race" : "apex",
+
+  "inventoryIcon" : "apexdonotentericon.png",
+  "orientations" : [
+    {
+      "image" : "apexdonotenter.png:<color>",
+      "imagePosition" : [-16, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

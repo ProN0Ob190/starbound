@@ -1,0 +1,7 @@
+{
+  "image" : "oceanunderground.png",
+  "dividerimage" : "rockdivider.png",
+  "nohueshift" : 1,
+  "parallax" : 1,
+  "origin" : [0, 180]
+}

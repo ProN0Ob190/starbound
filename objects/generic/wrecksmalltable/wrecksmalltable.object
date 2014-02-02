@@ -1,0 +1,31 @@
+{
+  "objectName" : "wrecksmalltable",
+  "rarity" : "Common",
+  "description" : "A small damaged table.",
+  "shortdescription" : "Small Wrecked Table",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 250,
+
+  "apexDescription" : "A small wreck of a table.",
+  "avianDescription" : "An old table. Could fall down.",
+  "floranDescription" : "Old table not sstable.",
+  "glitchDescription" : "Observation. This old table is not very stable.",
+  "humanDescription" : "This table looks like it might fall over.",
+  "hylotlDescription" : "This table is old, lacking in balance.",
+
+  "inventoryIcon" : "wrecksmalltableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "wrecksmalltable.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

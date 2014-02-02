@@ -1,0 +1,12 @@
+{
+  "itemName" : "lightmetal",
+  "rarity" : "Common",
+  "inventoryIcon" : "lightmetal.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Light Metal",
+  "description" : "A light metallic tile, perfect for a research laboratory.",
+  "glitchdescription" : "Statement. A light metal tile.",
+  "florandescription" : "Not heavy metal.",
+
+  "materialId" : 102
+}

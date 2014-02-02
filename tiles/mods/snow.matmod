@@ -1,0 +1,9 @@
+{
+  "modId" : 3,
+  "modName" : "snow",
+  "frames" : "snow.png",
+  "variants" : 5,
+  "Description" : "Soft, freshly fallen snow.",
+  "footstepSound" : "/sfx/blocks/footstep_snow.wav",
+  "health" : 0
+}

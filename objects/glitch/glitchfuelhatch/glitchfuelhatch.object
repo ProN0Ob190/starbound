@@ -1,0 +1,38 @@
+{
+  "objectName" : "glitchfuelhatch",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "description" : "Accepts a bunch of different kinds of fuel.",
+  "shortdescription" : "Fuel Hatch",
+  "race" : "glitch",
+
+  "inventoryIcon" : "fuelhatchicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "glitchfuelhatch.png:<color>.<frame>",
+
+      "imagePosition" : [-8, -16],
+      "frames" : 4,
+      "animationCycle" : 0.7,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "apexDescription" : "A hand-built fuel converter.",
+  "avianDescription" : "A Glitch device to convert items into fuel.",
+  "floranDescription" : "Floran sshould not put head into fuel hatch.",
+  "glitchDescription" : "Observe. A Glitch fuel device built by hand.",
+  "humanDescription" : "A fuel hatch for powering the ship.",
+  "hylotlDescription" : "A good deal of tech that seems to convert items into fuel.",
+
+  "hasWindowIcon" : false,
+  "recipeGroup" : "fuel",
+  "slotCount" : 6,
+  "uiConfig" : "/interface/fuel/fuel.config",
+  "autoCloseCooldown" : 3600,
+  "frameCooldown" : 67,
+  "soundEffect" : "/sfx/objects/shipengine.wav",
+  "soundEffectRadius" : 300
+}

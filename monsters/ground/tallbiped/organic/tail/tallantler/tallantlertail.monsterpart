@@ -1,0 +1,9 @@
+{
+  "name" : "tallantlertail",
+  "category" : "tallbiped_organic",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "tallantlertail.png"
+  }
+}

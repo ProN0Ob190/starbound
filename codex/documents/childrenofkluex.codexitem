@@ -1,0 +1,10 @@
+{
+  "codexId" : "childrenofkluex",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "avianvillagebook_01.png",
+  "itemName" : "childrenofkluexCodex",
+  "rarity" : "common",
+  "description" : "The Children of Kluex",
+  "shortdescription" : "Children of Kluex"
+}

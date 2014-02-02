@@ -1,0 +1,83 @@
+{
+  "objectName" : "wildboltbulbseed",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Boltbulb! Surprisingly soft.",
+  "shortdescription" : "Boltbulb Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "objectItem" : "boltbulbseed",
+
+  "apexDescription" : "Soft like a banana, but with a horrible metallic taste.",
+  "avianDescription" : "The grounded have become quite fond of this weird, metallic vegetable.",
+  "floranDescription" : "Sssquishy metal, not like Glitchhh.",
+  "glitchDescription" : "Tentative. This vegetable tastes like the Glitch.",
+  "humanDescription" : "Gross, it's like eating bits of a truck.",
+  "hylotlDescription" : "The boltbulb is one of the few genuinely tasty vegetables, for true connoisseurs.",
+
+  "inventoryIcon" : "boltbulbseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "boltbulbseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "boltbulb",
+            "count" : 1
+          },
+          {
+            "name" : "boltbulbseed",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "boltbulb",
+            "count" : 1
+          },
+          {
+            "name" : "plantfibre",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "boltbulb",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [300, 420],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [300, 420],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

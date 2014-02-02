@@ -1,0 +1,9 @@
+{
+  "name" : "swirltail",
+  "category" : "quadruped_organic",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "swirltail.png"
+  }
+}

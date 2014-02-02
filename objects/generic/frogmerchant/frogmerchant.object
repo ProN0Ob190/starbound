@@ -1,0 +1,42 @@
+{
+  "objectName" : "frogmerchant",
+  "rarity" : "Common",
+  "objectType" : "interactable",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/frogmerchant.config",
+    "filter" : [ "frogmerchant" ]
+  },
+  "description" : "An expert craftsman could make a great... crafting table... on this.",
+  "shortdescription" : "Wooden Crafting Table",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 200,
+
+
+  "unbreakable" : true,
+
+
+  "apexDescription" : "A table with a bunch of tools for a craftsman.",
+  "avianDescription" : "A chance to display one's ability to create.",
+  "floranDescription" : "Floran ussse table. Make nice thingss.",
+  "glitchDescription" : "Inspired. Crafting module activated.",
+  "humanDescription" : "I can use materials I've found here to create new things.",
+  "hylotlDescription" : "A chance to create.",
+
+  "inventoryIcon" : "frogmerchanticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "frogmerchant.png:<color>.<frame>",
+
+      "imagePosition" : [-20, 0],
+      "frames" : 11,
+      "animationCycle" : 2.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+
+    }
+  ]
+}

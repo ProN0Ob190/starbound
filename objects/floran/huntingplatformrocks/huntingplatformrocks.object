@@ -1,0 +1,29 @@
+{
+  "objectName" : "huntingplatformrocks",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 1200,
+  "description" : "Rocks. But do they roll?",
+  "shortdescription" : "Rocks",
+  "race" : "floran",
+
+  "apexDescription" : "A rock with an arrow on it.",
+  "avianDescription" : "A rock.",
+  "floranDescription" : "This way to ssstabbing.",
+  "glitchDescription" : "Statement. A rock.",
+  "humanDescription" : "Let's follow the arrow on this rock.",
+  "hylotlDescription" : "A carved rock.",
+
+  "inventoryIcon" : "huntingplatformrocksicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "huntingplatformrocks.png:<color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

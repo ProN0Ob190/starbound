@@ -1,0 +1,21 @@
+{
+  "itemName" : "handgrenade",
+  "rarity" : "Common",
+  "inventoryIcon" : "grenadeicon.png",
+  "image" : "grenadeicon.png",
+  "shortdescription" : "Hand Grenade",
+  "description" : "USCM Standard Issue Hand Grenade. Has 3 second fuse.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "handgrenade",
+  "projectileConfig" : {
+    "speed" : 30,
+    "power" : 100
+  }
+}
+

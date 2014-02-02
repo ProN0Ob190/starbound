@@ -1,0 +1,10 @@
+{
+  "modId" : 10,
+  "modName" : "copper",
+  "frames" : "copper.png",
+  "variants" : 8,
+  "itemDrop" : "copperore",
+  "Description" : "Copper ore.",
+  "health" : 6,
+  "breaksWithTile" : true
+}

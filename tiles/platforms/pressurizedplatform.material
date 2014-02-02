@@ -1,0 +1,14 @@
+{
+  "materialId" : 160,
+  "materialName" : "pressurizedplatform",
+  "platform" : true,
+  "transparent" : true,
+  "stairVariants" : 1,
+  "stairImage" : "pressurizedstairs.png",
+  "platformVariants" : 3,
+  "platformImage" : "pressurizedplatform.png",
+  "itemDrop" : "pressurizedplatform",
+  "shortdescription" : "Pressurized Platform",
+  "description" : "Tough pressurized platform for potentially pressured environments!",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.wav"
+}

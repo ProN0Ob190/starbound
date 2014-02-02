@@ -1,0 +1,9 @@
+{
+  "name" : "nightfantailbody",
+  "category" : "smallflying_organic",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "fantailbody.png"
+  }
+}

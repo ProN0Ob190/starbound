@@ -1,0 +1,31 @@
+{
+  "objectName" : "arrowsign",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 200,
+
+  "description" : "I should probably go that way.",
+  "shortdescription" : "Arrow Sign",
+  "race" : "apex",
+
+  "apexDescription" : "Miniknog arrows probably shouldn't be followed.",
+  "avianDescription" : "An arrow. I wonder what it leads to.",
+  "floranDescription" : "Arrow not command Floran, Floran free to go where Floran desiresss.",
+  "glitchDescription" : "Considering. Likelihood of correct direction 0.25.",
+  "humanDescription" : "What's the point if it doesn't tell me what it's pointing to?",
+  "hylotlDescription" : "Sometimes, to go forwards one must take a step back.",
+
+  "inventoryIcon" : "arrowsignicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "arrowsign.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

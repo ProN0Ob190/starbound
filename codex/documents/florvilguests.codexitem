@@ -1,0 +1,10 @@
+{
+  "codexId" : "florvilguests",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "floranvillagebook_09.png",
+  "itemName" : "florvilguestsCodex",
+  "rarity" : "common",
+  "description" : "Greenfinger's Notes: Receiving Guests",
+  "shortdescription" : "Receiving Guests"
+}

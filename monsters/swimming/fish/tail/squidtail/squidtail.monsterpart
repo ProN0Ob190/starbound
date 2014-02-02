@@ -1,0 +1,9 @@
+{
+  "name" : "squidtail",
+  "category" : "fish_organic",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "squidtail.png"
+  }
+}

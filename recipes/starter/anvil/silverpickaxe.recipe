@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "silverbar", "count" : 8 },
+    { "item" : "copperpickaxe", "count" : 1 },
+    { "item" : "money", "count" : 200 }
+  ],
+  "output" : { "item" : "silverpickaxe", "count" : 1 },
+  "groups" : [ "anvil", "tools", "all" ]
+}

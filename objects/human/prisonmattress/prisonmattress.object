@@ -1,0 +1,31 @@
+{
+  "objectName" : "prisonmattress",
+  "rarity" : "Common",
+  "description" : "This mattress is filthy! I swear I just saw something crawling around inside.",
+  "shortdescription" : "Dirty Mattress",
+  "race" : "human",
+  "category" : "furniture",
+  "price" : 200,
+
+  "apexDescription" : "This is approaching Miniknog-level conditions.",
+  "avianDescription" : "A disgusting mattress.",
+  "floranDescription" : "Even Floran find sssmell repulsssive.",
+  "glitchDescription" : "Sterilising. This mattress needs to be fumigated. I can detect life signs.",
+  "humanDescription" : "I've slept on worse.",
+  "hylotlDescription" : "A vile, rotting mattress. I would prefer to keep my distance.",
+
+  "inventoryIcon" : "prisonmattressicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "prisonmattress.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "swimmertail",
+  "category" : "fish_organic",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "swimmertail.png"
+  }
+}

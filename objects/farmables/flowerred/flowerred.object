@@ -1,0 +1,63 @@
+{
+  "objectName" : "flowerred",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "A flower with bright red petals. Useful for making dye.",
+  "shortdescription" : "Red Flower",
+  "objectType" : "farmable",
+  "printable" : false,
+  "objectItem" : "petalred",
+
+  "apexDescription" : "A pretty red flower.",
+  "avianDescription" : "Red is the colour of... this flower.",
+  "floranDescription" : "Flower red like Floran anger.",
+  "glitchDescription" : "Statement. Some people say the Glitch cannot see red. Revelation. They lie.",
+  "humanDescription" : "This... whatever flower is red.",
+  "hylotlDescription" : "Vibrant, rich, beautiful.",
+
+  "inventoryIcon" : "grapesseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "flowerred.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "petalred",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [660, 780],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [660, 780],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

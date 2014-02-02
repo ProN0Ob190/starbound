@@ -1,0 +1,31 @@
+{
+  "objectName" : "classicchandelier",
+  "rarity" : "Common",
+  "description" : "This chandelier is made of wrought-iron. It looks expensive.",
+  "shortdescription" : "Classic Chandelier",
+  "race" : "apex",
+
+  "category" : "light",
+  "price" : 800,
+  "lightColor" : [217, 217, 190],
+
+  "apexDescription" : "A beautiful classic chandelier.",
+  "avianDescription" : "A very charming set of lights.",
+  "floranDescription" : "Even Floran recognisse classss when Floran see it.",
+  "glitchDescription" : "Admiration. These appear to be similar to Glitch chandeliers, but much improved.",
+  "humanDescription" : "An electric chandelier. Very pretty.",
+  "hylotlDescription" : "Perhaps the Apex are more elegant than I thought.",
+
+  "inventoryIcon" : "classicchandeliericon.png",
+  "orientations" : [
+    {
+      "image" : "classicchandelier.png:<color>.<frame>",
+      "imagePosition" : [-20, -16],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ]
+}

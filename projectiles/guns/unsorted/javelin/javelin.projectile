@@ -1,0 +1,19 @@
+{
+  "projectileName" : "javelin",
+  "physics" : "arrow",
+  "frames" : "javelin.png",
+  "level" : 5,
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "timeToLive" : 30,
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "power" : 25,
+  "damageKind" : "default"
+}

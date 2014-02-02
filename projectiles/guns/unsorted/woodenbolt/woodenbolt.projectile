@@ -1,0 +1,19 @@
+{
+  "projectileName" : "woodenbolt",
+  "physics" : "arrow",
+  "frames" : "woodenbolt.png",
+  "level" : 3,
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "timeToLive" : 30,
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "power" : 5.0,
+  "damageKind" : "bow"
+}

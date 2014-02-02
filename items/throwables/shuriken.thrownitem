@@ -1,0 +1,21 @@
+{
+  "itemName" : "shuriken",
+  "rarity" : "Common",
+  "inventoryIcon" : "shurikenicon.png",
+  "image" : "shurikenicon.png",
+  "shortdescription" : "Shuriken",
+  "description" : "A shuriken cloaked in plasma.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "shuriken",
+  "projectileConfig" : {
+    "speed" : 45,
+    "power" : 40
+  }
+}
+

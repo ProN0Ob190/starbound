@@ -1,0 +1,9 @@
+{
+  "name" : "nighttriangletail",
+  "category" : "quadruped_organic",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "triangletail.png"
+  }
+}

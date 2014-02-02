@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "giantflowerpetal", "count" : 25 },
+    { "item" : "petalyellow", "count" : 15 },
+    { "item" : "money", "count" : 25 }
+  ],
+  "output" : { "item" : "giantflowerchair", "count" : 1 },
+  "groups" : [ "craftingtable", "furniture", "objects", "all" ]
+}

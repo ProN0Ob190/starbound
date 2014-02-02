@@ -1,0 +1,8 @@
+{
+  "itemName" : "coalore",
+  "rarity" : "Common",
+  "inventoryIcon" : "coalore.png",
+  "description" : "It's coal. A decent source of fuel.",
+  "shortdescription" : "Coal",
+  "fuelAmount" : 2
+}

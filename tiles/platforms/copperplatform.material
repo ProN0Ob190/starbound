@@ -1,0 +1,14 @@
+{
+  "materialId" : 139,
+  "materialName" : "copperplatform",
+  "platform" : true,
+  "transparent" : true,
+  "stairVariants" : 1,
+  "stairImage" : "copperstairs.png",
+  "platformVariants" : 3,
+  "platformImage" : "copperplatform.png",
+  "itemDrop" : "copperplatform",
+  "shortdescription" : "Copper Platform",
+  "description" : "A copper platform.",
+  "footstepSound" : "/sfx/blocks/footstep_girder.wav"
+}

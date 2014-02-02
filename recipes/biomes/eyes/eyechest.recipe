@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "oculemon", "count" : 30 },
+    { "item" : "money", "count" : 140 }
+  ],
+  "output" : { "item" : "eyechest", "count" : 1 },
+  "groups" : [ "craftingtable", "furniture", "objects", "all" ]
+}

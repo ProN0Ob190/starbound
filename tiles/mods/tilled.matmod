@@ -1,0 +1,10 @@
+{
+  "modId" : 31,
+  "modName" : "tilled",
+  "frames" : "tilled.png",
+  "variants" : 3,
+  "description" : "Tilled dirt.",
+  "footstepSound" : "/sfx/blocks/footstep_wetclay.wav",
+  "tilled" : true,
+  "health" : 0
+}

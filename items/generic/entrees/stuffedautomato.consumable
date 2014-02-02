@@ -1,0 +1,20 @@
+{
+  "itemName" : "stuffedautomato",
+  "rarity" : "Common",
+  "inventoryIcon" : "stuffedautomato.png",
+  "description" : "Tastes like an actual stuffed tomato, if you can get through it without breaking your teeth!",
+  "shortdescription" : "Stuffed Automato",
+  "handPosition" : [0, -4],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 85
+      },
+      {
+        "kind" : "mollyhealing1" },
+      {
+        "kind" : "energy",
+        "amount" : 35
+      }
+    ] ]
+}

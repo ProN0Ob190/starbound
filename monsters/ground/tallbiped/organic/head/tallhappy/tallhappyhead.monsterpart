@@ -1,0 +1,18 @@
+{
+  "name" : "tallhappyhead",
+  "category" : "tallbiped_organic",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "happyhead.png"
+  },
+
+  "parameters" :
+  {
+    "idleNoise" : [ "/sfx/npc/quadruped/goathead_idle1.wav", "/sfx/npc/quadruped/goathead_idle2.wav" ],
+    "turnHostileNoise" : [ "/sfx/npc/quadruped/goathead_turnhostile.wav" ],
+    "attackNoise" : [ "/sfx/npc/quadruped/goathead_attack1.wav", "/sfx/npc/quadruped/goathead_attack2.wav" ],
+    "painNoise" : [ "/sfx/npc/quadruped/goathead_pain1.wav", "/sfx/npc/quadruped/goathead_pain2.wav" ],
+    "deathNoise" : [ "/sfx/npc/quadruped/goathead_death.wav" ]
+  }
+}

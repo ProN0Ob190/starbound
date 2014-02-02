@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "petalred", "count" : 15 },
+    { "item" : "glassmaterial", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "reddye",
+    "count" : 1
+  },
+  "groups" : [ "craftingtable", "other", "all" ]
+}

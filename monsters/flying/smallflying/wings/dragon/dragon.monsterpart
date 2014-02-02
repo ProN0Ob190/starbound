@@ -1,0 +1,14 @@
+{
+  "name" : "dragon",
+  "category" : "smallflying_organic",
+  "type" : "wings",
+
+  "frames" : {
+    "backWings" : "dragonbwing.png",
+    "frontWings" : "dragonfwing.png"
+  },
+
+  "parameters" : {
+    "skills" : [ "flyingSwoopAttack" ]
+  }
+}

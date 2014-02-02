@@ -1,0 +1,14 @@
+{
+  "itemName" : "crystalplant",
+  "rarity" : "Common",
+  "inventoryIcon" : "crystalplant.png",
+  "description" : "A crystal plant",
+  "shortdescription" : "crystalplant",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 25
+      }
+    ] ]
+}

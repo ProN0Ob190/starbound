@@ -1,0 +1,60 @@
+{
+  "name" : "bones",
+
+  "surfaceParameters" : {
+    "mainBlock" : "bonematerial",
+    "subBlocks" : [ "sand", "sandstone01" ],
+    "ores" : "surfaceOres",
+
+    "statusParameters" : {
+      "temperatureBounds" : [50, 60],
+      "dayNightTemperatureVariability" : 70,
+      "temperatureVariability" : 5
+    },
+
+    "surfacePlaceables" : {
+      "grassMod" : [ "sand" ],
+      "modDensity" : 0.9,
+
+      "items" : [
+        {
+          "mode" : "floor",
+          "priority" : 3.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+          "type" : "grass",
+          "grasses" : [ "freebone" ]
+        },
+
+        {
+          "mode" : "floor",
+          "priority" : 0.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:denseSmall",
+          "type" : "microdungeon",
+          "microdungeons" : [ "boneencounter" ]
+
+        },
+
+        {
+          "mode" : "floor",
+          "priority" : 2.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+          "type" : "bush",
+          "bushes" : [
+            {
+              "name" : "skeletalbush",
+              "baseHueShiftMax" : 40,
+              "modHueShiftMax" : 180
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
+
+

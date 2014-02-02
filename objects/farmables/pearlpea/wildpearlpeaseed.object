@@ -1,0 +1,83 @@
+{
+  "objectName" : "wildpearlpeaseed",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Pearlpea, I'll need to bite down hard.",
+  "shortdescription" : "Pearlpea Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "objectItem" : "pearlpeaseed",
+
+  "apexDescription" : "A crunchy pea leads to many broken teeth.",
+  "avianDescription" : "Pearlpeas are pleasant enough to peck at for a while.",
+  "floranDescription" : "Hard little ballsss. Floran once usssed as weapon.",
+  "glitchDescription" : "Pride. Glitch teeth make short work of pearlpeas.",
+  "humanDescription" : "Like a pea, with added toothache.",
+  "hylotlDescription" : "Delicious, crunchy peas. Fairly valuable underwater.",
+
+  "inventoryIcon" : "pearlpeaseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "pearlpeaseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "pearlpea",
+            "count" : 1
+          },
+          {
+            "name" : "pearlpeaseed",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "pearlpea",
+            "count" : 1
+          },
+          {
+            "name" : "plantfibre",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "pearlpea",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [1380, 1500],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [1380, 1500],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

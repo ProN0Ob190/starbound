@@ -1,0 +1,18 @@
+{
+  "name" : "owlhead",
+  "category" : "smallbiped_organic",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "owlhead.png"
+  },
+
+  "parameters" :
+  {
+    "idleNoise" : [ "/sfx/npc/smallbiped/powlhead_small_idle1.wav", "/sfx/npc/smallbiped/powlhead_small_idle2.wav" ],
+    "turnHostileNoise" : [ "/sfx/npc/smallbiped/powlhead_small_turnhostile.wav" ],
+    "attackNoise" : [ "/sfx/npc/smallbiped/powlhead_small_attack1.wav", "/sfx/npc/smallbiped/powlhead_small_attack2.wav" ],
+    "painNoise" : [ "/sfx/npc/smallbiped/powlhead_small_pain1.wav", "/sfx/npc/smallbiped/powlhead_small_pain2.wav" ],
+    "deathNoise" : [ "/sfx/npc/smallbiped/powlhead_small_death.wav" ]
+  }
+}

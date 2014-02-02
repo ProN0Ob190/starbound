@@ -1,0 +1,11 @@
+{
+  "name" : "fireswirl",
+  "label" : "FIRESWIRL",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "scripts" : [ "/monsters/ground/rangedAttack.lua" ],
+    "shooterProjectile" : [ "fireswirl" ],
+    "shooterSkillName" : "fireswirl"
+  }
+}

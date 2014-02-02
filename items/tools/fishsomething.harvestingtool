@@ -1,0 +1,18 @@
+{
+  "itemName" : "fishsomething",
+  "inventoryIcon" : "fishicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "My God...",
+  "shortdescription" : "Fishy",
+  "inspectionKind" : "tool",
+
+  "image" : "fish.png",
+  "handPosition" : [-4, -4],
+  "fireTime" : 0.25,
+  "blockRadius" : 7,
+  "altBlockRadius" : 1,
+  "twoHanded" : true,
+  "strikeSound" : "/sfx/tools/pickaxe_hit.wav"
+}

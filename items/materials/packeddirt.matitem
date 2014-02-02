@@ -1,0 +1,12 @@
+{
+  "itemName" : "packeddirt",
+  "rarity" : "Common",
+  "inventoryIcon" : "packeddirt.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Packed Dirt",
+  "description" : "Some packed dirt.",
+  "glitchdescription" : "Statement. Dirt. Clarification. Just dirt.",
+  "florandescription" : "Filthy dirt!",
+
+  "materialId" : 133
+}

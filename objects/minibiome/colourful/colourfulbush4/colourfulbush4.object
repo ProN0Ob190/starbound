@@ -1,0 +1,40 @@
+{
+  "objectName" : "colourfulbush4",
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "pot",
+  "price" : 400,
+
+
+  "description" : "A colourful bush of high aesthetic value.",
+  "shortdescription" : "Colourful Bush",
+  "race" : "apex",
+
+  "apexDescription" : "Such foliage never fails to impress me.",
+  "avianDescription" : "With foliage like this, one can almost forget the pains of being grounded.",
+  "floranDescription" : "Isss this plant or Floran? Floran prod to check.",
+  "glitchDescription" : "Admiring. A truly beautiful bush.",
+  "humanDescription" : "This would look nice in a pot.",
+  "hylotlDescription" : "Nature can be wonderful. Harsh, and wonderful.",
+
+  "inventoryIcon" : "capsulebigicon.png",
+  "orientations" : [
+    {
+      "image" : "colourfulbush4.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "smashSounds" : [ "/sfx/objects/capsule_break1.wav", "/sfx/objects/capsule_break2.wav", "/sfx/objects/capsule_break3.wav" ],
+  "smashDropOptions" : [
+    [ [ "plantfibre", 1, { } ], [ "plantfibre", 1, { } ], [ "plantfibre", 1, { } ] ]
+  ],
+  "breakDropOptions" : [
+    [ [ "plantfibre", 1, { } ], [ "plantfibre", 1, { } ], [ "plantfibre", 1, { } ] ]
+  ]
+}

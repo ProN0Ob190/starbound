@@ -1,0 +1,14 @@
+{
+  "name" : "nymph",
+  "category" : "smallflying_organic",
+  "type" : "wings",
+
+  "frames" : {
+    "backWings" : "nymphbwing.png",
+    "frontWings" : "nymphfwing.png"
+  },
+
+  "parameters" : {
+    "skills" : [ "flyingSwoopAttack" ]
+  }
+}

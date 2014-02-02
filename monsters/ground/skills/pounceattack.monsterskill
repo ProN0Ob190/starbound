@@ -1,0 +1,9 @@
+{
+  "name" : "pounceAttack",
+  "label" : "BODY SLAM",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "scripts" : [ "/monsters/ground/pounceAttack.lua" ]
+  }
+}

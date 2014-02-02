@@ -1,0 +1,9 @@
+{
+  "name" : "nightwart2chest",
+  "category" : "quadruped_organic",
+  "type" : "chest",
+
+  "frames" : {
+    "chest" : "wart2chest.png"
+  }
+}

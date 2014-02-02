@@ -1,0 +1,31 @@
+{
+  "objectName" : "wingedurn",
+  "rarity" : "Common",
+  "description" : "A winged urn, perhaps believed to carry the dead into the afterlife.",
+  "shortdescription" : "Winged Urn",
+  "race" : "avian",
+  "category" : "decorative",
+  "price" : 600,
+
+  "apexDescription" : "An urn with wings.",
+  "avianDescription" : "These urns were given to Avians crippled in battle. The urn is supposed to carry the dead to the aether.",
+  "floranDescription" : "Pot with wingsss. Pot doesssn't fly.",
+  "glitchDescription" : "Observation. The wings must have some religious significance.",
+  "humanDescription" : "I think it's a winged urn. Full of ashes.",
+  "hylotlDescription" : "Where do the wings carry the dead, I wonder?",
+
+  "inventoryIcon" : "wingedurnicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "wingedurn.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

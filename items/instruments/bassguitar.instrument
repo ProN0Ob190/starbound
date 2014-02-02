@@ -1,0 +1,19 @@
+{
+  "itemName" : "bassguitar",
+  "inventoryIcon" : "bassguitaricon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "A bass guitar. Lay down some rhythm.",
+  "shortdescription" : "Bass Guitar",
+  "largeImage" : "bassguitar.png",
+  "image" : "bassguitar.png",
+  "inspectionKind" : "tool",
+  "activeImage" : "bassguitar.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0.1, 0.1],
+
+  "handPosition" : [0, 0],
+  "twoHanded" : true,
+  "kind" : "bassguitar"
+}

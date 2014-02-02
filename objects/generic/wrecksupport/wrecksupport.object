@@ -1,0 +1,38 @@
+{
+  "objectName" : "wrecksupport",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 150,
+  "description" : "A rusty metal support.",
+  "shortdescription" : "Wrecked Support",
+  "race" : "generic",
+
+  "apexDescription" : "I'm not sure how much support this still provides.",
+  "avianDescription" : "I hope this isn't holding anything up.",
+  "floranDescription" : "Metal not very ssstrong now.",
+  "glitchDescription" : "Analysing. Metal is supporting exactly zero kilograms of weight.",
+  "humanDescription" : "That doesn't look like it could hold up much weight.",
+  "hylotlDescription" : "As a load-bearing structure, this isn't doing the job.",
+
+  "inventoryIcon" : "wrecksupporticon.png",
+  "orientations" : [
+    {
+      "image" : "wrecksupportleft.png:<color>",
+
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.01,
+      "anchors" : [ "bottom", "left" ]
+    },
+
+    {
+
+      "image" : "wrecksupportright.png:<color>",
+
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.01,
+      "anchors" : [ "bottom", "right" ]
+    }
+  ]
+}

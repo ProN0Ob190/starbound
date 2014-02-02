@@ -1,0 +1,13 @@
+{
+  "itemName" : "rice",
+  "rarity" : "Common",
+  "inventoryIcon" : "rice.png",
+  "description" : "Rice. Good for when you're hungry and want to eat a thousand of something.",
+  "shortdescription" : "Rice",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 25
+      }
+    ] ]
+}

@@ -1,0 +1,12 @@
+{
+  "itemName" : "smoothconcrete",
+  "rarity" : "Common",
+  "inventoryIcon" : "smoothconcreteicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Smooth, solid concrete.",
+  "shortdescription" : "Smooth Concrete",
+  "glitchdescription" : "Statement. Smooth concrete.",
+  "florandescription" : "Sssmooth con... crete?",
+
+  "materialId" : 116
+}

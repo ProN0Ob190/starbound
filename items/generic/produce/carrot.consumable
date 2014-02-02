@@ -1,0 +1,13 @@
+{
+  "itemName" : "carrot",
+  "rarity" : "Common",
+  "inventoryIcon" : "carroticon.png",
+  "description" : "Mmm crunchy.",
+  "shortdescription" : "Carrot",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 25
+      }
+    ] ]
+}

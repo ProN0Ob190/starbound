@@ -1,0 +1,9 @@
+{
+  "name" : "cloudhead",
+  "category" : "smallflying_organic",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "cloudhead.png"
+  }
+}

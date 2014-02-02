@@ -1,0 +1,10 @@
+{
+  "codexId" : "writingoftexts",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "aviantemplebook_11.png",
+  "itemName" : "writingoftextsCodex",
+  "rarity" : "common",
+  "description" : "The Writing of Texts",
+  "shortdescription" : "Writing of Texts"
+}

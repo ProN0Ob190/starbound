@@ -1,0 +1,19 @@
+{
+  "name" : "doublejawhead",
+  "category" : "quadruped_organic",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "doublejawhead.png"
+  },
+
+  "parameters" :
+  {
+    "projectileSourcePosition" : [1, -1.3],
+    "idleNoise" : [ "/sfx/npc/quadruped/doublejawhead_idle1.wav", "/sfx/npc/quadruped/doublejawhead_idle2.wav" ],
+    "turnHostileNoise" : [ "/sfx/npc/quadruped/doublejawhead_turnhostile.wav" ],
+    "attackNoise" : [ "/sfx/npc/quadruped/doublejawhead_attack1.wav", "/sfx/npc/quadruped/doublejawhead_attack2.wav" ],
+    "painNoise" : [ "/sfx/npc/quadruped/doublejawhead_pain1.wav", "/sfx/npc/quadruped/doublejawhead_pain2.wav" ],
+    "deathNoise" : [ "/sfx/npc/quadruped/doublejawhead_death.wav" ]
+  }
+}

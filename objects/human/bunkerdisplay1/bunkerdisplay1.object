@@ -1,0 +1,33 @@
+{
+  "objectName" : "bunkerdisplay1",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 750,
+  "description" : "The display shows a round central room branching off into several hallways.",
+  "shortdescription" : "Blueprint Display",
+  "race" : "human",
+
+  "apexDescription" : "Looks like some kind of digital map.",
+  "avianDescription" : "Perhaps a layout of this area?",
+  "floranDescription" : "Squiggly linesss make no sssense to Floran.",
+  "glitchDescription" : "Spacial. This appears to depict the layout of the area we're in.",
+  "humanDescription" : "A basic map display.",
+  "hylotlDescription" : "Corridors and rooms are laid out on this map.",
+
+  "inventoryIcon" : "bunkerdisplay1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bunkerdisplay1.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/bunkerdisplay.wav"
+
+}

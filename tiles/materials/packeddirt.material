@@ -1,0 +1,15 @@
+{
+  "materialId" : 133,
+  "materialName" : "packeddirt",
+  "frames" : "packeddirt.png",
+  "particleColor" : [143, 110, 61, 255],
+  "variants" : 2,
+  "itemDrop" : "packeddirt",
+  "shortdescription" : "Packed Dirt",
+  "description" : "Some packed dirt.",
+  "glitchDescription" : "Statement. Dirt. Clarification. Just dirt.",
+  "floranDescription" : "Filthy dirt!",
+  "multicolored" : false,
+  "footstepSound" : "/sfx/blocks/footstep_stone2.wav",
+  "health" : 7
+}

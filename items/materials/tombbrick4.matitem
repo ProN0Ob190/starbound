@@ -1,0 +1,12 @@
+{
+  "itemName" : "tombbrick4",
+  "rarity" : "Common",
+  "inventoryIcon" : "tombbrick4.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Dark Tomb Brick",
+  "description" : "Dark and cold to the touch, these bricks seem to suck the heat from the room.",
+  "glitchdescription" : "Statement. Dusty bricks.",
+  "florandescription" : "Dusssty bricks.",
+
+  "materialId" : 63
+}

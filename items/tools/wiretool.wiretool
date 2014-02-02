@@ -1,0 +1,17 @@
+{
+  "itemName" : "wiretool",
+  "inventoryIcon" : "wiringgun2icon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "Built to place optical wires between input points.",
+  "shortdescription" : "Wiring Tool",
+  "largeImage" : "wiretoolbig.png",
+  "inspectionKind" : "tool",
+
+  "image" : "wiringgun2.png",
+  "handPosition" : [-4, 0],
+  "fireTime" : 0.25,
+  "twoHanded" : true,
+  "strikeSound" : "/sfx/tools/wiretool.wav"
+}

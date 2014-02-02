@@ -1,0 +1,12 @@
+{
+  "itemName" : "castlewalls2",
+  "rarity" : "Common",
+  "inventoryIcon" : "castlewalls2.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Small stone slabs, perfect for the finer details.",
+  "shortdescription" : "Small Stone Brick",
+  "glitchdescription" : "Statement. Stone slabs.",
+  "florandescription" : "Ssstone.",
+
+  "materialId" : 123
+}

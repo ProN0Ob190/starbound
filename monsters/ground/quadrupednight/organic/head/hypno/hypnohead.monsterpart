@@ -1,0 +1,19 @@
+{
+  "name" : "nighthypnohead",
+  "category" : "quadruped_organic",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "hypnohead.png"
+  },
+
+  "parameters" :
+  {
+    "projectileSourcePosition" : [1, -0.65],
+    "idleNoise" : [ "/sfx/npc/quadruped/bulbouseyehead_idle1.wav", "/sfx/npc/quadruped/bulbouseyehead_idle2.wav" ],
+    "turnHostileNoise" : [ "/sfx/npc/quadruped/bulbouseyehead_turnhostile.wav" ],
+    "attackNoise" : [ "/sfx/npc/quadruped/bulbouseyehead_attack1.wav", "/sfx/npc/quadruped/bulbouseyehead_attack2.wav" ],
+    "painNoise" : [ "/sfx/npc/quadruped/bulbouseyehead_pain1.wav", "/sfx/npc/quadruped/bulbouseyehead_pain2.wav" ],
+    "deathNoise" : [ "/sfx/npc/quadruped/bulbouseyehead_death.wav" ]
+  }
+}

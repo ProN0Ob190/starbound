@@ -1,0 +1,31 @@
+{
+  "objectName" : "hylotlshopsign",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 500,
+
+  "description" : "A cheery welcome sign meant for Hylotl-owned shops.",
+  "shortdescription" : "Friendly Hylotl Sign",
+  "race" : "hylotl",
+
+  "apexDescription" : "This cheery Hylotl face is welcoming me into a shop. How can I resist?",
+  "avianDescription" : "That face looks quite friendly.",
+  "floranDescription" : "Stupid frogman face.",
+  "glitchDescription" : "Inviting. Maybe I should see what this shop has to offer.",
+  "humanDescription" : "That cheery Hylotl face is tempting me into this shop.",
+  "hylotlDescription" : "The sign is meant to indicate good customer service.",
+
+  "inventoryIcon" : "hylotlshopsignicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "hylotlshopsign.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

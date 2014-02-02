@@ -1,0 +1,15 @@
+{
+  "itemName" : "sectorunlock",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "sectorunlockicon.png",
+  "image" : "sectorunlockicon.png",
+
+  "shortdescription" : "Thing",
+  "description" : "Does things",
+
+  // Remember you can override this with parameters, no need for more than one
+  // unlock item
+  "sectorUnlock" : "beta",
+  "tierRecipesUnlock" : "tier2",
+  "unlockMessage" : "test message"
+}

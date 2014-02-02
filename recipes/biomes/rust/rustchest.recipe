@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "metallic", "count" : 30 },
+    { "item" : "bolt", "count" : 12 },
+    { "item" : "money", "count" : 80 },
+    { "item" : "copperbar", "count" : 2 }
+
+  ],
+  "output" : { "item" : "rustchest", "count" : 1 },
+  "groups" : [ "craftingtable", "furniture", "objects", "all" ]
+}

@@ -1,0 +1,37 @@
+{
+  "objectName" : "bunkertv2",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 750,
+  "description" : "A set of three TV monitors facing in different directions.'",
+  "shortdescription" : "USCM Television Monitors",
+  "race" : "human",
+
+  "apexDescription" : "A series of monitors. They don't say anything interesting.",
+  "avianDescription" : "A number of screens.",
+  "floranDescription" : "Ssscreens.",
+  "glitchDescription" : "Bored. A few screens.",
+  "humanDescription" : "Screens. They don't seem to be displaying much of anything.",
+  "hylotlDescription" : "A set of three screens.",
+
+  "inventoryIcon" : "bunkertv2icon.png",
+  "orientations" : [
+    {
+      "image" : "bunkertv2.png:<color>",
+
+      "imagePosition" : [-24, -10],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+
+    {
+      "image" : "bunkertv2.png:<color>",
+
+      "imagePosition" : [-24, -10],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

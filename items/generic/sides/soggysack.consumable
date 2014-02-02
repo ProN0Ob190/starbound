@@ -1,0 +1,21 @@
+{
+  "itemName" : "soggysack",
+  "rarity" : "Common",
+  "inventoryIcon" : "soggysack.png",
+  "description" : "Dirturchin innards stuffed into a coralcreep to make a dish that sounds terrible and tastes alright.",
+  "shortdescription" : "Soggy Sack",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 75
+      },
+      {
+        "kind" : "health",
+        "amount" : 60
+      },
+      {
+        "kind" : "energy",
+        "amount" : 15
+      }
+    ] ]
+}

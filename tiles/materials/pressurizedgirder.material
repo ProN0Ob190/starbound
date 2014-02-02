@@ -1,0 +1,15 @@
+{
+  "materialId" : 153,
+  "materialName" : "pressurizedgirder",
+  "frames" : "pressurizedgirder.png",
+  "particleColor" : [89, 127, 52, 255],
+  "variants" : 5,
+  "itemDrop" : "pressurizedgirder",
+  "description" : "A pressurised girder.",
+  "shortdescription" : "Pressurised Girder",
+  "glitchDescription" : "Statement. A pressurised girder.",
+  "floranDescription" : "Girder.",
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.wav",
+  "health" : 20
+}

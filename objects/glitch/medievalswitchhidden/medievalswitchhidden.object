@@ -1,0 +1,40 @@
+{
+  "objectName" : "medievalswitchhidden",
+  "rarity" : "Common",
+  "objectType" : "wire",
+  "description" : "This floor tile looks different from the rest.",
+  "shortdescription" : "Hidden Switch",
+  "race" : "glitch",
+  "category" : "wire",
+  "price" : 200,
+
+  "apexDescription" : "This tile appears to be loose.",
+  "avianDescription" : "This tile is a bad fit.",
+  "floranDescription" : "Tile wobble.",
+  "glitchDescription" : "Scanning. A strange tile.",
+  "humanDescription" : "A rattling tile.",
+  "hylotlDescription" : "A strange tile.",
+
+  "inventoryIcon" : "medievalswitchhiddenicon.png",
+  "orientations" : [
+    {
+      "image" : "medievalswitchhidden.png:<color>.off",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/switch/switch.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switchtoggle.animation",
+  "animationParts" : {
+    "switch" : "medievalswitchhidden.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "outboundNodes" : [ [0, 0] ]
+}

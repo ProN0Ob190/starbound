@@ -1,0 +1,14 @@
+{
+  "itemName" : "reefpod",
+  "rarity" : "Common",
+  "inventoryIcon" : "reefpod.png",
+  "description" : "Tastes like a crunchy smoothy made from every fruit you can imagine.",
+  "shortdescription" : "Reefpod",
+  "handPosition" : [0, 8],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 25
+      }
+    ] ]
+}

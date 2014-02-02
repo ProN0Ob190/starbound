@@ -1,0 +1,10 @@
+{
+  "name" : "hummingbird",
+  "category" : "smallflying_organic",
+  "type" : "wings",
+
+  "frames" : {
+    "backWings" : "hummingbirdbwing.png",
+    "frontWings" : "hummingbirdfwing.png"
+  }
+}

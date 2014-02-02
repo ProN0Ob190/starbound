@@ -1,0 +1,31 @@
+{
+  "objectName" : "apexlamp2",
+  "rarity" : "Common",
+  "description" : "A tall wooden lamp with a polka dot lamp shade.",
+  "shortdescription" : "Standard Standing Lamp",
+  "race" : "apex",
+
+  "apexDescription" : "Standard issue.",
+  "avianDescription" : "A tall lamp. I wonder how it functions? There are no crystals.",
+  "floranDescription" : "Tall lamp, bright light.",
+  "glitchDescription" : "Comfort. With light comes safety.",
+  "humanDescription" : "A tall, bright lamp.",
+  "hylotlDescription" : "This lamp could light a large chamber.",
+
+  "category" : "light",
+  "price" : 600,
+  "lightColor" : [217, 217, 190],
+
+  "inventoryIcon" : "apexlamp2icon.png",
+  "orientations" : [
+    {
+      "image" : "apexlamp2.png:<color>.<frame>",
+      "imagePosition" : [-7, 0],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

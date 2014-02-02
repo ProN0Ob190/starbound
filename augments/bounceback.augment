@@ -1,0 +1,8 @@
+{
+  "name" : "bounceback",
+  "icon" : [ ],
+  "kind" : "statuseffect",
+  "statusEffects" : [
+    { "kind" : "bounceback", "amount" : 1.0 }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "objectName" : "classicdiningtable",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 2500,
+  "description" : "For many small apes... or one big one.",
+  "shortdescription" : "Classic Dining Table",
+  "race" : "apex",
+
+  "apexDescription" : "The resistance dreamt of storming the Miniknog, climbing upon such a table and waving the flag of freedom.",
+  "avianDescription" : "I have never seen a table so large. The Avians tend to dine alone.",
+  "floranDescription" : "Feassst! A table big enough for Big Monkey, now we must catch him.",
+  "glitchDescription" : "Nostalgia. The Glitch would host great feasts at tables such as these. There would be singing and dancing, and a motley fool filling the host with humour.",
+  "humanDescription" : "What a dining table. It looks brand new, barely used.",
+  "hylotlDescription" : "Hylotl believe a table should be full before a meal begins. Perhaps here it would never start.",
+
+  "inventoryIcon" : "classicdiningtableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "classicdiningtable.png:<color>",
+      "imagePosition" : [-40, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

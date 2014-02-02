@@ -1,0 +1,36 @@
+{
+  "objectName" : "alarm",
+  "rarity" : "Common",
+  "objectType" : "wire",
+  "category" : "light",
+  "price" : 500,
+  "description" : "replace",
+  "shortdescription" : "Alarm",
+  "race" : "apex",
+
+  "inventoryIcon" : "alarmicon.png",
+  "orientations" : [
+    {
+      "image" : "alarm.png:<color>.off",
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/alarm/alarm.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/alarm/alarm.animation",
+
+  "animationParts" : {
+    "alarm" : "alarm.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "inboundNodes" : [ [0, 0] ],
+
+  "alertSounds" : [ "/sfx/objects/redalert.wav" ],
+  "alertSoundDuration" : 0.65
+}

@@ -1,0 +1,31 @@
+{
+  "objectName" : "mask4",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 800,
+
+  "description" : "A rather serious looking bird.",
+  "shortdescription" : "Decorative Bird Mask",
+  "race" : "avian",
+
+  "apexDescription" : "It looks like an Avian mask.",
+  "avianDescription" : "This mask is a warning to the grounded.",
+  "floranDescription" : "Birdmen make themselvesss look angry.",
+  "glitchDescription" : "Identification. Likely this mask is supposed to be an Avian.",
+  "humanDescription" : "I think that's an Avian.",
+  "hylotlDescription" : "This Avian mask is not very accurate. Quite an achievement.",
+
+  "inventoryIcon" : "mask4icon.png",
+  "orientations" : [
+    {
+      "image" : "mask4.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

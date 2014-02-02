@@ -1,0 +1,9 @@
+{
+  "name" : "nightblade1chest",
+  "category" : "quadruped_organic",
+  "type" : "chest",
+
+  "frames" : {
+    "chest" : "blade1chest.png"
+  }
+}

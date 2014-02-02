@@ -1,0 +1,31 @@
+{
+  "objectName" : "glitchianman",
+  "rarity" : "Common",
+  "description" : "A rather detailed sketch of Glitch anatomy.",
+  "shortdescription" : "Glitchian Man",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 600,
+
+  "apexDescription" : "It appears to be Glitch anatomy.",
+  "avianDescription" : "Is this how the Glitch are assembled?",
+  "floranDescription" : "Glitch insstruction manual. Lookss hard.",
+  "glitchDescription" : "Comment. Glitch medicine is still very primitive. Much of this anatomy diagram is wrong.",
+  "humanDescription" : "It looks like an anatomy diagram.",
+  "hylotlDescription" : "The Glitch appear to be investigating their anatomy. Perhaps Glitch medicine will benefit.",
+
+  "inventoryIcon" : "glitchianmanicon.png",
+  "orientations" : [
+    {
+      "image" : "glitchianman.png:<color>",
+
+      "imagePosition" : [-15, -16],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

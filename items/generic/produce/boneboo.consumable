@@ -1,0 +1,13 @@
+{
+  "itemName" : "boneboo",
+  "rarity" : "Common",
+  "inventoryIcon" : "boneboo.png",
+  "description" : "Mmm crumbly.",
+  "shortdescription" : "Boneboo",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 25
+      }
+    ] ]
+}

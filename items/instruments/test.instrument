@@ -1,0 +1,19 @@
+{
+  "itemName" : "test",
+  "inventoryIcon" : "guitar2icon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "todo",
+  "shortdescription" : "test",
+  "largeImage" : "guitar2.png",
+  "image" : "guitar2.png",
+  "inspectionKind" : "tool",
+  "activeImage" : "guitar2.png",
+  "activeAngle" : -20,
+  "activeHandPosition" : [0.1, 0.1],
+
+  "handPosition" : [0, 0],
+  "twoHanded" : true,
+  "kind" : "test"
+}

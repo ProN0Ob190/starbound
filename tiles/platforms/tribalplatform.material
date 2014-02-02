@@ -1,0 +1,14 @@
+{
+  "materialId" : 69,
+  "materialName" : "tribalplatform",
+  "platform" : true,
+  "transparent" : true,
+  "stairVariants" : 1,
+  "stairImage" : "tribalstairs.png",
+  "platformVariants" : 3,
+  "platformImage" : "tribalplatform.png",
+  "itemDrop" : "tribalplatform",
+  "shortdescription" : "Temple Platform",
+  "description" : "Platforms built from solid temple bricks.",
+  "footstepSound" : "/sfx/blocks/footstep_stone2.wav"
+}

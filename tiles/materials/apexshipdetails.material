@@ -1,0 +1,15 @@
+{
+  "materialId" : 167,
+  "materialName" : "apexshipdetails",
+  "frames" : "apexshipdetails.png",
+  "particleColor" : [110, 110, 110, 255],
+  "variants" : 1,
+  "itemDrop" : "apexshipdetails",
+  "description" : "A little bit of metal.",
+  "shortdescription" : "Metal object",
+  "glitchDescription" : "Statement. A small bit of metal.",
+  "floranDescription" : "Sssteel.",
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "health" : 20
+}

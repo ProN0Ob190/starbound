@@ -1,0 +1,36 @@
+{
+  "objectName" : "avianbench2",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 700,
+  "description" : "A comfortable bench.",
+  "shortdescription" : "Village Bench",
+  "race" : "avian",
+
+  "apexDescription" : "This bench looks comfortable.",
+  "avianDescription" : "Grounded craft doesn't get much better than this.",
+  "floranDescription" : "Bench wood sssoft.",
+  "glitchDescription" : "Comparative. This bench is crafted with more confidence than much other Avian village furniture.",
+  "humanDescription" : "A nice, comfy bench. This looks well made.",
+  "hylotlDescription" : "Though the craftsmanship is good, this bench lacks charm.",
+
+  "inventoryIcon" : "avianbench2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "avianbench2.png:<color>",
+      "imagePosition" : [-20, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "interactable",
+  "interactAction" : "sitdown",
+  "sitFlipDirection" : false,
+  "sitPosition" : [5, 22]
+
+}

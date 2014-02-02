@@ -1,0 +1,10 @@
+{
+  "modId" : 17,
+  "modName" : "gold",
+  "frames" : "gold.png",
+  "variants" : 8,
+  "itemDrop" : "goldore",
+  "Description" : "Gold.",
+  "health" : 14,
+  "breaksWithTile" : true
+}

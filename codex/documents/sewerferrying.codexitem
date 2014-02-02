@@ -1,0 +1,10 @@
+{
+  "codexId" : "sewerferrying",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "glitchsewerbook_04.png",
+  "itemName" : "sewerferryingCodex",
+  "rarity" : "common",
+  "description" : "The Ferrying",
+  "shortdescription" : "Ferrying"
+}

@@ -1,0 +1,15 @@
+{
+  "name" : "airacidicspit",
+  "label" : "AIR ACIDIC SPIT",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "config" : {
+    "timeRange" : [2.0, 3.0],
+    "movementRadius" : 0.1,
+    "projectile" : [ "acidspit" ]
+  },
+
+  "parameters" : {
+    "scripts" : [ "/monsters/flying/skills/createFlyingRangedAttack.lua" ]
+  }
+}

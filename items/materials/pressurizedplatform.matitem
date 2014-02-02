@@ -1,0 +1,13 @@
+{
+  "itemName" : "pressurizedplatform",
+  // "twoHanded" : false,
+  "rarity" : "Common",
+  "inventoryIcon" : "pressurizedplatformicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Pressurised platforms for use in potentially pressurised environments.",
+  "shortdescription" : "Pressurised Platform",
+  "glitchdescription" : "Statement. A pressurised platform.",
+  "florandescription" : "Platformsss.",
+
+  "materialId" : 160
+}

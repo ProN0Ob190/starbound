@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "corn", "count" : 1 },
+    { "item" : "candy", "count" : 1 }
+  ],
+  "output" : { "item" : "candiedcorn", "count" : 1 },
+  "groups" : [ "kitchen", "consumables", "dessert" ]
+}

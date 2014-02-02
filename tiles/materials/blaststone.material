@@ -1,0 +1,14 @@
+{
+  "materialId" : 38,
+  "materialName" : "blaststone",
+  "frames" : "blaststone.png",
+  "particleColor" : [100, 106, 106, 255],
+  "variants" : 5,
+  "itemDrop" : "blaststone",
+  "description" : "Sharp rocks produced by blasts of enormous heat.",
+  "shortdescription" : "Blaststone Block",
+  "glitchDescription" : "Analysis. Blaststone.",
+  "floranDescription" : "Floran make ssstone go boom.",
+  "footstepSound" : "/sfx/blocks/footstep_stone.wav",
+  "health" : 30
+}

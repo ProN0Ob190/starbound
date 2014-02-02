@@ -1,0 +1,16 @@
+{
+  "name" : "gravitySlamAttack",
+  "label" : "GRAVITY SLAM",
+  "image" : "/monsters/ground/skills/icon.png",
+
+  "parameters" : {
+    "scripts" : [ "/monsters/ground/gravitySlamAttack.lua" ],
+    "gravitySlamAttack" : {
+      "sounds" : [
+        "/sfx/npc/unique/gust1.wav",
+        "/sfx/npc/unique/gust2.wav",
+        "/sfx/npc/unique/gust3.wav"
+      ]
+    }
+  }
+}

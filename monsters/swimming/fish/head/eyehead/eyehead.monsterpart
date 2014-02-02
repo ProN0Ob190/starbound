@@ -1,0 +1,9 @@
+{
+  "name" : "eyehead",
+  "category" : "fish_organic",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "eyehead.png"
+  }
+}

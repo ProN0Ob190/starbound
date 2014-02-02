@@ -1,0 +1,12 @@
+{
+  "itemName" : "sand2",
+  "rarity" : "Common",
+  "inventoryIcon" : "sand2.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Soft and warm sand.",
+  "shortdescription" : "Sand",
+  "glitchdescription" : "Statement. Sand.",
+  "florandescription" : "Sssand.",
+
+  "materialId" : 22
+}

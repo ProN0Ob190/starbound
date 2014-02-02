@@ -1,0 +1,32 @@
+{
+  "objectName" : "clubdecks",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 2000,
+  "lightColor" : [100, 110, 200],
+
+  "description" : "The huge speakers pump out loud dance music.",
+  "shortdescription" : "Club Decks",
+  "race" : "hylotl",
+
+  "apexDescription" : "This music makes me want to dance!",
+  "avianDescription" : "What is that terrible noise?",
+  "floranDescription" : "This music make Floran want to ssstab! But so do most thingsss.",
+  "glitchDescription" : "Negative. This music is not pleasant.",
+  "humanDescription" : "Just your typical club music, not unlike the kind I've heard in clubs on Earth.",
+  "hylotlDescription" : "This is a really popular club song.",
+
+  "inventoryIcon" : "clubdecksicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "clubdecks.png:<color>.<frame>",
+      "imagePosition" : [-12, 0],
+      "frames" : 3,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

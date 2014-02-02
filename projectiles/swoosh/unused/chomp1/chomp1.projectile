@@ -1,0 +1,15 @@
+{
+  "projectileName" : "chomp1",
+  "frames" : "chomp1.png",
+  "animationCycle" : 0.1,
+  "frameNumber" : 4,
+  "level" : 1,
+  "windupFrames" : 2,
+  "speed" : 0,
+  "orientationLocked" : true,
+  "damagePoly" : [ [-5, 7], [2, 7], [12, 1], [12, -4], [2, -11], [-5, -11] ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "damageKind" : "slash"
+}

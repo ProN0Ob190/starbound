@@ -1,0 +1,9 @@
+{
+  "name" : "jellybosstail",
+  "category" : "jellyboss_organic",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "jellybosstail.png"
+  }
+}

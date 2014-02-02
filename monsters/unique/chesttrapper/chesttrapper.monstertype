@@ -1,0 +1,84 @@
+{
+  "type" : "chesttrapper",
+
+  "categories" : [ "chesttrapper" ],
+  "parts" : [ "chest" ],
+
+  "animation" : "chesttrapper.animation",
+  "projectiles" : "/monsters/unique/chesttrapper/projectiles.config",
+  "colors" : "/monsters/colors.config",
+
+  "dropPools" : [ "basicMonsterTreasure" ],
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/unique/chesttrapper/behavior.lua",
+      "/scripts/stateMachine.lua",
+      "/scripts/util.lua",
+      "/scripts/vec2.lua"
+    ],
+
+    "scriptDelta" : 5,
+
+    "metaBoundBox" : [-1.0, -1.125, 1.0, 1.0],
+    "scale" : 1.0,
+
+    "movementSettings" : {
+      "collisionPoly" : [ [-1.0, -1.125], [1.0, -1.125], [1.0, 1.0], [-1.0, 1.0] ],
+
+      "mass" : 1.0,
+      "walkSpeed" : 3,
+      "runSpeed" : 6,
+      "jumpSpeed" : 5,
+      "flySpeed" : 25,
+      "airFriction" : 0.1,
+      "airForce" : 100.0
+    },
+
+    "bodyMaterialKind" : "organic",
+
+    "knockoutTime" : 1,
+    "knockoutEffect" : "blink",
+    "deathParticles" : "deathPoof",
+    "deathNoise" : [ ],
+    "turnHostileNoise" : [ ],
+
+    "touchDamage" : {
+      "poly" : [ [-1.0, -1.125], [1.0, -1.125], [1.0, 1.0], [-1.0, 1.0] ],
+      "damage" : 22,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "bite",
+      "statusEffects" : [ ]
+    },
+
+    "statusParameters" : {
+      "baseMaxHealth" : 12,
+      "bodyMaterialKind" : "organic",
+      "damageConfig" : "/damage/damageresponse/groundnpc.config"
+    },
+
+    "inateStatusEffects" : [
+      {
+        "kind" : "Protection",
+        "amount" : 1.0
+      }
+    ],
+
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -8],
+
+    "noticeDistance" : 5,
+
+    "aggroTime" : 0.5,
+    "aggroMoveSpeed" : 7.5,
+
+    "bombAttackTimeRange" : [0.25, 0.5],
+
+    "explodeTime" : 0.5,
+
+    "spawnAttackWaitTime" : 0.4,
+    "spawnAttackOffsets" : [ [-1, 1], [0, 1], [1, 1] ],
+    "spawnAttackInitialSpeed" : 16
+  }
+}

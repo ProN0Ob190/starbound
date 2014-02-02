@@ -1,0 +1,11 @@
+{
+  "name" : "bloodvomit",
+  "label" : "BLOODY VOMIT",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "scripts" : [ "/monsters/ground/rangedAttack.lua" ],
+    "shooterProjectile" : [ "bloodvomit" ],
+    "shooterSkillName" : "bloodvomit"
+  }
+}

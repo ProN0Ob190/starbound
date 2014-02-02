@@ -1,0 +1,14 @@
+{
+  "itemName" : "sandstonematerial",
+  "rarity" : "Common",
+  "inventoryIcon" : "sandstone.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Tough sandstone.",
+  "shortdescription" : "Sandstone Block",
+  "glitchdescription" : "Statement. Sandstone.",
+  "florandescription" : "Sssandstone.",
+  "learnBlueprintsOnPickup" : [
+    "sandstoneblock"
+  ],
+  "materialId" : 23
+}

@@ -1,0 +1,54 @@
+{
+  "name" : "pillarsSurface",
+  "type" : "mix",
+
+  "mixSource" : {
+    "type" : "perlin",
+    "function" : "perlin",
+    "octaves" : 1,
+    "freq" : 0.003,
+    "amp" : 10,
+    "xInfluence" : 1,
+    "yInfluence" : 0
+  },
+
+  "aSource" : {
+    "type" : "displacement",
+
+    "xType" : "perlin",
+    "xOctaves" : 1,
+    "xFreq" : 0.05,
+    "xAmp" : 1500,
+
+    "yType" : "perlin",
+    "yOctaves" : 1,
+    "yFreq" : 0.05,
+    "yAmp" : 1500,
+
+    "source" : {
+      "type" : "flatSurface",
+
+      "adjustment" : 2000
+    }
+  },
+
+  "bSource" : {
+    "type" : "displacement",
+
+    "xType" : "perlin",
+    "xOctaves" : 1,
+    "xFreq" : 0.05,
+    "xAmp" : 0,
+
+    "yType" : "perlin",
+    "yOctaves" : 1,
+    "yFreq" : 0.5,
+    "yAmp" : 0,
+
+    "source" : {
+      "type" : "flatSurface",
+
+      "adjustment" : 5
+    }
+  }
+}

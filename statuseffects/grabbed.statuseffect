@@ -1,0 +1,10 @@
+{
+  "kind" : "grabbed",
+  "duration" : 0.1,
+  "primitives" : [
+    { "name" : "groundmovementmodifier", "mode" : "sum", "amount" : -1 },
+    { "name" : "jumpboost", "mode" : "sum", "amount" : -1 },
+    { "name" : "glide", "mode" : "sum", "amount" : -1 }
+  ],
+  "effectSources" : [ "grabbed" ]
+}

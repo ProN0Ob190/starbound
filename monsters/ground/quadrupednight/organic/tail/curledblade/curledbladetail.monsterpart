@@ -1,0 +1,9 @@
+{
+  "name" : "nightcurledbladetail",
+  "category" : "quadruped_organic",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "curledbladetail.png"
+  }
+}

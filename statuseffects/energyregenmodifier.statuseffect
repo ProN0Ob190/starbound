@@ -1,0 +1,6 @@
+{
+  "kind" : "energyregenmodifier",
+  "tooltipLabel" : "",
+  "tooltipAmountLabel" : "%amount%",
+  "icon" : [ "/interface/tooltips/energy.png" ]
+}

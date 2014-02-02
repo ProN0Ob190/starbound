@@ -1,0 +1,37 @@
+{
+  "objectName" : "apexbananasign",
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 500,
+  "lightColor" : [180, 180, 180],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 1,
+  "unlit" : true,
+  "description" : "All Hail the Great Banana!",
+  "shortdescription" : "Banana Propaganda Poster",
+  "race" : "apex",
+  "apexDescription" : "These signs once marked the entrance to Banana Clubs, until the Miniknog enforced prohibition. Now they serve as a reminder that breaking the law is punishable by death.",
+  "avianDescription" : "Avians have sensitive digestion. We stick to our own foods.",
+  "floranDescription" : "Sssuch horrible food.",
+  "glitchDescription" : "Curiosity. I believe this to be Apex sustenance.",
+  "humanDescription" : "Well... it's concise.",
+  "hylotlDescription" : "Is this food? I am eager to sample exotic dishes.",
+
+  "inventoryIcon" : "apexbananasignicon.png",
+  "orientations" : [
+    {
+      "image" : "apexbananasign.png:<color>",
+      "imagePosition" : [-16, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/fluorescent_light_quiet.wav"
+
+}

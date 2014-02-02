@@ -1,0 +1,12 @@
+{
+  "itemName" : "vine",
+  "rarity" : "Common",
+  "inventoryIcon" : "vineicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Vine",
+  "description" : "A thick coil of vines. They look strong.",
+  "glitchdescription" : "Statement. Some vines.",
+  "florandescription" : "Floran like vinesss.",
+
+  "materialId" : 171
+}

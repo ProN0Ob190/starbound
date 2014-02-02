@@ -1,0 +1,22 @@
+{
+  "projectileName" : "grabbed",
+  "frames" : "grabbed.png",
+  "physics" : "gas",
+  "level" : 3,
+  "animationCycle" : 1,
+  "frameNumber" : 1,
+  "power" : -1,
+  "speed" : 10,
+  "timeToLive" : 0.1,
+  "bounces" : 1,
+  "damagePoly" : [ [-18, 0], [-12, -12], [0, -18], [12, -12], [18, 0], [12, 12], [0, 18], [-12, 12] ],
+  "piercing" : true,
+  "statusEffects" : [
+    {
+      "kind" : "grabbed"
+    }
+  ],
+  "universalDamage" : true,
+  "damageType" : "ignoresdef",
+  "damageKind" : "default"
+}

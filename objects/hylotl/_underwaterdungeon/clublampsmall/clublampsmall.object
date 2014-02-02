@@ -1,0 +1,32 @@
+{
+  "objectName" : "clublampsmall",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 650,
+  "lightColor" : [110, 130, 195],
+
+  "shortdescription" : "Club Lamp",
+  "description" : "The lamp emits a low, ambient blue light.",
+  "race" : "hylotl",
+
+  "apexDescription" : "Just need a fog machine to really give this place a nightclub vibe.",
+  "avianDescription" : "I wonder what sort of crystal could give off a blue light?",
+  "floranDescription" : "Is blue light, not care.",
+  "glitchDescription" : "Uninterested. It's a blue light.",
+  "humanDescription" : "Ambient lights to set the mood. Which mood? Not sure.",
+  "hylotlDescription" : "Just an ambient blue light.",
+
+  "inventoryIcon" : "clublampsmallicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "clublampsmall.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

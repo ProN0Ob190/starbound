@@ -1,0 +1,30 @@
+{
+  "name" : "canyon",
+
+  "minHeight" : 20,
+  "maxHeight" : 70,
+
+  "minWidth" : 250,
+  "maxWidth" : 520,
+
+  "minDistance" : 600,
+  "maxDistance" : 940,
+
+  "slopeDistance" : 13,
+
+  "stepFrequency" : 0.4,
+
+  "stepMinWidth" : 0.25,
+  "stepMaxWidth" : 0.5,
+
+  "stepMinHeight" : 0.4,
+  "stepMaxHeight" : 1.0,
+
+  "stepMaxOffset" : 45,
+
+  "xVariation" : 50,
+  "xVariationLength" : 70,
+
+  "yVariation" : 7,
+  "yVariationLength" : 35
+}

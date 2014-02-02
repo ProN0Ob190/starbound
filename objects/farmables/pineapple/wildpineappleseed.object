@@ -1,0 +1,83 @@
+{
+  "objectName" : "wildpineappleseed",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Pineapple, make sure you cut it open first.",
+  "shortdescription" : "Pineapple Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "objectItem" : "pineappleseed",
+
+  "apexDescription" : "Pineapples make for good banana accompaniments.",
+  "avianDescription" : "The leaves look like feathers, but they're nowhere near as soft.",
+  "floranDescription" : "Pineapple look like Floran headsss.",
+  "glitchDescription" : "Smug. The Glitch have been known to use pineapples as target practise.",
+  "humanDescription" : "Pineapples. Perfect for desserts, or for cocktails.",
+  "hylotlDescription" : "Overly sweet. One would never find pineapples under the sea.",
+
+  "inventoryIcon" : "pineappleseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "pineappleseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "pineapple",
+            "count" : 1
+          },
+          {
+            "name" : "pineappleseed",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "pineapple",
+            "count" : 1
+          },
+          {
+            "name" : "plantfibre",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "pineapple",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [1380, 1500],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [1380, 1500],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

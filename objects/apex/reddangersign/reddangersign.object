@@ -1,0 +1,31 @@
+{
+  "objectName" : "reddangersign",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 200,
+
+  "description" : "It says 'Danger!' Couldn't really send a clearer message.",
+  "shortdescription" : "Red Danger Sign",
+  "race" : "apex",
+
+  "apexDescription" : "Little in Apex life isn't dangerous.",
+  "avianDescription" : "Do the Apex mark danger so clearly?",
+  "floranDescription" : "The Floran are danger.",
+  "glitchDescription" : "Sarcasm. Clearly nothing to worry about.",
+  "humanDescription" : "A little danger never hurt anyone.",
+  "hylotlDescription" : "We must proceed with caution.",
+
+  "inventoryIcon" : "reddangersignicon.png",
+  "orientations" : [
+    {
+      "image" : "reddangersign.png:<color>",
+      "imagePosition" : [-16, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

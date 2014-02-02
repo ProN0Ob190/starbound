@@ -1,0 +1,13 @@
+{
+  "itemName" : "wineglass",
+  "rarity" : "Common",
+  "inventoryIcon" : "wineglass.png",
+  "description" : "A glass of smooth red wine.",
+  "shortdescription" : "Wine",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 10
+      }
+    ] ]
+}

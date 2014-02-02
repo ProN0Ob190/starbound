@@ -1,0 +1,31 @@
+{
+  "objectName" : "paintingapespeare",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 2500,
+
+  "apexDescription" : "Apex poetry was burned and outlawed many years ago.",
+  "avianDescription" : "An Apex with a feathered neck?",
+  "floranDescription" : "Old monkey, sssilly costume.",
+  "glitchDescription" : "Familiarity. The Apex appears to be dressed in current Glitch fashion.",
+  "humanDescription" : "This picture looks familiar...",
+  "hylotlDescription" : "An Apex of the Arts, no doubt.",
+
+  "description" : "A painting of a great Apex poet. He...looks familiar.",
+  "shortdescription" : "Apex Poet Portrait",
+  "race" : "apex",
+
+  "inventoryIcon" : "paintingapespeareicon.png",
+  "orientations" : [
+    {
+      "image" : "paintingapespeare.png:<color>",
+      "imagePosition" : [-12, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

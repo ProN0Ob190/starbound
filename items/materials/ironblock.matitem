@@ -1,0 +1,12 @@
+{
+  "itemName" : "ironblock",
+  "rarity" : "Common",
+  "inventoryIcon" : "ironblock.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A solid iron block.",
+  "shortdescription" : "Iron Block",
+  "glitchdescription" : "Statement. Iron.",
+  "florandescription" : "Metal like Glitch.",
+
+  "materialId" : 127
+}

@@ -1,0 +1,10 @@
+{
+  "modId" : 30,
+  "modName" : "solarium",
+  "frames" : "solarium.png",
+  "variants" : 8,
+  "itemDrop" : "solariumore",
+  "Description" : "Solarium.",
+  "health" : 20,
+  "breaksWithTile" : true
+}

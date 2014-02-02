@@ -1,0 +1,10 @@
+{
+  "codexId" : "sewerconstructfree",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "glitchsewerbook_02.png",
+  "itemName" : "sewerconstructfreeCodex",
+  "rarity" : "common",
+  "description" : "Constructed Free",
+  "shortdescription" : "Constructed Free"
+}

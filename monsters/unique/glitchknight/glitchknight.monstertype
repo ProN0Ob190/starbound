@@ -1,0 +1,80 @@
+{
+  "type" : "glitchknight",
+
+  "categories" : [ "glitchknight" ],
+  "parts" : [ "mount", "mountcover", "knight" ],
+
+  "animation" : "glitchknight.animation",
+  "projectiles" : "/monsters/projectiles.config",
+  "colors" : "/monsters/colors.config",
+  "reversed" : true,
+
+  "dropPools" : [ "basicMonsterTreasure" ],
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/unique/glitchknight/behavior.lua",
+      "/scripts/stateMachine.lua",
+      "/scripts/util.lua",
+      "/scripts/vec2.lua"
+    ],
+
+    "scriptDelta" : 5,
+
+    "damageTeam" : 1,
+
+    "metaBoundBox" : [-4.5, -3.875, 3.875, 2.0],
+    "scale" : 1.0,
+
+    "movementSettings" : {
+      "collisionPoly" : [ [-3.5, -3.875], [3.5, -3.875], [3.875, 2.0], [-4.5, 2.0] ],
+
+      "mass" : 1.0,
+      "walkSpeed" : 3,
+      "runSpeed" : 20,
+      "dashSpeed" : 4,
+      "jumpSpeed" : 18,
+      "flySpeed" : 15,
+      "airFriction" : 0.25,
+      "airForce" : 50.0
+    },
+
+    "knockoutTime" : 1,
+    "knockoutEffect" : "blink",
+    "deathParticles" : "deathPoof",
+    "deathNoise" : [ ],
+    "turnHostileNoise" : [ ],
+
+    "touchDamage" : {
+      "poly" : [ [-4.5, -3.875], [3.875, -3.875], [3.875, 2.0], [-4.5, 2.0] ],
+      "damage" : 38,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "slash",
+      "statusEffects" : [ ]
+    },
+
+    "statusParameters" : {
+      "baseMaxHealth" : 16,
+      "bodyMaterialKind" : "robotic",
+      "damageConfig" : "/damage/damageresponse/groundnpc.config"
+    },
+
+    "inateStatusEffects" : [
+      {
+        "kind" : "Protection",
+        "amount" : 1.0
+      }
+    ],
+
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -8],
+
+    "targetNoticeRadius" : 40,
+
+    "chargeAttackOvershootDistance" : 16,
+    "changeDirectionCooldown" : 0.2,
+
+    "dismountHealthRatio" : 0.25
+  }
+}

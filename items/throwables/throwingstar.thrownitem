@@ -1,0 +1,21 @@
+{
+  "itemName" : "throwingstar",
+  "rarity" : "Common",
+  "inventoryIcon" : "throwingstaricon.png",
+  "image" : "throwingstaricon.png",
+  "shortdescription" : "Throwing Star.",
+  "description" : "A throwing star. For the ninjas among us.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "throwingstar",
+  "projectileConfig" : {
+    "speed" : 80,
+    "power" : 90
+  }
+}
+

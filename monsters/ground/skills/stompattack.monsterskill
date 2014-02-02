@@ -1,0 +1,9 @@
+{
+  "name" : "stompAttack",
+  "label" : "STOMP",
+  "image" : "/monsters/ground/skills/icon.png",
+
+  "parameters" : {
+    "scripts" : [ "/monsters/ground/stompAttack.lua" ]
+  }
+}

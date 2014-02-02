@@ -1,0 +1,14 @@
+{
+  "name" : "nighttallimparms",
+  "category" : "tallbiped_organic",
+  "type" : "arms",
+
+  "frames" : {
+    "frontArm" : "tallimpfarm.png",
+    "backArm" : "tallimpbarm.png"
+  },
+
+  "parameters" : {
+    "skills" : [ "grabAttack" ]
+  }
+}

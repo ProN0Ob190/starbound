@@ -1,0 +1,21 @@
+{
+  "kind" : "testburning",
+  "duration" : 5,
+  "initialTick" : false,
+  "interval" : 1.0,
+  "primitives" : [
+    { "name" : "periodic" }
+  ],
+  "effectSources" : [ "burning" ],
+  "tick" : {
+    "statusEffects" : [
+      {
+        "kind" : "directDamage",
+        "damageKind" : "testburning",
+        "amount" : 3
+      },
+      { "kind" : "glow" }
+    ]
+  },
+  "mainInterfaceIcon" : "/interface/statuses/fire.png"
+}

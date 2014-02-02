@@ -1,0 +1,15 @@
+{
+  "name" : "airshockball",
+  "label" : "AIR SHOCK BALL",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "config" : {
+    "timeRange" : [2.0, 3.0],
+    "movementRadius" : 0.1,
+    "projectile" : [ "shock" ]
+  },
+
+  "parameters" : {
+    "scripts" : [ "/monsters/flying/skills/createFlyingRangedAttack.lua" ]
+  }
+}

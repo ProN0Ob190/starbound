@@ -1,0 +1,9 @@
+{
+  "name" : "bathead",
+  "category" : "smallflying_organic",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "bathead.png"
+  }
+}

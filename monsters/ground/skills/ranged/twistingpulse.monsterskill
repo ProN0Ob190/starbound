@@ -1,0 +1,11 @@
+{
+  "name" : "twistingpulse",
+  "label" : "TWISTING PULSE",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "scripts" : [ "/monsters/ground/rangedAttack.lua" ],
+    "shooterProjectile" : [ "boomerang" ],
+    "shooterSkillName" : "twistingpulse"
+  }
+}

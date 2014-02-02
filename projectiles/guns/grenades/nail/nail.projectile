@@ -1,0 +1,11 @@
+{
+  "projectileName" : "nail",
+  "frames" : "nail.png",
+  "physics" : "laser",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "power" : 5.0,
+  "level" : 3,
+  "damageKind" : "default"
+}

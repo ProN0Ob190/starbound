@@ -1,0 +1,23 @@
+{
+  "name" : "slime",
+
+  "mainBlock" : "slime",
+  "subBlocks" : [ "rock15" ],
+  "ores" : "depth3",
+
+  "statusParameters" : {
+    "temperatureBounds" : [5, 15],
+    "dayNightTemperatureVariability" : 5,
+    "temperatureVariability" : 5
+  },
+
+  "hueShiftOptions" : [0],
+  "undergroundParallax" : "slime.undergroundparallax",
+
+  "sky" : {
+    "topColor" : [182, 204, 255],
+    "bottomColor" : [224, 239, 255],
+    "nightTopColor" : [0, 0, 30],
+    "nightBottomColor" : [0, 0, 0]
+  }
+}

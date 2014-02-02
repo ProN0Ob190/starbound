@@ -1,0 +1,89 @@
+{
+  "type" : "repairbot",
+
+  "categories" : [ "repairbot" ],
+  "parts" : [ "body" ],
+
+  "animation" : "repairbot.animation",
+  "projectiles" : "/monsters/unique/repairbot/projectiles.config",
+  "colors" : "/monsters/colors.config",
+
+  "dropPools" : [ "bunkerRepairBotTreasure" ],
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/unique/repairbot/behavior.lua",
+      "/scripts/sensors.lua",
+      "/scripts/stateMachine.lua",
+      "/scripts/util.lua",
+      "/scripts/vec2.lua"
+    ],
+
+    "scriptDelta" : 5,
+
+    "damageTeam" : 1,
+
+    "metaBoundBox" : [-1.0, -2.0, 1.0, 2.0],
+    "scale" : 1.0,
+
+    "movementSettings" : {
+      "collisionPoly" : [ [-1.0, -2.0], [1.0, -2.0], [1.0, 2.0], [-1.0, 2.0] ],
+
+      "mass" : 0.2,
+      "walkSpeed" : 8,
+      "runSpeed" : 12,
+      "jumpSpeed" : 5,
+      "flySpeed" : 15,
+      "airFriction" : 0.25,
+      "airForce" : 50.0
+    },
+
+    "knockoutTime" : 1,
+    "knockoutEffect" : "blink",
+    "deathParticles" : "deathPoof",
+    "deathNoise" : [ ],
+    "turnHostileNoise" : [ ],
+
+    "touchDamage" : {
+      "poly" : [ [-1.0, -2.0], [1.0, -2.0], [1.0, 2.0], [-1.0, 2.0] ],
+      "damage" : 15,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "default",
+      "statusEffects" : [ ]
+    },
+
+    "statusParameters" : {
+      "baseMaxHealth" : 12,
+      "bodyMaterialKind" : "robotic",
+      "damageConfig" : "/monsters/unique/repairbot/damage.config"
+    },
+
+    "inateStatusEffects" : [
+      {
+        "kind" : "Protection",
+        "amount" : 1.0
+      }
+    ],
+
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -8],
+
+    "collisionSensors" : [ [1.25, 0.0] ],
+
+    "nearGroundSensor" : [ [0.0, -2.25] ],
+    "midGroundSensor" : [ [0.0, -5.0] ],
+
+    "idleTimeRange" : [1.0, 3.0],
+    "moveTimeRange" : [2.5, 5.0],
+
+    "repairResponseMaxDistance" : 20.0,
+    "repairDistance" : 3.0,
+    "repairHealthPerSecond" : 10.0,
+
+    "attackTargetHoldTime" : 5.0,
+    "attackRange" : [5.0, 15.0],
+
+    "projectileOffset" : [0.25, -0.375]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "objectName" : "largebell",
+  "rarity" : "Common",
+  "description" : "This bell must make quite a sound.",
+  "shortdescription" : "Large Bell",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 2500,
+
+  "apexDescription" : "A large bell. This must ring out very loudly.",
+  "avianDescription" : "A huge bell. I wonder how it sounds.",
+  "floranDescription" : "Big bell go ding dong!",
+  "glitchDescription" : "Informative. This bell signals danger.",
+  "humanDescription" : "A giant bell. The temptation to give it a ring is strong.",
+  "hylotlDescription" : "The sound of bells is something most Hylotl have never heard.",
+
+  "inventoryIcon" : "largebellicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "largebell.png:<color>",
+
+      "imagePosition" : [-16, -40],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+
+    }
+  ]
+}

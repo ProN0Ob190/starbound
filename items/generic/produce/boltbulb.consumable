@@ -1,0 +1,14 @@
+{
+  "itemName" : "boltbulb",
+  "rarity" : "Common",
+  "inventoryIcon" : "boltbulb.png",
+  "description" : "Boltbulb! Surprisingly soft.",
+  "shortdescription" : "Boltbulb",
+  "handPosition" : [-6, 0],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 25
+      }
+    ] ]
+}

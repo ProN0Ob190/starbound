@@ -1,0 +1,31 @@
+{
+  "objectName" : "bearplush",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 500,
+
+  "description" : "A cuddly bear plushy. Awwwww.",
+  "shortdescription" : "Bear Plushie",
+  "race" : "hylotl",
+
+  "apexDescription" : "An adorable cuddly bear.",
+  "avianDescription" : "How cute, a cuddly toy bear.",
+  "floranDescription" : "Floran not even want ssstab cuddly bear.",
+  "glitchDescription" : "Melting. This delightful bear is almost too much!",
+  "humanDescription" : "I just wanna cuddle this bear forever.",
+  "hylotlDescription" : "Shriek! A wonderful bear plushie. I need this one!",
+
+  "inventoryIcon" : "bearplushicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bearplush.png:<color>",
+      "imagePosition" : [-12, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

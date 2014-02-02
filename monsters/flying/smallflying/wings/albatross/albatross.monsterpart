@@ -1,0 +1,14 @@
+{
+  "name" : "albatross",
+  "category" : "smallflying_organic",
+  "type" : "wings",
+
+  "frames" : {
+    "backWings" : "albatrossbwing.png",
+    "frontWings" : "albatrossfwing.png"
+  },
+
+  "parameters" : {
+    "skills" : [ "flyingSwoopAttack" ]
+  }
+}

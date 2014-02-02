@@ -1,0 +1,16 @@
+{
+  "materialId" : 37,
+  "materialName" : "ash",
+  "frames" : "ash.png",
+  "particleColor" : [176, 174, 168, 255],
+  "variants" : 5,
+  "itemDrop" : "ash",
+  "description" : "Ash packed tight into a solid block.",
+  "shortdescription" : "Ash Block",
+  "glitchDescription" : "Curious. A block of ash.",
+  "floranDescription" : "Burny block.",
+  "footstepSound" : "/sfx/blocks/footstep_ash.wav",
+  "tillableMod" : 31,
+  "soil" : true,
+  "health" : 1.0
+}

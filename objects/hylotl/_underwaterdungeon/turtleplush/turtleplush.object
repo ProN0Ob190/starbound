@@ -1,0 +1,31 @@
+{
+  "objectName" : "turtleplush",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 500,
+
+  "description" : "A cute little turtle plush.",
+  "shortdescription" : "Turtle Plushie",
+  "race" : "hylotl",
+
+  "apexDescription" : "Their sturdy protective shells make turtles very interesting organisms.",
+  "avianDescription" : "A creature with a built-in shield on its back. Hmm.",
+  "floranDescription" : "Green. Is a plant?",
+  "glitchDescription" : "Curious. I have never seen a turtle before.",
+  "humanDescription" : "A turtle! I like turtles.",
+  "hylotlDescription" : "The turtle is a truly inspiring creature.",
+
+  "inventoryIcon" : "turtleplushicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "turtleplush.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

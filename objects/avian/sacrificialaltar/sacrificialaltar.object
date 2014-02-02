@@ -1,0 +1,43 @@
+{
+  "objectName" : "sacrificialaltar",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 1500,
+  "description" : "An altar sticky with old blood and feathers.",
+  "shortdescription" : "Sacrificial Altar",
+  "race" : "avian",
+
+  "apexDescription" : "What dark deeds have been committed at this altar?",
+  "avianDescription" : "Sacrifice is common amongst the Avians. It is why many choose to become grounded.",
+  "floranDescription" : "Tasssty blood. Floran want a lick.",
+  "glitchDescription" : "Analyse. Altar appears splattered with Avian blood.",
+  "humanDescription" : "Blood and feathers. Dark.",
+  "hylotlDescription" : "Who would choose to follow a god that demands his followers sacrifice their lives?",
+
+  "objectType" : "interactable",
+  "interactAction" : "sitdown",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-8, 18],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitStatusEffects" : [
+    { "kind" : "Nude" },
+    { "kind" : "Health", "amount" : 0.05 }
+  ],
+
+  "inventoryIcon" : "sacrificialaltaricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "sacrificialaltar.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "objectName" : "captainschair",
+  "rarity" : "Common",
+  "objectType" : "interactable",
+
+  "description" : "ENGAGE!",
+  "shortdescription" : "Captain's Chair",
+  "race" : "human",
+  "category" : "furniture",
+
+  "apexDescription" : "A stylish captain's chair.",
+  "avianDescription" : "A captain's chair, designed for comfort amongst the stars.",
+  "floranDescription" : "Floran sssteal chair for ssspaceship.",
+  "glitchDescription" : "Admiring. An exceptionally comfortable captain's chair.",
+  "humanDescription" : "As a kid, I used to dream of sitting in a chair like this. I had low ambitions, okay?",
+  "hylotlDescription" : "A captain's chair, designed to offer maximum comfort.",
+
+  "inventoryIcon" : "captainschairicon.png",
+  "orientations" : [
+    {
+      "image" : "captainschair.png:<color>",
+      "imagePosition" : [-12, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left"
+    },
+    {
+      "image" : "captainschair.png:<color>",
+      "flipImages" : true,
+      "imagePosition" : [-12, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right"
+    }
+  ],
+
+  "interactAction" : "openCockpitInterface",
+
+  "sitPosition" : [3, 21]
+}

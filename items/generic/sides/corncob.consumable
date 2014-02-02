@@ -1,0 +1,21 @@
+{
+  "itemName" : "corncob",
+  "rarity" : "Common",
+  "inventoryIcon" : "corncob.png",
+  "description" : "A buttery ear of corn on the cob.",
+  "shortdescription" : "Corn Cob",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 50
+      },
+      {
+        "kind" : "health",
+        "amount" : 10
+      },
+      {
+        "kind" : "energy",
+        "amount" : 10
+      }
+    ] ]
+}

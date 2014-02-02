@@ -1,0 +1,19 @@
+{
+  "name" : "raptorhead",
+  "category" : "quadruped_organic",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "raptorhead.png"
+  },
+
+  "parameters" :
+  {
+    "projectileSourcePosition" : [1, -0.5],
+    "idleNoise" : [ "/sfx/npc/quadruped/powlhead_idle1.wav", "/sfx/npc/quadruped/powlhead_idle2.wav" ],
+    "turnHostileNoise" : [ "/sfx/npc/quadruped/powlhead_turnhostile.wav" ],
+    "attackNoise" : [ "/sfx/npc/quadruped/powlhead_attack1.wav", "/sfx/npc/quadruped/powlhead_attack2.wav" ],
+    "painNoise" : [ "/sfx/npc/quadruped/powlhead_pain1.wav", "/sfx/npc/quadruped/powlhead_pain2.wav" ],
+    "deathNoise" : [ "/sfx/npc/quadruped/powlhead_death.wav" ]
+  }
+}

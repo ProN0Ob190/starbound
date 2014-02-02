@@ -1,0 +1,7 @@
+{
+  "name" : "barren",
+
+  "noise" : 5,
+  "height" : 22.0,
+  "wavelength" : 50.0
+}

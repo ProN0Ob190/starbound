@@ -1,0 +1,20 @@
+{
+  "kind" : "music",
+  "definition" : {
+    "type" : "animated",
+    "animation" : "/animations/music/music.animation",
+    "position" : [0, 1],
+    "finalVelocity" : [0, 10],
+    "light" : [30, 30, 30],
+    "approach" : [0, 50],
+    "fade" : 0.5,
+    "destructionAction" : "shrink",
+    "destructionTime" : 1,
+    "size" : 1.0,
+    "timeToLive" : 0.85,
+    "variance" : {
+      "initialVelocity" : [6.0, 3.0]
+    },
+    "flippable" : false
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "bone", "count" : 40 },
+    { "item" : "money", "count" : 100 }
+  ],
+  "output" : { "item" : "bonedoor", "count" : 1 },
+  "groups" : [ "craftingtable", "door", "objects", "all" ]
+}

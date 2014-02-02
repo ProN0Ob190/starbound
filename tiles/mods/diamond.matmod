@@ -1,0 +1,10 @@
+{
+  "modId" : 16,
+  "modName" : "diamond",
+  "frames" : "diamond.png",
+  "variants" : 8,
+  "itemDrop" : "diamondore",
+  "Description" : "Diamonde.",
+  "health" : 22,
+  "breaksWithTile" : true
+}

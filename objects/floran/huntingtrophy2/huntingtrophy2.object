@@ -1,0 +1,30 @@
+{
+  "objectName" : "huntingtrophy2",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 250,
+  "description" : "A head mounted on a plaque. Its eyes follow you...",
+  "shortdescription" : "Hunting trophy",
+  "race" : "floran",
+
+  "apexDescription" : "A mounted head. Terrifying.",
+  "avianDescription" : "A head, cut from some old kill.",
+  "floranDescription" : "Floran like to wave to heads Floran cuts off.",
+  "glitchDescription" : "Smug. A Glitch head would self-destruct if a Floran tried to turn it into a display.",
+  "humanDescription" : "Now I know what my bedroom is missing!",
+  "hylotlDescription" : "Such a vile parade of murder.",
+
+  "inventoryIcon" : "huntingtrophy2icon.png",
+  "orientations" : [
+    {
+      "image" : "huntingtrophy2.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

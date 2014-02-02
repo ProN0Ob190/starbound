@@ -1,0 +1,19 @@
+{
+  "itemName" : "saxophone",
+  "inventoryIcon" : "saxophoneicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "A saxophone. For when you've got the space blues.",
+  "shortdescription" : "Saxophone",
+  "largeImage" : "saxophone.png",
+  "image" : "saxophone.png",
+  "inspectionKind" : "tool",
+  "activeImage" : "saxophone.png",
+  "activeAngle" : 6,
+  "activeHandPosition" : [0.2, -0.1],
+
+  "handPosition" : [0, 0],
+  "twoHanded" : true,
+  "kind" : "saxophone"
+}

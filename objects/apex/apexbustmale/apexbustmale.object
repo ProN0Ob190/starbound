@@ -1,0 +1,30 @@
+{
+  "objectName" : "apexbustmale",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 800,
+  "description" : "A bust of an important Apex.",
+  "shortdescription" : "Apex Male Bust",
+  "race" : "apex",
+
+  "apexDescription" : "I wonder how many families this guy has destroyed.",
+  "avianDescription" : "Expertly carved.",
+  "floranDescription" : "Ssstone dinner makes for broken teeth.",
+  "glitchDescription" : "Nostalgia. I am reminded of the statues of our kings.",
+  "humanDescription" : "This guy looks important.",
+  "hylotlDescription" : "Machine-produced from common stone.",
+
+  "inventoryIcon" : "apexbustmaleicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "apexbustmale.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

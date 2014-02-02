@@ -1,0 +1,38 @@
+{
+  "objectName" : "avianfuelhatch",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "description" : "Accepts a bunch of different kinds of fuel.",
+  "shortdescription" : "Fuel Hatch",
+  "race" : "avian",
+
+  "apexDescription" : "An Avian fuel hatch.",
+  "avianDescription" : "The fuel hatch.",
+  "floranDescription" : "Ssstick in the fuel.",
+  "glitchDescription" : "Indifference. A fuel hatch.",
+  "humanDescription" : "A fuel hatch.",
+  "hylotlDescription" : "For fuelling the ship.",
+
+  "inventoryIcon" : "fuelhatchicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "avianfuelhatch.png:<color>.<frame>",
+
+      "imagePosition" : [-8, -16],
+      "frames" : 4,
+      "animationCycle" : 0.7,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "hasWindowIcon" : false,
+  "recipeGroup" : "fuel",
+  "slotCount" : 6,
+  "uiConfig" : "/interface/fuel/fuel.config",
+  "autoCloseCooldown" : 3600,
+  "frameCooldown" : 67,
+  "soundEffect" : "/sfx/objects/shipengine.wav",
+  "soundEffectRadius" : 300
+}

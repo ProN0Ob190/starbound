@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 15 },
+    { "item" : "monsterplating", "count" : 15 },
+    { "item" : "matteritem", "count" : 1 },
+    { "item" : "money", "count" : 250 }
+  ],
+  "output" : { "item" : "t2helm1", "count" : 1 },
+  "groups" : [ "metalworkstation", "armors", "all" ]
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "nighteyeballtail",
+  "category" : "quadruped_organic",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "eyeballtail.png"
+  }
+}

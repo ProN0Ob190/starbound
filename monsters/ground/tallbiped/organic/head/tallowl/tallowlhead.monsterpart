@@ -1,0 +1,18 @@
+{
+  "name" : "tallowlhead",
+  "category" : "tallbiped_organic",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "owlhead.png"
+  },
+
+  "parameters" :
+  {
+    "idleNoise" : [ "/sfx/npc/quadruped/powlhead_idle1.wav", "/sfx/npc/quadruped/powlhead_idle2.wav" ],
+    "turnHostileNoise" : [ "/sfx/npc/quadruped/powlhead_turnhostile.wav" ],
+    "attackNoise" : [ "/sfx/npc/quadruped/powlhead_attack1.wav", "/sfx/npc/quadruped/powlhead_attack2.wav" ],
+    "painNoise" : [ "/sfx/npc/quadruped/powlhead_pain1.wav", "/sfx/npc/quadruped/powlhead_pain2.wav" ],
+    "deathNoise" : [ "/sfx/npc/quadruped/powlhead_death.wav" ]
+  }
+}

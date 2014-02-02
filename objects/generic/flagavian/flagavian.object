@@ -1,0 +1,32 @@
+{
+  "objectName" : "flagavian",
+  "rarity" : "Common",
+
+  "category" : "crafting",
+  "price" : 100,
+
+  "description" : "The Avian flag. Adorned with wings.",
+  "shortdescription" : "Avian Flag",
+  "race" : "human",
+
+  "apexDescription" : "The Avian flag reflects their longing to return to the skies.",
+  "avianDescription" : "Our flag is a symbol of hope that one day we will fly again.",
+  "floranDescription" : "Floran think this mean angelsss!",
+  "glitchDescription" : "Statement. A striking Avian flag.",
+  "humanDescription" : "The Avian flag has a spiritual aura to it.",
+  "hylotlDescription" : "As their flag shows, the Avians cling to the past.",
+
+  "inventoryIcon" : "flagavianicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "flagavian.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

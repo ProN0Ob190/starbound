@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 1 },
+    { "item" : "money", "count" : 10 }
+  ],
+  "output" : { "item" : "skyrailplatform", "count" : 3 },
+  "groups" : [ "roboticcraftingtable", "all" ]
+}

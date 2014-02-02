@@ -1,0 +1,15 @@
+{
+  "name" : "handgun",
+  "category" : "penguingeneral",
+  "type" : "weapon",
+
+  "frames" : {
+    "weapon" : "handgun.png"
+  },
+
+  "parameters" : {
+    "projectileType" : "handgunbullet",
+    "gunBaseOffset" : [0.375, -0.5],
+    "gunBarrelOffset" : [-1.125, -0.5]
+  }
+}

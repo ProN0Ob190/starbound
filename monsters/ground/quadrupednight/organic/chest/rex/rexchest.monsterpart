@@ -1,0 +1,9 @@
+{
+  "name" : "nightrexchest",
+  "category" : "quadruped_organic",
+  "type" : "chest",
+
+  "frames" : {
+    "chest" : "rexchest.png"
+  }
+}

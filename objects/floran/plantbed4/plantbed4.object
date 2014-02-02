@@ -1,0 +1,44 @@
+{
+  "objectName" : "plantbed4",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 1000,
+  "description" : "A Floran prison bed. Hard and dusty.",
+  "shortdescription" : "Floran Prison Bed",
+  "race" : "floran",
+
+  "apexDescription" : "A rough prison bed. Reminds me of home.",
+  "avianDescription" : "A prison bed.",
+  "floranDescription" : "Floran not like this.",
+  "glitchDescription" : "Disgust. This bed is infested with insects.",
+  "humanDescription" : "I've slept on worse.",
+  "hylotlDescription" : "I've never slept on worse.",
+
+  "objectType" : "interactable",
+  "interactAction" : "sitdown",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-9, 7],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitEmote" : "sleep",
+  "sitCoverImage" : "/objects/floran/plantbed4/plantbed4cover.png",
+  "sitStatusEffects" : [
+    { "kind" : "Nude" },
+    { "kind" : "Health", "amount" : 0.02 }
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "plantbed4icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "plantbed4.png:<color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

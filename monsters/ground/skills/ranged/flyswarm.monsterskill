@@ -1,0 +1,11 @@
+{
+  "name" : "flyswarm",
+  "label" : "FLY SWARM",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "scripts" : [ "/monsters/ground/rangedAttack.lua" ],
+    "shooterProjectile" : [ "flyswarm" ],
+    "shooterSkillName" : "flyswarm"
+  }
+}

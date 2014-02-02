@@ -1,0 +1,10 @@
+{
+  "codexId" : "avianhistory",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "aviantemplebook_02.png",
+  "itemName" : "avianhistoryCodex",
+  "rarity" : "common",
+  "description" : "Avian History Notes",
+  "shortdescription" : "Avian History"
+}

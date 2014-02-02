@@ -1,0 +1,37 @@
+{
+  "id" : "controls",
+  "title" : "Control Yourself",
+  "contentPages" : [
+
+    "As you navigate the galaxy in your quest for self-discovery, it's important to know how to control yourself, and the things around you. As such, we have prepared a quick reference guide that may help you on your way.",
+    "Core controls
+These will allow you to hop, skip, jump and destroy your way to enlightenment.",
+
+    "Movement - WASD
+Jump - Space
+Interact - E/Middle mouse button
+Select objects in the foreground - Left mouse button
+Select objects in the background - Right mouse button
+Attack (with weapon equipped) - Left/Right mouse buttons
+Select a single block - Shift (hold)",
+    "Hotkeys
+Everybody likes shortcuts, and we're sure you're no exception. Here, you can learn how to quickly access a number of liberating features.",
+
+    "Crafting Menu  - C
+Quest Journal - J
+Codex - L
+Investigation Cursor - N
+Hide HUD - F1
+Options/Quit - Escape",
+    "Throw Item - Q
+Toggle Held Items - X
+Swap L/R Items - Z
+Hold Hotbar Item - 0-9 or Mousewheel + Shift for Right Hand
+Quick Move Item - Shift+Click
+Split Item Stack - Right Click",
+    "Now you should be ready to take on all the challenges the universe has to offer. Need wood to build a house? Knock down a tree! Looking to discover more about the local flora and fauna? Check out the codex! Faced down by an angry Floran with murder in mind? Run, jump and leap away to safety! 
+
+There's a whole world out there to explore. Do try not to die TOO often." ]
+
+
+}

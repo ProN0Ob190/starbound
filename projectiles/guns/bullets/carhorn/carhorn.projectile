@@ -1,0 +1,18 @@
+{
+  "projectileName" : "carhorn",
+  "frames" : "carhorn.png",
+  "animationCycle" : 0.01,
+  "level" : 3,
+  "timeToLive" : 0.001,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/carhornexplosion/carhornexplosion.config"
+    }
+  ],
+  "power" : 0.0,
+  "damageKind" : "default"
+}

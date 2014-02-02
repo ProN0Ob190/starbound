@@ -1,0 +1,15 @@
+{
+  "name" : "machinegun",
+  "category" : "penguintrooper",
+  "type" : "weapon",
+
+  "frames" : {
+    "weapon" : "machinegun.png"
+  },
+
+  "parameters" : {
+    "projectileType" : "machinegunbullet",
+    "gunBaseOffset" : [0.375, -0.625],
+    "gunBarrelOffset" : [-1.875, -0.625]
+  }
+}

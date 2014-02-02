@@ -1,0 +1,21 @@
+{
+  "itemName" : "runbomb",
+  "rarity" : "Common",
+  "inventoryIcon" : "runbombicon.png",
+  "image" : "runbombicon.png",
+  "shortdescription" : "The Sprinter",
+  "description" : "The Sprinter. A bomb for when you feel the need for speed.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "runbomb",
+  "projectileConfig" : {
+    "speed" : 55,
+    "level" : 10
+  }
+}
+

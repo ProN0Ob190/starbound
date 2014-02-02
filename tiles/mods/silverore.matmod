@@ -1,0 +1,10 @@
+{
+  "modId" : 22,
+  "modName" : "silverore",
+  "frames" : "silverore.png",
+  "variants" : 8,
+  "itemDrop" : "silverore",
+  "Description" : "Silver.",
+  "health" : 10,
+  "breaksWithTile" : true
+}

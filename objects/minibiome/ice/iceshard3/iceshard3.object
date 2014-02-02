@@ -1,0 +1,39 @@
+{
+  "objectName" : "iceshard3",
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "pot",
+  "price" : 300,
+
+  "description" : "A big chunk of ice.",
+  "shortdescription" : "Chunk of Ice",
+  "race" : "generic",
+
+  "apexDescription" : "A shard of ice.",
+  "avianDescription" : "A cold shard of ice.",
+  "floranDescription" : "Sssmashed ice.",
+  "glitchDescription" : "Statement. An ice shard.",
+  "humanDescription" : "A bit of ice.",
+  "hylotlDescription" : "A fractured chunk of ice.",
+
+  "inventoryIcon" : "capsulemedicon.png",
+  "orientations" : [
+    {
+      "image" : "iceshard3.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "smashSounds" : [ "/sfx/objects/capsule_break1.wav", "/sfx/objects/capsule_break2.wav", "/sfx/objects/capsule_break3.wav" ],
+  "smashDropOptions" : [
+    [ [ "ice", 1, { } ], [ "iceblock", 1, { } ], [ "iceblock", 1, { } ], [ "iceblock", 1, { } ], [ "iceblock", 1, { } ], [ "iceblock", 1, { } ] ]
+  ],
+  "breakDropOptions" : [
+    [ [ "ice", 1, { } ], [ "iceblock", 1, { } ], [ "iceblock", 1, { } ], [ "iceblock", 1, { } ], [ "iceblock", 1, { } ], [ "iceblock", 1, { } ] ]
+  ]
+}

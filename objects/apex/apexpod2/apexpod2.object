@@ -1,0 +1,35 @@
+{
+  "objectName" : "apexpod2",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 2000,
+  // "unlit" : true,
+  "lightColor" : [57, 89, 45],
+  "description" : "The pod is empty.",
+  "shortdescription" : "Apex Life Support Pod",
+  "race" : "apex",
+
+  "apexDescription" : "Thankfully this pod is empty. Is this how the Miniknog attempt to return us to our natural state?",
+  "avianDescription" : "This is dark science...",
+  "floranDescription" : "Sssuch machines are unnatural.",
+  "glitchDescription" : "Examination. Machine appears to attempt to alter Apex DNA.",
+  "humanDescription" : "This doesn't look good. I can't help but expect something to jump out at me.",
+  "hylotlDescription" : "This machine attempts to alter DNA in a way that's not remotely sustainable.",
+
+  "inventoryIcon" : "apexpod2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "apexpod2.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/apexpod.wav"
+
+}

@@ -1,0 +1,62 @@
+{
+  "name" : "uncommoncrappybroadsword",
+  "rarity" : "uncommon",
+  "baseDps" : [2.5, 3.5],
+  "rateOfSwing" : [0.8, 1.9],
+  "multiplier" : 0.35,
+  "firePosition" : [15.5, 4.5],
+  "fireAfterWindup" : true,
+  "muzzleFlashes" : [ ],
+  "soundEffect" : [ "/sfx/melee/swing_twohanded.wav" ],
+  "kind" : "crappybroadsword",
+  "inspectionKind" : "sword",
+
+  "primaryStances" : {
+    "projectileTypes" : [ "poisonbroadsword", "electricbroadsword", "firebroadsword" ],
+    "projectile" : {
+      "speed" : 0.1
+    },
+    "idle" : {
+      "twoHanded" : false,
+      "armAngle" : -90,
+      "swordAngle" : -90,
+      "handPosition" : [-2.7, -16.5],
+      "armFrameOverride" : "idleMelee",
+      "duration" : 0.1
+    },
+    "windup" : {
+      "twoHanded" : true,
+      "armAngle" : 90,
+      "swordAngle" : 90,
+      "handPosition" : [-2.7, -16.5],
+      "duration" : 0.07,
+      "statusEffects" : [
+        { "kind" : "shieldsuppressed", "duration" : 0.1 }
+      ]
+    },
+    "cooldown" : {
+      "twoHanded" : true,
+      "armAngle" : -45,
+      "swordAngle" : -90,
+      "handPosition" : [-2.7, -27],
+      "duration" : 0.4,
+      "statusEffects" : [
+        { "kind" : "shieldsuppressed", "duration" : 0.1 }
+      ]
+    }
+  },
+  "palette" : [
+
+    { "452b13" : "452b13", "724c23" : "724c23", "ad885f" : "ad885f", //wood//
+      "303030" : "303030", "555555" : "555555", "808080" : "808080", //steel//
+      "78472b" : "78472b", "a9523d" : "a9523d", "52341e" : "52341e" //rust//
+    },
+
+    { "452b13" : "452b13", "724c23" : "724c23", "ad885f" : "ad885f", //wood//
+      "303030" : "4c4945", "555555" : "6c655d", "808080" : "92877b", //steel//
+      "78472b" : "644f3f", "a9523d" : "8c7462", "52341e" : "a78b76" //rust//
+    }
+
+  ],
+  "nameGenerator" : "crappynames.config:nameGen"
+}

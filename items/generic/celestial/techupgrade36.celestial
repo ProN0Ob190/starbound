@@ -1,0 +1,15 @@
+{
+  "itemName" : "techupgrade36",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "techupgrade.png",
+  "image" : "techupgrade.png",
+
+  "shortdescription" : "Violium Tech Upgrade",
+  "description" : "Unlocks the ability to work with Rubium, an ore found on level 9 planets.",
+
+  // Remember you can override this with parameters, no need for more than one
+  // unlock item
+  "sectorUnlock" : "sectorx",
+  "tierRecipesUnlock" : "level36",
+  "unlockMessage" : ""
+}

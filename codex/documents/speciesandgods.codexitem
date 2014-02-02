@@ -1,0 +1,10 @@
+{
+  "codexId" : "speciesandgods",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "aviantemplebook_09.png",
+  "itemName" : "speciesandgodsCodex",
+  "rarity" : "common",
+  "description" : "Species and their Gods",
+  "shortdescription" : "Species and Gods"
+}

@@ -1,0 +1,16 @@
+{
+  "materialId" : 117,
+  "materialName" : "bamboo",
+  "frames" : "bamboo.png",
+  "particleColor" : [89, 127, 52, 255],
+  "variants" : 5,
+  "itemDrop" : "bamboo",
+  "description" : "Bamboo",
+  "shortdescription" : "Bamboo",
+  "glitchDescription" : "Statement. Bamboo.",
+  "floranDescription" : "Sssticks.",
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.wav",
+  "health" : 20,
+  "damageTable" : "/tiles/flammableDamage.config"
+}

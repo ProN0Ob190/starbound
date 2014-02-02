@@ -1,0 +1,11 @@
+{
+  "grouped" : {
+    "offset" : [0, 12],
+    "names" : [ "%s", "%s.red", "%s.blue", "%s.green", "%s.yellow", "%s.orange", "%s.pink", "%s.black", "%s.white" ],
+    "nested" : {
+      "frameList" : {
+        "0" : [0, 0, 13, 12]
+      }
+    }
+  }
+}

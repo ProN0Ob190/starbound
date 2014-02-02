@@ -1,0 +1,8 @@
+{
+  "name" : "ringofpower",
+  "icon" : [ ],
+  "kind" : "statuseffect",
+  "statusEffects" : [
+    { "kind" : "ringofpower" }
+  ]
+}

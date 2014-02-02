@@ -1,0 +1,19 @@
+{
+  "projectileName" : "poisondagger",
+  "frames" : "poisondagger.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 3,
+  "damageKindImage" : "icon.png",
+  "level" : 1,
+  "speed" : 0,
+  "orientationLocked" : true,
+  "damagePoly" : [ [-20, 9.5], [9, 9.5], [16, 2.5], [16, -3.5], [12, -7.5], [4, -10.5], [-20, -9.5] ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "damageKind" : "dagger",
+  "lightColor" : [65, 98, 22],
+  "statusEffects" : [
+    { "kind" : "testpoison" }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id" : "glitchtutorial.gearup",
+  "title" : "^#9be3d6;Time For An Upgrade",
+  "text" : "As one of the few Glitch to achieve self awareness you were forced to flee your home with little preparation. Your ship has run out of fuel in orbit of an unknown planet. Before setting out in search of fuel, ^green;search your ship's storage for a ^pink;matter manipulator^white;. Press ^green;E ^white;to interact with objects.",
+  "completionText" : "Well done! The matter manipulator allows you to manipulate almost anything in the gameworld.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "beamaxe", 1] }
+  ],
+  "moneyRange" : [10, 10],
+  "rewards" : [
+    [ [ "beamaxe", 1] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "tutorial2.gearup"
+}

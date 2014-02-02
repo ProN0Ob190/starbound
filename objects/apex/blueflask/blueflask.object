@@ -1,0 +1,31 @@
+{
+  "objectName" : "blueflask",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 300,
+  "description" : "A flask full of blue liquid.",
+  "shortdescription" : "Blue Flask",
+  "race" : "apex",
+
+  "apexDescription" : "God only knows what suffering this mixture has caused.",
+  "avianDescription" : "A blue potion?",
+  "floranDescription" : "Sssmells terrible.",
+  "glitchDescription" : "Inspiration. Blue!",
+  "humanDescription" : "This smells like... something that shouldn't pass the lips.",
+  "hylotlDescription" : "This mixture looks toxic.",
+
+  "inventoryIcon" : "blueflaskicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "blueflask.png:<color>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

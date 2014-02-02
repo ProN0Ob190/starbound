@@ -1,0 +1,10 @@
+{
+  "codexId" : "kluexcommands",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "avianvillagebook_03.png",
+  "itemName" : "kluexcommandsCodex",
+  "rarity" : "common",
+  "description" : "The Commandments of Kluex",
+  "shortdescription" : "Kluex's Commandments"
+}

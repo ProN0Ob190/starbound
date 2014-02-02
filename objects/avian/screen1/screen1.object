@@ -1,0 +1,43 @@
+{
+  "objectName" : "screen1",
+  "rarity" : "Common",
+  "description" : "Old system readings that seem to be out of date.",
+  "shortdescription" : "Data Screen",
+  "race" : "avian",
+
+  "category" : "decorative",
+  "price" : 500,
+  "lightColor" : [0, 40, 100],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 4,
+
+  "apexDescription" : "These appear to be system diagnostics. I don't understand them.",
+  "avianDescription" : "This screen describes the state of nearby crystals. Only stargazers understand it.",
+  "floranDescription" : "Birdman technology. Floran not understand.",
+  "glitchDescription" : "Confusion. I can not interface with this machine.",
+  "humanDescription" : "This looks like complex stuff. Perhaps it describes the state of Avian tech.",
+  "hylotlDescription" : "The Hylotl can not read these. They appear to be system stats. ",
+
+  "inventoryIcon" : "screen1icon.png",
+  "orientations" : [
+    {
+      "image" : "screen1.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 8,
+      "animationCycle" : 1.0,
+
+      "spaces" : [
+        [0, 0]
+      ],
+
+      "bgAnchors" : [
+        [0, 0]
+      ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/screen1.wav",
+  "soundEffectRadius" : 15
+
+}

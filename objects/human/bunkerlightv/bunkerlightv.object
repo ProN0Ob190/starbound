@@ -1,0 +1,47 @@
+{
+  "objectName" : "bunkerlightv",
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 400,
+  "description" : "A blindingly bright fluorescent light.",
+  "shortdescription" : "Tall Fluorescent Lamp",
+  "race" : "human",
+
+  "apexDescription" : "A bright light. Reminds me of Miniknog cells.",
+  "avianDescription" : "This light is overly bright.",
+  "floranDescription" : "Buzzy flickery light.",
+  "glitchDescription" : "Calculating. The brightness levels are slightly too high for human eyes.",
+  "humanDescription" : "An uncomfortably bright light.",
+  "hylotlDescription" : "The creator of this light got a bit carried away.",
+
+  "unlit" : true,
+  "lightColors" : {
+    "default" : [125, 153, 179],
+    "red" : [179, 125, 125],
+    "pink" : [179, 125, 170],
+    "blue" : [125, 153, 179],
+    "green" : [129, 179, 125],
+    "yellow" : [179, 178, 125],
+    "orange" : [179, 156, 125],
+    "black" : [50, 50, 50],
+    "white" : [179, 179, 179]
+  },
+
+  "flickerDistance" : 2.0,
+  "flickerStrength" : 0.0,
+
+  "inventoryIcon" : "bunkerlightvicon.png",
+  "orientations" : [
+    {
+      "image" : "bunkerlightv.png:<color>.<frame>",
+      "frames" : 1,
+      "imagePosition" : [0, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/fluorescent_light_loud.wav"
+
+}

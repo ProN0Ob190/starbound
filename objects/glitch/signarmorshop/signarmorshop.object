@@ -1,0 +1,49 @@
+{
+  "objectName" : "signarmorshop",
+  "rarity" : "Common",
+  "description" : "Armour! Get yer armour here!",
+  "shortdescription" : "Armour Shop Sign",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 300,
+
+  "apexDescription" : "A wooden sign. Looks like it belongs to an armour shop.",
+  "avianDescription" : "A wooden sign. It depicts a shield.",
+  "floranDescription" : "Ssshield ssshop nearby?",
+  "glitchDescription" : "Identify. A sign that marks a Glitch store. In particular an armour shop.",
+  "humanDescription" : "Looks like a sign that sits outside an armour store.",
+  "hylotlDescription" : "This sign suggests an armour store.",
+
+  "inventoryIcon" : "signarmorshopicon.png",
+  "orientations" : [
+    {
+      "image" : "signarmorshop.png:<color>",
+
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaces" : [ [-1, 0], [0, 0], [1, 0], [-1, -1], [0, -1], [1, -1] ],
+      "fgAnchors" : [ [-2, 0], [2, 0] ]
+    },
+    {
+      "image" : "signarmorshopleft.png:<color>",
+
+      "imagePosition" : [0, -8],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaces" : [ [0, 0], [1, 0], [2, 0], [0, -1], [1, -1], [2, -1] ],
+      "fgAnchors" : [ [-1, 0] ]
+    },
+    {
+      "image" : "signarmorshopright.png:<color>",
+      "imagePosition" : [-16, -8],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+
+      "spaces" : [ [-2, 0], [-1, 0], [0, 0], [-2, -1], [-1, -1], [0, -1] ],
+      "fgAnchors" : [ [1, 0] ]
+    }
+  ]
+}

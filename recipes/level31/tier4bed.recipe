@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 5 }
+  ],
+  "output" : { "item" : "tier4bed", "count" : 1 },
+  "groups" : [ "metalworkstation", "furniture", "objects", "all" ]
+}

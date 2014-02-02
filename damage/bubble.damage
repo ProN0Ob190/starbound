@@ -1,0 +1,29 @@
+{
+  "kind" : "bubble",
+  "effects" : {
+    "organic" : {
+      "hit" : {
+        "sounds" : [ "/sfx/projectiles/bubble_pop.wav" ],
+        "particles" : [
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/projectiles/bubble_pop.wav" ],
+        "particles" : [
+        ]
+      }
+    },
+    "robotic" : {
+      "hit" : {
+        "sounds" : [ "/sfx/projectiles/bubble_pop.wav" ],
+        "particles" : [
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/melee/kill_robotic1.wav", "/sfx/melee/kill_robotic2.wav" ],
+        "particles" : [
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "itemName" : "meatballs",
+  "rarity" : "Common",
+  "inventoryIcon" : "meatballs.png",
+  "description" : "Meatballs in a can. Not quite homemade, but then again, we're in space.",
+  "shortdescription" : "Meatballs",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 100
+      },
+      {
+        "kind" : "mollyhealing1" },
+      {
+        "kind" : "energy",
+        "amount" : 10
+      }
+    ] ]
+}

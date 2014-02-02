@@ -1,0 +1,10 @@
+{
+  "codexId" : "aviantraditions",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "aviantombbook_09.png",
+  "itemName" : "aviantraditionsCodex",
+  "rarity" : "common",
+  "description" : "Avian Traditions",
+  "shortdescription" : "Avian Traditions"
+}

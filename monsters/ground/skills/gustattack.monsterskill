@@ -1,0 +1,16 @@
+{
+  "name" : "gustAttack",
+  "label" : "SUPER GUST",
+  "image" : "/monsters/ground/skills/icon.png",
+
+  "parameters" : {
+    "scripts" : [ "/monsters/ground/gustAttack.lua" ],
+    "gustAttack" : {
+      "sounds" : [
+        "/sfx/npc/unique/gustchime1.wav",
+        "/sfx/npc/unique/gustchime2.wav",
+        "/sfx/npc/unique/gustchime3.wav"
+      ]
+    }
+  }
+}

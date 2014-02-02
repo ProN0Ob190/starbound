@@ -1,0 +1,11 @@
+{
+  "name" : "jellybossexplode",
+  "label" : "EXPEND JELLY",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "scripts" : [ "/monsters/ground/rangedAttack.lua" ],
+    "shooterProjectile" : [ "jellybossexplode" ],
+    "shooterSkillName" : "jellybossexplode"
+  }
+}

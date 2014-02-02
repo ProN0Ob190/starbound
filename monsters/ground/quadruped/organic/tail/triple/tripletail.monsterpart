@@ -1,0 +1,9 @@
+{
+  "name" : "tripletail",
+  "category" : "quadruped_organic",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "tripletail.png"
+  }
+}

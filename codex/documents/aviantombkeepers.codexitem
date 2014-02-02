@@ -1,0 +1,10 @@
+{
+  "codexId" : "aviantombkeepers",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "aviantombbook_10.png",
+  "itemName" : "aviantombkeepersCodex",
+  "rarity" : "common",
+  "description" : "Avian Tombkeepers",
+  "shortdescription" : "Avian Tombkeepers"
+}

@@ -1,0 +1,15 @@
+{
+  "itemName" : "techupgrade33",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "techupgrade.png",
+  "image" : "techupgrade.png",
+
+  "shortdescription" : "Aegisalt Tech Upgrade",
+  "description" : "Unlocks the ability to work with Ferozium, an alloy made of Aegisalt and coal.",
+
+  // Remember you can override this with parameters, no need for more than one
+  // unlock item
+  "sectorUnlock" : "sectorx",
+  "tierRecipesUnlock" : "level33",
+  "unlockMessage" : ""
+}

@@ -1,0 +1,31 @@
+{
+  "objectName" : "basictv",
+  "rarity" : "Common",
+  "description" : "A television! I wonder if they get the Daily Show here.",
+  "shortdescription" : "Old Television",
+  "race" : "human",
+  "category" : "decorative",
+  "price" : 350,
+
+  "apexDescription" : "A television set. I keep expecting to see Big Ape's face.",
+  "avianDescription" : "A monitor, for watching old shows.",
+  "floranDescription" : "Buzzy moving picturesss.",
+  "glitchDescription" : "Admiring. The television is truly humanity's most valuable export.",
+  "humanDescription" : "Nothing better than relaxing on the sofa watching Saturday morning cartoons.",
+  "hylotlDescription" : "While the technology is impressive, many television shows are devoid of artistic merit.",
+
+  "inventoryIcon" : "basictvicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "basictv.png:<color>",
+
+      "imagePosition" : [-10, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

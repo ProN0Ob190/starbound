@@ -1,0 +1,9 @@
+{
+  "name" : "flippertail",
+  "category" : "fish_organic",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "flippertail.png"
+  }
+}

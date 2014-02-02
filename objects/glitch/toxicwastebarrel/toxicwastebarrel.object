@@ -1,0 +1,33 @@
+{
+  "objectName" : "toxicwastebarrel",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 150,
+  "description" : "A toxic waste barrel. Don't spill any!",
+  "shortdescription" : "Toxic Waste Barrel",
+  "race" : "generic",
+
+  "apexDescription" : "A barrel filled with waste.",
+  "avianDescription" : "A foul-smelling barrel.",
+  "floranDescription" : "Sssmell like Floran bathwater.",
+  "glitchDescription" : "Alert. This concoction may be dangerous.",
+  "humanDescription" : "If I fall in this barrel, will I get superpowers?",
+  "hylotlDescription" : "Many of these barrels get dumped in the ocean by other, careless species.",
+
+  "inventoryIcon" : "toxicwastebarrelicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "toxicwastebarrel.png:<color>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+
+}

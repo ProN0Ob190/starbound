@@ -1,0 +1,28 @@
+{
+  "objectName" : "apexcoolshelf1",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 800,
+  "description" : "There's nothing of interest on this shelf.",
+  "shortdescription" : "Cool Empty Shelf",
+  "race" : "apex",
+  "apexDescription" : "An empty shelf.",
+  "avianDescription" : "A place to stack objects.",
+  "floranDescription" : "Metal sshelf.",
+  "glitchDescription" : "Disappointment. Nothing here.",
+  "humanDescription" : "An empty Apex shelf.",
+  "hylotlDescription" : "This shelf looks lonely.",
+  "inventoryIcon" : "apexcoolshelf1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "apexcoolshelf1.png:<color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

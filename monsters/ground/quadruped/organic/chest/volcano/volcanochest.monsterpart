@@ -1,0 +1,9 @@
+{
+  "name" : "volcanochest",
+  "category" : "quadruped_organic",
+  "type" : "chest",
+
+  "frames" : {
+    "chest" : "volcanochest.png"
+  }
+}

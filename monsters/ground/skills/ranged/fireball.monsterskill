@@ -1,0 +1,11 @@
+{
+  "name" : "fireball",
+  "label" : "FIREBALL",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "scripts" : [ "/monsters/ground/rangedAttack.lua" ],
+    "shooterProjectile" : [ "fireball" ],
+    "shooterSkillName" : "fireball"
+  }
+}

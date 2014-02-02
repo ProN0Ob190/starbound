@@ -1,0 +1,15 @@
+{
+  "projectileName" : "bloodcloud",
+  "frames" : "bloodcloud.png",
+  "physics" : "gas",
+  "level" : 1,
+  "animationCycle" : 1,
+  "speed" : 28,
+  "frameNumber" : 8,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "timeToLive" : 0.5,
+  "power" : 5.0,
+  "damageKind" : "default",
+  "damagePoly" : [ [-18, 0], [-12, -12], [0, -18], [12, -12], [18, 0], [12, 12], [0, 18], [-12, 12] ]
+}

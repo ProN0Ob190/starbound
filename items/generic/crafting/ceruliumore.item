@@ -1,0 +1,7 @@
+{
+  "itemName" : "Ceruliumore",
+  "rarity" : "Common",
+  "inventoryIcon" : "Ceruliumore.png",
+  "description" : "Cerulium ore. Can be used for smelting or repairs. Select ore and right click pickaxe.",
+  "shortdescription" : "Cerulium Ore"
+}

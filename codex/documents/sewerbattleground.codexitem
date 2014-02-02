@@ -1,0 +1,10 @@
+{
+  "codexId" : "sewerbattleground",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "glitchsewerbook_01.png",
+  "itemName" : "sewerbattlegroundCodex",
+  "rarity" : "common",
+  "description" : "The Battleground",
+  "shortdescription" : "Battleground"
+}

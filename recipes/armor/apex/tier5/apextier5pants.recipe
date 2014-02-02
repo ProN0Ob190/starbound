@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "aegisaltbar", "count" : 12 }
+  ],
+  "output" : { "item" : "apextier5pants", "count" : 1 },
+  "groups" : [ "craftingtable", "armors", "all" ]
+}

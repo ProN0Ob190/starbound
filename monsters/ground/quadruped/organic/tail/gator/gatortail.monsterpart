@@ -1,0 +1,9 @@
+{
+  "name" : "gatortail",
+  "category" : "quadruped_organic",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "gatortail.png"
+  }
+}

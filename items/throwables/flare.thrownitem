@@ -1,0 +1,21 @@
+{
+  "itemName" : "flare",
+  "rarity" : "Common",
+  "inventoryIcon" : "flareicon.png",
+  "image" : "flareicon.png",
+  "shortdescription" : "Flare",
+  "description" : "Good for lighting up a dark cave before you dive into it.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "flare",
+  "projectileConfig" : {
+    "speed" : 30,
+    "level" : 10
+  }
+}
+

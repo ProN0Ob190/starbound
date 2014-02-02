@@ -1,0 +1,10 @@
+{
+  "codexId" : "hellnote",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "floranhellbook_12.png",
+  "itemName" : "hellnoteCodex",
+  "rarity" : "common",
+  "description" : "A Scrawled Note",
+  "shortdescription" : "Scrawled Note"
+}

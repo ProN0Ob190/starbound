@@ -1,0 +1,32 @@
+{
+  "objectName" : "hylotlsign1g",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 500,
+  "lightColor" : [201, 239, 112],
+
+  "shortdescription" : "Green Lily Pad Sign",
+  "description" : "A green neon sign advertising furniture from a lily pad inspired design movement.",
+  "race" : "hylotl",
+
+  "apexDescription" : "This sign appears to advertise... a lily pad.",
+  "avianDescription" : "Which lily pad is this sign even pointing to?",
+  "floranDescription" : "Buzzy sssign annoy Floran.",
+  "glitchDescription" : "Critical. A sign depicting a lily pad! Because there aren't enough actual lily pads around.",
+  "humanDescription" : "I wonder what this sign points to. Hopefully the lily pad shop.",
+  "hylotlDescription" : "Just seeing this sign brings warmth to my heart. So many memories.",
+
+  "inventoryIcon" : "hylotlsign1gicon.png",
+  "orientations" : [
+    {
+      "image" : "hylotlsign1g.png:<color>",
+      "imagePosition" : [-28, -28],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

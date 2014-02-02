@@ -1,0 +1,31 @@
+{
+  "objectName" : "huntingplatform1",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 600,
+  "description" : "A raised platform. Don't get stuck under it.",
+  "shortdescription" : "Raised Platform",
+  "race" : "floran",
+
+  "apexDescription" : "A raised platform.",
+  "avianDescription" : "A raised platform.",
+  "floranDescription" : "Floran ssstand here, throw ssspear, boom.",
+  "glitchDescription" : "Statement. A raised platform.",
+  "humanDescription" : "A stage. Imagine a Floran standing here singing the latest pop hits.",
+  "hylotlDescription" : "A raised platform.",
+
+  "inventoryIcon" : "huntingplatform1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "huntingplatform1.png:<color>",
+      "imagePosition" : [-32, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "objectName" : "hylotlstyleposter",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 300,
+
+  "shortdescription" : "Hylotl Clothing Ad",
+  "description" : "An advertisement for famous Hylotl clothing chain, Flashy Fins.",
+  "race" : "hylotl",
+
+  "apexDescription" : "It's an ad for a clothing store called Flashy Fins.",
+  "avianDescription" : "An advertisement for a store called Flashy Fins.",
+  "floranDescription" : "Flashy Fins more like...oh, Floran got nothing.",
+  "glitchDescription" : "Neutral. Just an ad for a clothing store called Flashy Fins.",
+  "humanDescription" : "It's an ad for a Hylotl clothing store, Flashy Fins.",
+  "hylotlDescription" : "Flashy Fins is a popular clothing store among Hylotl youths.",
+
+  "inventoryIcon" : "hylotlstylepostericon.png",
+  "orientations" : [
+    {
+      "image" : "hylotlstyleposter.png:<color>",
+      "imagePosition" : [-8, -12],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

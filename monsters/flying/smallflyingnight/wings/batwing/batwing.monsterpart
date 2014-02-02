@@ -1,0 +1,14 @@
+{
+  "name" : "nightbatwing",
+  "category" : "smallflying_organic",
+  "type" : "wings",
+
+  "frames" : {
+    "backWings" : "batBwing.png",
+    "frontWings" : "batFwing.png"
+  },
+
+  "parameters" : {
+    "skills" : [ "flyingSwoopAttack" ]
+  }
+}

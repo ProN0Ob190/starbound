@@ -1,0 +1,9 @@
+{
+  "name" : "archspikechest",
+  "category" : "quadruped_organic",
+  "type" : "chest",
+
+  "frames" : {
+    "chest" : "archspikechest.png"
+  }
+}

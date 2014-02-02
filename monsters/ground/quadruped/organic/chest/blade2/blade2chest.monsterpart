@@ -1,0 +1,9 @@
+{
+  "name" : "blade2chest",
+  "category" : "quadruped_organic",
+  "type" : "chest",
+
+  "frames" : {
+    "chest" : "blade2chest.png"
+  }
+}

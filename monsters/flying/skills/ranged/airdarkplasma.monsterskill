@@ -1,0 +1,15 @@
+{
+  "name" : "airdarkplasma",
+  "label" : "AIR DARK PLASMA",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "config" : {
+    "timeRange" : [2.0, 3.0],
+    "movementRadius" : 0.1,
+    "projectile" : [ "darkplasma" ]
+  },
+
+  "parameters" : {
+    "scripts" : [ "/monsters/flying/skills/createFlyingRangedAttack.lua" ]
+  }
+}

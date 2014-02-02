@@ -1,0 +1,10 @@
+{
+  "codexId" : "clippedcouncil",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "aviantemplebook_03.png",
+  "itemName" : "clippedcouncilCodex",
+  "rarity" : "common",
+  "description" : "The Clipped Council Notes",
+  "shortdescription" : "Clipped Council"
+}

@@ -1,0 +1,39 @@
+{
+  "objectName" : "tier7switch",
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "wire",
+  "price" : 100,
+  "lightColor" : [38, 122, 128],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 4,
+  "description" : "A Cerulium console. Strong enough to dropkick.",
+  "shortdescription" : "Cerulium Console",
+  "race" : "generic",
+
+  "apexDescription" : "This console offers a large degree of control.",
+  "avianDescription" : "A useful console.",
+  "floranDescription" : "Floran push buttons. Make thingsss happen!",
+  "glitchDescription" : "Impressed. A single console can control so many different mechanisms at once.",
+  "humanDescription" : "A control console. It's just gotta be played with.",
+  "hylotlDescription" : "A control console.",
+
+  "inventoryIcon" : "tier7switchicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "tier7switch.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "script" : "/objects/scripts/switch.lua",
+  "outboundNodesLocation" : [0, 0]
+
+}

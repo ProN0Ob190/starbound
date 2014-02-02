@@ -1,0 +1,16 @@
+{
+  "materialId" : 99,
+  "materialName" : "wallpaper",
+  "frames" : "wallpaper.png",
+  "particleColor" : [225, 191, 150, 255],
+  "variants" : 5,
+  "itemDrop" : "wallpaper",
+  "description" : "Some classy wallpaper for the classy frog in us all.",
+  "shortdescription" : "Classic Wallpaper",
+  "glitchDescription" : "Derisive. A vile Hylotl pattern.",
+  "floranDescription" : "Wall paper remind Floran of fishmen.",
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.wav",
+  "health" : 15,
+  "damageTable" : "/tiles/flammableDamage.config"
+}

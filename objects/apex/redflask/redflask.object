@@ -1,0 +1,31 @@
+{
+  "objectName" : "redflask",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 300,
+  "description" : "A flask full of red liquid.",
+  "shortdescription" : "Red Flask",
+  "race" : "apex",
+
+  "apexDescription" : "This smells sweet.",
+  "avianDescription" : "This mixture smells delightful, but smell alone won't tempt me.",
+  "floranDescription" : "Sssweet ssmelling liquid. Floran prefer sssavoury ssustenance.",
+  "glitchDescription" : "Investigating. No active ingredients. Perhaps a placebo.",
+  "humanDescription" : "This smells like orange cola.",
+  "hylotlDescription" : "Such a sweet odour.",
+
+  "inventoryIcon" : "redflaskicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "redflask.png:<color>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

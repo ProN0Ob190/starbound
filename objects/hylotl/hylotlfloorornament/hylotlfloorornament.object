@@ -1,0 +1,30 @@
+{
+  "objectName" : "hylotlfloorornament",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 600,
+  "description" : "It's some sort of floor ornament. Frogspawn swirls inside.",
+  "shortdescription" : "Floor Ornament",
+  "race" : "hylotl",
+
+  "apexDescription" : "No matter how you look at it, this is kind of gross.",
+  "avianDescription" : "Who on earth would want this on display?",
+  "floranDescription" : "Do baby frogmen grow in ball?",
+  "glitchDescription" : "Critical. The Hylotl equivalent of a foetus in a jar. Charming.",
+  "humanDescription" : "The temptation to smash this is overwhelming.",
+  "hylotlDescription" : "A celebration of Hylotl life. The depth and meaning is unfathomable.",
+
+  "inventoryIcon" : "hylotlfloorornamenticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "hylotlfloorornament.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "materialId" : 43,
+  "materialName" : "smoothmetal",
+  "frames" : "smoothmetal.png",
+  "particleColor" : [214, 214, 214, 255],
+  "variants" : 5,
+  "itemDrop" : "smoothmetal",
+  "description" : "Smooth metal, cold to the touch.",
+  "shortdescription" : "Smooth Metal",
+  "glitchDescription" : "Suave. Smooth as a Glitch.",
+  "floranDescription" : "Sssmooth metal.",
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "health" : 40
+}

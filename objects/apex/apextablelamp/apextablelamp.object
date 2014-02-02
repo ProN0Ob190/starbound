@@ -1,0 +1,32 @@
+{
+  "objectName" : "apextablelamp",
+  "rarity" : "Common",
+  "description" : "This strange lamp emits a low green light.",
+  "shortdescription" : "Green Lamp Pod",
+  "race" : "apex",
+  "unlit" : "true",
+
+  "apexDescription" : "These lamps were handed out by the Miniknog in my youth. They appear in many Apex homes.",
+  "avianDescription" : "This device glows an unnatural green.",
+  "floranDescription" : "Green lightsss remind Floran of home village.",
+  "glitchDescription" : "Tinkering. It appears this object is obtaining biometric data from nearby organic lifeforms.",
+  "humanDescription" : "This device feels heavy for a lamp.",
+  "hylotlDescription" : "I believe illumination is not the true purpose of this device.",
+
+  "category" : "light",
+  "price" : 200,
+  "lightColor" : [64, 89, 54],
+
+  "inventoryIcon" : "apextablelampicon.png",
+  "orientations" : [
+    {
+      "image" : "apextablelamp.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

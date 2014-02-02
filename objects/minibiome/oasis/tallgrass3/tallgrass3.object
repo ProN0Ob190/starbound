@@ -1,0 +1,40 @@
+{
+  "objectName" : "tallgrass3",
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "pot",
+  "price" : 300,
+  "objectItem" : "plantfibre",
+
+  "description" : "A patch of tall grass. Be sure to check for cakes!",
+  "shortdescription" : "Tall Grass",
+  "race" : "generic",
+
+  "apexDescription" : "Tall grass. It rustles gently in the breeze.",
+  "avianDescription" : "Tall, feathery grass.",
+  "floranDescription" : "Floran hide in grassss. Pop out. Boo! Ssstab.",
+  "glitchDescription" : "Stealth. Floran often disguise themselves in tall grass to hunt their prey.",
+  "humanDescription" : "I want to run barefoot through this grass.",
+  "hylotlDescription" : "The grass... the slaughter... the Floran... flashbacks... it's very pretty though.",
+
+  "inventoryIcon" : "capsulemedicon.png",
+  "orientations" : [
+    {
+      "image" : "tallgrass3.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "smashSounds" : [ "/sfx/objects/bed_leave.wav" ],
+  "smashDropOptions" : [
+    [ [ "plantfibre", 1, { } ] ]
+  ],
+  "breakDropOptions" : [
+    [ [ "plantfibre", 1, { } ] ]
+  ]
+}

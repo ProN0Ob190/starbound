@@ -1,0 +1,18 @@
+{
+  "itemName" : "candy",
+  "rarity" : "Common",
+  "inventoryIcon" : "candy.png",
+  "description" : "Hard candy. It probably won't do much for me if I'm starving, but it sure is tasty.",
+  "shortdescription" : "Candy",
+  "handPosition" : [0, 6],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 25
+      },
+      {
+        "kind" : "mollyhealing1" },
+      {
+        "kind" : "sugarrush" }
+    ] ]
+}

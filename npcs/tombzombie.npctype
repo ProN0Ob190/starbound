@@ -1,0 +1,109 @@
+{
+  "type" : "tombzombie",
+  "baseType" : "guard",
+
+  "disableWornArmor" : true,
+  "inateStatusEffects" : [
+    {
+      "kind" : "Protection",
+      "amount" : 1.0
+    }
+  ],
+
+  "damageTeam" : 1,
+
+  "levelVariance" : [0.5, 0.5],
+
+  "scripts" : [
+    "/npcs/main.lua",
+    "/npcs/timers.lua",
+    "/scripts/sensors.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua",
+
+    "/npcs/meleeAttackState.lua",
+    "/npcs/rangedAttackState.lua",
+
+    "/npcs/guard/guardState.lua"
+  ],
+
+  "scriptConfig" : {
+    "attackerLimit" : 50,
+    "attackerLimitCooldown" : 3,
+    "noticePlayersRadius" : 30,
+
+    "guard" : {
+      "patrolDistance" : 5,
+      "noticeDistance" : 30,
+      "hailDistance" : -1,
+      "stopDistance" : -1,
+      "attackDistance" : 30,
+      "changeDirectionTimeRange" : [10, 20],
+
+      "attackSayingPercent" : 25,
+
+      "dialog" : {
+        "attack" : {
+          "default" : [ "Intruder!"
+          ],
+          "avian" : {
+            "default" : [
+              "Leave this place...",
+              "Interloper...",
+              "Desecrator...",
+              "Protect...",
+              "Get out...",
+              "Filth...",
+              "Cleanse..."
+            ]
+          }
+        }
+      }
+    },
+
+    "meleeAttack" : {
+      "swingTime" : 0.4,
+      "swingCooldownTime" : 0.6,
+      "backoffDistanceRange" : [6.0, 12.0],
+      "repositionCooldownTimeRange" : [0.0, 0.0],
+      "runThreshold" : 100
+    }
+  },
+
+  "items" : {
+    "avian" : [
+      [0, [
+          {
+            "head" : [ { "name" : "aviantier4head" } ],
+            "chest" : [ { "name" : "aviantier4chest" } ],
+            "legs" : [ { "name" : "aviantier4pants" } ],
+            "primary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "aviansword" } }
+            ]
+          }
+        ] ]
+    ]
+  },
+
+  "movementControllerSettings" : {
+    "walkSpeed" : 6,
+    "runningSuppressed" : true,
+    //"jumpingSuppressed" : true,
+    "airJumpProfile" : {
+      "jumpSpeed" : 12.00
+    }
+  },
+
+  "dropPools" : [ "guardtreasure" ],
+
+  "statusParameters" : {
+    "baseMaxHealth" : 14,
+    "baseMaxEnergy" : 40,
+    "bodyMaterialKind" : "organic",
+    "damageConfig" : "/damage/damageresponse/npcs.config",
+    "invulnerabilityTime" : 0,
+    "energyReplenishmentRate" : 10.0
+  }
+}
+

@@ -1,0 +1,11 @@
+{
+  "name" : "acidspray",
+  "label" : "ACID SPRAY",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "scripts" : [ "/monsters/ground/rangedAttack.lua" ],
+    "shooterProjectile" : [ "clustergoo" ],
+    "shooterSkillName" : "acidspray"
+  }
+}

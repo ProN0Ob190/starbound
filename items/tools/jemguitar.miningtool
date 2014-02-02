@@ -1,0 +1,22 @@
+{
+  "itemName" : "jemguitar",
+  "inventoryIcon" : "fishicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "This guitar is truly outrageous!",
+  "shortdescription" : "KingV Guitar",
+  "inspectionKind" : "tool",
+  "largeImage" : "stonepickaxebig.png",
+
+  "image" : "jemguitar.png",
+  "handPosition" : [0, -10],
+  "fireTime" : 0.25,
+  "swingStart" : -40,
+  "swingFinish" : 60,
+  "blockRadius" : 3,
+  "altBlockRadius" : 1,
+  "twoHanded" : true,
+  "strikeSound" : "/sfx/tools/pickaxe_hit.wav",
+  "durability" : 10
+}

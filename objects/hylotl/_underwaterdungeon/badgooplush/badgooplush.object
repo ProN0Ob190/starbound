@@ -1,0 +1,31 @@
+{
+  "objectName" : "badgooplush",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 500,
+
+  "description" : "Bad Goo Plushie. A cuddly goo doll.",
+  "shortdescription" : "Bad Goo Plushie",
+  "race" : "hylotl",
+
+  "apexDescription" : "An adorable goo doll.",
+  "avianDescription" : "A cute little goo toy.",
+  "floranDescription" : "Goo goo doll!",
+  "glitchDescription" : "Adoring. A cuddly little goo.",
+  "humanDescription" : "Cool, I want one of these!",
+  "hylotlDescription" : "Squee! I need this plushie for my collection!",
+
+  "inventoryIcon" : "badgooplushicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "badgooplush.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

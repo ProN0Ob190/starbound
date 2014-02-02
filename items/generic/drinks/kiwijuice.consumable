@@ -1,0 +1,14 @@
+{
+  "itemName" : "kiwijuice",
+  "rarity" : "Common",
+  "inventoryIcon" : "kiwijuice.png",
+  "description" : "A sweet and tropical juice made of kiwis.",
+  "shortdescription" : "Kiwi Juice",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 5
+      }
+    ] ]
+}

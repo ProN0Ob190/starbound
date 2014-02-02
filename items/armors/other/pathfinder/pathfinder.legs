@@ -1,0 +1,13 @@
+{
+  "itemName" : "pathfinderlegs",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Pathfinder Leg Armour. Never lose your way in this armour.",
+  "shortdescription" : "Pathfinder Leg Armour",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png"
+}

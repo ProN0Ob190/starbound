@@ -1,0 +1,42 @@
+{
+  "objectName" : "classiccandlestick",
+  "rarity" : "Common",
+  "description" : "A golden candlestick with three prongs. The wax never seems to melt.",
+  "shortdescription" : "Classic Candlestick",
+  "race" : "apex",
+
+  "hydrophobic" : true,
+
+  "apexDescription" : "The base appears to be solid gold, but the flames are electronic.",
+  "avianDescription" : "The wax does not melt and the flames do not burn.",
+  "floranDescription" : "Floran fearss fire. But thisss fire not burn.",
+  "glitchDescription" : "Reflective. The flames are simply flickering lightbulbs. Does that make the candle any less real?",
+  "humanDescription" : "I think the candles are just flickering bulbs.",
+  "hylotlDescription" : "A fusion of technology and craftsmanship.",
+
+  "category" : "light",
+  "price" : 800,
+  "lightColor" : [229, 218, 207],
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.1,
+
+  "statusEffects" : [
+    {
+      "kind" : "Warmth",
+      "amount" : 5,
+      "range" : 2
+    } ],
+
+  "inventoryIcon" : "classiccandlestickicon.png",
+  "orientations" : [
+    {
+      "image" : "classiccandlestick.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "frames" : 3,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

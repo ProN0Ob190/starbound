@@ -1,0 +1,31 @@
+{
+  "objectName" : "medievalcup",
+  "rarity" : "Common",
+  "description" : "A dirty looking Glitch cup.",
+  "shortdescription" : "Glitch Cup",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 200,
+
+  "apexDescription" : "A little wooden cup.",
+  "avianDescription" : "A wooden cup, difficult to keep clean.",
+  "floranDescription" : "Floran drink blood from sssuch cupss.",
+  "glitchDescription" : "Identify. A common wooden goblet.",
+  "humanDescription" : "A goblet made of wood.",
+  "hylotlDescription" : "A stained wooden goblet.",
+
+  "inventoryIcon" : "medievalcupicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "medievalcup.png:<color>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "fanfin",
+  "category" : "fish_organic",
+  "type" : "fin",
+
+  "frames" : {
+    "fin" : "fanfin.png"
+  }
+}

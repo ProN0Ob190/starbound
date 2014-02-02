@@ -1,0 +1,12 @@
+{
+  "itemName" : "moonrock",
+  "rarity" : "Common",
+  "inventoryIcon" : "moonrockicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Tough, gritty moon rock.",
+  "shortdescription" : "Moonrock",
+  "glitchdescription" : "Analysis. This rock comes from a moon.",
+  "florandescription" : "Floran thought moons made of cheese, not rock.",
+
+  "materialId" : 78
+}

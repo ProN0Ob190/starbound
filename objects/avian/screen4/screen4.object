@@ -1,0 +1,43 @@
+{
+  "objectName" : "screen4",
+  "rarity" : "Common",
+  "description" : "Glyphs pulse ominously... what do they mean?",
+  "shortdescription" : "Glyph Screen",
+  "race" : "avian",
+
+  "category" : "decorative",
+  "price" : 500,
+  "lightColor" : [0, 40, 100],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 4,
+
+  "apexDescription" : "Glyphs. I can't read them.",
+  "avianDescription" : "Only the stargazers can truly read these. I recognise the glyph of sacrifice.",
+  "floranDescription" : "Sssilly pictures. Floran can not recognisse.",
+  "glitchDescription" : "Translation. Translation has failed.",
+  "humanDescription" : "Glyphs. My translator can't read them.",
+  "hylotlDescription" : "Ancient symbols. My translator can not decipher them.",
+
+  "inventoryIcon" : "screen4icon.png",
+  "orientations" : [
+    {
+      "image" : "screen4.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 8,
+      "animationCycle" : 2.5,
+
+      "spaces" : [
+        [0, 0]
+      ],
+
+      "bgAnchors" : [
+        [0, 0]
+      ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/screen4.wav",
+  "soundEffectRadius" : 15
+
+}

@@ -1,0 +1,31 @@
+{
+  "objectName" : "wormstatue",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 1500,
+  "description" : "A statue of a worm. But where's the hook?",
+  "shortdescription" : "Stone Worm Statue",
+  "race" : "avian",
+
+  "apexDescription" : "A wriggly worm. Well, it would be if it wasn't a statue.",
+  "avianDescription" : "A statue of a tasty-looking worm.",
+  "floranDescription" : "Floran like to eat wormsss.",
+  "glitchDescription" : "Scientific. A statue of the lesser-spotted brain worm.",
+  "humanDescription" : "A worm so big you could use it to catch a whale.",
+  "hylotlDescription" : "Greetings, my stony worm friend.",
+
+  "inventoryIcon" : "wormstatueicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "wormstatue.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

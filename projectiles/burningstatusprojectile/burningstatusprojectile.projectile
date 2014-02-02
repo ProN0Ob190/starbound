@@ -1,0 +1,33 @@
+{
+  "projectileName" : "burningstatusprojectile",
+  "physics" : "grenade",
+  "bounces" : -1,
+  "level" : 3,
+  "timeToLive" : 0.001,
+  "damageKindImage" : "icon.png",
+  "frames" : "burningstatusprojectile.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/regularexplosion2/regularexplosion2.config"
+    }
+  ],
+  "power" : 0,
+  "piercing" : true,
+  "damageKind" : "default",
+  "damageType" : "ignoresdef",
+  "damagePoly" : [ [-36, 0], [-24, -24], [0, -36], [24, -24], [36, 0], [24, 24], [0, 36], [-24, 24] ],
+  "flippable" : true,
+  "universalDamage" : true,
+  "statusEffects" : [
+    {
+      "kind" : "glow",
+      "amount" : 100.0,
+      "color" : "orange",
+      "duration" : 5.0
+    },
+    { "kind" : "testburning" }
+  ]
+}

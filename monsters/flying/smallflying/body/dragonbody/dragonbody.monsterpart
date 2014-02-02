@@ -1,0 +1,9 @@
+{
+  "name" : "dragonbody",
+  "category" : "smallflying_organic",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "dragonbody.png"
+  }
+}

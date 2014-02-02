@@ -1,0 +1,39 @@
+{
+  "objectName" : "huntinglight1",
+  "rarity" : "Common",
+  "description" : "A light made of vines. Or a vine made of lights?",
+  "shortdescription" : "Vine lights",
+  "race" : "floran",
+
+  "apexDescription" : "Such pretty lights.",
+  "avianDescription" : "A plant that lights up. Remarkable.",
+  "floranDescription" : "Plant lights not burn Floran.",
+  "glitchDescription" : "Admiration. The Florans truly know how to control nature.",
+  "humanDescription" : "This reminds me of a Christmas tree.",
+  "hylotlDescription" : "Even the vile Florans appreciate beauty, it seems.",
+
+  "category" : "light",
+  "price" : 750,
+  "lightColor" : [120, 179, 89],
+
+  "inventoryIcon" : "huntinglight1icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "huntinglight1.png:<color>.<frame>", "unlit" : true }, { "image" : "huntinglight1lit.png:<color>.<frame>" } ],
+      "flipImages" : true,
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left",
+      "lightPosition" : [0, 3]
+    },
+    {
+      "imageLayers" : [ { "image" : "huntinglight1.png:<color>.<frame>", "unlit" : true }, { "image" : "huntinglight1lit.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+      "lightPosition" : [0, 3]
+    }
+  ]
+}

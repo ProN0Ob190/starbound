@@ -1,0 +1,647 @@
+{
+  "type" : "villageguardcaptain",
+  "baseType" : "villageguard",
+
+  "levelVariance" : [1, 1],
+
+  "disableWornArmor" : true,
+  "inateStatusEffects" : [
+    {
+      "kind" : "Protection",
+      "amount" : 1.0
+    }
+  ],
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "head" : [ { "name" : "humantier1head" } ],
+            "chest" : [ { "name" : "humantier1chest" } ],
+            "legs" : [ { "name" : "humantier1legs" } ],
+            "primary" : [
+              { "name" : "humantier1broadsword" },
+              { "name" : "generatedgun", "data" : { "definition" : "commonassaultrifle" } }
+            ]
+          }
+        ] ]
+    ],
+    "apex" : [
+      [0, [
+          {
+            "head" : [ { "name" : "apextier1head" } ],
+            "chest" : [ { "name" : "apextier1chest", "data" : { "colorIndex" : 9 } } ],
+            "legs" : [ { "name" : "apextier1pants", "data" : { "colorIndex" : 9 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commonspear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonaxe" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonhammer" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonbroadsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+            ]
+          },
+          {
+            "head" : [ { "name" : "apextier1head" } ],
+            "chest" : [ { "name" : "apextier1chest", "data" : { "colorIndex" : 9 } } ],
+            "legs" : [ { "name" : "apextier1pants", "data" : { "colorIndex" : 9 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "commonassaultrifle" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonshotgun" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonsniperrifle" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+            ]
+          }
+        ] ],
+      [3, [
+          {
+            "head" : [ { "name" : "apextier2head", "data" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "apextier2chest", "data" : { "colorIndex" : 9 } } ],
+            "legs" : [ { "name" : "apextier2pants", "data" : { "colorIndex" : 9 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 9 } } ],
+            "primary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commonspear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonaxe" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonhammer" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonbroadsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+            ]
+          },
+          {
+            "head" : [ { "name" : "apextier2head", "data" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "apextier2chest", "data" : { "colorIndex" : 9 } } ],
+            "legs" : [ { "name" : "apextier2pants", "data" : { "colorIndex" : 9 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 9 } } ],
+            "primary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "commonassaultrifle" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonshotgun" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonsniperrifle" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+            ]
+          }
+        ] ],
+      [4, [
+          {
+            "head" : [ { "name" : "apextier3head", "data" : { "colorIndex" : 6 } } ],
+            "chest" : [ { "name" : "apextier3chest", "data" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "apextier3pants", "data" : { "colorIndex" : 6 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commonspear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonaxe" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonhammer" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonbroadsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+            ]
+          },
+          {
+            "head" : [ { "name" : "apextier3head", "data" : { "colorIndex" : 6 } } ],
+            "chest" : [ { "name" : "apextier3chest", "data" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "apextier3pants", "data" : { "colorIndex" : 6 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "commonassaultrifle" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonshotgun" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonsniperrifle" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+            ]
+          }
+        ] ]
+    ],
+    "avian" : [
+      [0, [
+          {
+            "head" : [ { "name" : "aviantier1head", "data" : { "colorIndex" : 6 } } ],
+            "chest" : [ { "name" : "aviantier1chest", "data" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "aviantier1pants", "data" : { "colorIndex" : 6 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 4 } } ],
+            "primary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commonspear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonaxe" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonhammer" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonbroadsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "commonplasmapistol" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonplasmamachinepistol" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+            ]
+          },
+          {
+            "head" : [ { "name" : "aviantier1head", "data" : { "colorIndex" : 6 } } ],
+            "chest" : [ { "name" : "aviantier1chest", "data" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "aviantier1pants", "data" : { "colorIndex" : 6 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 4 } } ],
+            "primary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "commonplasmaassaultrifle" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonplasmasniperrifle" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonplasmashotgun" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+            ]
+          }
+        ] ],
+      [3, [
+          {
+            "head" : [ { "name" : "aviantier2head", "data" : { "colorIndex" : 6 } } ],
+            "chest" : [ { "name" : "aviantier2chest", "data" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "aviantier2pants", "data" : { "colorIndex" : 6 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 4 } } ],
+            "primary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commonspear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonaxe" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonhammer" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonbroadsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "commonplasmapistol" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonplasmamachinepistol" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+            ]
+          },
+          {
+            "head" : [ { "name" : "aviantier2head", "data" : { "colorIndex" : 6 } } ],
+            "chest" : [ { "name" : "aviantier2chest", "data" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "aviantier2pants", "data" : { "colorIndex" : 6 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 4 } } ],
+            "primary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "commonplasmaassaultrifle" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonplasmasniperrifle" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonplasmashotgun" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+            ]
+          }
+        ] ],
+      [4, [
+          {
+            "head" : [ { "name" : "aviantier3head", "data" : { "colorIndex" : 6 } } ],
+            "chest" : [ { "name" : "aviantier3chest", "data" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "aviantier3pants", "data" : { "colorIndex" : 6 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 4 } } ],
+            "primary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commonspear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonaxe" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonhammer" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonbroadsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "commonplasmapistol" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonplasmamachinepistol" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+            ]
+          },
+          {
+            "head" : [ { "name" : "aviantier3head", "data" : { "colorIndex" : 6 } } ],
+            "chest" : [ { "name" : "aviantier3chest", "data" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "aviantier3pants", "data" : { "colorIndex" : 6 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 4 } } ],
+            "primary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "commonplasmaassaultrifle" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonplasmasniperrifle" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonplasmashotgun" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+            ]
+          }
+        ] ]
+    ],
+    "floran" : [
+      [0, [
+          {
+            "head" : [ { "name" : "florantier1head", "data" : { "colorIndex" : 6 } } ],
+            "chest" : [ { "name" : "florantier1chest", "data" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "florantier1pants", "data" : { "colorIndex" : 6 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 11 } } ],
+            "primary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commonspear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonaxe" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonhammer" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonbroadsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "floranneedler" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "floranstrongshield" } }
+            ]
+          }
+        ] ],
+      [3, [
+          {
+            "head" : [ { "name" : "florantier2head", "data" : { "colorIndex" : 7 } } ],
+            "chest" : [ { "name" : "florantier2chest", "data" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "florantier2pants", "data" : { "colorIndex" : 1 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commonspear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonaxe" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonhammer" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonbroadsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "floranneedler" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "floranstrongshield" } }
+            ]
+          }
+        ] ],
+      [4, [
+          {
+            "head" : [ { "name" : "florantier3head", "data" : { "colorIndex" : 6 } } ],
+            "chest" : [ { "name" : "florantier3chest", "data" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "florantier3pants", "data" : { "colorIndex" : 6 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 7 } } ],
+            "primary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commonspear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonaxe" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonhammer" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonbroadsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "floranneedler" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "floranstrongshield" } }
+            ]
+          }
+        ] ]
+    ],
+    "human" : [
+      [0, [
+          {
+            "head" : [ { "name" : "humantier1head", "data" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "humantier1chest", "data" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "humantier1pants", "data" : { "colorIndex" : 1 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commonspear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonaxe" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonhammer" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonbroadsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+            ]
+          },
+          {
+            "head" : [ { "name" : "humantier1head", "data" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "humantier1chest", "data" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "humantier1pants", "data" : { "colorIndex" : 1 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "commonassaultrifle" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonshotgun" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonsniperrifle" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+            ]
+          }
+        ] ],
+      [3, [
+          {
+            "head" : [ { "name" : "humantier2head" } ],
+            "chest" : [ { "name" : "humantier2chest", "data" : { "colorIndex" : 4 } } ],
+            "legs" : [ { "name" : "humantier2pants", "data" : { "colorIndex" : 4 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commonspear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonaxe" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonhammer" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonbroadsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+            ]
+          },
+          {
+            "head" : [ { "name" : "humantier2head" } ],
+            "chest" : [ { "name" : "humantier2chest", "data" : { "colorIndex" : 4 } } ],
+            "legs" : [ { "name" : "humantier2pants", "data" : { "colorIndex" : 4 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "commonassaultrifle" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonshotgun" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonsniperrifle" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+            ]
+          }
+        ] ],
+      [4, [
+          {
+            "head" : [ { "name" : "humantier3head", "data" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "humantier3chest", "data" : { "colorIndex" : 3 } } ],
+            "legs" : [ { "name" : "humantier3pants", "data" : { "colorIndex" : 1 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 4 } } ],
+            "primary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commonspear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonaxe" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonhammer" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonbroadsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+            ]
+          },
+          {
+            "head" : [ { "name" : "humantier3head", "data" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "humantier3chest", "data" : { "colorIndex" : 3 } } ],
+            "legs" : [ { "name" : "humantier3pants", "data" : { "colorIndex" : 1 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 4 } } ],
+            "primary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "commonassaultrifle" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonshotgun" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonsniperrifle" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+            ]
+          }
+        ] ]
+    ],
+    "glitch" : [
+      [0, [
+          {
+            "head" : [ { "name" : "glitchtier1head", "data" : { "colorIndex" : 6 } } ],
+            "chest" : [ { "name" : "glitchtier1chest", "data" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "glitchtier1pants", "data" : { "colorIndex" : 6 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 4 } } ],
+            "primary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commonspear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonaxe" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonhammer" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonbroadsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "crossbowwood" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "glitchlordshield" } }
+            ]
+          }
+        ] ],
+      [3, [
+          {
+            "head" : [ { "name" : "glitchtier2head", "data" : { "colorIndex" : 6 } } ],
+            "chest" : [ { "name" : "glitchtier2chest", "data" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "glitchtier2pants", "data" : { "colorIndex" : 6 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 4 } } ],
+            "primary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commonspear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonaxe" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonhammer" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonbroadsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "crossbowwood" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "glitchlordshield" } }
+            ]
+          }
+        ] ],
+      [4, [
+          {
+            "head" : [ { "name" : "glitchtier3head", "data" : { "colorIndex" : 6 } } ],
+            "chest" : [ { "name" : "glitchtier3chest", "data" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "glitchtier3pants", "data" : { "colorIndex" : 6 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 4 } } ],
+            "primary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commonspear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonaxe" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonhammer" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonbroadsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "crossbowwood" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "glitchlordshield" } }
+            ]
+          }
+        ] ]
+    ],
+    "hylotl" : [
+      [0, [
+          {
+            "head" : [ { "name" : "hylotltier1head", "data" : { "colorIndex" : 6 } } ],
+            "chest" : [ { "name" : "hylotltier1chest", "data" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "hylotltier1pants", "data" : { "colorIndex" : 6 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commonspear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonaxe" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonhammer" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonbroadsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "commonplasmapistol" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonplasmamachinepistol" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+            ]
+          },
+          {
+            "head" : [ { "name" : "hylotltier1head", "data" : { "colorIndex" : 6 } } ],
+            "chest" : [ { "name" : "hylotltier1chest", "data" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "hylotltier1pants", "data" : { "colorIndex" : 6 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "commonplasmaassaultrifle" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonplasmashotgun" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonplasmasniperrifle" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+            ]
+          }
+        ] ],
+      [3, [
+          {
+            "head" : [ { "name" : "hylotltier2head", "data" : { "colorIndex" : 4 } } ],
+            "chest" : [ { "name" : "hylotltier2chest", "data" : { "colorIndex" : 4 } } ],
+            "legs" : [ { "name" : "hylotltier2pants", "data" : { "colorIndex" : 4 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commonspear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonaxe" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonhammer" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonbroadsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "commonplasmapistol" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonplasmamachinepistol" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+            ]
+          },
+          {
+            "head" : [ { "name" : "hylotltier2head", "data" : { "colorIndex" : 4 } } ],
+            "chest" : [ { "name" : "hylotltier2chest", "data" : { "colorIndex" : 4 } } ],
+            "legs" : [ { "name" : "hylotltier2pants", "data" : { "colorIndex" : 4 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "commonplasmaassaultrifle" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonplasmashotgun" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonplasmasniperrifle" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+            ]
+          }
+        ] ],
+      [4, [
+          {
+            "head" : [ { "name" : "hylotltier3head", "data" : { "colorIndex" : 6 } } ],
+            "chest" : [ { "name" : "hylotltier3chest", "data" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "hylotltier3pants", "data" : { "colorIndex" : 6 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commonspear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonaxe" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonhammer" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonbroadsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "commonplasmapistol" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonplasmamachinepistol" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+            ]
+          },
+          {
+            "head" : [ { "name" : "hylotltier3head", "data" : { "colorIndex" : 6 } } ],
+            "chest" : [ { "name" : "hylotltier3chest", "data" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "hylotltier3pants", "data" : { "colorIndex" : 6 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "commonplasmaassaultrifle" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonplasmashotgun" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonplasmasniperrifle" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+            ]
+          }
+        ] ]
+    ]
+  },
+
+  "dropPools" : [ "guardtreasure" ],
+
+  "statusParameters" : {
+    "baseMaxHealth" : 40,
+    "baseMaxEnergy" : 40,
+    "bodyMaterialKind" : "organic",
+    "damageConfig" : "/damage/damageresponse/npcs.config",
+    "invulnerabilityTime" : 0,
+    "energyReplenishmentRate" : 10.0
+  }
+}

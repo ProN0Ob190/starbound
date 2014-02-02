@@ -1,0 +1,25 @@
+{
+  "projectileName" : "stickyplasma",
+  "frames" : "stickyplasma.png",
+  "animationCycle" : 0.25,
+  "level" : 3,
+  "frameNumber" : 2,
+  "damageKindImage" : "icon.png",
+  "physics" : "stickybullet",
+  "pointLight" : false,
+  "timeToLive" : 4,
+  "bounces" : 1,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "shock",
+      "inheritDamageFactor" : 1,
+      "angle" : 5
+    }
+  ],
+  "power" : 5.0,
+  "lightColor" : [78, 202, 223],
+  "damageType" : "hitTest",
+  "damageKind" : "plasma"
+
+}

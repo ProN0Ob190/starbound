@@ -1,0 +1,83 @@
+{
+  "objectName" : "wildreefpodseed",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Reefpod, tastes like a crunchy smoothy made from every fruit you can imagine. ",
+  "shortdescription" : "Reefpod Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "objectItem" : "reefpodseed",
+
+  "apexDescription" : "If you close your eyes, reefpods taste a bit like bananas.",
+  "avianDescription" : "Deliciously palatable.",
+  "floranDescription" : "Tastesss like birdmen.",
+  "glitchDescription" : "Philosophical. If the reefpod tastes like every fruit you can imagine, what does one imagine a reefpod tasting like?",
+  "humanDescription" : "The most delightful tropical cocktail.",
+  "hylotlDescription" : "Despite the myriad sweet flavours, the reefpod is remarkably appealing.",
+
+  "inventoryIcon" : "reefpodseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "reefpodseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "reefpod",
+            "count" : 1
+          },
+          {
+            "name" : "reefpodseed",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "reefpod",
+            "count" : 1
+          },
+          {
+            "name" : "plantfibre",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "reefpod",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [660, 780],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [660, 780],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

@@ -1,0 +1,769 @@
+{
+
+  "villagertreasure" : [
+    [1, {
+        "pool" : [
+          [0.02, [ "money", 85] ],
+          [0.07, [ "money", 85] ],
+          [0.20, [ "money", 40] ],
+          [0.15, [ "money", 15] ],
+          [0.12, [ "money", 3] ],
+          [0.08, [ "money", 1] ],
+          [0.15, [ "grapes", 2] ],
+          [0.15, [ "banana", 2] ],
+          [0.15, [ "kiwi", 2] ],
+          [0.15, [ "grapes", 2] ],
+          [0.15, [ "pineapple", 3] ],
+          [0.10, [ "burger", 1] ],
+          [0.10, [ "medkit", 1] ]
+        ],
+        "poolRounds" : [
+          [0.20, 0],
+          [0.80, 1]
+
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+  "wizardtreasure" : [
+    [1, {
+        "pool" : [
+          [0.02, [ "money", 85] ],
+          [0.07, [ "money", 85] ],
+          [0.20, [ "money", 40] ],
+          [0.15, [ "money", 15] ],
+          [0.12, [ "money", 3] ],
+          [0.08, [ "money", 1] ],
+          [0.22, [ "spawnerwizard" ] ]
+        ],
+        "poolRounds" : [
+          [0.20, 0],
+          [0.80, 1]
+
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+  "shroomguardtreasure" : [
+    [1, {
+        "pool" : [
+          [0.02, [ "money", 85] ],
+          [0.07, [ "money", 85] ],
+          [0.20, [ "money", 40] ],
+          [0.15, [ "money", 15] ],
+          [0.32, [ "money", 3] ],
+          [0.08, [ "money", 1] ],
+          [0.05, [ "shroomhead" ] ],
+          [0.05, [ "shroomhead2" ] ]
+        ],
+        "poolRounds" : [
+          [0.20, 0],
+          [0.80, 1]
+
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+
+  "eyeguardtreasure" : [
+    [1, {
+        "pool" : [
+          [0.02, [ "money", 85] ],
+          [0.07, [ "money", 85] ],
+          [0.20, [ "money", 40] ],
+          [0.15, [ "money", 15] ],
+          [0.32, [ "money", 3] ],
+          [0.08, [ "money", 1] ],
+          [0.03, [ "batwingsback" ] ]
+        ],
+        "poolRounds" : [
+          [0.20, 0],
+          [0.80, 1]
+
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+  "guardtreasure" : [
+    [1, {
+        "pool" : [
+          [0.02, [ "money", 85] ],
+          [0.07, [ "money", 85] ],
+          [0.10, [ "money", 40] ],
+          [0.15, [ "money", 15] ],
+          [0.08, [ "money", 3] ],
+          [0.08, [ "money", 1] ],
+          [0.03, [ "redstim", 1] ],
+          [0.03, [ "bluestim", 1] ],
+          [0.03, [ "greenstim", 1] ],
+          [0.025, [ "yellowstim", 1] ],
+          [0.005, [ "generatedsword", 1, { "definition" : "crappybroadsword" } ] ],
+          [0.005, [ "generatedsword", 1, { "definition" : "crappyaxe" } ] ],
+          [0.005, [ "generatedsword", 1, { "definition" : "crappyspear" } ] ],
+          [0.005, [ "generatedsword", 1, { "definition" : "crappyhammer" } ] ],
+          [0.005, [ "generatedshield", 1, { "definition" : "glitchstrongshield" } ] ],
+          [0.0022, [ "generatedsword", 1, { "definition" : "uncommoncrappybroadsword" } ] ],
+          [0.0022, [ "generatedsword", 1, { "definition" : "uncommoncrappyaxe" } ] ],
+          [0.0022, [ "generatedsword", 1, { "definition" : "uncommoncrappyspear" } ] ],
+          [0.0022, [ "generatedsword", 1, { "definition" : "uncommoncrappyhammer" } ] ]
+        ],
+        "poolRounds" : [
+          [0.23, 1],
+          [0.33, 2],
+          [0.33, 3],
+          [0.33, 4],
+          [0.23, 5],
+          [0.18, 6],
+          [0.13, 7]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ],
+
+    [2, {
+        "pool" : [
+          [0.02, [ "money", 85] ],
+          [0.07, [ "money", 85] ],
+          [0.10, [ "money", 40] ],
+          [0.15, [ "money", 15] ],
+          [0.08, [ "money", 3] ],
+          [0.08, [ "money", 1] ],
+          [0.03, [ "redstim", 1] ],
+          [0.03, [ "bluestim", 1] ],
+          [0.02, [ "yellowstim", 1] ],
+          [0.002, [ "generatedsword", 1, { "definition" : "tier2broadsword" } ] ],
+          [0.002, [ "generatedsword", 1, { "definition" : "tier2axe" } ] ],
+          [0.002, [ "generatedsword", 1, { "definition" : "tier2spear" } ] ],
+          [0.002, [ "generatedsword", 1, { "definition" : "tier2hammer" } ] ],
+          [0.002, [ "generatedsword", 1, { "definition" : "tier2dagger" } ] ],
+          [0.002, [ "generatedsword", 1, { "definition" : "tier2shortsword" } ] ],
+          [0.002, [ "generatedshield", 1, { "definition" : "tier2shield" } ] ],
+          [0.002, [ "generatedsword", 1, { "definition" : "uncommontier2broadsword" } ] ],
+          [0.002, [ "generatedsword", 1, { "definition" : "uncommontier2axe" } ] ],
+          [0.002, [ "generatedsword", 1, { "definition" : "uncommontier2spear" } ] ],
+          [0.002, [ "generatedsword", 1, { "definition" : "uncommontier2hammer" } ] ],
+          [0.002, [ "generatedsword", 1, { "definition" : "uncommontier2dagger" } ] ],
+          [0.002, [ "generatedsword", 1, { "definition" : "uncommontier2shortsword" } ] ]
+
+
+        ],
+        "poolRounds" : [
+          [0.20, 0],
+          [0.80, 1]
+
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+
+  ],
+
+  "minibosstreasure" : [
+    [1, {
+        "pool" : [
+
+
+          [0.030, [ "generatedshield", 1, { "definition" : "tier1shield" } ] ],
+
+          [0.005, [ "generatedsword", 1, { "definition" : "uncommoncrappybroadsword" } ] ],
+          [0.005, [ "generatedsword", 1, { "definition" : "uncommoncrappyaxe" } ] ],
+          [0.005, [ "generatedsword", 1, { "definition" : "uncommoncrappyspear" } ] ],
+          [0.005, [ "generatedsword", 1, { "definition" : "uncommoncrappyhammer" } ] ],
+
+          [0.02, [ "generatedsword", 1, { "definition" : "uncommonbroadsword" } ] ],
+          [0.02, [ "generatedsword", 1, { "definition" : "uncommonaxe" } ] ],
+          [0.02, [ "generatedsword", 1, { "definition" : "uncommonspear" } ] ],
+          [0.02, [ "generatedsword", 1, { "definition" : "uncommondagger" } ] ],
+          [0.01, [ "generatedsword", 1, { "definition" : "uncommonhammer" } ] ],
+          [0.01, [ "generatedsword", 1, { "definition" : "uncommonshortsword" } ] ],
+          [0.0012, [ "generatedsword", 1, { "definition" : "watersword" } ] ],
+          [0.0012, [ "generatedsword", 1, { "definition" : "eyesword" } ] ],
+          [0.0012, [ "generatedsword", 1, { "definition" : "bonehammer" } ] ],
+          [0.0012, [ "generatedsword", 1, { "definition" : "starcleaversword" } ] ],
+          [0.0012, [ "generatedsword", 1, { "definition" : "teslastaff" } ] ]
+
+
+        ],
+        "poolRounds" : [
+          [1.0, 1]
+
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ],
+
+    [2, {
+        "pool" : [
+
+          [0.004, [ "generatedsword", 1, { "definition" : "tier2broadsword" } ] ],
+          [0.004, [ "generatedsword", 1, { "definition" : "tier2axe" } ] ],
+          [0.004, [ "generatedsword", 1, { "definition" : "tier2spear" } ] ],
+          [0.004, [ "generatedsword", 1, { "definition" : "tier2dagger" } ] ],
+          [0.004, [ "generatedsword", 1, { "definition" : "tier2hammer" } ] ],
+          [0.004, [ "generatedsword", 1, { "definition" : "tier2shortsword" } ] ],
+          [0.015, [ "generatedshield", 1, { "definition" : "tier2shield" } ] ],
+
+          [0.05, [ "generatedsword", 1, { "definition" : "uncommontier2axe" } ] ],
+          [0.05, [ "generatedsword", 1, { "definition" : "uncommontier2spear" } ] ],
+          [0.05, [ "generatedsword", 1, { "definition" : "uncommontier2hammer" } ] ],
+          [0.05, [ "generatedsword", 1, { "definition" : "uncommontier2dagger" } ] ],
+          [0.05, [ "generatedsword", 1, { "definition" : "uncommontier2shortsword" } ] ],
+
+          [0.002, [ "generatedsword", 1, { "definition" : "uncommonbroadsword" } ] ],
+          [0.002, [ "generatedsword", 1, { "definition" : "uncommonaxe" } ] ],
+          [0.002, [ "generatedsword", 1, { "definition" : "uncommonspear" } ] ],
+          [0.002, [ "generatedsword", 1, { "definition" : "uncommondagger" } ] ],
+          [0.002, [ "generatedsword", 1, { "definition" : "uncommonhammer" } ] ],
+          [0.002, [ "generatedsword", 1, { "definition" : "uncommonshortsword" } ] ],
+
+          [0.00010, [ "generatedgun", 1, { "definition" : "commonassaultrifle" } ] ],
+          [0.00010, [ "generatedgun", 1, { "definition" : "commonplasmaassaultrifle" } ] ],
+          [0.00010, [ "generatedgun", 1, { "definition" : "commonshotgun" } ] ],
+          [0.00010, [ "generatedgun", 1, { "definition" : "commonplasmashotgun" } ] ],
+          [0.00010, [ "generatedgun", 1, { "definition" : "commonsniperrifle" } ] ],
+          [0.00010, [ "generatedgun", 1, { "definition" : "commonplasmasniperrifle" } ] ],
+          [0.00010, [ "generatedgun", 1, { "definition" : "commonpistol" } ] ],
+          [0.00010, [ "generatedgun", 1, { "definition" : "commonplasmapistol" } ] ],
+          [0.00010, [ "generatedgun", 1, { "definition" : "commonmachinepistol" } ] ],
+          [0.00010, [ "generatedgun", 1, { "definition" : "commonplasmamachinepistol" } ] ],
+          [0.00010, [ "generatedgun", 1, { "definition" : "commonplasmamachinepistol" } ] ],
+          [0.00010, [ "generatedgun", 1, { "definition" : "commongrenadelauncher" } ] ],
+          [0.00010, [ "generatedgun", 1, { "definition" : "commonrocketlauncher" } ] ],
+
+          [0.0005, [ "generatedgun", 1, { "definition" : "uncommongrenadelauncher" } ] ],
+          [0.0005, [ "generatedgun", 1, { "definition" : "uncommonassaultrifle" } ] ],
+          [0.0005, [ "generatedgun", 1, { "definition" : "uncommonshotgun" } ] ],
+          [0.0005, [ "generatedgun", 1, { "definition" : "uncommonsniperrifle" } ] ],
+          [0.0005, [ "generatedgun", 1, { "definition" : "uncommonpistol" } ] ],
+          [0.0005, [ "generatedgun", 1, { "definition" : "uncommonmachinepistol" } ] ],
+          [0.0005, [ "generatedgun", 1, { "definition" : "uncommonrocketlauncher" } ] ],
+
+          [0.0003, [ "generatedgun", 1, { "definition" : "rareassaultrifle" } ] ],
+          [0.0003, [ "generatedgun", 1, { "definition" : "rareplasmaassaultrifle" } ] ],
+          [0.0003, [ "generatedgun", 1, { "definition" : "rareshotgun" } ] ],
+          [0.0003, [ "generatedgun", 1, { "definition" : "rareplasmashotgun" } ] ],
+          [0.0003, [ "generatedgun", 1, { "definition" : "raresniperrifle" } ] ],
+          [0.0003, [ "generatedgun", 1, { "definition" : "rareplasmasniperrifle" } ] ],
+          [0.0003, [ "generatedgun", 1, { "definition" : "rarepistol" } ] ],
+          [0.0003, [ "generatedgun", 1, { "definition" : "rareplasmapistol" } ] ],
+          [0.0003, [ "generatedgun", 1, { "definition" : "raremachinepistol" } ] ],
+          [0.0003, [ "generatedgun", 1, { "definition" : "rareplasmamachinepistol" } ] ],
+          [0.0003, [ "generatedgun", 1, { "definition" : "rareplasmamachinepistol" } ] ],
+          [0.0003, [ "generatedgun", 1, { "definition" : "raregrenadelauncher" } ] ],
+          [0.0003, [ "generatedgun", 1, { "definition" : "rarerocketlauncher" } ] ],
+
+          [0.0001, [ "generatedgun", 1, { "definition" : "legendarygrenadelauncher" } ] ],
+          [0.0001, [ "generatedgun", 1, { "definition" : "legendaryassaultrifle" } ] ],
+          [0.0001, [ "generatedgun", 1, { "definition" : "legendaryshotgun" } ] ],
+          [0.0001, [ "generatedgun", 1, { "definition" : "legendarysniperrifle" } ] ],
+          [0.0001, [ "generatedgun", 1, { "definition" : "legendarypistol" } ] ],
+          [0.0001, [ "generatedgun", 1, { "definition" : "legendarymachinepistol" } ] ],
+          [0.0001, [ "generatedgun", 1, { "definition" : "legendaryrocketlauncher" } ] ]
+        ],
+        "poolRounds" : [
+          [1.0, 1]
+
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+  "airshipguardtreasure" : [
+    [1, {
+        "pool" : [
+          [0.02, [ "money", 85] ],
+          [0.07, [ "money", 85] ],
+          [0.10, [ "money", 40] ],
+          [0.15, [ "money", 15] ],
+          [0.08, [ "money", 3] ],
+          [0.08, [ "money", 1] ],
+          [0.03, [ "redstim", 1] ],
+          [0.03, [ "bluestim", 1] ],
+          [0.02, [ "yellowstim", 1] ],
+          [0.015, [ "generatedsword", 1, { "definition" : "uncommoncrappybroadsword" } ] ],
+          [0.015, [ "generatedsword", 1, { "definition" : "uncommoncrappyaxe" } ] ],
+          [0.015, [ "generatedsword", 1, { "definition" : "uncommoncrappyspear" } ] ],
+          [0.015, [ "generatedsword", 1, { "definition" : "uncommoncrappyhammer" } ] ],
+          [0.015, [ "generatedshield", 1, { "definition" : "tier1shield" } ] ],
+          [0.01, [ "buccaneerlegs", 1] ],
+          [0.01, [ "buccaneerchest", 1] ],
+          [0.01, [ "buccaneerhead", 1] ],
+          [0.01, [ "pirateback", 1] ],
+          [0.01, [ "piratelegs", 1] ],
+          [0.01, [ "piratechest", 1] ]
+        ],
+        "poolRounds" : [
+          [0.20, 0],
+          [0.80, 1]
+
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ],
+
+    [2, {
+        "pool" : [
+          [0.02, [ "money", 85] ],
+          [0.07, [ "money", 85] ],
+          [0.10, [ "money", 40] ],
+          [0.15, [ "money", 15] ],
+          [0.08, [ "money", 3] ],
+          [0.08, [ "money", 1] ],
+          [0.03, [ "redstim", 1] ],
+          [0.03, [ "bluestim", 1] ],
+          [0.02, [ "yellowstim", 1] ],
+          [0.15, [ "banana", 2] ],
+          [0.01, [ "buccaneerlegs", 1] ],
+          [0.01, [ "buccaneerchest", 1] ],
+          [0.01, [ "buccaneerhead", 1] ],
+          [0.01, [ "pirateback", 1] ],
+          [0.01, [ "piratelegs", 1] ],
+          [0.01, [ "piratechest", 1] ],
+          [0.004, [ "generatedsword", 1, { "definition" : "tier2broadsword" } ] ],
+          [0.004, [ "generatedsword", 1, { "definition" : "tier2axe" } ] ],
+          [0.004, [ "generatedsword", 1, { "definition" : "tier2spear" } ] ],
+          [0.004, [ "generatedsword", 1, { "definition" : "tier2dagger" } ] ],
+          [0.004, [ "generatedsword", 1, { "definition" : "tier2hammer" } ] ],
+          [0.004, [ "generatedsword", 1, { "definition" : "tier2shortsword" } ] ],
+          [0.015, [ "generatedshield", 1, { "definition" : "tier2shield" } ] ],
+
+          [0.005, [ "generatedsword", 1, { "definition" : "uncommontier2broadsword" } ] ],
+          [0.005, [ "generatedsword", 1, { "definition" : "uncommontier2axe" } ] ],
+          [0.005, [ "generatedsword", 1, { "definition" : "uncommontier2spear" } ] ],
+          [0.005, [ "generatedsword", 1, { "definition" : "uncommontier2hammer" } ] ],
+          [0.005, [ "generatedsword", 1, { "definition" : "uncommontier2dagger" } ] ],
+          [0.005, [ "generatedsword", 1, { "definition" : "uncommontier2shortsword" } ] ],
+
+          [0.002, [ "generatedsword", 1, { "definition" : "uncommonbroadsword" } ] ],
+          [0.002, [ "generatedsword", 1, { "definition" : "uncommonaxe" } ] ],
+          [0.002, [ "generatedsword", 1, { "definition" : "uncommonspear" } ] ],
+          [0.002, [ "generatedsword", 1, { "definition" : "uncommondagger" } ] ],
+          [0.002, [ "generatedsword", 1, { "definition" : "uncommonhammer" } ] ],
+          [0.002, [ "generatedsword", 1, { "definition" : "uncommonshortsword" } ] ],
+
+          [0.00015, [ "generatedgun", 1, { "definition" : "commonassaultrifle" } ] ],
+          [0.00015, [ "generatedgun", 1, { "definition" : "commonplasmaassaultrifle" } ] ],
+          [0.00015, [ "generatedgun", 1, { "definition" : "commonshotgun" } ] ],
+          [0.00015, [ "generatedgun", 1, { "definition" : "commonplasmashotgun" } ] ],
+          [0.00015, [ "generatedgun", 1, { "definition" : "commonsniperrifle" } ] ],
+          [0.00015, [ "generatedgun", 1, { "definition" : "commonplasmasniperrifle" } ] ],
+          [0.00015, [ "generatedgun", 1, { "definition" : "commonpistol" } ] ],
+          [0.00015, [ "generatedgun", 1, { "definition" : "commonplasmapistol" } ] ],
+          [0.00015, [ "generatedgun", 1, { "definition" : "commonmachinepistol" } ] ],
+          [0.00015, [ "generatedgun", 1, { "definition" : "commonplasmamachinepistol" } ] ],
+          [0.00015, [ "generatedgun", 1, { "definition" : "commonplasmamachinepistol" } ] ],
+          [0.00015, [ "generatedgun", 1, { "definition" : "commongrenadelauncher" } ] ],
+          [0.00015, [ "generatedgun", 1, { "definition" : "commonrocketlauncher" } ] ],
+
+          [0.0005, [ "generatedgun", 1, { "definition" : "uncommongrenadelauncher" } ] ],
+          [0.0005, [ "generatedgun", 1, { "definition" : "uncommonassaultrifle" } ] ],
+          [0.0005, [ "generatedgun", 1, { "definition" : "uncommonshotgun" } ] ],
+          [0.0005, [ "generatedgun", 1, { "definition" : "uncommonsniperrifle" } ] ],
+          [0.0005, [ "generatedgun", 1, { "definition" : "uncommonpistol" } ] ],
+          [0.0005, [ "generatedgun", 1, { "definition" : "uncommonmachinepistol" } ] ],
+          [0.0005, [ "generatedgun", 1, { "definition" : "uncommonrocketlauncher" } ] ],
+
+          [0.0003, [ "generatedgun", 1, { "definition" : "rareassaultrifle" } ] ],
+          [0.0003, [ "generatedgun", 1, { "definition" : "rareplasmaassaultrifle" } ] ],
+          [0.0003, [ "generatedgun", 1, { "definition" : "rareshotgun" } ] ],
+          [0.0003, [ "generatedgun", 1, { "definition" : "rareplasmashotgun" } ] ],
+          [0.0003, [ "generatedgun", 1, { "definition" : "raresniperrifle" } ] ],
+          [0.0003, [ "generatedgun", 1, { "definition" : "rareplasmasniperrifle" } ] ],
+          [0.0003, [ "generatedgun", 1, { "definition" : "rarepistol" } ] ],
+          [0.0003, [ "generatedgun", 1, { "definition" : "rareplasmapistol" } ] ],
+          [0.0003, [ "generatedgun", 1, { "definition" : "raremachinepistol" } ] ],
+          [0.0003, [ "generatedgun", 1, { "definition" : "rareplasmamachinepistol" } ] ],
+          [0.0003, [ "generatedgun", 1, { "definition" : "rareplasmamachinepistol" } ] ],
+          [0.0003, [ "generatedgun", 1, { "definition" : "raregrenadelauncher" } ] ],
+          [0.0003, [ "generatedgun", 1, { "definition" : "rarerocketlauncher" } ] ],
+
+          [0.0001, [ "generatedgun", 1, { "definition" : "legendarygrenadelauncher" } ] ],
+          [0.0001, [ "generatedgun", 1, { "definition" : "legendaryassaultrifle" } ] ],
+          [0.0001, [ "generatedgun", 1, { "definition" : "legendaryshotgun" } ] ],
+          [0.0001, [ "generatedgun", 1, { "definition" : "legendarysniperrifle" } ] ],
+          [0.0001, [ "generatedgun", 1, { "definition" : "legendarypistol" } ] ],
+          [0.0001, [ "generatedgun", 1, { "definition" : "legendarymachinepistol" } ] ],
+          [0.0001, [ "generatedgun", 1, { "definition" : "legendaryrocketlauncher" } ] ]
+        ],
+        "poolRounds" : [
+          [0.60, 0],
+          [0.40, 1]
+
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+  "airshipcaptaintreasure" : [
+    [1, {
+        "pool" : [
+          [0.02, [ "money", 85] ],
+          [0.07, [ "money", 85] ],
+          [0.10, [ "money", 40] ],
+          [0.15, [ "money", 15] ],
+          [0.08, [ "money", 3] ],
+          [0.08, [ "money", 1] ],
+          [0.03, [ "redstim", 1] ],
+          [0.03, [ "bluestim", 1] ],
+          [0.02, [ "yellowstim", 1] ],
+          [0.015, [ "generatedsword", 1, { "definition" : "tier2broadsword" } ] ],
+          [0.015, [ "generatedsword", 1, { "definition" : "tier2axe" } ] ],
+          [0.015, [ "generatedsword", 1, { "definition" : "tier2spear" } ] ],
+          [0.015, [ "generatedsword", 1, { "definition" : "tier2dagger" } ] ],
+          [0.015, [ "generatedsword", 1, { "definition" : "tier2hammer" } ] ],
+          [0.015, [ "generatedsword", 1, { "definition" : "tier2shortsword" } ] ],
+          [0.015, [ "generatedshield", 1, { "definition" : "tier1shield" } ] ],
+          [0.15, [ "pirateback", 1] ],
+          [0.55, [ "piratehead", 1] ],
+          [0.15, [ "piratelegs", 1] ],
+          [0.15, [ "piratechest", 1] ],
+          [0.15, [ "spawnerpirate", 1] ]
+
+        ],
+        "poolRounds" : [
+          [0.20, 0],
+          [0.80, 1]
+
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ],
+
+    [2, {
+        "pool" : [
+          [0.02, [ "money", 85] ],
+          [0.07, [ "money", 85] ],
+          [0.10, [ "money", 40] ],
+          [0.15, [ "money", 15] ],
+          [0.08, [ "money", 3] ],
+          [0.08, [ "money", 1] ],
+          [0.03, [ "redstim", 1] ],
+          [0.03, [ "bluestim", 1] ],
+          [0.02, [ "yellowstim", 1] ],
+          [0.15, [ "pirateback", 1] ],
+          [0.55, [ "piratehead", 1] ],
+          [0.15, [ "piratelegs", 1] ],
+          [0.15, [ "piratechest", 1] ],
+
+          [0.004, [ "generatedsword", 1, { "definition" : "tier2broadsword" } ] ],
+          [0.004, [ "generatedsword", 1, { "definition" : "tier2axe" } ] ],
+          [0.004, [ "generatedsword", 1, { "definition" : "tier2spear" } ] ],
+          [0.004, [ "generatedsword", 1, { "definition" : "tier2dagger" } ] ],
+          [0.004, [ "generatedsword", 1, { "definition" : "tier2hammer" } ] ],
+          [0.004, [ "generatedsword", 1, { "definition" : "tier2shortsword" } ] ],
+          [0.015, [ "generatedshield", 1, { "definition" : "tier2shield" } ] ],
+
+          [0.002, [ "generatedsword", 1, { "definition" : "uncommonbroadsword" } ] ],
+          [0.002, [ "generatedsword", 1, { "definition" : "uncommonaxe" } ] ],
+          [0.002, [ "generatedsword", 1, { "definition" : "uncommonspear" } ] ],
+          [0.002, [ "generatedsword", 1, { "definition" : "uncommondagger" } ] ],
+          [0.002, [ "generatedsword", 1, { "definition" : "uncommonhammer" } ] ],
+          [0.002, [ "generatedsword", 1, { "definition" : "uncommonshortsword" } ] ],
+
+          [0.00015, [ "generatedgun", 1, { "definition" : "commonassaultrifle" } ] ],
+          [0.00015, [ "generatedgun", 1, { "definition" : "commonplasmaassaultrifle" } ] ],
+          [0.00015, [ "generatedgun", 1, { "definition" : "commonshotgun" } ] ],
+          [0.00015, [ "generatedgun", 1, { "definition" : "commonplasmashotgun" } ] ],
+          [0.00015, [ "generatedgun", 1, { "definition" : "commonsniperrifle" } ] ],
+          [0.00015, [ "generatedgun", 1, { "definition" : "commonplasmasniperrifle" } ] ],
+          [0.00015, [ "generatedgun", 1, { "definition" : "commonpistol" } ] ],
+          [0.00015, [ "generatedgun", 1, { "definition" : "commonplasmapistol" } ] ],
+          [0.00015, [ "generatedgun", 1, { "definition" : "commonmachinepistol" } ] ],
+          [0.00015, [ "generatedgun", 1, { "definition" : "commonplasmamachinepistol" } ] ],
+          [0.00015, [ "generatedgun", 1, { "definition" : "commonplasmamachinepistol" } ] ],
+          [0.00015, [ "generatedgun", 1, { "definition" : "commongrenadelauncher" } ] ],
+          [0.00015, [ "generatedgun", 1, { "definition" : "commonrocketlauncher" } ] ],
+
+          [0.0005, [ "generatedgun", 1, { "definition" : "uncommongrenadelauncher" } ] ],
+          [0.0005, [ "generatedgun", 1, { "definition" : "uncommonassaultrifle" } ] ],
+          [0.0005, [ "generatedgun", 1, { "definition" : "uncommonshotgun" } ] ],
+          [0.0005, [ "generatedgun", 1, { "definition" : "uncommonsniperrifle" } ] ],
+          [0.0005, [ "generatedgun", 1, { "definition" : "uncommonpistol" } ] ],
+          [0.0005, [ "generatedgun", 1, { "definition" : "uncommonmachinepistol" } ] ],
+          [0.0005, [ "generatedgun", 1, { "definition" : "uncommonrocketlauncher" } ] ],
+
+          [0.0003, [ "generatedgun", 1, { "definition" : "rareassaultrifle" } ] ],
+          [0.0003, [ "generatedgun", 1, { "definition" : "rareplasmaassaultrifle" } ] ],
+          [0.0003, [ "generatedgun", 1, { "definition" : "rareshotgun" } ] ],
+          [0.0003, [ "generatedgun", 1, { "definition" : "rareplasmashotgun" } ] ],
+          [0.0003, [ "generatedgun", 1, { "definition" : "raresniperrifle" } ] ],
+          [0.0003, [ "generatedgun", 1, { "definition" : "rareplasmasniperrifle" } ] ],
+          [0.0003, [ "generatedgun", 1, { "definition" : "rarepistol" } ] ],
+          [0.0003, [ "generatedgun", 1, { "definition" : "rareplasmapistol" } ] ],
+          [0.0003, [ "generatedgun", 1, { "definition" : "raremachinepistol" } ] ],
+          [0.0003, [ "generatedgun", 1, { "definition" : "rareplasmamachinepistol" } ] ],
+          [0.0003, [ "generatedgun", 1, { "definition" : "rareplasmamachinepistol" } ] ],
+          [0.0003, [ "generatedgun", 1, { "definition" : "raregrenadelauncher" } ] ],
+          [0.0003, [ "generatedgun", 1, { "definition" : "rarerocketlauncher" } ] ],
+
+          [0.0001, [ "generatedgun", 1, { "definition" : "legendarygrenadelauncher" } ] ],
+          [0.0001, [ "generatedgun", 1, { "definition" : "legendaryassaultrifle" } ] ],
+          [0.0001, [ "generatedgun", 1, { "definition" : "legendaryshotgun" } ] ],
+          [0.0001, [ "generatedgun", 1, { "definition" : "legendarysniperrifle" } ] ],
+          [0.0001, [ "generatedgun", 1, { "definition" : "legendarypistol" } ] ],
+          [0.0001, [ "generatedgun", 1, { "definition" : "legendarymachinepistol" } ] ],
+          [0.0001, [ "generatedgun", 1, { "definition" : "legendaryrocketlauncher" } ] ]
+        ],
+        "poolRounds" : [
+          [0.60, 1],
+          [0.40, 2]
+
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+  "prisonbruisertreasure" : [
+    [1, {
+        "pool" : [
+          [0.1, [ "money", 85] ],
+          [0.2, [ "money", 40] ],
+          [0.3, [ "money", 15] ],
+          [0.1, [ "money", 3] ],
+          [0.1, [ "money", 1] ],
+          [0.05, [ "redstim", 1] ],
+          [0.05, [ "bluestim", 1] ],
+          [0.05, [ "greenstim", 1] ],
+          [0.025, [ "yellowstim", 1] ],
+          [0.025, [ "generatedsword", 1, { "definition" : "steelchair" } ] ]
+        ],
+        "poolRounds" : [
+          [0.8, 1],
+          [0.2, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "prisonberserkertreasure" : [
+    [1, {
+        "pool" : [
+          [0.1, [ "money", 85] ],
+          [0.2, [ "money", 40] ],
+          [0.3, [ "money", 15] ],
+          [0.1, [ "money", 3] ],
+          [0.1, [ "money", 1] ],
+          [0.05, [ "redstim", 1] ],
+          [0.05, [ "bluestim", 1] ],
+          [0.05, [ "greenstim", 1] ],
+          [0.025, [ "yellowstim", 1] ],
+          [0.025, [ "generatedsword", 1, { "definition" : "shiv" } ] ]
+        ],
+        "poolRounds" : [
+          [0.8, 1],
+          [0.2, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "prisongunmantreasure" : [
+    [1, {
+        "pool" : [
+          [0.1, [ "money", 85] ],
+          [0.2, [ "money", 40] ],
+          [0.3, [ "money", 15] ],
+          [0.1, [ "money", 3] ],
+          [0.1, [ "money", 1] ],
+          [0.05, [ "redstim", 1] ],
+          [0.05, [ "bluestim", 1] ],
+          [0.05, [ "greenstim", 1] ],
+          [0.025, [ "yellowstim", 1] ],
+          [0.0125, [ "generatedgun", 1, { "definition" : "uzi" } ] ],
+          [0.0125, [ "generatedgun", 1, { "definition" : "commonpistol" } ] ]
+        ],
+        "poolRounds" : [
+          [0.8, 1],
+          [0.2, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "floranwildhuntertreasure" : [
+    [1, {
+        "pool" : [
+          [0.1, [ "money", 85] ],
+          [0.2, [ "money", 40] ],
+          [0.3, [ "money", 15] ],
+          [0.1, [ "money", 3] ],
+          [0.1, [ "hivebomb", 1] ],
+          [0.05, [ "redstim", 1] ],
+          [0.05, [ "bluestim", 1] ],
+          [0.05, [ "greenstim", 1] ],
+          [0.025, [ "yellowstim", 1] ],
+          [0.025, [ "generatedgun", 1, { "definition" : "floranneedler" } ] ]
+        ],
+        "poolRounds" : [
+          [0.8, 1],
+          [0.2, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "floranwildhunterveterantreasure" : [
+    [1, {
+        "pool" : [
+          [0.1, [ "money", 85] ],
+          [0.2, [ "money", 40] ],
+          [0.3, [ "money", 15] ],
+          [0.1, [ "money", 3] ],
+          [0.09, [ "hivebomb", 2] ],
+          [0.03, [ "redstim", 1] ],
+          [0.03, [ "bluestim", 1] ],
+          [0.03, [ "greenstim", 1] ],
+          [0.02, [ "yellowstim", 1] ],
+          [0.05, [ "generatedgun", 1, { "definition" : "floranneedler" } ] ],
+          [0.05, [ "generatedsword", 1, { "definition" : "floranmace" } ] ]
+        ],
+        "poolRounds" : [
+          [0.8, 1],
+          [0.2, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+  
+  "castleguardtreasure" : [
+    [1, {
+        "pool" : [
+          [0.03, [ "money", 85] ],
+          [0.10, [ "money", 85] ],
+          [0.15, [ "money", 40] ],
+          [0.20, [ "money", 15] ],
+          [0.12, [ "money", 3] ],
+          [0.12, [ "money", 1] ],
+          [0.04, [ "redstim", 1] ],
+          [0.04, [ "bluestim", 1] ],
+          [0.04, [ "greenstim", 1] ],
+          [0.03, [ "yellowstim", 1] ],
+          [0.03, [ "generatedshield", 1, { "definition" : "glitchstrongshield" } ] ],
+          [0.03, [ "generatedsword", 1, { "definition" : "glitchsmallmace" } ] ],
+          [0.03, [ "generatedsword", 1, { "definition" : "glitchlargemace" } ] ],
+          [0.03, [ "generatedgun", 1, { "definition" : "crossbow" } ] ],
+          [0.01, [ "generatedgun", 1, { "definition" : "crossbowspecial" } ] ]
+        ],
+        "poolRounds" : [
+          [0.5, 1],
+          [0.3, 2],
+          [0.2, 3]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "castlelordtreasure" : [
+    [1, {
+        "pool" : [
+          [0.4, [ "money", 125] ],
+          [0.2, [ "generatedsword", 1, { "definition" : "uncommonbroadsword" } ] ],
+          [0.2, [ "glitchroyalhead", 1] ],
+		  [0.2, [ "generatedshield", 1, { "definition" : "glitchlordshield" } ] ]
+        ],
+        "poolRounds" : [
+          [0.25, 1],
+          [0.65, 2],
+          [0.1, 3]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+  
+  "bunkerguardtreasure" : [
+    [1, {
+        "pool" : [
+          [0.05, [ "money", 85] ],
+          [0.10, [ "money", 85] ],
+          [0.15, [ "money", 40] ],
+          [0.20, [ "money", 15] ],
+          [0.12, [ "money", 3] ],
+          [0.1, [ "money", 1] ],
+          [0.04, [ "redstim", 1] ],
+          [0.04, [ "bluestim", 1] ],
+          [0.04, [ "greenstim", 1] ],
+          [0.04, [ "yellowstim", 1] ],
+          [0.04, [ "generatedshield", 1, { "definition" : "riotshield" } ] ],
+          [0.04, [ "generatedsword", 1, { "definition" : "nightstick" } ] ],
+          [0.04, [ "generatedgun", 1, { "definition" : "pulserifle" } ] ]
+        ],
+        "poolRounds" : [
+          [0.5, 1],
+          [0.3, 2],
+          [0.2, 3]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+  
+  "hellguardtreasure" : [
+    [1, {
+        "pool" : [
+          [0.05, [ "money", 85] ],
+          [0.10, [ "money", 85] ],
+          [0.15, [ "money", 40] ],
+          [0.20, [ "money", 15] ],
+          [0.12, [ "money", 3] ],
+          [0.1, [ "money", 1] ],
+          [0.04, [ "redstim", 1] ],
+          [0.04, [ "bluestim", 1] ],
+          [0.04, [ "greenstim", 1] ],
+          [0.04, [ "yellowstim", 1] ],
+          [0.04, [ "generatedsword", 1, { "definition" : "floranprod" } ] ],
+          [0.04, [ "generatedgun", 1, { "definition" : "commonplasmasniperrifle" } ] ],
+          [0.04, [ "generatedgun", 1, { "definition" : "commonplasmaassaultrifle" } ] ]
+        ],
+        "poolRounds" : [
+          [0.5, 1],
+          [0.3, 2],
+          [0.2, 3]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+  
+  "templeguardtreasure" : [
+    [1, {
+        "pool" : [
+          [0.05, [ "money", 85] ],
+          [0.10, [ "money", 85] ],
+          [0.15, [ "money", 40] ],
+          [0.20, [ "money", 15] ],
+          [0.12, [ "money", 3] ],
+          [0.1, [ "money", 1] ],
+          [0.04, [ "redstim", 1] ],
+          [0.04, [ "bluestim", 1] ],
+          [0.04, [ "greenstim", 1] ],
+          [0.04, [ "yellowstim", 1] ],
+          [0.06, [ "generatedsword", 1, { "definition" : "aviansword" } ] ],
+          [0.06, [ "generatedgun", 1, { "definition" : "aviangun" } ] ]
+        ],
+        "poolRounds" : [
+          [0.5, 1],
+          [0.3, 2],
+          [0.2, 3]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ]
+}

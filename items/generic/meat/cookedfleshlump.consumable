@@ -1,0 +1,14 @@
+{
+  "itemName" : "cookedfleshlump",
+  "rarity" : "Common",
+  "inventoryIcon" : "cookedfleshlump.png",
+  "description" : "It's a cooked hunk of flesh of questionable origin.",
+  "shortdescription" : "Cooked Flesh Lump",
+  "handPosition" : [0, -4],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 30
+      }
+    ] ]
+}

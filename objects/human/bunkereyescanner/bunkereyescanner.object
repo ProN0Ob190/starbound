@@ -1,0 +1,40 @@
+{
+  "objectName" : "bunkereyescanner",
+  "rarity" : "Common",
+  "description" : "It seems to scan eyeballs to match personnel data.",
+  "shortdescription" : "USCM Eye Scanner",
+  "race" : "human",
+  "objectType" : "wire",
+  "category" : "wire",
+  "price" : 300,
+
+  "apexDescription" : "This machine doesn't seem to recognise Apex eyeballs.",
+  "avianDescription" : "A device for scanning human eyeballs. But for what purpose?",
+  "floranDescription" : "Floran ssstare at machine. Machine ssstare back. Floran win.",
+  "glitchDescription" : "Technical. With the correct calibration, this scanner could be tricked by a Glitch eye.",
+  "humanDescription" : "An eye scanner. Someone's rubbed ink around the eye piece. Oh, you jokers.",
+  "hylotlDescription" : "Such devices are awkward for Hylotl. Our heads are not the right shape.",
+
+  "inventoryIcon" : "bunkereyescannericon.png",
+  "orientations" : [
+    {
+      "image" : "bunkereyescanner.png:<color>.off",
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/switch/switch.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switch4.animation",
+
+  "animationParts" : {
+    "switch" : "bunkereyescanner.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "outboundNodes" : [ [0, 0] ]
+}

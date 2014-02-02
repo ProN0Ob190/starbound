@@ -1,0 +1,10 @@
+{
+  "modId" : 29,
+  "modName" : "uranium",
+  "frames" : "uranium.png",
+  "variants" : 8,
+  "itemDrop" : "uraniumore",
+  "Description" : "Uranium.",
+  "health" : 10,
+  "breaksWithTile" : true
+}

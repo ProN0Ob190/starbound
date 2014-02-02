@@ -1,0 +1,37 @@
+{
+  "objectName" : "woodencookingtable",
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "interactable",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/kitchen.config",
+    "filter" : [ "kitchen" ]
+  },
+  "description" : "Cook food on this!",
+  "shortdescription" : "Wooden Cooking Table",
+  "race" : "generic",
+  "category" : "crafting",
+
+  "apexDescription" : "This table contains everything one could need to create almost any dish.",
+  "avianDescription" : "Almost any Avian dish could be prepared here.",
+  "floranDescription" : "Floran prepare food with bare handsss. But table ussseful.",
+  "glitchDescription" : "Inspired. Let's create food!",
+  "humanDescription" : "A chef's table. A whole bunch of different implements for making food...",
+  "hylotlDescription" : "Food preparation is an art and this is the paintbrush.",
+
+  "inventoryIcon" : "woodencookingtableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "woodencookingtable.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

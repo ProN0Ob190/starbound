@@ -1,0 +1,17 @@
+{
+  "projectileName" : "floranprodswoosh",
+  "frames" : "floranprodswoosh.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 3,
+  "damageKindImage" : "icon.png",
+  "level" : 1,
+  "speed" : 0,
+  "orientationLocked" : true,
+  "damagePoly" : [ [-54, 5.5], [22.5, 5.5], [22.5, -5.5], [-54, -5.5] ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "damageKind" : "electroshock",
+  "lightColor" : [24, 152, 199],
+  "pointLight" : true
+}

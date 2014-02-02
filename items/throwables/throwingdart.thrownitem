@@ -1,0 +1,21 @@
+{
+  "itemName" : "throwingdart",
+  "rarity" : "Common",
+  "inventoryIcon" : "throwingdarticon.png",
+  "image" : "throwingdarticon.png",
+  "shortdescription" : "Throwing Dart.",
+  "description" : "A throwing dart. One hundred and eightyyyyyy!",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "throwingdart",
+  "projectileConfig" : {
+    "speed" : 45,
+    "armorPenetration" : 7
+  }
+}
+

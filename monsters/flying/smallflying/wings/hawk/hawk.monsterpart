@@ -1,0 +1,14 @@
+{
+  "name" : "hawk",
+  "category" : "smallflying_organic",
+  "type" : "wings",
+
+  "frames" : {
+    "backWings" : "hawkbwing.png",
+    "frontWings" : "hawkfwing.png"
+  },
+
+  "parameters" : {
+    "skills" : [ "flyingSwoopAttack" ]
+  }
+}

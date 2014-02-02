@@ -1,0 +1,30 @@
+{
+  "kind" : "warmthCritical",
+  "definition" : {
+    "duration" : 2,
+    "loops" : false,
+    "location" : "mouth",
+    "start" : {
+      "particles" : [
+        [ ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    },
+    "particles" : [
+      [ "coldbreath" ]
+    ],
+    "sounds" : [
+      [ "/sfx/interface/playerstatuscritical.wav" ]
+    ],
+    "stop" : {
+      "particles" : [
+        [ ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}

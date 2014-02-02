@@ -1,0 +1,16 @@
+{
+  "projectileName" : "megabeam",
+  "frames" : "megabeam.png",
+  "physics" : "grenade",
+  "level" : 3,
+  "animationCycle" : 1.0,
+  "damageKindImage" : "icon.png",
+  "frameNumber" : 1,
+  "power" : 50,
+  "speed" : 25,
+  "timeToLive" : 0.75,
+  "bounces" : 1,
+  "piercing" : true,
+  "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],
+  "damageKind" : "slash"
+}

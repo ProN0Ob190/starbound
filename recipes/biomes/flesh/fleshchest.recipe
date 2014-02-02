@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "fleshstrand", "count" : 35 },
+    { "item" : "money", "count" : 140 }
+  ],
+  "output" : { "item" : "fleshchest", "count" : 1 },
+  "groups" : [ "craftingtable", "storage", "objects", "all" ]
+}

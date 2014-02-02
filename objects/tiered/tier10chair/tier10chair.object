@@ -1,0 +1,38 @@
+{
+  "objectName" : "tier10chair",
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "An impervium chair. You'll never want to stand again.",
+  "shortdescription" : "Impervium Chair",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 600,
+
+  "apexDescription" : "Sitting in this chair makes all my worries melt away.",
+  "avianDescription" : "Sitting in this chair is enough to make me forget being grounded.",
+  "floranDescription" : "Sssitting.",
+  "glitchDescription" : "Relaxed. Everyone should have a chair like this.",
+  "humanDescription" : "The ultimate in comfort.",
+  "hylotlDescription" : "A masterfully crafted chair. So comfortable.",
+
+  "inventoryIcon" : "tier10chairicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "tier10chair.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "interactable",
+  "interactAction" : "sitdown",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 16]
+
+}

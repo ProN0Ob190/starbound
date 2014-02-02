@@ -1,0 +1,138 @@
+{
+  "type" : "skeyejelly",
+
+  "categories" : [ "skeyejelly_organic" ],
+  "parts" : [ "arms", "chest", "tail", "head" ],
+
+  "animation" : "skeyejelly.animation",
+  "projectiles" : "/monsters/projectiles.config",
+  "colors" : "/monsters/colors.config",
+  "reversed" : true,
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/ground/groundMonster.lua",
+      "/scripts/stateMachine.lua",
+      "/scripts/util.lua",
+      "/scripts/vec2.lua",
+
+      "/monsters/ground/aggressState.lua",
+      "/monsters/ground/knockoutState.lua",
+      "/monsters/ground/wanderState.lua"
+    ],
+    "scriptDelta" : 5,
+
+    "territoryDistance" : 40.0,
+    "territorialTargetRadius" : 20.0,
+    "minimalTargetRadius" : 6.0,
+    "targetSearchTime" : 40.5,
+    "targetHoldTime" : 40.0,
+
+    "closeDistance" : 1.5,
+
+    "wanderTime" : [4.0, 6.0],
+    "wanderMovementTime" : [2.0, 3.0],
+
+    "idleSoundTime" : [45.0, 60.0],
+    "painSoundTimer" : 2.0,
+
+    "jumpTargetDistance" : 4,
+    "jumpTime" : [0.8, 1.4],
+
+    "knockoutTime" : 0.5,
+    "knockoutEffect" : "blink",
+    "deathParticles" : "deathPoof",
+    "deathNoise" : [ "/sfx/projectiles/bubble_pop.wav" ],
+
+    "exhaustionTimer" : 3.0,
+    "exhaustionTimeout" : 3.0,
+    "exhaustionDistanceLimit" : 1.0,
+
+    "wanderJumpProbability" : 0.1,
+
+    "alwaysAggressive" : true
+  },
+
+  "familyParameters" : [
+    [
+
+      {
+        "attackStartDistance" : 7.0,
+        "attackMaxDistance" : 20,
+        "attackCooldownTime" : 0.5,
+        "attackTime" : 0.75,
+        "skillCount" : 4,
+        "skills" : [ "pounceAttack", "meleeAttack", "chargeAttack", "bubbleBlastRangedAttack" ],
+        "pounceAttackJumpHoldTime" : 1.0,
+        "pounceAttackWindupTime" : 1.0,
+        "pounceAttackCooldown" : 1.0,
+        "chargeAttackWindupTime" : 1.0,
+        "chargeAttackAttackDistance" : 5.0,
+        "chargeAttackProjectile" : null,
+        "shooterSkillName" : "rangedAttack",
+        "shooterGiveUpTolerance" : 20.0
+      }
+    ]
+  ],
+
+  "variantParameters" : [
+    [
+      [1.0, {
+          "scale" : 1.0,
+
+          "movementSettings" : {
+            "collisionPoly" : [ [-1, -5.6], [1, -5.6], [1, 0.5], [-1, 0.5] ],
+            "mass" : 0.6,
+            "walkSpeed" : 5,
+            "runSpeed" : 13,
+            "jumpSpeed" : 20
+          },
+
+          "metaBoundBox" : [-2.5, -2.5, 2.5, 2.5],
+
+          "blockedSensors" : [ [1.5, -5.6], [1.5, -5.1], [1.5, -4.6] ],
+          "fallSensors" : [ [0.5, -2.5], [0.5, -3.5], [0.5, -4.5], [2.0, -2.5], [2.0, -3.5], [2.0, -4.5] ],
+
+          "touchDamage" : {
+            "poly" : [ [-3.5, -2.6], [3.5, -2.6], [3.5, 3.5], [-4, 3.5] ],
+            "damage" : 15,
+
+            "teamType" : "enemy",
+            "damageSourceKind" : "default",
+            "statusEffects" : [ ]
+          },
+
+          "inateStatusEffects" : [
+            {
+              "kind" : "Protection",
+              "amount" : 1.0
+            }
+          ],
+
+          "statusParameters" : {
+            "baseMaxHealth" : 200,
+            "damageConfig" : "/damage/damageresponse/groundnpc.config",
+            "bodyMaterialKind" : "organic"
+          },
+
+          "mouthOffset" : [0, 0],
+          "feetOffset" : [0, -21]
+        } ]
+    ]
+  ],
+
+  "partParameterDescription" : {
+    "weightMultiplier" : [ "multiply", 1.0],
+    "walkMultiplier" : [ "multiply", 0.8],
+    "runMultiplier" : [ "multiply", 0.8],
+    "jumpMultiplier" : [ "multiply", 1.0],
+
+    "idleNoise" : [ "merge", [ ] ],
+    "turnHostileNoise" : [ "merge", [ ] ],
+    "attackNoise" : [ "merge", [ ] ],
+    "painNoise" : [ "merge", [ ] ],
+    "deathNoise" : [ "merge", [ ] ],
+
+    "projectileSourcePosition" : [ "override", [0.0, 0.0] ]
+  }
+}

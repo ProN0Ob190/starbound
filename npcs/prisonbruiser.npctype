@@ -1,0 +1,110 @@
+{
+  "type" : "prisonbruiser",
+  "baseType" : "guard",
+
+  "disableWornArmor" : true,
+  "inateStatusEffects" : [
+    {
+      "kind" : "Protection",
+      "amount" : 1.0
+    }
+  ],
+
+  "damageTeam" : 2,
+
+  "levelVariance" : [0.5, 0.5],
+
+  "scripts" : [
+    "/npcs/main.lua",
+    "/npcs/timers.lua",
+    "/scripts/sensors.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua",
+
+    "/npcs/meleeAttackState.lua",
+    "/npcs/rangedAttackState.lua",
+
+    "/npcs/guard/guardState.lua",
+    "/npcs/guard/returnToPostState.lua"
+  ],
+
+  "scriptConfig" : {
+    "attackerLimit" : 8,
+    "attackerLimitCooldown" : 3,
+    "noticePlayersRadius" : 30,
+
+    "guard" : {
+      "patrolDistance" : 4,
+      "noticeDistance" : 30,
+      "hailDistance" : -1,
+      "stopDistance" : -1,
+      "attackDistance" : 30,
+      "changeDirectionTimeRange" : [5, 10],
+
+      "attackSayingPercent" : 25,
+
+      "dialog" : {
+        "attack" : {
+          "default" : [ "Intruder!"
+          ],
+          "human" : {
+            "default" : [
+              "Fresh meat!",
+              "I'm gonna enjoy this!",
+              "Oi! Get over 'ere.",
+              "Yer' cruisin' for a bruisin'!",
+              "I'm going to stab you, then I'm going to punch you!",
+              "Pointy end towards enemy... right, that's you!",
+              "Drop yer weapons and we'll brutalize you slightly less!",
+              "You've messed with the wrong biped!",
+              "There's no escaping, stranger!",
+              "Get closer so I can punch you!",
+              "Why can't I hold more smashy sticks?",
+              "Grr! You're dead meat!",
+              "I hate strangers!",
+              "We're gonna fry you up!",
+              "C'mere!"
+            ]
+          }
+        }
+      }
+    },
+
+    "returnToPost" : {
+      "moveTime" : 20,
+      "minDistance" : 2
+    },
+
+    "meleeAttack" : {
+      "swingDistance" : 5,
+      "runThreshold" : 0
+    }
+  },
+
+  "items" : {
+    "human" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "jumpsuitchest", "data" : { "colorIndex" : 5 } }, { "name" : "workoutchest", "data" : { "colorIndex" : 1 } }, { "name" : "workoutchest", "data" : { "colorIndex" : 3 } } ],
+            "legs" : [ { "name" : "jumpsuitlegs", "data" : { "colorIndex" : 5 } } ],
+            "primary" : [
+			  [ "generatedsword", 1, { "definition" : "steelchair" } ]
+            ]
+          }
+        ] ]
+    ]
+  },
+
+  "dropPools" : [ "prisonbruisertreasure" ],
+
+  "statusParameters" : {
+    "baseMaxHealth" : 40,
+    "baseMaxEnergy" : 40,
+    "bodyMaterialKind" : "organic",
+    "damageConfig" : "/damage/damageresponse/npcs.config",
+    "invulnerabilityTime" : 0,
+    "energyReplenishmentRate" : 10.0
+  }
+}
+

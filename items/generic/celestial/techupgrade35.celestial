@@ -1,0 +1,15 @@
+{
+  "itemName" : "techupgrade35",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "techupgrade.png",
+  "image" : "techupgrade.png",
+
+  "shortdescription" : "Cerulium Tech Upgrade",
+  "description" : "Unlocks the ability to work with Violium, an alloy made of Cerulium and coal.",
+
+  // Remember you can override this with parameters, no need for more than one
+  // unlock item
+  "sectorUnlock" : "sectorx",
+  "tierRecipesUnlock" : "level35",
+  "unlockMessage" : ""
+}

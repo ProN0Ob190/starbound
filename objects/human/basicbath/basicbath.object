@@ -1,0 +1,30 @@
+{
+  "objectName" : "basicbath",
+  "rarity" : "Common",
+  "shortdescription" : "Basic Bath",
+  "race" : "human",
+  "category" : "decorative",
+  "price" : 650,
+
+  "apexDescription" : "A cute little bath. Looks pretty small for an Apex.",
+  "avianDescription" : "A bath with a shower. Like water off an Avian's back.",
+  "floranDescription" : "Big bucket good for ssstoring blood.",
+  "glitchDescription" : "Smug. Glitch do not need to take baths.",
+  "humanDescription" : "A nice hot bath. Just what the doctor ordered. Only things missing are some candles and an Enya .",
+  "hylotlDescription" : "A trough in which humans wash. We Hylotl simply go for a swim.",
+
+  "inventoryIcon" : "basicbathicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "basicbath.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

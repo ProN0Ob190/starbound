@@ -1,0 +1,9 @@
+{
+  "name" : "squatbirdhead",
+  "category" : "smallflying_organic",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "squatbirdhead.png"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "objectName" : "dreidel",
+  "rarity" : "Uncommon",
+  "description" : "A four-sided spinning top. There are curious symbols on each side.",
+  "shortdescription" : "Dreidel",
+  "race" : "generic",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 200,
+
+  "apexDescription" : "A cute spinning top.",
+  "avianDescription" : "This spinning toy is pretty fun.",
+  "floranDescription" : "Ssspinny toy!",
+  "glitchDescription" : "Joy. A spinning top.",
+  "humanDescription" : "Cool, a dreidel.",
+  "hylotlDescription" : "This crude spinning top somehow fills me with joy.",
+
+  "inventoryIcon" : "dreidelicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "dreidel.png:<color>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

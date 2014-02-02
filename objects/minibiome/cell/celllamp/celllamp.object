@@ -1,0 +1,31 @@
+{
+  "objectName" : "celllamp",
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A tall lamp, with each light linked to another.",
+  "shortdescription" : "Cell Lamp",
+  "race" : "generic",
+  "category" : "light",
+  "price" : 600,
+  "lightColor" : [217, 217, 217],
+
+  "apexDescription" : "A fancy design.",
+  "avianDescription" : "Looks like something a Hylotl would make and call 'art'.",
+  "floranDescription" : "Zig-zaggy blob lamp.",
+  "glitchDescription" : "Statement. Round, colourful and bright, like my optics.",
+  "humanDescription" : "It looks a little unsteady. One nudge and it would fall over.",
+  "hylotlDescription" : "Ah! It reminds me of bubbles, floating up to the surface.",
+
+  "inventoryIcon" : "celllampicon.png",
+  "orientations" : [
+    {
+      "image" : "celllamp.png:<color>.<frame>",
+      "imagePosition" : [-7, 0],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

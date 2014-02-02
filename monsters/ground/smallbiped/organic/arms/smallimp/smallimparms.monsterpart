@@ -1,0 +1,14 @@
+{
+  "name" : "smallimparms",
+  "category" : "smallbiped_organic",
+  "type" : "arms",
+
+  "frames" : {
+    "frontArm" : "smallimpfarm.png",
+    "backArm" : "smallimpbarm.png"
+  },
+
+  "parameters" : {
+    "skills" : [ "gravitySlamAttack" ]
+  }
+}

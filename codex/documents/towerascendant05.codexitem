@@ -1,0 +1,10 @@
+{
+  "codexId" : "towerascendant05",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "aviantowerbook_05.png",
+  "itemName" : "towerascendant05Codex",
+  "rarity" : "common",
+  "description" : "The Ascendant's Tale #5",
+  "shortdescription" : "Ascendant's Tale"
+}

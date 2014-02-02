@@ -1,0 +1,83 @@
+{
+  "objectName" : "wildneonmelonseed",
+  "rarity" : "Common",
+  "description" : "A glowing neon melon. Tastes like bubblegum.",
+  "category" : "farmable",
+  "shortdescription" : "Neon Melon Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "objectItem" : "neonmelonseed",
+
+  "apexDescription" : "Juicy, tasty melon. Goes well with banana.",
+  "avianDescription" : "A juicy melon, filled with delicious glowing seeds.",
+  "floranDescription" : "Floran sssmash melon, make sssquelch. Also eat.",
+  "glitchDescription" : "Content. This delicious melon glows invitingly.",
+  "humanDescription" : "You could eat these, or decorate your room with them. I'm going for the first option.",
+  "hylotlDescription" : "An overly sweet melon. It's pretty to look at, though.",
+
+  "inventoryIcon" : "neonmelonseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "neonmelonseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "neonmelon",
+            "count" : 1
+          },
+          {
+            "name" : "neonmelonseed",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "neonmelon",
+            "count" : 1
+          },
+          {
+            "name" : "plantfibre",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "neonmelon",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [2820, 2940],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [2820, 2940],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

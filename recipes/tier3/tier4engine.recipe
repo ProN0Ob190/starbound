@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 5 },
+    { "item" : "dragonbone", "count" : 1 },
+    { "item" : "money", "count" : 1000 }
+  ],
+  "output" : {
+    "item" : "tier4engine",
+    "count" : 1
+  },
+  "groups" : [ "roboticcraftingtable", "all", "tools" ]
+}

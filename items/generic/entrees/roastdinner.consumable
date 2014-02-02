@@ -1,0 +1,24 @@
+{
+  "itemName" : "roastdinner",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "roastdinner.png",
+  "description" : "A roast fit for an omnipotent primate overlord.",
+  "shortdescription" : "Roast Dinner",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 100
+      },
+      {
+        "kind" : "mollyhealing3" },
+      {
+        "kind" : "energy",
+        "amount" : 25
+      },
+      {
+        "kind" : "doping",
+        "amount" : 20
+      }
+    ] ]
+}

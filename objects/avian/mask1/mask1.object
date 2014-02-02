@@ -1,0 +1,31 @@
+{
+  "objectName" : "mask1",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 800,
+
+  "description" : "This guy looks surprised to see me!",
+  "shortdescription" : "Decorative Human Mask",
+  "race" : "avian",
+
+  "apexDescription" : "It looks like a Human mask.",
+  "avianDescription" : "This mask is a warning to humans.",
+  "floranDescription" : "Birdmen make human look ssstupid.",
+  "glitchDescription" : "Identification. Likely this mask is supposed to be a Human.",
+  "humanDescription" : "Is that... a human?",
+  "hylotlDescription" : "This Human mask is not very accurate.",
+
+  "inventoryIcon" : "mask1icon.png",
+  "orientations" : [
+    {
+      "image" : "mask1.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

@@ -1,0 +1,445 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "movement" : {
+        "priority" : 0,
+        "default" : "idle",
+        "states" : {
+          "open" : {
+            "frames" : 5,
+            "mode" : "transition",
+            "transition" : "idle"
+          },
+          "idle" : {
+            "frames" : 8,
+            "mode" : "loop"
+          },
+          "move" : {
+            "frames" : 8,
+            "mode" : "loop"
+          },
+          "attack" : {
+            "frames" : 8,
+            "mode" : "transition",
+            "transition" : "idle"
+          },
+          "invisible" : {
+            "frames" : 1
+          }
+        }
+      },
+      "portrait" : {
+        "priority" : -1,
+        "default" : "portrait",
+        "states" : {
+          "portrait" : {
+            "frames" : 1
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "body" : {
+        "properties" : {
+          "zLevel" : 0
+        },
+
+        "partStates" : {
+          "movement" : {
+            "open" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              }
+            },
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              }
+            },
+            "move" : {
+              "properties" : {
+                "image" : "<partImage>:move.<frame>"
+              }
+            },
+            "attack" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              }
+            },
+            "invisible" : {
+              "properties" : {
+                "image" : "<partImage>:idle?addmask=/monsters/unique/penguinTank/blank.png"
+              }
+            }
+          }
+        }
+      },
+
+      "pilot" : {
+        "properties" : {
+          "zLevel" : 4
+        },
+
+        "partStates" : {
+          "movement" : {
+            "open" : {
+              "properties" : {
+                "image" : "<partImage>:open.<frame>"
+              }
+            },
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:move.<frame>"
+              }
+            },
+            "move" : {
+              "properties" : {
+                "image" : "<partImage>:move.<frame>"
+              },
+              "frameProperties" : {
+                "move" : [ [0.0, 0.125], [0.0, 0.0], [0.0, -0.125], [0.0, 0.0], [0.0, 0.125], [0.0, 0.0], [0.0, -0.125], [0.0, 0.0] ]
+              }
+            },
+            "attack" : {
+              "properties" : {
+                "image" : "<partImage>:attack.<frame>"
+              }
+            },
+            "invisible" : {
+              "properties" : {
+                "image" : "<partImage>:idle?addmask=/monsters/unique/penguinTank/blank.png"
+              }
+            }
+          },
+
+          "portrait" : {
+            "portrait" : {
+              "properties" : {
+                "image" : "<partImage>:attack.2"
+              }
+            }
+          }
+        }
+      },
+
+      "gun" : {
+        "properties" : {
+          "zLevel" : 2,
+          "rotationGroup" : "gun"
+        },
+
+        "partStates" : {
+          "movement" : {
+            "open" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              }
+            },
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              }
+            },
+            "move" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              },
+              "frameProperties" : {
+                "offset" : [ [0.0, 0.125], [0.0, 0.0], [0.0, -0.125], [0.0, 0.0], [0.0, 0.125], [0.0, 0.0], [0.0, -0.125], [0.0, 0.0] ]
+              }
+            },
+            "attack" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              },
+              "frameProperties" : {
+                "offset" : [ [-0.25, 0.0], [-0.25, 0.0], [-0.125, 0.0], [0.0, 0.0], [0.0, 0.0], [0.0, 0.0], [0.0, 0.0], [0.0, 0.0] ]
+              }
+            },
+
+            "invisible" : {
+              "properties" : {
+                "image" : "<partImage>:idle?addmask=/monsters/unique/penguinTank/blank.png"
+              }
+            }
+          }
+        }
+      },
+
+      "turret" : {
+        "properties" : {
+          "zLevel" : 3,
+          "offset" : [0.6, -0.8]
+        },
+
+        "partStates" : {
+          "movement" : {
+            "open" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              }
+            },
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              }
+            },
+            "move" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              },
+              "frameProperties" : {
+                "offset" : [ [0.0, 0.125], [0.0, 0.0], [0.0, -0.125], [0.0, 0.0], [0.0, 0.125], [0.0, 0.0], [0.0, -0.125], [0.0, 0.0] ]
+              }
+            },
+            "attack" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              }
+            },
+            "invisible" : {
+              "properties" : {
+                "image" : "<partImage>:idle?addmask=/monsters/unique/penguinTank/blank.png"
+              }
+            }
+          }
+        }
+      },
+
+      "smoke" : {
+        "properties" : {
+          "zLevel" : 1
+        },
+
+        "partStates" : {
+          "movement" : {
+            "open" : {
+              "properties" : {
+                "image" : "<partImage>:move.8"
+              }
+            },
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:move.8"
+              }
+            },
+            "move" : {
+              "properties" : {
+                "image" : "<partImage>:move.<frame>"
+              }
+            },
+            "attack" : {
+              "properties" : {
+                "image" : "<partImage>:move.8"
+              }
+            },
+            "invisible" : {
+              "properties" : {
+                "image" : "<partImage>:move.8?addmask=/monsters/unique/penguinTank/blank.png"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "rotationGroups" : {
+    "gun" : {
+      "rotationCenter" : [0.5625, -0.0625],
+      "angularVelocity" : 1.5
+    }
+  },
+
+  "particleEmitters" : {
+    "deathPoof" : {
+      "particles" : [
+        {
+          "particle" : {
+            "type" : "animated",
+            "animation" : "/animations/puff2c/puff2c.animation",
+            "size" : 1,
+            "angularVelocity" : 35,
+            "fade" : 1,
+            "destructionTime" : 7,
+            "position" : [0, 0],
+            "initialVelocity" : [0, 0],
+            "finalVelocity" : [0, 0],
+            "approach" : [1, 1],
+            "timeToLive" : 0.4,
+            "layer" : "middle"
+          }
+        },
+        {
+          "particle" : {
+            "type" : "animated",
+            "animation" : "/animations/fizz1/fizz1.animation",
+            "size" : 1,
+            "angularVelocity" : 20,
+            "fade" : 1,
+            "destructionTime" : 7,
+            "position" : [0, 0],
+            "initialVelocity" : [-8, 8],
+            "finalVelocity" : [-3, -4],
+            "approach" : [15, 15],
+            "timeToLive" : 3.45,
+            "layer" : "middle",
+            "variance" : {
+              "initialVelocity" : [-4, 2],
+              "finalVelocity" : [-3, -4]
+            }
+          }
+        },
+        {
+          "particle" : {
+            "type" : "animated",
+            "animation" : "/animations/fizz1/fizz1.animation",
+            "size" : 1,
+            "angularVelocity" : 20,
+            "fade" : 1,
+            "destructionTime" : 7,
+            "position" : [0, 0],
+            "initialVelocity" : [8, 8],
+            "finalVelocity" : [3, -4],
+            "approach" : [15, 15],
+            "timeToLive" : 3.45,
+            "layer" : "middle",
+            "variance" : {
+              "initialVelocity" : [4, 2],
+              "finalVelocity" : [3, -4]
+            }
+          }
+        },
+        {
+          "particle" : {
+            "type" : "animated",
+            "animation" : "/animations/fizz2/fizz2.animation",
+            "size" : 1,
+            "angularVelocity" : 20,
+            "fade" : 1,
+            "destructionTime" : 7,
+            "position" : [0, 0],
+            "initialVelocity" : [-8, 8],
+            "finalVelocity" : [-3, -4],
+            "approach" : [15, 15],
+            "timeToLive" : 3.45,
+            "layer" : "middle",
+            "variance" : {
+              "initialVelocity" : [-4, 2],
+              "finalVelocity" : [-3, -4]
+            }
+          }
+        },
+        {
+          "particle" : {
+            "type" : "animated",
+            "animation" : "/animations/fizz2/fizz2.animation",
+            "size" : 1,
+            "angularVelocity" : 20,
+            "fade" : 1,
+            "destructionTime" : 7,
+            "position" : [0, 0],
+            "initialVelocity" : [8, 8],
+            "finalVelocity" : [3, -4],
+            "approach" : [15, 15],
+            "timeToLive" : 3.45,
+            "layer" : "middle",
+            "variance" : {
+              "initialVelocity" : [4, 2],
+              "finalVelocity" : [3, -4]
+            }
+          }
+        },
+        {
+          "particle" : {
+            "type" : "animated",
+            "animation" : "/animations/fizz3/fizz3.animation",
+            "size" : 1,
+            "angularVelocity" : 20,
+            "fade" : 1,
+            "destructionTime" : 7,
+            "position" : [0, 0],
+            "initialVelocity" : [-8, 8],
+            "finalVelocity" : [-3, -4],
+            "approach" : [15, 15],
+            "timeToLive" : 3.45,
+            "layer" : "middle",
+            "variance" : {
+              "initialVelocity" : [-4, 2],
+              "finalVelocity" : [-3, -4]
+            }
+          }
+        },
+        {
+          "particle" : {
+            "type" : "animated",
+            "animation" : "/animations/fizz3/fizz3.animation",
+            "size" : 1,
+            "angularVelocity" : 20,
+            "fade" : 1,
+            "destructionTime" : 7,
+            "position" : [0, 0],
+            "initialVelocity" : [8, 8],
+            "finalVelocity" : [3, -4],
+            "approach" : [15, 15],
+            "timeToLive" : 3.45,
+            "layer" : "middle",
+            "variance" : {
+              "initialVelocity" : [4, 2],
+              "finalVelocity" : [3, -4]
+            }
+          }
+        },
+        {
+          "particle" : {
+            "type" : "animated",
+            "animation" : "/animations/fizz4/fizz4.animation",
+            "size" : 1,
+            "angularVelocity" : 20,
+            "fade" : 1,
+            "destructionTime" : 7,
+            "position" : [0, 0],
+            "initialVelocity" : [-8, 8],
+            "finalVelocity" : [-3, -4],
+            "approach" : [15, 15],
+            "timeToLive" : 3.45,
+            "layer" : "middle",
+            "variance" : {
+              "initialVelocity" : [-4, 2],
+              "finalVelocity" : [-3, -4]
+            }
+          }
+        },
+        {
+          "particle" : {
+            "type" : "animated",
+            "animation" : "/animations/fizz4/fizz4.animation",
+            "size" : 1,
+            "angularVelocity" : 20,
+            "fade" : 1,
+            "destructionTime" : 7,
+            "position" : [0, 0],
+            "initialVelocity" : [8, 8],
+            "finalVelocity" : [3, -4],
+            "approach" : [15, 15],
+            "timeToLive" : 3.45,
+            "layer" : "middle",
+            "variance" : {
+              "initialVelocity" : [4, 2],
+              "finalVelocity" : [3, -4]
+            }
+          }
+        }
+      ]
+    }
+  },
+
+  "effects" : {
+    "blink" : {
+      "type" : "flash",
+      "time" : 0.25,
+      "directives" : "fade=ffffff;0.5"
+    }
+  }
+}

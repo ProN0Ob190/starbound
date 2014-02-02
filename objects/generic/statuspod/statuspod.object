@@ -1,0 +1,74 @@
+{
+  "objectName" : "statuspod",
+  "rarity" : "Common",
+  "objectType" : "wire",
+
+  "category" : "--todo--",
+  "price" : 0,
+  "description" : "A status pod. Take your chances...",
+  "shortdescription" : "Status Pod",
+  "race" : "generic",
+
+  "apexDescription" : "A status pod. Will I be lucky?",
+  "avianDescription" : "A status pod. I hope I get lucky.",
+  "floranDescription" : "Floran trigger little pot with reckless abandon.",
+  "glitchDescription" : "Analysis. This statu's pods effects are unable to be analysed.",
+  "humanDescription" : "Ooh, a lucky dip!",
+  "hylotlDescription" : "I bet something bad happens.",
+
+  "inventoryIcon" : "statuspodicon.png",
+  "lightColor" : [120, 120, 120],
+
+  "orientations" : [
+    {
+      "dualImage" : "statuspod.png:default",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/tis1/tis1.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/generic/statuspod/statuspod.animation",
+  "animationParts" : {
+    "tis1" : "statuspod.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "useSounds" : [ "/sfx/objects/bardoor_open.wav" ],
+
+  "inboundNodes" : [ ],
+  "outboundNodes" : [ ],
+
+  "breakDropOptions" : [ ],
+
+  "projectileOptions" : [
+    {
+      "projectileType" : "healingstatusprojectile",
+      "projectileParams" : { }
+    },
+    {
+      "projectileType" : "burningstatusprojectile",
+      "projectileParams" : { }
+    },
+    {
+      "projectileType" : "poisonstatusprojectile",
+      "projectileParams" : { }
+    },
+    {
+      "projectileType" : "runstatusprojectile",
+      "projectileParams" : { }
+    },
+    {
+      "projectileType" : "jumpstatusprojectile",
+      "projectileParams" : { }
+    },
+    {
+      "projectileType" : "glowstatusprojectile",
+      "projectileParams" : { }
+    }
+  ]
+}

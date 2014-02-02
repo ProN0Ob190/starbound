@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "fence",
+    "count" : 1
+  },
+  "groups" : [ "craftingtable", "materials", "all" ]
+}

@@ -1,0 +1,31 @@
+{
+  "objectName" : "hylotlmailbox",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 500,
+
+  "description" : "A blue mailbox.",
+  "shortdescription" : "Mailbox",
+  "race" : "hylotl",
+
+  "apexDescription" : "It's a mailbox.",
+  "avianDescription" : "A box for sending letters.",
+  "floranDescription" : "Floran not send letters.",
+  "glitchDescription" : "Indifferent. A dropbox for mail.",
+  "humanDescription" : "It's a mailbox.",
+  "hylotlDescription" : "It's only a mailbox.",
+
+  "inventoryIcon" : "hylotlmailboxicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "hylotlmailbox.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

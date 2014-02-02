@@ -1,0 +1,36 @@
+{
+  "objectName" : "apexwoodenchair",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 400,
+  "description" : "A standard issue wooden dining chair.",
+  "shortdescription" : "Standard Wooden Chair",
+  "race" : "apex",
+
+  "apexDescription" : "These simple chairs are produced by Miniknog prisoners. I once found 'Help Us' etched into a chair frame.",
+  "avianDescription" : "The legs on this chair wobble.",
+  "floranDescription" : "Floran craft better chair, massterful craftsmen.",
+  "glitchDescription" : "Obsessive compulsion. One chair leg is three millimetres longer than the others.",
+  "humanDescription" : "An uncomfortable wobbly chair.",
+  "hylotlDescription" : "A labour of love this was not.",
+
+  "inventoryIcon" : "apexwoodenchairicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "apexwoodenchair.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "interactable",
+  "interactAction" : "sitdown",
+  "sitFlipDirection" : false,
+  "sitPosition" : [1, 22]
+
+}

@@ -1,0 +1,43 @@
+{
+  "objectName" : "castlehiddentrapdoor",
+  "rarity" : "Common",
+  "objectType" : "wire",
+
+  "category" : "door",
+  "price" : 1000,
+  "description" : "Something isn't quite right with these bricks.",
+  "shortdescription" : "Glitch Hidden Trapdoor",
+  "race" : "glitch",
+
+  "apexDescription" : "Some of these bricks are misplaced.",
+  "avianDescription" : "These bricks don't look real.",
+  "floranDescription" : "Brickss ssmell different to other brickss.",
+  "glitchDescription" : "Scanning. Something is hidden here.",
+  "humanDescription" : "These bricks have an unnatural shine.",
+  "hylotlDescription" : "Something about the way these bricks are crafted is odd.",
+
+  //Not sure how to get animation working properly.
+
+  "inventoryIcon" : "castlehiddentrapdooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "castlehiddentrapdoor.png:default",
+      "imagePosition" : [-20, -8],
+
+      "spaces" : [ [-2, -1], [-1, -1], [0, -1], [1, -1], [2, -1], [-2, 0], [-1, 0], [0, 0], [1, 0], [2, 0], [-2, 1], [-1, 1], [0, 1], [1, 1], [2, 1] ],
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationParts" : {
+    "door" : "castlehiddentrapdoor.png"
+  },
+  "animationPosition" : [-20, -8],
+
+  "inboundNodes" : [ [-1, 4] ],
+  "outboundNodes" : [ [1, 0] ]
+}

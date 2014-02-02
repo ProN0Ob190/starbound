@@ -1,0 +1,83 @@
+{
+  "objectName" : "wilddirturchinseed",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Dirturchin! Squidgy and kind of tasteless.",
+  "shortdescription" : "Dirturchin Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "objectItem" : "dirturchinseed",
+
+  "apexDescription" : "A cheap, easy, common vegetable.",
+  "avianDescription" : "When there's nothing better to eat, dirturchins will do.",
+  "floranDescription" : "Sssquishy, looksss like Floran baby.",
+  "glitchDescription" : "Disinterest. A boring, common plant.",
+  "humanDescription" : "It's been statistically proven that ninety three percent of humans have a phobia of dirturchins.",
+  "hylotlDescription" : "Why would anyone eat this? It has no taste. Many underwater plants look similar, but taste so much better.",
+
+  "inventoryIcon" : "dirturchinseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "dirturchinseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "dirturchin",
+            "count" : 1
+          },
+          {
+            "name" : "dirturchinseed",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "dirturchin",
+            "count" : 1
+          },
+          {
+            "name" : "plantfibre",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "dirturchin",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [300, 420],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [300, 420],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

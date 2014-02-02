@@ -1,0 +1,10 @@
+{
+  "codexId" : "helldrysap01",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "floranhellbook_10.png",
+  "itemName" : "helldrysap01Codex",
+  "rarity" : "common",
+  "description" : "Notes on Drysap #1",
+  "shortdescription" : "Drysap"
+}

@@ -1,0 +1,50 @@
+{
+  "itemName" : "slapfish",
+  "inventoryIcon" : "fishicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Wet smack.",
+  "shortdescription" : "Fish slap.",
+
+  "image" : "fish.png",
+  "firePosition" : [28, 8],
+  "fireTime" : 0.5,
+  "fireAfterWindup" : true,
+
+
+  "primaryStances" : {
+    "projectileType" : "testsideswoosh",
+    "projectile" : {
+      "speed" : 0.01,
+      "power" : 30
+    },
+    "idle" : {
+      "twoHanded" : false,
+      "armAngle" : 999,
+      "swordAngle" : 999,
+      "handPosition" : [-10, -1],
+      "duration" : 0.1
+    },
+    "windup" : {
+      "twoHanded" : false,
+      "armAngle" : -1,
+      "swordAngle" : -1,
+      "handPosition" : [-10, -1],
+      "duration" : 0.1,
+      "statusEffects" : [
+        { "kind" : "shieldsuppressed", "duration" : 0.1 }
+      ]
+    },
+    "cooldown" : {
+      "twoHanded" : false,
+      "armAngle" : 90,
+      "swordAngle" : 90,
+      "handPosition" : [-10, -1],
+      "duration" : 0.4,
+      "statusEffects" : [
+        { "kind" : "shieldsuppressed", "duration" : 0.1 }
+      ]
+    }
+  }
+}

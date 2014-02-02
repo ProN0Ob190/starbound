@@ -1,0 +1,7 @@
+{
+  "itemName" : "processor",
+  "rarity" : "rare",
+  "inventoryIcon" : "processor.png",
+  "description" : "A very powerful processor.",
+  "shortdescription" : "Processor"
+}

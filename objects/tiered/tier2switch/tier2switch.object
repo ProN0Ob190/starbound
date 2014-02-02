@@ -1,0 +1,35 @@
+{
+  "objectName" : "tier2switch",
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "wire",
+  "price" : 100,
+
+  "description" : "A robust steel lever. Demands to be pulled.",
+  "shortdescription" : "Steel Lever",
+  "race" : "generic",
+
+  "apexDescription" : "This lever can be used for many things.",
+  "avianDescription" : "A useful lever.",
+  "floranDescription" : "Floran pull lever. Make thingsss happen!",
+  "glitchDescription" : "Impressed. A simple lever can control so many different mechanisms.",
+  "humanDescription" : "A lever. It's just gotta be pulled.",
+  "hylotlDescription" : "A lever.",
+
+  "inventoryIcon" : "tier2switchicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "tier2switch.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+
+      "script" : "/objects/scripts/switch.lua",
+      "outboundNodesLocation" : [0, 0]
+
+    }
+  ]
+}

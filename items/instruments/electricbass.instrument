@@ -1,0 +1,19 @@
+{
+  "itemName" : "electricbass",
+  "inventoryIcon" : "electricbassguitaricon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "An electric bass guitar. Lay down some rhythm.",
+  "shortdescription" : "Electric Bass Guitar",
+  "largeImage" : "electricbassguitar.png",
+  "image" : "electricbassguitar.png",
+  "inspectionKind" : "tool",
+  "activeImage" : "electricbassguitar.png",
+  "activeAngle" : -20,
+  "activeHandPosition" : [0.1, 0.1],
+
+  "handPosition" : [0, 0],
+  "twoHanded" : true,
+  "kind" : "electricbass"
+}

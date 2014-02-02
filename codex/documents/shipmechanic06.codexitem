@@ -1,0 +1,10 @@
+{
+  "codexId" : "shipmechanic06",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "avianairshipbook_07.png",
+  "itemName" : "shipmechanic06Codex",
+  "rarity" : "common",
+  "description" : "Journal of a Mechanic #6",
+  "shortdescription" : "Mechanic's Journal"
+}

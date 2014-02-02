@@ -1,0 +1,8 @@
+{
+  "name" : "warm",
+  "icon" : [ ],
+  "kind" : "statuseffect",
+  "statusEffects" : [
+    { "kind" : "coldprotection", "amount" : 1 }
+  ]
+}

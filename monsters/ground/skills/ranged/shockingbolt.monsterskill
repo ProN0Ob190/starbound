@@ -1,0 +1,11 @@
+{
+  "name" : "shockingbolt",
+  "label" : "SHOCKING BOLT",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "scripts" : [ "/monsters/ground/rangedAttack.lua" ],
+    "shooterProjectile" : [ "lightning" ],
+    "shooterSkillName" : "shockingbolt"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "objectName" : "hylotlcaptainschair",
+  "rarity" : "Common",
+  "objectType" : "interactable",
+
+  "description" : "ENGAGE!",
+  "shortdescription" : "Captain's Chair",
+  "race" : "hylotl",
+  "category" : "furniture",
+
+  "apexDescription" : "A fairly basic captain's chair...",
+  "avianDescription" : "Not the most comfortable captain's chair I've ever seen.",
+  "floranDescription" : "Floran sssmash frogman chair easssily.",
+  "glitchDescription" : "Critical. An extremely basic captain's chair.",
+  "humanDescription" : "Uh, I think I'll stick to just about every other captain's chair ever.",
+  "hylotlDescription" : "An exquisitely comfortable captain's chair. The height of luxury.",
+
+  "inventoryIcon" : "captainschairicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "hylotlcaptainschair.png:<color>",
+
+      "imagePosition" : [-12, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "interactAction" : "openCockpitInterface",
+
+  "sitFlipDirection" : true,
+  "sitPosition" : [1, 22]
+}

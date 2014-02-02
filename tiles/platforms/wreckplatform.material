@@ -1,0 +1,14 @@
+{
+  "materialId" : 51,
+  "materialName" : "wreckplatform",
+  "platform" : true,
+  "transparent" : true,
+  "stairVariants" : 1,
+  "stairImage" : "wreckstairs.png",
+  "platformVariants" : 3,
+  "platformImage" : "wreckplatform.png",
+  "itemDrop" : "wreckplatform",
+  "shortdescription" : "Wrecked Platform",
+  "description" : "Rusty scaffolding, it doesn't look safe.",
+  "footstepSound" : "/sfx/blocks/footstep_girder.wav"
+}

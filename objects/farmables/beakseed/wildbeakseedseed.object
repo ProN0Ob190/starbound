@@ -1,0 +1,83 @@
+{
+  "objectName" : "wildbeakseedseed",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Grows crunchy beakseed. The nostril is the best part.",
+  "shortdescription" : "Beakseed Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "objectItem" : "beakseedseed",
+
+  "apexDescription" : "The beakseed is unusually crunchy, and not entirely pleasant.",
+  "avianDescription" : "There's an old urban legend about Avians eating beakseeds at a banquet...",
+  "floranDescription" : "Beakssseed crunchy, not sssquishy like other mouthsss.",
+  "glitchDescription" : "Philosophical. Does the beakseed look like a beak, or do beaks look like beakseeds?",
+  "humanDescription" : "The crop looks like an Avian face. It's a bit disconcerting.",
+  "hylotlDescription" : "Beakseeds are surprisingly tasty. One can only assume beaks are nowhere near as palatable.",
+
+  "inventoryIcon" : "beakseedseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "beakseedseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "beakseed",
+            "count" : 1
+          },
+          {
+            "name" : "beakseedseed",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "beakseed",
+            "count" : 1
+          },
+          {
+            "name" : "plantfibre",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "beakseed",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [1380, 1500],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [1380, 1500],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "itemName" : "mediummetal",
+  "rarity" : "Common",
+  "inventoryIcon" : "mediummetal.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Steel Block",
+  "description" : "A solid steel block.",
+  "glitchdescription" : "Statement. A block of steel.",
+  "florandescription" : "Sssteel.",
+
+  "materialId" : 103
+}

@@ -1,0 +1,11 @@
+{
+  "name" : "explosivephlegm",
+  "label" : "EXPLOSIVE PHLEGM",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "scripts" : [ "/monsters/ground/rangedAttack.lua" ],
+    "shooterProjectile" : [ "explosivegoo" ],
+    "shooterSkillName" : "explosivephlegm"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "objectName" : "hylotllantern1",
+  "rarity" : "Common",
+  "description" : "A paper ceiling lamp.",
+  "shortdescription" : "Traditional Paper Lantern",
+  "race" : "hylotl",
+
+  "apexDescription" : "A paper lantern doesn't seem like the best idea for an underwater species.",
+  "avianDescription" : "I wonder how often these catch fire.",
+  "floranDescription" : "Frogman lantern dangerousss to Floran. Fire!",
+  "glitchDescription" : "Critical. A paper lantern. That DEFINITELY passes health and safety.",
+  "humanDescription" : "Oh god, not the bees! Wait, it's a paper lantern. Well that's boring.",
+  "hylotlDescription" : "A hand-crafted paper lantern. Eventually, the moisture takes them, as it does to us all.",
+
+  "category" : "light",
+  "price" : 300,
+  "lightColor" : [255, 188, 51],
+
+  "inventoryIcon" : "hylotllantern1icon.png",
+  "orientations" : [
+    {
+      "image" : "hylotllantern1.png:<color>.<frame>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ]
+}

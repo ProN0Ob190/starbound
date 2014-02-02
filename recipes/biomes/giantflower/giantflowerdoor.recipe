@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "giantflowerpetal", "count" : 20 },
+    { "item" : "darkwoodmaterial", "count" : 15 },
+    { "item" : "money", "count" : 100 },
+    { "item" : "petalyellow", "count" : 5 }
+  ],
+  "output" : { "item" : "giantflowerdoor", "count" : 1 },
+  "groups" : [ "craftingtable", "door", "objects", "all" ]
+}

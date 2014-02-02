@@ -1,0 +1,32 @@
+{
+  "objectName" : "arcadesign",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 1200,
+  "lightColor" : [235, 180, 65],
+
+  "description" : "An arcade sign. There's probably an arcade here.",
+  "shortdescription" : "Arcade Sign",
+  "race" : "hylotl",
+
+  "apexDescription" : "An arcade! Is this some kind of Miniknog trap?",
+  "avianDescription" : "An arcade. Joyful!",
+  "floranDescription" : "Floran think this say; capitalism.",
+  "glitchDescription" : "Excited. An amusement arcade!",
+  "humanDescription" : "Oh boy, an arcade! Take all of my money!",
+  "hylotlDescription" : "Puerile entertainment for the brainwashed masses.",
+
+  "inventoryIcon" : "arcadesignicon.png",
+  "orientations" : [
+    {
+      "image" : "arcadesign.png:<color>.<frame>",
+      "imagePosition" : [-32, -12],
+      "frames" : 4,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

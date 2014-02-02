@@ -1,0 +1,12 @@
+{
+  "itemName" : "stonetiles",
+  "rarity" : "Common",
+  "inventoryIcon" : "stonetiles.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Fancy stone tiles for the fancy person in us all.",
+  "shortdescription" : "Stone Tiles",
+  "glitchdescription" : "Statement. Some stone tiles.",
+  "florandescription" : "Ssstones.",
+
+  "materialId" : 97
+}

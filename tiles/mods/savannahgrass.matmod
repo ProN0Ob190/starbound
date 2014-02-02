@@ -1,0 +1,9 @@
+{
+  "modId" : 14,
+  "modName" : "savannahgrass",
+  "frames" : "savannahgrass.png",
+  "variants" : 5,
+  "Description" : "Crunchy thick grass.",
+  "footstepSound" : "/sfx/blocks/footstep_tallgrass.wav",
+  "health" : 0
+}

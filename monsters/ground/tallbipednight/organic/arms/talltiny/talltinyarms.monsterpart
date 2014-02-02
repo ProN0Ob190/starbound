@@ -1,0 +1,10 @@
+{
+  "name" : "nighttalltinyarms",
+  "category" : "tallbiped_organic",
+  "type" : "arms",
+
+  "frames" : {
+    "frontArm" : "talltinyfarm.png",
+    "backArm" : "talltinybarm.png"
+  }
+}

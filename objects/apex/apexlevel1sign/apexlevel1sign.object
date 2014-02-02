@@ -1,0 +1,34 @@
+{
+  "objectName" : "apexlevel1sign",
+  "rarity" : "Common",
+  "category" : "light",
+  "lightColor" : [180, 180, 180],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 1,
+  "unlit" : true,
+  "price" : 500,
+  "description" : "Go Ape!",
+  "shortdescription" : "Apex Level 01 Sign",
+  "race" : "apex",
+
+  "apexDescription" : "I guess I'm on level one.",
+  "avianDescription" : "How many levels are there?",
+  "floranDescription" : "Can I ssskip level one?",
+  "glitchDescription" : "Nostalgic. I had an old friend that ran a facility like this.",
+  "humanDescription" : "Level one, how many levels are there?",
+  "hylotlDescription" : "One must start at the beginning.",
+
+  "inventoryIcon" : "apexlevel1signicon.png",
+  "orientations" : [
+    {
+      "image" : "apexlevel1sign.png:<color>",
+      "imagePosition" : [-16, -16],
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

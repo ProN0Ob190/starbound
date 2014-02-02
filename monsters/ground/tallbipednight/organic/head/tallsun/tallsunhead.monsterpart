@@ -1,0 +1,18 @@
+{
+  "name" : "nighttallsunhead",
+  "category" : "tallbiped_organic",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "sunhead.png"
+  },
+
+  "parameters" :
+  {
+    "idleNoise" : [ "/sfx/npc/quadruped/teethyhead_idle1.wav", "/sfx/npc/quadruped/teethyhead_idle2.wav" ],
+    "turnHostileNoise" : [ "/sfx/npc/quadruped/teethyhead_turnhostile.wav" ],
+    "attackNoise" : [ "/sfx/npc/quadruped/teethyhead_attack1.wav", "/sfx/npc/quadruped/teethyhead_attack2.wav" ],
+    "painNoise" : [ "/sfx/npc/quadruped/teethyhead_pain1.wav", "/sfx/npc/quadruped/teethyhead_pain2.wav" ],
+    "deathNoise" : [ "/sfx/npc/quadruped/teethyhead_death.wav" ]
+  }
+}

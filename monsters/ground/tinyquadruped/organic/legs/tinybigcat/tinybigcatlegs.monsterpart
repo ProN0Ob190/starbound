@@ -1,0 +1,16 @@
+{
+  "name" : "tinybigcatlegs",
+  "category" : "tinyquadruped_organic",
+  "type" : "legs",
+
+  "frames" : {
+    "frontLegs" : "tinybigcatflegs.png",
+    "backLegs" : "tinybigcatblegs.png"
+  },
+
+  "parameters" : {
+    "walkMultiplier" : 0.8,
+    "runMultiplier" : 1.1,
+    "jumpMultiplier" : 1.3
+  }
+}

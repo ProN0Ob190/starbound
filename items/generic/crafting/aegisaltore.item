@@ -1,0 +1,7 @@
+{
+  "itemName" : "aegisaltore",
+  "rarity" : "Common",
+  "inventoryIcon" : "aegisaltore.png",
+  "description" : "It's aegisalt. Can be used for smelting or repairs. Select ore and right click pickaxe.",
+  "shortdescription" : "Aegisalt Ore"
+}

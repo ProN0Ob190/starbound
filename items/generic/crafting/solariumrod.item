@@ -1,0 +1,8 @@
+{
+  "itemName" : "solariumrod",
+  "rarity" : "Rare",
+  "inventoryIcon" : "solariumrod.png",
+  "description" : "It's a solarium rod.",
+  "shortdescription" : "Solarium Rod",
+  "fuelAmount" : 8
+}

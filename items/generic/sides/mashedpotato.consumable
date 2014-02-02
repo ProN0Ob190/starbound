@@ -1,0 +1,22 @@
+{
+  "itemName" : "mashedpotato",
+  "rarity" : "Common",
+  "inventoryIcon" : "mashedpotato.png",
+  "description" : "Smashing potatoes is scientifically proven to make them 500% tastier.",
+  "shortdescription" : "Mashed Potato",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 60
+      },
+      {
+        "kind" : "health",
+        "amount" : 10
+      },
+      {
+        "kind" : "energy",
+        "amount" : 10
+      }
+    ] ]
+}

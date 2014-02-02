@@ -1,0 +1,21 @@
+{
+  "itemName" : "capturepod",
+  "rarity" : "Common",
+  "inventoryIcon" : "capturepodicon.png",
+  "image" : "capturepodicon.png",
+  "shortdescription" : "Capture Pod",
+  "description" : "Throw it at a small grounded monster below 50% health. Maybe you'll get lucky.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "capturepod",
+  "projectileConfig" : {
+    "speed" : 30,
+    "level" : 7
+  }
+}
+

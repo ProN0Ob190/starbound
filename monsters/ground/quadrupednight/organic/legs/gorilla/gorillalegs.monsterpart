@@ -1,0 +1,16 @@
+{
+  "name" : "nightgorillalegs",
+  "category" : "quadruped_organic",
+  "type" : "legs",
+
+  "frames" : {
+    "frontLegs" : "gorillaflegs.png",
+    "backLegs" : "gorillablegs.png"
+  },
+
+  "parameters" : {
+    "walkMultiplier" : 1.0,
+    "runMultiplier" : 1.0,
+    "jumpMultiplier" : 1.3
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "objectName" : "wildchiliseed",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Hot, hot, hot fiesta!! Looks dangerous for anyone but the humans.",
+  "shortdescription" : "Chili Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "objectItem" : "chiliseed",
+
+  "apexDescription" : "Painting chilis yellow is a popular prank amongst young Apex. If caught, many wouldn't survive to do it again.",
+  "avianDescription" : "Spicy plant. Exotic.",
+  "floranDescription" : "Burny, spicy fruitsss. Plant hurt flesh mouthsss.",
+  "glitchDescription" : "Ponderous. Who would choose to eat a food that hurts them?",
+  "humanDescription" : "Chilis are spicy, but so addictive.",
+  "hylotlDescription" : "Just the right balance of flavour to spice up any dish.",
+
+  "inventoryIcon" : "chiliseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "chiliseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "chili",
+            "count" : 1
+          },
+          {
+            "name" : "chiliseed",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "chili",
+            "count" : 1
+          },
+          {
+            "name" : "plantfibre",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "chili",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [2820, 2940],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [2820, 2940],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

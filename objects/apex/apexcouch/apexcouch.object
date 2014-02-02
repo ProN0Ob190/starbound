@@ -1,0 +1,36 @@
+{
+  "objectName" : "apexcouch",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 1300,
+  "description" : "All Apex furniture seems to have fallen victim to this tacky polka dot print.",
+  "shortdescription" : "Standard Issue Couch",
+  "race" : "apex",
+
+  "apexDescription" : "Another ugly piece of furniture forced on the innocent.",
+  "avianDescription" : "An abhorrent piece of fabric covers this chair.",
+  "floranDescription" : "Ssmells old.",
+  "glitchDescription" : "Appalled. Many design principles ignored.",
+  "humanDescription" : "This chair sucks the life out of the room.",
+  "hylotlDescription" : "A very unattractive piece of furniture.",
+
+  "inventoryIcon" : "apexcouchicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "apexcouch.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "interactable",
+  "interactAction" : "sitdown",
+  "sitFlipDirection" : false,
+  "sitPosition" : [7, 20]
+
+}

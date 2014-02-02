@@ -1,0 +1,18 @@
+{
+  "itemName" : "icecream",
+  "rarity" : "Common",
+  "inventoryIcon" : "icecream.png",
+  "description" : "I scream, you scream, we all scream for-- oh, you get the point.",
+  "shortdescription" : "Vanilla Ice Cream",
+  "handPosition" : [2, 2],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 100
+      },
+      {
+        "kind" : "mollyhealing2" },
+      {
+        "kind" : "sugarrush" }
+    ] ]
+}

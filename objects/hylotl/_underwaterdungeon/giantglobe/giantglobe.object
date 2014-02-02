@@ -1,0 +1,31 @@
+{
+  "objectName" : "giantglobe",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 500,
+
+  "description" : "A large bronze statue of the Hylotl's home planet.",
+  "shortdescription" : "Globe Statue",
+  "race" : "hylotl",
+
+  "apexDescription" : "Must be a model of the Hylotl's home planet.",
+  "avianDescription" : "A model of the Hylotl's home planet, perhaps?",
+  "floranDescription" : "Ssstupid frogman planet.",
+  "glitchDescription" : "Curious. Is it the Hylotl's home planet?",
+  "humanDescription" : "Looks like a big statue of the Hylotl's home planet.",
+  "hylotlDescription" : "Ahh, home sweet home.",
+
+  "inventoryIcon" : "giantglobeicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "giantglobe.png:<color>",
+      "imagePosition" : [-32, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

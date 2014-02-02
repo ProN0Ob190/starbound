@@ -1,0 +1,31 @@
+{
+  "objectName" : "molemanposter",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 300,
+
+  "shortdescription" : "Moleman Poster",
+  "description" : "A framed poster for cult hit, 'The Moleman Prophecy'.",
+  "race" : "hylotl",
+
+  "apexDescription" : "Is that the antagonist on the poster? Looks terrifying...",
+  "avianDescription" : "This movie looks very frightening...especially that monster on the poster.",
+  "floranDescription" : "Moleman? Is just very ssscary human.",
+  "glitchDescription" : "Fascinated. Who is the Moleman and what is their prophecy?",
+  "humanDescription" : "The Hylotl have some funny ideas about horror...",
+  "hylotlDescription" : "This may have been the most terrifying movie I've ever seen.",
+
+  "inventoryIcon" : "molemanpostericon.png",
+  "orientations" : [
+    {
+      "image" : "molemanposter.png:<color>",
+      "imagePosition" : [-12, -20],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

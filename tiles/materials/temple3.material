@@ -1,0 +1,15 @@
+{
+  "materialId" : 28,
+  "materialName" : "temple3",
+  "frames" : "temple3.png",
+  "particleColor" : [141, 131, 92, 255],
+  "variants" : 5,
+  "itemDrop" : "temple3",
+  "shortdescription" : "Small Temple Bricks",
+  "description" : "Dusty but finely crafted bricks.",
+  "glitchDescription" : "Statement. Dusty bricks.",
+  "floranDescription" : "Dusssty bricks.",
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_stone3.wav",
+  "health" : 30
+}
