@@ -37,5 +37,8 @@
   "animationPosition" : [-16, 0],
 
   "inboundNodes" : [ [-1, 4] ],
-  "outboundNodes" : [ [1, 0] ]
+  "outboundNodes" : [ [1, 0] ],
+
+  "openSounds" : [ "/sfx/objects/woodendoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/woodendoor_close.wav" ]
 }

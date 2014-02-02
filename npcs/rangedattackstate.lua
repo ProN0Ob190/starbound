@@ -1,5 +1,6 @@
 rangedAttackState = {
-  meleeRangeAttackTime = 1
+  meleeRangeAttackTime = 1,
+  notificationInterval = 2,
 }
 
 function rangedAttackState.enterWith(args)
@@ -29,7 +30,8 @@ function rangedAttackState.enterWith(args)
     searchTimer = 0,
     coverHideTimer = 0,
     coverFireTimer = entity.randomizeParameterRange("rangedAttack.coverFireTimeRange"),
-    meleeAttackTimer = 0
+    meleeAttackTimer = 0,
+    notificationTimer = 0
   }
 end
 
@@ -48,7 +50,11 @@ function rangedAttackState.update(dt, stateData)
     stateData.searchTimer = 0
     stateData.targetPosition = world.entityPosition(stateData.targetId)
 
-    sendNotification("attack", { targetId = stateData.targetId, sourceId = entity.id(), sourceDamageTeam = entity.damageTeam() })
+    stateData.notificationTimer = stateData.notificationTimer - dt
+    if stateData.notificationTimer <= 0 then
+      sendNotification("attack", { targetId = stateData.targetId, sourceId = entity.id(), sourceDamageTeam = entity.damageTeam() })
+      stateData.notificationTimer = rangedAttackState.notificationInterval
+    end
   else
     if not world.entityExists(stateData.targetId) then
       return true

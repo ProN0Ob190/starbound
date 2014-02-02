@@ -1,4 +1,6 @@
-meleeAttackState = {}
+meleeAttackState = {
+  notificationInterval = 2,
+}
 
 function meleeAttackState.inRange(targetPosition)
   local maxRange = entity.configParameter("meleeAttack.switchDistance", nil)
@@ -34,7 +36,8 @@ function meleeAttackState.enterWith(args)
     searchTimer = 0,
     swingTimer = 0,
     swingCooldownTimer = 0,
-    backoffDistance = entity.randomizeParameterRange("meleeAttack.backoffDistanceRange")
+    backoffDistance = entity.randomizeParameterRange("meleeAttack.backoffDistanceRange"),
+    notificationTimer = 0
   }
 end
 
@@ -96,7 +99,11 @@ function meleeAttackState.update(dt, stateData)
       return true
     end
 
-    sendNotification("attack", { targetId = stateData.targetId, sourceId = entity.id(), sourceDamageTeam = entity.damageTeam() })
+    stateData.notificationTimer = stateData.notificationTimer - dt
+    if stateData.notificationTimer <= 0 then
+      sendNotification("attack", { targetId = stateData.targetId, sourceId = entity.id(), sourceDamageTeam = entity.damageTeam() })
+      stateData.notificationTimer = meleeAttackState.notificationInterval
+    end
   else
     if not world.entityExists(stateData.targetId) then
       return true

@@ -136,6 +136,8 @@
 
   "headOptionAsFacialhair" : true,
   "altOptionAsFacialMask" : true,
+  "bodyColorAsFacialMaskSubColor" : true,
+  "altColorAsFacialMaskSubColor" : true,
   "genders" : [
     {
       "name" : "male",

@@ -52,11 +52,11 @@
             "chest" : [ { "name" : "glitchtier4chest", "data" : { "colorIndex" : 2 } } ],
             "legs" : [ { "name" : "glitchtier4pants", "data" : { "colorIndex" : 2 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "commonhammer" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commonspear" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commonaxe" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commonbroadsword" } }
+              { "name" : "generatedsword", "data" : { "definition" : "glitchlargemace" } },
+              { "name" : "generatedsword", "data" : { "definition" : "glitchsmallmace" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "crossbowwood" } }
             ],
             "alt" : [
               { "name" : "generatedshield", "data" : { "definition" : "glitchstrongshield" } }
@@ -70,7 +70,7 @@
     "runSpeed" : 15
   },
 
-  "dropPools" : [ "guardtreasure" ],
+  "dropPools" : [ "castleguardtreasure" ],
 
   "statusParameters" : {
     "baseMaxHealth" : 50,

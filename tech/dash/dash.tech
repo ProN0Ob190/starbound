@@ -1,6 +1,6 @@
 {
   "script" : "dash.lua",
-  "actions" : [ "dashRigh", "dashLeft" ],
+  "actions" : [ "dashRight", "dashLeft" ],
   "animator" : "dash.animation",
 
   "maximumDoubleTapTime" : 0.2,

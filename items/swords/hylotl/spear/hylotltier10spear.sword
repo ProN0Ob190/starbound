@@ -13,7 +13,7 @@
   "firePosition" : [32.5, -8.5],
   "fireTime" : 0.8,
   "fireAfterWindup" : true,
-  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/thrust_spear.wav" } ] },
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_spear.wav" } ] },
 
   "colorOptions" : [
     /* BLACK */

@@ -41,6 +41,6 @@
   "inboundNodes" : [ [-1, 4] ],
   "outboundNodes" : [ [1, 0] ],
 
-  "openSounds" : [ "/sfx/objects/woodendoor_open.wav" ],
-  "closeSounds" : [ "/sfx/objects/woodendoor_close.wav" ]
+  "openSounds" : [ "/sfx/objects/bardoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/bardoor_close.wav" ]
 }

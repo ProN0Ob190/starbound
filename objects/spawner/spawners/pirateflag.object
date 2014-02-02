@@ -2,19 +2,19 @@
   "objectName" : "pirateflag",
   "rarity" : "Common",
   "objectType" : "wire",
-  "description" : "todo",
-  "shortdescription" : "todo",
+  "description" : "Pirate a pirate! Sort of!",
+  "shortdescription" : "Pirate Spawner",
   "race" : "human",
 
   "category" : "spawner",
   "price" : 300,
 
-  "apexDescription" : "todo",
-  "avianDescription" : "todo",
-  "floranDescription" : "todo",
-  "glitchDescription" : "todo",
-  "humanDescription" : "todo",
-  "hylotlDescription" : "todo",
+  "apexDescription" : "I've always wanted my own pirate.",
+  "avianDescription" : "This device lets me spawn a pirate. But why?",
+  "floranDescription" : "Floran sssail high seas with pirate!",
+  "glitchDescription" : "Amusement. With this, I can summon a pirate.",
+  "humanDescription" : "A pirate summoner. Awesome.",
+  "hylotlDescription" : "Ah, this lets me call upon my sea-faring chums.",
 
   "inventoryIcon" : "spawner_hylotl.png",
   "orientations" : [

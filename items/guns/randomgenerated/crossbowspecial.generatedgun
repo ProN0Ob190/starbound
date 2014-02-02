@@ -16,7 +16,7 @@
   "muzzleFlashes" : [
     "/animations/muzzleflash/blankmuzzle/blankmuzzle.animation"
   ],
-  "projectileTypes" : [ "flamebolt", "poisonbolt" ],
+  "projectileTypes" : [ "flamebolt", "icebolt", "poisonbolt" ],
   "directories" : [ "/items/guns/randomgenerated/crossbow/" ],
   "fireSound" : [ "/sfx/gun/crossbow1.wav" ],
   "palette" : [

@@ -7,8 +7,8 @@
     "config" : "/interface/windowconfig/frogmerchant.config",
     "filter" : [ "frogmerchant" ]
   },
-  "description" : "An expert craftsman could make a great... crafting table... on this.",
-  "shortdescription" : "Wooden Crafting Table",
+  "description" : "A frog merchant. What it really is, or what it wants, nobody knows.",
+  "shortdescription" : "Frog Merchant",
   "race" : "generic",
   "category" : "crafting",
   "price" : 200,
@@ -17,12 +17,12 @@
   "unbreakable" : true,
 
 
-  "apexDescription" : "A table with a bunch of tools for a craftsman.",
-  "avianDescription" : "A chance to display one's ability to create.",
-  "floranDescription" : "Floran ussse table. Make nice thingss.",
-  "glitchDescription" : "Inspired. Crafting module activated.",
-  "humanDescription" : "I can use materials I've found here to create new things.",
-  "hylotlDescription" : "A chance to create.",
+  "apexDescription" : "A silent frog merchant. Unusual.",
+  "avianDescription" : "Who is this curious merchant?",
+  "floranDescription" : "Floran ssslightly ssscared by sssilent frog.",
+  "glitchDescription" : "Concerned. This frog seems unwilling to communicate.",
+  "humanDescription" : "If I kiss it, do you think it'll turn into a prince merchant?",
+  "hylotlDescription" : "This silent creature is not one of us.",
 
   "inventoryIcon" : "frogmerchanticon.png",
   "orientations" : [
