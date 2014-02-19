@@ -12,7 +12,7 @@
 
   "damageTeam" : 1,
 
-  "levelVariance" : [0.25, 0.5],
+  "levelVariance" : [0.5, 0.8],
 
   "scripts" : [
     "/npcs/main.lua",
@@ -98,7 +98,7 @@
   "dropPools" : [ "eyeguardtreasure" ],
 
   "statusParameters" : {
-    "baseMaxHealth" : 40,
+    "baseMaxHealth" : 80,
     "baseMaxEnergy" : 40,
     "bodyMaterialKind" : "organic",
     "damageConfig" : "/damage/damageresponse/npcs.config",

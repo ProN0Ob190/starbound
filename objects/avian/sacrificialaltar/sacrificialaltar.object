@@ -14,8 +14,7 @@
   "humanDescription" : "Blood and feathers. Dark.",
   "hylotlDescription" : "Who would choose to follow a god that demands his followers sacrifice their lives?",
 
-  "objectType" : "interactable",
-  "interactAction" : "sitdown",
+  "objectType" : "loungeable",
   "sitFlipDirection" : true,
   "sitPosition" : [-8, 18],
   "sitOrientation" : "lay",

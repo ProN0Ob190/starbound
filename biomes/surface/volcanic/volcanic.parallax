@@ -72,7 +72,7 @@
       "nightCorrelation" : 0,
       "minSpeed" : 0,
       "maxSpeed" : 0,
-      "nohueshift" : 1,
+      "nohueshift" : true,
       "modifiers" : "",
       "fadePercent" : 0.04
     },
@@ -83,7 +83,7 @@
       "nightCorrelation" : 0,
       "minSpeed" : 0,
       "maxSpeed" : 0,
-      "nohueshift" : 1,
+      "nohueshift" : true,
       "modifiers" : "",
       "fadePercent" : 0.03
     },
@@ -94,7 +94,7 @@
       "nightCorrelation" : 0,
       "minSpeed" : 0,
       "maxSpeed" : 0,
-      "nohueshift" : 1,
+      "nohueshift" : true,
       "modifiers" : "",
       "fadePercent" : 0.015
     },

@@ -14,8 +14,7 @@
   "humanDescription" : "A cell bed. I can't imagine sleeping on this night after night.",
   "hylotlDescription" : "A bed built for a prisoner.",
 
-  "objectType" : "interactable",
-  "interactAction" : "sitdown",
+  "objectType" : "loungeable",
   "sitFlipDirection" : true,
   "sitPosition" : [-10, 13],
   "sitOrientation" : "lay",
@@ -23,7 +22,7 @@
   "sitEmote" : "sleep",
   "sitStatusEffects" : [
     { "kind" : "Nude" },
-    { "kind" : "Health", "amount" : 0.02 }
+    { "kind" : "Health", "amount" : 0.06 }
   ],
   "sitEffectEmitters" : [ "sleepbubbles" ],
 

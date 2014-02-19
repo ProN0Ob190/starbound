@@ -2,7 +2,6 @@
   "objectName" : "woodencookingtable",
   "printable" : false,
   "rarity" : "Common",
-  "objectType" : "interactable",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
     "config" : "/interface/windowconfig/kitchen.config",

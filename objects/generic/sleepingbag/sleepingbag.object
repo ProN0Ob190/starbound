@@ -14,8 +14,7 @@
   "humanDescription" : "A sleeping bag. Good protection against the elements in a pinch.",
   "hylotlDescription" : "Do these work underwater?",
 
-  "objectType" : "interactable",
-  "interactAction" : "sitdown",
+  "objectType" : "loungeable",
   "sitFlipDirection" : true,
   "sitPosition" : [14, 5],
   "sitOrientation" : "lay",
@@ -24,7 +23,7 @@
   "sitEmote" : "sleep",
   "sitStatusEffects" : [
     { "kind" : "Nude" },
-    { "kind" : "Health", "amount" : 0.02 }
+    { "kind" : "Health", "amount" : 0.06 }
   ],
   "sitEffectEmitters" : [ "sleepbubbles" ],
 

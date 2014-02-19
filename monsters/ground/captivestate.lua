@@ -25,21 +25,7 @@ function captiveState.update(dt, stateData)
   if hasTarget() then return true end
 
   -- Translate owner uuid to entity id
-  if self.ownerEntityId ~= nil then
-    if not world.entityExists(self.ownerEntityId) then
-      self.ownerEntityId = nil
-    end
-  end
-
-  if self.ownerEntityId == nil then
-    local playerIds = world.playerQuery(self.position, 50)
-    for _, playerId in pairs(playerIds) do
-      if world.entityUuid(playerId) == storage.ownerUuid then
-        self.ownerEntityId = playerId
-        break
-      end
-    end
-  end
+  capturepod.updateOwnerEntityId()
 
   -- Owner is nowhere around
   if self.ownerEntityId == nil then

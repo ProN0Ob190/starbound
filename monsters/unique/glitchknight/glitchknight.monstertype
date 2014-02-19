@@ -13,6 +13,7 @@
 
   "baseParameters" : {
     "scripts" : [
+      "/monsters/groundMovement.lua",
       "/monsters/unique/glitchknight/behavior.lua",
       "/scripts/stateMachine.lua",
       "/scripts/util.lua",

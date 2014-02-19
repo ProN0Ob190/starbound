@@ -11,5 +11,5 @@
   "floranDescription" : "Ssstanding up pipe.",
   "multicolored" : true,
   "footstepSound" : "/sfx/blocks/footstep_lightmetal.wav",
-  "health" : 20
+  "health" : 10
 }

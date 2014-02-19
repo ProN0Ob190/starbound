@@ -1,6 +1,5 @@
 {
   "objectName" : "ironanvil",
-  "objectType" : "interactable",
   "category" : "crafting",
   "rarity" : "Common",
   "description" : "An anvil, used for forging armour and weapons.",

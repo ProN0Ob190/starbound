@@ -15,8 +15,7 @@
   "humanDescription" : "The sickly-sweet smell of the plant doesn't help me sleep.",
   "hylotlDescription" : "Nature being adapted for other uses. Remarkable.",
 
-  "objectType" : "interactable",
-  "interactAction" : "sitdown",
+  "objectType" : "loungeable",
   "sitFlipDirection" : true,
   "sitPosition" : [-10, 13],
   "sitOrientation" : "lay",
@@ -25,7 +24,7 @@
   "sitEmote" : "sleep",
   "sitStatusEffects" : [
     { "kind" : "Nude" },
-    { "kind" : "Health", "amount" : 0.02 }
+    { "kind" : "Health", "amount" : 0.06 }
   ],
   "sitEffectEmitters" : [ "sleepbubbles" ],
 

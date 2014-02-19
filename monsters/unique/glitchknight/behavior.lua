@@ -1,5 +1,17 @@
 --------------------------------------------------------------------------------
 function init(args)
+  self.dismounted = false
+
+  local setAnimationState = function(stateName)
+    entity.setAnimationState("mount", stateName)
+
+    if self.dismounted then
+      entity.setAnimationState("rider", "dismounted")
+    else
+      entity.setAnimationState("rider", stateName)
+    end
+  end
+
   self.state = stateMachine.create({
     "chargeAttack"
   })
@@ -9,10 +21,10 @@ function init(args)
     entity.setRunning(false)
   end
 
-  self.dismounted = false
-
   entity.setAggressive(false)
   setAnimationState("idle")
+
+  self.movement = groundMovement.create(3, 4, setAnimationState)
 end
 
 --------------------------------------------------------------------------------
@@ -44,119 +56,6 @@ function damage(args)
     self.targetPosition = world.entityPosition(self.targetId)
     self.state.pickState()
   end
-end
-
---------------------------------------------------------------------------------
-function setAnimationState(stateName)
-  entity.setAnimationState("mount", stateName)
-
-  if self.dismounted then
-    entity.setAnimationState("rider", "dismounted")
-  else
-    entity.setAnimationState("rider", stateName)
-  end
-end
-
---------------------------------------------------------------------------------
-function jump(direction)
-  self.jumpDirection = direction
-  entity.jump()
-  setAnimationState("jump")
-end
-
---------------------------------------------------------------------------------
-function move(direction, traverseObstacles)
-  if not entity.onGround() and self.jumpDirection ~= nil then
-    entity.holdJump()
-
-    if self.jumpDirection < 0 then
-      entity.moveLeft()
-    else
-      entity.moveRight()
-    end
-
-    return true
-  end
-
-  local bounds = entity.configParameter("metaBoundBox")
-  local width = bounds[3] - bounds[1]
-  bounds = {
-    bounds[1] + self.position[1],
-    bounds[2] + self.position[2],
-    bounds[3] + self.position[1],
-    bounds[4] + self.position[2]
-  }
-
-  -- Jump over obstacles
-  local jumpRegion = { bounds[1], bounds[2] + 3, bounds[3], bounds[4] }
-  if direction > 0 then
-    jumpRegion[1] = jumpRegion[1] + width
-    jumpRegion[3] = jumpRegion[3] + 4
-  else
-    jumpRegion[1] = jumpRegion[1] - 4
-    jumpRegion[3] = jumpRegion[3] - width
-  end
-
-  if world.rectCollision(jumpRegion, true) then
-    local jumpClearanceRegion = {
-      bounds[1] + direction * (bounds[3] - bounds[1]),
-      bounds[2] + 3.125,
-      bounds[3] + direction * (4 + bounds[3] - bounds[1]),
-      bounds[4] + 3
-    }
-    if direction > 0 then
-      jumpClearanceRegion[1] = jumpClearanceRegion[1] + width
-      jumpClearanceRegion[3] = jumpClearanceRegion[3] + (4 + width)
-    else
-      jumpClearanceRegion[1] = jumpClearanceRegion[1] - (4 + width)
-      jumpClearanceRegion[3] = jumpClearanceRegion[3] - width
-    end
-    if not world.rectCollision(jumpClearanceRegion, true) then
-      if traverseObstacles then
-        jump(direction)
-      end
-      return traverseObstacles
-    end
-  end
-
-  -- Jump over gaps
-  local gapRegion = { bounds[1], bounds[2] - 4, bounds[3], bounds[2] }
-  if direction > 0 then
-    gapRegion[1] = gapRegion[1] + width
-    gapRegion[3] = gapRegion[3] + width / 2
-  else
-    gapRegion[1] = gapRegion[1] - width / 2
-    gapRegion[3] = gapRegion[3] - width
-  end
-
-  if not world.rectCollision(gapRegion, false) then
-    if traverseObstacles then
-      jump(direction)
-    end
-    return traverseObstacles
-  end
-
-  self.jumpDirection = nil
-
-  if not traverseObstacles then
-    local blockedRect = {
-      bounds[1] + direction, bounds[2] + 1,
-      bounds[3] + direction, bounds[4]
-    }
-    if world.rectCollision(blockedRect, true) then
-      return false
-    end
-  end
-
-  setAnimationState("run")
-  entity.setFacingDirection(direction)
-  if direction < 0 then
-    entity.moveLeft()
-  else
-    entity.moveRight()
-  end
-
-  return true
 end
 
 --------------------------------------------------------------------------------
@@ -196,7 +95,7 @@ function chargeAttack.update(dt, stateData)
   end
 
   entity.setFacingDirection(stateData.chargeDirection)
-  if not move(stateData.chargeDirection, stateData.chargeDirection == targetDirection) then
+  if not self.movement.move(self.position, stateData.chargeDirection, stateData.chargeDirection == targetDirection) then
     if stateData.changeDirectionTimer == nil then
       stateData.chargeDirection = targetDirection
       stateData.changeDirectionTimer = entity.configParameter("changeDirectionCooldown")

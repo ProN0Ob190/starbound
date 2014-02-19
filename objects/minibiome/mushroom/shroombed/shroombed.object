@@ -15,8 +15,7 @@
   "humanDescription" : "Only good for a single person, because there's not mushroom in this bed. Yeah, I went there.",
   "hylotlDescription" : "This bed gently sways, as if one is on a boat. Calming.",
 
-  "objectType" : "interactable",
-  "interactAction" : "sitdown",
+  "objectType" : "loungeable",
   "sitFlipDirection" : true,
   "sitPosition" : [-10, 16],
   "sitOrientation" : "lay",
@@ -25,7 +24,7 @@
   "sitEmote" : "sleep",
   "sitStatusEffects" : [
     { "kind" : "Nude" },
-    { "kind" : "Health", "amount" : 0.02 }
+    { "kind" : "Health", "amount" : 0.06 }
   ],
   "sitEffectEmitters" : [ "sleepbubbles" ],
 

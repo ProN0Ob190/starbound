@@ -16,7 +16,7 @@
   "muzzleFlashes" : [
     "/animations/muzzleflash/smokemuzzle/smokemuzzle.animation"
   ],
-  "projectileTypes" : [ "spikeball", "marioball", "shockbomb" ],
+  "projectileTypes" : [ "spikeball", "fireball", "shockbomb" ],
   "directories" : [ "/items/guns/randomgenerated/grenadelauncher/" ],
   "fireSound" : [ "/sfx/gun/grenade1.wav" ],
   "palette" : [

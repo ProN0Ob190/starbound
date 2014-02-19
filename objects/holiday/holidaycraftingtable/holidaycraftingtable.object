@@ -1,7 +1,6 @@
 {
   "objectName" : "holidaycraftingtable",
   "rarity" : "Uncommon",
-  "objectType" : "interactable",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
     "config" : "/interface/windowconfig/holidaycraftingtable.config",

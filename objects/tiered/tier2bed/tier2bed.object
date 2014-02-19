@@ -15,8 +15,7 @@
   "humanDescription" : "A decent bed. Should be able to get some rest here.",
   "hylotlDescription" : "It's not the best build quality, but it'll do.",
 
-  "objectType" : "interactable",
-  "interactAction" : "sitdown",
+  "objectType" : "loungeable",
   "sitFlipDirection" : true,
   "sitPosition" : [-10, 13],
   "sitOrientation" : "lay",
@@ -25,7 +24,7 @@
   "sitEmote" : "sleep",
   "sitStatusEffects" : [
     { "kind" : "Nude" },
-    { "kind" : "Health", "amount" : 0.02 }
+    { "kind" : "Health", "amount" : 0.06 }
   ],
   "sitEffectEmitters" : [ "sleepbubbles" ],
 

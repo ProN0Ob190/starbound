@@ -71,12 +71,6 @@ end
 function itemType(slot)
   local item = entity.getItemSlot(slot)
   if item ~= nil and item.name ~= "" then
-    -- Empty tables go to C++ as lists, not maps, so we need to remove the data
-    -- entry if it is empty so the cast to map doesn't fail
-    if item.data ~= nil and #item.data == 0 then
-      item.data = nil
-    end
-
     return world.itemType(item)
   end
 

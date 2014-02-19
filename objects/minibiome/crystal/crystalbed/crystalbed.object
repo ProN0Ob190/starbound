@@ -15,8 +15,7 @@
   "humanDescription" : "I bet this bed is the most valuable thing in the universe!",
   "hylotlDescription" : "This bed is reminiscent of natural coral formations underwater.",
 
-  "objectType" : "interactable",
-  "interactAction" : "sitdown",
+  "objectType" : "loungeable",
   "sitFlipDirection" : true,
   "sitPosition" : [-10, 16],
   "sitOrientation" : "lay",
@@ -24,7 +23,7 @@
   "sitEmote" : "sleep",
   "sitStatusEffects" : [
     { "kind" : "Nude" },
-    { "kind" : "Health", "amount" : 0.02 }
+    { "kind" : "Health", "amount" : 0.06 }
   ],
   "sitEffectEmitters" : [ "sleepbubbles" ],
 

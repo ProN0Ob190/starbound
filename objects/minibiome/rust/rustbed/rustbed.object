@@ -15,8 +15,7 @@
   "humanDescription" : "An old, rusty bed. Nothing remarkable.",
   "hylotlDescription" : "A crude bed. It's practically falling apart.",
 
-  "objectType" : "interactable",
-  "interactAction" : "sitdown",
+  "objectType" : "loungeable",
   "sitFlipDirection" : true,
   "sitPosition" : [-10, 13],
   "sitOrientation" : "lay",
@@ -25,7 +24,7 @@
   "sitCoverImage" : "/objects/minibiome/rust/rustbed/rustbedcover.png",
   "sitStatusEffects" : [
     { "kind" : "Nude" },
-    { "kind" : "Health", "amount" : 0.02 }
+    { "kind" : "Health", "amount" : 0.06 }
   ],
   "sitEffectEmitters" : [ "sleepbubbles" ],
 

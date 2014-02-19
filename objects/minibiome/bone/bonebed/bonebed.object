@@ -15,8 +15,7 @@
   "humanDescription" : "Maybe space vampires use this bed. Are space vampires real? I hope so!",
   "hylotlDescription" : "Something about this bed sets me on edge.",
 
-  "objectType" : "interactable",
-  "interactAction" : "sitdown",
+  "objectType" : "loungeable",
   "sitFlipDirection" : true,
   "sitPosition" : [-8, 10],
   "sitOrientation" : "lay",
@@ -25,7 +24,7 @@
   "sitEmote" : "sleep",
   "sitStatusEffects" : [
     { "kind" : "Nude" },
-    { "kind" : "Health", "amount" : 0.02 }
+    { "kind" : "Health", "amount" : 0.06 }
   ],
   "sitEffectEmitters" : [ "sleepbubbles" ],
 

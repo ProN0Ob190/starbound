@@ -1,7 +1,6 @@
 {
   "objectName" : "molemerchant",
   "rarity" : "Common",
-  "objectType" : "interactable",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
     "config" : "/interface/windowconfig/molemerchant.config",

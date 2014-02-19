@@ -1,11 +1,12 @@
 wanderState = {
   moveToTargetMinDistance = 3,
-  moveToTargetMinX = 1
+  moveToTargetMinX = 1,
+  defaultIndoorSearchRadius = 30
 }
 
 function wanderState.enter()
   return {
-    timer = entity.randomizeParameterRange("wander.timeRange"),
+    timer = entity.randomizeParameterRange("wander.timeRange", { 2, 10 }),
     direction = util.toDirection(math.random(100) - 50)
   }
 end
@@ -143,7 +144,10 @@ function wanderState.findInsidePosition(position)
     basePosition = storage.spawnPosition
   end
 
-  local doorIds = world.objectQuery(basePosition, entity.configParameter("wander.indoorSearchRadius"), { callScript = "hasCapability", callScriptArgs = { "door" }, order = "nearest" })
+  local doorIds = world.objectQuery(basePosition, entity.configParameter("wander.indoorSearchRadius", wanderState.defaultIndoorSearchRadius), {
+    callScript = "hasCapability", callScriptArgs = { "door" },
+    order = "nearest"
+  })
   for _, doorId in pairs(doorIds) do
     local doorPosition = world.entityPosition(doorId)
 
@@ -165,7 +169,10 @@ function wanderState.isDoorToOutside(doorId)
 end
 
 function wanderState.findOutsidePosition(position, maxDistanceFromSpawnPoint)
-  local entityIds = world.objectQuery(position, entity.configParameter("wander.indoorSearchRadius"), { callScript = "hasCapability", callScriptArgs = { "door" }, order = "nearest" })
+  local entityIds = world.objectQuery(position, entity.configParameter("wander.indoorSearchRadius", wanderState.defaultIndoorSearchRadius), {
+    callScript = "hasCapability", callScriptArgs = { "door" },
+    order = "nearest"
+  })
   for _, entityId in pairs(entityIds) do
     local doorPosition = world.entityPosition(entityId)
 

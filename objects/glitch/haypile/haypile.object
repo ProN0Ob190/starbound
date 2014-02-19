@@ -14,8 +14,7 @@
   "humanDescription" : "The hay looks soft and smells fresh.",
   "hylotlDescription" : "I am tempted to dive in.",
 
-  "objectType" : "interactable",
-  "interactAction" : "sitdown",
+  "objectType" : "loungeable",
   "sitFlipDirection" : true,
   "sitPosition" : [-8, 8],
   "sitOrientation" : "lay",
@@ -24,7 +23,7 @@
   "sitEmote" : "sleep",
   "sitStatusEffects" : [
     { "kind" : "Nude" },
-    { "kind" : "Health", "amount" : 0.02 }
+    { "kind" : "Health", "amount" : 0.06 }
   ],
   "sitEffectEmitters" : [ "sleepbubbles" ],
 

@@ -14,8 +14,7 @@
   "humanDescription" : "A simple bed, lacks any real charm.",
   "hylotlDescription" : "How does one close one's eyes when surrounded by such ugliness?",
 
-  "objectType" : "interactable",
-  "interactAction" : "sitdown",
+  "objectType" : "loungeable",
   "sitFlipDirection" : true,
   "sitPosition" : [-10, 16],
   "sitOrientation" : "lay",
@@ -23,7 +22,7 @@
   "sitEmote" : "sleep",
   "sitStatusEffects" : [
     { "kind" : "Nude" },
-    { "kind" : "Health", "amount" : 0.02 }
+    { "kind" : "Health", "amount" : 0.06 }
   ],
   "sitEffectEmitters" : [ "sleepbubbles" ],
 

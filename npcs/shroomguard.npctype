@@ -260,7 +260,7 @@
   "dropPools" : [ "shroomguardtreasure" ],
 
   "statusParameters" : {
-    "baseMaxHealth" : 50,
+    "baseMaxHealth" : 80,
     "baseMaxEnergy" : 40,
     "bodyMaterialKind" : "organic",
     "damageConfig" : "/damage/damageresponse/npcs.config",

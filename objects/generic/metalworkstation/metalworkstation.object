@@ -1,7 +1,6 @@
 {
   "objectName" : "metalworkstation",
   "rarity" : "Common",
-  "objectType" : "interactable",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
     "config" : "/interface/windowconfig/metalworkstation.config",

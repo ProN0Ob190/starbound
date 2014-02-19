@@ -1,7 +1,6 @@
 {
   "objectName" : "teleporter",
   "rarity" : "Common",
-  "objectType" : "interactable",
   "interactAction" : "OpenTeleportDialog",
   "description" : "Trusty teleporter, what would I do without you?",
   "shortdescription" : "Teleporter",

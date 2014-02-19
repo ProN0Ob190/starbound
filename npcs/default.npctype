@@ -32,7 +32,13 @@
 
     "wander" : {
       "timeRange" : [2.0, 10.0],
-      "chairSensorRegion" : [ [0, -1], [2, 1] ]
+      "indoorTimeOfDayRanges" : [ [0.0, 0.2], [0.5, 1.0] ],
+      "indoorSearchRadius" : 60,
+      "indoorLookaheadDistance" : 4,
+      "moveToTargetTime" : 10.0,
+      "changeDirectionCooldown" : 2,
+      "dropDownChance" : 0,
+      "cooldown" : 10
     },
 
     "sit" : {

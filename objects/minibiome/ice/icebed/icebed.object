@@ -15,8 +15,7 @@
   "humanDescription" : "This bed looks like it'd give you the cold shoulder. Haha... ha...",
   "hylotlDescription" : "A remarkably intelligent use of water.",
 
-  "objectType" : "interactable",
-  "interactAction" : "sitdown",
+  "objectType" : "loungeable",
   "sitFlipDirection" : true,
   "sitPosition" : [-10, 13],
   "sitOrientation" : "lay",
@@ -24,7 +23,7 @@
   "sitEmote" : "sleep",
   "sitStatusEffects" : [
     { "kind" : "Nude" },
-    { "kind" : "Health", "amount" : 0.02 }
+    { "kind" : "Health", "amount" : 0.06 }
   ],
   "sitEffectEmitters" : [ "sleepbubbles" ],
 

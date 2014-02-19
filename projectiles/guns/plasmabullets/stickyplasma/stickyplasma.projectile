@@ -15,6 +15,10 @@
       "type" : "shock",
       "inheritDamageFactor" : 1,
       "angle" : 5
+    },
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/gun/shockblast.wav" ]
     }
   ],
   "power" : 5.0,

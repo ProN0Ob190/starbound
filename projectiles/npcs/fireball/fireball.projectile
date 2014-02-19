@@ -1,6 +1,6 @@
 {
   "projectileName" : "fireball",
-  "physics" : "marioball",
+  "physics" : "fireball",
   "bounces" : -1,
   "level" : 3,
   "timeToLive" : 3,

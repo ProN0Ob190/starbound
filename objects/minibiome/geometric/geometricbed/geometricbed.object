@@ -15,8 +15,7 @@
   "humanDescription" : "A scary, spiky bed. I like it!",
   "hylotlDescription" : "A bed, constructed of spikes and harsh angles. Unpleasant.",
 
-  "objectType" : "interactable",
-  "interactAction" : "sitdown",
+  "objectType" : "loungeable",
   "sitFlipDirection" : true,
   "sitPosition" : [-13, 12.5],
   "sitOrientation" : "lay",
@@ -25,7 +24,7 @@
   "sitEmote" : "sleep",
   "sitStatusEffects" : [
     { "kind" : "Nude" },
-    { "kind" : "Health", "amount" : 0.02 }
+    { "kind" : "Health", "amount" : 0.06 }
   ],
   "sitEffectEmitters" : [ "sleepbubbles" ],
 

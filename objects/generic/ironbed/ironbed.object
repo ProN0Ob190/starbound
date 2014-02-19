@@ -14,8 +14,7 @@
   "humanDescription" : "I don't think I'd get much sleep on a bed like this.",
   "hylotlDescription" : "A remarkably brutal bed. Such design does not suggest comfort.",
 
-  "objectType" : "interactable",
-  "interactAction" : "sitdown",
+  "objectType" : "loungeable",
   "sitFlipDirection" : true,
   "sitPosition" : [-8, 13],
   "sitOrientation" : "lay",
@@ -24,7 +23,7 @@
   "sitEmote" : "sleep",
   "sitStatusEffects" : [
     { "kind" : "Nude" },
-    { "kind" : "Health", "amount" : 0.02 }
+    { "kind" : "Health", "amount" : 0.06 }
   ],
   "sitEffectEmitters" : [ "sleepbubbles" ],
 

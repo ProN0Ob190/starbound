@@ -30,8 +30,7 @@
   "soundEffect" : "/sfx/objects/fountain1.wav",
 
 
-  "objectType" : "interactable",
-  "interactAction" : "sitdown",
+  "objectType" : "loungeable",
   "sitFlipDirection" : false,
   "sitPosition" : [14, 24]
 

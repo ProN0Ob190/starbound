@@ -28,8 +28,7 @@
     }
   ],
 
-  "objectType" : "interactable",
-  "interactAction" : "sitdown",
+  "objectType" : "loungeable",
   "sitFlipDirection" : false,
   "sitPosition" : [5, 20]
 

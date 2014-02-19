@@ -104,6 +104,33 @@
   },
 
   "particleEmitters" : {
+    "captureParticles" : {
+      "particles" : [
+        {
+          "particle" : {
+            "type" : "animated",
+            "animation" : "/animations/energy/energy.animation",
+            "size" : 1,
+            "angularVelocity" : 35,
+            "fade" : 1,
+            "destructionTime" : 7,
+            "position" : [0, 0],
+            "initialVelocity" : [0, 0],
+            "finalVelocity" : [0, 0],
+            "approach" : [1, 1],
+            "timeToLive" : 0.4,
+            "layer" : "middle"
+          }
+        }
+      ]
+    },
+
+    "levelUp" : {
+      "particles" : [
+        { "particle" : "monsterlevelup" }
+      ]
+    },
+
     "deathPoof" : {
       "particles" : [
         {

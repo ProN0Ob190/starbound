@@ -14,8 +14,7 @@
   "humanDescription" : "An altar. Should I kneel?",
   "hylotlDescription" : "Such piety is not the way forwards.",
 
-  "objectType" : "interactable",
-  "interactAction" : "sitdown",
+  "objectType" : "loungeable",
   "sitFlipDirection" : true,
   "sitPosition" : [-8, 18],
   "sitOrientation" : "lay",

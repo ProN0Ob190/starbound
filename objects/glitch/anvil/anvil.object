@@ -1,6 +1,5 @@
 {
   "objectName" : "anvil",
-  "objectType" : "interactable",
   "category" : "crafting",
   "rarity" : "Common",
   "description" : "An anvil, used for banging metal into shape.",

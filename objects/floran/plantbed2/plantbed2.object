@@ -14,8 +14,7 @@
   "humanDescription" : "I've slept on worse.",
   "hylotlDescription" : "I've never slept on worse.",
 
-  "objectType" : "interactable",
-  "interactAction" : "sitdown",
+  "objectType" : "loungeable",
   "sitFlipDirection" : true,
   "sitPosition" : [-7, 7],
   "sitOrientation" : "lay",
@@ -24,7 +23,7 @@
   "sitCoverImage" : "/objects/floran/plantbed2/plantbed2cover.png",
   "sitStatusEffects" : [
     { "kind" : "Nude" },
-    { "kind" : "Health", "amount" : 0.02 }
+    { "kind" : "Health", "amount" : 0.06 }
   ],
   "sitEffectEmitters" : [ "sleepbubbles" ],
 

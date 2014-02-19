@@ -1,6 +1,5 @@
 {
   "objectName" : "tvstation",
-  "objectType" : "interactable",
   "interactAction" : "OpenStreamingVideoInterface",
   "rarity" : "Common",
   "category" : "light",

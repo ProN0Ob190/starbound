@@ -4,7 +4,7 @@
     "species" : "dummy",
     "rules" : [
     ],
-    "anchor" : [ "1", "2", "3", "4", "5" ],
+    "anchor" : [ "1", "2", "3", "4", "5", "6", "7" ],
     "maxRadius" : 1000000,
     "maxParts" : 100
   },
@@ -2218,6 +2218,18 @@
       "name" : "5",
       "rules" : [ ],
       "def" : [ "image", [ "5.png", "5a.png" ] ]
+    },
+	
+	{
+      "name" : "6",
+      "rules" : [ ],
+      "def" : [ "image", [ "6.png", "6a.png" ] ]
+    },
+	
+	{
+      "name" : "7",
+      "rules" : [ ],
+      "def" : [ "image", [ "7.png", "7a.png" ] ]
     }
 
 

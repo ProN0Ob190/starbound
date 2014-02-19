@@ -14,8 +14,7 @@
   "humanDescription" : "A stone bed. They hay offers little comfort. The stone is cold to the touch.",
   "hylotlDescription" : "One must be hard as a rock to sleep amongst the stones. A warrior's bed.",
 
-  "objectType" : "interactable",
-  "interactAction" : "sitdown",
+  "objectType" : "loungeable",
   "sitFlipDirection" : true,
   "sitPosition" : [-6, 10.5],
   "sitOrientation" : "lay",
@@ -23,7 +22,7 @@
   "sitEmote" : "sleep",
   "sitStatusEffects" : [
     { "kind" : "Nude" },
-    { "kind" : "Health", "amount" : 0.02 }
+    { "kind" : "Health", "amount" : 0.06 }
   ],
   "sitEffectEmitters" : [ "sleepbubbles" ],
 

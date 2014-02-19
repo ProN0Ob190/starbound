@@ -3,8 +3,10 @@ converseState = {}
 function converseState.enterWith(args)
   if args.interactArgs == nil then return nil end
   if args.interactArgs.sourceId == 0 then return nil end
+  
+  local selfname = world.entityName(entity.id())
 
-  if not sayToTarget("converse.dialog", args.interactArgs.sourceId) then
+  if not sayToTarget("converse.dialog", args.interactArgs.sourceId, { name = selfname }) then
     return nil
   end
 

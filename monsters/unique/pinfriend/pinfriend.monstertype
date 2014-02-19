@@ -13,6 +13,8 @@
 
   "baseParameters" : {
     "scripts" : [
+      "/monsters/capturepod.lua",
+      "/monsters/groundMovement.lua",
       "/monsters/unique/pinfriend/behavior.lua",
       "/scripts/stateMachine.lua",
       "/scripts/util.lua",
@@ -80,6 +82,11 @@
 
     "attackTargetHoldTime" : 5.0,
     "attackDistance" : 2.0,
-    "attackHoldTime" : 2.0
+    "attackHoldTime" : 2.0,
+
+    "captureHealthFraction" : 0.5,
+    "killsPerLevel" : 20,
+    "captureParticles" : "captureParticles",
+    "levelUpParticles" : "levelUp"
   }
 }

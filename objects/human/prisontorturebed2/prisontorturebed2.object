@@ -14,8 +14,7 @@
   "humanDescription" : "Hey, a fairground ride! What's it doing in a prison though? Uh, right, it's a torture bed.",
   "hylotlDescription" : "Torture should be outlawed. Barbaric and cruel. It's a sick, sad universe.",
 
-  "objectType" : "interactable",
-  "interactAction" : "sitdown",
+  "objectType" : "loungeable",
   "sitFlipDirection" : true,
   "sitPosition" : [-7, 17],
   "sitOrientation" : "lay",
@@ -23,7 +22,7 @@
   "sitEmote" : "sleep",
   "sitStatusEffects" : [
     { "kind" : "Nude" },
-    { "kind" : "Health", "amount" : 0.02 }
+    { "kind" : "Health", "amount" : 0.06 }
   ],
   "sitEffectEmitters" : [ "sleepbubbles" ],
 

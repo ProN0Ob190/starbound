@@ -25,7 +25,7 @@
       "action" : "projectile",
       "type" : "glowgas",
       "fuzzAngle" : 0,
-      "angleAdjust" : 60
+      "angleAdjust" : -60
     },
     {
       "action" : "projectile",

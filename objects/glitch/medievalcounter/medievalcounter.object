@@ -3,7 +3,6 @@
   "rarity" : "Common",
   "category" : "furniture",
   "price" : 750,
-  "objectType" : "interactable",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
     "config" : "/interface/windowconfig/kitchen.config",

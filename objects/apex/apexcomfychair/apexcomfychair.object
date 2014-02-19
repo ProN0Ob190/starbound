@@ -1,7 +1,7 @@
 {
   "objectName" : "apexcomfychair",
   "rarity" : "Common",
-  "objectType" : "interactable",
+  "objectType" : "loungeable",
   "category" : "furniture",
   "price" : 1500,
 
@@ -28,8 +28,6 @@
 
     }
   ],
-
-  "interactAction" : "sitdown",
 
   "sitFlipDirection" : false,
   "sitPosition" : [2, 24]

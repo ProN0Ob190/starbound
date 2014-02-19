@@ -2,7 +2,6 @@
   "objectName" : "apexcounter2",
   "rarity" : "Common",
   "category" : "crafting",
-  "objectType" : "interactable",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
     "config" : "/interface/windowconfig/kitchen.config",

@@ -1,7 +1,7 @@
 {
   "objectName" : "florancaptainschair",
   "rarity" : "Common",
-  "objectType" : "interactable",
+  "objectType" : "loungeable",
 
   "description" : "ENGAGE!",
   "shortdescription" : "Captain's Chair",

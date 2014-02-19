@@ -3,7 +3,7 @@
   "baseType" : "villager",
 
   "damageTeam" : 1,
-  "levelVariance" : [2, 2],
+  "levelVariance" : [0.8, 1.2],
 
   "disableWornArmor" : true,
   "inateStatusEffects" : [

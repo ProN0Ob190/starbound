@@ -2,7 +2,6 @@
   "objectName" : "yarnspinner",
   "printable" : false,
   "rarity" : "Common",
-  "objectType" : "interactable",
   "description" : "A device for spinning yarn from wool.",
   "shortdescription" : "Yarn Spinner",
   "race" : "generic",

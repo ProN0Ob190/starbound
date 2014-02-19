@@ -1,25 +1,39 @@
 function init(args)
+  self.dead = false
+  self.targetId = nil
+
   self.state = stateMachine.create({
     "moveState",
-    "idleState",
-    "attackState"
+    "attackState",
+    "captiveState"
   })
   self.state.leavingState = function(stateName)
-    entity.setAnimationState("movement", "idle")
+    entity.setAnimationState("movement", entity.randomizeParameter("idleAnimations"))
   end
 
   entity.setAggressive(false)
   entity.setDeathParticleBurst("deathPoof")
+
+  capturepod.onInit()
+
+  self.movement = groundMovement.create(1, 1, function(animationState)
+    entity.setAnimationState("movement", "move")
+  end)
 end
 
+--------------------------------------------------------------------------------
 function main()
   self.state.update(entity.dt())
 end
 
+--------------------------------------------------------------------------------
 function damage(args)
-  self.state.pickState(args.sourceId)
+  if not capturepod.onDamage(args) then
+    self.state.pickState(args.sourceId)
+  end
 end
 
+--------------------------------------------------------------------------------
 function move(direction)
   entity.setAnimationState("movement", "move")
 
@@ -32,60 +46,44 @@ function move(direction)
 end
 
 --------------------------------------------------------------------------------
+-- Called when a monster has been killed, on the entity that dealt the death-blow
+function monsterKilled(entityId)
+  capturepod.onMonsterKilled()
+end
+
+--------------------------------------------------------------------------------
+function die()
+  capturepod.onDie()
+end
+
+--------------------------------------------------------------------------------
+function shouldDie()
+  return self.dead or entity.health() <= 0
+end
+
+--------------------------------------------------------------------------------
 moveState = {}
 
 function moveState.enter()
-  local direction
-  if math.random(100) > 50 then
-    direction = 1
-  else
-    direction = -1
-  end
+  if capturepod.isCaptive() then return nil end
 
   return {
     timer = entity.randomizeParameterRange("moveTimeRange"),
-    direction = direction
+    direction = util.randomDirection()
   }
 end
 
 function moveState.update(dt, stateData)
-  local position = entity.position()
-  local bounds = entity.configParameter("metaBoundBox")
-  bounds = {
-    bounds[1] + position[1] + stateData.direction,
-    bounds[2] + position[2] + 1,
-    bounds[3] + position[1] + stateData.direction,
-    bounds[4] + position[2],
-  }
-
-  if world.rectCollision(bounds, false) then
+  if not self.movement.move(entity.position(), stateData.direction, false) then
     stateData.direction = -stateData.direction
   end
 
-  move(stateData.direction)
-
   stateData.timer = stateData.timer - dt
   if stateData.timer <= 0 then
-    return true, 1.0
+    return true, entity.randomizeParameterRange("idleTimeRange")
   end
 
   return false
-end
-
---------------------------------------------------------------------------------
-idleState = {}
-
-function idleState.enter()
-  return { timer = entity.randomizeParameterRange("idleTimeRange") }
-end
-
-function idleState.enteringState(stateData)
-  entity.setAnimationState("movement", entity.randomizeParameter("idleAnimations"))
-end
-
-function idleState.update(dt, stateData)
-  stateData.timer = stateData.timer - dt
-  return stateData.timer <= 0
 end
 
 --------------------------------------------------------------------------------
@@ -112,13 +110,14 @@ function attackState.update(dt, stateData)
   end
 
   if self.targetPosition ~= nil then
+    local position = entity.position()
     local toTarget = world.distance(self.targetPosition, entity.position())
 
     if world.magnitude(toTarget) < entity.configParameter("attackDistance") then
       attackState.setAttackEnabled(true)
     else
       attackState.setAttackEnabled(false)
-      move(util.toDirection(toTarget[1]))
+      self.movement.move(position, util.toDirection(toTarget[1]), true)
     end
   end
 
@@ -155,4 +154,75 @@ function attackState.setAggressive(targetId)
     entity.setAnimationState("movement", "idle")
     entity.setAggressive(false)
   end
+end
+
+function attackState.hasTarget()
+  return self.targetId ~= nil
+end
+
+--------------------------------------------------------------------------------
+captiveState = {
+  closeDistance = 4,
+  runDistance = 12,
+  teleportDistance = 36,
+}
+
+function captiveState.enter()
+  if not capturepod.isCaptive() or attackState.hasTarget() then return nil end
+
+  return { running = false }
+end
+
+function captiveState.enterWith(params)
+  if not capturepod.isCaptive() then return nil end
+
+  return { running = false }
+end
+
+function captiveState.update(dt, stateData)
+  if attackState.hasTarget() then return true end
+
+  if not capturepod.updateOwnerEntityId() then
+    -- Owner is nowhere around
+    return false
+  end
+
+  local position = entity.position()
+  local ownerPosition = world.entityPosition(self.ownerEntityId)
+  local toOwner = world.distance(ownerPosition, position)
+  local distance = math.abs(toOwner[1])
+
+  local movement
+  if distance > captiveState.teleportDistance then
+    movement = 0
+    entity.setPosition(ownerPosition)
+  elseif distance < captiveState.closeDistance then
+    stateData.running = false
+    movement = 0
+  elseif toOwner[1] < 0 then
+    movement = -1
+  elseif toOwner[1] > 0 then
+    movement = 1
+  end
+
+  if distance > captiveState.runDistance then
+    stateData.running = true
+  end
+
+  if movement ~= 0 then
+    self.movement.move(position, movement, true)
+  else
+    local animation = entity.animationState("movement")
+    local playingIdleAnimation = false
+    for _, idleAnimation in pairs(entity.configParameter("idleAnimations")) do
+      playingIdleAnimation = playingIdleAnimation or idleAnimation == animation
+    end
+
+    if not playingIdleAnimation then
+      entity.setAnimationState("movement", entity.randomizeParameter("idleAnimations"))
+    end
+  end
+  entity.setRunning(stateData.running)
+
+  return false
 end

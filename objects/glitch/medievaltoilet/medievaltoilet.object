@@ -34,8 +34,7 @@
   "sounds" : [ "/sfx/objects/toilet_flush.wav" ],
 
 
-  "objectType" : "interactable",
-  "interactAction" : "sitdown",
+  "objectType" : "loungeable",
   "sitFlipDirection" : false,
   "sitPosition" : [5, 22]
 }

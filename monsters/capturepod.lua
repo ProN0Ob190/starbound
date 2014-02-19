@@ -118,3 +118,24 @@ end
 function capturepod.isCaptive()
   return storage.ownerUuid ~= nil
 end
+
+--------------------------------------------------------------------------------
+function capturepod.updateOwnerEntityId()
+  if self.ownerEntityId ~= nil then
+    if not world.entityExists(self.ownerEntityId) then
+      self.ownerEntityId = nil
+    end
+  end
+
+  if self.ownerEntityId == nil then
+    local playerIds = world.playerQuery(entity.position(), 50)
+    for _, playerId in pairs(playerIds) do
+      if world.entityUuid(playerId) == storage.ownerUuid then
+        self.ownerEntityId = playerId
+        break
+      end
+    end
+  end
+
+  return self.ownerEntityId ~= nil
+end

@@ -1,7 +1,6 @@
 {
   "objectName" : "techconsolehuman",
   "rarity" : "Common",
-  "objectType" : "interactable",
   "interactAction" : "OpenTechInterface",
   "interactData" : {
   },

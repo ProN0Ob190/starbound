@@ -14,8 +14,7 @@
   "humanDescription" : "Torture... an act humanity outlawed many, many years ago.",
   "hylotlDescription" : "Torture has no place in an enlightened society.",
 
-  "objectType" : "interactable",
-  "interactAction" : "sitdown",
+  "objectType" : "loungeable",
   "sitFlipDirection" : false,
   "sitPosition" : [-10, 13.5],
   "sitOrientation" : "lay",

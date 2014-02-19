@@ -14,8 +14,7 @@
   "humanDescription" : "I enjoyed camping as a child.",
   "hylotlDescription" : "I am not too proud to sleep in a tent.",
 
-  "objectType" : "interactable",
-  "interactAction" : "sitdown",
+  "objectType" : "loungeable",
   "sitFlipDirection" : true,
   "sitPosition" : [-6, 7],
   "sitOrientation" : "lay",
@@ -24,7 +23,7 @@
   "sitEmote" : "sleep",
   "sitStatusEffects" : [
     { "kind" : "Nude" },
-    { "kind" : "Health", "amount" : 0.02 }
+    { "kind" : "Health", "amount" : 0.06 }
   ],
 
   "inventoryIcon" : "tent2icon.png",

@@ -2,7 +2,6 @@
   "objectName" : "techstation",
   "rarity" : "Common",
 
-  "objectType" : "interactable",
   "interactAction" : "OpenTech3DPrinterDialog",
 
   "category" : "decorative",
