@@ -28,23 +28,13 @@
   ],
 
   "soundEffect" : "/sfx/objects/propeller.wav",
-  "soundEffectRadius" : 100,
 
   "statusEffects" : [
-  ],
-  "touchDamage" : {
-    "poly" : [ [-3.5, 4.0], [4.5, 4.0], [4.5, 5.0], [-3.5, 5.0] ],
-    "damage" : 99999,
-
-    "damageType" : "IgnoresDef",
-    "damageSourceKind" : "electroshock",
-    "statusEffects" : [
-      {
-        "kind" : "ElectroShock",
-        "percentage" : 20
-      }
-    ]
-  }
-
+    {
+      "kind" : "slash",
+      "amount" : 20,
+      "range" : 0
+    }
+  ]
 
 }

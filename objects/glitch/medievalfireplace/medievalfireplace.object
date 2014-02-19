@@ -45,7 +45,7 @@
     }
   ],
 
-  "soundEffect" : "/sfx/objects/oillantern.wav",
+  "soundEffect" : "/sfx/objects/furnace.wav",
 
   "recipeGroup" : "cooking",
   "openSounds" : [ "/sfx/objects/campfire_use.wav" ],

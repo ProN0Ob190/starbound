@@ -1,17 +1,17 @@
 {
-  "itemName" : "mrclausback",
+  "itemName" : "cupidsback",
   "inventoryIcon" : "icons.png:back",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "rarity" : "Uncommon",
-  "description" : "A sack full of presents.",
-  "shortdescription" : "Mr. Claus's Sack",
+  "description" : "Cupid's wings might not be strong enough to carry your weight.",
+  "shortdescription" : "Cupid's Wings",
 
   "maleFrames" : "back.png",
   "femaleFrames" : "back.png",
 
   "colorOptions" : [
-    /* BROWN */
-    { "ffca8a" : "ccae7c", "e0975c" : "a47844", "a85636" : "754c23", "6f2919" : "472b13" },
+    /* WHITE */
+    { "ffca8a" : "e6e6e6", "e0975c" : "b6b6b6", "a85636" : "7b7b7b", "6f2919" : "373737" },
     /* BLACK */
     { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
     /* GREY */
