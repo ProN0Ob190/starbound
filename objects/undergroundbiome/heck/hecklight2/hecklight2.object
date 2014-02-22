@@ -1,0 +1,60 @@
+{
+  "objectName" : "hecklight2",
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "pot",
+  "price" : 400,
+  "description" : "A strange green light pod is hanging loosely from a curved wooden post.",
+  "shortdescription" : "Floran Lamp Pod",
+  "race" : "apex",
+
+  "apexDescription" : "It appears to be a luminous plant of some kind.",
+  "avianDescription" : "The plant gives off a green glow.",
+  "floranDescription" : "Floran Greenfinger grow plant into light. Many lesss firess, lesss burned Floran.",
+  "glitchDescription" : "Inspect. The plant appears to absorb sunrays during the day, causing it to glow.",
+  "humanDescription" : "An eerie green glow. I wonder what's inside the pod.",
+  "hylotlDescription" : "Something about this plant seems unnatural.",
+  "lightColor" : [173, 46, 61],
+
+  "inventoryIcon" : "hecklight2icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "hecklight2.png:<color>.<frame>", "unlit" : true }, { "image" : "hecklight2lit.png:<color>.<frame>" } ],
+      "flipImages" : true,
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "hecklight2top.png:<color>.<frame>", "unlit" : true }, { "image" : "hecklight2toplit.png:<color>.<frame>" } ],
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "hecklight2left.png:<color>.<frame>", "unlit" : true }, { "image" : "hecklight2leftlit.png:<color>.<frame>" } ],
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "hecklight2right.png:<color>.<frame>", "unlit" : true }, { "image" : "hecklight2rightlit.png:<color>.<frame>" } ],
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ]
+    },
+	    {
+      "imageLayers" : [ { "image" : "hecklight2back.png:<color>.<frame>", "unlit" : true }, { "image" : "hecklight2backlit.png:<color>.<frame>" } ],
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  "smashSounds" : [ "/sfx/objects/capsule_break1.wav", "/sfx/objects/capsule_break2.wav", "/sfx/objects/capsule_break3.wav" ],
+  "smashDropOptions" : [
+    [ [ "meatchunks", 1, { } ], [ "meatchunks", 1, { } ], [ "meatchunks", 1, { } ] ]
+  ],
+  "breakDropOptions" : [
+    [ [ "meatchunks", 1, { } ], [ "meatchunks", 1, { } ], [ "meatchunks", 1, { } ] ]
+  ]
+}

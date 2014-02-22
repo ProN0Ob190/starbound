@@ -3,12 +3,12 @@
 
   "mainBlock" : "hellstone",
   "subBlocks" : [ "brains", "rock04" ],
-  "ores" : "depth3",
+  "ores" : "depth2",
 
   "statusParameters" : {
     "temperatureBounds" : [60, 80],
     "dayNightTemperatureVariability" : 3,
-    "temperatureVariability" : 10
+    "temperatureVariability" : 3
   },
 
   "hueShiftOptions" : [0],
@@ -20,7 +20,8 @@
     "nightTopColor" : [0, 0, 30],
     "nightBottomColor" : [0, 0, 0]
   },
-    "undergroundAmbientNoises" : {
+
+  "undergroundAmbientNoises" : {
     "day" : {
       "tracks" : [ "/sfx/environmental/desert_underground.ogg" ]
     },
@@ -37,7 +38,12 @@
       "tracks" : [ "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-Disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/M54.ogg", "/music/Nomads.ogg", "/music/on-the-beach-at-night.ogg" ]
     }
   },
-      "items" : [
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ "heckgrass" ],
+    "grassModDensity" : 0.1,
+	
+    "items" : [
       {
         "mode" : "floor",
         "priority" : 1.0,
@@ -45,20 +51,31 @@
         "distribution" : "/biomes/distributions.config:minibiomeChests",
 
         "type" : "treasureBox",
-        "treasureBoxSets" : [ "rainbowChest" ]
+        "treasureBoxSets" : [ "heckChest" ]
       },
       {
         "mode" : "floor",
-        "priority" : 3.0,
+        "priority" : 4.0,
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:denseMedium",
+        "distribution" : "/biomes/distributions.config:denseLarge",
+
+        "type" : "grass",
+        "grasses" : [ "heckflower" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0.1,
+        "variants" : 11,
+        "distribution" : "/biomes/distributions.config:denseSmall",
 
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.35, "heckbush1" ], [0.35, "heckbush2" ], [0.35, "heckbush3" ], [0.35, "heckbush4" ], [0.35, "heckbush5" ] ],
+            "pool" : [ [0.35, "heckbush1" ], [0.35, "heckbush2" ], [0.35, "heckbush3" ], [0.35, "heckbush4" ], [0.35, "heckbush5" ], [0.35, "heckbush6" ], [0.35, "heckbush7" ], [0.35, "heckbush8" ], [0.35, "heckbush9" ], [0.35, "heckbush10" ], [0.35, "hecklight1" ], [0.35, "hecklight2" ], [0.35, "heckaltar" ], [0.35, "woodentalllantern" ] ],
             "parameters" : { }
           }
         ]
-      }]
+      }
+    ]
+  }
 }

@@ -250,6 +250,14 @@
       "treasurePool" : "fleshTreasure",
       "minimumLevel" : 1
     }
+  ],
+
+  "heckChest" : [
+    {
+      "containers" : [ "heckchest" ],
+      "treasurePool" : "heckTreasure",
+      "minimumLevel" : 1
+    }
   ]
 
 }
