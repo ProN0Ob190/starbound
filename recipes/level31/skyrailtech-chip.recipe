@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "durasteelbar", "count" : 30 },
+    { "item" : "durasteelbar", "count" : 10 },
     { "item" : "money", "count" : 1000 }
   ],
   "output" : { "item" : "skyrailTech-chip", "count" : 1 },
-  "groups" : [ "roboticcraftingtable", "all" ]
+  "groups" : [ "skyrailtable", "all" ]
 }

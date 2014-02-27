@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "Fancy tux pants.",
+  "description" : "Fancy tux pants. Step out in style.",
   "shortdescription" : "Moneybags Tux Pants",
   "inspectionKind" : "armor",
 

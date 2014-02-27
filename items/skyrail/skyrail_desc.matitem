@@ -1,0 +1,9 @@
+{
+  "itemName" : "skyrail_desc",
+  "rarity" : "Common",
+  "inventoryIcon" : "skyrailicon_desc.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Gives priority to lower rails.",
+  "shortdescription" : "Skyrail Switcher -",
+  "materialId" : 400183
+}
