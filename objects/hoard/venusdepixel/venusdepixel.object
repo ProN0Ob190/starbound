@@ -1,0 +1,30 @@
+{
+  "objectName" : "venusdepixel",
+  "rarity" : "Legendary",
+  "description" : "Ancient Greek marble sculpter, Venus De Pixel. Scuplter Unknown.",
+  "shortdescription" : "Venus de Pixel",
+  "race" : "glitch",
+  "price" : 2000,
+
+  "apexDescription" : "Venus de Pixel",
+  "avianDescription" : "Venus de Pixel",
+  "floranDescription" : "Venus de Pixel",
+  "glitchDescription" : "Venus de Pixel",
+  "humanDescription" : "Venus de Pixel",
+  "hylotlDescription" : "Venus de Pixel",
+
+  "inventoryIcon" : "venusdepixelicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "venusdepixel.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -170,12 +170,12 @@
         [0.95, "clear" ]
       ],
       [
-        [0.03, "meteorshower" ],
-        [0.97, "clear" ]
+        [0.005, "meteorshower" ],
+        [0.995, "clear" ]
       ],
       [
-        [0.01, "largemeteor" ],
-        [0.99, "clear" ]
+        [0.001, "largemeteor" ],
+        [0.999, "clear" ]
       ]
     ],
 

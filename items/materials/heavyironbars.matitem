@@ -1,0 +1,12 @@
+{
+  "itemName" : "heavyironbars",
+  "rarity" : "Common",
+  "inventoryIcon" : "heavyironbars.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Thick metal bars. Still strong, though decaying with rust.",
+  "shortdescription" : "Heavy Iron Bars",
+  "glitchdescription" : "Analysis. These bars are strong.",
+  "florandescription" : "Barsss.",
+
+  "materialId" : 300
+}

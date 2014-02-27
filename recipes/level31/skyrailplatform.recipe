@@ -1,8 +1,10 @@
 {
   "input" : [
-    { "item" : "durasteelbar", "count" : 1 },
-    { "item" : "money", "count" : 10 }
+    { "item" : "durasteelbar", "count" : 1 }
   ],
-  "output" : { "item" : "skyrailplatform", "count" : 3 },
-  "groups" : [ "roboticcraftingtable", "all" ]
+  "output" : {
+    "item" : "skyrailplatform",
+    "count" : 3
+  },
+  "groups" : [ "skyrailtable", "all" ]
 }
