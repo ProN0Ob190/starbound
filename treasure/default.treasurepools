@@ -1492,11 +1492,16 @@
           [0.02, [ "money", 25] ],
           [0.03, [ "money", 100] ],
           [0.05, "medkit" ],
-		  [0.05, "heartthrobbow" ],
+	  [0.05, "heartthrobbow" ],
+	  [0.05, "bonewingsback"],
+	  [0.05, "bonehead" ],
           [0.05, [ "torch", 10] ],
           [0.02, [ "flare", 5] ],
           [0.02, [ "alienmeat", 2] ],
 		  [0.04, [ "generatedgun", 1, { "definition" : "heartstringbow" } ]		  ],
+		  [0.04, [ "generatedgun", 1, { "definition" : "boneassault" } ]		  ],
+		  [0.04, [ "generatedgun", 1, { "definition" : "boneshotgun" } ]		  ],
+		  [0.04, [ "generatedgun", 1, { "definition" : "bonepistol" } ]		  ],
 	      [0.03, [ "generatedsword", 1, { "definition" : "anklegrinder" } ] ]
         ],
         "poolRounds" : [

@@ -172,8 +172,12 @@
         [0.001, "largemeteor" ],
         [0.999, "clear" ]
       ],
-      [
-        [1.0, "clear" ]
+         [
+        [0.1, "rain" ],
+        [0.05, "storm" ],
+        [0.025, "hailstones" ],
+        [0.125, "drizzle" ],
+        [0.7, "clear" ]
       ],
       [
         [1.0, "clear" ]
