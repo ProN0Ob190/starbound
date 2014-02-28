@@ -254,7 +254,7 @@
 
   "heckChest" : [
     {
-      "containers" : [ "heckchest" ],
+      "containers" : [ "heckchest", "heckaltar" ],
       "treasurePool" : "heckTreasure",
       "minimumLevel" : 1
     }
