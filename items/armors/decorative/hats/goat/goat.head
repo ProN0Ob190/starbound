@@ -4,8 +4,8 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "Wrestle your way to glory with this stylish goat mask.",
-  "shortdescription" : "goat Mask",
+  "description" : "Haunt your friends and enemies with this demonic goat skull mask!",
+  "shortdescription" : "Goat Skull Mask",
   "inspectionKind" : "armor",
 
   "maleFrames" : "head.png",

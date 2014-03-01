@@ -1,0 +1,33 @@
+{
+  "objectName" : "floranpod3",
+  "rarity" : "Common",
+  "objectType" : "noisy",
+  "category" : "decorative",
+  "price" : 750,
+  "description" : "Some kind of bizarre pod. Something is growing out of it.",
+  "shortdescription" : "Fungal Pod",
+  "race" : "floran",
+
+  "apexDescription" : "What are these vile growths?",
+  "avianDescription" : "Something seems to be gestating in this pod.",
+  "floranDescription" : "Floran sssniff odd pod. Sssmells familiar. Floran ssscared.",
+  "glitchDescription" : "Analyse. This pod is of Floran origin, but... something is amiss.",
+  "humanDescription" : "Eww, this is disgusting!",
+  "hylotlDescription" : "What new horrors have the Florans dreamed up this time?!",
+
+  "inventoryIcon" : "floranpod3icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "floranpod3.png:<color>",
+      "imagePosition" : [-6, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "sounds" : [ "/sfx/blocks/water_puddlemod.wav" ]
+}

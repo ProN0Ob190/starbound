@@ -3,8 +3,8 @@
   "inventoryIcon" : "bonewingsbackicon.png",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "rarity" : "Common",
-  "description" : "Become the scourge of the galaxy with these terrifying wings.",
-  "shortdescription" : "Terrifying Wings",
+  "description" : "Turn the tables on the birds with these skeletal wings.",
+  "shortdescription" : "Skeletal Wings",
 
   "maleFrames" : "back.png",
   "femaleFrames" : "back.png",

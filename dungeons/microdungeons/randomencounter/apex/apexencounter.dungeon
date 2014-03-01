@@ -4,7 +4,7 @@
     "species" : "dummy",
     "rules" : [
     ],
-    "anchor" : [ "lab1", "lab2", "lab3", "lab4", "lab5", "lab6", "apexmedical" ],
+	"anchor" : [ "lab1", "lab2", "lab3", "lab4", "lab5", "lab6", "apexmedical", "agaranmedical" ],
 
     "maxRadius" : 2000,
     "maxParts" : 100
@@ -230,6 +230,38 @@
       "value" : [106, 21, 185, 255],
       "comment" : "foreground brick",
       "brush" : [ [ "clear" ], [ "back", "brick" ], [ "front", "brick" ] ]
+    },
+	
+	{
+      "value" : [65, 166, 98, 255],
+      "comment" : "background plantmatter",
+      "brush" : [ [ "clear" ], [ "back", "plantmatter" ] ]
+    },
+	
+	{
+      "value" : [217, 114, 11, 255],
+      "comment" : "huntinglight1 facing left",
+      "brush" : [ [ "clear" ], [ "object", "huntinglight1", { "direction" : "left" } ] ]
+    },
+
+    {
+      "value" : [55, 140, 83, 255],
+      "comment" : "background plantmatter overwritable",
+      "rules" : [ [ "allowOverdrawing" ] ],
+      "brush" : [ [ "clear" ], [ "back", "plantmatter" ] ]
+    },
+
+    {
+      "value" : [85, 217, 129, 255],
+      "comment" : "foreground plantmatter",
+      "brush" : [ [ "clear" ], [ "back", "plantmatter" ], [ "front", "plantmatter" ] ]
+    },
+
+    {
+      "value" : [75, 191, 113, 255],
+      "comment" : "foreground plantmatter overwritable",
+      "rules" : [ [ "allowOverdrawing" ] ],
+      "brush" : [ [ "clear" ], [ "back", "plantmatter" ], [ "front", "plantmatter" ] ]
     },
 
     {
@@ -513,9 +545,9 @@
       "comment" : "apexobeysign",
       "brush" : [ [ "clear" ], [ "object", "apexobeysign" ] ]
     },
-
-    {
-      "value" : [191, 255, 200, 255],
+	
+	{
+      "value" : [191, 200, 64, 255],
       "comment" : "apexmocksign",
       "brush" : [ [ "clear" ], [ "object", "apexmocksign" ] ]
     },
@@ -1065,6 +1097,24 @@
       "comment" : "apexflusign",
       "brush" : [ [ "clear" ], [ "object", "apexflusign" ] ]
     },
+	
+	{
+      "value" : [160, 250, 0, 255],
+      "comment" : "floranpod1",
+      "brush" : [ [ "clear" ], [ "object", "floranpod1" ] ]
+    },
+	
+	{
+      "value" : [170, 250, 0, 255],
+      "comment" : "floranpod2",
+      "brush" : [ [ "clear" ], [ "object", "floranpod2" ] ]
+    },
+	
+	{
+      "value" : [180, 250, 0, 255],
+      "comment" : "floranpod3",
+      "brush" : [ [ "clear" ], [ "object", "floranpod3" ] ]
+    },
 
     {
       "value" : [90, 241, 204, 255],
@@ -1124,6 +1174,22 @@
             "kind" : "monster",
             "typeName" : "apexmutant",
             "seed" : "stable",
+            "parameters" : {
+              "persistent" : true
+            }
+          }
+        ] ]
+    },
+	
+	{
+      "value" : [150, 250, 0, 255],
+      "comment" : "shroom npc",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "npc",
+            "species" : "floran",
+            "typeName" : "shroomguard",
+            // "seed" : "stable",
             "parameters" : {
               "persistent" : true
             }
@@ -1202,6 +1268,14 @@
         [ "maxSpawnCount", [1] ]
       ],
       "def" : [ "image", [ "apexmedical.png", "apexmedicalobjects.png" ] ]
+    },
+	
+	{
+      "name" : "agaranmedical",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "image", [ "agaranmedical.png", "agaranmedicalobjects.png" ] ]
     }
   ]
 }
