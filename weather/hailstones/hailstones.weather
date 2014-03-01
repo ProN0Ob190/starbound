@@ -62,7 +62,7 @@
     {
       "projectile" : "hail1",
       "parameters" : {
-        "power" : 3
+        "power" : 1
       },
       "velocity" : [0, -50],
       "ratePerX" : 0.1,
@@ -73,7 +73,7 @@
 	  {
       "projectile" : "hail2",
       "parameters" : {
-        "power" : 3
+        "power" : 1
       },
       "velocity" : [0, -50],
       "ratePerX" : 0.1,
@@ -84,7 +84,7 @@
 	  {
       "projectile" : "hail3",
       "parameters" : {
-        "power" : 3
+        "power" : 1
       },
       "velocity" : [0, -50],
       "ratePerX" : 0.1,
@@ -95,7 +95,7 @@
 	  {
       "projectile" : "hail4",
       "parameters" : {
-        "power" : 3
+        "power" : 1
       },
       "velocity" : [0, -50],
       "ratePerX" : 0.1,

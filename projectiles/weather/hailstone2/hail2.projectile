@@ -9,10 +9,10 @@
   "actionOnReap" : [
     {
       "action" : "config",
-      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+      "file" : "/projectiles/explosions/weatheringexplosion/weatheringexplosion.config"
     }
   ],
-  "power" : 5.0,
+  "power" : 1.0,
   "damageKind" : "default",
   "damageType" : "ignoresdef"
 }
