@@ -71,7 +71,7 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.35, "heckbush1" ], [0.35, "heckbush2" ], [0.35, "heckbush3" ], [0.35, "heckbush4" ], [0.35, "heckbush5" ], [0.35, "heckbush6" ], [0.35, "heckbush7" ], [0.35, "heckbush8" ], [0.35, "heckbush9" ], [0.35, "heckbush10" ], [0.35, "hecklight1" ], [0.35, "hecklight2" ], [0.35, "heckaltar" ], [0.35, "woodentalllantern" ] ],
+            "pool" : [ [0.35, "heckbush1" ], [0.35, "heckbush2" ], [0.35, "heckbush3" ], [0.35, "heckbush4" ], [0.35, "heckbush5" ], [0.35, "heckbush6" ], [0.35, "heckbush7" ], [0.35, "heckbush8" ], [0.35, "heckbush9" ], [0.35, "heckbush10" ], [0.35, "hecklight1" ], [0.35, "hecklight2" ], [0.35, "heckaltar" ], [0.35, "woodentalllantern" ], [0.35, "huntingpike1" ],  [0.35, "huntingpike2" ], [0.35, "huntingpike3" ] ],
             "parameters" : { }
           }
         ]

@@ -1,0 +1,20 @@
+{
+  "name" : "fog",
+
+   "projectiles" : [
+    {
+      "projectile" : "fogprimer",
+      "parameters" : {
+        "power" : 0.0
+      },
+      "velocity" : [0, -50],
+      "ratePerX" : 0.1,
+      "spawnAboveRegion" : 30,
+      "spawnHorizontalPad" : 30,
+      "windAffectAmount" : 1.0
+    }
+  ],
+
+  "duration" : [50, 400],
+  "maximumWind" : 15.0
+}

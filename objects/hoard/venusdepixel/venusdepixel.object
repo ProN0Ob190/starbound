@@ -1,17 +1,17 @@
 {
   "objectName" : "venusdepixel",
   "rarity" : "Legendary",
-  "description" : "Ancient Greek marble sculpter, Venus De Pixel. Scuplter Unknown.",
+  "description" : "Ancient Greek marble sculpture, Venus De Pixel. Sculptor Unknown.",
   "shortdescription" : "Venus de Pixel",
   "race" : "glitch",
   "price" : 2000,
 
-  "apexDescription" : "Venus de Pixel",
-  "avianDescription" : "Venus de Pixel",
-  "floranDescription" : "Venus de Pixel",
-  "glitchDescription" : "Venus de Pixel",
-  "humanDescription" : "Venus de Pixel",
-  "hylotlDescription" : "Venus de Pixel",
+  "apexDescription" : "An unusual human statue.",
+  "avianDescription" : "A stone human. Her arms are missing.",
+  "floranDescription" : "Floran like ssstone meatman. Ssstoneman?",
+  "glitchDescription" : "Statement. A work of art.",
+  "humanDescription" : "Ah, a blast from the past.",
+  "hylotlDescription" : "A crude rock sculpture. It appears to be humanoid.",
 
   "inventoryIcon" : "venusdepixelicon.png",
   "orientations" : [
