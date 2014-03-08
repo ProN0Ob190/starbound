@@ -146,9 +146,10 @@
         [0.125, "drizzle" ],
         [0.7, "clear" ]
       ],
-      [
-        [0.7, "snow" ],
-        [0.3, "clear" ]
+           [
+        [0.6, "snow" ],
+        [0.3, "clear" ],
+        [0.1, "snowstorm" ]
       ],
       [
         [0.7, "snow" ],
@@ -181,13 +182,18 @@
         [0.5, "clear" ]
       ],
       [
-        [1.0, "clear" ]
+        [0.25, "snow" ],
+        [0.15, "snowstorm" ],
+        [0.6, "clear" ]
       ],
       [
-        [1.0, "clear" ]
+        [0.9, "snowstorm" ],
+        [0.1, "clear" ]
       ],
       [
-        [1.0, "clear" ]
+        [0.6, "snow" ],
+        [0.3, "clear" ],
+        [0.1, "spacedustshower" ]
       ],
       [
         [1.0, "clear" ]

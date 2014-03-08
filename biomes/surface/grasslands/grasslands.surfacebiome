@@ -172,7 +172,8 @@
         [0.999, "clear" ]
       ],
       [
-        [1.0, "clear" ]
+        [0.1, "spacedustshower" ],
+        [0.90, "clear" ]
       ],
       [
         [1.0, "clear" ]

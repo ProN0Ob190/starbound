@@ -160,13 +160,16 @@
         [0.999, "clear" ]
       ],
       [
-        [1.0, "clear" ]
+        [0.8, "sandstorm" ],
+        [0.2, "clear" ]
       ],
       [
-        [1.0, "clear" ]
+        [0.25, "sandstorm" ],
+        [0.75, "clear" ]
       ],
       [
-        [1.0, "clear" ]
+        [0.1, "spacedustshower" ],
+        [0.90, "clear" ]
       ],
       [
         [1.0, "clear" ]

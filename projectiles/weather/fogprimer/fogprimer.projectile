@@ -8,10 +8,28 @@
   "pointLight" : false,
   "actionOnReap" : [
     {
-      "action" : "config",
-      "file" : "/projectiles/weather/fog/fog.config"
-    }
+      "action" : "loop",
+      "count" : 7,
+      "body" : [
+        {
+          "action" : "option",
+          "options" : [
+            {
+              "action" : "particle",
+              "specification" : {
+                "animation" : "/animations/fog/fog.animation",
+                "size" : 1.0,
+                "initial" : "drift",
+                "rotation" : 0.0,
+                "timeToLive" : 200.0
+              }
+            }
+		]
+		}
+  ]
+  }
   ],
+  
   "power" : 0.0,
   "damageKind" : "default"
 }
