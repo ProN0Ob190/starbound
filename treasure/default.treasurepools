@@ -769,25 +769,25 @@
 
   "boss1Treasure" : [
     [1, {
-        "fill" : [["moltencore", 5], "bossdreadwingCodex"]
+        "fill" : [ [ "moltencore", 5], "bossdreadwingCodex" ]
       } ]
   ],
 
   "boss2Treasure" : [
     [1, {
-        "fill" : [["processor", 5], "bossfatalcircuitCodex"]
+        "fill" : [ [ "processor", 5], "bossfatalcircuitCodex" ]
       } ]
   ],
 
   "boss3Treasure" : [
     [1, {
-        "fill" : [["dragonbone", 5], "bossbonedragonCodex"]
+        "fill" : [ [ "dragonbone", 5], "bossbonedragonCodex" ]
       } ]
   ],
 
   "boss4Treasure" : [
     [1, {
-        "fill" : [["endomorphicjelly", 5], "bossjellyCodex"]
+        "fill" : [ [ "endomorphicjelly", 5], "bossjellyCodex" ]
       } ]
   ],
 
@@ -1486,22 +1486,22 @@
         "allowDuplication" : true
       } ]
   ],
-    "heckTreasure" : [
+  "heckTreasure" : [
     [1, {
         "pool" : [
           [0.02, [ "money", 25] ],
           [0.03, [ "money", 100] ],
           [0.05, "medkit" ],
-	      [0.05, "bonewingsback"],
-	      [0.05, "goathead" ],
+          [0.05, "bonewingsback" ],
+          [0.05, "goathead" ],
           [0.05, [ "torch", 10] ],
           [0.02, [ "flare", 5] ],
           [0.02, [ "alienmeat", 2] ],
-		  [0.04, [ "heartstringbow" ] ],
-		  [0.04, [ "generatedgun", 1, { "definition" : "boneassault" } ]		  ],
-		  [0.04, [ "generatedgun", 1, { "definition" : "boneshotgun" } ]		  ],
-		  [0.04, [ "generatedgun", 1, { "definition" : "bonepistol" } ]		  ],
-	      [0.03, [ "generatedsword", 1, { "definition" : "anklegrinder" } ] ]
+          [0.04, [ "heartstringbow" ] ],
+          [0.04, [ "generatedgun", 1, { "definition" : "boneassault" } ] ],
+          [0.04, [ "generatedgun", 1, { "definition" : "boneshotgun" } ] ],
+          [0.04, [ "generatedgun", 1, { "definition" : "bonepistol" } ] ],
+          [0.03, [ "generatedsword", 1, { "definition" : "anklegrinder" } ] ]
         ],
         "poolRounds" : [
           [0.5, 1],

@@ -1,7 +1,7 @@
 {
   "name" : "spacedustshower",
 
-      "projectiles" : [
+  "projectiles" : [
     {
       "projectile" : "spacedust1",
       "parameters" : {

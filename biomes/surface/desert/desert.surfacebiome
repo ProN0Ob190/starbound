@@ -138,7 +138,45 @@
 
     "weather" : [
       [
-        [1.0, "sandstorm" ]
+        [0.7, "clear" ],
+        [0.3, "sandstorm" ]		
+      ],
+      [
+        [1.0, "clear" ]
+      ],
+      [
+        [0.1, "glowingrain" ],
+        [0.9, "clear" ]
+      ],
+      [
+        [0.05, "acidrain" ],
+        [0.95, "clear" ]
+      ],
+      [
+        [0.005, "meteorshower" ],
+        [0.995, "clear" ]
+      ],
+      [
+        [0.001, "largemeteor" ],
+        [0.999, "clear" ]
+      ],
+      [
+        [1.0, "clear" ]
+      ],
+      [
+        [1.0, "clear" ]
+      ],
+      [
+        [1.0, "clear" ]
+      ],
+      [
+        [1.0, "clear" ]
+      ],
+      [
+        [1.0, "clear" ]
+      ],
+      [
+        [1.0, "clear" ]
       ]
     ],
 

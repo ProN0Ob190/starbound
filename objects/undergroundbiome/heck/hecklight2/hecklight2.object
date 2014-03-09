@@ -43,7 +43,7 @@
       "spaceScan" : 0.1,
       "anchors" : [ "right" ]
     },
-	    {
+    {
       "imageLayers" : [ { "image" : "hecklight2back.png:<color>.<frame>", "unlit" : true }, { "image" : "hecklight2backlit.png:<color>.<frame>" } ],
       "imagePosition" : [0, 0],
       "spaceScan" : 0.1,

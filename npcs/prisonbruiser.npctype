@@ -89,7 +89,7 @@
             "chest" : [ { "name" : "jumpsuitchest", "data" : { "colorIndex" : 5 } }, { "name" : "workoutchest", "data" : { "colorIndex" : 1 } }, { "name" : "workoutchest", "data" : { "colorIndex" : 3 } } ],
             "legs" : [ { "name" : "jumpsuitlegs", "data" : { "colorIndex" : 5 } } ],
             "primary" : [
-			  [ "generatedsword", 1, { "definition" : "steelchair" } ]
+              [ "generatedsword", 1, { "definition" : "steelchair" } ]
             ]
           }
         ] ]

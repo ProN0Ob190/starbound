@@ -22,8 +22,8 @@
       "dialog" : {
         "default" : [ "What... have I become?" ],
 
-		"apex" : {
-           "default" : [
+        "apex" : {
+          "default" : [
             "What... have I become?",
             "My fur, it's... colourful.",
             "I remember... bananas.",
@@ -31,7 +31,7 @@
             "I fell asleep at my desk and when I awoke, I'd written the word 'miniknog' over and over.",
             "What colourful fur I have! So strange.",
             "I feel like everything has changed overnight."
-           ],
+          ],
           "apex" : [
             "You... your face is familiar, somehow.",
             "Were we once alike, Ape?",

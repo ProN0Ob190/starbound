@@ -24,12 +24,12 @@
                 "timeToLive" : 200.0
               }
             }
-		]
-		}
-  ]
-  }
+          ]
+        }
+      ]
+    }
   ],
-  
+
   "power" : 0.0,
   "damageKind" : "default"
 }

@@ -90,7 +90,7 @@
             "primary" : [
               { "name" : "generatedgun", "data" : { "definition" : "lightningcoil" } }
             ],
-			"sheathedprimary" : [
+            "sheathedprimary" : [
               { "name" : "generatedsword", "data" : { "definition" : "commondagger" } }
             ]
           }

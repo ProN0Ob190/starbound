@@ -1,7 +1,7 @@
 {
   "name" : "sandstorm",
 
-    "particles" : [
+  "particles" : [
     {
 
       "density" : 0.05,
@@ -17,8 +17,8 @@
         "collidesForeground" : true,
         "collidesLiquid" : true
       }
-	 },
-	 {
+    },
+    {
       "density" : 0.15,
       "particle" : {
         "type" : "textured",
@@ -53,9 +53,9 @@
         "collidesForeground" : true,
         "collidesLiquid" : true
       }
-	 }
+    }
   ],
-   "projectiles" : [
+  "projectiles" : [
     {
       "projectile" : "sand",
       "parameters" : {

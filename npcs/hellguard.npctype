@@ -85,7 +85,7 @@
               { "name" : "generatedgun", "data" : { "definition" : "commonplasmaassaultrifle" } },
               { "name" : "generatedgun", "data" : { "definition" : "commonplasmasniperrifle" } }
             ],
-			"sheathedprimary" : [
+            "sheathedprimary" : [
               { "name" : "generatedsword", "data" : { "definition" : "floranprod" } }
             ]
           }

@@ -176,11 +176,11 @@
         [0.15, "snowstorm" ],
         [0.6, "clear" ]
       ],
-       [
+      [
         [0.9, "snowstorm" ],
         [0.1, "clear" ]
       ],
-       [
+      [
         [0.6, "snow" ],
         [0.3, "clear" ],
         [0.1, "spacedustshower" ]

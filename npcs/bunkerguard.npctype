@@ -92,7 +92,7 @@
               { "name" : "generatedsword", "data" : { "definition" : "nightstick" } }
             ]
           },
-		  {
+          {
             "head" : [ { "name" : "soldierhead", "data" : { "colorIndex" : 8 } } ],
             "chest" : [ { "name" : "soldierchest", "data" : { "colorIndex" : 8 } } ],
             "legs" : [ { "name" : "soldierpants", "data" : { "colorIndex" : 8 } } ],

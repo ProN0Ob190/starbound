@@ -70,7 +70,7 @@
       "spawnHorizontalPad" : 30,
       "windAffectAmount" : 1.0
     },
-	  {
+    {
       "projectile" : "hail2",
       "parameters" : {
         "power" : 1
@@ -81,7 +81,7 @@
       "spawnHorizontalPad" : 30,
       "windAffectAmount" : 1.0
     },
-	  {
+    {
       "projectile" : "hail3",
       "parameters" : {
         "power" : 1
@@ -92,7 +92,7 @@
       "spawnHorizontalPad" : 30,
       "windAffectAmount" : 1.0
     },
-	  {
+    {
       "projectile" : "hail4",
       "parameters" : {
         "power" : 1

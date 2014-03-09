@@ -38,7 +38,7 @@
       }
     }
   ],
- "projectiles" : [
+  "projectiles" : [
     {
       "projectile" : "ash",
       "parameters" : {

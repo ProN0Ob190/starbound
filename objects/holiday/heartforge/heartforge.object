@@ -19,7 +19,7 @@
   "glitchDescription" : "Festive. I shall craft the most delicious gumdrop.",
   "humanDescription" : "I can craft loads of holiday decorations with this table!",
   "hylotlDescription" : "With this table, I can create the tackiest of holiday decorations.",
-  
+
   "statusEffects" : [
     {
       "kind" : "Warmth",
@@ -32,7 +32,7 @@
   "flickerStrength" : 0.1,
 
   "inventoryIcon" : "heartforgeicon.png",
-  
+
   "orientations" : [
     {
       "imageLayers" : [ { "image" : "heartforge.png:<color>.<frame>", "unlit" : true }, { "image" : "heartforgelit.png:<color>.<frame>" } ],
@@ -40,7 +40,7 @@
       "imagePosition" : [-16, 0],
       "frames" : 4,
       "animationCycle" : 0.5,
-	  
+
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "direction" : "left",
@@ -57,6 +57,6 @@
       "lightPosition" : [-1, 1]
     }
   ],
-  
+
   "soundEffect" : "/sfx/objects/furnace.wav"
 }

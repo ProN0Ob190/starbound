@@ -3,7 +3,7 @@
   "baseType" : "wildhunter",
 
   "levelVariance" : [0.5, 0.75],
-  
+
   "scriptConfig" : {
     "meleeAttack" : {
       "swingDistance" : 6
@@ -21,7 +21,7 @@
             "primary" : [
               { "name" : "generatedsword", "data" : { "definition" : "floranmace" } }
             ],
-			"sheathedprimary" : [
+            "sheathedprimary" : [
               { "name" : "generatedgun", "data" : { "definition" : "floranneedler" } }
             ],
             "alt" : [

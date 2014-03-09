@@ -153,7 +153,8 @@
         [0.05, "storm" ],
         [0.025, "glowingrain" ],
         [0.125, "drizzle" ],
-        [0.7, "clear" ]
+        [0.6, "clear" ],
+        [0.1, "fog" ]	
       ],
       [
         [0.05, "acidrain" ],
@@ -169,14 +170,15 @@
       ],
       [
         [0.2, "sandstorm" ],
-	    [0.8, "clear" ]
+        [0.8, "clear" ]
       ],
       [
         [0.1, "spacedustshower" ],
         [0.90, "clear" ]
       ],
       [
-        [1.0, "clear" ]
+        [0.2, "fog" ],
+	    [0.8, "clear" ]
       ],
       [
         [1.0, "clear" ]

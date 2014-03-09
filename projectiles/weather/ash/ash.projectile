@@ -8,20 +8,20 @@
   "pointLight" : false,
   "actionOnReap" : [
     {
-        
-          "action" : "option",
-          "options" : [
-            {
-              "action" : "tile",
-              "materials" : [ { "quantity" : 1, "kind" : "ash" } ]
-              }
-			  ]
-            
-		
-		}
+
+      "action" : "option",
+      "options" : [
+        {
+          "action" : "tile",
+          "materials" : [ { "quantity" : 1, "kind" : "ash" } ]
+        }
+      ]
+
+
+    }
 
   ],
-  
+
   "power" : 0.0,
   "damageKind" : "default"
 }

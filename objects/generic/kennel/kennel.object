@@ -12,7 +12,7 @@
   "glitchDescription" : "Happy. This kennel could house an adorable robot dog.",
   "humanDescription" : "A kennel. Now I just need a dog to go with it.",
   "hylotlDescription" : "This crude house smells of wet dog.",
-  
+
   "objectType" : "loungeable",
   "sitFlipDirection" : true,
   "sitPosition" : [-8, 7],
