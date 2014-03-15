@@ -4,7 +4,8 @@
     "species" : "dummy",
     "rules" : [
     ],
-    "anchor" : [ "test1", "floranhut1", "nomads", "outhouse1", "outhouse2", "outhouse3", "florancaged1", "florancaged2", "shroomcamp1", "shroomcamp2", "shroomcamp3", "pinfriend", "pinfriend2", "shroomcamp4", "shroomcamp5", "shroomcamp6", "shroomcamp7", "pincave" ],
+    // "anchor" : [ "test1", "floranhut1", "nomads", "outhouse1", "outhouse2", "outhouse3", "florancaged1", "florancaged2", "shroomcamp1", "shroomcamp2", "shroomcamp3", "pinfriend", "pinfriend2", "shroomcamp4", "shroomcamp5", "shroomcamp6", "shroomcamp7", "pincave", "shroompatch1" ],
+	"anchor" : [ "shroompatch1" ],
     "maxRadius" : 2000,
     "maxParts" : 30
   },
@@ -980,6 +981,48 @@
       "comment" : "woodentalllantern",
       "brush" : [ [ "clear" ], [ "object", "woodentalllantern" ] ]
     },
+	
+	{
+      "value" : [160, 250, 0, 255],
+      "comment" : "floranpod1",
+      "brush" : [ [ "clear" ], [ "object", "floranpod1" ] ]
+    },
+
+    {
+      "value" : [170, 250, 0, 255],
+      "comment" : "floranpod2",
+      "brush" : [ [ "clear" ], [ "object", "floranpod2" ] ]
+    },
+
+    {
+      "value" : [180, 250, 0, 255],
+      "comment" : "floranpod3",
+      "brush" : [ [ "clear" ], [ "object", "floranpod3" ] ]
+    },
+	
+	{
+      "value" : [190, 250, 0, 255],
+      "comment" : "floranopenpod1",
+      "brush" : [ [ "clear" ], [ "object", "floranopenpod1" ] ]
+    },
+	
+	{
+      "value" : [200, 250, 0, 255],
+      "comment" : "floranopenpod2",
+      "brush" : [ [ "clear" ], [ "object", "floranopenpod2" ] ]
+    },
+	
+	{
+      "value" : [210, 250, 0, 255],
+      "comment" : "floranpodapex",
+      "brush" : [ [ "clear" ], [ "object", "floranpodapex" ] ]
+    },
+	
+	{
+      "value" : [220, 250, 0, 255],
+      "comment" : "agaranmushroom",
+      "brush" : [ [ "clear" ], [ "object", "agaranmushroom" ] ]
+    },
 
     {
       "value" : [255, 186, 78, 255],
@@ -1816,6 +1859,13 @@
         [ "maxSpawnCount", [1] ]
       ],
       "def" : [ "image", [ "florancaged2.png", "florancaged2objects.png" ] ]
+    },
+	{
+      "name" : "shroompatch1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "image", [ "shroompatch1.png", "shroompatch1objects.png" ] ]
     },
     {
       "name" : "outhouse3",

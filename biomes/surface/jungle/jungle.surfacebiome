@@ -174,7 +174,8 @@
         [0.999, "clear" ]
       ],
       [
-        [1.0, "clear" ]
+        [0.2, "groundmist" ],
+        [0.8, "clear" ]
       ],
       [
         [1.0, "clear" ]

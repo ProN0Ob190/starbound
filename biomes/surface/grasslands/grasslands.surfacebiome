@@ -144,14 +144,14 @@
       [
         [0.1, "rain" ],
         [0.05, "storm" ],
-        [0.025, "glowingrain" ],
+        [0.025, "windstorm" ],
         [0.125, "drizzle" ],
         [0.7, "clear" ]
       ],
       [
         [0.1, "rain" ],
         [0.05, "storm" ],
-        [0.025, "glowingrain" ],
+        [0.025, "groundmist" ],
         [0.125, "drizzle" ],
         [0.7, "clear" ]
       ],
