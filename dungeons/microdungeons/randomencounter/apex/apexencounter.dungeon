@@ -4,7 +4,7 @@
     "species" : "dummy",
     "rules" : [
     ],
-    "anchor" : [ "lab1", "lab2", "lab3", "lab4", "lab5", "lab6", "apexmedical", "agaranhouse1", "agaranhouse2", "agaranmedical" ],
+    "anchor" : [ "lab1", "lab2", "lab3", "lab4", "lab5", "lab6", "apexmedical", "agaranhouse1", "agaranhouse2", "agaranhouse3", "agaranmedical" ],
 
     "maxRadius" : 2000,
     "maxParts" : 100
@@ -1133,6 +1133,36 @@
       "comment" : "floranpodapex",
       "brush" : [ [ "clear" ], [ "object", "floranpodapex" ] ]
     },
+	
+	{
+      "value" : [220, 250, 0, 255],
+      "comment" : "flowerbed1",
+      "brush" : [ [ "clear" ], [ "object", "flowerbed1" ] ]
+    },
+	
+	{
+      "value" : [230, 250, 0, 255],
+      "comment" : "flowerbed2",
+      "brush" : [ [ "clear" ], [ "object", "flowerbed2" ] ]
+    },
+	
+	{
+      "value" : [240, 250, 0, 255],
+      "comment" : "flowerbasket1",
+      "brush" : [ [ "clear" ], [ "object", "flowerbasket1" ] ]
+    },
+	
+	{
+      "value" : [250, 250, 0, 255],
+      "comment" : "flowerbasket2",
+      "brush" : [ [ "clear" ], [ "object", "flowerbasket2" ] ]
+    },
+	
+	{
+      "value" : [220, 240, 0, 255],
+      "comment" : "agaranmushroom",
+      "brush" : [ [ "clear" ], [ "object", "agaranmushroom" ] ]
+    },
 
     {
       "value" : [90, 241, 204, 255],
@@ -1302,6 +1332,14 @@
         [ "maxSpawnCount", [1] ]
       ],
       "def" : [ "image", [ "agaranhouse2.png", "agaranhouse2objects.png" ] ]
+    },
+	
+	{
+      "name" : "agaranhouse3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "image", [ "agaranhouse3.png", "agaranhouse3objects1.png", "agaranhouse3objects2.png" ] ]
     },
 	
     {

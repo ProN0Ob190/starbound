@@ -74,7 +74,49 @@
         "collidesForeground" : true,
         "collidesLiquid" : true
       }	  
-    }	
+    },
+	{
+      "density" : 0.03,
+      "particle" : {
+        "type" : "textured",
+        "image" : "/particles/windstorm/6.png",
+        "velocity" : [0, -12],
+        "angularVelocity" : 180,
+        "timeToLive" : 100,
+        "collidesForeground" : true,
+        "collidesLiquid" : true
+      }
+    },
+	{
+      "density" : 0.03,
+      "particle" : {
+        "type" : "textured",
+        "image" : "/particles/windstorm/7.png",
+        "velocity" : [0, -12],
+        "angularVelocity" : 180,
+        "timeToLive" : 100,
+        "collidesForeground" : true,
+        "collidesLiquid" : true
+      }
+    },
+	{
+      "density" : 0.02,
+      "autoRotate" : true,
+
+      "particle" : {
+        "type" : "textured",
+        "image" : "/particles/spacejunk/5.png",
+        "velocity" : [0, -12.5],
+        "approach" : [15, 15],
+        "angularVelocity" : 30,
+        "timeToLive" : 100,
+        "destructionAction" : "Image",
+        "destructionTime" : 0.1,
+        "destructionImage" : "/particles/spacejunk/5.png",
+        "collidesForeground" : true,
+        "collidesLiquid" : true
+      }
+    }
   ],
   "projectiles" : [
     {

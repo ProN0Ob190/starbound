@@ -181,7 +181,15 @@
 	    [0.8, "clear" ]
       ],
       [
-        [1.0, "clear" ]
+        [0.1, "rain" ],
+        [0.05, "storm" ],
+        [0.025, "glowingrain" ],
+        [0.125, "drizzle" ],
+        [0.7, "clear" ]
+      ],
+	  [
+        [0.02, "spacejunk" ],
+        [0.98, "clear" ]
       ],
       [
         [1.0, "clear" ]
