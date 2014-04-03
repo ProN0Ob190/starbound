@@ -13,6 +13,7 @@
   "inspectionKind" : "sword",
 
   "primaryStances" : {
+    "directional" : false,
     "projectileTypes" : [ "poisonhammer", "electrichammer", "firehammer" ],
     "projectile" : {
       "speed" : 0.1

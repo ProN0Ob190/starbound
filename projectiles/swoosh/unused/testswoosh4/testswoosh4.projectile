@@ -1,7 +1,7 @@
 {
   "projectileName" : "testswoosh4",
   "frames" : "testswoosh4.png",
-  "animationCycle" : 0.15,
+  "animationCycle" : 0.09,
   "frameNumber" : 3,
   "speed" : 0,
   "level" : 1,

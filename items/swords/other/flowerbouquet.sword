@@ -43,6 +43,7 @@
   ],
 
   "primaryStances" : {
+    "directional" : true,
     "projectileType" : "petals",
     "projectile" : {
       "speed" : 0.1,

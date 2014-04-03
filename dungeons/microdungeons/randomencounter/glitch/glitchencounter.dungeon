@@ -4,7 +4,7 @@
     "species" : "dummy",
     "rules" : [
     ],
-    "anchor" : [ "glitchtower1", "glitchtower2", "glitchtransport", "glitchhouse", "glitchshop1" ],
+    "anchor" : [ "glitchtower1", "glitchtower2", "glitchtransport", "glitchhouse" ],
     "maxRadius" : 1000000,
     "maxParts" : 100
   },
@@ -2206,12 +2206,6 @@
       "name" : "glitchhouse",
       "rules" : [ ],
       "def" : [ "image", [ "glitchhouse.png", "glitchhouseobjects.png" ] ]
-    },
-
-    {
-      "name" : "glitchshop1",
-      "rules" : [ ],
-      "def" : [ "image", [ "glitchshop1.png", "glitchshop1objects.png" ] ]
     },
 
     {

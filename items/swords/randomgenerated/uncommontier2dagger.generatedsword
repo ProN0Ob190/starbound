@@ -13,6 +13,7 @@
   "inspectionKind" : "sword",
 
   "primaryStances" : {
+    "directional" : true,
     "projectileTypes" : [ "poisondagger", "electricdagger", "firedagger" ],
     "projectile" : {
       "speed" : 0.5

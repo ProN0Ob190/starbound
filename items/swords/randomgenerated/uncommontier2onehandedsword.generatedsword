@@ -13,6 +13,7 @@
   "inspectionKind" : "sword",
 
   "primaryStances" : {
+    "directional" : true,
     "projectileTypes" : [ "poisonshortsword", "electricshortsword", "fireshortsword" ],
     "projectile" : {
       "speed" : 0.1

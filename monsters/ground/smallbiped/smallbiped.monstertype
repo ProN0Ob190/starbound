@@ -79,7 +79,7 @@
     "painSoundTimer" : 2.0,
 
     "jumpTargetDistance" : 4,
-    "jumpTime" : [0.8, 1.4],
+    "jumpTime" : [0.4, 0.7],
 
     "knockoutTime" : 0.5,
     "knockoutEffect" : "blink",
@@ -178,10 +178,10 @@
 
           "movementSettings" : {
             "collisionPoly" : [ [-1, -2.6], [1, -2.6], [1, 0], [-1, 0] ],
-            "mass" : 0.6,
-            "walkSpeed" : 5,
-            "runSpeed" : 13,
-            "jumpSpeed" : 20
+            "mass" : 1.2,
+            "walkSpeed" : 2.5,
+            "runSpeed" : 6.5,
+            "jumpSpeed" : 4
           },
 
           "metaBoundBox" : [-2.5, -2.5, 2.5, 2.5],
@@ -222,7 +222,7 @@
     "weightMultiplier" : [ "multiply", 1.0],
     "walkMultiplier" : [ "multiply", 1.0],
     "runMultiplier" : [ "multiply", 1.0],
-    "jumpMultiplier" : [ "multiply", 1.0],
+    "jumpMultiplier" : [ "multiply", 0.7],
 
     "idleNoise" : [ "merge", [ ] ],
     "turnHostileNoise" : [ "merge", [ ] ],

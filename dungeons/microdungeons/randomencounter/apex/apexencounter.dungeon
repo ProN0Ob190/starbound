@@ -4,8 +4,8 @@
     "species" : "dummy",
     "rules" : [
     ],
-    "anchor" : [ "lab1", "lab2", "lab3", "lab4", "lab5", "lab6", "apexmedical", "agaranhouse1", "agaranhouse2", "agaranhouse3", "agaranmedical" ],
-
+    "anchor" : [ "lab1", "lab2", "lab3", "lab4", "lab5", "lab6", "apexmedical", "agaranhouse1", "agaranhouse2", "agaranhouse3", "giantpod1", "agaranmedical" ],
+	
     "maxRadius" : 2000,
     "maxParts" : 100
   },
@@ -1147,6 +1147,12 @@
     },
 	
 	{
+      "value" : [235, 250, 0, 255],
+      "comment" : "giantfloranpod",
+      "brush" : [ [ "clear" ], [ "object", "giantfloranpod" ] ]
+    },
+	
+	{
       "value" : [240, 250, 0, 255],
       "comment" : "flowerbasket1",
       "brush" : [ [ "clear" ], [ "object", "flowerbasket1" ] ]
@@ -1340,6 +1346,14 @@
         [ "maxSpawnCount", [1] ]
       ],
       "def" : [ "image", [ "agaranhouse3.png", "agaranhouse3objects1.png", "agaranhouse3objects2.png" ] ]
+    },
+	
+	{
+      "name" : "giantpod1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "image", [ "giantpod1.png", "giantpod1objects1.png", "giantpod1objects2.png" ] ]
     },
 	
     {

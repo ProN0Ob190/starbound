@@ -43,6 +43,7 @@
   ],
 
   "primaryStances" : {
+    "directional" : true,
     "projectileType" : "daggerswoosh1",
     "projectile" : {
       "speed" : 0.1,

@@ -1,7 +1,7 @@
 {
   "projectileName" : "daggerswoosh1",
   "frames" : "daggerswoosh1.png",
-  "animationCycle" : 0.2,
+  "animationCycle" : 0.07,
   "level" : 1,
   "frameNumber" : 3,
   "speed" : 0,

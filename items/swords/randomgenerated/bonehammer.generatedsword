@@ -13,6 +13,7 @@
   "inspectionKind" : "sword",
 
   "primaryStances" : {
+    "directional" : false,
     "projectileTypes" : [ "boneswoosh" ],
     "projectile" : {
       "speed" : 0.1

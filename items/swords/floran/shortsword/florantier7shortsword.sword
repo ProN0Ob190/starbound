@@ -43,6 +43,7 @@
   ],
 
   "primaryStances" : {
+    "directional" : true,
     "projectileType" : "shortswordswoosh1",
     "projectile" : {
       "speed" : 0.1,

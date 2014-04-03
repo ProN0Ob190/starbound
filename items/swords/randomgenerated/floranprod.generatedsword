@@ -12,6 +12,7 @@
   "inspectionKind" : "sword",
 
   "primaryStances" : {
+    "directional" : true,
     "projectileTypes" : [ "floranprodswoosh" ],
     "projectile" : {
       "speed" : 0.4

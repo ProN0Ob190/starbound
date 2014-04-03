@@ -4,8 +4,7 @@
     "species" : "dummy",
     "rules" : [
     ],
-    // "anchor" : [ "test1", "floranhut1", "nomads", "outhouse1", "outhouse2", "outhouse3", "florancaged1", "florancaged2", "shroomcamp1", "shroomcamp2", "shroomcamp3", "pinfriend", "pinfriend2", "shroomcamp4", "shroomcamp5", "shroomcamp6", "shroomcamp7", "pincave", "shroompatch1" ],
-	"anchor" : [ "shroompatch1" ],
+    "anchor" : [ "test1", "floranhut1", "nomads", "outhouse1", "outhouse2", "outhouse3", "florancaged1", "florancaged2", "shroomcamp1", "shroomcamp2", "shroomcamp3", "pinfriend", "pinfriend2", "shroomcamp4", "shroomcamp5", "shroomcamp6", "shroomcamp7", "pincave", "shroompatch1", "giantpod" ],
     "maxRadius" : 2000,
     "maxParts" : 30
   },
@@ -1023,6 +1022,12 @@
       "comment" : "agaranmushroom",
       "brush" : [ [ "clear" ], [ "object", "agaranmushroom" ] ]
     },
+	
+	{
+      "value" : [230, 250, 0, 255],
+      "comment" : "giantfloranpod",
+      "brush" : [ [ "clear" ], [ "object", "giantfloranpod" ] ]
+    },
 
     {
       "value" : [255, 186, 78, 255],
@@ -1859,6 +1864,13 @@
         [ "maxSpawnCount", [1] ]
       ],
       "def" : [ "image", [ "florancaged2.png", "florancaged2objects.png" ] ]
+    },
+	{
+      "name" : "giantpod",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "image", [ "giantpod.png", "giantpodobjects1.png", "giantpodobjects2.png" ] ]
     },
 	{
       "name" : "shroompatch1",

@@ -45,7 +45,7 @@
     "painSoundTimer" : 2.0,
 
     "jumpTargetDistance" : 4,
-    "jumpTime" : [0.8, 1.4],
+    "jumpTime" : [0.4, 0.7],
 
     "knockoutTime" : 1,
     "knockoutEffect" : "blink",
@@ -142,10 +142,10 @@
 
           "movementSettings" : {
             "collisionPoly" : [ [-2.25, -1.1], [-1.5, -1.8], [1.5, -1.8], [2.25, -1.1], [2.25, -0.1], [1.5, 0.5], [-1.5, 0.5], [-2.25, -0.1] ],
-            "mass" : 0.6,
-            "walkSpeed" : 5,
-            "runSpeed" : 13,
-            "jumpSpeed" : 20
+            "mass" : 1.2,
+            "walkSpeed" : 2.5,
+            "runSpeed" : 6.5,
+            "jumpSpeed" : 4
           },
 
           "blockedSensors" : [ [2.7, -1.0], [2.7, -0.3], [2.7, 0.2], [2.7, 0.7], [2.7, 1.2], [3.2, -1.0], [3.2, -0.3], [3.2, 0.2], [3.2, 0.7], [3.2, 1.2] ],
@@ -177,7 +177,7 @@
 
         "movementSettings" : {
           "collisionPoly" : [ [-2.75, -1.65], [-1.7, -2.7], [2.7, -2.7], [3.75, -1.65], [3.75, -0.15], [2.55, 0.75], [-1.55, 0.75], [-2.75, -0.15] ],
-          "mass" : 0.6,
+          "mass" : 1.2,
           "walkSpeed" : 5,
           "runSpeed" : 13,
           "jumpSpeed" : 20
@@ -213,7 +213,7 @@
     "weightMultiplier" : [ "multiply", 1.0],
     "walkMultiplier" : [ "multiply", 1.0],
     "runMultiplier" : [ "multiply", 1.0],
-    "jumpMultiplier" : [ "multiply", 1.0],
+    "jumpMultiplier" : [ "multiply", 0.7],
 
     "idleNoise" : [ "merge", [ ] ],
     "turnHostileNoise" : [ "merge", [ ] ],

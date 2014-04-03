@@ -1,6 +1,6 @@
 {
   "projectileName" : "windstorm3",
-  "frames" : "windstorm1.png",
+  "frames" : "windstorm3.png",
   "animationCycle" : 0.25,
   "level" : 3,
   "frameNumber" : 1,

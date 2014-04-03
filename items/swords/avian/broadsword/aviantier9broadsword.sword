@@ -43,6 +43,7 @@
   ],
 
   "primaryStances" : {
+    "directional" : false,
     "projectileType" : "testswoosh3",
     "projectile" : {
       "speed" : 0.1,

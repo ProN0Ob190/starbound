@@ -1,0 +1,10 @@
+{
+  "codexId" : "agaranhunt",
+  "title" : "The Agaran Menace",
+  "codexkind" : "codex",
+  "inventoryIcon" : "shroombook.png",
+  "itemName" : "agaranhuntCodex",
+  "rarity" : "common",
+  "description" : "A mysterious Agaran request.",
+  "shortdescription" : "Agaran Menace"
+}

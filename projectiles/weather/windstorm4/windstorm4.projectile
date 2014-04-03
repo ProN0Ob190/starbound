@@ -13,7 +13,7 @@
       "options" : [
         {
           "action" : "tile",
-          "materials" : [ { "quantity" : 1, "kind" : "dirt" } ]
+          "materials" : [ { "quantity" : 1, "kind" : "gravel" } ]
         }
       ]
 

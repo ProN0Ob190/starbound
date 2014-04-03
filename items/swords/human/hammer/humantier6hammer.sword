@@ -43,6 +43,7 @@
   ],
 
   "primaryStances" : {
+    "directional" : false,
     "projectileType" : "hammerswoosh1",
     "projectile" : {
       "speed" : 0.1,

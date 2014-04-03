@@ -1,7 +1,7 @@
 {
   "projectileName" : "chomp4",
   "frames" : "chomp4.png",
-  "animationCycle" : 0.1,
+  "animationCycle" : 0.05,
   "level" : 1,
   "frameNumber" : 4,
   "speed" : 0,

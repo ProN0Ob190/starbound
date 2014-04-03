@@ -14,6 +14,7 @@
   "inspectionKind" : "sword",
 
   "primaryStances" : {
+    "directional" : false,
     "projectileTypes" : [ "starcleaverswordslash" ],
     "projectile" : {
       "speed" : 0.5
