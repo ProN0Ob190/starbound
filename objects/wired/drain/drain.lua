@@ -1,11 +1,15 @@
 function init(args)
-  if storage.state == nil then
-    output(false)
-  else
-    output(storage.state)
+  if not virtual then
+    self.drainPos = entity.position()
+    if storage.state == nil then
+      output(false)
+    else
+      output(storage.state)
+    end
   end
 end
 
+-- Change Animation
 function output(state)
   if state ~= storage.state then
     storage.state = state
@@ -17,16 +21,17 @@ function output(state)
   end
 end
 
-function main(args)
-  if entity.getInboundNodeLevel(0) then
+-- Removes Liquids at current position
+function drain()
+  if world.liquidAt(self.drainPos)then
+    world.destroyLiquid(self.drainPos)
+  end
+end
+
+function main()
+  if not entity.isInboundNodeConnected(0) or entity.getInboundNodeLevel(0) then
     output(true)
-
-    pos = {entity.position(), {entity.position()[1] + 1, entity.position()[2]}, {entity.position()[1] - 1, entity.position()[2]}}
-
-    if world.liquidAt(pos[1]) then
-      world.spawnProjectile("sparkz_drain", pos[2], entity.id(), {-1, 0}, false, {})
-      world.spawnProjectile("sparkz_drain", pos[3], entity.id(), {1, 0}, false, {})
-    end
+    drain()
   else
     output(false)
   end

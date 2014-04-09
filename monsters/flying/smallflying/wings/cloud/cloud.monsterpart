@@ -6,9 +6,5 @@
   "frames" : {
     "backWings" : "cloudbwing.png",
     "frontWings" : "cloudfwing.png"
-  },
-
-  "parameters" : {
-    "skills" : [ "flyingSwoopAttack" ]
   }
 }

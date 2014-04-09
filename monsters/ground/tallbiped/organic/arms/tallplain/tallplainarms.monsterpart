@@ -6,9 +6,5 @@
   "frames" : {
     "frontArm" : "tallplainfarm.png",
     "backArm" : "tallplainbarm.png"
-  },
-
-  "parameters" : {
-    "skills" : [ "grabAttack" ]
   }
 }

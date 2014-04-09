@@ -6,9 +6,5 @@
   "frames" : {
     "backWings" : "batBwing.png",
     "frontWings" : "batFwing.png"
-  },
-
-  "parameters" : {
-    "skills" : [ "flyingSwoopAttack" ]
   }
 }

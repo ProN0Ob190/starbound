@@ -5,8 +5,5 @@
 
   "frames" : {
     "tail" : "smallcurltail.png"
-  },
-  "parameters" : {
-    "skills" : [ "gustAttack" ]
   }
 }

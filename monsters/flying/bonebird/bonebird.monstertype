@@ -5,6 +5,7 @@
 
   "categories" : [ "bonebird_parts" ],
   "parts" : [ "body", "head", "wings" ],
+  "partParameters" : "bonebird.partparams",
 
   "animation" : "bonebird.animation",
   "projectiles" : "/monsters/projectiles.config",
@@ -150,19 +151,13 @@
         "glideTime" : 2.0,
         "glideCooldownTime" : 10.0,
         "glideSinkingSpeed" : 0.8,
-        "glideSpiralDispersion" : 0.2
+        "glideSpiralDispersion" : 0.2,
+
+        "baseSkills" : [
+          "flyingSwoopBounceAttack",
+          "airbloodvomit"
+        ]
       }
     ]
-  ],
-
-  "partParameterDescription" : {
-    "projectileOffset" : [ "override", [0.0, 0.0] ],
-    "skills" : [
-      "merge",
-      [
-        "flyingSwoopBounceAttack",
-        "airbloodvomit"
-      ]
-    ]
-  }
+  ]
 }

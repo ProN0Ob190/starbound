@@ -6,9 +6,5 @@
   "frames" : {
     "frontArm" : "smallimpfarm.png",
     "backArm" : "smallimpbarm.png"
-  },
-
-  "parameters" : {
-    "skills" : [ "gravitySlamAttack" ]
   }
 }

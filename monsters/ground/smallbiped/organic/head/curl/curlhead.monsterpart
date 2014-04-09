@@ -12,7 +12,6 @@
     "turnHostileNoise" : [ "/sfx/npc/smallbiped/goathead_small_turnhostile.wav" ],
     "attackNoise" : [ "/sfx/npc/smallbiped/goathead_small_attack1.wav", "/sfx/npc/smallbiped/goathead_small_attack2.wav" ],
     "painNoise" : [ "/sfx/npc/smallbiped/goathead_small_pain1.wav", "/sfx/npc/smallbiped/goathead_small_pain2.wav" ],
-    "deathNoise" : [ "/sfx/npc/smallbiped/goathead_small_death.wav" ],
-    "skills" : [ "gustAttack" ]
+    "deathNoise" : [ "/sfx/npc/smallbiped/goathead_small_death.wav" ]
   }
 }

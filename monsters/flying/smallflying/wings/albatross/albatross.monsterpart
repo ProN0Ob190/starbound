@@ -6,9 +6,5 @@
   "frames" : {
     "backWings" : "albatrossbwing.png",
     "frontWings" : "albatrossfwing.png"
-  },
-
-  "parameters" : {
-    "skills" : [ "flyingSwoopAttack" ]
   }
 }

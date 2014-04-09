@@ -3,6 +3,7 @@
 
   "categories" : [ "smallbiped_organic" ],
   "parts" : [ "arms", "chest", "tail", "head" ],
+  "partParameters" : "smallbiped.partparams",
 
   "spawnParameters" : {
     "area" : "surface",
@@ -104,14 +105,14 @@
         "attackStartDistance" : 3.5,
         "attackTime" : 0.75,
         "attackCooldownTime" : 0.5,
-        "skills" : [ "meleeAttack" ]
+        "baseSkills" : [ "meleeAttack" ]
       },
 
       {
         "attackStartDistance" : 10.0,
         "attackTime" : 4.0,
         "attackCooldownTime" : 1.0,
-        "skills" : [ "chargeAttack" ],
+        "baseSkills" : [ "chargeAttack" ],
         "chargeAttackWindupTime" : 1.0,
         "chargeAttackAttackDistance" : 5.0,
         "chargeAttackProjectile" : null
@@ -121,7 +122,7 @@
         "attackStartDistance" : 7.0,
         "attackMaxDistance" : 20,
         "attackCooldownTime" : 0.5,
-        "skills" : [ "pounceAttack" ],
+        "baseSkills" : [ "pounceAttack" ],
         "pounceAttackJumpHoldTime" : 0.5,
         "pounceAttackWindupTime" : 0.5,
         "pounceAttackCooldown" : 0.5
@@ -216,21 +217,5 @@
           "feetOffset" : [0, -21]
         } ]
     ]
-  ],
-
-  "partParameterDescription" : {
-    "weightMultiplier" : [ "multiply", 1.0],
-    "walkMultiplier" : [ "multiply", 1.0],
-    "runMultiplier" : [ "multiply", 1.0],
-    "jumpMultiplier" : [ "multiply", 0.7],
-
-    "idleNoise" : [ "merge", [ ] ],
-    "turnHostileNoise" : [ "merge", [ ] ],
-    "attackNoise" : [ "merge", [ ] ],
-    "painNoise" : [ "merge", [ ] ],
-    "deathNoise" : [ "merge", [ ] ],
-    "skills" : [ "merge", [ ] ],
-
-    "projectileSourcePosition" : [ "override", [0.0, -1.0] ]
-  }
+  ]
 }

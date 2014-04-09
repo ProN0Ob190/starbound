@@ -6,9 +6,5 @@
   "frames" : {
     "backWings" : "bonebirdbwing.png",
     "frontWings" : "bonebirdfwing.png"
-  },
-
-  "parameters" : {
-    "skills" : [ "flyingSwoopAttack" ]
   }
 }

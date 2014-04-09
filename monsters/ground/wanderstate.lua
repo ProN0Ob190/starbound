@@ -6,6 +6,7 @@ function wanderState.enter()
   return {
     wanderTimer = entity.randomizeParameterRange("wanderTime"),
     wanderMovementTimer = entity.randomizeParameterRange("wanderMovementTime"),
+    wanderFlipTimer = 0,
     movement = util.randomDirection()
   }
 end
@@ -43,9 +44,10 @@ function wanderState.update(dt, stateData)
     if math.random() < entity.configParameter("wanderJumpProbability") then
       self.jumpTimer = entity.randomizeParameterRange("jumpTime")
       entity.jump()
-    else
+    elseif stateData.wanderFlipTimer <= 0 then
       stateData.movement = -stateData.movement
       stateData.wanderTimer = entity.randomizeParameterRange("wanderTime")
+      stateData.wanderFlipTimer = entity.configParameter("wanderFlipTimer") or 0.5
     end
   else
     if stateData.wanderTimer <= 0 then
@@ -81,6 +83,7 @@ function wanderState.update(dt, stateData)
 
   stateData.wanderTimer = stateData.wanderTimer - dt
   stateData.wanderMovementTimer = stateData.wanderMovementTimer - dt
+  stateData.wanderFlipTimer = stateData.wanderFlipTimer - dt
 
   return false
 end

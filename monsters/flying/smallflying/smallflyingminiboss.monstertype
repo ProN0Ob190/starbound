@@ -3,6 +3,7 @@
 
   "categories" : [ "smallflying_organic" ],
   "parts" : [ "body", "head", "wings" ],
+  "partParameters" : "smallflyingminiboss.partparams",
 
   "animation" : "smallflyingminiboss.animation",
   "projectiles" : "/monsters/projectiles.config",
@@ -14,7 +15,6 @@
       "default" : "minibosstreasure"
     }
   ],
-
 
   "baseParameters" : {
     "scripts" : [
@@ -117,35 +117,29 @@
         "glideTime" : 1.0,
         "glideCooldownTime" : 10.0,
         "glideSinkingSpeed" : 0.8,
-        "glideSpiralDispersion" : 0.2
+        "glideSpiralDispersion" : 0.2,
+
+        "baseSkills" : [
+          "flyingSwoopBounceAttack",
+          "airflameBurstRangedAttack",
+          "airbubbleBlastRangedAttack",
+          "airfireball",
+          "airacidicspit",
+          "airbarbspray",
+          "airexplosivephlegm",
+          "airsonicscream",
+          "airtwistingpulse",
+          "airacidspray",
+          "airshockingbolt",
+          "airshockball",
+          "airgasbelch",
+          "airiceblast",
+          "airrockshot",
+          "airbloodvomit",
+          "airfireswirl",
+          "airdarkplasma"
+        ]
       }
     ]
-  ],
-
-  "partParameterDescription" : {
-    "projectileOffset" : [ "override", [0.0, 0.0] ],
-    "skills" : [
-      "merge",
-      [
-        "flyingSwoopBounceAttack",
-        "airflameBurstRangedAttack",
-        "airbubbleBlastRangedAttack",
-        "airfireball",
-        "airacidicspit",
-        "airbarbspray",
-        "airexplosivephlegm",
-        "airsonicscream",
-        "airtwistingpulse",
-        "airacidspray",
-        "airshockingbolt",
-        "airshockball",
-        "airgasbelch",
-        "airiceblast",
-        "airrockshot",
-        "airbloodvomit",
-        "airfireswirl",
-        "airdarkplasma"
-      ]
-    ]
-  }
+  ]
 }

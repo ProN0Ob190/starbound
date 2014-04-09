@@ -1,0 +1,34 @@
+{
+  "partParameterDescription" : {
+    "weightMultiplier" : [ "multiply", 1.0],
+    "walkMultiplier" : [ "multiply", 2.0],
+    "runMultiplier" : [ "multiply", 2.0],
+    "jumpMultiplier" : [ "multiply", 1.0],
+
+    "idleNoise" : [ "merge", [ ] ],
+    "turnHostileNoise" : [ "merge", [ ] ],
+    "attackNoise" : [ "merge", [ ] ],
+    "painNoise" : [ "merge", [ ] ],
+    "deathNoise" : [ "merge", [ ] ],
+
+    "baseSkills" : [ "merge", [ ] ],
+    "specialSkills" : [ "merge", [ ] ],
+
+    "projectileSourcePosition" : [ "override", [2.0, 0] ]
+  },
+
+  "partParameters" : {
+    "curlednosehead" : {
+      "specialSkills" : [ "gustAttack" ]
+    },
+    "dragonhead" : {
+      "specialSkills" : [ "fireBreathRangedAttack" ]
+    },
+    "rockgolemlegs" : {
+      "specialSkills" : [ "digGritAttack" ]
+    },
+    "smoothcurltail" : {
+      "specialSkills" : [ "gustAttack" ]
+    }
+  }
+}

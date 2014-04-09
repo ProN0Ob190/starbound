@@ -54,7 +54,6 @@
       "armAngle" : -90,
       "swordAngle" : -90,
       "handPosition" : [-3, -18.5],
-      "armFrameOverride" : "idleMelee",
       "duration" : 0.1
     },
     "windup" : {

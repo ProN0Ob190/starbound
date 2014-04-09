@@ -1,0 +1,35 @@
+{
+  "partParameterDescription" : {
+    "baseSkills" : [ "merge", [ ] ],
+    "specialSkills" : [ "merge", [ ] ],
+
+    "projectileOffset" : [ "override", [0.0, 0.0] ]
+  },
+
+  "partParameters" : {
+    "albatross" : {  // wings
+      "specialSkills" : [ "flyingSwoopAttack" ]
+    },
+    "angel" : {  // wings
+      "specialSkills" : [ "flyingSwoopAttack" ]
+    },
+    "batwing" : {
+      "specialSkills" : [ "flyingSwoopAttack" ]
+    },
+    "cloud" : {  // wings
+      "specialSkills" : [ "flyingSwoopAttack" ]
+    },
+    "dragon" : {  // wings
+      "specialSkills" : [ "flyingSwoopAttack" ]
+    },
+    "fly" : {  // wings
+      "specialSkills" : [ "flyingSwoopAttack" ]
+    },
+    "hawk" : {  // wings
+      "specialSkills" : [ "flyingSwoopAttack" ]
+    },
+    "nymph" : {  // wings
+      "specialSkills" : [ "flyingSwoopAttack" ]
+    }
+  }
+}

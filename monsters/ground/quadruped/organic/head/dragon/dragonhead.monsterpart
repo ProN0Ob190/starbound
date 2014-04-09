@@ -14,7 +14,6 @@
     "turnHostileNoise" : [ "/sfx/npc/quadruped/angstyhead_turnhostile.wav" ],
     "attackNoise" : [ "/sfx/npc/quadruped/angstyhead_attack1.wav", "/sfx/npc/quadruped/angstyhead_attack2.wav" ],
     "painNoise" : [ "/sfx/npc/quadruped/angstyhead_pain1.wav", "/sfx/npc/quadruped/angstyhead_pain2.wav" ],
-    "deathNoise" : [ "/sfx/npc/quadruped/angstyhead_death.wav" ],
-    "skills" : [ "fireBreathRangedAttack" ]
+    "deathNoise" : [ "/sfx/npc/quadruped/angstyhead_death.wav" ]
   }
 }

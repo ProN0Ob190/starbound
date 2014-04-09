@@ -5,9 +5,5 @@
 
   "frames" : {
     "tail" : "smoothcurltail.png"
-  },
-
-  "parameters" : {
-    "skills" : [ "gustAttack" ]
   }
 }

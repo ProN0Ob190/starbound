@@ -3,6 +3,7 @@
 
   "categories" : [ "quadruped_organic" ],
   "parts" : [ "legs", "chest", "tail", "head" ],
+  "partParameters" : "quadruped.partparams",
 
   "spawnParameters" : {
     "area" : "surface",
@@ -98,7 +99,7 @@
         "attackStartDistance" : 7.0,
         "attackMaxDistance" : 20,
         "attackCooldownTime" : 0.5,
-        "skills" : [ "pounceAttack" ],
+        "baseSkills" : [ "pounceAttack" ],
         "pounceAttackJumpHoldTime" : 1.0,
         "pounceAttackWindupTime" : 1.0,
         "pounceAttackCooldown" : 1.0
@@ -108,14 +109,14 @@
         "attackStartDistance" : 3.5,
         "attackTime" : 0.75,
         "attackCooldownTime" : 0.5,
-        "skills" : [ "meleeAttack" ]
+        "baseSkills" : [ "meleeAttack" ]
       },
 
       {
         "attackStartDistance" : 10.0,
         "attackTime" : 4.0,
         "attackCooldownTime" : 1.0,
-        "skills" : [ "chargeAttack" ],
+        "baseSkills" : [ "chargeAttack" ],
         "chargeAttackWindupTime" : 1.0,
         "chargeAttackAttackDistance" : 5.0,
         "chargeAttackProjectile" : null
@@ -125,8 +126,8 @@
         "attackStartDistance" : 14.0,
         "attackMaxDistance" : 20,
         "attackCooldownTime" : 2.0,
-        "skills" : [ "flameBurstRangedAttack", "bubbleBlastRangedAttack", "fireball", "acidicspit", "barbspray", "explosivephlegm", "sonicscream", "twistingpulse", "acidspray", "shockingbolt", "shockball", "gasbelch", "iceblast", "rockshot", "bloodvomit", "flyswarm", "iceshot", "sonicwave", "fireswirl", "plasmatorpedo", "darkplasma", "darkgravityball" ],
-        //        "skills" : [ "darkgravityball" ],
+        "baseSkills" : [ "flameBurstRangedAttack", "bubbleBlastRangedAttack", "fireball", "acidicspit", "barbspray", "explosivephlegm", "sonicscream", "twistingpulse", "acidspray",
+            "shockingbolt", "shockball", "gasbelch", "iceblast", "rockshot", "bloodvomit", "flyswarm", "iceshot", "sonicwave", "fireswirl", "plasmatorpedo", "darkplasma", "darkgravityball" ],
         "shooterSkillName" : "rangedAttack",
         "shooterGiveUpTolerance" : 20.0
       }
@@ -207,21 +208,5 @@
     ]
 */
 
-  ],
-
-  "partParameterDescription" : {
-    "weightMultiplier" : [ "multiply", 1.0],
-    "walkMultiplier" : [ "multiply", 1.0],
-    "runMultiplier" : [ "multiply", 1.0],
-    "jumpMultiplier" : [ "multiply", 0.7],
-
-    "idleNoise" : [ "merge", [ ] ],
-    "turnHostileNoise" : [ "merge", [ ] ],
-    "attackNoise" : [ "merge", [ ] ],
-    "painNoise" : [ "merge", [ ] ],
-    "deathNoise" : [ "merge", [ ] ],
-
-    "projectileSourcePosition" : [ "override", [2.0, 0] ],
-    "skills" : [ "merge", [ ] ]
-  }
+  ]
 }

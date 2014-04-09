@@ -11,7 +11,6 @@
   "parameters" : {
     "walkMultiplier" : 0.4,
     "runMultiplier" : 1.0,
-    "jumpMultiplier" : 1.0,
-    "skills" : [ "digGritAttack" ]
+    "jumpMultiplier" : 1.0
   }
 }
