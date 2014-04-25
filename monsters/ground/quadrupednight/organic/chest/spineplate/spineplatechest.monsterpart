@@ -1,9 +1,0 @@
-{
-  "name" : "nightspineplatechest",
-  "category" : "quadruped_organic",
-  "type" : "chest",
-
-  "frames" : {
-    "chest" : "spineplatechest.png"
-  }
-}

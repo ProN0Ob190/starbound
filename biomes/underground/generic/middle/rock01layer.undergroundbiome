@@ -151,7 +151,7 @@
         "distribution" : "/biomes/distributions.config:randomEncounterUnderground",
 
         "type" : "microdungeon",
-        "microdungeons" : [ "undergroundencounter", "avianundergroundencounter", "apexundergroundencounter" ]
+        "microdungeons" : [ "undergroundencounter", "avianundergroundencounter", "apexundergroundencounter", "treasureroom" ]
       }
     ]
   },

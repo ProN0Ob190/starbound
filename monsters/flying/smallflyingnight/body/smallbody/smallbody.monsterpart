@@ -1,9 +1,0 @@
-{
-  "name" : "nightsmallbody",
-  "category" : "smallflying_organic",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "smallbody.png"
-  }
-}

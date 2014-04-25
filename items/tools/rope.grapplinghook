@@ -21,7 +21,7 @@
   "energyConsumeRateWinding" : 1.0,
   "hookImage" : "/items/tools/grapplegunhook.png",
   "handleImage" : "/items/tools/rope.png",
-  "hookOffset" : [-.5, -1],
+  "hookOffset" : [-0.5, -1],
   "primaryLineColors" : [ [118, 77, 45, 255],
     [118, 77, 45, 255] ],
   "altLineColors" : [ [118, 77, 45, 255],

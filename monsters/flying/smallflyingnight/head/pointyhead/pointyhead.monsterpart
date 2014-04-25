@@ -1,9 +1,0 @@
-{
-  "name" : "nightpointyhead",
-  "category" : "smallflying_organic",
-  "type" : "head",
-
-  "frames" : {
-    "head" : "pointyhead.png"
-  }
-}

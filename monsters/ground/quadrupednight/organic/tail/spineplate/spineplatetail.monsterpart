@@ -1,9 +1,0 @@
-{
-  "name" : "nightspineplatetail",
-  "category" : "quadruped_organic",
-  "type" : "tail",
-
-  "frames" : {
-    "tail" : "spineplatetail.png"
-  }
-}

@@ -20,7 +20,7 @@
   "inventoryIcon" : "tier10dooricon.png",
   "orientations" : [
     {
-      "image" : "tier10door.png:default",
+      "dualImage" : "tier10door.png:default",
       "imagePosition" : [-20, 0],
 
       "spaceScan" : 0.1,

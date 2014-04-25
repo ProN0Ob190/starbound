@@ -1,9 +1,0 @@
-{
-  "name" : "nightfuzzychest",
-  "category" : "quadruped_organic",
-  "type" : "chest",
-
-  "frames" : {
-    "chest" : "fuzzychest.png"
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "name" : "nightgatortail",
-  "category" : "quadruped_organic",
-  "type" : "tail",
-
-  "frames" : {
-    "tail" : "gatortail.png"
-  }
-}

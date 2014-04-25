@@ -1,9 +1,0 @@
-{
-  "name" : "nightchubbybirdbody",
-  "category" : "smallflying_organic",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "chubbybirdbody.png"
-  }
-}

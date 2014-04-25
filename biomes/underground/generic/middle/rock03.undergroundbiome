@@ -1,5 +1,7 @@
 {
   "name" : "rock03layer",
+  "friendlyName" : "Rock03layer",
+  "requiredStatuses" : [ "beamaxe" ],
 
   "undergroundParallax" : "rockunderground.undergroundparallax",
 
@@ -150,7 +152,7 @@
         "distribution" : "/biomes/distributions.config:randomEncounterUnderground",
 
         "type" : "microdungeon",
-        "microdungeons" : [ "undergroundencounter", "avianundergroundencounter", "apexundergroundencounter" ]
+        "microdungeons" : [ "undergroundencounter", "avianundergroundencounter", "apexundergroundencounter", "treasureroom" ]
       }
     ]
   },

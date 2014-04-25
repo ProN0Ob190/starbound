@@ -1,9 +1,0 @@
-{
-  "name" : "nightsimple2tail",
-  "category" : "quadruped_organic",
-  "type" : "tail",
-
-  "frames" : {
-    "tail" : "simple2tail.png"
-  }
-}
