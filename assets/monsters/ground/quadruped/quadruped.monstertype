@@ -97,6 +97,11 @@
         "skillCount" : 3,
         "baseSkills" : [ "meleeAttack" ],
         "specialSkills" : [ "recoverSpecial" ]
+      },
+      {
+        "skillCount" : 3,
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [ "shieldSpecial" ]
       }
     ]
   ],

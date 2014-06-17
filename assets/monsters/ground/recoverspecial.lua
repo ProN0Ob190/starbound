@@ -1,14 +1,5 @@
 recoverSpecial = {}
 
--- function recoverSpecial.onDamage(args)
---   if self.skillCooldownTimers["recoverSpecial"] <= 0 then
---     local healthFraction = entity.health() / entity.maxHealth()
---     if healthFraction <= entity.configParameter("recoverSpecial.triggerHealthFraction") then
---       self.state.pickState({recoverSpecial=true})
---     end
---   end
--- end
-
 function recoverSpecial.enter()
   if self.skillCooldownTimers["recoverSpecial"] <= 0 then
     local healthFraction = entity.health() / entity.maxHealth()

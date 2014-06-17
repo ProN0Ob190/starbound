@@ -75,6 +75,19 @@
             "frames" : 1
           }
         }
+      },
+
+      "shield" : {
+        "priority" : 2,
+        "default" : "off",
+        "states" : {
+          "off" : {},
+          "on" : {
+            "frames" : 4,
+            "cycle" : 0.75,
+            "mode" : "loop"
+          }
+        }
       }
     },
 
@@ -445,6 +458,30 @@
             "portrait" : {
               "properties" : {
                 "image" : "<partImage>:idle"
+              }
+            }
+          }
+        }
+      },
+
+      "shield" : {
+        "properties" : {
+          "zLevel" : 5,
+          "centered" : true,
+          "offset" : [0, -0.5]
+        },
+
+        "partStates" : {
+          "shield" : {
+            "on" : {
+              "properties" : {
+                "image" : "/monsters/ground/skills/shieldSpecial/bubbleshield.png:on.<frame>"
+              }
+            },
+
+            "off" : {
+              "properties" : {
+                "image" : "/monsters/ground/skills/shieldSpecial/bubbleshield.png:off"
               }
             }
           }

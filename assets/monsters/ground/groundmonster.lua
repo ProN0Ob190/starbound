@@ -240,6 +240,13 @@ function main()
   --don't automatically switch states in combat
   self.state.autoPickState = not hasTarget()
 
+  --execute skill hooks
+  for skillName, params in pairs(self.skillParameters) do
+    if type(_ENV[skillName].onUpdate) == "function" then
+      _ENV[skillName].onUpdate(dt)
+    end
+  end
+
   if entity.stunned() or inState == "stunState" or inState == "fleeState" or knockedOut() then
     self.state.update(dt)
   else
