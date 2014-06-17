@@ -1,0 +1,9 @@
+{
+  "modId" : 35,
+  "modName" : "hivegrass",
+  "frames" : "hivegrass.png",
+  "variants" : 5,
+  "Description" : "Gross, hivey grass.",
+  "footstepSound" : "/sfx/blocks/footstep_mud.wav",
+  "health" : 0
+}

@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Tiny Twintails. A dual-bladed sword.",
   "shortdescription" : "Tiny Twintails",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "apextier6shortsword.png",

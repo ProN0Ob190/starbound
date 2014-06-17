@@ -9,11 +9,12 @@
 
   "parameters" :
   {
-    "projectileSourcePosition" : [1.45, -1.2],
-    "idleNoise" : [ "/sfx/npc/quadruped/horse_idle1.wav", "/sfx/npc/quadruped/horse_idle2.wav" ],
-    "turnHostileNoise" : [ "/sfx/npc/quadruped/horse_turnhostile.wav" ],
-    "attackNoise" : [ "/sfx/npc/quadruped/horse_attack1.wav", "/sfx/npc/quadruped/horse_attack2.wav" ],
-    "painNoise" : [ "/sfx/npc/quadruped/horse_pain1.wav", "/sfx/npc/quadruped/horse_pain2.wav" ],
-    "deathNoise" : [ "/sfx/npc/quadruped/horse_death.wav" ]
+    "meleeProjectile" : "meleebutt",
+	"projectileSourcePosition" : [1.45, -1.2],
+    // "idleNoise" : [ "/sfx/npc/quadruped/horse_idle1.wav", "/sfx/npc/quadruped/horse_idle2.wav" ],
+    "turnHostileNoise" : [ "/sfx/npc/monsters/monster_surprise.wav" ],
+    // "attackNoise" : [ "/sfx/npc/quadruped/horse_attack1.wav", "/sfx/npc/quadruped/horse_attack2.wav" ],
+    // "painNoise" : [ "/sfx/npc/quadruped/horse_pain1.wav", "/sfx/npc/quadruped/horse_pain2.wav" ],
+    "deathNoise" : [ "/sfx/npc/enemydeathpuff.wav" ]
   }
 }

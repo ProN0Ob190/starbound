@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Big Apehander. A standard blade.",
   "shortdescription" : "Big Apehander",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "apextier3broadsword.png",

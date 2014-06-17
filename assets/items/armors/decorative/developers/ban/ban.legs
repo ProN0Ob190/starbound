@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Kinky boots.",
   "shortdescription" : "Ban's Boots",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "The soldier is the most expendable position in a Glitch army.",
   "shortdescription" : "Soldier's Breastplate",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chest.png",

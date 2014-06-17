@@ -3,7 +3,6 @@
   "physics" : "laser",
   "bounces" : 0,
   "pointLight" : true,
-  "level" : 3,
   "timeToLive" : 3,
   "frames" : "chargedbustershot.png",
   "damageKindImage" : "icon.png",

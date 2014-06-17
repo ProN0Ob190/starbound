@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "The Poliwanta Cracker. An axe with vibrant plumage.",
   "shortdescription" : "The Poliwanta Cracker",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "aviantier6axe.png",

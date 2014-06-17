@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "An Agaran hat. It looks like a fly agaric. Menacing.",
   "shortdescription" : "Agaran Agaric Hat",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

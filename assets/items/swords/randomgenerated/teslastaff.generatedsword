@@ -4,14 +4,14 @@
   "rarity" : "legendary",
   "baseDps" : [2.5, 3.5],
   "rateOfSwing" : [1.0, 1.0],
-  "multiplier" : 0.3,
+  "multiplier" : 0.4,
   "firePosition" : [39.0, -7.0],
   "fireAfterWindup" : true,
   "bladeBehindHandle" : false,
   "muzzleFlashes" : [ ],
   "soundEffect" : [ "/sfx/melee/swing_teslastaff.wav" ],
   "kind" : "teslastaff",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
 
   "primaryStances" : {
     "directional" : true,

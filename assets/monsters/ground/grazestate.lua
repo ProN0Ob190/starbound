@@ -26,11 +26,13 @@ function grazeState.enter()
 end
 
 function grazeState.update(dt, stateData)
+  if hasTarget() then return true, grazeState.cooldown end
+
   local bounds = entity.configParameter("metaBoundBox")
   local toTarget = world.distance(stateData.grazePosition, self.position)
   if world.magnitude(toTarget) < math.max(math.abs(bounds[1]), bounds[3]) then
-    local pivotPosition = vec2.add(vec2.dup(self.position), grazeState.rotationOffset)
-    local toGrass = vec2.sub(vec2.dup(stateData.grazePosition), pivotPosition)
+    local pivotPosition = vec2.add(self.position, grazeState.rotationOffset)
+    local toGrass = vec2.sub(stateData.grazePosition, pivotPosition)
     local angle = -vec2.angle(toGrass)
 
     local amplitude = grazeState.headRotationAmplitude * math.pi / 180
@@ -68,7 +70,7 @@ function grazeState.findGrassPosition()
 
   local bounds = entity.configParameter("metaBoundBox")
   for offset = 0, grazeState.searchDistance do
-    targetPosition = vec2.add({ bounds[1] - offset, bounds[2] }, tilePosition)
+    local targetPosition = vec2.add({ bounds[1] - offset, bounds[2] }, tilePosition)
     if grazeState.tileHasGrassMod(targetPosition) then
       return vec2.add(targetPosition, grazeState.targetOffset)
     end

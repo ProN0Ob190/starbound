@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "Combat Medic chest armour.  Standard issue.",
   "shortdescription" : "Combat Medic Chest",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

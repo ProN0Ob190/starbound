@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Brick-on-a-Stick Prime. A brick on a fancier stick.",
   "shortdescription" : "Brick-on-a-Stick Prime",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "aviantier2hammer.png",

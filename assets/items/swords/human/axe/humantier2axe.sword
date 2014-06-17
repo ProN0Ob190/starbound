@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Ice Axe. A good axe for mountain climbing.",
   "shortdescription" : "Ice Axe",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "humantier2axe.png",

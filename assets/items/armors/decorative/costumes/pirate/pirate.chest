@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Pirate waistcoat. Not waterproof. Did these pirates even go to sea?",
   "shortdescription" : "Pirate Jacket",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

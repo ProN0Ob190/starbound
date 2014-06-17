@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "You'll never be doomed with this handy space helmet.",
   "shortdescription" : "Handy Space Helmet",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

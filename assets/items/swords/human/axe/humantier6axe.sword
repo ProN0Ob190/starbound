@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Charitable Axe. An axe trimmed with gold",
   "shortdescription" : "Charitable Axe",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "humantier6axe.png",

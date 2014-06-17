@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Vibro-axe. An axe that vibrates softly when it hits stone.",
   "shortdescription" : "Vibro-axe",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "humantier3axe.png",

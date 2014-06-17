@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A hood that hides the wearer - Perfect for covert operations.",
   "shortdescription" : "Bandit's Hood",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

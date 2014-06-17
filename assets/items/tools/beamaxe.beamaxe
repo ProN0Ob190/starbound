@@ -7,7 +7,7 @@
   "description" : "Manipulates anything that matters.",
   "shortdescription" : "Matter Manipulator",
   "largeImage" : "gravgunlarge.png",
-  "inspectionKind" : "tool",
+  "tooltipKind" : "tool",
   "category" : "Tool",
   "fireTime" : 0.25,
   "blockRadius" : 2,
@@ -35,5 +35,7 @@
   "minBeamTrans" : 0.1,
   "maxBeamTrans" : 0.4,
   "minBeamLines" : 1,
-  "maxBeamLines" : 5
+  "maxBeamLines" : 5,
+  
+  "inhandStatusEffects" : [ { "kind" : "beamaxe" } ]
 }

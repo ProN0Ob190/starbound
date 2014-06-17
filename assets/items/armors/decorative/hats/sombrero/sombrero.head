@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A sombrero. Feel the summer groove.",
   "shortdescription" : "Sombrero",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

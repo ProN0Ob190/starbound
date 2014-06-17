@@ -2,7 +2,6 @@
   "projectileName" : "swordshot",
   "frames" : "swordshot.png",
   "animationCycle" : 0.2,
-  "level" : 3,
   "timeToLive" : 0.5,
   "frameNumber" : 6,
   "speed" : 50,

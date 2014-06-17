@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Poker. A basic spear.",
   "shortdescription" : "Poker",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "florantier1spear.png",

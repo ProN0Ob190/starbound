@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A punkish top hat with a clock in it.",
   "shortdescription" : "Clock Tophat",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

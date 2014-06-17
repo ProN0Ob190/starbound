@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Big Axe. A Big Axe for a Big Ape.",
   "shortdescription" : "Big Axe",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "apextier10axe.png",

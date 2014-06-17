@@ -3,7 +3,6 @@
   "frames" : "chomp1.png",
   "animationCycle" : 0.05,
   "frameNumber" : 4,
-  "level" : 1,
   "windupFrames" : 2,
   "speed" : 0,
   "orientationLocked" : true,

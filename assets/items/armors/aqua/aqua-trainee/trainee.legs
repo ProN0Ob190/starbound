@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Some trainee pants used for combat training.",
   "shortdescription" : "Trainee Pants",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pantsM.png",
   "femaleFrames" : "pantsF.png",

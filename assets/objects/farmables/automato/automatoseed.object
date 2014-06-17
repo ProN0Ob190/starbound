@@ -6,6 +6,7 @@
   "shortdescription" : "Automato Seed",
   "objectType" : "farmable",
   "printable" : false,
+  "price" : 258,
 
   "apexDescription" : "Automatos... pretty standard, if you don't break your teeth on the screws.",
   "avianDescription" : "Automatos. The seeds are pretty tasty by themselves.",
@@ -65,12 +66,12 @@
   },
   "growing" : {
     "0" : {
-      "duration" : [1380, 1500],
+      "duration" : [1140, 1140],
       "success" : 1,
       "failure" : 3
     },
     "1" : {
-      "duration" : [1380, 1500],
+      "duration" : [1140, 1140],
       "success" : 2,
       "failure" : 3
     }

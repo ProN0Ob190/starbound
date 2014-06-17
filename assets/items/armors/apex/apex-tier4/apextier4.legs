@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Durasteel-lined trousers, accompanied by heavy duty boots.",
   "shortdescription" : "Revolutionary's Pants",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

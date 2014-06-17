@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "The Rubium plating on this chestpiece makes it near-impenetrable by conventional weapons.",
   "shortdescription" : "Phoenix Breastplate",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

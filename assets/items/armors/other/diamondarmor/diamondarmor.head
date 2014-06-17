@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Diamond helmet. Sparkles!",
   "shortdescription" : "Diamond Helmet",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",

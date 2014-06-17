@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Makes the wearer feel like they could scale any mountain.",
   "shortdescription" : "Hiker Jacket",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chest.png",

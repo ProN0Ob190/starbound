@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A bandit's hat.",
   "shortdescription" : "Bandit's Hat",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

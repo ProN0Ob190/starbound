@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Apehander. A standard blade.",
   "shortdescription" : "Apehander",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "apextier3shortsword.png",

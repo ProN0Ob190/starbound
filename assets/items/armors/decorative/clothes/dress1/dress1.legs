@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Fashionable and airy!",
   "shortdescription" : "Pink Skirt",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

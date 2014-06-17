@@ -8,7 +8,7 @@
   "muzzleFlashes" : [ ],
   "soundEffect" : [ "/sfx/melee/swing_dagger.wav" ],
   "kind" : "bonesaw",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
 
   "primaryStances" : {
     "directional" : true,

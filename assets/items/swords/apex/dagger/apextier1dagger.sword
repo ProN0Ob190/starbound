@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Simisickle. A curved dagger.",
   "shortdescription" : "Simisickle",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "apextier1dagger.png",

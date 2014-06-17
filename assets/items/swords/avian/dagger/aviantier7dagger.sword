@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Fly By Knife. A small knife with good air resistance.",
   "shortdescription" : "Fly By Knife",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "aviantier7dagger.png",

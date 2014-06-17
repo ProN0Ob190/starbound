@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Rootcutter. A dagger that'll get right to the heart of a Floran.",
   "shortdescription" : "Rootcutter",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "hylotltier10dagger.png",

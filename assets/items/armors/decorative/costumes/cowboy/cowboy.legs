@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Made with real buffalo leather.",
   "shortdescription" : "Cowboy Pants.",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

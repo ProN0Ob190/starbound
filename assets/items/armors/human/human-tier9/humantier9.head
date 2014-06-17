@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "It's said that a trailblazer's helm is never fully finished until it has seen a sun rise and set at the same time.",
   "shortdescription" : "Trailblazer's Helm",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

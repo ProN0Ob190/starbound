@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "These trousers will make the wearer want to shout, 'Top Ho Squiffy!'",
   "shortdescription" : "Pilot's Trousers",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

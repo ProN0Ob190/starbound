@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Now you're protected from EVERYTHING. Disclaimer: not an actual stat.",
   "shortdescription" : "Safety Helmet",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

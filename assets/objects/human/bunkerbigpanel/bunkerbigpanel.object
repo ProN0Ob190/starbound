@@ -2,7 +2,6 @@
   "objectName" : "bunkerbigpanel",
   "rarity" : "Common",
   "category" : "wire",
-  "objectType" : "wire",
   "price" : 1000,
   "lightColor" : [0, 40, 100],
   "flickerDistance" : 0.2,

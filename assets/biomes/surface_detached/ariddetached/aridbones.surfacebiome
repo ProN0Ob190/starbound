@@ -1,5 +1,7 @@
 {
   "name" : "aridbones",
+  "friendlyName" : "Aridbones",
+  "requiredStatuses" : [ "beamaxe" ],
 
   "hueShiftOptions" : [0],
 
@@ -47,5 +49,3 @@
     }
   }
 }
-
-

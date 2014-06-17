@@ -8,7 +8,7 @@
   "shortdescription" : "Flute",
   "largeImage" : "flute.png",
   "image" : "flute.png",
-  "inspectionKind" : "tool",
+  "tooltipKind" : "tool",
   "activeImage" : "flute.png",
   "activeAngle" : 6,
   "activeHandPosition" : [0, 0.3],

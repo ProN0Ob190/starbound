@@ -1,5 +1,6 @@
 {
   "name" : "spacedustshower",
+  "icon" : "/interface/cockpit/weather/spacedust.png",
 
   "projectiles" : [
     {

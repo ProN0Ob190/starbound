@@ -3,7 +3,6 @@
   "frames" : "friendlybubble.png",
   "physics" : "friendlybubble",
   "animationCycle" : 2,
-  "level" : 3,
   "damageKindImage" : "icon.png",
   "frameNumber" : 1,
   "power" : 0,

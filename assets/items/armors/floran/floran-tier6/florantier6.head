@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "This Ferozium headpiece is built to protect a floran wiseman's brain at all costs.",
   "shortdescription" : "Wiseman's Thinking Hat",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

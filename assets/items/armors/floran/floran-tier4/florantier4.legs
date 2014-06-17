@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "The hunter's skirt is built from leather with a thread of durasteel holding it together.",
   "shortdescription" : "Hunter's Skirt",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pantsm.png",
   "femaleFrames" : "pantsf.png",

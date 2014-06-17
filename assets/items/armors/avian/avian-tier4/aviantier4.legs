@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "This durasteel-lined skirt is snug in all the right places.",
   "shortdescription" : "Owl Skirt",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

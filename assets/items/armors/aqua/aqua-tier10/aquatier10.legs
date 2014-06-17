@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "The only thing stronger than the impervium made Aphotic armour is the wisdom of it's wearer.",
   "shortdescription" : "Aphotic Pants",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

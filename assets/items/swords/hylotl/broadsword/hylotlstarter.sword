@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "A broken sword. Looks like it got eaten by a shark.",
   "shortdescription" : "Broken Wave Sword",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "hylotlstarter.png",

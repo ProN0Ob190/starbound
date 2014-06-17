@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A Phrygian cap. A blast from the past.",
   "shortdescription" : "Phrygian Cap",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

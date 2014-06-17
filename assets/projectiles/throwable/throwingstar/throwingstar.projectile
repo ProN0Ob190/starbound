@@ -2,7 +2,6 @@
   "projectileName" : "throwingstar",
   "frames" : "throwingstar.png",
   "animationCycle" : 0.05,
-  "level" : 3,
   "physics" : "bullet",
   "frameNumber" : 2,
   "pointLight" : false,

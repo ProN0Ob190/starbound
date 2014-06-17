@@ -5,7 +5,6 @@
   "parts" : [ "body", "backArm", "frontArm", "helm", "weapon" ],
 
   "animation" : "animation/general.animation",
-  "projectiles" : "/monsters/unique/penguin/projectiles.config",
   "colors" : "/monsters/colors.config",
   "reversed" : true,
 
@@ -18,8 +17,6 @@
       "/scripts/util.lua",
       "/scripts/vec2.lua"
     ],
-
-    "scriptDelta" : 5,
 
     "metaBoundBox" : [-2.5, -2.5, 2.5, 2.5],
     "scale" : 1.0,

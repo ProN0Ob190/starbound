@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "The Scrambler. A hammer shaped like a large egg.",
   "shortdescription" : "The Scrambler",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "aviantier7hammer.png",

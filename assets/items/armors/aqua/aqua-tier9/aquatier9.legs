@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Disphot greaves are infused with polished Rubium.",
   "shortdescription" : "Disphotic Greaves",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

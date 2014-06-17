@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "300% Hair.",
   "shortdescription" : "Ban's Hair",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

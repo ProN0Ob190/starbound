@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "The Menacer. An intimidating spear.",
   "shortdescription" : "The Menacer",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "humantier9spear.png",

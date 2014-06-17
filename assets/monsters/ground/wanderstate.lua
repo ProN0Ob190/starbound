@@ -1,5 +1,11 @@
 wanderState = {}
 
+function wanderState.enterWith(params)
+  if not params.wander then return nil end
+  
+  return wanderState.enter()
+end
+
 function wanderState.enter()
   if hasTarget() or isCaptive() then return nil end
 
@@ -9,20 +15,6 @@ function wanderState.enter()
     wanderFlipTimer = 0,
     movement = util.randomDirection()
   }
-end
-
-function wanderState.enterWith(params)
-  if isCaptive() then return nil end
-
-  if params.wander then
-    return {
-      wanderTimer = entity.randomizeParameterRange("wanderTime"),
-      wanderMovementTimer = entity.randomizeParameterRange("wanderMovementTime"),
-      movement = util.randomDirection()
-    }
-  end
-
-  return nil
 end
 
 function wanderState.update(dt, stateData)
@@ -43,7 +35,7 @@ function wanderState.update(dt, stateData)
   elseif stateData.movement ~= 0 and (willFall() or isBlocked()) then
     if math.random() < entity.configParameter("wanderJumpProbability") then
       self.jumpTimer = entity.randomizeParameterRange("jumpTime")
-      entity.jump()
+      jump()
     elseif stateData.wanderFlipTimer <= 0 then
       stateData.movement = -stateData.movement
       stateData.wanderTimer = entity.randomizeParameterRange("wanderTime")
@@ -57,10 +49,10 @@ function wanderState.update(dt, stateData)
 
   if stateData.movement == 1 then
     entity.setFacingDirection(1)
-    entity.moveRight()
+    moveX(stateData.movement)
   elseif stateData.movement == -1 then
     entity.setFacingDirection(-1)
-    entity.moveLeft()
+    moveX(stateData.movement)
   end
 
   entity.setAnimationState("attack", "idle")

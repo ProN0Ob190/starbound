@@ -10,5 +10,7 @@
   "glitchDescription" : "Repulsion. Sewage.",
   "floranDescription" : "Ssstinky mess.",
   "footstepSound" : "/sfx/blocks/footstep_brains.wav",
+  "falling" : true,
+  "cascading" : true,
   "health" : 2
 }

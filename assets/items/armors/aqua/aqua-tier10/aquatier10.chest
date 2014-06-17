@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Aphotic armour is worn by only the most revered in Hylotl society.",
   "shortdescription" : "Aphotic Chestguard",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

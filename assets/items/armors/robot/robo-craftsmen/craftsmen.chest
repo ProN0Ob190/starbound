@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Craftsmen clothing, high fashion.",
   "shortdescription" : "Craftsmen Shirt",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

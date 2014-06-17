@@ -1,5 +1,6 @@
 {
   "name" : "eyepatch",
+  "friendlyName" : "Eyepatch",
   "caveLiquidType" : "tentaclejuice",
 
   "surfaceParameters" : {
@@ -78,5 +79,3 @@
     }
   }
 }
-
-

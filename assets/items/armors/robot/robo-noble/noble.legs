@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Common noble pants",
   "shortdescription" : "Noble Pants",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pantsm.png",
   "femaleFrames" : "pantsf.png",

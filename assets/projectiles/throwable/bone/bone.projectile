@@ -2,7 +2,6 @@
   "projectileName" : "bone",
   "physics" : "grenadenobounce",
   "bounces" : 0,
-  "level" : 3,
   "timeToLive" : 8,
   "speed" : 30,
   "frames" : "bone.png",

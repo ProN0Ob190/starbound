@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Crescendo. An axe shaped like a crescent moon.",
   "shortdescription" : "Crescendo",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "apextier6axe.png",

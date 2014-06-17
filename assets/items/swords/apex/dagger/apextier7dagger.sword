@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "The Comb. A dagger that doubles as a hairdressing tool.",
   "shortdescription" : "The Comb",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "apextier7dagger.png",

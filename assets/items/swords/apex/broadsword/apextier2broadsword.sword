@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "The Backscratcher. A relatively decent fencing sword.",
   "shortdescription" : "The Backscratcher",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "apextier2broadsword.png",

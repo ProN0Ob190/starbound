@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Choppatron 3000. A Floran's favourite axe.",
   "shortdescription" : "Choppatron 3000",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "florantier10axe.png",

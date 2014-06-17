@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Created by 'The User'.",
   "shortdescription" : "Neo Chestpiece",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

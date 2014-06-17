@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Littletooth. A small, basic dagger.",
   "shortdescription" : "Littletooth",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "hylotltier1dagger.png",

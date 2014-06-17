@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Cutlass. A swashbuckling cutlass.",
   "shortdescription" : "Cutlass",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "hylotltier8broadsword.png",

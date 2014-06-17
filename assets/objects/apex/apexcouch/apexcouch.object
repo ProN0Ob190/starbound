@@ -3,6 +3,8 @@
   "rarity" : "Common",
   "category" : "furniture",
   "price" : 1300,
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
   "description" : "All Apex furniture seems to have fallen victim to this tacky polka dot print.",
   "shortdescription" : "Standard Issue Couch",
   "race" : "apex",
@@ -17,19 +19,28 @@
   "inventoryIcon" : "apexcouchicon.png",
   "orientations" : [
     {
-      "dualImage" : "apexcouch.png:<color>",
+      "image" : "apexcouch.png:<color>",
       "imagePosition" : [-16, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
+	  "flipImages" : true,
+	  "direction" : "left",
+	  "sitPosition" : [-2, 22],
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
+    },
+	{
+      "image" : "apexcouch.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+	  "direction" : "right",
+	  "sitPosition" : [7, 22],
 
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
     }
-  ],
-
-  "objectType" : "loungeable",
-  "sitFlipDirection" : false,
-  "sitPosition" : [7, 20]
+  ]
 
 }

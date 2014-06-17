@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "The Hatchling. A regular, basic spear.",
   "shortdescription" : "The Hatchling",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "aviantier1spear.png",

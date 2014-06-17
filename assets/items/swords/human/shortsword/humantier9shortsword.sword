@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Moonchipper. A sword so heavy it could chip the moon.",
   "shortdescription" : "Moonchipper",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "humantier9shortsword.png",

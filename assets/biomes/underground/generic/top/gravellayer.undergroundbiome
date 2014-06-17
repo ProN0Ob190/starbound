@@ -1,5 +1,7 @@
 {
   "name" : "gravellayer",
+  "friendlyName" : "Gravellayer",
+  "requiredStatuses" : [ "beamaxe" ],
 
   "undergroundParallax" : "rockunderground.undergroundparallax",
 

@@ -8,7 +8,7 @@
   "shortdescription" : "Trumpet",
   "largeImage" : "trumpet.png",
   "image" : "trumpet.png",
-  "inspectionKind" : "tool",
+  "tooltipKind" : "tool",
   "activeImage" : "trumpet.png",
   "activeAngle" : 0,
   "activeHandPosition" : [0.25, 0.375],

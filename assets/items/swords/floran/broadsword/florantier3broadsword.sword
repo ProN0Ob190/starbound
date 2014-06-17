@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Big Slicestabcut. For slicing, stabbing and cutting.",
   "shortdescription" : " Big Slicestabcut",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "florantier3broadsword.png",

@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Stargazer's Might. A hefty broadsword as carried by the first Stargazer.",
   "shortdescription" : "Stargazer's Might",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "aviantier9broadsword.png",

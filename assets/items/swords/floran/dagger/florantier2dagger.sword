@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Hookslicer. A small, stabby dagger with a hook.",
   "shortdescription" : "Hookslicer",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "florantier2dagger.png",

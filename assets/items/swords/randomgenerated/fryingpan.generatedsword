@@ -2,14 +2,14 @@
   "name" : "fryingpan",
   "bladeBehindHandle" : false,
   "baseDps" : [2.5, 3.5],
-  "rateOfSwing" : [0.8, 1.8],
-  "multiplier" : 0.3,
+  "rateOfSwing" : [0.75, 1.75],
+  "multiplier" : 0.35,
   "firePosition" : [6, 2],
   "fireAfterWindup" : true,
   "muzzleFlashes" : [ ],
   "soundEffect" : [ "/sfx/melee/swing_twohanded.wav" ],
   "kind" : "fryingpan",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
 
   "primaryStances" : {
     "directional" : true,

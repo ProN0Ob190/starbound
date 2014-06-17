@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Heat inducing body straps. Possibly fashionable?",
   "shortdescription" : "Strap Chest",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

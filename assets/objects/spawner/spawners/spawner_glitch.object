@@ -1,7 +1,6 @@
 {
   "objectName" : "spawnerglitch",
   "rarity" : "Common",
-  "objectType" : "wire",
   "description" : "Spawn your very own Glitch villager!",
   "shortdescription" : "Glitch Spawner",
   "race" : "human",

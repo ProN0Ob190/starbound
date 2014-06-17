@@ -1,5 +1,9 @@
 {
-  "script" : "/tech/mech/mech.lua",
+  "scripts" : [
+    "/scripts/vec2.lua",
+    "/tech/mech/mech.lua"
+  ],
+
   "actions" : [ "mechActivate", "mechDeactivate" ],
   "animator" : "apexmech.animation",
 

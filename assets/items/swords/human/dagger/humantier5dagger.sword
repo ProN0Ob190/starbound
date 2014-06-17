@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Greengrip. Named as such because the grip is green. Obviously.",
   "shortdescription" : "Greengrip",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "humantier5dagger.png",

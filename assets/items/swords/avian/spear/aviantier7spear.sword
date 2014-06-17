@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "The Roaster. A spear shaped like a Christmas turkey.",
   "shortdescription" : "The Roaster",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "aviantier7spear.png",

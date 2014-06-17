@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "This leg armour is reinforced with Ferozium, making it tough despite being fairly flexible.",
   "shortdescription" : "Spy's Pants",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

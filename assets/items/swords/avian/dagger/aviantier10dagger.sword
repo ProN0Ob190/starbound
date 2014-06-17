@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Lil Daedalus. A sizeable wing-like dagger.",
   "shortdescription" : "Lil Daedalus",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "aviantier10dagger.png",

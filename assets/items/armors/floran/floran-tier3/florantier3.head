@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Built from rugged titanium and wrapped in leaves for warmth, this is the armour of choice for the floran nomad.",
   "shortdescription" : "Nomad's Crown",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

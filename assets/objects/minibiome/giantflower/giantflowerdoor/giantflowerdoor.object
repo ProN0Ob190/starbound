@@ -2,7 +2,6 @@
   "objectName" : "giantflowerdoor",
   "printable" : false,
   "rarity" : "Common",
-  "objectType" : "wire",
 
   "category" : "door",
   "price" : 800,

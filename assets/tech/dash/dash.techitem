@@ -4,7 +4,7 @@
   "inventoryIcon" : "/tech/dash.png",
   "description" : "Double tap Left or Right to use this Energy Dash tech.",
   "shortdescription" : "Energy Dash",
-  "inspectionKind" : "tech",
+  "tooltipKind" : "tech",
 
   "techModule" : "dash.tech"
 }

@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Standard issue Apex Navy pants.",
   "shortdescription" : "Apex Navy Pants",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

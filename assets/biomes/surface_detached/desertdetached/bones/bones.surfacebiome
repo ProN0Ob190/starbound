@@ -1,5 +1,6 @@
 {
   "name" : "bones",
+  "friendlyName" : "Bones",
 
   "surfaceParameters" : {
     "mainBlock" : "bonematerial",
@@ -56,5 +57,3 @@
     }
   }
 }
-
-

@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Snow infantry pants. So you don't get cold feet.",
   "shortdescription" : "Snow Infantry Pants",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",
 

@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Orangufang. A two-pronged axe.",
   "shortdescription" : "Orangufang",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "apextier8axe.png",

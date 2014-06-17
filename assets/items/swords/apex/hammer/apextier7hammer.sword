@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Big Ape's Lament. A hammer buzzing with energy.",
   "shortdescription" : "Big Ape's Lament",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "apextier7hammer.png",

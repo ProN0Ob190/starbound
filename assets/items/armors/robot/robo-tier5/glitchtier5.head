@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "A lancers helm is aerodynamic, built from aegisalt it's light and sturdy.",
   "shortdescription" : "Lancer's Helm",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

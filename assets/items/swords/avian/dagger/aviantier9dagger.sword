@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Lil Icarus. A flamboyant, wing-like dagger.",
   "shortdescription" : "Lil Icarus",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "aviantier9dagger.png",

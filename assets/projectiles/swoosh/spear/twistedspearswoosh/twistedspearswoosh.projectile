@@ -2,7 +2,6 @@
   "projectileName" : "twistedspearswoosh",
   "frames" : "twistedspearswoosh.png",
   "animationCycle" : 0.05,
-  "level" : 1,
   "frameNumber" : 3,
   "speed" : 0,
   "orientationLocked" : true,

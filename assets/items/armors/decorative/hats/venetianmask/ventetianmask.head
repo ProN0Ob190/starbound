@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A Venetian mask and hat. What time is it? CARNIVALE!",
   "shortdescription" : "Venetian Mask",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

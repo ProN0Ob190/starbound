@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Chosen for its strength on the battlefield. The vanguard flak jacket has saved many lives.",
   "shortdescription" : "Vanguard's Flak Jacket",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

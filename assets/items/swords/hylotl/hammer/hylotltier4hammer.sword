@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Fishfighter. A hammer that will take down any fish.",
   "shortdescription" : "Fishfighter",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "hylotltier4hammer.png",

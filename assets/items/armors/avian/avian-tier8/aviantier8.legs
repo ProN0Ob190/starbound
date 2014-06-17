@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A lightweight pair of Violium-laced hotpants - not too tight, not too loose. Juuust right.",
   "shortdescription" : "Flamingo Skirt",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

@@ -1,7 +1,6 @@
 {
   "objectName" : "plantpanel",
   "rarity" : "Common",
-  "objectType" : "wire",
 
   "category" : "wire",
   "price" : 700,

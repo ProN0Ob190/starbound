@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Soldier's Leg Armour. Armour that really demands attenSHUN!",
   "shortdescription" : "Soldier's Leg Armour",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

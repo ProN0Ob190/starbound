@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A low quality merchant shirt.",
   "shortdescription" : "Merchant Shirt",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

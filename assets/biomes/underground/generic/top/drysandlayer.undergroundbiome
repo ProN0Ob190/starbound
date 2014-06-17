@@ -1,5 +1,7 @@
 {
   "name" : "drysandlayer",
+  "friendlyName" : "Drysandlayer",
+  "requiredStatuses" : [ "beamaxe" ],
 
   "undergroundParallax" : "rockunderground.undergroundparallax",
 

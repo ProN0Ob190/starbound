@@ -1,0 +1,17 @@
+{
+  "name" : "explosivePhlegmAttack",
+  "label" : "EXPLOSIVE PHLEGM",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "explosivePhlegmAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "explosivegoo",
+      "arc" : "low",
+      "range" : 15,
+      "speed" : 25,
+      "power" : 9,
+      "shots" : 1
+    }
+  }
+}

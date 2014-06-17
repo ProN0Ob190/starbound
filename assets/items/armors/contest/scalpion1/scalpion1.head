@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "There's a scorpion...on my scalp! A scalpion!",
   "shortdescription" : "Steel Scalpion",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

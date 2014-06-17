@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Thwacker. A decent hammer.",
   "shortdescription" : "Thwacker",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "florantier2hammer.png",

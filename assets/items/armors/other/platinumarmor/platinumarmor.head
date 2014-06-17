@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Platinum helmet. For the best and brightest.",
   "shortdescription" : "Platinum Helmet",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",

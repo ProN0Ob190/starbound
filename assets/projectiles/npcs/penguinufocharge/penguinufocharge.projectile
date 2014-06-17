@@ -2,7 +2,6 @@
   "projectileName" : "penguinufocharge",
   "frames" : "penguinufocharge.png",
   "animationCycle" : 0.25,
-  "level" : 3,
   "frameNumber" : 3,
   "damageKindImage" : "icon.png",
   "pointLight" : true,

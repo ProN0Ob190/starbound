@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Choppy Leaves. An axe decorated with leaves.",
   "shortdescription" : "Choppy Leaves",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "florantier3axe.png",

@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Zweifinger. Like a Zweihander, but tiny.",
   "shortdescription" : "Zweifinger",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "humantier6dagger.png",

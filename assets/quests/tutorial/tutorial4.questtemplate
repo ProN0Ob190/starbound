@@ -1,14 +1,14 @@
 {
   "id" : "tutorial4.gearup",
-  "title" : "^#9be3d6;Forging Ahead",
-  "text" : "Next we need to get you some armour. Working with metal requires an anvil but before we can craft one you'll need to melt some iron ore. ^green;Obtain 2x iron ore and smelt it in a furnace to obtain an ^orange;iron bar^white;.",
-  "completionText" : "Good Job! You'll need a whole bunch of iron bars to craft an anvil.",
+  "title" : "^#9be3d6;Old MacDonald",
+  "text" : "Ever wanted to be a farmer? If you can craft yourself a ^pink;Stone Hoe^white;, you could ^green;till a patch dirt and plant yourself some crops. ^white;There should have been some ^orange;wheat seeds ^white;in your ship locker. ^green;Plant and harvest three wheat crops.",
+  "completionText" : "Great job! Crops make an excellent renewable food source, and it's far less risky than hunting.",
   "conditions" : [
-    { "kind" : "gather", "item" : [ "ironbar", 1] }
+    { "kind" : "gatherTrigger", "trigger": "learn2farm", "count" : 3 }
   ],
-  "moneyRange" : [10, 10],
+  "moneyRange" : [300, 300],
   "rewards" : [
-    [ [ "ironbar", 1] ]
+    [ [ "wheat", 3] ]
   ],
   "planetMode" : "none",
   "questDungeons" : [ ],

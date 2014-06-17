@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Convenient AND fattening!",
   "shortdescription" : "Brewmaster Hat",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

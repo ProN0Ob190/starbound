@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Stone-on-a-Stick. A hammer shaped like a stone.",
   "shortdescription" : "Stone-on-a-Stick",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "aviantier3hammer.png",

@@ -6,6 +6,7 @@
   "shortdescription" : "Currentcorn Seed",
   "objectType" : "farmable",
   "printable" : false,
+  "price" : 154,
 
   "apexDescription" : "I've heard of currentcorn being used in outlandish torture scenarios.",
   "avianDescription" : "Acidic corn. Unpleasant and dangerous.",
@@ -65,12 +66,12 @@
   },
   "growing" : {
     "0" : {
-      "duration" : [2820, 2940],
+      "duration" : [615, 615],
       "success" : 1,
       "failure" : 3
     },
     "1" : {
-      "duration" : [2820, 2940],
+      "duration" : [615, 615],
       "success" : 2,
       "failure" : 3
     }

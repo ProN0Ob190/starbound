@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Trunkthunk. A hammer made from a tree trunk.",
   "shortdescription" : "Trunkthunk",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "florantier4hammer.png",

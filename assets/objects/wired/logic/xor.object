@@ -1,7 +1,6 @@
 {
   "objectName" : "xor",
   "rarity" : "Common",
-  "objectType" : "wire",
   "description" : "<An /'X Or'/ switch. Requires one input to be on, and one off.>",
   "shortdescription" : "X Or Switch",
   "race" : "human",

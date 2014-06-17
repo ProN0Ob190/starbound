@@ -33,7 +33,7 @@ end
 --------------------------------------------------------------------------------
 function boundingBox(offset)
   local position = entity.position()
-  if offset ~= nil then vec2.add(position, offset) end
+  if offset ~= nil then position = vec2.add(position, offset) end
 
   local bounds = entity.configParameter("metaBoundBox")
   return {

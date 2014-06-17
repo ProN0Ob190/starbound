@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Explorer's Leg Armour. This armour is perfect for exploring in.",
   "shortdescription" : "Explorer's Leg Armour",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

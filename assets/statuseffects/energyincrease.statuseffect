@@ -2,5 +2,5 @@
   "kind" : "energyincrease",
   "tooltipLabel" : "",
   "tooltipAmountLabel" : "%amount%",
-  "icon" : [ "/interface/inventory/lightningplus.png" ]
+  "icon" : [ "/interface/inventory/lightning.png" ]
 }

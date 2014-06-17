@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "As part of the florans organised offensive force, no expense is spared infusing a sentinel's armour with Violium.",
   "shortdescription" : "Sentinel's Breastplate",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chest.png",

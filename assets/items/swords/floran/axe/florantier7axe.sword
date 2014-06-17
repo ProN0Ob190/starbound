@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Chopflower. An axe with a flower on it.",
   "shortdescription" : "Chopflower",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "florantier7axe.png",

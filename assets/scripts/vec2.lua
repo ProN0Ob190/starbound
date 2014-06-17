@@ -6,49 +6,54 @@ function vec2.eq(vector1, vector2)
   return vector1[1] == vector2[1] and vector1[2] == vector2[2]
 end
 
-function vec2.dup(vector)
-  return { vector[1], vector[2] }
+function vec2.mag(vector)
+  return math.sqrt(vector[1] * vector[1] + vector[2] * vector[2])
 end
 
 function vec2.norm(vector)
-  local magnitude = world.magnitude(vector)
-  return vec2.div(vector, magnitude)
+  return vec2.div(vector, vec2.mag(vector))
 end
 
 function vec2.mul(vector, scalar)
-  vector[1] = vector[1] * scalar
-  vector[2] = vector[2] * scalar
-  return vector
+  return {
+      vector[1] * scalar,
+      vector[2] * scalar
+    }
 end
 
 function vec2.div(vector, scalar)
-  vector[1] = vector[1] / scalar
-  vector[2] = vector[2] / scalar
-  return vector
+  return {
+      vector[1] / scalar,
+      vector[2] / scalar
+    }
 end
 
 function vec2.add(vector, scalar_or_vector)
   if type(scalar_or_vector) == "table" then
-    vector[1] = vector[1] + scalar_or_vector[1]
-    vector[2] = vector[2] + scalar_or_vector[2]
+    return {
+        vector[1] + scalar_or_vector[1],
+        vector[2] + scalar_or_vector[2]
+      }
   else
-    vector[1] = vector[1] + scalar_or_vector
-    vector[2] = vector[2] + scalar_or_vector
+    return {
+        vector[1] + scalar_or_vector,
+        vector[2] + scalar_or_vector
+      }
   end
-
-  return vector
 end
 
 function vec2.sub(vector, scalar_or_vector)
   if type(scalar_or_vector) == "table" then
-    vector[1] = vector[1] - scalar_or_vector[1]
-    vector[2] = vector[2] - scalar_or_vector[2]
+    return {
+        vector[1] - scalar_or_vector[1],
+        vector[2] - scalar_or_vector[2]
+      }
   else
-    vector[1] = vector[1] - scalar_or_vector
-    vector[2] = vector[2] - scalar_or_vector
+    return {
+        vector[1] - scalar_or_vector,
+        vector[2] - scalar_or_vector
+      }
   end
-
-  return vector
 end
 
 function vec2.angle(vector)
@@ -62,12 +67,10 @@ function vec2.rotate(vector, angle)
   local sinAngle = math.sin(angle)
   local cosAngle = math.cos(angle)
 
-  vector = {
+  return {
     vector[1] * cosAngle - vector[2] * sinAngle,
     vector[1] * sinAngle + vector[2] * cosAngle,
   }
-
-  return vector
 end
 
 function vec2.intersect(a0, a1, b0, b1)

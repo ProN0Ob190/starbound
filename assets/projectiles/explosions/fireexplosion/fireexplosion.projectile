@@ -2,7 +2,6 @@
   "projectileName" : "fireexplosion",
   "frames" : "fireexplosion.png",
   "animationCycle" : 0.2,
-  "level" : 0,
   "frameNumber" : 6,
   "speed" : 0,
   "fallSpeed" : 0,

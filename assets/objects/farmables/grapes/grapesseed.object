@@ -6,6 +6,7 @@
   "shortdescription" : "Grape Seed",
   "objectType" : "farmable",
   "printable" : false,
+  "price" : 1376,
 
   "apexDescription" : "A luxury fruit. Grapes and bananas make a wonderful fruit salad. Sadly most Apex never get to taste them.",
   "avianDescription" : "Small, simple, peckable grapes.",
@@ -65,12 +66,12 @@
   },
   "growing" : {
     "0" : {
-      "duration" : [660, 780],
+      "duration" : [1530, 1530],
       "success" : 1,
       "failure" : 3
     },
     "1" : {
-      "duration" : [660, 780],
+      "duration" : [1530, 1530],
       "success" : 2,
       "failure" : 3
     }

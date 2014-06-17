@@ -2,14 +2,14 @@
   "name" : "commonhammer",
   "bladeBehindHandle" : false,
   "baseDps" : [2.5, 3.5],
-  "rateOfSwing" : [0.6, 2.2],
+  "rateOfSwing" : [0.6, 1.8],
   "multiplier" : 0.3,
   "firePosition" : [12.5, 3],
   "fireAfterWindup" : true,
   "muzzleFlashes" : [ ],
   "soundEffect" : [ "/sfx/melee/swing_hammer.wav" ],
   "kind" : "hammer",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
 
   "primaryStances" : {
     "directional" : false,

@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A jacket that has titanium shoulder guards and shock-resistant padding.",
   "shortdescription" : "Insurgent's Jacket",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

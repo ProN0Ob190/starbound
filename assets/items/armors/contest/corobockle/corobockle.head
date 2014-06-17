@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A person can be a hat too, right?",
   "shortdescription" : "Corobockle",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

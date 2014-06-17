@@ -1,5 +1,7 @@
 {
   "name" : "wilderness",
+  "friendlyName" : "Wilderness",
+  "requiredStatuses" : [ "beamaxe" ],
 
   "mainBlock" : "rock15",
   "subBlocks" : [ "dirt", "plantmatter", "hive" ],

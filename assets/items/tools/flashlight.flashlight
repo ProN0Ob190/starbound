@@ -7,7 +7,7 @@
   "description" : "A handy flashlight! Seems to be powered by my energy pool.",
   "shortdescription" : "Flashlight",
   "largeImage" : "flashlightlarge.png",
-  "inspectionKind" : "tool",
+  "tooltipKind" : "tool",
   "image" : "flashlight.png",
   "handPosition" : [-2, 0],
   "lightPosition" : [4, 0],

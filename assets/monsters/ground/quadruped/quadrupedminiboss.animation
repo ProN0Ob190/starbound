@@ -493,6 +493,28 @@
       ]
     },
 
+    "stun" : {
+      "emissionRate" : 5,
+      "particles" : [
+        {
+          "particle" : {
+            "type" : "animated",
+            "animation" : "/animations/sparkles/sparkle4.animation",
+            "size" : 1,
+            "position" : [-1.5, 0],
+            "destructionTime" : 7,
+            "initialVelocity" : [0, 0],
+            "finalVelocity" : [0, 0],
+            "timeToLive" : 0.7,
+            "layer" : "front",
+            "variance" : {
+              "position" : [1, 0.7]
+            }
+          }
+        }
+      ]
+    },
+
     "gust" : {
       "emissionRate" : 20,
       "particles" : [
@@ -707,6 +729,12 @@
       "type" : "flash",
       "time" : 0.25,
       "directives" : "fade=ffffff;0.5"
+    },
+
+    "recover" : {
+      "type" : "flash",
+      "time" : 0.25,
+      "directives" : "fade=33FF33;0.25"
     }
   }
 }

@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Treechopper. An axe made from a small tree.",
   "shortdescription" : "Treechopper",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "florantier5axe.png",

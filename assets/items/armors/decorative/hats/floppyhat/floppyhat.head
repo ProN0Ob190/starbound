@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "Perfect for taking tea on the lawn.",
   "shortdescription" : "Floppy Fancy Hat",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

@@ -1,5 +1,7 @@
 {
   "name" : "village",
+  "friendlyName" : "Village",
+  "requiredStatuses" : [ "beamaxe" ],
 
   "mainBlock" : "fadedblocks",
   "subBlocks" : [ "dirt", "rock19", "rock02" ],

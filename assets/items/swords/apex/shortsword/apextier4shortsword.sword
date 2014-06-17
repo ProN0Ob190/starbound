@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Beardtrimmer. A regular shortsword.",
   "shortdescription" : "Beardtrimmer",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "apextier4shortsword.png",

@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "The Creamer. A spiky hammer that looks like a corn cob.",
   "shortdescription" : "The Creamer",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "aviantier6hammer.png",

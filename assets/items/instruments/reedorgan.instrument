@@ -8,7 +8,7 @@
   "shortdescription" : "Reed Organ",
   "largeImage" : "keytargreen.png",
   "image" : "keytargreen.png",
-  "inspectionKind" : "tool",
+  "tooltipKind" : "tool",
   "activeImage" : "keytargreen.png",
   "activeAngle" : 0,
   "activeHandPosition" : [0.5, 0],

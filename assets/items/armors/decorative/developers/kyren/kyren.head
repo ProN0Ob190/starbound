@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Look like Kyren with these glasses.",
   "shortdescription" : "Kyren's Glasses",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

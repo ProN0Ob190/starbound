@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Ape Antics. A curvy, disconcerting blade.",
   "shortdescription" : "Ape Antics",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "apextier7broadsword.png",

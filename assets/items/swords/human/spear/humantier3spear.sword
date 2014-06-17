@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Prong Tomorrow. A futuristic-looking spear.",
   "shortdescription" : "Prong Tomorrow",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "humantier3spear.png",

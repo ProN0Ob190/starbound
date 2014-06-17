@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Great Protection... Unless it has teeth... or mandibles... or stingers.",
   "shortdescription" : "Hunter's Trousers",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

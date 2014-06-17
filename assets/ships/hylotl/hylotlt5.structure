@@ -1,0 +1,21 @@
+{
+  "config" : {
+    "capabilities" : ["planetTravel", "systemTravel"],
+    "fuelMax" : 1000
+  },
+
+  "backgroundOverlays" : [
+    {
+      "image" : "hylotlT5.png",
+      "position" : [68, 42],
+	  "unlit" : true
+    },
+    {
+      "image" : "hylotlT5lit.png",
+      "position" : [68, 42]
+    }
+  ],
+
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "hylotlT5blocks.png"
+}

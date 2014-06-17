@@ -1,0 +1,16 @@
+{
+  "id" : "glitchtutorial3.gearup",
+  "title" : "^#9be3d6;Food Fight",
+  "text" : "By now you're likely beginning to feel hungry. Food can be found in a variety of places but in a pinch hunting is your best option. ^green;Obtain some alien meat by killing a monster with a ^orange;bow ^green;and cook it on a campfire to produce ^orange;cooked alien meat^white;.",
+  "completionText" : "Enjoy! If meat's not your thing, there is another option!",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "cookedalienmeat", 1] }
+  ],
+  "moneyRange" : [10, 10],
+  "rewards" : [
+    [ [ "cookedalienmeat", 1] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "glitchtutorial4.gearup"
+}

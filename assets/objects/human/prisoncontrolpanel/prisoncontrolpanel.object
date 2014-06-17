@@ -1,7 +1,6 @@
 {
   "objectName" : "prisoncontrolpanel",
   "rarity" : "Common",
-  "objectType" : "wire",
 
   "description" : "A control panel that appears to operate lights, doors and alarms.",
   "shortdescription" : "Prison Control Panel",

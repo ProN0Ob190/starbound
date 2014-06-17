@@ -1,7 +1,6 @@
 {
   "objectName" : "bunkerhandscanner",
   "rarity" : "Common",
-  "objectType" : "wire",
   "description" : "It scans fingerprints to match personnel data.",
   "shortdescription" : "USCM Fingerprint Scanner",
   "race" : "human",

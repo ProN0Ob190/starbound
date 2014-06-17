@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Bios. A sword that'll split anyone in twain.",
   "shortdescription" : "Bios",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "glitchtier9broadsword.png",

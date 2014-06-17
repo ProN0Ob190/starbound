@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Chopberry. An axe with a berry on it.",
   "shortdescription" : "Chopberry",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "florantier6axe.png",

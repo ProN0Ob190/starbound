@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Few things are as intimidating as the expressionless stare from this Rubium plated helmet.",
   "shortdescription" : "Infiltrator's Helm",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

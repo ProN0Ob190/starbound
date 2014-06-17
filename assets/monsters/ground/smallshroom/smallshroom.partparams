@@ -5,16 +5,17 @@
     "runMultiplier" : [ "multiply", 1.0],
     "jumpMultiplier" : [ "multiply", 1.0],
 
-    "idleNoise" : [ "merge", [ ] ],
+    // "idleNoise" : [ "merge", [ ] ],
     "turnHostileNoise" : [ "merge", [ ] ],
-    "attackNoise" : [ "merge", [ ] ],
-    "painNoise" : [ "merge", [ ] ],
+    // "attackNoise" : [ "merge", [ ] ],
+    // "painNoise" : [ "merge", [ ] ],
     "deathNoise" : [ "merge", [ ] ],
 
     "baseSkills" : [ "merge", [ ] ],
     "specialSkills" : [ "merge", [ ] ],
 
-    "projectileSourcePosition" : [ "override", [0.0, -1.0] ]
+    "projectileSourcePosition" : [ "override", [0.0, -1.0] ],
+    "meleeProjectile" : [ "override", "chomp4" ]
   },
 
   "partParameters" : {

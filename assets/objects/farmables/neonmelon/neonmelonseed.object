@@ -6,6 +6,7 @@
   "shortdescription" : "Neon Melon Seed",
   "objectType" : "farmable",
   "printable" : false,
+  "price" : 165,
 
   "apexDescription" : "Juicy, tasty melon. Goes well with banana.",
   "avianDescription" : "A juicy melon, filled with delicious glowing seeds.",
@@ -65,12 +66,12 @@
   },
   "growing" : {
     "0" : {
-      "duration" : [2820, 2940],
+      "duration" : [660, 660],
       "success" : 1,
       "failure" : 3
     },
     "1" : {
-      "duration" : [2820, 2940],
+      "duration" : [660, 660],
       "success" : 2,
       "failure" : 3
     }

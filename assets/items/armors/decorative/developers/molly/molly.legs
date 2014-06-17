@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Look Like Molly with this dress.",
   "shortdescription" : "Molly's Dress",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Sunborn Fury. An axe decorated with an Avian skull.",
   "shortdescription" : "Sunborn Fury",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "aviantier10axe.png",

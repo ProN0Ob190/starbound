@@ -1,7 +1,6 @@
 {
   "objectName" : "spawnerwizard",
   "rarity" : "Common",
-  "objectType" : "wire",
   "description" : "Spawn your very own wizard!",
   "shortdescription" : "Wizard Spawner",
   "race" : "human",

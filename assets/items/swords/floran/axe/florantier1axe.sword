@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Choppy Thing. A basic Floran axe.",
   "shortdescription" : "Choppy Thing",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "florantier1axe.png",

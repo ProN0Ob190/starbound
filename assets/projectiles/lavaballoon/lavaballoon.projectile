@@ -2,7 +2,6 @@
   "projectileName" : "lavaballoon",
   "physics" : "grenade",
   "frames" : "lavaballoon.png",
-  "level" : 3,
   "animationCycle" : 0.5,
   "frameNumber" : 2,
 

@@ -5,7 +5,6 @@
   "parts" : [ "arms", "chest", "tail", "head" ],
 
   "animation" : "skeyejelly.animation",
-  "projectiles" : "/monsters/projectiles.config",
   "colors" : "/monsters/colors.config",
   "reversed" : true,
 
@@ -16,11 +15,15 @@
       "/scripts/util.lua",
       "/scripts/vec2.lua",
 
-      "/monsters/ground/aggressState.lua",
+      "/monsters/ground/aggroHopState.lua",
+      "/monsters/ground/approachState.lua",
+      "/monsters/ground/fleeState.lua",
+      "/monsters/ground/stunState.lua",
       "/monsters/ground/knockoutState.lua",
-      "/monsters/ground/wanderState.lua"
+      "/monsters/ground/wanderState.lua",
+
+      "/monsters/ground/createGroundRangedAttack.lua"
     ],
-    "scriptDelta" : 5,
 
     "territoryDistance" : 40.0,
     "territorialTargetRadius" : 20.0,
@@ -38,11 +41,12 @@
 
     "jumpTargetDistance" : 4,
     "jumpTime" : [0.8, 1.4],
+    "jumpNoise" : [ ],
 
     "knockoutTime" : 0.5,
     "knockoutEffect" : "blink",
     "deathParticles" : "deathPoof",
-    "deathNoise" : [ "/sfx/projectiles/bubble_pop.wav" ],
+    "deathNoise" : [ "/sfx/npc/enemydeathpuff.wav" ],
 
     "exhaustionTimer" : 3.0,
     "exhaustionTimeout" : 3.0,
@@ -55,22 +59,10 @@
 
   "familyParameters" : [
     [
-
       {
-        "attackStartDistance" : 7.0,
-        "attackMaxDistance" : 20,
-        "attackCooldownTime" : 0.5,
-        "attackTime" : 0.75,
-        "skillCount" : 4,
-        "skills" : [ "pounceAttack", "meleeAttack", "chargeAttack", "bubbleBlastRangedAttack" ],
-        "pounceAttackJumpHoldTime" : 1.0,
-        "pounceAttackWindupTime" : 1.0,
-        "pounceAttackCooldown" : 1.0,
-        "chargeAttackWindupTime" : 1.0,
-        "chargeAttackAttackDistance" : 5.0,
-        "chargeAttackProjectile" : null,
-        "shooterSkillName" : "rangedAttack",
-        "shooterGiveUpTolerance" : 20.0
+        "skillCount" : 2,
+        "baseSkills" : [ "rushAttack" ],
+        "specialSkills" : [ "bubbleBlastAttack" ]
       }
     ]
   ],
@@ -127,10 +119,10 @@
     "runMultiplier" : [ "multiply", 0.8],
     "jumpMultiplier" : [ "multiply", 1.0],
 
-    "idleNoise" : [ "merge", [ ] ],
+    // "idleNoise" : [ "merge", [ ] ],
     "turnHostileNoise" : [ "merge", [ ] ],
-    "attackNoise" : [ "merge", [ ] ],
-    "painNoise" : [ "merge", [ ] ],
+    // "attackNoise" : [ "merge", [ ] ],
+    // "painNoise" : [ "merge", [ ] ],
     "deathNoise" : [ "merge", [ ] ],
 
     "projectileSourcePosition" : [ "override", [0.0, 0.0] ]

@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "The top of some monk robes.",
   "shortdescription" : "Monk Shirt",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

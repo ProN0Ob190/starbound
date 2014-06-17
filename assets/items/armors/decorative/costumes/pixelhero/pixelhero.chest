@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "A pixel hero's shirt.",
   "shortdescription" : "Pixel Hero Shirt",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

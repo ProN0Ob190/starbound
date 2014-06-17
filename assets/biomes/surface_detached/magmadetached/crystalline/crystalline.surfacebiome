@@ -1,5 +1,6 @@
 {
   "name" : "crystalline",
+  "friendlyName" : "Crystalline",
 
   "surfaceParameters" : {
     "mainBlock" : "obsidian",

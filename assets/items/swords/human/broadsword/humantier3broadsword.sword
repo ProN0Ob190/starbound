@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Awesome Broadsword. A regular broadsword made to look awesome.",
   "shortdescription" : "Awesome Broadsword",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "humantier3broadsword.png",

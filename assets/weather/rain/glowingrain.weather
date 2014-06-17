@@ -1,5 +1,6 @@
 {
   "name" : "glowingrain",
+  "icon" : "/interface/cockpit/weather/glowingrain.png",
 
   "projectiles" : [
     {

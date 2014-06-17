@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Treeshredder. A serrated spear with a leaf on it.",
   "shortdescription" : "Treeshredder",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "florantier9spear.png",

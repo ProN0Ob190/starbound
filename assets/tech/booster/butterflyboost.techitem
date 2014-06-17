@@ -4,7 +4,7 @@
   "inventoryIcon" : "/tech/butterflyboost.png",
   "description" : "Press and hold Jump in the air to float around with this Butterfly Boost tech.",
   "shortdescription" : "Butterfly Boost",
-  "inspectionKind" : "tech",
+  "tooltipKind" : "tech",
 
   "techModule" : "butterflyboost.tech"
 }

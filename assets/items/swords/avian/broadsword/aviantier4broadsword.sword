@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Eye of the Storm. A sword with a gem encased in it.",
   "shortdescription" : "Eye of the Storm",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "aviantier4broadsword.png",

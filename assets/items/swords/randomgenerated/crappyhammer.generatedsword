@@ -9,7 +9,7 @@
   "muzzleFlashes" : [ ],
   "soundEffect" : [ "/sfx/melee/swing_hammer.wav" ],
   "kind" : "crappyhammer",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
 
   "primaryStances" : {
     "directional" : false,

@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Parts of this steel breastplate are dyed to match the wearers aquatic mount.",
   "shortdescription" : "Pond Breastplate",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

@@ -6,6 +6,7 @@
   "shortdescription" : "Pussplum Seed",
   "objectType" : "farmable",
   "printable" : false,
+  "price" : 1390,
 
   "apexDescription" : "Pussplums taste better than they look or sound.",
   "avianDescription" : "Small, juicy, easily digestible delicacies. Can be served rolled in seeds.",
@@ -65,12 +66,12 @@
   },
   "growing" : {
     "0" : {
-      "duration" : [660, 780],
+      "duration" : [1545, 1545],
       "success" : 1,
       "failure" : 3
     },
     "1" : {
-      "duration" : [660, 780],
+      "duration" : [1545, 1545],
       "success" : 2,
       "failure" : 3
     }

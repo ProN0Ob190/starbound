@@ -44,6 +44,19 @@ function util.incWrap(value, max)
 end
 
 --------------------------------------------------------------------------------
+function util.wrapAngle(angle)
+  while angle >= 2 * math.pi do
+    angle = angle - 2 * math.pi
+  end
+
+  while angle < 0 do
+    angle = angle + 2 * math.pi
+  end
+
+  return angle
+end
+
+--------------------------------------------------------------------------------
 function util.trackTarget(distance, switchTargetDistance)
   local targetIdWas = self.targetId
 
@@ -126,5 +139,44 @@ function util.wait(duration, action)
 
     timer = timer - dt
     coroutine.yield(false)
+  end
+end
+
+--------------------------------------------------------------------------------
+--get the firing angle to hit a target offset with a ballistic projectile
+function util.aimVector(targetVector, v, gravityMultiplier, useHighArc)
+  local x = targetVector[1]
+  local y = targetVector[2]
+  local g = gravityMultiplier * world.gravity(entity.position())
+  local reverseGravity = false
+  if g < 0 then
+    reverseGravity = true
+    g = -g
+    y = -y
+  end
+
+  local term1 = math.pow(v, 4) - (g * ((g * x * x) + (2 * y * v * v)))
+
+  if term1 >= 0 then
+    local term2 = math.sqrt(term1)
+    local divisor = g * x
+    local aimAngle = 0
+
+    if divisor ~= 0 then
+      if useHighArc then
+        aimAngle = math.atan2(v * v + term2, divisor)
+      else
+        aimAngle = math.atan2(v * v - term2, divisor)
+      end
+    end
+
+    if reverseGravity then
+      aimAngle = -aimAngle
+    end
+
+    return {v * math.cos(aimAngle), v * math.sin(aimAngle)}
+  else
+    --if out of range, normalize to 45 degree angle
+    return {(targetVector[1] > 0 and v or -v) * math.cos(math.pi / 4), v * math.sin(math.pi / 4)}
   end
 end

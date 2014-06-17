@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Doublefin. An axe shaped like dual fins.",
   "shortdescription" : "Doublefin",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "hylotltier5axe.png",

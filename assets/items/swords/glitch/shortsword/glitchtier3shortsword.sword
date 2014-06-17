@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Premium 1.0. A nice Glitch shortsword.",
   "shortdescription" : "Premium 1.0",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "glitchtier3shortsword.png",

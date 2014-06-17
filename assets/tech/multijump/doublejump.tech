@@ -1,5 +1,5 @@
 {
-  "script" : "multijump.lua",
+  "scripts" : ["multijump.lua"],
   "actions" : [ "multiJump" ],
   "animator" : "multijump.animation",
 

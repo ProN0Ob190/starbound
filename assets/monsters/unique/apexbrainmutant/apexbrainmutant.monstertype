@@ -5,7 +5,6 @@
   "parts" : [ "body", "arm" ],
 
   "animation" : "apexbrainmutant.animation",
-  "projectiles" : "/monsters/unique/apexbrainmutant/projectiles.config",
   "colors" : "/monsters/colors.config",
 
   "dropPools" : [ "apexmutanttreasure" ],
@@ -18,8 +17,6 @@
       "/scripts/util.lua",
       "/scripts/vec2.lua"
     ],
-
-    "scriptDelta" : 5,
 
     "damageTeam" : 1,
 

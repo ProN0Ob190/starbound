@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Apestooth. A hooked axe.",
   "shortdescription" : "Apestooth",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "apextier4axe.png",

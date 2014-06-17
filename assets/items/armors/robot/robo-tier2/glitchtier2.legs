@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "The lifespan of a glitch soldier is as short as these pants.",
   "shortdescription" : "Soldier's Pants",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

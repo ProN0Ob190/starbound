@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Hawkbill. A hooked axe.",
   "shortdescription" : "Hawkbill",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "aviantier5axe.png",

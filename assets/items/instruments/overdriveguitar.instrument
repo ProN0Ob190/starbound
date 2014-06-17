@@ -8,7 +8,7 @@
   "shortdescription" : "Overdrive Guitar",
   "largeImage" : "overdriveguitar.png",
   "image" : "overdriveguitar.png",
-  "inspectionKind" : "tool",
+  "tooltipKind" : "tool",
   "activeImage" : "overdriveguitar.png",
   "activeAngle" : -80,
   "activeHandPosition" : [0.1, 0.9],

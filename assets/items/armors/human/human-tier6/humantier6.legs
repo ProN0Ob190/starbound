@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "These pants count the number of steps you take through sophisticated circuitry.",
   "shortdescription" : "Seeker's Pants",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

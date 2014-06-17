@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Curlycrush. A curly, spiky hammer.",
   "shortdescription" : "Curlycrush",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "florantier7hammer.png",

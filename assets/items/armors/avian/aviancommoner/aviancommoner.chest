@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A typical Avian commoner shirt.",
   "shortdescription" : "Avian Commoner Shirt",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

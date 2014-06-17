@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Stay protected with these fashionable armoured trousers.",
   "shortdescription" : "Armoured Trousers",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

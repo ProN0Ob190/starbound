@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "The leaf censors stuff children shouldn't see!",
   "shortdescription" : "Floran Leaf Chest",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

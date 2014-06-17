@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Dead animal skin and fur makes me warm.",
   "shortdescription" : "Floran Pelt Chest",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

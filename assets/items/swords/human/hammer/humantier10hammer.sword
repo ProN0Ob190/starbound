@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Timmy. The lord of all mallets.",
   "shortdescription" : "Timmy",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "humantier10hammer.png",

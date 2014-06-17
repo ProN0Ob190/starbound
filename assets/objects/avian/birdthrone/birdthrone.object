@@ -17,20 +17,33 @@
   "inventoryIcon" : "birdthroneicon.png",
   "orientations" : [
     {
-      "dualImage" : "birdthrone.png:<color>",
-
-      "imagePosition" : [-8, 0],
+      "image" : "birdthrone.png:<color>",
+	  "sitCoverImage" : "/objects/avian/birdthrone/birdthronecover.png",
+      "imagePosition" : [-6, 0],
       "frames" : 1,
-      "animationCycle" : 1.0,
+      "animationCycle" : 0.5,
 
       "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+      "anchors" : [ "bottom" ],
+	  "flipImages" : true,
+	  "direction" : "left",
+      "sitPosition" : [0.6, 19.5]
+    },
+	{
+      "image" : "birdthrone.png:<color>",
+	  "sitCoverImage" : "/objects/avian/birdthrone/birdthronecover.png",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
 
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "direction" : "right",
+      "sitPosition" : [0.6, 19.5]
     }
   ],
 
   "objectType" : "loungeable",
-  "sitFlipDirection" : false,
-  "sitPosition" : [3, 20]
+  "sitFlipDirection" : false
 
 }

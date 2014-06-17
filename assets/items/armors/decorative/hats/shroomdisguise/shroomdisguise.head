@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Shroom Disguise",
   "shortdescription" : "Shroom Disguise Mask",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

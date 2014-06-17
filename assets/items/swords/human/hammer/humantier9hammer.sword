@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Lifecrusher. A very lethal hammer.",
   "shortdescription" : "Lifecrusher",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "humantier9hammer.png",

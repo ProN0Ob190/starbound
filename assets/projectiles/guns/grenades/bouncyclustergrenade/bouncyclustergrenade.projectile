@@ -2,7 +2,6 @@
   "projectileName" : "bouncyclustergrenade",
   "physics" : "grenade",
   "bounces" : -1,
-  "level" : 3,
   "timeToLive" : 0.7,
   "damageKindImage" : "icon.png",
   "frames" : "bouncyclustergrenade.png",

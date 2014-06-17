@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Nastyslice. A sword that really hurts.",
   "shortdescription" : "Nastyslice",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "florantier4shortsword.png",

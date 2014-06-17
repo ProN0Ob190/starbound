@@ -40,10 +40,10 @@ function setAimAngle(basePosition, targetAimAngle)
   local facingDirection = entity.direction()
   local aimVector = vec2.rotate(world.distance(tipPosition, basePosition), aimAngle * facingDirection)
 
-  tipPosition = vec2.add(vec2.dup(basePosition), aimVector)
+  tipPosition = vec2.add(basePosition, aimVector)
   tipOffset = world.distance(tipPosition, entity.position())
 
-  vec2.norm(aimVector)
+  aimVector = vec2.norm(aimVector)
 
   local laserVector = vec2.mul(aimVector, entity.configParameter("maxLaserLength"))
   local laserEndpoint = vec2.add({ tipPosition[1], tipPosition[2] }, laserVector)
@@ -195,12 +195,11 @@ function attackState.update(dt, stateData)
   else
     stateData.fireTimer = stateData.fireTimer - dt
     if stateData.fireTimer <= 0 then
-      local fireDirection = vec2.norm(vec2.sub(vec2.dup(laserEndpoint), laserOrigin))
-      local firePosition = vec2.dup(laserOrigin)
+      local fireDirection = vec2.norm(vec2.sub(laserEndpoint, laserOrigin))
       local fireOffsets = entity.configParameter("fireOffsets")
       local fireOffset = fireOffsets[stateData.fireOffsetIndex]
       local orthoDirection = { -fireDirection[2], fireDirection[1] }
-      vec2.add(firePosition, vec2.mul(orthoDirection, fireOffset))
+      local firePosition = vec2.add(laserOrigin, vec2.mul(orthoDirection, fireOffset))
 
       world.spawnProjectile("bullet-1", firePosition, entity.id(), fireDirection)
 

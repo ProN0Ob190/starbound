@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Fruitpicker. A spiky spear.",
   "shortdescription" : "Fruitpicker",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "apextier2spear.png",

@@ -1,0 +1,15 @@
+{
+  "materialId" : 24,
+  "materialName" : "mirror",
+  "frames" : "mirror.png",
+  "particleColor" : [110, 110, 110, 255],
+  "variants" : 1,
+  "itemDrop" : "mirror",
+  "description" : "A non-functioning mirror block!",
+  "shortdescription" : "Mirror Block",
+  "glitchDescription" : "Statement. A mirror block.",
+  "floranDescription" : "Ssshiny.",
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "health" : 4
+}

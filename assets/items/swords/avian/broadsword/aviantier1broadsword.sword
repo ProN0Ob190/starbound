@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "The Carver XL. A sword perfect for carving meat.",
   "shortdescription" : "The Carver XL",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "aviantier1broadsword.png",

@@ -1,5 +1,6 @@
 {
   "name" : "storm",
+  "icon" : "/interface/cockpit/weather/thunder.png",
 
   "particles" : [
     {

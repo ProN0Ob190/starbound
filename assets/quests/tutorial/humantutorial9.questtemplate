@@ -1,0 +1,16 @@
+{
+  "id" : "humantutorial9.gearup",
+  "title" : "^#9be3d6;",
+  "text" : "Looks like you have a pretty solid grasp on things now! These skills you've developed will surely help you in your journey. Unfortunately, you're not going anywhere without a functioning ^orange;fuel hatch^white;. Luckily, ^green;the 3D Printer onboard your ship has the necessary blueprints to produce a new one ^white;if you've got ^orange;1000 pixels ^white;handy.",
+  "completionText" : "Excellent! Now all you have to do is put the hatch somewhere on your ship and load it with fuel. ^orange;Coal ^white;should do the trick!",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "humanfuelhatch", 1] }
+  ],
+  "moneyRange" : [250, 250],
+  "rewards" : [
+    [ [ "humanfuelhatch", 1] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : ""
+}

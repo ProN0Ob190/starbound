@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "The floran sentinel's helm is made from foes with particularly hard skin.",
   "shortdescription" : "Sentinel's Helm",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

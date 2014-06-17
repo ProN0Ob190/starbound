@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Some say that these Rubium leg-coverings grant their wearer mythical swiftness. Others say that it's all made up.",
   "shortdescription" : "Phoenix Greaves",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pantsm.png",
   "femaleFrames" : "pantsf.png",

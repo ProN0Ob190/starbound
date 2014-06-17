@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Monkey's Molar. A hammer shaped like a huge tooth.",
   "shortdescription" : "Monkey's Molar",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "apextier2hammer.png",

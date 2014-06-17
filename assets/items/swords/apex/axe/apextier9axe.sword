@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Miniknog Berserker. A hugely strong axe.",
   "shortdescription" : "Miniknog Berserker",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "apextier9axe.png",

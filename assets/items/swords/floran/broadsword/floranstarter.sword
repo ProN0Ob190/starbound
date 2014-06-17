@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "A broken sword. Looks like a Floran's chewed on it.",
   "shortdescription" : "Broken Venus Sword",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "floranstarter.png",

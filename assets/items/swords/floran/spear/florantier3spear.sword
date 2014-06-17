@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Strippoker. A spear on a fancy stick.",
   "shortdescription" : "Strippoker",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "florantier3spear.png",

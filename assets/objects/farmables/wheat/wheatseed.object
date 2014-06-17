@@ -6,6 +6,7 @@
   "shortdescription" : "Wheat Seed",
   "objectType" : "farmable",
   "printable" : false,
+  "price" : 84,
 
   "apexDescription" : "Wheat is unpleasant on its own, but can be used to make banana bread.",
   "avianDescription" : "Delicious on its own, or when used to make breadcrumbs.",
@@ -65,12 +66,12 @@
   },
   "growing" : {
     "0" : {
-      "duration" : [300, 420],
+      "duration" : [378, 378],
       "success" : 1,
       "failure" : 3
     },
     "1" : {
-      "duration" : [300, 420],
+      "duration" : [378, 378],
       "success" : 2,
       "failure" : 3
     }

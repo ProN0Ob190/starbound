@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Bananaxe. The blade is shaped like a banana.",
   "shortdescription" : "Bananaxe",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "apextier2axe.png",

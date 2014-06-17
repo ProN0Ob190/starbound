@@ -2,7 +2,6 @@
   "projectileName" : "bomb",
   "frames" : "bomb.png",
   "physics" : "stickybomb",
-  "level" : 3,
   "animationCycle" : 2,
   "frameNumber" : 4,
   "power" : 50,

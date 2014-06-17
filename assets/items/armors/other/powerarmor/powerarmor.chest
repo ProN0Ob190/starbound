@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Power Armour Chestpiece. Heavy-duty armour.",
   "shortdescription" : "Power Armour Chestpiece",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chest.png",

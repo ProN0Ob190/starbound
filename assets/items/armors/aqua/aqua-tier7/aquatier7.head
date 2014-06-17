@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "This Cerulium helm is built for exploration of the deep.",
   "shortdescription" : "Ocean Helm",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

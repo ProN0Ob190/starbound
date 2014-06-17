@@ -9,7 +9,7 @@
   "muzzleFlashes" : [ ],
   "soundEffect" : [ "/sfx/melee/swing_hammer.wav" ],
   "kind" : "candycane",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
 
   "primaryStances" : {
     "directional" : false,

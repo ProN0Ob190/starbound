@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Low quality merchant pants",
   "shortdescription" : "Merchant Pants",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

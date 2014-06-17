@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Microchip. A hammer with a chisel-like edge.",
   "shortdescription" : "Microchip",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "glitchtier5hammer.png",

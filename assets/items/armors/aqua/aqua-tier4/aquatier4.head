@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "The durasteel helm of the lake wardens is built for defense.",
   "shortdescription" : "Lake Helm",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

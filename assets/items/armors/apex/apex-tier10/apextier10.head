@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "This hood suits the dark demeanour of those who have overthrown regimes singlehandedly.",
   "shortdescription" : "Usurper's Hood",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

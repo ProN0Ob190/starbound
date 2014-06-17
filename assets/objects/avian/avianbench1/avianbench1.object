@@ -17,19 +17,31 @@
   "inventoryIcon" : "avianbench1icon.png",
   "orientations" : [
     {
-      "dualImage" : "avianbench1.png:<color>",
+      "image" : "avianbench1.png:<color>",
       "imagePosition" : [-20, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
 
       "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+      "anchors" : [ "bottom" ],
+	  "flipImages" : true,
+	  "direction" : "left",
+      "sitPosition" : [0, 22]
+    },
+	{
+      "image" : "avianbench1.png:<color>",
+      "imagePosition" : [-20, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
 
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "direction" : "right",
+      "sitPosition" : [0, 22]
     }
   ],
 
   "objectType" : "loungeable",
-  "sitFlipDirection" : false,
-  "sitPosition" : [5, 22]
+  "sitFlipDirection" : false
 
 }

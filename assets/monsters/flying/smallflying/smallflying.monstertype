@@ -5,14 +5,7 @@
   "parts" : [ "body", "head", "wings" ],
   "partParameters" : "smallflying.partparams",
 
-  "spawnParameters" : {
-    "area" : "air",
-    "region" : "aboveground",
-    "time" : "day"
-  },
-
   "animation" : "smallflying.animation",
-  "projectiles" : "/monsters/projectiles.config",
   "colors" : "/monsters/colors.config",
   "reversed" : true,
 
@@ -58,8 +51,6 @@
       "/scripts/vec2.lua"
     ],
 
-    "scriptDelta" : 5,
-
     "metaBoundBox" : [-2.5, -2.5, 2.5, 2.5],
     "scale" : 1.0,
 
@@ -72,7 +63,7 @@
       "jumpSpeed" : 5,
       "flySpeed" : 16,
       "airFriction" : 0.5,
-      "airForce" : 30.0
+      "airForce" : 40.0
     },
 
     "inateStatusEffects" : [
@@ -82,14 +73,14 @@
       }
     ],
 
-    "targetRadius" : 20.0,
+    "targetRadius" : 18.0,
     "targetSearchTime" : 0.5,
     "targetHoldTime" : 3.0,
 
     "blockedSensors" : [ [1.5, -1.1], [1.5, -0.5], [1.5, 0.5], [1.5, 1.1] ],
     "upSensors" : [ [-0.75, -1.8], [0.75, -1.8], [1.5, -1.8] ],
     "downSensors" : [ [-0.75, 1.8], [0.75, 1.8], [1.5, 1.8] ],
-    "groundSensors" : [ [0.0, -2.0], [0.0, -6.0], [0.0, -10.0] ],
+    "groundSensors" : [ [0.0, -2.0], [0.0, -6.0], [0.0, -15.0], [0.0, -30.0] ],
     "ceilingSensors" : [ [0.0, 2.0], [0.0, 6.0], [0.0, 10.0] ],
     "environmentSensors" : [ [0.0, 0.0], [0.0, 2.0], [0.0, -2.0], [2.0, 0.0], [-2.0, 0.0], [2.0, 2.0], [2.0, -2.0], [-2.0, 2.0], [-2.0, -2.0] ],
 
@@ -98,7 +89,7 @@
     "knockoutTime" : 1,
     "knockoutEffect" : "blink",
     "deathParticles" : "deathPoof",
-    "deathNoise" : [ "/sfx/projectiles/bubble_pop.wav" ],
+    "deathNoise" : [ "/sfx/npc/enemydeathpuff.wav" ],
     "turnHostileNoise" : [ ],
 
     "touchDamage" : {
@@ -127,15 +118,23 @@
         "attackMaxDistance" : 20.0,
         "attackCooldownTime" : 1.5,
         "scripts" : [
+          "/monsters/flying/skills/createFlyingRangedAttack.lua",
           "/monsters/flying/circleState.lua",
           "/monsters/flying/wanderState.lua",
-          "/monsters/flying/glideState.lua",
-          "/monsters/flying/landState.lua"
+          "/monsters/flying/landState.lua" ,
+          "/monsters/flying/turnState.lua"
         ],
 
-        "wanderLiftSpeed" : 0.2,
+        "wanderRiseSpeed" : 0.9,
+        "wanderRiseTimeRange" : [0.5, 2.0],
+        "wanderGlideSpeed" : 0.6,
+        "wanderGlideTimeRange" : [1.0, 4.0],
         "wanderFormationOffset" : 2.0,
         "wanderSpeedMultiplier" : 0.4,
+        "wanderEndChance" : 0.2,
+
+        "turnTime" : 1.0,
+        "turnTiltRatio" : 0.5,
 
         "circleWidthRange" : [8.0, 12.0],
         "circleHeight" : 0.75,
@@ -149,28 +148,31 @@
 
         "glideTime" : 1.0,
         "glideCooldownTime" : 10.0,
-        "glideSinkingSpeed" : 0.8,
+        "glideSinkingSpeed" : 0.4,
         "glideSpiralDispersion" : 0.2,
 
-        "baseSkills" : [
-          "flyingSwoopBounceAttack",
-          "airflameBurstRangedAttack",
-          "airbubbleBlastRangedAttack",
-          "airfireball",
-          "airacidicspit",
-          "airbarbspray",
-          "airexplosivephlegm",
-          "airsonicscream",
-          "airtwistingpulse",
-          "airacidspray",
-          "airshockingbolt",
-          "airshockball",
-          "airgasbelch",
-          "airiceblast",
-          "airrockshot",
-          "airbloodvomit",
-          "airfireswirl",
-          "airdarkplasma"
+        "baseSkills" : [ "flyingSwoopBounceAttack" ],
+        "specialSkills" : [
+          "acidicSpitAttack",
+          "acidSprayAttack",
+          "barbSprayAttack",
+          "bloodVomitAttack",
+          "bubbleBlastAttack",
+          "darkPlasmaAttack",
+          "explosivePhlegmAttack",
+          "fireballAttack",
+          "fireSwirlAttack",
+          "flameBurstAttack",
+          "flySwarmAttack",
+          "gasBelchAttack",
+          "iceBlastAttack",
+          "iceShotAttack",
+          "rockShotAttack",
+          "shockBallAttack",
+          "shockingBoltAttack",
+          "sonicScreamAttack",
+          "sonicWaveAttack",
+          "twistingPulseAttack"
         ]
       }
     ]

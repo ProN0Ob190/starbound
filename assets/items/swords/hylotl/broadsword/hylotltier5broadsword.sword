@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Lilyblade. A blade with a lilypad hilt.",
   "shortdescription" : "Lilyblade",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "hylotltier5broadsword.png",

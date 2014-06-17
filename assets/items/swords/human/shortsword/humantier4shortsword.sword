@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "The Compensator. The blacksmith is getting carried away now.",
   "shortdescription" : "The Compensator",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "humantier4shortsword.png",

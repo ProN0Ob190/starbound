@@ -2,7 +2,6 @@
   "projectileName" : "electrogrenade",
   "physics" : "grenadezbomb",
   "bounces" : 0,
-  "level" : 15,
   "timeToLive" : 8,
   "frames" : "electrogrenade.png",
   "animationCycle" : 0.4,

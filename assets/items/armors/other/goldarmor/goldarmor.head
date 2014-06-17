@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Gold helmet. For the decadent.",
   "shortdescription" : "Gold Helmet",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",

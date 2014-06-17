@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Slashmaster. A tiny, lethal dagger.",
   "shortdescription" : "Slashmaster",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "florantier10dagger.png",

@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "The dark knight's durasteel helm clouds the face in mystery.",
   "shortdescription" : "Dark Knight's Helm",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

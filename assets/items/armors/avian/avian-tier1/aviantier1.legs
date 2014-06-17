@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "And Kluex said, \"Let there be iron-girded loincloths.\"",
   "shortdescription" : "Hatchling's Loincloth",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

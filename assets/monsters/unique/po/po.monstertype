@@ -5,7 +5,6 @@
   "parts" : [ "body" ],
 
   "animation" : "po.animation",
-  "projectiles" : "/monsters/projectiles.config",
   "colors" : "/monsters/colors.config",
   "reversed" : true,
 
@@ -21,8 +20,6 @@
       "/scripts/util.lua",
       "/scripts/vec2.lua"
     ],
-
-    "scriptDelta" : 5,
 
     "metaBoundBox" : [-0.75, -1.125, 0.875, 0.25],
     "scale" : 1.0,

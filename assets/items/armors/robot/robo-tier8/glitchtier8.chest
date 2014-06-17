@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "the templar's breastplate is forged of Violium, an additional templar brain warns of incoming blows.",
   "shortdescription" : "Templar's Breastplate",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chest.png",

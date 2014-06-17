@@ -2,7 +2,7 @@
   "name" : "uzi",
   "maxStack" : 1,
   "rarity" : "common",
-  "inspectionKind" : "gun",
+  "tooltipKind" : "gun",
   "handPosition" : [0, 1],
   "firePosition" : [2, 9],
   "weaponType" : "Uzi",

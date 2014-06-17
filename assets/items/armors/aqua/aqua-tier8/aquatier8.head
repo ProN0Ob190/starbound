@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "The euphos are charged with tending to hyltol spawn close to the surface.",
   "shortdescription" : "Euphotic Helm",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

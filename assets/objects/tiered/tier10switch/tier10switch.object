@@ -1,7 +1,6 @@
 {
   "objectName" : "tier10switch",
   "printable" : false,
-  "objectType" : "wire",
   "rarity" : "Common",
   "category" : "wire",
   "price" : 100,

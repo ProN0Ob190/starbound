@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "This bandana and blindfold are perfect for the budding Revolutionary.",
   "shortdescription" : "Revolutionary's Bandana",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "A sharp hunting knife, makes monsters drop meat.",
   "shortdescription" : "Hunting Knife",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
   "twoHanded" : true,
 

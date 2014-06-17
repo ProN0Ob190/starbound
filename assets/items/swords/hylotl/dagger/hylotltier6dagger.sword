@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Detailer. A thick, strong dagger.",
   "shortdescription" : "Detailer",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "hylotltier6dagger.png",

@@ -36,10 +36,10 @@ function setAimAngle(basePosition, targetAimAngle)
   local facingDirection = entity.direction()
   local aimVector = vec2.rotate(world.distance(tipPosition, basePosition), aimAngle * facingDirection)
 
-  tipPosition = vec2.add(vec2.dup(basePosition), aimVector)
+  tipPosition = vec2.add(basePosition, aimVector)
   tipOffset = world.distance(tipPosition, entity.position())
 
-  vec2.norm(aimVector)
+  aimVector = vec2.norm(aimVector)
   --monster.setFireDirection(tipOffset, aimVector)
 
   local laserVector = vec2.mul(aimVector, entity.configParameter("maxLaserLength"))

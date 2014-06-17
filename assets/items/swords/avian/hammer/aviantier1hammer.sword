@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Brick-on-a-Stick. A chunk of iron on a stick.",
   "shortdescription" : "Brick-on-a-Stick",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "aviantier1hammer.png",

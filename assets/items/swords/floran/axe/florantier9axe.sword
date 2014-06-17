@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Bonechopper. An axe decorated with a skull. Chilling.",
   "shortdescription" : "Bonechopper",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "florantier9axe.png",

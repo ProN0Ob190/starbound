@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Defender. A great defensive broadsword.",
   "shortdescription" : "Defender",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "glitchtier5broadsword.png",

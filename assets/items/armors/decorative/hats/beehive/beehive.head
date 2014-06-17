@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "I think I found some honey in here. Nope, just more bees.",
   "shortdescription" : "Beehive",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

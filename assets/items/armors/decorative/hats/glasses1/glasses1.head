@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "These used to belong to a very fine lady.",
   "shortdescription" : "Cateye Glasses",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

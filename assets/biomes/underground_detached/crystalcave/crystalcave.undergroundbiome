@@ -1,6 +1,8 @@
 {
   "name" : "crystalcave",
+  "friendlyName" : "Crystal Cave",
   "caveLiquidType" : "lava",
+  "requiredStatuses" : [ "beamaxe" ],
 
   "mainBlock" : "rock14",
   "subBlocks" : [ "obsidian", "rock02" ],

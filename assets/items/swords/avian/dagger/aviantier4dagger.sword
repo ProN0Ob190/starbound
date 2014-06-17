@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Talon. A small dagger shaped like a talon.",
   "shortdescription" : "Talon",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "aviantier4dagger.png",

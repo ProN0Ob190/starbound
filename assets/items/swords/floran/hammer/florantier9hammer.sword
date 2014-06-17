@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Riftwood. A hefty slab of wood made into a hammer.",
   "shortdescription" : "Riftwood",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "florantier9hammer.png",

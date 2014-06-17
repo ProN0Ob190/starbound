@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Planttrimmer. A dagger decorated with leaves.",
   "shortdescription" : "Planttrimmer",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "florantier5dagger.png",

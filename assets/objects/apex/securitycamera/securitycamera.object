@@ -1,7 +1,6 @@
 {
   "objectName" : "apexsecuritycamera",
   "rarity" : "Common",
-  "objectType" : "wire",
 
   "category" : "wire",
   "price" : 2000,

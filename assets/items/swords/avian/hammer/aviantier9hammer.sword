@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Skullgrazer. A hammer made from a decorative skull.",
   "shortdescription" : "Skullgrazer",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "aviantier9hammer.png",

@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Splitter. A long, straight, lethal spear.",
   "shortdescription" : "Splitter",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "glitchtier9spear.png",

@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "The doom lord's breastplate is forged of heavy impervium lined with gold. They're said to contain the brains of the first glitch.",
   "shortdescription" : "Doom Lord's Breastplate",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chest.png",

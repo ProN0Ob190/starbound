@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Lamb Shank. A gilded lamb shank turned into a hammer.",
   "shortdescription" : "Lamb Shank",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "apextier9hammer.png",

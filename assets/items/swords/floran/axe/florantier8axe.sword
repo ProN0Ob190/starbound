@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Vine. An axe that cuts through anything in six seconds.",
   "shortdescription" : "Vine",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "florantier8axe.png",

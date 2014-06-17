@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "The paladin is believed to be the holiest of warriors, striking where god demands.",
   "shortdescription" : "Paladin's Helm",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

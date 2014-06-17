@@ -6,7 +6,7 @@
   "rarity" : "rare",
   "description" : "A fancy cane.",
   "shortdescription" : "Moneybags Cane",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "moneybagscane.png",

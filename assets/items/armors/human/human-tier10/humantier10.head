@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "This impervium helm contains a voice box changer. Side effects may include picking up any heavy breathing.",
   "shortdescription" : "Universalist's Helm",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

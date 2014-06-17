@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "These anklets are built scant to remind young floran to draw power from the sun.",
   "shortdescription" : "Sprout's Anklets",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

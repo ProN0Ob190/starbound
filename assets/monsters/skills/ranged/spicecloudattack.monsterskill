@@ -1,0 +1,17 @@
+{
+  "name" : "spiceCloudAttack",
+  "label" : "SPICE CLOUD",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "spiceCloudAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "spicecloud",
+      "range" : 6,
+      "speed" : 12,
+      "power" : 12,
+      "shots" : 3,
+      "fireInterval" : 0.2
+    }
+  }
+}

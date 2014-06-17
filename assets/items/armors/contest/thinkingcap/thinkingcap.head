@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Strange! The closer this thing gets to my head, the smarter I feel...",
   "shortdescription" : "Thinking Cap",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

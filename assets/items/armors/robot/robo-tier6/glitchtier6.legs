@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "The crusaders greaves do not contain an extra brain, that would be ridiculous.",
   "shortdescription" : "Crusader's Greaves",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

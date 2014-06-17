@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Circuitry runs throughout this entire unit, it regulates breath rate and aids in producing a meditative state.",
   "shortdescription" : "Seeker's Chestguard",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

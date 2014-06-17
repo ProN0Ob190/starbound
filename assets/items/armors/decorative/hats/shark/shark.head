@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "It fell from the sky on a windy day.",
   "shortdescription" : "Shark Hat",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

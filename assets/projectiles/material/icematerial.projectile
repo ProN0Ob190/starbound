@@ -2,7 +2,6 @@
   "projectileName" : "icematerial",
   "materialBlock" : 32,
   "physics" : "grenade",
-  "level" : 3,
   // uses alternate animation path
   "frames" : "",
   "animationCycle" : 0,

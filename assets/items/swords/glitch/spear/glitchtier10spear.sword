@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Social Wetwork. A spear perfect for assassinating in a crowd.",
   "shortdescription" : "Social Wetwork",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "glitchtier10spear.png",

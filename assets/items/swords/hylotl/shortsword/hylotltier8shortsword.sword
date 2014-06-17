@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Cutless. Like a cutlass, but smaller.",
   "shortdescription" : "Cutless",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "hylotltier8shortsword.png",

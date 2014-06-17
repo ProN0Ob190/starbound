@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "The Neckscratcher. A relatively decent fencing sword.",
   "shortdescription" : "The Neckscratcher",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "apextier2shortsword.png",

@@ -1,0 +1,14 @@
+{
+  "projectileName" : "shortbeam",
+  "frames" : "shortbeam.png",
+  "animationCycle" : 0.3,
+  "frameNumber" : 4,
+  "speed" : 0.01,
+  "orientationLocked" : false,
+  "damagePoly" : [ [0, 1], [120, 1], [120, -1], [0, -1] ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "damageKind" : "electroshock",
+  "lightColor" : [100, 0, 100]
+}

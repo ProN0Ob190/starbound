@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Wilson. A very heavy ball on a stick.",
   "shortdescription" : "Wilson",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "hylotltier6hammer.png",

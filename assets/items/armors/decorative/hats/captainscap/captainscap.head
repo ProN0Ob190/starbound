@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Who is the captain?  The person who wears this!",
   "shortdescription" : "Captain's Cap",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

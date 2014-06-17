@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Upper body armour that has segmented steel plates across it.",
   "shortdescription" : "Rebel's Chestguard",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chest.png",

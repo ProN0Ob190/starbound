@@ -1,5 +1,7 @@
 {
   "name" : "asteroids",
+  "friendlyName" : "Asteroids",
+  "requiredStatuses" : [ "beamaxe" ],
 
   "mainBlock" : "meteoriterock",
   "ores" : "plutoniumBasicLeveledOres",

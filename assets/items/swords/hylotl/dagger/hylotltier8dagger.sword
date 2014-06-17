@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Shellslicer. A dagger that can prise open shells.",
   "shortdescription" : "Shellslicer",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "hylotltier8dagger.png",

@@ -2,14 +2,14 @@
   "name" : "commonaxe",
   "bladeBehindHandle" : false,
   "baseDps" : [2.5, 3.5],
-  "rateOfSwing" : [0.4, 3.0],
+  "rateOfSwing" : [0.75, 1.75],
   "multiplier" : 0.35,
   "firePosition" : [12.5, -3.5],
   "fireAfterWindup" : true,
   "muzzleFlashes" : [ ],
   "soundEffect" : [ "/sfx/melee/swing_axe.wav" ],
   "kind" : "axe",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
 
   "primaryStances" : {
     "directional" : true,

@@ -258,6 +258,14 @@
       "treasurePool" : "heckTreasure",
       "minimumLevel" : 1
     }
+  ],
+  
+    "hiveChest" : [
+    {
+      "containers" : [ "hivechest" ],
+      "treasurePool" : "hiveTreasure",
+      "minimumLevel" : 1
+    }
   ]
 
 }

@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "A pixel hero's pants.",
   "shortdescription" : "Pixel Hero Pants",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pantsm.png",
   "femaleFrames" : "pantsf.png",

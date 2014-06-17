@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "An apron to protect the important areas from oil spillages.",
   "shortdescription" : "Chef apron",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

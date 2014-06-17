@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "The disphot elite have protected the hylotl for millenia.",
   "shortdescription" : "Disphotic Breastplate",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

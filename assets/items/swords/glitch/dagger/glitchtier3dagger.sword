@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Dagger Premium. A good dagger.",
   "shortdescription" : "Dagger Premium",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "glitchtier3dagger.png",

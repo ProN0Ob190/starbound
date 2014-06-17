@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Ping. A basic spear.",
   "shortdescription" : "Ping",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "glitchtier1spear.png",

@@ -2,7 +2,6 @@
   "projectileName" : "boomerang",
   "frames" : "boomerang.png",
   "animationCycle" : 0.3,
-  "level" : 3,
   "frameNumber" : 4,
   "damageKindImage" : "icon.png",
   "physics" : "boomerang",

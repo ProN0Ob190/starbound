@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Pioneer Leg Armour. Armour for those who like to break new ground.",
   "shortdescription" : "Pioneer Leg Armour",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png"

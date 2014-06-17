@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Can double up as a tent.",
   "shortdescription" : "Baggy Jeans",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

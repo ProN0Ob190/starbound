@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "The heavy weight of each link in this Violium-mail suit strengthens the wearer's devotion to Kluex.",
   "shortdescription" : "Flamingo Chainmail",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

@@ -4,7 +4,7 @@
   "inventoryIcon" : "/tech/hover.png",
   "description" : "Press Jump while in the air to use this Gravity Neutraliser tech.",
   "shortdescription" : "Gravity Neutraliser",
-  "inspectionKind" : "tech",
+  "tooltipKind" : "tech",
 
   "techModule" : "hover.tech"
 }

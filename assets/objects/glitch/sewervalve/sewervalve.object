@@ -1,7 +1,6 @@
 {
   "objectName" : "sewervalve",
   "rarity" : "Common",
-  "objectType" : "wire",
   "description" : "A sewer valve. It's had a funny turn.",
   "shortdescription" : "Sewer Valve",
   "race" : "human",

@@ -1,7 +1,6 @@
 {
   "objectName" : "or",
   "rarity" : "Common",
-  "objectType" : "wire",
   "description" : "<An /'Or'/ switch. Allows you to have multiple individual inputs.>",
   "shortdescription" : "Or Switch",
   "race" : "human",

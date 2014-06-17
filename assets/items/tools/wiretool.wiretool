@@ -7,7 +7,7 @@
   "description" : "Built to place optical wires between input points.",
   "shortdescription" : "Wiring Tool",
   "largeImage" : "wiretoolbig.png",
-  "inspectionKind" : "tool",
+  "tooltipKind" : "tool",
 
   "image" : "wiringgun2.png",
   "handPosition" : [-4, 0],

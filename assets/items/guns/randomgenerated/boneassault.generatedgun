@@ -2,7 +2,7 @@
   "name" : "boneassault",
   "maxStack" : 1,
   "rarity" : "common",
-  "inspectionKind" : "gun",
+  "tooltipKind" : "gun",
   "handPosition" : [6, 5],
   "firePosition" : [-4, 8],
   "weaponType" : "Bone Rifle",

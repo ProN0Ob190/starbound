@@ -1,5 +1,6 @@
 {
   "name" : "shrubby",
+  "friendlyName" : "Shrubby",
 
   "surfaceParameters" : {
     "mainBlock" : "drysand",
@@ -45,5 +46,3 @@
     }
   }
 }
-
-

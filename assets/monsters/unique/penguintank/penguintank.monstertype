@@ -5,7 +5,6 @@
   "parts" : [ "body", "pilot", "gun", "turret", "smoke" ],
 
   "animation" : "penguinTank.animation",
-  "projectiles" : "/monsters/unique/penguinTank/projectiles.config",
   "colors" : "/monsters/colors.config",
 
   "dropPools" : [ "basicMonsterTreasure" ],
@@ -17,8 +16,6 @@
       "/scripts/util.lua",
       "/scripts/vec2.lua"
     ],
-
-    "scriptDelta" : 5,
 
     "metaBoundBox" : [-2.5, -3.0, 2.5, 2.5],
     "scale" : 1.0,

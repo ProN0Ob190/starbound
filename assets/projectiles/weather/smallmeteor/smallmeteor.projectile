@@ -2,7 +2,6 @@
   "projectileName" : "smallmeteor",
   "physics" : "grenadezbomb",
   "bounces" : 0,
-  "level" : 3,
   "frames" : "smallmeteor.png",
   "animationCycle" : 1,
   "lightColor" : [253, 160, 57],

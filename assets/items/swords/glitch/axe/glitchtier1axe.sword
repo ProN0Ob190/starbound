@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Ratchet. A robot's basic hatchet.",
   "shortdescription" : "Ratchet",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "glitchtier1axe.png",

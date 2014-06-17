@@ -3,7 +3,6 @@
   "frames" : "hivebombexplosion.png",
   "physics" : "grenade",
   "animationCycle" : 0,
-  "level" : 3,
   "frameNumber" : 1,
   "speed" : 15,
   "timeToLive" : 0.5,

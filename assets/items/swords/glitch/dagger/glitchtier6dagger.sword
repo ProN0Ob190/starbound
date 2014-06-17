@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Force Restart. A chunky, strong dagger.",
   "shortdescription" : "Force Restart",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "glitchtier6dagger.png",

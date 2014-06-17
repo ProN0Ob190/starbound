@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Fishfang. A basic hooked dagger.",
   "shortdescription" : "Fishfang",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "hylotltier2dagger.png",

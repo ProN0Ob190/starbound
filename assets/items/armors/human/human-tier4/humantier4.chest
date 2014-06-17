@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "The Outrider's chestpiece is made from Durasteel, knitted like kevlar.",
   "shortdescription" : "Outrider's Chestpiece",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

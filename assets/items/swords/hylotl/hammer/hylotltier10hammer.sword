@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Plantpounder. A hammer that will crush any Floran.",
   "shortdescription" : "Plantpounder",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "hylotltier10hammer.png",

@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "inspectionKind" : "tool",
+  "tooltipKind" : "tool",
   "description" : "Stone Axe. Chop chop!",
   "shortdescription" : "Stone Axe",
   "largeImage" : "stoneaxebig.png",

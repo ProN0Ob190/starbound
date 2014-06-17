@@ -1,0 +1,40 @@
+{
+  "objectName" : "hivebush4",
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "pot",
+  "price" : 400,
+
+
+  "description" : "Replace",
+  "shortdescription" : "Hive Bush",
+  "race" : "apex",
+
+  "apexDescription" : "Replace",
+  "avianDescription" : "Replace",
+  "floranDescription" : "Replace",
+  "glitchDescription" : "Replace",
+  "humanDescription" : "Replace",
+  "hylotlDescription" : "Replace",
+
+  "inventoryIcon" : "capsulebigicon.png",
+  "orientations" : [
+    {
+      "image" : "hivebush4.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "smashSounds" : [ "/sfx/objects/capsule_break1.wav", "/sfx/objects/capsule_break2.wav", "/sfx/objects/capsule_break3.wav" ],
+  "smashDropOptions" : [
+    [ [ "hive", 1, { } ], [ "hive", 1, { } ], [ "hive", 1, { } ] ]
+  ],
+  "breakDropOptions" : [
+    [ [ "hive", 1, { } ], [ "hive", 1, { } ], [ "hive", 1, { } ] ]
+  ]
+}

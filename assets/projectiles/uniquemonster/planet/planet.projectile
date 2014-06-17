@@ -2,7 +2,6 @@
   "projectileName" : "planet",
   "physics" : "grenadezbomb",
   "bounces" : 0,
-  "level" : 3,
   "frames" : "planet.png",
   "animationCycle" : 0.5,
   "frameNumber" : 4,

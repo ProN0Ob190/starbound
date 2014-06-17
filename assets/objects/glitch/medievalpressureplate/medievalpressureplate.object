@@ -1,7 +1,6 @@
 {
   "objectName" : "medievalpressureplate",
   "rarity" : "Common",
-  "objectType" : "wire",
   "category" : "wire",
   "price" : 400,
   "description" : "Use this pressure plate wisely.",

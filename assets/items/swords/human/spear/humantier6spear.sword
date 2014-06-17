@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Cattlekiller. A spear shaped like a cattle prod, but deadlier.",
   "shortdescription" : "Cattlekiller",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "humantier6spear.png",

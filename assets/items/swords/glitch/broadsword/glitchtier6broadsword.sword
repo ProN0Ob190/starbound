@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Trojan. A sword great for offence.",
   "shortdescription" : "Trojan",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "glitchtier6broadsword.png",

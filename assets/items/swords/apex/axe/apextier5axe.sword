@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "The Coif. An axe styled after a popular haircut.",
   "shortdescription" : "The Coif",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "apextier5axe.png",

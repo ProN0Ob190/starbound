@@ -9,7 +9,7 @@
   "muzzleFlashes" : [ ],
   "soundEffect" : [ "/sfx/melee/swing_axe.wav" ],
   "kind" : "crappyaxe",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
 
   "primaryStances" : {
     "directional" : true,

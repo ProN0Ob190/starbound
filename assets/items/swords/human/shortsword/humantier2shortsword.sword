@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Cool Shortsword. A regular shortsword modified to look cooler.",
   "shortdescription" : "Cool Shortsword",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "humantier2shortsword.png",

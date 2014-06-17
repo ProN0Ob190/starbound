@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "Some fullmetal pants!",
   "shortdescription" : "Fullmetal Pants",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

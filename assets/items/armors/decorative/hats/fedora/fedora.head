@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Sing it with me: Fedoras are awesome!!!",
   "shortdescription" : "Fedora",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

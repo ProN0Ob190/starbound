@@ -1,0 +1,16 @@
+{
+  "name" : "sonicWaveAttack",
+  "label" : "SONIC WAVE",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "sonicWaveAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "sonicwave",
+      "range" : 18,
+      "speed" : 30,
+      "power" : 10,
+      "shots" : 1
+    }
+  }
+}

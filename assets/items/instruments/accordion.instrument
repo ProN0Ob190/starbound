@@ -8,7 +8,7 @@
   "shortdescription" : "Accordion",
   "largeImage" : "accordion.png",
   "image" : "accordion.png",
-  "inspectionKind" : "tool",
+  "tooltipKind" : "tool",
   "activeImage" : "accordion.png",
   "activeAngle" : 0,
   "activeHandPosition" : [0.2, 0],

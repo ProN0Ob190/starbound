@@ -70,7 +70,7 @@ function socializeState.update(dt, stateData)
       stateData.emoteTimer = stateData.emoteTimer - dt
       if stateData.emoteTimer <= 0 then
         stateData.emoteTimer = nil
-        entity.jump()
+        jump()
       end
     end
 

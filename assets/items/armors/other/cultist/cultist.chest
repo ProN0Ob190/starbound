@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A cultist's chestpiece.",
   "shortdescription" : "Cultist Chestpiece",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

@@ -8,7 +8,7 @@
   "shortdescription" : "Drum Kit",
   "largeImage" : "drum.png",
   "image" : "drum.png",
-  "inspectionKind" : "tool",
+  "tooltipKind" : "tool",
   "activeImage" : "drum.png",
   "activeAngle" : 0,
   "activeHandPosition" : [0, -0.1],

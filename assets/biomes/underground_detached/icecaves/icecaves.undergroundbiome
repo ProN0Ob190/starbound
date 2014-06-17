@@ -1,5 +1,7 @@
 {
   "name" : "icecaves",
+  "friendlyName" : "Ice Caves",
+  "requiredStatuses" : [ "beamaxe" ],
 
   "mainBlock" : "ice",
   "subBlocks" : [ "snow", "slush" ],

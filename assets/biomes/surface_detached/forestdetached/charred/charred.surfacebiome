@@ -1,5 +1,7 @@
 {
   "name" : "charred",
+  "friendlyName" : "Charred",
+  "requiredStatuses" : [ "beamaxe" ],
 
   "hueShiftOptions" : [0],
 
@@ -35,5 +37,3 @@
     }
   }
 }
-
-

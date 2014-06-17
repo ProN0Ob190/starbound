@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Wingdinger. A sword shaped like an Avian wing bone.",
   "shortdescription" : "Wingdinger",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "aviantier3shortsword.png",

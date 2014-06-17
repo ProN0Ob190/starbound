@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Whalekiller. A spear that could kill a whale.",
   "shortdescription" : "Whalekiller",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "hylotltier7spear.png",

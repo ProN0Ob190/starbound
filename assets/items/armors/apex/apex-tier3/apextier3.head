@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "This striped headwear leaves only the the eyes visible.",
   "shortdescription" : "Insurgent's Mask",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

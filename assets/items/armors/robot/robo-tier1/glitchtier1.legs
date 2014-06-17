@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Most of the iron in a knave's pants is in the belt buckle.",
   "shortdescription" : "Knave's Pants",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

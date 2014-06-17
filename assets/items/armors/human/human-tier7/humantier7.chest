@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "The wanderer's job is to meet and greet newly discovered races. Sometimes this goes wrong, hence the chestguard.",
   "shortdescription" : "Wanderer's Chestguard",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

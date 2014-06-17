@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A hood in all the colours of the rainbow. Glorious.",
   "shortdescription" : "Rainbow Hood",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

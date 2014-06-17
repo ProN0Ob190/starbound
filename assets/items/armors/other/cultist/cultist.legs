@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A cultist's leg armour",
   "shortdescription" : "Cultist Leg Armour",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

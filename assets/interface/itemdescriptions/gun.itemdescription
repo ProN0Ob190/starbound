@@ -23,10 +23,10 @@
     "value" : "Rate of Fire:"
   },
   "speedLabel" : {
-    "type" : "wraplabel",
+    "type" : "label",
     "position" : [108, 74],
     "hAnchor" : "right",
-    "width" : 126
+    "wrapWidth" : 126
   },
   "damagePerShotTitleLabel" : {
     "type" : "label",
@@ -35,10 +35,10 @@
     "value" : "Damage Per Shot:"
   },
   "damagePerShotLabel" : {
-    "type" : "wraplabel",
+    "type" : "label",
     "position" : [108, 65],
     "hAnchor" : "right",
-    "width" : 126
+    "wrapWidth" : 126
   },
   "energyPerShotTitleLabel" : {
     "type" : "label",
@@ -47,31 +47,31 @@
     "value" : "Energy Per Shot:"
   },
   "energyPerShotLabel" : {
-    "type" : "wraplabel",
+    "type" : "label",
     "position" : [108, 56],
     "hAnchor" : "right",
-    "width" : 126
+    "wrapWidth" : 126
   },
   "handednessLabel" : {
-    "type" : "wraplabel",
+    "type" : "label",
     "position" : [52, 150],
     "hAnchor" : "right",
     "centered" : true,
-    "width" : 126
+    "wrapWidth" : 126
   },
   "dpsLabel" : {
-    "type" : "wraplabel",
+    "type" : "label",
     "position" : [108, 83],
     "hAnchor" : "right",
     "centered" : true,
-    "width" : 126
+    "wrapWidth" : 126
   },
   "rarityLabel" : {
-    "type" : "wraplabel",
+    "type" : "label",
     "position" : [21, 19],
     "hAnchor" : "left",
     "centered" : true,
-    "width" : 126
+    "wrapWidth" : 126
   },
   "damageKindImage" : {
     "type" : "image",

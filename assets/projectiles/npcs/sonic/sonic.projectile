@@ -1,7 +1,6 @@
 {
   "projectileName" : "sonic",
   "frames" : "sonic.png",
-  "level" : 3,
   "physics" : "laser",
   "animationCycle" : 1.0,
   "damageKindImage" : "icon.png",

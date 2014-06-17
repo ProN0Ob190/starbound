@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "The aphotic emperors that don this armour are said to have seen unimaginable things in the dark of the deepest oceans.",
   "shortdescription" : "Aphotic Fin",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

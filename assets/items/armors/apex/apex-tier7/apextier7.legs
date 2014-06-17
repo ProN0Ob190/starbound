@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A classy set of pants and boots that are light enough for the wearer to make a quick getaway.",
   "shortdescription" : "Assassin's Pants",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

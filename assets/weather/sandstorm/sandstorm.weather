@@ -1,5 +1,6 @@
 {
   "name" : "sandstorm",
+  "icon" : "/interface/cockpit/weather/sandstorm.png",
 
   "particles" : [
     {

@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Hear No Evil. A trident-like curved spear.",
   "shortdescription" : "Hear No Evil",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "apextier7spear.png",

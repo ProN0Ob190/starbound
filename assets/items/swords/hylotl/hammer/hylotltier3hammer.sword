@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Shellslammer. A good hammer.",
   "shortdescription" : "Shellslammer",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "hylotltier3hammer.png",

@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Startup. A sword that'll split anyone in twain.",
   "shortdescription" : "Startup",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "glitchtier9shortsword.png",

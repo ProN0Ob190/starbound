@@ -8,7 +8,7 @@
   "shortdescription" : "Koto",
   "largeImage" : "koto.png",
   "image" : "koto.png",
-  "inspectionKind" : "tool",
+  "tooltipKind" : "tool",
   "activeImage" : "koto.png",
   "activeAngle" : -20,
   "activeHandPosition" : [0.1, 0.5],

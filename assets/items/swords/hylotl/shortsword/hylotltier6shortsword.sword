@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Skittlefish. A small gutting sword.",
   "shortdescription" : "Skittlefish",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "hylotltier6shortsword.png",

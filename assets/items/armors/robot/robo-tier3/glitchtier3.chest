@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "The strength of a knight's breastplate allows a single knight to slay many a soldier on the battlefield.",
   "shortdescription" : "Knight's Breastplate",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chest.png",

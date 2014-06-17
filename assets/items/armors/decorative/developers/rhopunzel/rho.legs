@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "THOSE SHOES ARE MINE BETCH.",
   "shortdescription" : "Rho",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

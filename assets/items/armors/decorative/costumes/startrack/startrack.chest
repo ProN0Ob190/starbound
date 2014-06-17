@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "This top will energise it's wearer.",
   "shortdescription" : "Space Uniform Top",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

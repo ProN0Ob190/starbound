@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Opposing Force. A wrench which has been converted into an axe.",
   "shortdescription" : "Opposing Force",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "humantier7axe.png",

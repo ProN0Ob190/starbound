@@ -1,0 +1,16 @@
+{
+  "name" : "cellBlastAttack",
+  "label" : "CELL BLAST",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "cellBlastAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "cellblast",
+      "range" : 18,
+      "speed" : 25,
+      "power" : 15,
+      "shots" : 1
+    }
+  }
+}

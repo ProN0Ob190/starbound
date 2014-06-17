@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Prototype Breastplate MKI. For the adventurous.",
   "shortdescription" : "Prototype Breastplate MKI",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
   "learnBlueprintsOnPickup" : [
     "silverarmorchest"
   ],

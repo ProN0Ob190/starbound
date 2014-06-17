@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Special Rubium kneeguards help with crawling through air ducts.",
   "shortdescription" : "Trailblazer's Greaves",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

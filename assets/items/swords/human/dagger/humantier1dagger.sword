@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Shanker. A basic, no-nonsense dagger.",
   "shortdescription" : "Shanker",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "humantier1dagger.png",

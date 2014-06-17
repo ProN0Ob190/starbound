@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Sharpstick. A dagger on a stick.",
   "shortdescription" : "Sharpstick",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "florantier3dagger.png",

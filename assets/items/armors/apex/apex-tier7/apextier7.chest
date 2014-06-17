@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Armored regal garmets which suit any would-be Assassin.",
   "shortdescription" : "Assassin's Chestguard",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

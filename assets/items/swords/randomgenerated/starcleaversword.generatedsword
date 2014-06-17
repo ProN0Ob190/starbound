@@ -11,7 +11,7 @@
   "muzzleFlashes" : [ ],
   "soundEffect" : [ "/sfx/projectiles/swing_fire3.wav" ],
   "kind" : "starcleaversword",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
 
   "primaryStances" : {
     "directional" : false,

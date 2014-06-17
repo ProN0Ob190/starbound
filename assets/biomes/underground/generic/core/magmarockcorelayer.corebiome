@@ -1,5 +1,7 @@
 {
   "name" : "magmarockcorelayer",
+  "friendlyName" : "Magmarock Core Layer",
+  "requiredStatuses" : [ "beamaxe" ],
 
   "undergroundParallax" : "/biomes/underground/generic/desert.undergroundparallax",
 

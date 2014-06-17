@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Huntmaster. A spear fashioned out of the bones of a great hunt.",
   "shortdescription" : "Huntmaster",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "florantier10spear.png",

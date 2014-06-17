@@ -8,7 +8,7 @@
   "shortdescription" : "Saxophone",
   "largeImage" : "saxophone.png",
   "image" : "saxophone.png",
-  "inspectionKind" : "tool",
+  "tooltipKind" : "tool",
   "activeImage" : "saxophone.png",
   "activeAngle" : 6,
   "activeHandPosition" : [0.2, -0.1],

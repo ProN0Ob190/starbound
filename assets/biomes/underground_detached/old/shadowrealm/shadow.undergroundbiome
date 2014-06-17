@@ -1,5 +1,7 @@
 {
   "name" : "shadow",
+  "friendlyName" : "Shadow",
+  "requiredStatuses" : [ "beamaxe" ],
 
   "mainBlock" : "obsidian",
   "subBlocks" : [ "tar", "direstone" ],

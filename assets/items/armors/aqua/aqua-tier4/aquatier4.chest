@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Equipped with a Durasteel breastplate, lake wardens were the protectors of Hylotl villages.",
   "shortdescription" : "Lake Breastplate",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

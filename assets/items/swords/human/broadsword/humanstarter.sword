@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "A broken sword. Looks like it's been wrenched from a stone.",
   "shortdescription" : "Broken Hero Sword",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "humanstarter.png",

@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Standard issue Apex Navy jacket.",
   "shortdescription" : "Apex Navy Jacket",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

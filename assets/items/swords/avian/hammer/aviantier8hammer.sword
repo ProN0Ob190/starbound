@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Master Hatcher. A hammer shaped like an egg. A chick is emerging.",
   "shortdescription" : "Master Hatcher",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "aviantier8hammer.png",

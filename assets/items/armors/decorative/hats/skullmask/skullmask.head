@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A cloth skull mask. The creepiest way to hide your face.",
   "shortdescription" : "Skull Mask",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

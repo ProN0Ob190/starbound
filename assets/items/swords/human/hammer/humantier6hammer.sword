@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Timesmasher. A hammer that can smash even grandfather clocks.",
   "shortdescription" : "Timesmasher",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "humantier6hammer.png",

@@ -2,7 +2,6 @@
   "projectileName" : "phoenix",
   "frames" : "phoenix.png",
   "animationCycle" : 0.3,
-  "level" : 18,
   "physics" : "bullet",
   "frameNumber" : 4,
   "pointLight" : true,

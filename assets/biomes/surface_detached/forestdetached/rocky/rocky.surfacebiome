@@ -1,5 +1,6 @@
 {
   "name" : "rocky",
+  "friendlyName" : "Rocky",
 
   "surfaceParameters" : {
     "mainBlock" : "rock03",

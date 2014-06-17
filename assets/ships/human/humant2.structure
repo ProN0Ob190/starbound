@@ -1,0 +1,21 @@
+{
+  "config" : {
+    "capabilities" : ["planetTravel"],
+    "fuelMax" : 1000
+  },
+
+  "backgroundOverlays" : [
+    {
+      "image" : "humanT2.png",
+      "position" : [8, 14],
+	  "unlit" : true
+    },
+    {
+      "image" : "humanT2lit.png",
+      "position" : [8, 14]
+    }
+  ],
+
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "humanT2blocks.png"
+}

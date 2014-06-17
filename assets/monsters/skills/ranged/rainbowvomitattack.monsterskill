@@ -1,0 +1,20 @@
+{
+  "name" : "rainbowVomitAttack",
+  "label" : "CHROMATIC PURGE",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "rainbowVomitAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "rainbow",
+      "range" : 18,
+      "arc" : "low",
+      "speed" :25,
+      "power" : 15,
+      "shots" : 40,
+      "fireInterval" : 0.01,
+      "windupTime" : 0.1,
+      "lockAim" : true
+    }
+  }
+}

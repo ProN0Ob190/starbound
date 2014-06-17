@@ -121,7 +121,8 @@
               { "name" : "generatedsword", "data" : { "definition" : "commondagger" } }
             ],
             "alt" : [
-              [ "generatedshield", 1, { "definition" : "tier1shield" } ]
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } },
+			  { "name" : "generatedshield", "data" : { "definition" : "tier1woodshield" } }
             ]
           }
         ] ]

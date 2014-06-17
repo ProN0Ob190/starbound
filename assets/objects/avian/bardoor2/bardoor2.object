@@ -1,7 +1,6 @@
 {
   "objectName" : "bardoor2",
   "rarity" : "Common",
-  "objectType" : "wire",
 
   "category" : "door",
   "price" : 1200,

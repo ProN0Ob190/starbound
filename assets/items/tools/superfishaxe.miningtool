@@ -6,7 +6,7 @@
   "rarity" : "Legendary",
   "description" : "One step below a sharknado.",
   "shortdescription" : "Fishaxe",
-  "inspectionKind" : "tool",
+  "tooltipKind" : "tool",
   "largeImage" : "stonepickaxebig.png",
 
   "image" : "fish.png",

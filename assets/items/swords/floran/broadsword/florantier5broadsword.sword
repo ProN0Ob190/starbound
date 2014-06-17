@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Big Bindslicer. A sword bound in vines.",
   "shortdescription" : "Big Bindslicer",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "florantier5broadsword.png",

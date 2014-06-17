@@ -10,7 +10,7 @@ gustAttack = {
 }
 
 function gustAttack.enter()
-  if not canStartAttack() then return nil end
+  if not canStartSkill("gustAttack") then return nil end
 
   return { run = coroutine.wrap(gustAttack.run) }
 end

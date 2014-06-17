@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A typical Avian adventurer shirt.",
   "shortdescription" : "Avian Adventurer Shirt",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

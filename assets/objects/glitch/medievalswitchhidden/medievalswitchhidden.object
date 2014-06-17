@@ -1,7 +1,6 @@
 {
   "objectName" : "medievalswitchhidden",
   "rarity" : "Common",
-  "objectType" : "wire",
   "description" : "This floor tile looks different from the rest.",
   "shortdescription" : "Hidden Switch",
   "race" : "glitch",

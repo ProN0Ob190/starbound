@@ -1,5 +1,5 @@
 {
-  "script" : "jetpack.lua",
+  "scripts" : ["jetpack.lua"],
   "actions" : [ "jetpack" ],
   "animator" : "hover.animation",
 

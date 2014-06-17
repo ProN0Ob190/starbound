@@ -4,7 +4,6 @@
   "physics" : "hover",
   "animationCycle" : 0.1,
   "frameNumber" : 4,
-  "level" : 15,
   "power" : 20,
   "damageKindImage" : "icon.png",
   "speed" : 30,

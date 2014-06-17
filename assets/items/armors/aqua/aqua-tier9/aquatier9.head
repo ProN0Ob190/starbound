@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Disphot elite guards protect the twilight that marks the entrance to Hylotl territory.",
   "shortdescription" : "Disphotic Helm",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

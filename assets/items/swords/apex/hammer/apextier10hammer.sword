@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Baboom. A barrel-breaking mallet.",
   "shortdescription" : "Baboom",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "apextier10hammer.png",

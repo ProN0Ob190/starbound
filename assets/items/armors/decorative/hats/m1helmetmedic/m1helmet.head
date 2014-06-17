@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "G.I. Standard Issue tin pot helmet. This one is for a medic.",
   "shortdescription" : "M1 Medic Helmet",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

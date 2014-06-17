@@ -2,7 +2,6 @@
   "projectileName" : "healcloud",
   "frames" : "healcloud.png",
   "animationCycle" : 0.9,
-  "level" : 3,
   "frameNumber" : 8,
   "speed" : 0,
   "fallSpeed" : 0,

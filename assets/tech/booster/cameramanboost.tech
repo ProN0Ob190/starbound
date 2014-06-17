@@ -1,5 +1,5 @@
 {
-  "script" : "booster.lua",
+  "scripts" : ["booster.lua"],
   "actions" : [ "boostRightUp", "boostRightDown", "boostLeftUp", "boostLeftDown", "boostRight", "boostDown", "boostLeft", "boostUp" ],
   "animator" : "cameramanboost.animation",
 

@@ -6,19 +6,25 @@
     { }
   ],
 
-  "hitSound" : "/sfx/melee/shield_block_metal2.wav",
+  "hitSound" : "/sfx/melee/shield_block_metal.wav",
+  "perfectHitSound" : "/sfx/melee/shield_block_metal_perfect.wav",
+  "breakSound" : "/sfx/melee/shield_break_metal.wav",
+  "perfectBlockParticle" : "shieldspark",
+  "breakParticle" : "guardbrokenmessage",
 
   "baseline" : {
-    "recoil" : 0.2,
+    "recoilTime" : 0.2,
     "knockbackPower" : 10,
     "knockbackDamageKind" : "",
     "statusEffects" : [
       { "kind" : "Encumbered" },
-      { "kind" : "EnergyRegenSuppressed" },
-      { "kind" : "Shield", "amount" : 30 }
+      { "kind" : "EnergyRegenSuppressed" }
     ],
     "shieldPoly" : [ [-8, 0], [-8, 12], [8, 20], [8, -24], [-8, -12] ],
     "damagePoly" : [ [-8, 0], [8, 18], [8, -18] ]
   },
-  "nameGenerator" : "hylotlstrongshieldnames.config:namegen"
+  "nameGenerator" : "hylotlstrongshieldnames.config:namegen",
+  "tooltipKind" : "shield",
+  "health" : 10.0,
+  "healthRegen" : 0.01
 }

@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "The Riveter. A precise hammer.",
   "shortdescription" : "The Riveter",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "apextier3hammer.png",

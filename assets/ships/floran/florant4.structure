@@ -1,0 +1,21 @@
+{
+  "config" : {
+    "capabilities" : ["planetTravel", "systemTravel"],
+    "fuelMax" : 1000
+  },
+
+  "backgroundOverlays" : [
+    {
+      "image" : "floranT4.png",
+      "position" : [15, 10],
+	  "unlit" : true
+    },
+    {
+      "image" : "floranT4lit.png",
+      "position" : [15, 10]
+    }
+  ],
+
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "floranT4blocks.png"
+}

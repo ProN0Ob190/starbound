@@ -1,7 +1,6 @@
 {
   "objectName" : "hylotlswitch",
   "rarity" : "Common",
-  "objectType" : "wire",
 
   "category" : "decorative",
   "price" : 800,

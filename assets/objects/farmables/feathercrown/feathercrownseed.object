@@ -6,6 +6,7 @@
   "shortdescription" : "Feathercrown Seed",
   "objectType" : "farmable",
   "printable" : false,
+  "price" : 245,
 
   "apexDescription" : "Looks like a carrot crossed with an Avian. Unusual.",
   "avianDescription" : "An Avian delicacy. Only the finest of dishes contain feathercrown.",
@@ -65,12 +66,12 @@
   },
   "growing" : {
     "0" : {
-      "duration" : [300, 420],
+      "duration" : [1080, 1080],
       "success" : 1,
       "failure" : 3
     },
     "1" : {
-      "duration" : [300, 420],
+      "duration" : [1080, 1080],
       "success" : 2,
       "failure" : 3
     }

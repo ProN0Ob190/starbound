@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Leafslasher. A dangerous, serrated sword.",
   "shortdescription" : "Leafslasher",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "florantier9shortsword.png",

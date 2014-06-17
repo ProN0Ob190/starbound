@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A cool jacket, too cool for drycleaning.",
   "shortdescription" : "Cool Jacket",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

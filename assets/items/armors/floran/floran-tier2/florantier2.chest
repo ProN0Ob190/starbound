@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Steel, reinforced with bone and padded with leather made from the skin of hunted prey.",
   "shortdescription" : "Bonesmith's Chestguard",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

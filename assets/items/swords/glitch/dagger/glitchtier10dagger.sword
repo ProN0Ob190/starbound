@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Windowcutter. A dagger so sharp it cuts glass.",
   "shortdescription" : "Windowcutter",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "glitchtier10dagger.png",

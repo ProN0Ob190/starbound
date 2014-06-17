@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Hylotl pond warriors would don this steel helm and ride huge fish into battle.",
   "shortdescription" : "Pond Helm",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

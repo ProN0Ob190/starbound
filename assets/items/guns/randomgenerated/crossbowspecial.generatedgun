@@ -2,7 +2,7 @@
   "name" : "crossbowspecial",
   "maxStack" : 1,
   "rarity" : "uncommon",
-  "inspectionKind" : "gun",
+  "tooltipKind" : "gun",
   "handPosition" : [3, 0],
   "firePosition" : [-2, 9],
   "weaponType" : "Crossbow",

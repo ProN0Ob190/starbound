@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Every girl needs to accessorise with a belt.",
   "shortdescription" : "Pink Top",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestf.png",

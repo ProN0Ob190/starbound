@@ -2,7 +2,6 @@
   "projectileName" : "blueplasmabullet",
   "physics" : "laser",
   "bounces" : 0,
-  "level" : 3,
   "damageKindImage" : "icon.png",
   "frames" : "blueplasmabullet.png",
   "animationCycle" : 0.5,

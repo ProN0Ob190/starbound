@@ -1,7 +1,6 @@
 {
   "objectName" : "consoletribal4",
   "rarity" : "Common",
-  "objectType" : "wire",
   "category" : "wire",
   "price" : 900,
   "description" : "A large access panel with a ton of readings I don't understand.",

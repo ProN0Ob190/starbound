@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Antivirus. A sword useful for taking out pests.",
   "shortdescription" : "Antivirus",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "glitchtier4broadsword.png",

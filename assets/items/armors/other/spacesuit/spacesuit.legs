@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "Some old fashioned spacesuit pants!",
   "shortdescription" : "Spacesuit Pants",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

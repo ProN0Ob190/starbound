@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "A fancy top hat with monocle and moustache.",
   "shortdescription" : "Moneybags Hat",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

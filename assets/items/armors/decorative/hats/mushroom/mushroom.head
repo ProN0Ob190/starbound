@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "With this hat, you'll be a fungi to be around. Apologies.",
   "shortdescription" : "Mushroom Hat",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

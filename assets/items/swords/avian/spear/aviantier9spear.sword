@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Sunguard. A spear reportedly carried by the guardians of the Sunborn.",
   "shortdescription" : "Sunguard",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "aviantier9spear.png",

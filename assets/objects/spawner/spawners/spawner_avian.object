@@ -1,7 +1,6 @@
 {
   "objectName" : "spawneravian",
   "rarity" : "Common",
-  "objectType" : "wire",
   "description" : "Spawn your very own Avian villager!",
   "shortdescription" : "Avian Spawner",
   "race" : "human",

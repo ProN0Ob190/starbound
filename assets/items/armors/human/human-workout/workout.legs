@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Sweat pants.. full of sweat.",
   "shortdescription" : "Sweat Pants",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

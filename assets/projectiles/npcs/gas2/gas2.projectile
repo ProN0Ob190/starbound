@@ -2,7 +2,6 @@
   "projectileName" : "gas2",
   "frames" : "gas2.png",
   "physics" : "gas",
-  "level" : 3,
   "animationCycle" : 1.4,
   "frameNumber" : 8,
   "power" : -1,

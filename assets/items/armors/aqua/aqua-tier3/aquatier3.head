@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Masters of espionage, a river shinobi builds his titanium helm as part armour and part disguise.",
   "shortdescription" : "River Helm",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

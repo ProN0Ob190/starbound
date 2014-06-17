@@ -2,7 +2,6 @@
   "projectileName" : "tis1projectile",
   "physics" : "grenade",
   "bounces" : -1,
-  "level" : 3,
   "timeToLive" : 0.01,
   "damageKindImage" : "icon.png",
   "frames" : "tis1projectile.png",

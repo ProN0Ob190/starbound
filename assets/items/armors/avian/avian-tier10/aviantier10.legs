@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "The processes used to construct these impervium leg coverings are lost in a piece of long forgotten lore, nevermore...",
   "shortdescription" : "Raven's Claws",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

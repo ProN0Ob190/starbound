@@ -6,7 +6,7 @@
   "rarity" : "Uncommon",
   "description" : "Cupid's sash. Does it hold the wings on?",
   "shortdescription" : "Cupid's Sash",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

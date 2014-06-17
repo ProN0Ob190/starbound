@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "A hazmat mask.",
   "shortdescription" : "Hazmat Mask",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

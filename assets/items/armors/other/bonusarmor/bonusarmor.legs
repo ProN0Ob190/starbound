@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Makeshift armour greaves. For the resourceful.",
   "shortdescription" : "Makeshift Greaves",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",
 

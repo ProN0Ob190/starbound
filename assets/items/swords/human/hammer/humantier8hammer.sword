@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Pumphammer. A hammer with pump action - but for what?",
   "shortdescription" : "Pumphammer",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "humantier8hammer.png",

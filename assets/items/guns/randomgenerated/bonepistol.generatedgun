@@ -2,7 +2,7 @@
   "name" : "bonepistol",
   "maxStack" : 1,
   "rarity" : "common",
-  "inspectionKind" : "gun",
+  "tooltipKind" : "gun",
   "handPosition" : [3, 2],
   "firePosition" : [-1, 8],
   "baseDps" : [6, 6.5],

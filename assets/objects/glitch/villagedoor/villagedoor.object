@@ -1,7 +1,6 @@
 {
   "objectName" : "villagedoor",
   "rarity" : "Common",
-  "objectType" : "wire",
 
   "category" : "door",
   "price" : 500,

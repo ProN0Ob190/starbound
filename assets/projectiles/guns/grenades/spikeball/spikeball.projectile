@@ -2,7 +2,6 @@
   "projectileName" : "spikeball",
   "frames" : "spikeball.png",
   "physics" : "spikeball",
-  "level" : 3,
   "animationCycle" : 2,
   "frameNumber" : 1,
   "power" : 50,

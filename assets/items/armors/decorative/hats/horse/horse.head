@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Headwear you just can't refuse.",
   "shortdescription" : "Horse Head",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

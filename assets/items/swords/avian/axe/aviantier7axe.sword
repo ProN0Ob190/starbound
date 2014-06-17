@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Birdbrainer. An axe shaped like the head of an unknown bird.",
   "shortdescription" : "Birdbrainer",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "aviantier7axe.png",

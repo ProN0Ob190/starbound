@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Hacker. A hefty broadsword.",
   "shortdescription" : "Hacker",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "glitchtier8broadsword.png",

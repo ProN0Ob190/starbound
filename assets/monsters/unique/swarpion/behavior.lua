@@ -33,7 +33,7 @@ function main()
     local combinedMovement = { 0, 0 }
     for i, movementComponent in ipairs(movements) do
       local movement, weight = table.unpack(movementComponent)
-      vec2.add(combinedMovement, vec2.mul(movement, weight))
+      combinedMovement = vec2.add(combinedMovement, vec2.mul(movement, weight))
     end
 
     self.movement = vec2.norm(combinedMovement)

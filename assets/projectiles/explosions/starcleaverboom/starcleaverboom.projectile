@@ -2,7 +2,6 @@
   "projectileName" : "starcleaverboom",
   "frames" : "starcleaverboom.png",
   "animationCycle" : 0.5,
-  "level" : 3,
   "frameNumber" : 6,
   "speed" : 20,
   "fallSpeed" : 10,

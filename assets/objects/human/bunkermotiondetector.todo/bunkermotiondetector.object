@@ -1,7 +1,6 @@
 {
   "objectName" : "bunkermotiondetector",
   "rarity" : "Common",
-  "objectType" : "wire",
   "description" : "Stay still! It can't see you if you stay still.",
   "shortdescription" : "Motion Detector",
   "race" : "human",

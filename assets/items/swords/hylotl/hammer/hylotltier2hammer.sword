@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Coralcrusher. A decent hammer.",
   "shortdescription" : "Coralcrusher",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "hylotltier2hammer.png",

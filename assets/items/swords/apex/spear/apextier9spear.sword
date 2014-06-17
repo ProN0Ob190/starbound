@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Lethal Injection. A spear that also function as a syringe.",
   "shortdescription" : "Lethal Injection",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "apextier9spear.png",

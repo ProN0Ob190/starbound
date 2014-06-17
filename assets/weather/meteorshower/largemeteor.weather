@@ -1,6 +1,6 @@
 {
   "name" : "largemeteor",
-
+  "icon" : "/interface/cockpit/weather/meteorstorm.png",
 
   "projectiles" : [
     {

@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Facestabber. A spear with a menacing appearance.",
   "shortdescription" : "Facestabber",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "florantier6spear.png",

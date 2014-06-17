@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Spike This. A spiky spear.",
   "shortdescription" : "Spike This",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "glitchtier7spear.png",

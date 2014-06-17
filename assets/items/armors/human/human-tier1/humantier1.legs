@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A scavenger cares little for fashion.",
   "shortdescription" : "Scavenger's Greaves",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

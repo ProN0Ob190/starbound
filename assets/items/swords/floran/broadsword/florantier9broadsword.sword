@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Big Leafslasher. A dangerous, serrated sword.",
   "shortdescription" : "Big Leafslasher",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "florantier9broadsword.png",

@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Gold chestpiece. For the decadent.",
   "shortdescription" : "Gold Chestpiece",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
   "maleFrames" : {
     "body" : "chest.png",
     "backSleeve" : "bsleeve.png",

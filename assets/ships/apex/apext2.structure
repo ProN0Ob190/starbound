@@ -1,0 +1,21 @@
+{
+  "config" : {
+    "capabilities" : ["planetTravel"],
+    "fuelMax" : 1000
+  },
+
+  "backgroundOverlays" : [
+    {
+      "image" : "apexT2.png",
+      "position" : [9, 12],
+	  "unlit" : true
+    },
+	{
+      "image" : "apexT2lit.png",
+      "position" : [9, 12]
+    }
+  ],
+
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "apexT2blocks.png"
+}

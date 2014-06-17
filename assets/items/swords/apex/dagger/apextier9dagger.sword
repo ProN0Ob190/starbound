@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Liberation. A small, easily concealed dagger.",
   "shortdescription" : "Liberation",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "apextier9dagger.png",

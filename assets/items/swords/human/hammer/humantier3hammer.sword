@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Strengthtester. A hammer for the strong.",
   "shortdescription" : "Strengthtester",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "humantier3hammer.png",

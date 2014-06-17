@@ -6,7 +6,6 @@
   "damageKindImage" : "icon.png",
   "frameNumber" : 12,
   "power" : 50,
-  "level" : 3,
   "speed" : 25,
   "timeToLive" : 1,
   "bounces" : 4,

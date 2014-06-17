@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "Some combat medic pants.",
   "shortdescription" : "Combat Medic Pants",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

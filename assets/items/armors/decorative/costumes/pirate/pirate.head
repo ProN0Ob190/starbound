@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Yarr! I lost me eye in an unfortunate jar-opening accident.",
   "shortdescription" : "Pirate Bandana",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

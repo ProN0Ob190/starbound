@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Upgrade 2.0. A solid Glitch broadsword.",
   "shortdescription" : "Upgrade 2.0",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "glitchtier2broadsword.png",

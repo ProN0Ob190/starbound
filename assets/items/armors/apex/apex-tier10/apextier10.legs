@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "They may be sleek, but these pants and boots are laced with hardened Impervium.",
   "shortdescription" : "Usurper's Pants",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

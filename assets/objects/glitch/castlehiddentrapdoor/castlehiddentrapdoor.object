@@ -1,7 +1,6 @@
 {
   "objectName" : "castlehiddentrapdoor",
   "rarity" : "Common",
-  "objectType" : "wire",
 
   "category" : "door",
   "price" : 1000,
@@ -16,18 +15,7 @@
   "humanDescription" : "These bricks have an unnatural shine.",
   "hylotlDescription" : "Something about the way these bricks are crafted is odd.",
 
-  //Not sure how to get animation working properly.
-
   "inventoryIcon" : "castlehiddentrapdooricon.png",
-  "orientations" : [
-    {
-      "dualImage" : "castlehiddentrapdoor.png:default",
-      "imagePosition" : [-20, -8],
-
-      "spaces" : [ [-2, -1], [-1, -1], [0, -1], [1, -1], [2, -1], [-2, 0], [-1, 0], [0, 0], [1, 0], [2, 0], [-2, 1], [-1, 1], [0, 1], [1, 1], [2, 1] ],
-      "anchors" : [ "background" ]
-    }
-  ],
 
   "scripts" : [ "/objects/wired/door/door.lua" ],
   "scriptDelta" : 5,
@@ -36,8 +24,29 @@
   "animationParts" : {
     "door" : "castlehiddentrapdoor.png"
   },
-  "animationPosition" : [-20, -8],
+  
+    "orientations" : [
+    {
+      "image" : "castlehiddentrapdoor.png:default",
+      "imagePosition" : [-16, -8],
+	  "animationPosition" : [-17, -8],
+	  "flipImages" : true,
+	  "direction" : "left",
 
-  "inboundNodes" : [ [-1, 4] ],
-  "outboundNodes" : [ [1, 0] ]
+      "spaces" : [ [-2, -1], [-1, -1], [0, -1], [1, -1], [2, -1], [-2, 0], [-1, 0], [0, 0], [1, 0], [2, 0], [-2, 1], [-1, 1], [0, 1], [1, 1], [2, 1] ],
+      "anchors" : [ "background" ]
+    },
+	{
+      "image" : "castlehiddentrapdoor.png:default",
+      "imagePosition" : [-16, -8],
+	  "animationPosition" : [-16, -8],
+	  "direction" : "right",
+
+      "spaces" : [ [-2, -1], [-1, -1], [0, -1], [1, -1], [2, -1], [-2, 0], [-1, 0], [0, 0], [1, 0], [2, 0], [-2, 1], [-1, 1], [0, 1], [1, 1], [2, 1] ],
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "inboundNodes" : [ [-1, 1] ],
+  "outboundNodes" : [ [1, -1] ]
 }

@@ -11,7 +11,7 @@
   "muzzleFlashes" : [ ],
   "soundEffect" : [ "/sfx/melee/swing_hammer.wav" ],
   "kind" : "hammer",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
 
   "primaryStances" : {
     "directional" : false,

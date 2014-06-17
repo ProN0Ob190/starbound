@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "The signal is dead so you can't even watch sports on it.",
   "shortdescription" : "T.V. Helmet",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

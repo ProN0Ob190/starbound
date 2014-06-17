@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "These pants and boots allow for flexibility whilst still providing protection from the elements!",
   "shortdescription" : "Defector's Pants",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

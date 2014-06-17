@@ -17,17 +17,17 @@
     "value" : "0"
   },
   "descriptionLabel" : {
-    "type" : "wraplabel",
+    "type" : "label",
     "position" : [11, 61],
     "hAnchor" : "left",
-    "width" : 126
+    "wrapWidth" : 126
   },
   "rarityLabel" : {
-    "type" : "wraplabel",
+    "type" : "label",
     "position" : [7, 23],
     "hAnchor" : "left",
     "centered" : true,
-    "width" : 126
+    "wrapWidth" : 126
   },
   "largeImage" : {
     "type" : "image",

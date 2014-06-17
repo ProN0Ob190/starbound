@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "I'm huntin' wabbits.",
   "shortdescription" : "Carrot on a String",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

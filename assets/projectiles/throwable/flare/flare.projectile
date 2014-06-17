@@ -2,7 +2,6 @@
   "projectileName" : "flare",
   "physics" : "grenadenobounce",
   "bounces" : -1,
-  "level" : 3,
   "timeToLive" : 20,
   "frames" : "flare.png",
   "animationCycle" : 0.25,

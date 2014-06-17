@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "dieOS. A small, manoeuvrable dagger.",
   "shortdescription" : "dieOS",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "glitchtier4dagger.png",

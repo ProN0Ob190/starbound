@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "A living kitty wants to claim you as their slave!",
   "shortdescription" : "Kitty Hat",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

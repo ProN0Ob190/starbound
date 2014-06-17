@@ -2,7 +2,6 @@
   "projectileName" : "healbomb",
   "physics" : "grenadenobounce",
   "bounces" : 0,
-  "level" : 3,
   "timeToLive" : 5,
   "frames" : "healbomb.png",
   "animationCycle" : 0.25,

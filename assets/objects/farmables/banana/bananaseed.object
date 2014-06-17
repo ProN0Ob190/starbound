@@ -6,6 +6,7 @@
   "shortdescription" : "Banana Seed",
   "objectType" : "farmable",
   "printable" : false,
+  "price" : 255,
 
   "apexDescription" : "The most delicious of all fruit. Along with freedom, owning a banana farm is every Apex's dream.",
   "avianDescription" : "These bananas taste unusual.",
@@ -65,12 +66,12 @@
   },
   "growing" : {
     "0" : {
-      "duration" : [300, 420],
+      "duration" : [1125, 1125],
       "success" : 1,
       "failure" : 3
     },
     "1" : {
-      "duration" : [300, 420],
+      "duration" : [1125, 1125],
       "success" : 2,
       "failure" : 3
     }

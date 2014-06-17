@@ -1,7 +1,9 @@
 -- Swoop from the current position towards the target, then retreat back towards
 -- the starting position
 
-flyingSwoopBounceAttack = {}
+flyingSwoopBounceAttack = {
+  stateCooldown = 1.0
+}
 
 function flyingSwoopBounceAttack.enter()
   return { swoopBounceTimer = 0.0 }
@@ -10,9 +12,11 @@ end
 function flyingSwoopBounceAttack.update(dt, stateData)
   entity.setFacingDirection(self.toTarget[1])
 
-  if util.blockSensorTest("blockedSensors", entity.facingDirection()) then
+  if self.toTarget[2] > 0 then
+    return true, flyingSwoopBounceAttack.stateCooldown
+  elseif self.sensors.upSensors.collision.any(true) then
     return true
-  elseif util.blockSensorTest("downSensors", entity.facingDirection()) then
+  elseif self.sensors.downSensors.collision.any(true) then
     return true
   elseif not entity.entityInSight(self.target) then
     return true

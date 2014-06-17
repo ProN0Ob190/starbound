@@ -4,7 +4,6 @@
   "animationCycle" : 0.2,
   "damageKindImage" : "icon.png",
   "frameNumber" : 4,
-  "level" : 15,
   "power" : 10,
   "lightColor" : [96, 78, 155],
   "speed" : 70,

@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Will of Kluex. A spear designed by Kluex himself.",
   "shortdescription" : "Will of Kluex",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "aviantier10spear.png",

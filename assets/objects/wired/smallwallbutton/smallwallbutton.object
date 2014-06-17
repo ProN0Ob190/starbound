@@ -1,7 +1,6 @@
 {
   "objectName" : "smallwallbutton",
   "rarity" : "Common",
-  "objectType" : "wire",
   "description" : "Who knows what it might activate... just press it!",
   "shortdescription" : "Small Wall Button",
   "race" : "generic",

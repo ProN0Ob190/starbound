@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "This headgear is designed to disguise the wearer completely inconspicuously.",
   "shortdescription" : "Assassin's Mask",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

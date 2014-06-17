@@ -1,64 +1,72 @@
 -- Factory that creates a flying ranged attack state for a specific skill
-function createFlyingRangedAttack(skillName)
-  -- Shoot a projectile at the target, moving up and down a bit while doing so
-  local flyingRangedAttack = {}
+function createRangedAttack(skillName)
+  local rangedAttack = {}
 
-  function flyingRangedAttack.enter()
+  function rangedAttack.enter()
     if entity.entityInSight(self.target) then
+      local params = entity.configParameter(skillName)
+
+      rangedAttack.pType = type(params.projectile) == "table" and entity.staticRandomizeParameter(skillName..".projectile") or params.projectile
+      rangedAttack.pPower = root.evalFunction("monsterLevelPowerMultiplier", entity.level()) * params.power
+      rangedAttack.pSpeed = params.speed or 20.0
+      rangedAttack.pGrav = root.projectileGravityMultiplier(rangedAttack.pType) or 1.0
+      rangedAttack.pArc = params.arc
+      rangedAttack.shots = params.shots or 1
+      rangedAttack.fireInterval = params.fireInterval or 0.5
+
+      rangedAttack.attackTime = rangedAttack.shots * rangedAttack.fireInterval
+      rangedAttack.cooldownTime = 1.0
+
       return {
-        timer = 0,
-        totalTime = entity.randomizeSkillParameterRange(skillName, "timeRange"),
-        projectile = entity.staticRandomizeSkillParameter(skillName, "projectile"),
         basePosition = entity.position(),
-        startedFiring = false
+        timer = rangedAttack.attackTime,
+        fireCooldown = 0,
+        shotsRemaining = rangedAttack.shots
       }
     end
 
     return nil
   end
 
-  function flyingRangedAttack.update(dt, stateData)
+  function rangedAttack.update(dt, stateData)
     if not entity.entityInSight(self.target) then return true end
-    if stateData.timer > stateData.totalTime then return true end
+    if stateData.timer <= 0 then return true end
+    if stateData.shotsRemaining <= 0 then return true end
 
     entity.setDamageOnTouch(false)
     entity.setAggressive(true)
 
-    if not stateData.startedFiring and entity.readyToFire() then
-      entity.startFiring(stateData.projectile)
-      stateData.startedFiring = true
+    entity.setAnimationState("movement", "flyingAttack")
 
-      entity.setAnimationState("movement", "flyingAttack")
-      stateData.attackAnimationTimer = entity.projectileConfigParameter(stateData.projectile, "fireTime")
-    end
-
-    local toTarget = entity.distanceToEntity(self.target)
-    if stateData.startedFiring then
-      entity.setFireDirection(entity.configParameter("projectileOffset"), toTarget)
-    end
-
-    if stateData.attackAnimationTimer ~= nil then
-      stateData.attackAnimationTimer = stateData.attackAnimationTimer - dt
-      if stateData.attackAnimationTimer <= 0.0 then
-        entity.setAnimationState("movement", "flying")
-        stateData.attackAnimationTimer = nil
-      end
-    end
-
-    local ratio = stateData.timer / stateData.totalTime
-
-    local position = entity.position()
-    local destination = {
-      position[1],
-      stateData.basePosition[2] - math.sin(ratio * 2.0 * math.pi) * entity.skillConfigParameter(skillName, "movementRadius")
-    }
-
-    entity.flyTo(destination, true)
+    local toTarget = world.distance(world.entityPosition(self.target), entity.position())
     entity.setFacingDirection(toTarget[1])
 
-    stateData.timer = stateData.timer + dt
+    if stateData.fireCooldown <= 0 then
+      rangedAttack.fire(toTarget)
+
+      stateData.shotsRemaining = stateData.shotsRemaining - 1
+      stateData.fireCooldown = rangedAttack.fireInterval
+    end
+    stateData.fireCooldown = stateData.fireCooldown - dt
+
+    --don't fall!
+    entity.flyTo(stateData.basePosition, true)
+
+    stateData.timer = stateData.timer - dt
     return false
   end
 
-  return flyingRangedAttack
+  function rangedAttack.fire(direction)
+    local pConfig = {
+      power = rangedAttack.pPower,
+      speed = rangedAttack.pSpeed
+    }
+    world.spawnProjectile(rangedAttack.pType, entity.position(), entity.id(), direction, false, pConfig)
+  end
+
+  function rangedAttack.leavingState(stateData)
+    entity.setAnimationState("movement", "flying")
+  end
+
+  return rangedAttack
 end

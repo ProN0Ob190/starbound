@@ -2,7 +2,7 @@
   "name" : "lightningcoil",
   "maxStack" : 1,
   "rarity" : "uncommon",
-  "inspectionKind" : "gun",
+  "tooltipKind" : "gun",
   "handPosition" : [3.5, 0],
   "firePosition" : [-4, 9],
   "weaponType" : "Lightning Coil",

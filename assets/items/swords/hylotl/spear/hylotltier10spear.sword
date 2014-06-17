@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "The Pitchfork. Perfect for uprooting a certain plant-like species.",
   "shortdescription" : "The Pitchfork",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "hylotltier10spear.png",

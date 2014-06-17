@@ -1,0 +1,5 @@
+{
+  "kind" : "beamaxe",
+  "primitives" : [],
+  "failsafeRequirementLabel" : "BeamAxe required."
+}

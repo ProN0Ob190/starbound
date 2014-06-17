@@ -2,7 +2,6 @@
   "objectName" : "giftmonstersmallbox",
   "printable" : false,
   "rarity" : "Uncommon",
-  "objectType" : "wire",
 
   "category" : "storage",
   "price" : 300,

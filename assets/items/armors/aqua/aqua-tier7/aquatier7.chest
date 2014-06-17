@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "The chestguard of the Ocean explorer is often marked with battlescars received from unusual creatures.",
   "shortdescription" : "Ocean Chestguard",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chest.png",

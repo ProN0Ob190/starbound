@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Traditional Wedding Dress. Can even be worn over armour, just in case.",
   "shortdescription" : "Wedding Dress",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

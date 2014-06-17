@@ -2,7 +2,6 @@
   "projectileName" : "hail3",
   "frames" : "hail3.png",
   "animationCycle" : 0.25,
-  "level" : 3,
   "frameNumber" : 1,
   "damageKindImage" : "icon.png",
   "pointLight" : false,

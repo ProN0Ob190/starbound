@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Candy Crusher. A hammer that looks like a piece of candy.",
   "shortdescription" : "Candy Crusher",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "aviantier4hammer.png",

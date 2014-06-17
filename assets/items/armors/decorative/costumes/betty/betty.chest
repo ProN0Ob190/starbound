@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Armour equipped with a snazzy scarf.",
   "shortdescription" : "Armour and Scarf",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

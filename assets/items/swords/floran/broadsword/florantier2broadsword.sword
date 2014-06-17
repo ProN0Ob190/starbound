@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Big Slicestabber. For slicing and stabbing.",
   "shortdescription" : "Big Slicestabber",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "florantier2broadsword.png",

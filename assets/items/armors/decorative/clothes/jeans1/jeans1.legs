@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Fashion skinny jeans.",
   "shortdescription" : "Skinny Jeans",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

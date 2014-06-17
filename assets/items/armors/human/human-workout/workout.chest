@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A sweatshirt.. it smells.",
   "shortdescription" : "Sweatshirt",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

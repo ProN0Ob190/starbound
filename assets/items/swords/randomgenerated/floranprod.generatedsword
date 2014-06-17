@@ -2,14 +2,14 @@
   "name" : "floranprod",
   "baseDps" : [2.5, 3.5],
   "rateOfSwing" : [0.7, 1.75],
-  "multiplier" : 0.3,
+  "multiplier" : 0.35,
   "firePosition" : [52, -8.5],
   "fireAfterWindup" : true,
   "bladeBehindHandle" : false,
   "muzzleFlashes" : [ ],
   "soundEffect" : [ "/sfx/melee/swing_floranprod.wav" ],
   "kind" : "floranprod",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
 
   "primaryStances" : {
     "directional" : true,

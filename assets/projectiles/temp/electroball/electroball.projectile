@@ -2,7 +2,6 @@
   "projectileName" : "electroball",
   "frames" : "electroball.png",
   "animationCycle" : 0.5,
-  "level" : 3,
   "frameNumber" : 4,
   "power" : 50,
 

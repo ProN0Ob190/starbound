@@ -252,6 +252,16 @@ function stateMachine.create(availableStates, stateTables)
     return ""
   end
 
+  function self.stateCooldown(stateName, newCooldown)
+    if stateName ~= nil and type(newCooldown) == "number" then
+      cooldownTimers[stateName] = newCooldown
+    elseif stateName ~= nil and cooldownTimers[stateName] and cooldownTimers[stateName] > 0 then
+      return cooldownTimers[stateName]
+    else
+      return 0
+    end
+  end
+
   -- Returns true if a state was updated during this call
   function self.update(dt)
     -- Update current state

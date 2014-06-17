@@ -2,7 +2,6 @@
   "projectileName" : "splitter",
   "frames" : "splitter.png",
   "physics" : "gravitybomb",
-  "level" : 3,
   "animationCycle" : 0.5,
   "frameNumber" : 4,
   "power" : 50,

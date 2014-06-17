@@ -2,7 +2,6 @@
   "projectileName" : "glowbomb",
   "physics" : "grenadenobounce",
   "bounces" : 0,
-  "level" : 3,
   "timeToLive" : 10,
   "frames" : "glowbomb.png",
   "animationCycle" : 0.25,

@@ -1,8 +1,8 @@
 {
   "descriptionLabel" : {
-    "type" : "wraplabel",
+    "type" : "label",
     "position" : [48, 100],
-    "width" : 150,
+    "wrapWidth" : 150,
     "hAnchor" : "left"
   },
   "title" : {

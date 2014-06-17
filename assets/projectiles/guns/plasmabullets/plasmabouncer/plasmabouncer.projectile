@@ -2,7 +2,6 @@
   "projectileName" : "plasmabouncer",
   "physics" : "fireball",
   "bounces" : -1,
-  "level" : 3,
   "timeToLive" : 3,
   "frames" : "plasmabouncer.png",
   "damageKindImage" : "icon.png",

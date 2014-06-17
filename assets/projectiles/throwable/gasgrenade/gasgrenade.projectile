@@ -2,7 +2,6 @@
   "projectileName" : "gasgrenade",
   "physics" : "grenadezbomb",
   "bounces" : 0,
-  "level" : 3,
   "timeToLive" : 8,
   "frames" : "gasgrenade.png",
   "animationCycle" : 0.4,

@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Made of real faux-leather. Too cool.",
   "shortdescription" : "Cool Pants",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pantsm.png",
   "femaleFrames" : "pantsf.png",

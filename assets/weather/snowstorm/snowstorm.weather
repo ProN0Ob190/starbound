@@ -1,5 +1,6 @@
 {
   "name" : "snowstorm",
+  "icon" : "/interface/cockpit/weather/blizzard.png",
 
   "particles" : [
     {

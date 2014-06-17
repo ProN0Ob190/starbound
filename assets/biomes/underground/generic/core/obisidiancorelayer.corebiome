@@ -1,5 +1,7 @@
 {
   "name" : "obsidiancorelayer",
+  "friendlyName" : "Obsidian Core Layer",
+  "requiredStatuses" : [ "beamaxe" ],
 
   "undergroundParallax" : "/biomes/underground/generic/desert.undergroundparallax",
 

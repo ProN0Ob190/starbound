@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Safareach. A hammer with a decent reach.",
   "shortdescription" : "Safareach",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "glitchtier3hammer.png",

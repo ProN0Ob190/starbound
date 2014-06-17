@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Steelforger. Forged of steel, forges steel. Steel.",
   "shortdescription" : "Steelforger",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "glitchtier2hammer.png",

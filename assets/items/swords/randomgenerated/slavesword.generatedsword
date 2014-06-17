@@ -4,14 +4,14 @@
   "rarity" : "legendary",
   "baseDps" : [2.5, 3.5],
   "rateOfSwing" : [1.0, 1.0],
-  "multiplier" : 0.35,
+  "multiplier" : 0.4,
   "firePosition" : [0.0, -8.3],
   "fireAfterWindup" : true,
   "bladeBehindHandle" : false,
   "muzzleFlashes" : [ ],
   "soundEffect" : [ "/sfx/melee/slavesword_swing.wav" ],
   "kind" : "slavesword",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
 
   "primaryStances" : {
     "directional" : true,

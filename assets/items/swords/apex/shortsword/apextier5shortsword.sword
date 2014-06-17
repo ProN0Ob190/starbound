@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Baby Barbaryan. A sturdy shortsword.",
   "shortdescription" : "Baby Barbaryan",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "apextier5shortsword.png",

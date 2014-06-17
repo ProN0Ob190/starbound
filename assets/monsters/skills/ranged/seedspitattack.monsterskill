@@ -1,0 +1,18 @@
+{
+  "name" : "seedSpitAttack",
+  "label" : "SEED SPIT",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "seedSpitAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "seed",
+      "arc" : "low",
+      "range" : 20,
+      "speed" : 35,
+      "power" : 10,
+      "shots" : 3,
+      "fireInterval" : 0.33
+    }
+  }
+}

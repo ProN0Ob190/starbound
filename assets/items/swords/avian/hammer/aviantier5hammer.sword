@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Divebomb. An exceptionally heavy, spiky hammer.",
   "shortdescription" : "Divebomb",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "aviantier5hammer.png",

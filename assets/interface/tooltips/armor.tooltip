@@ -6,18 +6,18 @@
     "fileFooter" : "/interface/tooltips/footer.png"
   },
   "rarityLabel" : {
-    "type" : "wraplabel",
+    "type" : "label",
     "position" : [7, 23],
     "hAnchor" : "left",
     "centered" : true,
-    "width" : 126
+    "wrapWidth" : 126
   },
   "armorProtection" : {
-    "type" : "wraplabel",
+    "type" : "label",
     "position" : [125, 152],
     "hAnchor" : "left",
     "centered" : true,
-    "width" : 126
+    "wrapWidth" : 126
   },
   "moneyIcon" : {
     "type" : "image",
@@ -39,9 +39,9 @@
     "minSize" : [38, 38]
   },
   "descriptionLabel" : {
-    "type" : "wraplabel",
+    "type" : "label",
     "position" : [10, 103],
-    "width" : 122,
+    "wrapWidth" : 122,
     "hAnchor" : "left"
   },
   "statusList" : {

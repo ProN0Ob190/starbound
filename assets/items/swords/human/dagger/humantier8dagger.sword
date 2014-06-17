@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Kneesplitter. A chunky, strong dagger.",
   "shortdescription" : "Kneesplitter",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "humantier8dagger.png",

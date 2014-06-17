@@ -9,10 +9,10 @@
 
   "parameters" :
   {
-    "idleNoise" : [ "/sfx/npc/quadruped/beastiehead_idle1.wav", "/sfx/npc/quadruped/beastiehead_idle2.wav" ],
-    "turnHostileNoise" : [ "/sfx/npc/quadruped/beastiehead_turnhostile.wav" ],
-    "attackNoise" : [ "/sfx/npc/quadruped/beastiehead_attack1.wav", "/sfx/npc/quadruped/beastiehead_attack2.wav" ],
-    "painNoise" : [ "/sfx/npc/quadruped/beastiehead_pain1.wav", "/sfx/npc/quadruped/beastiehead_pain2.wav" ],
-    "deathNoise" : [ "/sfx/npc/quadruped/beastiehead_death.wav" ]
+    // "idleNoise" : [ "/sfx/npc/quadruped/beastiehead_idle1.wav", "/sfx/npc/quadruped/beastiehead_idle2.wav" ],
+    "turnHostileNoise" : [ "/sfx/npc/monsters/monster_surprise.wav" ],
+    // "attackNoise" : [ "/sfx/npc/quadruped/beastiehead_attack1.wav", "/sfx/npc/quadruped/beastiehead_attack2.wav" ],
+    // "painNoise" : [ "/sfx/npc/quadruped/beastiehead_pain1.wav", "/sfx/npc/quadruped/beastiehead_pain2.wav" ],
+    "deathNoise" : [ "/sfx/npc/enemydeathpuff.wav" ]
   }
 }

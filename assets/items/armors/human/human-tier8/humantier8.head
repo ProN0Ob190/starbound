@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "After meeting the Glitch, human adventurers adopted a new style of helm.",
   "shortdescription" : "Adventurer's Helm",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

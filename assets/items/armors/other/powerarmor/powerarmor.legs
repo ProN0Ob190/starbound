@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Power Armour Leg Armour. Heavy-duty armour.",
   "shortdescription" : "Power Armour Leg Armour",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Internal Explorer. A hammer that'll shatter any Glitch outer shells.",
   "shortdescription" : "Internal Explorer",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "glitchtier6hammer.png",

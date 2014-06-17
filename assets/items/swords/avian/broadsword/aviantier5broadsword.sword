@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Wingwhacker Extreme. A sword that looks like a hefty wing.",
   "shortdescription" : "Wingwhacker Extreme",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "aviantier5broadsword.png",

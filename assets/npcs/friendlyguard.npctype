@@ -134,7 +134,8 @@
               { "name" : "generatedgun", "data" : { "definition" : "commonsniperrifle" } }
             ],
             "alt" : [
-              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } },
+			  { "name" : "generatedshield", "data" : { "definition" : "tier1woodshield" } }
             ]
           }
         ] ]
@@ -153,7 +154,8 @@
               { "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } }
             ],
             "alt" : [
-              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } },
+			  { "name" : "generatedshield", "data" : { "definition" : "tier1woodshield" } }
             ]
           }
         ] ]
@@ -194,7 +196,8 @@
               { "name" : "generatedgun", "data" : { "definition" : "commonsniperrifle" } }
             ],
             "alt" : [
-              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } },
+			  { "name" : "generatedshield", "data" : { "definition" : "tier1woodshield" } }
             ]
           }
         ] ]

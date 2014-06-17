@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "The Durasteel inner lining of this jacket make it both fashionable and tough.",
   "shortdescription" : "Revolutionary's Jacket",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

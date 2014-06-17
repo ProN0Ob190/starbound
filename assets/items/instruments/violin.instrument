@@ -8,7 +8,7 @@
   "shortdescription" : "Violin",
   "largeImage" : "violin.png",
   "image" : "violin.png",
-  "inspectionKind" : "tool",
+  "tooltipKind" : "tool",
   "activeImage" : "violin.png",
   "activeAngle" : -2,
   "activeHandPosition" : [0.4, 0.2],

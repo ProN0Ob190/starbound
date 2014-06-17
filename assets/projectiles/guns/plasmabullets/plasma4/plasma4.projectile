@@ -2,7 +2,6 @@
   "projectileName" : "plasma4",
   "physics" : "laser",
   "bounces" : 0,
-  "level" : 3,
   "damageKindImage" : "icon.png",
   "frames" : "plasma4.png",
   "animationCycle" : 0.2,

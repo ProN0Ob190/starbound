@@ -7,7 +7,7 @@
   "description" : "A red flashlight! Everything looks hot and filled with rage.",
   "shortdescription" : "Flashlight",
   "largeImage" : "redflashlightlarge.png",
-  "inspectionKind" : "tool",
+  "tooltipKind" : "tool",
   "image" : "redflashlight.png",
   "handPosition" : [-2, 0],
   "lightPosition" : [4, 0],

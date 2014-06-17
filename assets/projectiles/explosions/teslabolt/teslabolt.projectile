@@ -2,7 +2,6 @@
   "projectileName" : "teslabolt",
   "frames" : "teslabolt.png",
   "animationCycle" : 0.4,
-  "level" : 3,
   "frameNumber" : 6,
   "speed" : 40,
   "fallSpeed" : 0,

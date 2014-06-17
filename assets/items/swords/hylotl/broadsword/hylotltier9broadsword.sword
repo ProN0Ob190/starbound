@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Great White. A serrated broadsword.",
   "shortdescription" : "Great White",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "hylotltier9broadsword.png",

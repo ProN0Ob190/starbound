@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Pelican Opener. A sword especially designed for taking down Glitch.",
   "shortdescription" : "Pelican Opener",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "aviantier8broadsword.png",

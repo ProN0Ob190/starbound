@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "The floran gatherer's Cerulium chestpiece is the last thing many a scientist sees.",
   "shortdescription" : "Gatherer's Chestpiece",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chest.png",

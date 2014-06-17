@@ -9,11 +9,12 @@
 
   "parameters" :
   {
-    "projectileSourcePosition" : [1, -0.5],
-    "idleNoise" : [ "/sfx/npc/quadruped/teethyhead_idle1.wav", "/sfx/npc/quadruped/teethyhead_idle2.wav" ],
-    "turnHostileNoise" : [ "/sfx/npc/quadruped/teethyhead_turnhostile.wav" ],
-    "attackNoise" : [ "/sfx/npc/quadruped/teethyhead_attack1.wav", "/sfx/npc/quadruped/teethyhead_attack2.wav" ],
-    "painNoise" : [ "/sfx/npc/quadruped/teethyhead_pain1.wav", "/sfx/npc/quadruped/teethyhead_pain2.wav" ],
-    "deathNoise" : [ "/sfx/npc/quadruped/teethyhead_death.wav" ]
+    "meleeProjectile" : "meleebutt",
+	"projectileSourcePosition" : [1, -0.5],
+    // "idleNoise" : [ "/sfx/npc/quadruped/teethyhead_idle1.wav", "/sfx/npc/quadruped/teethyhead_idle2.wav" ],
+    "turnHostileNoise" : [ "/sfx/npc/monsters/monster_surprise.wav" ],
+    // "attackNoise" : [ "/sfx/npc/quadruped/teethyhead_attack1.wav", "/sfx/npc/quadruped/teethyhead_attack2.wav" ],
+    // "painNoise" : [ "/sfx/npc/quadruped/teethyhead_pain1.wav", "/sfx/npc/quadruped/teethyhead_pain2.wav" ],
+    "deathNoise" : [ "/sfx/npc/enemydeathpuff.wav" ]
   }
 }

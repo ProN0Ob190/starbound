@@ -2,7 +2,6 @@
   "projectileName" : "waterballoon",
   "physics" : "grenade",
   "frames" : "waterballoon.png",
-  "level" : 3,
   "animationCycle" : 0.5,
   "frameNumber" : 2,
 

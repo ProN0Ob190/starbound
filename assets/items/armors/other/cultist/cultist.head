@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A Cultist's head armour",
   "shortdescription" : "Cultist Head Armour",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

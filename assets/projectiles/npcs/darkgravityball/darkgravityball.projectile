@@ -2,20 +2,13 @@
   "projectileName" : "darkgravityball",
   "physics" : "laser",
   "bounces" : 0,
-  "level" : 3,
-  "timeToLive" : 3,
+  "timeToLive" : 1.8,
   "frames" : "darkgravityball.png",
   "damageKindImage" : "icon.png",
   "speed" : 1,
-  "animationCycle" : 3,
+  "animationCycle" : 1.8,
   "lightColor" : [93, 10, 47],
   "frameNumber" : 25,
-  "actionOnReap" : [
-    {
-      "action" : "config",
-      "file" : "/projectiles/explosions/smallregularexplosion/smallregularexplosion.config"
-    }
-  ],
   "power" : 50,
   "damageType" : "hitTest",
   "damageKind" : "slash"

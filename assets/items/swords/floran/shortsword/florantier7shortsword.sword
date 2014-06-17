@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Rosebud. A treasured Floran sword.",
   "shortdescription" : "Rosebud",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "florantier7shortsword.png",

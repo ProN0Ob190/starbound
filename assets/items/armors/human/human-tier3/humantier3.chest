@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A chestguard protects the pioneer's first steps into a new world.",
   "shortdescription" : "Pioneer's Chestguard",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chest.png",

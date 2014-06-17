@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Take to the skies like the Iron Avian. Fwooooosh!",
   "shortdescription" : "The Iron Avian Helmet",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

@@ -2,7 +2,6 @@
   "projectileName" : "spacedust1",
   "frames" : "spacedust1.png",
   "animationCycle" : 0.25,
-  "level" : 3,
   "frameNumber" : 4,
   "damageKindImage" : "icon.png",
   "pointLight" : false,

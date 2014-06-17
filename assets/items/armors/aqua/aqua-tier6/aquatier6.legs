@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Ferozium sea leggings are the only piece of shogun armour built to protect a non-essential organ.",
   "shortdescription" : "Sea Leggings",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

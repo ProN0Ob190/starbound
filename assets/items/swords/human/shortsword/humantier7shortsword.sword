@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Paddlemaster 1000. A hefty shortsword that packs even more of a punch.",
   "shortdescription" : "Paddlemaster 1000",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "humantier7shortsword.png",

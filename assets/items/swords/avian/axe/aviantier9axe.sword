@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Wingbone. A decorated axe with a smooth bone handle.",
   "shortdescription" : "Wingbone",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "aviantier9axe.png",

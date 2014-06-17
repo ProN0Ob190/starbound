@@ -1,7 +1,6 @@
 {
   "objectName" : "standingturret",
   "rarity" : "Common",
-  "objectType" : "wire",
 
   "isInteractive" : true,
 

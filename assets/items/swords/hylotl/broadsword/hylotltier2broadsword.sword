@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Swishbuckler. A decent pirate sword.",
   "shortdescription" : "Swishbuckler",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "hylotltier2broadsword.png",

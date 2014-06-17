@@ -1,0 +1,31 @@
+{
+  "objectName" : "number9",
+  "rarity" : "Common",
+  "description" : "Nine marker.",
+  "shortdescription" : "Nine.",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 400,
+  
+  "apexDescription" : "-todo-",
+  "avianDescription" : "-todo-",
+  "floranDescription" : "-todo-",
+  "glitchDescription" : "Statement. Nine.",
+  "humanDescription" : "-todo-",
+  "hylotlDescription" : "-todo-",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "number9.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

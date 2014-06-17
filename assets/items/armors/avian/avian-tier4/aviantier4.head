@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Durasteel-based helmet worn by Avian spacefarers. Doesn't protect you from the vacuum of space, though...",
   "shortdescription" : "Owl Helm",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

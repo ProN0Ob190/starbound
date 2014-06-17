@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Disgraced floran are thrown unarmored into an arena with a hungry floran cannibal.",
   "shortdescription" : "Cannibal's Chestguard",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

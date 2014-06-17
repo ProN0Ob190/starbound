@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Twintails. A dual-bladed sword.",
   "shortdescription" : "Twintails",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "apextier6broadsword.png",

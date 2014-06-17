@@ -14,21 +14,33 @@
   "hylotlDescription" : "What effect must such.. inelegance have on the mind?",
 
   "inventoryIcon" : "apexarmchairicon.png",
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  
   "orientations" : [
     {
-      "dualImage" : "apexarmchair.png:<color>",
+      "image" : "apexarmchair.png:<color>",
       "imagePosition" : [-16, 0],
+	  "flipImages" : true,
+	  "direction" : "left",
       "frames" : 1,
       "animationCycle" : 0.5,
 
       "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+      "anchors" : [ "bottom" ],
+	  "sitPosition" : [4, 20]
+    },
+	{
+      "image" : "apexarmchair.png:<color>",
+      "imagePosition" : [-16, 0],
+	  "direction" : "right",
+      "frames" : 1,
+      "animationCycle" : 0.5,
 
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "sitPosition" : [4, 20]
     }
-  ],
-
-  "objectType" : "loungeable",
-  "sitFlipDirection" : false,
-  "sitPosition" : [4, 20]
-
+  ]
 }

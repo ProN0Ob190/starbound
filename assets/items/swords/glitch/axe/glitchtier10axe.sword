@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Sentinel. An axe that might just be sentient.",
   "shortdescription" : "Sentinel",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "glitchtier10axe.png",

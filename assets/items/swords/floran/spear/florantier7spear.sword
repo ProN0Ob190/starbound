@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "StabStabStab. A spear with two smaller prongs on it.",
   "shortdescription" : "StabStabStab",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "florantier7spear.png",

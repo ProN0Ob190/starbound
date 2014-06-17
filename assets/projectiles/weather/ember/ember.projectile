@@ -2,7 +2,6 @@
   "projectileName" : "ember",
   "frames" : "ember.png",
   "animationCycle" : 0.4,
-  "level" : 3,
   "frameNumber" : 4,
   "damageKindImage" : "icon.png",
   "pointLight" : false,

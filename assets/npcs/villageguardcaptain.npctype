@@ -45,7 +45,8 @@
               { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } }
             ],
             "alt" : [
-              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } },
+			  { "name" : "generatedshield", "data" : { "definition" : "tier1woodshield" } }
             ]
           },
           {
@@ -62,7 +63,8 @@
               { "name" : "generatedsword", "data" : { "definition" : "commondagger" } }
             ],
             "alt" : [
-              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } },
+			  { "name" : "generatedshield", "data" : { "definition" : "tier1woodshield" } }
             ]
           }
         ] ],
@@ -84,7 +86,8 @@
               { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } }
             ],
             "alt" : [
-              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } },
+			  { "name" : "generatedshield", "data" : { "definition" : "tier1woodshield" } }
             ]
           },
           {
@@ -101,7 +104,8 @@
               { "name" : "generatedsword", "data" : { "definition" : "commondagger" } }
             ],
             "alt" : [
-              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } },
+			  { "name" : "generatedshield", "data" : { "definition" : "tier1woodshield" } }
             ]
           }
         ] ],
@@ -123,7 +127,8 @@
               { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } }
             ],
             "alt" : [
-              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } },
+			  { "name" : "generatedshield", "data" : { "definition" : "tier1woodshield" } }
             ]
           },
           {
@@ -140,7 +145,8 @@
               { "name" : "generatedsword", "data" : { "definition" : "commondagger" } }
             ],
             "alt" : [
-              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } },
+			  { "name" : "generatedshield", "data" : { "definition" : "tier1woodshield" } }
             ]
           }
         ] ]
@@ -164,7 +170,8 @@
               { "name" : "generatedgun", "data" : { "definition" : "commonplasmamachinepistol" } }
             ],
             "alt" : [
-              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } },
+			  { "name" : "generatedshield", "data" : { "definition" : "tier1woodshield" } }
             ]
           },
           {
@@ -181,7 +188,8 @@
               { "name" : "generatedsword", "data" : { "definition" : "commondagger" } }
             ],
             "alt" : [
-              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } },
+			  { "name" : "generatedshield", "data" : { "definition" : "tier1woodshield" } }
             ]
           }
         ] ],
@@ -203,7 +211,8 @@
               { "name" : "generatedgun", "data" : { "definition" : "commonplasmamachinepistol" } }
             ],
             "alt" : [
-              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } },
+			  { "name" : "generatedshield", "data" : { "definition" : "tier1woodshield" } }
             ]
           },
           {
@@ -220,7 +229,8 @@
               { "name" : "generatedsword", "data" : { "definition" : "commondagger" } }
             ],
             "alt" : [
-              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } },
+			  { "name" : "generatedshield", "data" : { "definition" : "tier1woodshield" } }
             ]
           }
         ] ],
@@ -242,7 +252,8 @@
               { "name" : "generatedgun", "data" : { "definition" : "commonplasmamachinepistol" } }
             ],
             "alt" : [
-              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } },
+			  { "name" : "generatedshield", "data" : { "definition" : "tier1woodshield" } }
             ]
           },
           {
@@ -259,7 +270,8 @@
               { "name" : "generatedsword", "data" : { "definition" : "commondagger" } }
             ],
             "alt" : [
-              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } },
+			  { "name" : "generatedshield", "data" : { "definition" : "tier1woodshield" } }
             ]
           }
         ] ]
@@ -348,7 +360,8 @@
               { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } }
             ],
             "alt" : [
-              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } },
+			  { "name" : "generatedshield", "data" : { "definition" : "tier1woodshield" } }
             ]
           },
           {
@@ -365,7 +378,8 @@
               { "name" : "generatedsword", "data" : { "definition" : "commondagger" } }
             ],
             "alt" : [
-              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } },
+			  { "name" : "generatedshield", "data" : { "definition" : "tier1woodshield" } }
             ]
           }
         ] ],
@@ -387,7 +401,8 @@
               { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } }
             ],
             "alt" : [
-              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } },
+			  { "name" : "generatedshield", "data" : { "definition" : "tier1woodshield" } }
             ]
           },
           {
@@ -404,7 +419,8 @@
               { "name" : "generatedsword", "data" : { "definition" : "commondagger" } }
             ],
             "alt" : [
-              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } },
+			  { "name" : "generatedshield", "data" : { "definition" : "tier1woodshield" } }
             ]
           }
         ] ],
@@ -426,7 +442,8 @@
               { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } }
             ],
             "alt" : [
-              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } },
+			  { "name" : "generatedshield", "data" : { "definition" : "tier1woodshield" } }
             ]
           },
           {
@@ -443,7 +460,8 @@
               { "name" : "generatedsword", "data" : { "definition" : "commondagger" } }
             ],
             "alt" : [
-              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } },
+			  { "name" : "generatedshield", "data" : { "definition" : "tier1woodshield" } }
             ]
           }
         ] ]
@@ -532,7 +550,8 @@
               { "name" : "generatedgun", "data" : { "definition" : "commonplasmamachinepistol" } }
             ],
             "alt" : [
-              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } },
+			  { "name" : "generatedshield", "data" : { "definition" : "tier1woodshield" } }
             ]
           },
           {
@@ -549,7 +568,8 @@
               { "name" : "generatedsword", "data" : { "definition" : "commondagger" } }
             ],
             "alt" : [
-              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } },
+			  { "name" : "generatedshield", "data" : { "definition" : "tier1woodshield" } }
             ]
           }
         ] ],
@@ -571,7 +591,8 @@
               { "name" : "generatedgun", "data" : { "definition" : "commonplasmamachinepistol" } }
             ],
             "alt" : [
-              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } },
+			  { "name" : "generatedshield", "data" : { "definition" : "tier1woodshield" } }
             ]
           },
           {
@@ -588,7 +609,8 @@
               { "name" : "generatedsword", "data" : { "definition" : "commondagger" } }
             ],
             "alt" : [
-              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } },
+			  { "name" : "generatedshield", "data" : { "definition" : "tier1woodshield" } }
             ]
           }
         ] ],
@@ -610,7 +632,8 @@
               { "name" : "generatedgun", "data" : { "definition" : "commonplasmamachinepistol" } }
             ],
             "alt" : [
-              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } },
+			  { "name" : "generatedshield", "data" : { "definition" : "tier1woodshield" } }
             ]
           },
           {
@@ -627,7 +650,8 @@
               { "name" : "generatedsword", "data" : { "definition" : "commondagger" } }
             ],
             "alt" : [
-              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } },
+			  { "name" : "generatedshield", "data" : { "definition" : "tier1woodshield" } }
             ]
           }
         ] ]

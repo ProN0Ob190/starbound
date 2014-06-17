@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "To make the wearer look like a professional chef.",
   "shortdescription" : "Chef Hat",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

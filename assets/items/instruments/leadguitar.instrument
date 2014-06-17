@@ -8,7 +8,7 @@
   "shortdescription" : "Lead Guitar",
   "largeImage" : "leadguitar.png",
   "image" : "leadguitar.png",
-  "inspectionKind" : "tool",
+  "tooltipKind" : "tool",
   "activeImage" : "leadguitar.png",
   "activeAngle" : -0,
   "activeHandPosition" : [0.0, 0.0],

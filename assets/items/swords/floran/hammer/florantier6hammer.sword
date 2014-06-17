@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Smashy Tree. A tree which can be used a hammer.",
   "shortdescription" : "Smashy Tree",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "florantier6hammer.png",

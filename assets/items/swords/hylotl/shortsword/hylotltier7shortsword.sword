@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Codslicer. A sword perfect for slicing cod steaks.",
   "shortdescription" : "Codslicer",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "hylotltier7shortsword.png",

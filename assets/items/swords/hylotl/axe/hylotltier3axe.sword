@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Finhacker. An axe shaped like a fin.",
   "shortdescription" : "Finhacker",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "hylotltier3axe.png",

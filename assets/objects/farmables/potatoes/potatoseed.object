@@ -6,6 +6,7 @@
   "shortdescription" : "Potato Seed",
   "objectType" : "farmable",
   "printable" : false,
+  "price" : 265,
 
   "apexDescription" : "Potatoes. Unremarkable.",
   "avianDescription" : "Mashed potatoes make for a good dish.",
@@ -65,12 +66,12 @@
   },
   "growing" : {
     "0" : {
-      "duration" : [660, 780],
+      "duration" : [1170, 1170],
       "success" : 1,
       "failure" : 3
     },
     "1" : {
-      "duration" : [660, 780],
+      "duration" : [1170, 1170],
       "success" : 2,
       "failure" : 3
     }

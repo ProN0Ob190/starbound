@@ -1,7 +1,6 @@
 {
   "objectName" : "landmine",
   "rarity" : "Common",
-  "objectType" : "wire",
 
   "category" : "wire",
   "price" : 800,

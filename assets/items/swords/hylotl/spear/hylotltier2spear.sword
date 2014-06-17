@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Seaslice. A decent spear.",
   "shortdescription" : "Seaslice",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "hylotltier2spear.png",

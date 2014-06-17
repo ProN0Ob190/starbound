@@ -1,7 +1,9 @@
 {
   "name" : "arctic",
+  "friendlyName" : "Arctic",
   "caveLiquidType" : "water",
   "oceanLiquidType" : "ocean",
+  "requiredStatuses" : [ "beamaxe" ],
 
   "hueShiftOptions" : [0],
   "skyOptions" : [
@@ -136,61 +138,19 @@
     "undergroundParallax" : "arctic.undergroundparallax",
 
     "weather" : [
-      [
-        [0.6, "snow" ],
-        [0.3, "clear" ],
-        [0.1, "snowstorm" ]
-      ],
-      [
-        [0.7, "snow" ],
-        [0.3, "clear" ]
-      ],
-      [
-        [0.7, "snow" ],
-        [0.3, "clear" ]
-      ],
-      [
-        [0.2, "icestorm" ],
-        [0.5, "snow" ],
-        [0.3, "clear" ]
-      ],
-      [
-        [0.1, "glowingrain" ],
-        [0.9, "clear" ]
-      ],
-      [
-        [0.005, "meteorshower" ],
-        [0.995, "clear" ]
-      ],
-      [
-        [0.001, "largemeteor" ],
-        [0.999, "clear" ]
-      ],
-      [
-        [0.25, "hailstones" ],
-        [0.25, "snow" ],
-        [0.5, "clear" ]
-      ],
-      [
-        [0.25, "snow" ],
-        [0.15, "snowstorm" ],
-        [0.6, "clear" ]
-      ],
-      [
-        [0.9, "snowstorm" ],
-        [0.1, "clear" ]
-      ],
-      [
-        [0.6, "snow" ],
-        [0.3, "clear" ],
-        [0.1, "spacedustshower" ]
-      ],
-      [
-        [1.0, "clear" ]
-      ],
-      [
-        [1.0, "clear" ]
-      ]
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:veryCommonSnow",
+      "/weather.config:veryCommonSnow",
+      "/weather.config:commonSnowAndHail",
+      "/weather.config:commonSnowAndIcestorm",
+      "/weather.config:veryCommonSnowAndSnowstorm",
+      "/weather.config:commonSnowAndSnowstorm",
+      "/weather.config:rareMeteorShower",
+      "/weather.config:uncommonGlowingRain",
+      "/weather.config:veryCommonSnowAndSpacedust",
+      "/weather.config:veryCommonSnowstorm",
+      "/weather.config:veryRareLargeMeteorShower"
     ],
 
     "statusParameters" : {
@@ -558,6 +518,5 @@
     }
   },
   "allowedDetachedBiomes" : [ "geometric", "orb", "spring", "ice", "arctic", "arid", "desert", "forest", "grasslands", "jungle", "magma", "ocean", "savannah", "snow", "tentacles", "tundra", "volcanic" ]
-
   //  "allowedDetachedBiomes" : [ "ice", "spring" ]
 }

@@ -3,16 +3,16 @@
   "bladeBehindHandle" : false,
   "baseDps" : [2.5, 3.5],
   "rateOfSwing" : [0.8, 1],
-  "multiplier" : 0.3,
+  "multiplier" : 0.275,
   "firePosition" : [4, 2],
   "fireAfterWindup" : true,
   "muzzleFlashes" : [ ],
   "soundEffect" : [ "/sfx/melee/swing_twohanded.wav" ],
   "kind" : "steelchair",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
 
   "primaryStances" : {
-    "directional" : true,
+    "directional" : false,
     "projectileTypes" : [ "steelchairswoosh" ],
     "projectile" : {
       "speed" : 0.1

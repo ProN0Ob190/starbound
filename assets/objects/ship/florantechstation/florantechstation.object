@@ -1,0 +1,36 @@
+{
+  "objectName" : "florantechstation",
+  "rarity" : "Common",
+
+  "interactAction" : "OpenAiInterface",
+
+  "category" : "decorative",
+  "price" : 2500,
+  "lightColor" : [99, 61, 102],
+  "lightPosition" : [-1, 0],
+
+  "description" : "A tech station. For creating awesome tech!",
+  "shortdescription" : "Tech Station",
+  "race" : "floran",
+
+  "apexDescription" : "A tech station. Useful.",
+  "avianDescription" : "I can use this tech station to make things.",
+  "floranDescription" : "Floran create magic bang bangs!",
+  "glitchDescription" : "Admiration. An extremely advanced tech station.",
+  "humanDescription" : "A tech station. I can create awesome stuff here!",
+  "hylotlDescription" : "This tech station looks decent enough.",
+
+  "inventoryIcon" : "florantechstationicon.png",
+  "orientations" : [
+    {
+	  "imageLayers" : [ { "image" : "florantechstation.png:<color>.<frame>", "unlit" : true }, { "image" : "florantechstationlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, -8],
+      "frames" : 8,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

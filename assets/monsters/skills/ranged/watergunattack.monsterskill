@@ -1,0 +1,18 @@
+{
+  "name" : "waterGunAttack",
+  "label" : "WATER GUN",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "waterGunAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "watergun",
+      "arc" : "low",
+      "range" : 12,
+      "power" : 8,
+      "speed" : 35,
+      "shots" : 10,
+      "fireInterval" : 0.066
+    }
+  }
+}

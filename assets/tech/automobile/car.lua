@@ -81,7 +81,7 @@ function update(args)
     tech.applyMovementParameters(mechCustomMovementParameters)
     if flip then
       tech.setFlipped(true)
-      local nudge = tech.stateNudge()
+      local nudge = tech.appliedOffset()
       tech.setParentOffset({-parentOffset[1] - nudge[1], parentOffset[2] + nudge[2]})
       tech.setParentFacingDirection(-1)
 
@@ -94,7 +94,7 @@ function update(args)
       tech.rotateGroup("guns", math.pi - aimAngle)
     else
       tech.setFlipped(false)
-      local nudge = tech.stateNudge()
+      local nudge = tech.appliedOffset()
       tech.setParentOffset({parentOffset[1] + nudge[1], parentOffset[2] + nudge[2]})
       tech.setParentFacingDirection(1)
 
@@ -125,14 +125,14 @@ function update(args)
 
     if args.actions["mechFire"] then
       if data.fireTimer <= 0 then
-        world.spawnProjectile(mechProjectile, tech.anchorPoint("frontGunFirePoint"), tech.parentEntityId(), {math.cos(aimAngle), math.sin(aimAngle)}, false, mechProjectileConfig)
+        world.spawnProjectile(mechProjectile, vec2.add(tech.position(), tech.anchorPoint("frontGunFirePoint")), tech.parentEntityId(), {math.cos(aimAngle), math.sin(aimAngle)}, false, mechProjectileConfig)
         data.fireTimer = data.fireTimer + mechFireCycle
         tech.setAnimationState("frontFiring", "fire")
       else
         local oldFireTimer = data.fireTimer
         data.fireTimer = data.fireTimer - args.dt
         if oldFireTimer > mechFireCycle / 2 and data.fireTimer <= mechFireCycle / 2 then
-          world.spawnProjectile(mechProjectile, tech.anchorPoint("backGunFirePoint"), tech.parentEntityId(), {math.cos(aimAngle), math.sin(aimAngle)}, false, mechProjectileConfig)
+          world.spawnProjectile(mechProjectile, vec2.add(tech.position(), tech.anchorPoint("backGunFirePoint")), tech.parentEntityId(), {math.cos(aimAngle), math.sin(aimAngle)}, false, mechProjectileConfig)
           tech.setAnimationState("backFiring", "fire")
         end
       end

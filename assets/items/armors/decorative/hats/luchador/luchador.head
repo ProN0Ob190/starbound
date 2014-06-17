@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Wrestle your way to glory with this stylish Luchador mask.",
   "shortdescription" : "Luchador Mask",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

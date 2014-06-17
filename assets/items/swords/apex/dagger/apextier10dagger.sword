@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Ape's Ruin. A small, chunky dagger that can pierce the toughest hide.",
   "shortdescription" : "Ape's Ruin",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "apextier10dagger.png",

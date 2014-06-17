@@ -2,12 +2,11 @@
   "projectileName" : "robotwake",
   "physics" : "grenadezbomb",
   "bounces" : 0,
-  "level" : 15,
   "timeToLive" : 0.2,
   "frames" : "robotwake.png",
-  "animationCycle" : 0.4,
+  "animationCycle" : 1.0,
   "lightColor" : [253, 160, 57],
-  "frameNumber" : 8,
+  "frameNumber" : 1,
   "actionOnReap" : [
     {
       "action" : "projectile",

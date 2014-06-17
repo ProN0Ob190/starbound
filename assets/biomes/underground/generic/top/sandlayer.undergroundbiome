@@ -1,5 +1,7 @@
 {
   "name" : "sandlayer",
+  "friendlyName" : "Sandlayer",
+  "requiredStatuses" : [ "beamaxe" ],
 
   "undergroundParallax" : "rockunderground.undergroundparallax",
 

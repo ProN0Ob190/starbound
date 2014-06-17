@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A set of leg armour with sturdy greaves that few things can pierce.",
   "shortdescription" : "Infiltrator's Greaves",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

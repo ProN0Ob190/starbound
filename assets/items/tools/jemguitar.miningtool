@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "This guitar is truly outrageous!",
   "shortdescription" : "KingV Guitar",
-  "inspectionKind" : "tool",
+  "tooltipKind" : "tool",
   "largeImage" : "stonepickaxebig.png",
 
   "image" : "jemguitar.png",

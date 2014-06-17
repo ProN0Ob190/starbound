@@ -6,7 +6,7 @@ gravitySlamAttack = {
 }
 
 function gravitySlamAttack.enter()
-  if not canStartAttack() then return nil end
+  if not canStartSkill("gravitySlamAttack") then return nil end
 
   return { run = coroutine.wrap(gravitySlamAttack.run) }
 end
@@ -31,13 +31,6 @@ function gravitySlamAttack.leavingState(stateData)
 end
 
 function gravitySlamAttack.run(stateData)
-  local timer = gravitySlamAttack.maxMoveTime
-  while timer > 0 and math.abs(self.toTarget[1]) < gravitySlamAttack.minDistance do
-    move({ -self.toTarget[1], 0 })
-    timer = timer - entity.dt()
-    coroutine.yield(false)
-  end
-
   entity.setFacingDirection(self.toTarget[1])
   entity.setAnimationState("movement", "idle")
   entity.setAnimationState("attack", "charge")

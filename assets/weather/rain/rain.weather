@@ -1,5 +1,6 @@
 {
   "name" : "rain",
+  "icon" : "/interface/cockpit/weather/rain.png",
 
   "particles" : [
     {

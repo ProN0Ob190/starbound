@@ -1,7 +1,6 @@
 {
   "objectName" : "bulb",
   "rarity" : "Common",
-  "objectType" : "wire",
   "description" : "<An output light. Shows whether something is on or off.>",
   "shortdescription" : "Bulb",
   "race" : "human",

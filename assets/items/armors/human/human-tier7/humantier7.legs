@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Built for diplomacy the wanderer's armour is designed to look non-threatening.",
   "shortdescription" : "Wanderer's Pants",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

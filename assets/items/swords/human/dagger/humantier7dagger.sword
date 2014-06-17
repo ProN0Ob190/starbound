@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Small Fury. A little barbed dagger.",
   "shortdescription" : "Small Fury",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "humantier7dagger.png",

@@ -1,5 +1,5 @@
 {
-  "script" : "skyrail.lua",
+  "scripts" : ["skyrail.lua"],
   "actions" : [ "step" ],
   "animator" : "skyrail.animation",
 

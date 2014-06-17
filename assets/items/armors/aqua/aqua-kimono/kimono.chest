@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A sleek Kimono shirt.",
   "shortdescription" : "Kimono Shirt",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

@@ -1,5 +1,7 @@
 {
   "name" : "rock01layer",
+  "friendlyName" : "Rock01layer",
+  "requiredStatuses" : [ "beamaxe" ],
 
   "undergroundParallax" : "rockunderground.undergroundparallax",
 

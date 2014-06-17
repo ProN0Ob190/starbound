@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "The Peeler. Its blades look like banana peel.",
   "shortdescription" : "The Peeler",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "apextier3axe.png",

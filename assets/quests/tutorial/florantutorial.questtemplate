@@ -2,7 +2,7 @@
   "id" : "florantutorial.gearup",
   "title" : "^#9be3d6;Fresh Meat",
   "text" : "Tired of Floran savagery, you have taken to the stars to pursue a more honourable hunt. Your ship has run out of fuel in orbit of an unknown planet. Before setting out in search of fuel, ^green;search your ship's storage for a ^pink;matter manipulator^white;. Press ^green;E ^white;to interact with objects.",
-  "completionText" : "Well done! The matter manipulator allows you to manipulate almost anything in the gameworld.",
+  "completionText" : "Well done! The ^pink;Matter Manipulator ^white;will surely come in handy. Why not ^green;try using it to dispose of your broken fuel gauge?",
   "conditions" : [
     { "kind" : "gather", "item" : [ "beamaxe", 1] }
   ],
@@ -12,5 +12,5 @@
   ],
   "planetMode" : "none",
   "questDungeons" : [ ],
-  "followUp" : "tutorial2.gearup"
+  "followUp" : "florantutorial2.gearup"
 }

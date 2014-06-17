@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "The fur left over from a recent meaty corpse!",
   "shortdescription" : "Floran Furnivour Chest",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

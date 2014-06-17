@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Orangubang. A lethal warhammer.",
   "shortdescription" : "Orangubang",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "apextier5hammer.png",

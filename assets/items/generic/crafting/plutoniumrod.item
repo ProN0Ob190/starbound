@@ -4,5 +4,5 @@
   "inventoryIcon" : "plutoniumrod.png",
   "description" : "It's a plutonium rod.",
   "shortdescription" : "Plutonium Rod",
-  "fuelAmount" : 6
+  "fuelAmount" : 15
 }

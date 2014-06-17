@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A light iron circlet worn by Avian priesthood initiates.",
   "shortdescription" : "Hatchling's Circlet",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

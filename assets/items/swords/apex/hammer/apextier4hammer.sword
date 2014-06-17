@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Gorillakilla. A hefty warhammer.",
   "shortdescription" : "Gorillakilla",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "apextier4hammer.png",

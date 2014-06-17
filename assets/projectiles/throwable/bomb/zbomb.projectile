@@ -2,7 +2,6 @@
   "projectileName" : "zbomb",
   "physics" : "grenadezbomb",
   "bounces" : -1,
-  "level" : 3,
   "timeToLive" : 5,
   "frames" : "zbomb.png",
   "animationCycle" : 5,

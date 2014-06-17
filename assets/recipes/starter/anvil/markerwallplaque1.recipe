@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 10 },
+    { "item" : "money", "count" : 50 }
+  ],
+  "output" : { "item" : "markerwallplaque1", "count" : 1 },
+  "groups" : [ "anvil", "objects", "all" ]
+}

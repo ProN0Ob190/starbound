@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Smash Everything. The best of all hammers.",
   "shortdescription" : "Smash Everything",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "florantier10hammer.png",

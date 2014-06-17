@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Battle Axe. An axe of battle.",
   "shortdescription" : "Battle Axe",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "glitchtier6axe.png",

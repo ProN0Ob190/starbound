@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Boots made from Cerulium are said to never take a wrong step. This has not been confirmed.",
   "shortdescription" : "Peacock Skirt",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

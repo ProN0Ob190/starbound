@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "The Pitch Fork. A dual-bladed sword, also good for band practise.",
   "shortdescription" : "The Pitch Fork",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "humantier5shortsword.png",

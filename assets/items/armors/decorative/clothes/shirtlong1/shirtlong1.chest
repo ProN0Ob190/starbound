@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "An ordinary long sleeved top.",
   "shortdescription" : "Long Sleeved Top",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

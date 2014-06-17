@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Scuttlefish. A large gutting sword.",
   "shortdescription" : "Scuttlefish",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "hylotltier6broadsword.png",

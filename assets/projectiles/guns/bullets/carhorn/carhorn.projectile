@@ -2,7 +2,6 @@
   "projectileName" : "carhorn",
   "frames" : "carhorn.png",
   "animationCycle" : 0.01,
-  "level" : 3,
   "timeToLive" : 0.001,
   "frameNumber" : 1,
   "damageKindImage" : "icon.png",

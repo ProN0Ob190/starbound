@@ -3,14 +3,14 @@
   "maxStack" : 1,
   "rarity" : "legendary",
   "baseDps" : [2.5, 3.5],
-  "rateOfSwing" : [0.8, 0.8],
+  "rateOfSwing" : [0.6, 0.8],
   "multiplier" : 0.3,
   "firePosition" : [15.5, 4.5],
   "fireAfterWindup" : true,
   "muzzleFlashes" : [ ],
   "soundEffect" : [ "/sfx/melee/swing_twohanded.wav" ],
   "kind" : "bonehammer",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
 
   "primaryStances" : {
     "directional" : false,

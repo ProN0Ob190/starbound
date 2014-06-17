@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Pathfinder Leg Armour. Never lose your way in this armour.",
   "shortdescription" : "Pathfinder Leg Armour",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png"

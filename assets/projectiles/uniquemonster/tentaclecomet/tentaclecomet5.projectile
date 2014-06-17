@@ -1,7 +1,6 @@
 {
   "projectileName" : "tentaclecomet5",
   "frames" : "invisibleprojectile.png",
-  "level" : 0,
   "frameNumber" : 1,
   "speed" : 0,
   "fallSpeed" : 0,

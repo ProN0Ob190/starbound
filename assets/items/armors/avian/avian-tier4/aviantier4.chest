@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A comfortable tunic, bound in durasteel for added durability.",
   "shortdescription" : "Owl Breastplate",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

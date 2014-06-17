@@ -5,14 +5,7 @@
   "parts" : [ "arms", "chest", "tail", "head" ],
   "partParameters" : "smallbiped.partparams",
 
-  "spawnParameters" : {
-    "area" : "surface",
-    "region" : "all",
-    "time" : "day"
-  },
-
   "animation" : "smallbiped.animation",
-  "projectiles" : "/monsters/projectiles.config",
   "colors" : "/monsters/colors.config",
   "reversed" : true,
 
@@ -57,13 +50,17 @@
       "/scripts/util.lua",
       "/scripts/vec2.lua",
 
-      "/monsters/ground/aggressState.lua",
+      "/monsters/ground/aggroHopState.lua",
+      "/monsters/ground/approachState.lua",
+      "/monsters/ground/fleeState.lua",
       "/monsters/ground/captiveState.lua",
+      "/monsters/ground/stunState.lua",
       "/monsters/ground/knockoutState.lua",
       "/monsters/ground/socializeState.lua",
-      "/monsters/ground/wanderState.lua"
+      "/monsters/ground/wanderState.lua",
+
+      "/monsters/ground/createGroundRangedAttack.lua"
     ],
-    "scriptDelta" : 5,
 
     "territoryDistance" : 40.0,
     "territorialTargetRadius" : 20.0,
@@ -81,13 +78,14 @@
 
     "jumpTargetDistance" : 4,
     "jumpTime" : [0.4, 0.7],
+    "jumpNoise" : [ ],
 
     "knockoutTime" : 0.5,
     "knockoutEffect" : "blink",
     "deathParticles" : "deathPoof",
     "captureParticles" : "captureParticles",
     "levelUpParticles" : "levelUp",
-    "deathNoise" : [ "/sfx/projectiles/bubble_pop.wav" ],
+    "deathNoise" : [ "/sfx/npc/enemydeathpuff.wav" ],
 
     "exhaustionTimer" : 3.0,
     "exhaustionTimeout" : 3.0,
@@ -102,78 +100,18 @@
   "familyParameters" : [
     [
       {
-        "attackStartDistance" : 3.5,
-        "attackTime" : 0.75,
-        "attackCooldownTime" : 0.5,
-        "baseSkills" : [ "meleeAttack" ]
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [ "chargeAttack" ]
       },
-
       {
-        "attackStartDistance" : 10.0,
-        "attackTime" : 4.0,
-        "attackCooldownTime" : 1.0,
-        "baseSkills" : [ "chargeAttack" ],
-        "chargeAttackWindupTime" : 1.0,
-        "chargeAttackAttackDistance" : 5.0,
-        "chargeAttackProjectile" : null
-      },
-
-      {
-        "attackStartDistance" : 7.0,
-        "attackMaxDistance" : 20,
-        "attackCooldownTime" : 0.5,
-        "baseSkills" : [ "pounceAttack" ],
-        "pounceAttackJumpHoldTime" : 0.5,
-        "pounceAttackWindupTime" : 0.5,
-        "pounceAttackCooldown" : 0.5
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [ "pounceAttack" ]
       }
     ]
   ],
 
   "variantParameters" : [
     [
-      /* [1.0, {
-        "scale" : 0.667,
-
-        "movementSettings" : {
-          "collisionPoly" : [ [-0.667, -1.733], [0.667, -1.733], [0.667, 0], [-0.667, 0] ],
-          "mass" : 0.4,
-          "walkSpeed" : 7,
-          "runSpeed" : 13,
-          "jumpSpeed" : 18
-        },
-
-        "metaBoundBox" : [-1.667, -1.667, 1.667, 1.667],
-
-        "blockedSensors" : [ [1.0, -1.2], [1.0, -0.6], [1.0, 0.2], [1.0, 1.0] ],
-        "fallSensors" : [ [0.333, -2.0], [0.333, -3.25], [0.333, -4.5], [1.33, -2.0], [1.33, -3.25], [1.33, -4.5] ],
-
-        "touchDamage" : {
-          "poly" : [ [-0.667, -1.733], [0.667, -1.733], [0.667, 0], [-0.667, 0] ],
-          "damage" : 99999,
-
-          "teamType" : "enemy",
-          "damageSourceKind" : "bite",
-          "statusEffects" : [ ]
-        },
-
-        "inateStatusEffects" : [
-            {
-              "kind" : "Protection",
-              "amount" : 1.0
-            }
-        ],		
-		
-        "statusParameters" : {
-          "baseMaxHealth" : 20,
-          "damageConfig" : "/damage/damageresponse/groundnpc.config",
-          "bodyMaterialKind" : "organic"
-        },
-
-        "mouthOffset" : [0, 0],
-        "feetOffset" : [0, -14]
-      }],
-	  */
       [1.0, {
           "scale" : 1.0,
 
@@ -181,13 +119,12 @@
             "collisionPoly" : [ [-1, -2.6], [1, -2.6], [1, 0], [-1, 0] ],
             "mass" : 1.2,
             "walkSpeed" : 2.5,
-            "runSpeed" : 6.5,
-            "jumpSpeed" : 4
+            "runSpeed" : 6.5
           },
 
           "metaBoundBox" : [-2.5, -2.5, 2.5, 2.5],
 
-          "blockedSensors" : [ [1.5, -1.8], [1.5, -1.0], [1.5, -0.2], [1.5, 0.6] ],
+          "blockedSensors" : [ [1.5, -1.5], [1.5, -1.0], [1.5, -0.2], [1.5, 0.6] ],
           "fallSensors" : [ [0.5, -2.5], [0.5, -3.5], [0.5, -4.5], [2.0, -2.5], [2.0, -3.5], [2.0, -4.5] ],
 
           "touchDamage" : {
@@ -213,7 +150,7 @@
             "bodyMaterialKind" : "organic"
           },
 
-          "mouthOffset" : [0, 0],
+          "mouthOffset" : [0.5, 0],
           "feetOffset" : [0, -21]
         } ]
     ]

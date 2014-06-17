@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A High-Visibility Jacket - Safety first!",
   "shortdescription" : "High-Vis Jacket",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

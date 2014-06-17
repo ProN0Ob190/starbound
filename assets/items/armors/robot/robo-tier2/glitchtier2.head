@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "The soldier's steel helm accents many thousands of faces on the glitch battlefield.",
   "shortdescription" : "Soldier's Helm",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

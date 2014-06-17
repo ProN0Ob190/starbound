@@ -2,7 +2,7 @@
   "name" : "pulserifle",
   "maxStack" : 1,
   "rarity" : "uncommon",
-  "inspectionKind" : "gun",
+  "tooltipKind" : "gun",
   "handPosition" : [0, 2],
   "firePosition" : [6, 7],
   "weaponType" : "Pulse Rifle",

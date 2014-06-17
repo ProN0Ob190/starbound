@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Hello merchandising.",
   "shortdescription" : "A hood with ears.",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Little Thorn. A rose by any other name.",
   "shortdescription" : "Little Thorn",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "florantier7dagger.png",

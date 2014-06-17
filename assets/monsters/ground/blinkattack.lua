@@ -5,7 +5,7 @@ blinkAttack = {
 }
 
 function blinkAttack.enter()
-  if not canStartAttack() then return nil end
+  if not canStartSkill("blinkAttack") then return nil end
 
   local destination = blinkAttack.findDestination(world.entityPosition(self.target))
   if destination == nil then return nil end
@@ -24,7 +24,7 @@ function blinkAttack.enteringState(stateData)
 end
 
 function blinkAttack.update(dt, stateData)
-  if not canContinueAttack() then return true end
+  if not canContinueSkill() then return true end
 
   return stateData.run(stateData)
 end
@@ -61,16 +61,6 @@ function blinkAttack.run(stateData)
     end
   end)
 
-  entity.setAnimationState("movement", "charge")
-  entity.setAnimationState("attack", "charge")
-
-  entity.setRunning(true)
-
-  local movement = self.toTarget
-  blinkAttack.wait(blinkAttack.chargeDuration, function()
-    move(movement)
-  end)
-
   return true
 end
 
@@ -95,7 +85,7 @@ function blinkAttack.findDestination(targetPosition)
     bounds[4] + targetPosition[2]
   }
   local direction = util.toDirection(self.toTarget[1])
-  local offsetXRange = entity.configParameter("blinkAttackOffsetXRange")
+  local offsetXRange = entity.configParameter("blinkAttack.offsetXRange")
   for offsetX = offsetXRange[2], offsetXRange[1], -1 do
     local destinationRegion = {
       region[1] + bounds[1] + direction * offsetX,

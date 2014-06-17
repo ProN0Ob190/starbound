@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A coat of Avian armour manufactured from impervium. Impossibly strong but impossibly light.",
   "shortdescription" : "Raven's Breast",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

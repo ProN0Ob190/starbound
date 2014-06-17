@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Don't be caught dead without this neat welder's helmet.",
   "shortdescription" : "Neat Welder's Helmet",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

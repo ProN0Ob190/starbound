@@ -26,5 +26,6 @@
       "anchors" : [ "background" ]
 
     }
-  ]
+  ],
+  "inventoryIcon" : "wreckventicon.png"
 }

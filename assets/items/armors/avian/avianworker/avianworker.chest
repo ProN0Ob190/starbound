@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A typical Avian worker shirt.",
   "shortdescription" : "Avian Worker Shirt",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Your piercing gaze should instil fear into even the bravest heart.",
   "shortdescription" : "Terrifying Eye Hat",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

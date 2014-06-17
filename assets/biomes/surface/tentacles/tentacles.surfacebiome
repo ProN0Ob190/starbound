@@ -1,6 +1,8 @@
 {
   "name" : "tentacles",
+  "friendlyName" : "Tentacles",
   "caveLiquidType" : "tentaclejuice",
+  "requiredStatuses" : [ "beamaxe" ],
 
   "hueShiftOptions" : [-45, 0, 45],
   "skyOptions" : [
@@ -137,57 +139,18 @@
     },
 
     "weather" : [
-      [
-        [0.1, "rain" ],
-        [0.05, "storm" ],
-        [0.025, "glowingrain" ],
-        [0.125, "drizzle" ],
-        [0.7, "clear" ]
-      ],
-      [
-        [0.1, "rain" ],
-        [0.05, "storm" ],
-        [0.025, "glowingrain" ],
-        [0.125, "drizzle" ],
-        [0.7, "clear" ]
-      ],
-      [
-        [0.1, "rain" ],
-        [0.05, "storm" ],
-        [0.025, "glowingrain" ],
-        [0.125, "drizzle" ],
-        [0.7, "clear" ]
-      ],
-      [
-        [0.55, "acidrain" ],
-        [0.55, "clear" ]
-      ],
-      [
-        [0.005, "meteorshower" ],
-        [0.995, "clear" ]
-      ],
-      [
-        [0.001, "largemeteor" ],
-        [0.999, "clear" ]
-      ],
-      [
-        [1.0, "clear" ]
-      ],
-      [
-        [1.0, "clear" ]
-      ],
-      [
-        [1.0, "clear" ]
-      ],
-      [
-        [1.0, "clear" ]
-      ],
-      [
-        [1.0, "clear" ]
-      ],
-      [
-        [1.0, "clear" ]
-      ]
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:commonLightRainMixAndGlowingRain",
+      "/weather.config:commonLightRainMixAndGlowingRain",
+      "/weather.config:commonLightRainMixAndGlowingRain",
+      "/weather.config:rareMeteorShower",
+      "/weather.config:veryCommonAcidRain",
+      "/weather.config:veryRareLargeMeteorShower"
     ],
 
     "parallax" : "tentacles.parallax",
@@ -505,5 +468,4 @@
   },
 
   "allowedDetachedBiomes" : [ "forest", "arid", "desert", "grasslands", "jungle", "magma", "savannah", "snow", "tundra", "volcanic" ]
-
 }

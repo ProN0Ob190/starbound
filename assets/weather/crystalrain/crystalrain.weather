@@ -1,5 +1,6 @@
 {
   "name" : "crystalrain",
+  "icon" : "/interface/cockpit/weather/glowingrain.png",
 
   "particles" : [
     {

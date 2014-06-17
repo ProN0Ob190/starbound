@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Get one up on your peers.",
   "shortdescription" : "cardboard Hat",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

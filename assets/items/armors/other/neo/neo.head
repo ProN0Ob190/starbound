@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A helmet created by the perfect system.",
   "shortdescription" : "Neo Helmet",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

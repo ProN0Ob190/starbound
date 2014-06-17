@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Apax. An axe for an Apex.",
   "shortdescription" : "Apax",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "apextier1axe.png",

@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Common Avian headwear, adorned with a fancy titanium plume.",
   "shortdescription" : "Quail Crest",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

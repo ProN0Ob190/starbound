@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Tis Scratched!",
   "shortdescription" : "Knight Helmet",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

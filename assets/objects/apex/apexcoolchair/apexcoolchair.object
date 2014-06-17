@@ -3,6 +3,8 @@
   "rarity" : "Common",
   "category" : "furniture",
   "price" : 2000,
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
   "description" : "It's an exceptionally cool chair.",
   "shortdescription" : "Cool Chair",
   "race" : "apex",
@@ -17,19 +19,27 @@
   "inventoryIcon" : "apexcoolchairicon.png",
   "orientations" : [
     {
-      "dualImage" : "apexcoolchair.png:<color>",
+      "image" : "apexcoolchair.png:<color>",
       "imagePosition" : [-8, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
+	  "flipImages" : true,
+	  "direction" : "left",
+	  "sitPosition" : [3, 20],
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
+    },
+	{
+      "image" : "apexcoolchair.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+	  "direction" : "right",
+	  "sitPosition" : [2, 20],
 
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
     }
-  ],
-
-  "objectType" : "loungeable",
-  "sitFlipDirection" : false,
-  "sitPosition" : [3, 20]
-
+  ]
 }

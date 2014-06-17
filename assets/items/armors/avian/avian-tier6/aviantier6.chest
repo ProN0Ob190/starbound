@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A no-frills Ferozium shirt which emphasizes toughness over flair.",
   "shortdescription" : "Macaw Shirt",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

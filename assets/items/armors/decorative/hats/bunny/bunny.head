@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "A living bunny wants to rest on your head!",
   "shortdescription" : "Bunny Hat",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

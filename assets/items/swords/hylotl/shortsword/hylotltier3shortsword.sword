@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Kittfish. A small, sturdy katana.",
   "shortdescription" : "Kittfish",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "hylotltier3shortsword.png",

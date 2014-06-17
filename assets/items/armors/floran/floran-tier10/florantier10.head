@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "The armour of the synthesizer is coated with pure impervium.",
   "shortdescription" : "Synthesizer's Helm",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

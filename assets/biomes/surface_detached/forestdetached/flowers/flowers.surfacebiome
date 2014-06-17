@@ -1,5 +1,6 @@
 {
   "name" : "flowers",
+  "friendlyName" : "Flowers",
 
   "surfaceParameters" : {
     "mainBlock" : "dirt",

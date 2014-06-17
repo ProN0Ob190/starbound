@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Treesplitter. A sword so heavy it can split trees.",
   "shortdescription" : "Treesplitter",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "humantier8broadsword.png",

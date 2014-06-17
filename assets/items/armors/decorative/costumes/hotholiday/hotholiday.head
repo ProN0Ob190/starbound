@@ -6,7 +6,7 @@
   "rarity" : "Uncommon",
   "description" : "Mrs. Claus's holiday hat!",
   "shortdescription" : "Mrs. Claus's Hat",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

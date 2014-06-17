@@ -1,5 +1,7 @@
 {
   "name" : "fleshcave",
+  "friendlyName" : "Flesh Cave",
+  "requiredStatuses" : [ "beamaxe" ],
 
   "mainBlock" : "fleshblock",
   "subBlocks" : [ "corruptdirt", "bonematerial" ],

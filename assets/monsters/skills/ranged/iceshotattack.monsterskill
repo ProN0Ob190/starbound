@@ -1,0 +1,17 @@
+{
+  "name" : "iceShotAttack",
+  "label" : "ICESHOT",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "iceShotAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "iceshot",
+      "range" : 18,
+      "speed" :25,
+      "power" : 13,
+      "shots" : 3,
+      "fireInterval" : 0.3
+    }
+  }
+}

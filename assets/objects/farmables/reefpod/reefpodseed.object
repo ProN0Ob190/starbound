@@ -6,6 +6,7 @@
   "shortdescription" : "Reefpod Seed",
   "objectType" : "farmable",
   "printable" : false,
+  "price" : 103,
 
   "apexDescription" : "If you close your eyes, reefpods taste a bit like bananas.",
   "avianDescription" : "Deliciously palatable.",
@@ -65,12 +66,12 @@
   },
   "growing" : {
     "0" : {
-      "duration" : [660, 780],
+      "duration" : [465, 465],
       "success" : 1,
       "failure" : 3
     },
     "1" : {
-      "duration" : [660, 780],
+      "duration" : [465, 465],
       "success" : 2,
       "failure" : 3
     }

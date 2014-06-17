@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Violium makes this chestguard incredibly strong.",
   "shortdescription" : "Adventurer's Chestguard",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

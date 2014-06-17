@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "The synthesizers chestguard channels so much power from the sun it can get hot to the touch.",
   "shortdescription" : "Synthesizer's Chestguard",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

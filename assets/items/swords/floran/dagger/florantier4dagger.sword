@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Fingercutter. A little, finger-sized dagger.",
   "shortdescription" : "Fingercutter",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "florantier4dagger.png",

@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Stargazer's Light. A deft shortsword as carried by the first Stargazer.",
   "shortdescription" : "Stargazer's Light",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "aviantier9shortsword.png",

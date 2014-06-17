@@ -2,7 +2,6 @@
   "projectileName" : "splitbullet",
   "frames" : "splitbullet.png",
   "animationCycle" : 0.25,
-  "level" : 3,
   "frameNumber" : 1,
   "damageKindImage" : "icon.png",
   "pointLight" : false,

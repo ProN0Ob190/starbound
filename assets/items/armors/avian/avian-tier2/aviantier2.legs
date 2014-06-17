@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Steel-reinforced underpants, surprisingly comfortable.",
   "shortdescription" : "Sparrow Loincloth",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

@@ -1,8 +1,7 @@
 {
   "projectileName" : "fireball",
   "physics" : "fireball",
-  "bounces" : -1,
-  "level" : 3,
+  "bounces" : 3,
   "timeToLive" : 3,
   "frames" : "fireball.png",
   "damageKindImage" : "icon.png",

@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "May or may not grant Code-Vision(tm)",
   "shortdescription" : "Bartwe's Glasses",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

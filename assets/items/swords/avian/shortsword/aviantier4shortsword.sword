@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Eye of the Needle. A sword with a gem encased in it.",
   "shortdescription" : "Eye of the Needle",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "aviantier4shortsword.png",

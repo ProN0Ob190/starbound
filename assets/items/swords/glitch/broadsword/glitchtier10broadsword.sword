@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Rootkit. A sword that'll cut through anything.",
   "shortdescription" : "Rootkit",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "glitchtier10broadsword.png",

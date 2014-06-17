@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Euphos pants are the first thing many young hylotl see as they're led down into the depths.",
   "shortdescription" : "Euphotic Pants",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

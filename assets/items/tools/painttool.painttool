@@ -13,7 +13,7 @@
   "twoHanded" : true,
   "strikeSound" : "/sfx/tools/paint_splash.wav",
   "largeImage" : "paintgunlarge.png",
-  "inspectionKind" : "tool",
+  "tooltipKind" : "tool",
 
   "image" : "/items/tools/paintergunvariants.png:0",
   "endImages" : [ "/humanoid/any/ball.png", "/humanoid/any/tileglow.png", "/humanoid/any/4tileglow.png" ],

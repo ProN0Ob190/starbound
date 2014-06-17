@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Oysteriser. A small but sturdy dagger.",
   "shortdescription" : "Oysteriser",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "hylotltier4dagger.png",

@@ -6,6 +6,7 @@
   "shortdescription" : "Carrot Seed",
   "objectType" : "farmable",
   "printable" : false,
+  "price" : 157,
 
   "apexDescription" : "Boil a carrot and it's a bit like a banana... but it doesn't taste as good.",
   "avianDescription" : "A simple carrot. Good for stews.",
@@ -65,12 +66,12 @@
   },
   "growing" : {
     "0" : {
-      "duration" : [1380, 1500],
+      "duration" : [620, 620],
       "success" : 1,
       "failure" : 3
     },
     "1" : {
-      "duration" : [1380, 1500],
+      "duration" : [625, 625],
       "success" : 2,
       "failure" : 3
     }

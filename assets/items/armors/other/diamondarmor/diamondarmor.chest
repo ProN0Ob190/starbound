@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Diamond chestpiece. Sparkles!",
   "shortdescription" : "Diamond Chestpiece",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
   "maleFrames" : {
     "body" : "chest.png",
     "backSleeve" : "bsleeve.png",

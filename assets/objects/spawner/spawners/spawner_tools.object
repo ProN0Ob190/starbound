@@ -1,7 +1,6 @@
 {
   "objectName" : "spawnertools",
   "rarity" : "Common",
-  "objectType" : "wire",
   "description" : "Tool Merchant Spawner - for when you need to dig a hole.",
   "shortdescription" : "Tool Spawner",
   "race" : "human",

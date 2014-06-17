@@ -1,7 +1,6 @@
 {
   "objectName" : "spawnerstim",
   "rarity" : "Common",
-  "objectType" : "wire",
   "description" : "Stim Merchant Spawner - for when you really need a pick-me-up.",
   "shortdescription" : "Stim Spawner",
   "race" : "human",

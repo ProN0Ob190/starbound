@@ -6,6 +6,7 @@
   "shortdescription" : "Boneboo Seed",
   "objectType" : "farmable",
   "printable" : false,
+  "price" : 252,
 
   "apexDescription" : "A particularly unusual plant. Crunchy and bony.",
   "avianDescription" : "Boneboos are not to Avian tastes.",
@@ -65,12 +66,12 @@
   },
   "growing" : {
     "0" : {
-      "duration" : [300, 420],
+      "duration" : [1110, 1110],
       "success" : 1,
       "failure" : 3
     },
     "1" : {
-      "duration" : [300, 420],
+      "duration" : [1110, 1110],
       "success" : 2,
       "failure" : 3
     }

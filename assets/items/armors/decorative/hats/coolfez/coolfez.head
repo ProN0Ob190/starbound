@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Fezzes are...  neat!",
   "shortdescription" : "Cool Fez",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

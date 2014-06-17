@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "The Anchorer. An axe shaped like an anchor.",
   "shortdescription" : "The Anchorer",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "hylotltier9axe.png",

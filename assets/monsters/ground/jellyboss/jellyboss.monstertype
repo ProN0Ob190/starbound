@@ -5,7 +5,6 @@
   "parts" : [ "arms", "chest", "tail", "head" ],
 
   "animation" : "jellyboss.animation",
-  "projectiles" : "/monsters/projectiles.config",
   "colors" : "/monsters/colors.config",
   "reversed" : true,
   "dropPools" : [
@@ -23,9 +22,10 @@
 
       "/monsters/ground/aggressState.lua",
       "/monsters/ground/knockoutState.lua",
-      "/monsters/ground/wanderState.lua"
+      "/monsters/ground/wanderState.lua",
+
+      "/monsters/ground/createGroundRangedAttack.lua"
     ],
-    "scriptDelta" : 5,
 
     "territoryDistance" : 40.0,
     "territorialTargetRadius" : 20.0,
@@ -43,11 +43,12 @@
 
     "jumpTargetDistance" : 4,
     "jumpTime" : [0.8, 1.4],
+    "jumpNoise" : [ ],
 
     "knockoutTime" : 0.5,
     "knockoutEffect" : "blink",
     "deathParticles" : "deathPoof",
-    "deathNoise" : [ "/sfx/projectiles/bubble_pop.wav" ],
+    "deathNoise" : [ "/sfx/npc/enemydeathpuff.wav" ],
 
     "exhaustionTimer" : 3.0,
     "exhaustionTimeout" : 3.0,
@@ -60,22 +61,10 @@
 
   "familyParameters" : [
     [
-
       {
-        "attackStartDistance" : 600.0,
-        "attackMaxDistance" : 600,
-        "attackCooldownTime" : 0.5,
-        "attackTime" : 0.75,
         "skillCount" : 2,
-        "skills" : [ "meleeAttack", "jellybossexplode" ],
-        "pounceAttackJumpHoldTime" : 1.0,
-        "pounceAttackWindupTime" : 1.0,
-        "pounceAttackCooldown" : 1.0,
-        "chargeAttackWindupTime" : 1.0,
-        "chargeAttackAttackDistance" : 5.0,
-        "chargeAttackProjectile" : null,
-        "shooterSkillName" : "rangedAttack",
-        "shooterGiveUpTolerance" : 100.0
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [ "jellyBossExplodeAttack" ]
       }
     ]
   ],
@@ -132,10 +121,10 @@
     "runMultiplier" : [ "multiply", 0.3],
     "jumpMultiplier" : [ "multiply", 2.5],
 
-    "idleNoise" : [ "merge", [ ] ],
+    // "idleNoise" : [ "merge", [ ] ],
     "turnHostileNoise" : [ "merge", [ ] ],
-    "attackNoise" : [ "merge", [ ] ],
-    "painNoise" : [ "merge", [ ] ],
+    // "attackNoise" : [ "merge", [ ] ],
+    // "painNoise" : [ "merge", [ ] ],
     "deathNoise" : [ "merge", [ ] ],
 
     "projectileSourcePosition" : [ "override", [0.0, 0.0] ]

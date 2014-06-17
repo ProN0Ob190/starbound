@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Awesome Shortsword. A regular shortsword made to look awesome.",
   "shortdescription" : "Awesome Shortsword",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "humantier3shortsword.png",

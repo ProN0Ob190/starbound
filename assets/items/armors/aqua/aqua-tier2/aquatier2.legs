@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Steel greaves built with a grip that keeps the wearer steady when riding a giant fish.",
   "shortdescription" : "Pond Greaves",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

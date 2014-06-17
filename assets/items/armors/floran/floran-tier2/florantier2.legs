@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Ground stomach contents was used to dye this loincloth and boots. ",
   "shortdescription" : "Bonesmith's Loincloth",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

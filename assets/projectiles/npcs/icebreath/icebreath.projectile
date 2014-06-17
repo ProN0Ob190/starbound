@@ -2,7 +2,6 @@
   "projectileName" : "icebreath",
   "frames" : "icebreath.png",
   "physics" : "gas",
-  "level" : 3,
   "animationCycle" : 0.1,
   "frameNumber" : 8,
   "damageKindImage" : "icon.png",

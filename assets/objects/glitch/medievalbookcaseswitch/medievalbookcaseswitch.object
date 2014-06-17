@@ -1,7 +1,6 @@
 {
   "objectName" : "medievalbookcaseswitch",
   "rarity" : "Common",
-  "objectType" : "wire",
   "description" : "One of these books looks out of place... I wonder...",
   "shortdescription" : "Glitch Bookcase Switch",
   "race" : "glitch",

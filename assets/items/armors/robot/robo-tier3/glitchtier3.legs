@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "The knight's greaves sit heavy at it's sides. Only a strong mechanical horse will carry the wearer of these.",
   "shortdescription" : "Knight's Greaves",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

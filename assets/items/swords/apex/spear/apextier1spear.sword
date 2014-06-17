@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "The Prodder. A small blade on a stick.",
   "shortdescription" : "The Prodder",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "apextier1spear.png",

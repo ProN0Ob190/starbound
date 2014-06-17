@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "To a sea shogun combat is an art-form. Their helmets protect only their most vital of organs.",
   "shortdescription" : "Sea Hat",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

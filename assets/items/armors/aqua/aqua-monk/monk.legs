@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "The bottom of some monk robes.",
   "shortdescription" : "Monk Pants",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pantsM.png",
   "femaleFrames" : "pantsF.png",

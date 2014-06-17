@@ -2,7 +2,6 @@
   "projectileName" : "bouncybullet",
   "frames" : "bouncybullet.png",
   "animationCycle" : 0.25,
-  "level" : 3,
   "physics" : "laser",
   "bounces" : 2,
   "frameNumber" : 1,

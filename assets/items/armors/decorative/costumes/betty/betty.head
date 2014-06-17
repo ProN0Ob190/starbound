@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A mask, to keep the wearer's identity hidden.",
   "shortdescription" : "Mask",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

@@ -132,7 +132,7 @@ function bombAttack.update(dt, stateData)
     math.cos(angle) * stateData.direction,
     math.sin(angle)
   }
-  vec2.mul(direction, 2.0)
+  direction = vec2.mul(direction, 2.0)
 
   entity.setFireDirection(direction, direction)
 

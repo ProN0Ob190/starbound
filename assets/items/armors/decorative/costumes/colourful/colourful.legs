@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Replace",
   "shortdescription" : "Replace",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

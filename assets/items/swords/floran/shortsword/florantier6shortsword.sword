@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Gougeslicer. A sword with all manner of nasty hooked bits.",
   "shortdescription" : "Gougeslicer",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "florantier6shortsword.png",

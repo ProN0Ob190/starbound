@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Goldfish. A gold-hilted dagger.",
   "shortdescription" : "Goldfish",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "hylotltier3dagger.png",

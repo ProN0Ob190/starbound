@@ -186,12 +186,12 @@ function move(direction)
     end
   end
 
-  util.debugLine(entity.position(), vec2.add(entity.position(), vec2.mul(vec2.dup(self.groundDirection), 3)), "blue")
-  util.debugLine(entity.position(), vec2.add(entity.position(), vec2.mul(vec2.dup(heading), 3)), "green")
+  util.debugLine(entity.position(), vec2.add(entity.position(), vec2.mul(self.groundDirection, 3)), "blue")
+  util.debugLine(entity.position(), vec2.add(entity.position(), vec2.mul(heading, 3)), "green")
 
   if math.abs(direction) > 0 then
-    local movement = vec2.mul(vec2.dup(heading), 0.5 * moveSpeed)
-    vec2.add(movement, vec2.mul(vec2.dup(self.groundDirection), toGroundMovementMultiplier * moveSpeed))
+    local movement = vec2.mul(heading, 0.5 * moveSpeed)
+    movement = vec2.add(movement, vec2.mul(self.groundDirection, toGroundMovementMultiplier * moveSpeed))
     entity.fly(movement, false)
   end
 end
@@ -232,11 +232,11 @@ function dropState.enter()
   local position = entity.position()
   local dropDistance = entity.configParameter("dropDistance")
 
-  if not world.lineCollision(position, vec2.add(vec2.mul(vec2.dup(self.groundDirection), -dropDistance), position), true) then
+  if not world.lineCollision(position, vec2.add(vec2.mul(self.groundDirection, -dropDistance), position), true) then
     return nil
   end
 
-  local newGroundDirection = vec2.mul(vec2.dup(self.groundDirection), -1)
+  local newGroundDirection = vec2.mul(self.groundDirection, -1)
   if not setGroundDirection(newGroundDirection) then
     return nil
   end
@@ -259,7 +259,7 @@ function dropState.update(dt, stateData)
   end
 
   if stateData.timer > 0 then
-    entity.fly(vec2.mul(vec2.dup(stateData.direction), entity.configParameter("dropSpeed")), false)
+    entity.fly(vec2.mul(stateData.direction, entity.configParameter("dropSpeed")), false)
   else
     move(0) -- Re-orient to new ground surface
   end

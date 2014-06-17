@@ -7,7 +7,7 @@
   "rarity" : "Common",
   "description" : "Some casual pants",
   "shortdescription" : "Casual Pants",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

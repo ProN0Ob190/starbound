@@ -9,11 +9,12 @@
 
   "parameters" :
   {
-    "projectileSourcePosition" : [1.4, 0.3],
-    "idleNoise" : [ "/sfx/npc/quadruped/lion_idle1.wav", "/sfx/npc/quadruped/lion_idle2.wav" ],
-    "turnHostileNoise" : [ "/sfx/npc/quadruped/lion_turnhostile.wav" ],
-    "attackNoise" : [ "/sfx/npc/quadruped/lion_attack1.wav", "/sfx/npc/quadruped/lion_attack2.wav" ],
-    "painNoise" : [ "/sfx/npc/quadruped/lion_pain1.wav", "/sfx/npc/quadruped/lion_pain2.wav" ],
-    "deathNoise" : [ "/sfx/npc/quadruped/lion_death.wav" ]
+    "meleeProjectile" : "meleebutt",
+	"projectileSourcePosition" : [1.4, 0.3],
+    // "idleNoise" : [ "/sfx/npc/quadruped/lion_idle1.wav", "/sfx/npc/quadruped/lion_idle2.wav" ],
+    "turnHostileNoise" : [ "/sfx/npc/monsters/monster_surprise.wav" ],
+    // "attackNoise" : [ "/sfx/npc/quadruped/lion_attack1.wav", "/sfx/npc/quadruped/lion_attack2.wav" ],
+    // "painNoise" : [ "/sfx/npc/quadruped/lion_pain1.wav", "/sfx/npc/quadruped/lion_pain2.wav" ],
+    "deathNoise" : [ "/sfx/npc/enemydeathpuff.wav" ]
   }
 }

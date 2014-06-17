@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Backstabber. An excellent spear.",
   "shortdescription" : "Backstabber",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "florantier5spear.png",

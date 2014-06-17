@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Iron Axe. A small iron axe.",
   "shortdescription" : "Iron Axe",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "humantier1axe.png",

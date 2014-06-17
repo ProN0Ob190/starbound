@@ -1,7 +1,6 @@
 {
   "objectName" : "alarm",
   "rarity" : "Common",
-  "objectType" : "wire",
   "category" : "light",
   "price" : 500,
   "description" : "replace",

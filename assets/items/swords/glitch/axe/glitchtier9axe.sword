@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Domecutter. A lethal, terrifying axe.",
   "shortdescription" : "Domecutter",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "glitchtier9axe.png",

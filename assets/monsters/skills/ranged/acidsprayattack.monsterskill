@@ -1,0 +1,17 @@
+{
+  "name" : "acidSprayAttack",
+  "label" : "ACID SPLATTER",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "acidSprayAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "clustergoo",
+      "arc" : "low",
+      "range" : 15,
+      "speed" : 25,
+      "power" : 10,
+      "shots" : 1
+    }
+  }
+}

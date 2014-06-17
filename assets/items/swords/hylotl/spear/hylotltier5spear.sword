@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Whaletroubler. A spear that could trouble a whale.",
   "shortdescription" : "Whaletroubler",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "hylotltier5spear.png",

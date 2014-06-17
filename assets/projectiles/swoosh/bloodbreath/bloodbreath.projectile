@@ -2,7 +2,6 @@
   "projectileName" : "bloodbreath",
   "frames" : "bloodbreath.png",
   "physics" : "gas",
-  "level" : 1,
   "animationCycle" : 0.05,
   "frameNumber" : 8,
   "damageKindImage" : "icon.png",

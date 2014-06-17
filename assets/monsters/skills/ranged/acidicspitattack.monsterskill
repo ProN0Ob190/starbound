@@ -1,0 +1,16 @@
+{
+  "name" : "acidicSpitAttack",
+  "label" : "ACIDIC SPIT",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "acidicSpitAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "acidspit",
+      "range" : 20,
+      "speed" : 25,
+      "power" : 15,
+      "shots" : 1
+    }
+  }
+}

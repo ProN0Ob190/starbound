@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Screwslicer. An axe perfect for cutting down screws.",
   "shortdescription" : "Screwslicer",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "glitchtier4axe.png",

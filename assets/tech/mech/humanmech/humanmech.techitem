@@ -4,7 +4,7 @@
   "inventoryIcon" : "/tech/humanmech.png",
   "description" : "Press F. Use this tech, spawn a mech. Then destroy things.",
   "shortdescription" : "Human Mech",
-  "inspectionKind" : "tech",
+  "tooltipKind" : "tech",
 
   "techModule" : "humanmech.tech"
 }

@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "This iron armour is favoured by lone humans scratching out an existance amongst the stars.",
   "shortdescription" : "Scavenger's Helm",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

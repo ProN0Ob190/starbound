@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "A bouquet of flowers. Hit them with your love!",
   "shortdescription" : "Flower Bouquet",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "flowerbouquet.png",

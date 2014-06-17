@@ -1,5 +1,6 @@
 {
   "name" : "sandstone",
+  "friendlyName" : "Sandstone",
 
   "surfaceParameters" : {
     "mainBlock" : "sandstone01",
@@ -53,5 +54,3 @@
     }
   }
 }
-
-

@@ -1,7 +1,6 @@
 {
   "objectName" : "robot",
   "rarity" : "Common",
-  "objectType" : "wire",
   "description" : "An inactive robot! I wonder what happens if it's switched on.",
   "shortdescription" : "Inactive Robot",
   "race" : "generic",

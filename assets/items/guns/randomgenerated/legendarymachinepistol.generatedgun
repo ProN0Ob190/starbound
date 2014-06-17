@@ -2,7 +2,7 @@
   "name" : "legendarymachinepistol",
   "maxStack" : 1,
   "rarity" : "Legendary",
-  "inspectionKind" : "gun",
+  "tooltipKind" : "gun",
   "handPosition" : [5, 2],
   "firePosition" : [-1, 10.5],
   "weaponType" : "Machine Pistol",

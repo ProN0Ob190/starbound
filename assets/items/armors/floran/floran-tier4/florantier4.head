@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "The hunter's hood is built to be light, allowing a floran to track it's prey many miles.",
   "shortdescription" : "Hunter's Hood",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

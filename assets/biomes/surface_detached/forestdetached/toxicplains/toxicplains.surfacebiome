@@ -1,5 +1,6 @@
 {
   "name" : "toxicplains",
+  "friendlyName" : "Toxicplains",
 
   "surfaceParameters" : {
     "mainBlock" : "dirt",

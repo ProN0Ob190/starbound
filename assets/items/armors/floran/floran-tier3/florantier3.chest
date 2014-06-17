@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A nomads armour is built to turn the elements as well as a blade.",
   "shortdescription" : "Nomad's Chestguard",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chest.png",

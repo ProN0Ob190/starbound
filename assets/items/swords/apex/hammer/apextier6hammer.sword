@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Toecrusher. A hammer with a huge surface.",
   "shortdescription" : "Toecrusher",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "apextier6hammer.png",

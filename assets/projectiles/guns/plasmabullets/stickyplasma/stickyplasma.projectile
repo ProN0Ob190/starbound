@@ -2,7 +2,6 @@
   "projectileName" : "stickyplasma",
   "frames" : "stickyplasma.png",
   "animationCycle" : 0.25,
-  "level" : 3,
   "frameNumber" : 2,
   "damageKindImage" : "icon.png",
   "physics" : "stickybullet",

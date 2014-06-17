@@ -2,13 +2,13 @@
   "projectileName" : "icecloud",
   "frames" : "icecloud.png",
   "physics" : "gas",
-  "level" : 3,
   "animationCycle" : 1,
   "speed" : 10,
   "frameNumber" : 8,
   "damageKindImage" : "icon.png",
   "pointLight" : false,
   "timeToLive" : 1,
+  "piercing" : true,
   "power" : 5.0,
   "damageKind" : "default"
 }

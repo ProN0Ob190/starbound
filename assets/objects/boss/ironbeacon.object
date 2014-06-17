@@ -1,7 +1,6 @@
 {
   "objectName" : "ironbeacon",
   "rarity" : "Common",
-  "objectType" : "wire",
   "description" : "A distress beacon. Who knows who might hear it?",
   "shortdescription" : "Distress Beacon",
   "race" : "generic",

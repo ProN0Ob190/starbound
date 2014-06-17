@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "The doom lord's boots rattle a planet with each step.",
   "shortdescription" : "Doom Lord's Greaves",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

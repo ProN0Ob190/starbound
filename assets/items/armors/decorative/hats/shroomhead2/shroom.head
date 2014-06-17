@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "An Agaran Hat. It looks like a stinkhorn mushroom. Weird.",
   "shortdescription" : "Agaran Stinkhorn Hat",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

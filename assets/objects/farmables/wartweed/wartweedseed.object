@@ -6,6 +6,7 @@
   "shortdescription" : "Wartweed Seed",
   "objectType" : "farmable",
   "printable" : false,
+  "price" : 94,
 
   "apexDescription" : "An easily-sustainable crop.",
   "avianDescription" : "Wartweeds are hard to peck through.",
@@ -65,12 +66,12 @@
   },
   "growing" : {
     "0" : {
-      "duration" : [300, 420],
+      "duration" : [425, 425],
       "success" : 1,
       "failure" : 3
     },
     "1" : {
-      "duration" : [300, 420],
+      "duration" : [430, 430],
       "success" : 2,
       "failure" : 3
     }

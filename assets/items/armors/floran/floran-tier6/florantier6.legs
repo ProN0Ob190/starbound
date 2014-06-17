@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Upstairs for thinking, downstairs for dancing.",
   "shortdescription" : "Wiseman's Loincloth",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

@@ -6,7 +6,7 @@
   "rarity" : "Uncommon",
   "description" : "Cupid's diaper. It smells like love!",
   "shortdescription" : "Cupid's Diaper",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "The paladin's breastplate is forged of Cerulium, a metal believed to be holy.",
   "shortdescription" : "Paladin's Breastplate",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chest.png",

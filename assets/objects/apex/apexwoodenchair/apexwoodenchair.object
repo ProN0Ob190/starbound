@@ -17,10 +17,24 @@
   "inventoryIcon" : "apexwoodenchairicon.png",
   "orientations" : [
     {
-      "dualImage" : "apexwoodenchair.png:<color>",
+      "image" : "apexwoodenchair.png:<color>",
       "imagePosition" : [-8, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [3, 22],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+	{
+      "image" : "apexwoodenchair.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+	  "direction" : "right",
+	  "sitPosition" : [1, 22],
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
@@ -29,7 +43,6 @@
   ],
 
   "objectType" : "loungeable",
-  "sitFlipDirection" : false,
-  "sitPosition" : [1, 22]
+  "sitFlipDirection" : false
 
 }

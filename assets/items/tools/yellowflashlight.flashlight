@@ -7,7 +7,7 @@
   "description" : "A yellow flashlight! Don't be afraid.",
   "shortdescription" : "Flashlight",
   "largeImage" : "yellowflashlightlarge.png",
-  "inspectionKind" : "tool",
+  "tooltipKind" : "tool",
   "image" : "yellowflashlight.png",
   "handPosition" : [-2, 0],
   "lightPosition" : [4, 0],

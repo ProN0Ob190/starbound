@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Scriptkiddie. A hefty shortsword.",
   "shortdescription" : "Scriptkiddie",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "glitchtier8shortsword.png",

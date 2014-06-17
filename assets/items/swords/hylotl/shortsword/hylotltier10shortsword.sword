@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Stemcutter. A sword perfect for annoying Florans.",
   "shortdescription" : "Stemcutter",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "hylotltier10shortsword.png",

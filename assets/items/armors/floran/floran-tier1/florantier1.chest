@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "It's rare to see a sprout chestguard not covered in dents, blood and sometimes vital organs.",
   "shortdescription" : "Sprout's Chestguard",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chest.png",

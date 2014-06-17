@@ -2,7 +2,7 @@
   "name" : "raresniperrifle",
   "maxStack" : 1,
   "rarity" : "rare",
-  "inspectionKind" : "gun",
+  "tooltipKind" : "gun",
   "handPosition" : [5, 2],
   "firePosition" : [-1, 8],
   "baseDps" : [5, 5.5],

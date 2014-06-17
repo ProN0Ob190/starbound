@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "This jacket is usually worn by those privy to some of the Universe's best kept secrets.",
   "shortdescription" : "Universalist's Techjacket",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chest.png",

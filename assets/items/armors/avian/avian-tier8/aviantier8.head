@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Each feather in this ceremonial headdress is carved from pure Violium.",
   "shortdescription" : "Flamingo Headdress",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

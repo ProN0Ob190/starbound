@@ -29,21 +29,13 @@
     }
   ],
 
-  "statusEffects" : [
-  ],
-  "touchDamage" : {
-    "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
-    "damage" : 99999,
-
-    "damageType" : "IgnoresDef",
-    "damageSourceKind" : "electroshock",
     "statusEffects" : [
       {
-        "kind" : "ElectroShock",
-        "percentage" : 33
+        "kind" : "directDamage",
+        "damageKind" : "spear",
+        "amount" : 7,
+        "range" : 0
       }
     ]
-  }
-
 
 }

@@ -1,5 +1,9 @@
 {
-  "script" : "/tech/automobile/car.lua",
+  "scripts" : [
+    "/scripts/vec2.lua",
+    "/tech/automobile/car.lua"
+  ],
+
   "actions" : [ "mechActivate", "mechDeactivate" ],
   "animator" : "humanjeep.animation",
 

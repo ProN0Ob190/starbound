@@ -5,7 +5,6 @@
   "parts" : [ "chest" ],
 
   "animation" : "chesttrapper.animation",
-  "projectiles" : "/monsters/unique/chesttrapper/projectiles.config",
   "colors" : "/monsters/colors.config",
 
   "dropPools" : [ "basicMonsterTreasure" ],
@@ -17,8 +16,6 @@
       "/scripts/util.lua",
       "/scripts/vec2.lua"
     ],
-
-    "scriptDelta" : 5,
 
     "metaBoundBox" : [-1.0, -1.125, 1.0, 1.0],
     "scale" : 1.0,

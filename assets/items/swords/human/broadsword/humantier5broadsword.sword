@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "The Tuning Fork. A dual-bladed sword, also good for band practise.",
   "shortdescription" : "The Tuning Fork",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "humantier5broadsword.png",

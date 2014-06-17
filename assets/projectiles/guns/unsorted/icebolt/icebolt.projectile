@@ -2,7 +2,6 @@
   "projectileName" : "icebolt",
   "physics" : "arrow",
   "frames" : "icebolt.png",
-  "level" : 3,
   "animationCycle" : 0.25,
   "frameNumber" : 1,
   "emitters" : [ "icetrail" ],

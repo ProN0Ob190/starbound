@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Oh no, a face leech! Oh, but wait, it's friendly. Alright, little guy, you can stay.",
   "shortdescription" : "Benevolent Face Leech",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

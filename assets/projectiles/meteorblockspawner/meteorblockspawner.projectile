@@ -2,7 +2,6 @@
   "projectileName" : "meteorblockspawner",
   "physics" : "grenade",
   "bounces" : -1,
-  "level" : 3,
   "timeToLive" : 0.5,
   "damageKindImage" : "icon.png",
   "frames" : "meteorblockspawner.png",

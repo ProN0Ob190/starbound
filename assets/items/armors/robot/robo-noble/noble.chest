@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A common noble shirt.",
   "shortdescription" : "Noble Shirt",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

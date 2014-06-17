@@ -3,6 +3,8 @@
   "rarity" : "Common",
   "category" : "furniture",
   "price" : 1000,
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
   "description" : "A standard office chair.",
   "shortdescription" : "Office Chair",
   "race" : "apex",
@@ -17,19 +19,27 @@
   "inventoryIcon" : "apexofficechairicon.png",
   "orientations" : [
     {
-      "dualImage" : "apexofficechair.png:<color>",
+      "image" : "apexofficechair.png:<color>",
       "imagePosition" : [-8, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
+	  "flipImages" : true,
+	  "direction" : "left",
+	  "sitPosition" : [0, 22],
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
+    },
+	{
+      "image" : "apexofficechair.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+	  "direction" : "right",
+	  "sitPosition" : [0, 22],
 
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
     }
-  ],
-
-  "objectType" : "loungeable",
-  "sitFlipDirection" : false,
-  "sitPosition" : [0, 22]
-
+  ]
 }

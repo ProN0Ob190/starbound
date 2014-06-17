@@ -16,7 +16,6 @@
 
   "objectType" : "loungeable",
   "sitFlipDirection" : true,
-  "sitPosition" : [-6, 10.5],
   "sitOrientation" : "lay",
   "sitAngle" : 90,
   "sitEmote" : "sleep",
@@ -26,19 +25,30 @@
   ],
   "sitEffectEmitters" : [ "sleepbubbles" ],
 
-
   "inventoryIcon" : "birdbedicon.png",
   "orientations" : [
-    {
-      "dualImage" : "birdbed.png:<color>",
-
+	{
+      "image" : "birdbed.png:<color>",
       "imagePosition" : [-16, 0],
       "frames" : 1,
-      "animationCycle" : 1.0,
+      "animationCycle" : 0.5,
 
       "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+      "anchors" : [ "bottom" ],
+	  "flipImages" : true,
+	  "direction" : "left",
+      "sitPosition" : [-4.5, 11.5]
+    },
+	{
+      "image" : "birdbed.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
 
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "direction" : "right",
+      "sitPosition" : [-4.5, 11.5]
     }
   ]
 }

@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Bruteforce Prime. A very solid mallet.",
   "shortdescription" : "Bruteforce Prime",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "glitchtier8hammer.png",

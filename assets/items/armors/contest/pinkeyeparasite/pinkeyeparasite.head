@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Ahhhh, my eyes! Everything is...pink!",
   "shortdescription" : "Pink-Eye Parasite",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

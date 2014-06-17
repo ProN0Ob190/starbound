@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Nudge. A decent spear.",
   "shortdescription" : "Nudge",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "glitchtier2spear.png",

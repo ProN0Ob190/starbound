@@ -1,0 +1,21 @@
+{
+  "config" : {
+    "capabilities" : ["planetTravel", "systemTravel"],
+    "fuelMax" : 1000
+  },
+
+  "backgroundOverlays" : [
+    {
+      "image" : "humanT7.png",
+      "position" : [8.39, 3.875],
+	  "unlit" : true
+    },
+    {
+      "image" : "humanT7lit.png",
+      "position" : [8.39, 3.875]
+    }
+  ],
+
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "humanT7blocks.png"
+}

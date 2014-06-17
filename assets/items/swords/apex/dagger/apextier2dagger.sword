@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Barkpeeler. A short, straight dagger.",
   "shortdescription" : "Barkpeeler",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "apextier2dagger.png",

@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Coralchipper. An axe suited for coral mining.",
   "shortdescription" : "Coralchipper",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "hylotltier6axe.png",

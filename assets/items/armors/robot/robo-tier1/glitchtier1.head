@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "The iron helm of the knave, it only protects the top of the head.",
   "shortdescription" : "Knave's Helm",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "So retro, it's Prehistoric.",
   "shortdescription" : "Dinosaur Hat",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

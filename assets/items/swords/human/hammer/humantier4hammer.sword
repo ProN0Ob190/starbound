@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Hammertime. A pretty swish hammer.",
   "shortdescription" : "Hammertime",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "humantier4hammer.png",

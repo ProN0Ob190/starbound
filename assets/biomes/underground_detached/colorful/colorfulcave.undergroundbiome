@@ -1,5 +1,7 @@
 {
   "name" : "colorfulcave",
+  "friendlyName" : "Colorful Cave",
+  "requiredStatuses" : [ "beamaxe" ],
 
   "mainBlock" : "sand2",
   "subBlocks" : [ "sand", "dirt" ],

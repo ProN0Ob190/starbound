@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Let's hope someone remembered the parachute.",
   "shortdescription" : "Jump Suit Jacket",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

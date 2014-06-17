@@ -2,7 +2,6 @@
   "projectileName" : "chargedheartarrow",
   "physics" : "arrow",
   "frames" : "chargedheartarrow.png",
-  "level" : 3,
   "animationCycle" : 0.25,
   "frameNumber" : 1,
   "emitters" : [ "daggerblue" ],

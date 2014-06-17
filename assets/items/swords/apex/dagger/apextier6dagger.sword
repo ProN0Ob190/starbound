@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Fruitslicer. An ominous dagger.",
   "shortdescription" : "Fruitslicer",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "apextier6dagger.png",

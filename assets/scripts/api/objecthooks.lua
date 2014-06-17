@@ -24,7 +24,6 @@ function die() end
 --    "OpenStreamingVideoInterface"
 --    "PlayCinematic"
 --    "OpenSongbookInterface"
---    "OpenNpcInterface"
 --    "OpenNpcCraftingInterface"
 --    "OpenTech3DPrinterDialog"
 --    "ShowPopup"

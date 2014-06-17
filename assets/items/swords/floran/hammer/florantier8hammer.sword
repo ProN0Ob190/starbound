@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Rootrocker. Roots holding a rock.",
   "shortdescription" : "Rootrocker",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "florantier8hammer.png",

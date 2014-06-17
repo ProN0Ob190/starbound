@@ -1,5 +1,6 @@
 {
   "name" : "drizzle",
+  "icon" : "/interface/cockpit/weather/drizzle.png",
 
   "particles" : [
     {

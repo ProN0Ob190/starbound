@@ -1,7 +1,6 @@
 {
   "objectName" : "spawnerchef",
   "rarity" : "Common",
-  "objectType" : "wire",
   "description" : "Spawn your very own chef!",
   "shortdescription" : "Chef Spawner",
   "race" : "human",

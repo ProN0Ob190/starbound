@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Gorilldrill. A grooved, curved sword.",
   "shortdescription" : "Gorilldrill",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "apextier9broadsword.png",

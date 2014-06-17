@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Big Nastyslice. A sword that really hurts.",
   "shortdescription" : "Big Nastyslice",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "florantier4broadsword.png",

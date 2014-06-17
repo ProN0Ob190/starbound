@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "+1% rain resistance when dry.",
   "shortdescription" : "Cardbord Hobo Hat",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

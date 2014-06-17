@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A bear hat. For when you're feeling grizzly.",
   "shortdescription" : "Bear Hat",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

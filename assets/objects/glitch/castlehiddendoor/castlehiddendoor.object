@@ -1,7 +1,6 @@
 {
   "objectName" : "castlehiddendoor",
   "rarity" : "Common",
-  "objectType" : "wire",
 
   "category" : "door",
   "price" : 1000,

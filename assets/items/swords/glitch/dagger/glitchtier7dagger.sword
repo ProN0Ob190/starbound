@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Spinux. A spiny dagger.",
   "shortdescription" : "Spinux",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "glitchtier7dagger.png",

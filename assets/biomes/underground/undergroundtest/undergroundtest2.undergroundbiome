@@ -1,5 +1,7 @@
 {
   "name" : "undergroundtest2",
+  "friendlyName" : "Undergroundtest2",
+  "requiredStatuses" : [ "beamaxe" ],
 
   "mainBlock" : "hellstone",
   "subBlocks" : [ "rock04" ],

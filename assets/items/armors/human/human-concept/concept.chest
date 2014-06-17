@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A casual shirt.",
   "shortdescription" : "Casual Shirt",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

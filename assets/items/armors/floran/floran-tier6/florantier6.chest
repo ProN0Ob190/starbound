@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Florans believe to devourer a fallen wiseman's brain is to gain their wisdom.",
   "shortdescription" : "Wiseman's Chestguard",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

@@ -5,7 +5,6 @@
   "parts" : [ "body" ],
 
   "animation" : "giftmonstersmall.animation",
-  "projectiles" : "/monsters/projectiles.config",
   "colors" : "/monsters/colors.config",
   "reversed" : true,
 
@@ -19,8 +18,6 @@
       "/scripts/util.lua",
       "/scripts/vec2.lua"
     ],
-
-    "scriptDelta" : 5,
 
     "metaBoundBox" : [-0.875, -0.8125, 0.75, 0.5625],
     "scale" : 1.0,

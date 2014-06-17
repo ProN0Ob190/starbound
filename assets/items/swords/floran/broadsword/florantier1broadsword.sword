@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Big Slicer. A basic broadsword.",
   "shortdescription" : "Big Slicer",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "florantier1broadsword.png",

@@ -1,5 +1,6 @@
 {
   "name" : "ember",
+  "icon" : "/interface/cockpit/weather/ember.png",
 
   "particles" : [
     {

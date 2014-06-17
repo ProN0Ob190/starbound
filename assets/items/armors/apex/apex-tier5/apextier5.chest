@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A sleek top that is light and form fitting, with Aegisalt woven into the fabric for protection. ",
   "shortdescription" : "Rogue's Chestguard",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

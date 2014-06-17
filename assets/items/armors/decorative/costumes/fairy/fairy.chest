@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Dance top, provides 300% less jiggle.",
   "shortdescription" : "Dance top",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

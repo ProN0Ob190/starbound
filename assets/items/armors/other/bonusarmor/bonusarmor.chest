@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Makeshift armour chestpiece. For the resourceful.",
   "shortdescription" : "Makeshift Chestpiece",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
   "maleFrames" : {
     "body" : "chest.png",
     "backSleeve" : "bsleeve.png",

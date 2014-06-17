@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A dirty peasant shirt.",
   "shortdescription" : "Peasant Shirt",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

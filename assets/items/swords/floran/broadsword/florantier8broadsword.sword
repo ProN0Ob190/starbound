@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Big Berryskewer. A sword decorated with berries.",
   "shortdescription" : "Big Berryskewer",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "florantier8broadsword.png",

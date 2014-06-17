@@ -2,7 +2,6 @@
   "projectileName" : "largemeteor",
   "physics" : "grenadezbomb",
   "bounces" : 0,
-  "level" : 3,
   "frames" : "largemeteor.png",
   "animationCycle" : 1,
   "lightColor" : [253, 160, 57],

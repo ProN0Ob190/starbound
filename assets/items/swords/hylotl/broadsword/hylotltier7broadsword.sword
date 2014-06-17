@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Sharkslicer. A sword perfect for slicing shark steaks.",
   "shortdescription" : "Sharkslicer",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "hylotltier7broadsword.png",

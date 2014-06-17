@@ -8,7 +8,6 @@
   "partParameters" : "bonebird.partparams",
 
   "animation" : "bonebird.animation",
-  "projectiles" : "/monsters/projectiles.config",
   "colors" : "/monsters/colors.config",
   "reversed" : true,
 
@@ -59,8 +58,6 @@
       "/scripts/vec2.lua"
     ],
 
-    "scriptDelta" : 5,
-
     "metaBoundBox" : [-2.5, -2.5, 2.5, 2.5],
     "scale" : 1.0,
 
@@ -99,7 +96,7 @@
     "knockoutTime" : 1,
     "knockoutEffect" : "blink",
     "deathParticles" : "deathPoof",
-    "deathNoise" : [ "/sfx/projectiles/bubble_pop.wav" ],
+    "deathNoise" : [ "/sfx/npc/enemydeathpuff.wav" ],
     "turnHostileNoise" : [ ],
 
     "touchDamage" : {
@@ -128,6 +125,7 @@
         "attackMaxDistance" : 30.0,
         "attackCooldownTime" : 4.0,
         "scripts" : [
+          "/monsters/flying/skills/createFlyingRangedAttack.lua",
           "/monsters/flying/circleState.lua",
           "/monsters/flying/wanderState.lua",
           "/monsters/flying/glideState.lua",
@@ -153,10 +151,8 @@
         "glideSinkingSpeed" : 0.8,
         "glideSpiralDispersion" : 0.2,
 
-        "baseSkills" : [
-          "flyingSwoopBounceAttack",
-          "airbloodvomit"
-        ]
+        "baseSkills" : [ "flyingSwoopBounceAttack" ],
+        "specialSkills" : [ "airbloodvomit" ]
       }
     ]
   ]

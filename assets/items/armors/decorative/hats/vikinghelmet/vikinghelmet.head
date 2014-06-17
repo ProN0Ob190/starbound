@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "An incredibly historically inaccurate Viking helmet. Thanks Obama!",
   "shortdescription" : "Viking Helm",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

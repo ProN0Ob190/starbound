@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Gillcutter. A ridged axe.",
   "shortdescription" : "Gillcutter",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "hylotltier4axe.png",

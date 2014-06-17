@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "The Wiggler. An axe that looks like it's trying to wiggle away.",
   "shortdescription" : "The Wiggler",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "humantier9axe.png",

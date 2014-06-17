@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "Legionnaire's insist people call their loincloth a toga.",
   "shortdescription" : "Legionnaire's Greaves",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

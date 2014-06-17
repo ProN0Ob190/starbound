@@ -8,7 +8,7 @@
   "shortdescription" : "Oboe",
   "largeImage" : "oboe.png",
   "image" : "oboe.png",
-  "inspectionKind" : "tool",
+  "tooltipKind" : "tool",
   "activeImage" : "oboe.png",
   "activeAngle" : 0,
   "activeHandPosition" : [0.3, -0.2],

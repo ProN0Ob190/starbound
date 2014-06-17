@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Katfish. A sturdy katana.",
   "shortdescription" : "Katfish",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "hylotltier3broadsword.png",

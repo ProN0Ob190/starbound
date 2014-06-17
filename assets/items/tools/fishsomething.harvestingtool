@@ -6,7 +6,7 @@
   "rarity" : "Legendary",
   "description" : "My God...",
   "shortdescription" : "Fishy",
-  "inspectionKind" : "tool",
+  "tooltipKind" : "tool",
 
   "image" : "fish.png",
   "handPosition" : [-4, -4],

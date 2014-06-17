@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Dagger Home. A small, basic dagger.",
   "shortdescription" : "Dagger Home",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "glitchtier1dagger.png",

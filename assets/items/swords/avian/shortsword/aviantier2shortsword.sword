@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "The Skewer. A sword that doubles as a spit.",
   "shortdescription" : "The Skewer",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "aviantier2shortsword.png",

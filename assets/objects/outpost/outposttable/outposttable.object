@@ -1,0 +1,50 @@
+{
+  "objectName" : "outposttable",
+  "rarity" : "Common",
+  "description" : "A table. Perfect for tabletop gaming. Or eating.",
+  "shortdescription" : "Outpost Table",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 400,
+  "lightColor" : [69, 99, 115],
+
+  "apexDescription" : "A decent table.",
+  "avianDescription" : "A nice table.",
+  "floranDescription" : "Floran like table.",
+  "glitchDescription" : "Statement. A table.",
+  "humanDescription" : "A table.",
+  "hylotlDescription" : "A basic table.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { 
+	  "imageLayers" : [ { "image" : "outposttable.png:<color>", "unlit" : true }, { "image" : "outposttablelit.png:<color>" } ],
+	  "flipImages" : true,
+	  "direction" : "left",
+	  
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+	{ 
+	  "imageLayers" : [ { "image" : "outposttable.png:<color>", "unlit" : true }, { "image" : "outposttablelit.png:<color>" } ],
+	  "direction" : "right",
+	  
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ]
+}

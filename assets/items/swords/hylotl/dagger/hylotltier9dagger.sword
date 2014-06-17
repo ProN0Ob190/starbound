@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Stinger. A spiky dagger.",
   "shortdescription" : "Stinger",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "hylotltier9dagger.png",

@@ -1,5 +1,6 @@
 {
   "name" : "mushroompatch",
+  "friendlyName" : "Mushroompatch",
 
   "surfaceParameters" : {
     "mainBlock" : "dirt",

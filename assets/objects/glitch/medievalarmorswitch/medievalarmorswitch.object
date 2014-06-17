@@ -1,7 +1,6 @@
 {
   "objectName" : "medievalarmorswitch",
   "rarity" : "Common",
-  "objectType" : "wire",
   "description" : "Shiny armour stands resolute. Hmm... the axe looks loose.",
   "shortdescription" : "Glitch Display Armour",
   "race" : "glitch",

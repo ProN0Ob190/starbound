@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "Perfect for Ascot.",
   "shortdescription" : "Fancy Hat",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

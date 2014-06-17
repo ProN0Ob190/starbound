@@ -2,7 +2,7 @@
   "name" : "aviangun",
   "maxStack" : 1,
   "rarity" : "common",
-  "inspectionKind" : "gun",
+  "tooltipKind" : "gun",
   "handPosition" : [7, 0],
   "firePosition" : [-2, 10],
   "weaponType" : "Avian Blaster",

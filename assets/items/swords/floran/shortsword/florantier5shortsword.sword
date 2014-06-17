@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Bindslicer. A sword bound in vines.",
   "shortdescription" : "Bindslicer",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "florantier5shortsword.png",

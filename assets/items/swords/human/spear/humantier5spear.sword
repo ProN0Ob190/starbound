@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Cattleprodder. A spear shaped like a cattleprod.",
   "shortdescription" : "Cattleprodder",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "humantier5spear.png",

@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Standard issue Apex Commander pants.",
   "shortdescription" : "Apex Commander Pants",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pantsm.png",
   "femaleFrames" : "pantsf.png",

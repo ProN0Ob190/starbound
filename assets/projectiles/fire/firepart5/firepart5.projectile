@@ -2,7 +2,6 @@
   "projectileName" : "firepart5",
   "physics" : "firespread",
   "bounces" : -1,
-  "level" : 0,
   "timeToLive" : 7,
   "speed" : 30,
   "frames" : "firepart5.png",

@@ -3,7 +3,6 @@
   "frames" : "gas.png",
   "physics" : "gas",
   "animationCycle" : 1.4,
-  "level" : 3,
   "frameNumber" : 8,
   "power" : 50,
   "speed" : 0,

@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Silver helmet. For the shiny.",
   "shortdescription" : "Silver Helmet",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

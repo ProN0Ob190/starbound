@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "These pants belong to Tiy, what are you doing with them?",
   "shortdescription" : "Tiy's Pants",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

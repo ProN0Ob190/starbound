@@ -2,7 +2,6 @@
   "objectName" : "tier4door",
   "printable" : false,
   "rarity" : "Common",
-  "objectType" : "wire",
 
   "category" : "door",
   "price" : 500,
@@ -35,7 +34,7 @@
   "animationParts" : {
     "door" : "tier4door.png"
   },
-  "animationPosition" : [-16, 0],
+  "animationPosition" : [-20, 0],
 
   "inboundNodes" : [ [-1, 4] ],
   "outboundNodes" : [ [1, 0] ],

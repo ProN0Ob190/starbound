@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Double Hammertime. Like Hammertime, but twice as strong.",
   "shortdescription" : "Double Hammertime",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "humantier5hammer.png",

@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A typical Avian fancy shirt.",
   "shortdescription" : "Avian Fancy Shirt",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

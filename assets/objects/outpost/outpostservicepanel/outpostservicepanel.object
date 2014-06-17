@@ -1,0 +1,27 @@
+{
+  "objectName" : "outpostservicepanel",
+  "rarity" : "Common",
+  "description" : "A service panel.",
+  "shortdescription" : "Outpost Service Panel",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 400,
+
+  "floranDescription" : "Ssservice panel.",
+  "glitchDescription" : "Statement. A service panel.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "outpostservicepanel.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

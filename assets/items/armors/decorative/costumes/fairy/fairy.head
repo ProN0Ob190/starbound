@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Jewel encrusted metal party hat, it came from a pretty big christmas cracker.",
   "shortdescription" : "Crown",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

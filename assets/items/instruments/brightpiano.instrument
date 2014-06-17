@@ -8,7 +8,7 @@
   "shortdescription" : "Bright Piano",
   "largeImage" : "keytarorange.png",
   "image" : "keytarorange.png",
-  "inspectionKind" : "tool",
+  "tooltipKind" : "tool",
   "activeImage" : "keytarorange.png",
   "activeAngle" : 0,
   "activeHandPosition" : [0.5, 0],

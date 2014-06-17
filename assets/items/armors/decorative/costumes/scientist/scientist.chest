@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Keeps monster goop off the wearer.",
   "shortdescription" : "Scientist Coat",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "The templar's helm is capable of housing the brains of fallen templars so they may live on.",
   "shortdescription" : "Templar's Helm",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

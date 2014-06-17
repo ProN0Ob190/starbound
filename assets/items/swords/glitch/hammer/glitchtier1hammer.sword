@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Crunch. A basic hammer.",
   "shortdescription" : "Crunch",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "glitchtier1hammer.png",

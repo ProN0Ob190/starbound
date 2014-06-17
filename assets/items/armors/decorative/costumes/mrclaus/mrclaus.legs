@@ -6,7 +6,7 @@
   "rarity" : "Uncommon",
   "description" : "Mr. Claus's traditional pants.",
   "shortdescription" : "Mr. Claus's Pants",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

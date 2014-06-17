@@ -8,7 +8,7 @@
   "shortdescription" : "Microphone",
   "largeImage" : "microphone.png",
   "image" : "microphone.png",
-  "inspectionKind" : "tool",
+  "tooltipKind" : "tool",
   "activeImage" : "microphone.png",
   "activeAngle" : 0,
   "activeHandPosition" : [0, 0.275],

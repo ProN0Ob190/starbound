@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "This ceremonial steel cape/plate combo is both comfortable and fashionable!",
   "shortdescription" : "Sparrow Breastplate",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

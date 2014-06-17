@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A sassy felt hat. Wine and baguette sold separately.",
   "shortdescription" : "Sassy Beret",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

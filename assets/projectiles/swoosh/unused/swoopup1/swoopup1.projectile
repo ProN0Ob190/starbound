@@ -2,7 +2,6 @@
   "projectileName" : "swoopup1",
   "frames" : "swoopup1.png",
   "animationCycle" : 0.05,
-  "level" : 1,
   "frameNumber" : 4,
   "speed" : 0,
   "orientationLocked" : true,

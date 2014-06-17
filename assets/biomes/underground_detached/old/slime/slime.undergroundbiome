@@ -1,5 +1,7 @@
 {
   "name" : "slime",
+  "friendlyName" : "Slime",
+  "requiredStatuses" : [ "beamaxe" ],
 
   "mainBlock" : "slime",
   "subBlocks" : [ "rock15" ],

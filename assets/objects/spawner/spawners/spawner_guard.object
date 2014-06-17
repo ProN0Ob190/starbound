@@ -1,7 +1,6 @@
 {
   "objectName" : "spawnerguard",
   "rarity" : "Common",
-  "objectType" : "wire",
   "description" : "Spawn your very own guard!",
   "shortdescription" : "Guard Spawner",
   "race" : "human",

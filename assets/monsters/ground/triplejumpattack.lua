@@ -14,7 +14,8 @@ tripleJumpAttack = {
 }
 
 function tripleJumpAttack.enter()
-  if not canStartAttack() then return nil end
+  if not canStartSkill("tripleJumpAttack") then return nil end
+
   return { run = coroutine.wrap(tripleJumpAttack.run) }
 end
 
@@ -62,8 +63,7 @@ function tripleJumpAttack.jump(jumpTime, moveTime, trackTarget)
   entity.setFacingDirection(direction)
 
   entity.setAnimationState("movement", "jump")
-  entity.playSound(entity.randomizeParameter("attackNoise"))
-  entity.jump()
+  jump()
   coroutine.yield(false)
 
   local jumpTimer = jumpTime
@@ -71,17 +71,15 @@ function tripleJumpAttack.jump(jumpTime, moveTime, trackTarget)
   util.wait(math.max(jumpTime, moveTime), function(dt)
     if entity.onGround() then return true end
 
+    setAggressive(true, true)
+
     if jumpTimer > 0 then
       entity.holdJump()
       jumpTimer = jumpTimer - dt
     end
 
     if moveTimer > 0 then
-      if direction > 0 then
-        entity.moveRight()
-      else
-        entity.moveLeft()
-      end
+      moveX(direction)
       moveTimer = moveTimer - dt
     end
 

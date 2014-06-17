@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Crest of Kluex. A lethal, powerful shortsword.",
   "shortdescription" : "Crest of Kluex",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "aviantier10shortsword.png",

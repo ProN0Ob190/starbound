@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Sturdy Material make these perfect for finding mountain monsters.",
   "shortdescription" : "Hiker Trousers",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

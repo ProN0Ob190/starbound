@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Speak No Evil. A malevolent, spiked spear.",
   "shortdescription" : "Speak No Evil",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "apextier8spear.png",

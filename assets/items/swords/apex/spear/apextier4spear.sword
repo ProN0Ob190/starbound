@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Tailcutter. A barbed spear.",
   "shortdescription" : "Tailcutter",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "apextier4spear.png",

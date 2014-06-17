@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "King of the Dingers. A bell-shaped hammer.",
   "shortdescription" : "King of the Dingers",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "apextier8hammer.png",

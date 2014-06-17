@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Bird in the Hand. A spear perfect for martial arts.",
   "shortdescription" : "Bird in the Hand",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "aviantier5spear.png",

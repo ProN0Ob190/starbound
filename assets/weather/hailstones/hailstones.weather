@@ -1,5 +1,6 @@
 {
   "name" : "hailstones",
+  "icon" : "/interface/cockpit/weather/hail.png",
 
   "particles" : [
     {

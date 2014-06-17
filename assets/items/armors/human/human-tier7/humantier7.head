@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "This Cerulium helm was built when humans made contact with a particularly odd looking race. The fashion stuck.",
   "shortdescription" : "Wanderer's Helm",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

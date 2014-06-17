@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "These Durasteel pants are built for the rider of a hoverbike.",
   "shortdescription" : "Outrider's Pants",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

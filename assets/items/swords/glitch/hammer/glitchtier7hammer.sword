@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Bruteforce Lite. A solid mallet.",
   "shortdescription" : "Bruteforce Lite",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "glitchtier7hammer.png",

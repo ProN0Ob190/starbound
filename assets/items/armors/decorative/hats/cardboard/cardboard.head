@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Because who wants to spend money on a fancy hat?",
   "shortdescription" : "Cardboard Hat",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "An aegisalt loincloth designed to allow movement while still protecting the legs.",
   "shortdescription" : "Toucan Loincloth",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

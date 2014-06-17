@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "The Propeller. A rotary-style axe.",
   "shortdescription" : "The Propeller",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "hylotltier8axe.png",

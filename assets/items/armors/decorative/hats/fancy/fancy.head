@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A fancy bowler hat. Distinguished.",
   "shortdescription" : "A Fancy Hat",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

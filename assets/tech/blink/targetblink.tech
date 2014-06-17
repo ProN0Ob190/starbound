@@ -1,5 +1,5 @@
 {
-  "script" : "blink.lua",
+  "scripts" : ["blink.lua"],
   "actions" : [ "blink" ],
   "animator" : "blink.animation",
 

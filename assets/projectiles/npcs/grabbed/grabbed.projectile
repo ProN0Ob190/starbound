@@ -2,7 +2,6 @@
   "projectileName" : "grabbed",
   "frames" : "grabbed.png",
   "physics" : "gas",
-  "level" : 3,
   "animationCycle" : 1,
   "frameNumber" : 1,
   "power" : -1,

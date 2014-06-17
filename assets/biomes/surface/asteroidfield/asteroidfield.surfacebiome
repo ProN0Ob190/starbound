@@ -1,6 +1,8 @@
 {
   "name" : "asteroidfield",
+  "friendlyName" : "Asteroidfield",
   "barren" : true,
+  "requiredStatuses" : [ "beamaxe", "breathProtection" ],
 
   "hueShiftOptions" : [-180, -25, 25],
   "skyOptions" : [
@@ -36,36 +38,15 @@
     },
 
     "weather" : [
-      [
-        [0.1, "glowingrain" ],
-        [0.9, "clear" ]
-      ],
-      [
-        [0.03, "meteorshower" ],
-        [0.97, "clear" ]
-      ],
-      [
-        [0.01, "largemeteor" ],
-        [0.99, "clear" ]
-      ],
-      [
-        [1.0, "clear" ]
-      ],
-      [
-        [1.0, "clear" ]
-      ],
-      [
-        [1.0, "clear" ]
-      ],
-      [
-        [1.0, "clear" ]
-      ],
-      [
-        [1.0, "clear" ]
-      ],
-      [
-        [1.0, "clear" ]
-      ]
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:uncommonGlowingRain",
+      "/weather.config:rareLargeMeteorShower",
+      "/weather.config:uncommonMeteorShower"
     ],
 
     "ambientNoises" : {
@@ -133,5 +114,4 @@
       "items" : [ ]
     }
   }
-
 }

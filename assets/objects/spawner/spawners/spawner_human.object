@@ -1,7 +1,6 @@
 {
   "objectName" : "spawnerhuman",
   "rarity" : "Common",
-  "objectType" : "wire",
   "description" : "Spawn your very own human villager!",
   "shortdescription" : "Human Spawner",
   "race" : "human",

@@ -2,7 +2,7 @@
   "name" : "flamethrower",
   "maxStack" : 1,
   "rarity" : "uncommon",
-  "inspectionKind" : "gun",
+  "tooltipKind" : "gun",
   "handPosition" : [3.5, 0],
   "firePosition" : [1.5, 9.5],
   "weaponType" : "Flamethrower",

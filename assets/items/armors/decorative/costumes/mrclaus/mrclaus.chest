@@ -6,7 +6,7 @@
   "rarity" : "Uncommon",
   "description" : "Mr. Claus's holiday coat.",
   "shortdescription" : "Mr. Claus's Coat",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chest.png",

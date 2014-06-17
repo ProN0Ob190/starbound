@@ -6,7 +6,7 @@
   "rarity" : "Uncommon",
   "description" : "Pickaxes are so last millennium! Lasers are the future.",
   "shortdescription" : "Laser Mining Tool",
-  "inspectionKind" : "tool",
+  "tooltipKind" : "tool",
   "largeImage" : "stonepickaxebig.png",
 
   "image" : "laserminer.png:{frame}",

@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Silver chestpiece. For the shiny.",
   "shortdescription" : "Silver Chestpiece",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chest.png",

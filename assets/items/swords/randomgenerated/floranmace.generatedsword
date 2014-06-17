@@ -1,19 +1,18 @@
 {
   "name" : "floranmace",
-  "maxStack" : 1,
   "rarity" : "legendary",
   "baseDps" : [2.5, 3.5],
-  "rateOfSwing" : [0.8, 1.9],
-  "multiplier" : 0.35,
+  "rateOfSwing" : [0.7, 1.7],
+  "multiplier" : 0.4,
   "firePosition" : [15.5, 4.5],
   "fireAfterWindup" : true,
   "muzzleFlashes" : [ ],
   "soundEffect" : [ "/sfx/melee/swing_twohanded.wav" ],
   "kind" : "floranmace",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
 
   "primaryStances" : {
-    "directional" : false,
+    "directional" : true,
     "projectileTypes" : [ "floranmaceswoosh" ],
     "projectile" : {
       "speed" : 0.1

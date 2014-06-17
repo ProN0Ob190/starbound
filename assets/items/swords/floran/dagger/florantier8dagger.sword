@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Berrypicker. A sharp dagger covered in berries.",
   "shortdescription" : "Berrypicker",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "florantier8dagger.png",

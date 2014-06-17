@@ -4,14 +4,7 @@
   "categories" : [ "fish_organic" ],
   "parts" : [ "head", "tail", "fin" ],
 
-  "spawnParameters" : {
-    "area" : "liquid",
-    "region" : "all",
-    "time" : "all"
-  },
-
   "animation" : "fish.animation",
-  "projectiles" : "/monsters/projectiles.config",
   "colors" : "/monsters/colors.config",
   "reversed" : true,
 
@@ -26,8 +19,6 @@
       "/monsters/swimming/fleeState.lua",
       "/monsters/swimming/investigateState.lua"
     ],
-
-    "scriptDelta" : 10,
 
     "metaBoundBox" : [-2.0, -2.0, 2.0, 2.0],
     "scale" : 1.0,

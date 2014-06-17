@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Explorer's Chestpiece. This armour is perfect for exploring in.",
   "shortdescription" : "Explorer's Chestpiece",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

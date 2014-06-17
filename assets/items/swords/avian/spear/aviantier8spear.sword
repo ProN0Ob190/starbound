@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Duckbilled Splatypus. A bill-shaped spear that also serves as a blunt instrument.",
   "shortdescription" : "Duckbilled Splatypus",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "aviantier8spear.png",

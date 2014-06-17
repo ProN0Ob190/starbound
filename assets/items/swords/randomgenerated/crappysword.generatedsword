@@ -1,14 +1,14 @@
 {
   "name" : "crappybroadsword",
-  "baseDps" : [2.5, 3.5],
-  "rateOfSwing" : [0.8, 1.9],
+  "baseDps" : [3, 3],
+  "rateOfSwing" : [1, 1],
   "multiplier" : 0.35,
   "firePosition" : [15.5, 4.5],
   "fireAfterWindup" : true,
   "muzzleFlashes" : [ ],
   "soundEffect" : [ "/sfx/melee/swing_twohanded.wav" ],
   "kind" : "crappybroadsword",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
 
   "primaryStances" : {
     "directional" : false,

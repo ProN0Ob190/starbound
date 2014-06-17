@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Mini-Paddle. A hefty shortsword that packs a punch.",
   "shortdescription" : "Mini-Paddle",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "humantier6shortsword.png",

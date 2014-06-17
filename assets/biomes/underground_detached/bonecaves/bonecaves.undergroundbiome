@@ -1,5 +1,7 @@
 {
   "name" : "bonecaves",
+  "friendlyName" : "Bone Caves",
+  "requiredStatuses" : [ "beamaxe" ],
 
   "mainBlock" : "rock15",
   "subBlocks" : [ "dirt", "bonematerial", "ash" ],

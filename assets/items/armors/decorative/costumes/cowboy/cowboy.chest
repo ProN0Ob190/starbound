@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A bit dirtswept.",
   "shortdescription" : "Cowboy Jacket",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

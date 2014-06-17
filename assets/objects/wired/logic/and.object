@@ -1,7 +1,6 @@
 {
   "objectName" : "and",
   "rarity" : "Common",
-  "objectType" : "wire",
   "description" : "<An /'And'/ switch. Requires all inputs to be /'on'/ to work.>",
   "shortdescription" : "And Switch",
   "race" : "human",

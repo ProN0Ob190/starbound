@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "It is said this cap once belonged to a hero of legend.",
   "shortdescription" : "Hero's Cap",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "An ostentatious Cerulium-plated headdress for high-ranking Avian warriors.",
   "shortdescription" : "Peacock Headdress",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

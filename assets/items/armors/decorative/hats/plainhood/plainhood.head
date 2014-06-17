@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Useful for those who want to hide their identity.",
   "shortdescription" : "Plain Hood",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

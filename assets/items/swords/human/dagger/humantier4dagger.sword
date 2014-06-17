@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Switchblade. A switchblade with a ruby on it.",
   "shortdescription" : "Switchblade",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "humantier4dagger.png",

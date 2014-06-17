@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "The lancers greaves are built for riding.",
   "shortdescription" : "Lancer's Greaves",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Monkey Business. A curvy, disconcerting blade.",
   "shortdescription" : "Monkey Business",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "apextier7shortsword.png",

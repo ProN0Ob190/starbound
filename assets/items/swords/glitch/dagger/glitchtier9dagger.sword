@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Operating System. A dagger that'll pierce any hide.",
   "shortdescription" : "Operating System",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "glitchtier9dagger.png",

@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Lil Apesticker. A quality sword.",
   "shortdescription" : "Lil Apesticker",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "apextier1shortsword.png",

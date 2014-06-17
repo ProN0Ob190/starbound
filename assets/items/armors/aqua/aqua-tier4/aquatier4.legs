@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Lake warden durasteel greaves allow the wearer to stand at his post for many hours.",
   "shortdescription" : "Lake Greaves",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

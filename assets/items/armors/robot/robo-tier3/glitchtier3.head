@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "The titanium clad glitch knight fights with honor (and a sharp sword).",
   "shortdescription" : "Knight's Helm",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

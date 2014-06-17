@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "The dark knights greaves provide some of the most adequate crotch protection in the entire universe.",
   "shortdescription" : "Dark Knight's Greaves",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

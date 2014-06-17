@@ -4,7 +4,7 @@
   "inventoryIcon" : "/tech/morphball.png",
   "description" : "Press 'F' to stop, drop and roll with this incredible Morphball tech!",
   "shortdescription" : "Morphball",
-  "inspectionKind" : "tech",
+  "tooltipKind" : "tech",
 
   "techModule" : "morphball.tech"
 }

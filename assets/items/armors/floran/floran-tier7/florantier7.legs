@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "The gatherers skirt makes the sound of rustling leaves as they creep towards their prey.",
   "shortdescription" : "Gatherer's Skirt",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

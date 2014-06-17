@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "An old fashioned spacesuit chest piece!  Looks bulky.",
   "shortdescription" : "Spacesuit Chest",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chest.png",

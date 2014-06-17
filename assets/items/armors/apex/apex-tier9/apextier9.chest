@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "This inpenetrable armour is mostly solid, flexible only at the neck, arm joints and midriff.",
   "shortdescription" : "Infiltrator's Breastplate",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chest.png",

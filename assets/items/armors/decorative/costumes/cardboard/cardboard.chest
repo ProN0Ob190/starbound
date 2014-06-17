@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Imagination is the key to true power!",
   "shortdescription" : "Cardboard Box Armor",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chest.png",

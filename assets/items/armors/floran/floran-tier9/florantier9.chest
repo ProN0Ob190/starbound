@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "The shamans chestguard is built from a net of Rubium, as strong as any breastplate.",
   "shortdescription" : "Shaman's Chestguard",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chest.png",

@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Stabberry. A lethal spear with berries on it.",
   "shortdescription" : "Stabberry",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "florantier8spear.png",

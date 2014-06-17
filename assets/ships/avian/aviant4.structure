@@ -1,0 +1,21 @@
+{
+  "config" : {
+    "capabilities" : ["planetTravel", "systemTravel"],
+    "fuelMax" : 1000
+  },
+
+  "backgroundOverlays" : [
+    {
+      "image" : "avianT4.png",
+      "position" : [4.63, 16.37],
+	  "unlit" : true
+    },
+    {
+      "image" : "avianT4lit.png",
+      "position" : [4.63, 16.37]
+    }
+  ],
+
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "avianT4blocks.png"
+}

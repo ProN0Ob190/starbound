@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Hookbeak. A little hooked dagger.",
   "shortdescription" : "Hookbeak",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "aviantier3dagger.png",

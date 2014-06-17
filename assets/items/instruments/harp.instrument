@@ -8,7 +8,7 @@
   "shortdescription" : "Harp",
   "largeImage" : "harp.png",
   "image" : "harp.png",
-  "inspectionKind" : "tool",
+  "tooltipKind" : "tool",
   "activeImage" : "harp.png",
   "activeAngle" : -20,
   "activeHandPosition" : [0.1, 0.1],

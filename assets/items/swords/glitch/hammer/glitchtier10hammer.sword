@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "iDoom. A hammer that spells doom for all who encounter it.",
   "shortdescription" : "iDoom",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "glitchtier10hammer.png",

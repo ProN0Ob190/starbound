@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "The Drumstick. A hammer styled after a chicken's leg. With spikes.",
   "shortdescription" : "The Drumstick",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "aviantier10hammer.png",

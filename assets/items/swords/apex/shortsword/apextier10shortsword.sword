@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Chimp's Grin. A hefty, chunky shortsword.",
   "shortdescription" : "Chimp's Grin",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "apextier10shortsword.png",

@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Cracker. A good hammer.",
   "shortdescription" : "Cracker",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "florantier3hammer.png",

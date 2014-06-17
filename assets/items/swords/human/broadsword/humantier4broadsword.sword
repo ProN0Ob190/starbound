@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "The Overcompensator. The blacksmith is getting carried away now.",
   "shortdescription" : "The Overcompensator",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "humantier4broadsword.png",

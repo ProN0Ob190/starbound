@@ -2,7 +2,6 @@
   "projectileName" : "penguinufobeam",
   "frames" : "penguinufobeam.png",
   "animationCycle" : 1.0,
-  "level" : 3,
   "frameNumber" : 5,
   "damageKindImage" : "icon.png",
   "pointLight" : true,

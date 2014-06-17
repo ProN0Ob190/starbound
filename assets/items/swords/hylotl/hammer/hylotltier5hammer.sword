@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "The Pufferfish. A huge, heavy ball on a stick.",
   "shortdescription" : "The Pufferfish",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "hylotltier5hammer.png",

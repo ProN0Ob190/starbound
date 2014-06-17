@@ -5,13 +5,7 @@ landState = {}
 function landState.enter()
   if hasTarget() then return nil end
 
-  if not self.sensors.groundSensors.collisionTrace[2] then
-    return nil
-  end
-
-  -- Don't land if we're practically on the ground already, it would be better
-  -- to let some other state move us away from the ground
-  if self.sensors.groundSensors.collisionTrace[1] then
+  if not self.sensors.groundSensors.collisionTrace[3].value then
     return nil
   end
 
@@ -38,7 +32,7 @@ function landState.update(dt, stateData)
     end
   else
     entity.setAnimationState("movement", "flying")
-    entity.fly({ 0, -entity.flySpeed() }, true)
+    entity.fly({ 0, -entity.flySpeed() * entity.configParameter("wanderSpeedMultiplier") }, true)
   end
 
   return false

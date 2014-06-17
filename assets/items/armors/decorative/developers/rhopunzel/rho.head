@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "NOW YOU GOT GLOWY EYES.",
   "shortdescription" : "Rho",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

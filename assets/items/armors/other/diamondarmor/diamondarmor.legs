@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Diamond greaves. Sparkles!",
   "shortdescription" : "Diamond Greaves",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",
 

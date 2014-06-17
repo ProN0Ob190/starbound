@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "War Axe. An axe of war.",
   "shortdescription" : "War Axe",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "glitchtier7axe.png",

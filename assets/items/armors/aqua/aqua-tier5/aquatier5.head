@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "With their aegisalt helms, reef gatherers would spend hours amongst the coral searching for precious material.",
   "shortdescription" : "Reef Helm",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

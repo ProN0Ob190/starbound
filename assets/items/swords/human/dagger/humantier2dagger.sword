@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Fancy Shanker. A basic, decorated dagger.",
   "shortdescription" : "Fancy Shanker",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "humantier2dagger.png",

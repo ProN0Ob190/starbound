@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Wingtip. A deceptively sharp dagger shaped like the tip of a wing.",
   "shortdescription" : "Wingtip",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "aviantier5dagger.png",

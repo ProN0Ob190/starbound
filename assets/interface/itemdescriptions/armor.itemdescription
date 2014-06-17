@@ -19,9 +19,9 @@
     "minSize" : [48, 48]
   },
   "descriptionLabel" : {
-    "type" : "wraplabel",
+    "type" : "label",
     "position" : [16, 82],
-    "width" : 122,
+    "wrapWidth" : 122,
     "hAnchor" : "left"
   },
   "title" : {
@@ -31,11 +31,11 @@
     "value" : ""
   },
   "rarityLabel" : {
-    "type" : "wraplabel",
+    "type" : "label",
     "position" : [21, 19],
     "hAnchor" : "left",
     "centered" : true,
-    "width" : 126
+    "wrapWidth" : 126
   },
   "titleIcon" : {
     "type" : "itemslot",
@@ -52,11 +52,11 @@
     "value" : "Armor"
   },
   "armorProtection" : {
-    "type" : "wraplabel",
+    "type" : "label",
     "position" : [125, 141],
     "hAnchor" : "left",
     "centered" : true,
-    "width" : 126
+    "wrapWidth" : 126
   },
   "statusList" : {
     "type" : "list",

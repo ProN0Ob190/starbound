@@ -2,7 +2,6 @@
   "projectileName" : "flamebolt",
   "physics" : "arrow",
   "frames" : "flamebolt.png",
-  "level" : 3,
   "animationCycle" : 0.25,
   "lightColor" : [235, 126, 2],
   "frameNumber" : 3,

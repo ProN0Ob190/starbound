@@ -6,6 +6,7 @@
   "shortdescription" : "Toxic Top Seed",
   "objectType" : "farmable",
   "printable" : false,
+  "price" : 150,
 
   "apexDescription" : "This plant could make me sick.",
   "avianDescription" : "Toxic and delicious.",
@@ -65,12 +66,12 @@
   },
   "growing" : {
     "0" : {
-      "duration" : [2820, 2940],
+      "duration" : [600, 600],
       "success" : 1,
       "failure" : 3
     },
     "1" : {
-      "duration" : [2820, 2940],
+      "duration" : [600, 600],
       "success" : 2,
       "failure" : 3
     }

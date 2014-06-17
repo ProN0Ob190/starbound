@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Somehow not as terrifying as you might expect.",
   "shortdescription" : "Pyramid Head",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

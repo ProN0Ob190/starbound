@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Generic titanium pants, used for general pant-related duties.",
   "shortdescription" : "Quail Greaves",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

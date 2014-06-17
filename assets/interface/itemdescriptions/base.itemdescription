@@ -11,10 +11,10 @@
     "value" : "0"
   },
   "descriptionLabel" : {
-    "type" : "wraplabel",
+    "type" : "label",
     "position" : [16, 83],
     "hAnchor" : "left",
-    "width" : 126
+    "wrapWidth" : 126
   },
   "objectImage" : {
     "type" : "image",
@@ -38,11 +38,11 @@
     "value" : ""
   },
   "rarityLabel" : {
-    "type" : "wraplabel",
+    "type" : "label",
     "position" : [21, 19],
     "hAnchor" : "left",
     "centered" : true,
-    "width" : 126
+    "wrapWidth" : 126
   },
   "titleIcon" : {
     "type" : "itemslot",

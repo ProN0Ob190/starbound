@@ -1,7 +1,6 @@
 {
   "objectName" : "smallwallswitch",
   "rarity" : "Common",
-  "objectType" : "wire",
   "description" : "Flippin' awesome.",
   "shortdescription" : "Small Wall Switch",
   "race" : "generic",
@@ -23,7 +22,7 @@
     }
   ],
 
-  "scripts" : [ "/objects/wired/switch/switch.lua" ],
+  "scripts" : [ "/objects/wired/switch/toggleswitch.lua" ],
   "scriptDelta" : 5,
 
   "animation" : "/objects/wired/switch/switchtoggle.animation",

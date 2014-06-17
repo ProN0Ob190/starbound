@@ -1,5 +1,5 @@
 {
-  "script" : "superjump.lua",
+  "scripts" : ["superjump.lua"],
   "actions" : [ "superjump" ],
   "animator" : "rocketjump.animation",
 

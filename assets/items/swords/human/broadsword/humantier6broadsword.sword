@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "The Paddle. A hefty sword that packs a punch.",
   "shortdescription" : "The Paddle",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "humantier6broadsword.png",

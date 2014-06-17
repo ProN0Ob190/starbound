@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "This iron hat is perfect for keeping one's head from drying in the hot sun.",
   "shortdescription" : "Puddle Hat",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

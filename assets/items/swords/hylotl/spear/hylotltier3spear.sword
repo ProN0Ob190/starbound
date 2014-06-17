@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Sandraker. A good spear.",
   "shortdescription" : "Sandraker",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "hylotltier3spear.png",

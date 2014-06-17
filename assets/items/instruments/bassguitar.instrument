@@ -8,7 +8,7 @@
   "shortdescription" : "Bass Guitar",
   "largeImage" : "bassguitar.png",
   "image" : "bassguitar.png",
-  "inspectionKind" : "tool",
+  "tooltipKind" : "tool",
   "activeImage" : "bassguitar.png",
   "activeAngle" : 0,
   "activeHandPosition" : [0.1, 0.1],

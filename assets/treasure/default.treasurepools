@@ -4,7 +4,7 @@
         "fill" : [
           "beamaxe",
           "flashlight",
-          [ "cornseed", 3],
+          [ "wheatseed", 6],
           [ "coalore", 3],
           [ "generatedgun", 1, { "definition" : "commonassaultrifle" } ],
           [ "generatedsword", 1, { "definition" : "crappybroadsword" } ]
@@ -20,8 +20,7 @@
           "beamaxe",
           "flashlight",
           [ "torch", 10],
-          [ "feathercrownseed", 3],
-          [ "wheatseed", 3],
+          [ "wheatseed", 6],
           [ "avianstarter", 1]
         ],
         "levelVariance" : [0, 0],
@@ -35,8 +34,7 @@
           "beamaxe",
           "flashlight",
           [ "torch", 10],
-          [ "bananaseed", 3],
-          [ "wheatseed", 3],
+          [ "wheatseed", 6],
           [ "apexstarter", 1]
         ],
         "levelVariance" : [0, 0],
@@ -50,8 +48,7 @@
           "beamaxe",
           "flashlight",
           [ "torch", 10],
-          [ "cornseed", 3],
-          [ "wheatseed", 3],
+          [ "wheatseed", 6],
           [ "humanstarter", 1]
         ],
         "levelVariance" : [0, 0],
@@ -65,8 +62,7 @@
           "beamaxe",
           "flashlight",
           [ "torch", 10],
-          [ "boltbulbseed", 3],
-          [ "wheatseed", 3],
+          [ "wheatseed", 6],
           [ "glitchstarter", 1]
         ],
         "levelVariance" : [0, 0],
@@ -80,8 +76,7 @@
           "beamaxe",
           "flashlight",
           [ "torch", 10],
-          [ "coralcreepseed", 3],
-          [ "wheatseed", 3],
+          [ "wheatseed", 6],
           [ "hylotlstarter", 1]
         ],
         "levelVariance" : [0, 0],
@@ -95,8 +90,7 @@
           "beamaxe",
           "flashlight",
           [ "torch", 10],
-          [ "bonebooseed", 3],
-          [ "wheatseed", 3],
+          [ "wheatseed", 6],
           [ "floranstarter", 1]
         ],
         "levelVariance" : [0, 0],
@@ -395,7 +389,7 @@
           [0.5, 2]
         ],
         "levelVariance" : [0, 0],
-        "allowDuplication" : true
+        "allowDuplication" : false
       } ]
   ],
 
@@ -1483,10 +1477,31 @@
           [0.1, 2]
         ],
         "levelVariance" : [0, 0],
-        "allowDuplication" : true
+        "allowDuplication" : false
       } ]
   ],
-  "heckTreasure" : [
+ 
+ "hiveTreasure" : [
+    [1, {
+        "pool" : [
+          [0.02, [ "money", 25] ],
+          [0.03, [ "money", 100] ],
+          [0.05, "medkit" ],
+          [0.05, "symbiote" ],
+          [0.05, [ "torch", 10] ],
+          [0.02, [ "flare", 5] ],
+          [0.04, [ "hivebomb", 1] ],
+          [0.04, [ "generatedgun", 1, { "definition" : "stingergun" } ] ]
+        ],
+        "poolRounds" : [
+          [0.5, 1],
+          [0.5, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+    "heckTreasure" : [
     [1, {
         "pool" : [
           [0.02, [ "money", 25] ],
@@ -1508,7 +1523,7 @@
           [0.5, 2]
         ],
         "levelVariance" : [0, 0],
-        "allowDuplication" : true
+        "allowDuplication" : false
       } ]
   ]
 }

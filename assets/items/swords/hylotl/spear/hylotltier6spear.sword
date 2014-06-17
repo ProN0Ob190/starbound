@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Whaleailer. A spear that could ail a whale.",
   "shortdescription" : "Whaleailer",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "hylotltier6spear.png",

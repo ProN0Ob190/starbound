@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "This hood and mask gives the wearer a rebellious appearance.",
   "shortdescription" : "Rebel's Hood",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "All-Purpose Axe. An axe which is good for everything.",
   "shortdescription" : "All-Purpose Axe",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "humantier8axe.png",

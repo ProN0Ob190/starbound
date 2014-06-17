@@ -8,7 +8,7 @@
   "shortdescription" : "Acoustic Guitar",
   "largeImage" : "acousticguitar.png",
   "image" : "acousticguitar.png",
-  "inspectionKind" : "tool",
+  "tooltipKind" : "tool",
   "activeImage" : "acousticguitar.png",
   "activeAngle" : 0,
   "activeHandPosition" : [0.1, 0.1],

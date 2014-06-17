@@ -1,7 +1,6 @@
 {
   "objectName" : "peanutbutter",
   "rarity" : "Common",
-  "objectType" : "wire",
   "description" : "This could attract anything... I should make sure I'm prepared before using it.",
   "shortdescription" : "Peanut Butter Trap",
   "race" : "generic",

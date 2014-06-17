@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Followback. A spear perfect for countering with.",
   "shortdescription" : "Followback",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "glitchtier6spear.png",

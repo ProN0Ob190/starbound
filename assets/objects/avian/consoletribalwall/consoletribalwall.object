@@ -1,7 +1,6 @@
 {
   "objectName" : "consoletribalwall",
   "rarity" : "Common",
-  "objectType" : "wire",
   "category" : "wire",
   "price" : 300,
   "description" : "A small security panel.",

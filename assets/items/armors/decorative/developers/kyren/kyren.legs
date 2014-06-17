@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Look like Kyren with this skirt.",
   "shortdescription" : "Kyren's Skirt",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

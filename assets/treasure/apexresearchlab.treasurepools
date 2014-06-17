@@ -100,7 +100,8 @@
           [0.012, [ "generatedsword", 1, { "definition" : "crappyaxe" } ] ],
           [0.012, [ "generatedsword", 1, { "definition" : "crappyspear" } ] ],
           [0.012, [ "generatedsword", 1, { "definition" : "crappyhammer" } ] ],
-          [0.012, [ "generatedshield", 1, { "definition" : "tier1shield" } ] ],
+          [0.006, [ "generatedshield", 1, { "definition" : "tier1shield" } ] ],
+          [0.006, [ "generatedshield", 1, { "definition" : "tier1woodshield" } ] ],
 
           [0.007, [ "generatedsword", 1, { "definition" : "uncommoncrappybroadsword" } ] ],
           [0.007, [ "generatedsword", 1, { "definition" : "uncommoncrappyaxe" } ] ],

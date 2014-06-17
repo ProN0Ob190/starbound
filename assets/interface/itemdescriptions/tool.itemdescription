@@ -18,10 +18,10 @@
     "value" : "Tool"
   },
   "descriptionLabel" : {
-    "type" : "wraplabel",
+    "type" : "label",
     "position" : [16, 83],
     "hAnchor" : "left",
-    "width" : 126
+    "wrapWidth" : 126
   },
   "largeImage" : {
     "type" : "image",
@@ -45,17 +45,17 @@
     "backingImage" : "/interface/inventory/portrait.png"
   },
   "rarityLabel" : {
-    "type" : "wraplabel",
+    "type" : "label",
     "position" : [21, 19],
     "hAnchor" : "left",
     "centered" : true,
-    "width" : 126
+    "wrapWidth" : 126
   },
   "handednessLabel" : {
-    "type" : "wraplabel",
+    "type" : "label",
     "position" : [90, 150],
     "hAnchor" : "right",
     "centered" : true,
-    "width" : 126
+    "wrapWidth" : 126
   }
 }

@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Swallowtail. A sleek, stylised spear.",
   "shortdescription" : "Swallowtail",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "aviantier4spear.png",

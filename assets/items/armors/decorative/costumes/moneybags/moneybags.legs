@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "Fancy tux pants. Step out in style.",
   "shortdescription" : "Moneybags Tux Pants",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

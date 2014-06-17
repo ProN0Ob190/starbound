@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Climbing Axe. A hooked axe, usefull for rock-climbing.",
   "shortdescription" : "Climbing Axe",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "humantier5axe.png",

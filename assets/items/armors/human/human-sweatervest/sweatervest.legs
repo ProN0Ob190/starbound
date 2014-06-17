@@ -7,7 +7,7 @@
   "rarity" : "Common",
   "description" : "They're business casual.",
   "shortdescription" : "Work Pants",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

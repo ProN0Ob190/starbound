@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "The shaman's skirt is deceptively strong and wonderfully flexible.",
   "shortdescription" : "Shaman's Skirt",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

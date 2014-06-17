@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A comfortable (yet protective) aegisalt helm.",
   "shortdescription" : "Toucan Helm",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

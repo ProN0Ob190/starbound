@@ -1,5 +1,7 @@
 {
   "name" : "blaststonecorelayer",
+  "friendlyName" : "Blaststone Core Layer",
+  "requiredStatuses" : [ "beamaxe" ],
 
   "undergroundParallax" : "/biomes/underground/generic/desert.undergroundparallax",
 

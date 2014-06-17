@@ -1,0 +1,19 @@
+{
+  "projectileName" : "stingergunsting",
+  "frames" : "stingergunsting.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "power" : 4.5,
+  "damageKind" : "default",
+  "statusEffects" : [
+    { "kind" : "testpoison" }
+	]
+}

@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "It's said the sun itself could not stand between a cannibal and his meal.",
   "shortdescription" : "Cannibal's Pants",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pantsm.png",
   "femaleFrames" : "pantsf.png",

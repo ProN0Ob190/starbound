@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Annoyance of the Gods. A serrated sword with a few hidden surprises.",
   "shortdescription" : "Annoyance of the Gods",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "humantier10shortsword.png",

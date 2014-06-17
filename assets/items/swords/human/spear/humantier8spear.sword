@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Headspiker. A swift, adaptable spear.",
   "shortdescription" : "Headspiker",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "humantier8spear.png",

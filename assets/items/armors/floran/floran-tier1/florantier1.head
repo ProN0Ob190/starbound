@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Iron armour usually lifted from the (often severed) head of fallen floran that failed to reach adulthood.",
   "shortdescription" : "Sprout's Circlet",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

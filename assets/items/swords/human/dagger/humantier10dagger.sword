@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "King's Ruin. A gilded dagger fit for a King (to be stabbed with).",
   "shortdescription" : "King's Ruin",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "humantier10dagger.png",

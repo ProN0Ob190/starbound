@@ -6,7 +6,7 @@
   "rarity" : "Uncommon",
   "description" : "Pickaxes are so last millennium!",
   "shortdescription" : "Pickaxe",
-  "inspectionKind" : "tool",
+  "tooltipKind" : "tool",
   "largeImage" : "stonepickaxebig.png",
   "image" : "pickaxe.png",
   "handPosition" : [-1, -5],

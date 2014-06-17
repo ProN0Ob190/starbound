@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Rootkit Lite. A sword that'll cut through almost anything.",
   "shortdescription" : "Rootkit Lite",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "glitchtier10shortsword.png",

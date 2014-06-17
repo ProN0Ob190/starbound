@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "The templars are a mysterious order some say secretly run glitch society.",
   "shortdescription" : "Templar's Greaves",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

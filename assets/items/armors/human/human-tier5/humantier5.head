@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "This aegisalt helm is usually worn by the vanguard, the human armoured forces.",
   "shortdescription" : "Vanguard's Helm",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

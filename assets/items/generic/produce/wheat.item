@@ -3,5 +3,6 @@
   "rarity" : "Common",
   "inventoryIcon" : "wheat.png",
   "description" : "Essential for making bread.",
-  "shortdescription" : "Wheat"
+  "shortdescription" : "Wheat",
+  "triggerKeys" : [ "learn2farm" ]
 }

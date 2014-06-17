@@ -1,0 +1,18 @@
+{
+  "name" : "mightyRoarAttack",
+  "label" : "MIGHTY ROAR",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "mightyRoarAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "roar",
+      "range" : 5,
+      "speed" : 0.01,
+      "power" : 10,
+      "shots" : 1,
+      "winddownTime" : 0.6,
+      "fireSound" : "turnHostileNoise"
+    }
+  }
+}

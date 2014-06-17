@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "The multiple layers of this upper body armour are seperate only with compact layers of Ferozium.",
   "shortdescription" : "Spy's Jacket",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chest.png",

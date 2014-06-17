@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "The Early Bird. A decorated, basic spear.",
   "shortdescription" : "The Early Bird",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "aviantier2spear.png",

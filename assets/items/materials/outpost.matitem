@@ -1,0 +1,12 @@
+{
+  "itemName" : "outpost",
+  "rarity" : "Common",
+  "inventoryIcon" : "outposthorizontal.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Outpost Wall",
+  "description" : "A wall of a space outpost.",
+  "glitchdescription" : "Statement. A pipe.",
+  "florandescription" : "Sssssmelly pipe.",
+
+  "materialId" : 266
+}

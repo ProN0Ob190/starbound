@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Masters of infiltration, a river shinobi builds his titanium chestpiece for swiftness.",
   "shortdescription" : "River Breastplate",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

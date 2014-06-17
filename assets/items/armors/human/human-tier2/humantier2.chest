@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A strong, light steel chestguard.",
   "shortdescription" : "Scout's Chestguard",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

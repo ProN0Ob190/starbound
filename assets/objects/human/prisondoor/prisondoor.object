@@ -1,7 +1,6 @@
 {
   "objectName" : "prisondoor",
   "rarity" : "Common",
-  "objectType" : "wire",
 
   "category" : "door",
   "price" : 600,

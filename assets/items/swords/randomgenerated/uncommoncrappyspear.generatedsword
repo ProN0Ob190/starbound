@@ -3,14 +3,14 @@
   "rarity" : "uncommon",
   "baseDps" : [2.5, 3.5],
   "rateOfSwing" : [0.7, 2.4],
-  "multiplier" : 0.3,
+  "multiplier" : 0.35,
   "firePosition" : [32.5, -8.5],
   "fireAfterWindup" : true,
   "bladeBehindHandle" : false,
   "muzzleFlashes" : [ ],
   "soundEffect" : [ "/sfx/melee/swing_spear.wav" ],
   "kind" : "crappyspear",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
 
   "primaryStances" : {
     "directional" : true,

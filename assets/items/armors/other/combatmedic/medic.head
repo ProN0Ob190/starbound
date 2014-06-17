@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "A combat medic's helmet.",
   "shortdescription" : "Combat Medic Helmet",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

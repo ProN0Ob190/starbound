@@ -1,5 +1,5 @@
 {
-  "script" : "morphball.lua",
+  "scripts" : ["morphball.lua"],
   "actions" : [ "morphballActivate", "morphballDeactivate", "morphballBomb" ],
   "animator" : "morphball.animation",
 

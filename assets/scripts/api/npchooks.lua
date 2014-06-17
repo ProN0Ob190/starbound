@@ -34,7 +34,6 @@ function damage(args) end
 --    "OpenStreamingVideoInterface"
 --    "PlayCinematic"
 --    "OpenSongbookInterface"
---    "OpenNpcInterface"
 --    "OpenNpcCraftingInterface"
 --    "OpenTech3DPrinterDialog"
 --    "ShowPopup"

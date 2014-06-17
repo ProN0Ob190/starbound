@@ -14,6 +14,5 @@
     }
   ],
   "power" : 5.0,
-  "level" : 3,
   "damageKind" : "default"
 }

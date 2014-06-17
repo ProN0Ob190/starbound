@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Perfect for use on the Holodeck.",
   "shortdescription" : "Space Uniform Trousers",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

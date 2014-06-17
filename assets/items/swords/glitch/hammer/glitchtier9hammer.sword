@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Chromedome. A smooth, lethal hammer.",
   "shortdescription" : "Chromedome",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "glitchtier9hammer.png",

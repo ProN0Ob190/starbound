@@ -1,6 +1,8 @@
 {
   "name" : "tarpit",
+  "friendlyName" : "Tarpit",
   "caveLiquidType" : "tarliquid",
+  "requiredStatuses" : [ "beamaxe" ],
 
   "mainBlock" : "tar",
   "subBlocks" : [ "wetdirt" ],

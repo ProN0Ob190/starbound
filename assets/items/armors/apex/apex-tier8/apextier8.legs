@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "These Violium boots are made for walking - all over the wearer's enemies, that is.",
   "shortdescription" : "Frontliner's Greaves",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

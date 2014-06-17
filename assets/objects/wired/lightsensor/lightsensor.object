@@ -1,6 +1,5 @@
 {
   "objectName" : "lightsensor",
-  "objectType" : "wire",
   "rarity" : "Common",
   "category" : "light",
   "printable" : false,

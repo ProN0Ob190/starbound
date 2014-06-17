@@ -171,7 +171,8 @@
         "pool" : [
 
 
-          [0.030, [ "generatedshield", 1, { "definition" : "tier1shield" } ] ],
+          [0.015, [ "generatedshield", 1, { "definition" : "tier1shield" } ] ],
+          [0.015, [ "generatedshield", 1, { "definition" : "tier1woodshield" } ] ],
 
           [0.005, [ "generatedsword", 1, { "definition" : "uncommoncrappybroadsword" } ] ],
           [0.005, [ "generatedsword", 1, { "definition" : "uncommoncrappyaxe" } ] ],
@@ -293,7 +294,8 @@
           [0.015, [ "generatedsword", 1, { "definition" : "uncommoncrappyaxe" } ] ],
           [0.015, [ "generatedsword", 1, { "definition" : "uncommoncrappyspear" } ] ],
           [0.015, [ "generatedsword", 1, { "definition" : "uncommoncrappyhammer" } ] ],
-          [0.015, [ "generatedshield", 1, { "definition" : "tier1shield" } ] ],
+          [0.0075, [ "generatedshield", 1, { "definition" : "tier1shield" } ] ],
+          [0.0075, [ "generatedshield", 1, { "definition" : "tier1woodshield" } ] ],
           [0.01, [ "buccaneerlegs", 1] ],
           [0.01, [ "buccaneerchest", 1] ],
           [0.01, [ "buccaneerhead", 1] ],
@@ -421,7 +423,8 @@
           [0.015, [ "generatedsword", 1, { "definition" : "tier2dagger" } ] ],
           [0.015, [ "generatedsword", 1, { "definition" : "tier2hammer" } ] ],
           [0.015, [ "generatedsword", 1, { "definition" : "tier2shortsword" } ] ],
-          [0.015, [ "generatedshield", 1, { "definition" : "tier1shield" } ] ],
+          [0.0075, [ "generatedshield", 1, { "definition" : "tier1shield" } ] ],
+          [0.0075, [ "generatedshield", 1, { "definition" : "tier1woodshield" } ] ],
           [0.15, [ "pirateback", 1] ],
           [0.55, [ "piratehead", 1] ],
           [0.15, [ "piratelegs", 1] ],

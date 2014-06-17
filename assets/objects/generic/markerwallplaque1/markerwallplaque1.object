@@ -1,0 +1,30 @@
+{
+  "objectName" : "markerwallplaque1",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 300,
+
+  "description" : "Simple, but elegant. Plaques like this bring some real class to a place.",
+  "shortdescription" : "Iron Plaque",
+  "race" : "apex",
+
+  "apexDescription" : "I can use this marker to finally identify something as my own.",
+  "avianDescription" : "A handy marker to tell people this is mine.",
+  "floranDescription" : "Floran plant marker to sssay keep out!",
+  "glitchDescription" : "Statement. A handy plaque to signify ownership.",
+  "humanDescription" : "With this, my house can become a home.",
+  "hylotlDescription" : "Hylotl dwellings are unique as it is, but this plaque will seal the deal.",
+
+  "inventoryIcon" : "markerwallplaque1icon.png",
+  "orientations" : [
+    {
+      "image" : "markerwallplaque1.png:<color>",
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

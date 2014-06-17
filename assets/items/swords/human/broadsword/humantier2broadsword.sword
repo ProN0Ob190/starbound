@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Cool Broadsword. A regular broadsword modified to look cooler.",
   "shortdescription" : "Cool Broadsword",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "humantier2broadsword.png",

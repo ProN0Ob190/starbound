@@ -6,6 +6,7 @@
   "shortdescription" : "Chili Seed",
   "objectType" : "farmable",
   "printable" : false,
+  "price" : 131,
 
   "apexDescription" : "Painting chilis yellow is a popular prank amongst young Apex. If caught, many wouldn't survive to do it again.",
   "avianDescription" : "Spicy plant. Exotic.",
@@ -65,12 +66,12 @@
   },
   "growing" : {
     "0" : {
-      "duration" : [2820, 2940],
+      "duration" : [525, 525],
       "success" : 1,
       "failure" : 3
     },
     "1" : {
-      "duration" : [2820, 2940],
+      "duration" : [525, 525],
       "success" : 2,
       "failure" : 3
     }

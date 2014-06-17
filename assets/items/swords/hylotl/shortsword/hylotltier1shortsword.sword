@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Swashbuckler Lite. A simple pirate sword.",
   "shortdescription" : "Swashbuckler Lite",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "hylotltier1shortsword.png",

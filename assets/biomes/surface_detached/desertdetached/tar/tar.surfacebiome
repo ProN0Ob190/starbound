@@ -1,5 +1,6 @@
 {
   "name" : "tar",
+  "friendlyName" : "Tar",
   "caveLiquidType" : "tarliquid",
 
   "surfaceParameters" : {
@@ -89,5 +90,3 @@
     }
   }
 }
-
-

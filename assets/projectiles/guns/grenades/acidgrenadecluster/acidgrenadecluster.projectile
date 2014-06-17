@@ -2,7 +2,6 @@
   "projectileName" : "acidgrenadecluster",
   "frames" : "acidgrenadecluster.png",
   "animationCycle" : 0.5,
-  "level" : 3,
   "frameNumber" : 1,
   "damageKindImage" : "icon.png",
   "physics" : "floatystickybomb",

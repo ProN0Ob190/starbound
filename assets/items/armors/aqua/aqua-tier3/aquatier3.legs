@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Masters of sabotage, a river shinobi builds his titanium leggings for noiselessness. ",
   "shortdescription" : "River Leggings",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

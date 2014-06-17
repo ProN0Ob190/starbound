@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Typical Avian worker pants.",
   "shortdescription" : "Avian Worker Pants",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

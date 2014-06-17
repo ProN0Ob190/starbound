@@ -29,10 +29,10 @@
     "value" : "Swing Speed:"
   },
   "speedLabel" : {
-    "type" : "wraplabel",
+    "type" : "label",
     "position" : [130, 53],
     "hAnchor" : "right",
-    "width" : 126
+    "wrapWidth" : 126
   },
   "damagePerShotTitleLabel" : {
     "type" : "label",
@@ -41,31 +41,31 @@
     "value" : "Damage Per Swing:"
   },
   "damagePerShotLabel" : {
-    "type" : "wraplabel",
+    "type" : "label",
     "position" : [130, 44],
     "hAnchor" : "right",
-    "width" : 126
+    "wrapWidth" : 126
   },
   "handednessLabel" : {
-    "type" : "wraplabel",
+    "type" : "label",
     "position" : [90, 128],
     "hAnchor" : "right",
     "centered" : true,
-    "width" : 126
+    "wrapWidth" : 126
   },
   "dpsLabel" : {
-    "type" : "wraplabel",
+    "type" : "label",
     "position" : [130, 62],
     "hAnchor" : "right",
     "centered" : true,
-    "width" : 126
+    "wrapWidth" : 126
   },
   "rarityLabel" : {
-    "type" : "wraplabel",
+    "type" : "label",
     "position" : [7, 23],
     "hAnchor" : "left",
     "centered" : true,
-    "width" : 126
+    "wrapWidth" : 126
   },
   "damageKindImage" : {
     "type" : "image",

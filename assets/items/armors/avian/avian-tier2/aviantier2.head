@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A steel visor fashioned to block the wearer's view of the stars.",
   "shortdescription" : "Sparrow Helm",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

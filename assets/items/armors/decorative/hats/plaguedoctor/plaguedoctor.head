@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "An old Plague Doctor Mask. Wear it and creep out your friends!",
   "shortdescription" : "Plague Doctor Mask",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "The Slashening. A sword made of thorny vines.",
   "shortdescription" : "The Slashening",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "florantier10broadsword.png",

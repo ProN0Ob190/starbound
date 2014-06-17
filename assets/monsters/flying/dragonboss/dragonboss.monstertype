@@ -6,7 +6,6 @@
 
 
   "animation" : "dragonboss.animation",
-  "projectiles" : "/monsters/projectiles.config",
   "colors" : "/monsters/colors.config",
   "reversed" : true,
 
@@ -24,8 +23,6 @@
       "/scripts/stateMachine.lua",
       "/scripts/vec2.lua"
     ],
-
-    "scriptDelta" : 5,
 
     "metaBoundBox" : [-12.5, -12.5, 12.5, 12.5],
     "scale" : 1.0,
@@ -64,7 +61,7 @@
     "knockoutTime" : 1,
     "knockoutEffect" : "blink",
     "deathParticles" : "deathPoof",
-    "deathNoise" : [ "/sfx/projectiles/bubble_pop.wav" ],
+    "deathNoise" : [ "/sfx/npc/enemydeathpuff.wav" ],
     "turnHostileNoise" : [ ],
 
     "touchDamage" : {
@@ -95,15 +92,20 @@
         "attackMaxDistance" : 100.0,
         "attackCooldownTime" : 1.5,
         "scripts" : [
+          "/monsters/flying/skills/createFlyingRangedAttack.lua",
           "/monsters/flying/circleState.lua",
           "/monsters/flying/wanderState.lua",
           "/monsters/flying/glideState.lua",
           "/monsters/flying/landState.lua"
         ],
 
-        "wanderLiftSpeed" : 0.2,
+        "wanderRiseSpeed" : 0.9,
+        "wanderRiseTimeRange" : [0.5, 2.0],
+        "wanderGlideSpeed" : 0.6,
+        "wanderGlideTimeRange" : [1.0, 4.0],
         "wanderFormationOffset" : 2.0,
         "wanderSpeedMultiplier" : 0.4,
+        "wanderEndChance" : 0.2,
 
         "circleWidthRange" : [8.0, 25.0],
         "circleHeight" : 10,

@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Moonkiller. A sword so strong it could cut the moon in half.",
   "shortdescription" : "Moonkiller",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "humantier9broadsword.png",

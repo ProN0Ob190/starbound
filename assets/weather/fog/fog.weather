@@ -1,5 +1,6 @@
 {
   "name" : "fog",
+  "icon" : "/interface/cockpit/weather/fog.png",
 
   "projectiles" : [
     {

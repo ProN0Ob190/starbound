@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Haunt your friends and enemies with this demonic goat skull mask!",
   "shortdescription" : "Goat Skull Mask",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

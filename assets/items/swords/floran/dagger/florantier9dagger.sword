@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Razorleaf. A dagger hidden behind a leaf.",
   "shortdescription" : "Razorleaf",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "florantier9dagger.png",

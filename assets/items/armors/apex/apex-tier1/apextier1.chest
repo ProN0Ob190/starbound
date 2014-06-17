@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A cheap military-grade Chestguard which protects the most vital organs.",
   "shortdescription" : "Defector's Chestguard",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

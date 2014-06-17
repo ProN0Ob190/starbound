@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "The bodacity of that boxman...it was bodacious!",
   "shortdescription" : "The Boxman's Bodacity",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

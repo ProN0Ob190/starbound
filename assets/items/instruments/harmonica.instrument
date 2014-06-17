@@ -8,7 +8,7 @@
   "shortdescription" : "Harmonica",
   "largeImage" : "harmonica.png",
   "image" : "harmonica.png",
-  "inspectionKind" : "tool",
+  "tooltipKind" : "tool",
   "activeImage" : "harmonica.png",
   "activeAngle" : 15,
   "activeHandPosition" : [-0.4, 0.25],

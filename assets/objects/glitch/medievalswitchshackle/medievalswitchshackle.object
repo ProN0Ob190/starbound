@@ -1,7 +1,6 @@
 {
   "objectName" : "medievalswitchshackle",
   "rarity" : "Common",
-  "objectType" : "wire",
   "description" : "One of these shackles looks suspicious...",
   "shortdescription" : "Wall Shackles",
   "race" : "glitch",

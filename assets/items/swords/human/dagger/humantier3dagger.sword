@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Swanky Shanker. A posh, jewel-encrusted basic dagger.",
   "shortdescription" : "Swanky Shanker",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "humantier3dagger.png",

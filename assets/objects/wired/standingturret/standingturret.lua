@@ -213,7 +213,7 @@ function dotProduct(firstVector, secondVector)
 end
 
 function predictedPosition(targetPosition, basePosition, targetVel, bulletSpeed)
-  local targetVector = vec2.sub(vec2.dup(targetPosition), basePosition)
+  local targetVector = vec2.sub(targetPosition, basePosition)
   local bs = bulletSpeed
   local dotVectorVel = dotProduct(targetVector, targetVel)
   local vector2 = dotProduct(targetVector, targetVector)
@@ -234,7 +234,7 @@ function predictedPosition(targetPosition, basePosition, targetVel, bulletSpeed)
   if timesToHit[1] > 0 and (timesToHit[2] <= timesToHit[1] or timesToHit[2] < 0) then timeToHit = timesToHit[1] end
   if timesToHit[2] > 0 and (timesToHit[2] <= timesToHit[1] or timesToHit[1] < 0) then timeToHit = timesToHit[2] end
   
-  local predictedPos = vec2.add(vec2.dup(targetPosition), vec2.mul(targetVel, timeToHit))
+  local predictedPos = vec2.add(targetPosition, vec2.mul(targetVel, timeToHit))
   return predictedPos
 end
 
@@ -413,7 +413,7 @@ function attackState.update(dt, stateData)
     local maxTrackingYVel = entity.configParameter("maxTrackingYVel")
     
     --Make it follow the target's predicted position
-    local deltaPos = vec2.sub(vec2.dup(targetPosition), stateData.lastPosition)
+    local deltaPos = vec2.sub(targetPosition, stateData.lastPosition)
     local targetVel = vec2.div(deltaPos, dt)
     targetVel[2] = math.max(math.min(targetVel[2], maxTrackingYVel), -maxTrackingYVel) --Keeps the turret from going nuts when a target jumps, motion prediction is mostly for the x axis anyway
     stateData.lastPosition = targetPosition

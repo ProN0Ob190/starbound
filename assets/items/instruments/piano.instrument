@@ -8,7 +8,7 @@
   "shortdescription" : "Piano",
   "largeImage" : "keytar.png",
   "image" : "keytar.png",
-  "inspectionKind" : "tool",
+  "tooltipKind" : "tool",
   "activeImage" : "keytar.png",
   "activeAngle" : 0,
   "activeHandPosition" : [0.5, 0],

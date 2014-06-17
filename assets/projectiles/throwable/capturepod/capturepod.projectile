@@ -2,7 +2,6 @@
   "projectileName" : "capturepod",
   "frames" : "capturepod.png",
   "animationCycle" : 0.05,
-  "level" : 3,
   "physics" : "grenadezbomb",
   "frameNumber" : 4,
   "pointLight" : false,

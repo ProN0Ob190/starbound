@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "The Hatchling. A regular, basic spear.",
   "shortdescription" : "The Hatchling",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "testspear.png",
@@ -14,6 +14,8 @@
   "fireTime" : 0.8,
   "fireAfterWindup" : true,
   "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_spear.wav" } ] },
+
+  "stopWhileFiring" : true,
 
   "colorOptions" : [
     /* GREY */

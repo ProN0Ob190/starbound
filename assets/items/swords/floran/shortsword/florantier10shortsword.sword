@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "The Cuttening. A sword made of thorny vines.",
   "shortdescription" : "The Cuttening",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "florantier10shortsword.png",

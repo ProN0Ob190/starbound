@@ -1,5 +1,6 @@
 {
   "name" : "geometric",
+  "friendlyName" : "Geometric",
 
   "surfaceParameters" : {
     "mainBlock" : "snow",

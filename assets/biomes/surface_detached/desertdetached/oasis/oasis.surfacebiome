@@ -1,5 +1,6 @@
 {
   "name" : "oasis",
+  "friendlyName" : "Oasis",
 
   "surfaceParameters" : {
     "mainBlock" : "sand2",
@@ -65,5 +66,3 @@
     }
   }
 }
-
-

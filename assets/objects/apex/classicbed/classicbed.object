@@ -16,7 +16,6 @@
 
   "objectType" : "loungeable",
   "sitFlipDirection" : true,
-  "sitPosition" : [-6, 14.5],
   "sitOrientation" : "lay",
   "sitAngle" : 90,
   "sitCoverImage" : "/objects/apex/classicbed/classicbedcover.png",
@@ -30,10 +29,25 @@
   "inventoryIcon" : "classicbedicon.png",
   "orientations" : [
     {
-      "dualImage" : "classicbed.png:<color>",
+      "image" : "classicbed.png:<color>",
       "imagePosition" : [-24, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
+	  "flipImages" : true,
+	  "direction" : "left",
+	  "sitPosition" : [-7, 14.5],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+	{
+      "image" : "classicbed.png:<color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+	  "direction" : "right",
+	  "sitPosition" : [-7, 14.5],
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]

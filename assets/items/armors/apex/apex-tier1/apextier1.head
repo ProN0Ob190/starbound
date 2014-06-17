@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A mass-produced iron mask that somewhat disguises the wearer's identity.",
   "shortdescription" : "Defector's Mask",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

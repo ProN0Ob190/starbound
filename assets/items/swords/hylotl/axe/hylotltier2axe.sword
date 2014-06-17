@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Golden Scythe. A scythe trimmed with gold.",
   "shortdescription" : "Golden Scythe",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "hylotltier2axe.png",

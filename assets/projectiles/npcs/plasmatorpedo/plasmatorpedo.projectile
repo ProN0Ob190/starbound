@@ -2,7 +2,6 @@
   "projectileName" : "plasmatorpedo",
   "frames" : "plasmatorpedo.png",
   "animationCycle" : 0.3,
-  "level" : 3,
   "lightColor" : [2, 28, 93],
   "frameNumber" : 2,
   "damageKindImage" : "icon.png",
@@ -10,7 +9,7 @@
   "actionOnReap" : [
     {
       "action" : "config",
-      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+      "file" : "/projectiles/explosions/pulsecannonexplosion/pulsecannonexplosion.config"
     }
   ],
   "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],

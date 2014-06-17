@@ -6,6 +6,7 @@
   "shortdescription" : "Avesmingo Seed",
   "objectType" : "farmable",
   "printable" : false,
+  "price" : 1430,
 
   "apexDescription" : "They say this has a hundred different flavours. Is banana one of them?",
   "avianDescription" : "A plant so full of flavour. Even the seed is especially tasty.",
@@ -65,12 +66,12 @@
   },
   "growing" : {
     "0" : {
-      "duration" : [2820, 2940],
+      "duration" : [1590, 1590],
       "success" : 1,
       "failure" : 3
     },
     "1" : {
-      "duration" : [2820, 2940],
+      "duration" : [1590, 1590],
       "success" : 2,
       "failure" : 3
     }

@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Steel-plated leg armour that doesn't restrict the movement of the wearer.",
   "shortdescription" : "Rebel's Pants",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

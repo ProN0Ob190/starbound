@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A giant berry you can wear. Not to be confused with a beret.",
   "shortdescription" : "Berry Hat",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

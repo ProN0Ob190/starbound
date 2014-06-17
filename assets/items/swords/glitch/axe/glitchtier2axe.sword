@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Steelsplitter. A steel axe.",
   "shortdescription" : "Steelsplitter",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "glitchtier2axe.png",

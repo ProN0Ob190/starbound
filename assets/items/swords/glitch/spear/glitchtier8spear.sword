@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "The Blocker. An exceptionally strong spear.",
   "shortdescription" : "The Blocker",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "glitchtier8spear.png",

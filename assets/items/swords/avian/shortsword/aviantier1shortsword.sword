@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "The Carver. A sword perfect for carving meat.",
   "shortdescription" : "The Carver",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "aviantier1shortsword.png",

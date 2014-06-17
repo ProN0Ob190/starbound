@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "The doom lords are known to most glitch as a fairytale, but this helm is very real.",
   "shortdescription" : "Doom Lord's Helm",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

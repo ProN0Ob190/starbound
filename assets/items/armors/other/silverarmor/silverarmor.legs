@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Silver greaves. For the shiny.",
   "shortdescription" : "Silver Greaves",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

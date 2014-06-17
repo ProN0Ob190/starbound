@@ -1,5 +1,6 @@
 {
   "name" : "groundmist",
+  "icon" : "/interface/cockpit/weather/groundmist.png",
 
   "projectiles" : [
     {

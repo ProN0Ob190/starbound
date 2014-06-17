@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Smitanium. A titanium axe.",
   "shortdescription" : "Smitanium",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "glitchtier3axe.png",

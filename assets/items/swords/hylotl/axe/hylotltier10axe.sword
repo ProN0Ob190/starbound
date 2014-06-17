@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Vinehacker. An axe that'll take down the toughest Floran.",
   "shortdescription" : "Vinehacker",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "hylotltier10axe.png",

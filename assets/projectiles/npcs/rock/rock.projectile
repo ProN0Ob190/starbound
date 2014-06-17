@@ -2,7 +2,6 @@
   "projectileName" : "rock",
   "physics" : "fireball",
   "bounces" : 1,
-  "level" : 3,
   "timeToLive" : 3,
   "frames" : "rock.png",
   "damageKindImage" : "icon.png",

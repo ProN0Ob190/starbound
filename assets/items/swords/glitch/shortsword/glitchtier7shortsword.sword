@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Datablip. A spiked blade.",
   "shortdescription" : "Datablip",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "glitchtier7shortsword.png",

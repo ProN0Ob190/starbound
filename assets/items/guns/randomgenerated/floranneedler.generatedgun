@@ -2,7 +2,7 @@
   "name" : "floranneedler",
   "maxStack" : 1,
   "rarity" : "common",
-  "inspectionKind" : "gun",
+  "tooltipKind" : "gun",
   "handPosition" : [3, 3],
   "firePosition" : [-2, 8],
   "weaponType" : "Floran Needler",

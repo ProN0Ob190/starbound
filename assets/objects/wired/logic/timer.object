@@ -1,9 +1,8 @@
 {
   "objectName" : "timer",
   "rarity" : "Common",
-  "objectType" : "wire",
   "description" : "<A timer. For when you need time to get away.>",
-  "shortdescription" : "Timer",
+  "shortdescription" : "Timer (Half Second)",
   "race" : "human",
 
   "category" : "wire",

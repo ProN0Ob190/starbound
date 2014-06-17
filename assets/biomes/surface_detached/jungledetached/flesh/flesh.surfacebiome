@@ -1,5 +1,7 @@
 {
   "name" : "flesh",
+  "friendlyName" : "Flesh",
+  "requiredStatuses" : [ "beamaxe" ],
 
   "hueShiftOptions" : [0],
 

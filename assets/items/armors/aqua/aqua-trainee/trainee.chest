@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A trainee shirt used to practice combat.",
   "shortdescription" : "Trainee Shirt",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

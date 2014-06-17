@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Backstabber. A large spear perfect for stabbing.",
   "shortdescription" : "Backstabber",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "humantier7spear.png",

@@ -1,7 +1,6 @@
 {
   "objectName" : "spawnerfloran",
   "rarity" : "Common",
-  "objectType" : "wire",
   "description" : "Spawn your very own Floran villager!",
   "shortdescription" : "Floran Spawner",
   "race" : "human",

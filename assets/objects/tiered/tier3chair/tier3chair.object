@@ -25,13 +25,14 @@
       "animationCycle" : 1.0,
 
       "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+      "anchors" : [ "bottom" ],
 
+      "direction" : "right"
     }
   ],
 
   "objectType" : "loungeable",
-  "sitFlipDirection" : true,
+  "sitFlipDirection" : false,
   "sitPosition" : [6, 22]
 
 }

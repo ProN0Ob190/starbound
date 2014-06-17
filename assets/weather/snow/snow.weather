@@ -1,5 +1,6 @@
 {
   "name" : "snow",
+  "icon" : "/interface/cockpit/weather/snow.png",
 
   "particles" : [
     {

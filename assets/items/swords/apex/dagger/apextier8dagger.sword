@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Miniknog's Claw. A small, curved dagger.",
   "shortdescription" : "Miniknog's Claw",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "apextier8dagger.png",

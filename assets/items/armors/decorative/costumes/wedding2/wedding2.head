@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Made from the finest silk a partner could buy.",
   "shortdescription" : "A Wedding Veil",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

@@ -2,7 +2,7 @@
   "name" : "rareplasmamachinepistol",
   "maxStack" : 1,
   "rarity" : "rare",
-  "inspectionKind" : "gun",
+  "tooltipKind" : "gun",
   "handPosition" : [5, 2],
   "firePosition" : [-1, 10.5],
   "baseDps" : [6, 6.5],

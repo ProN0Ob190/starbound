@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Slicestabcut. For slicing, stabbing and cutting.",
   "shortdescription" : "Slicestabcut",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "florantier3shortsword.png",

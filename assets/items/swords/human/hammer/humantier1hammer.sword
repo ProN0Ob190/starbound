@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Sledgehammer. A regular sledgehammer.",
   "shortdescription" : "Sledgehammer",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "humantier1hammer.png",

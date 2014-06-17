@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Trunkcutter. A sword perfect for slaying Florans.",
   "shortdescription" : "Trunkcutter",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "hylotltier10broadsword.png",

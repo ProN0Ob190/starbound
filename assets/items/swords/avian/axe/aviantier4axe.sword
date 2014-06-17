@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Dove of War. A dove-shaped war axe.",
   "shortdescription" : "Dove of War",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "aviantier4axe.png",

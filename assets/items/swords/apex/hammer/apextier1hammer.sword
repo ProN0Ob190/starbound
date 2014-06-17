@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Thunderpunch. A basic warhammer.",
   "shortdescription" : "Thunderpunch",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "apextier1hammer.png",

@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Gaudy yet hard as nails, this Ferozium headwear defends against all manner of dangers.",
   "shortdescription" : "Macaw Headdress",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

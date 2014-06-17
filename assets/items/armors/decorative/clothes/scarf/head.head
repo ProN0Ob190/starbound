@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "A warm winter scarf, mmmm cozy.",
   "shortdescription" : "Winter Scarf",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

@@ -2,7 +2,6 @@
   "projectileName" : "bouldersmashexplosion",
   "frames" : "bouldersmashexplosion.png",
   "animationCycle" : 0.2,
-  "level" : 3,
   "frameNumber" : 4,
   "speed" : 0,
   "fallSpeed" : 0,

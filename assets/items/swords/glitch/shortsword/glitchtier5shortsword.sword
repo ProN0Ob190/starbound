@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Protector. A great defensive shortsword.",
   "shortdescription" : "Protector",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "glitchtier5shortsword.png",

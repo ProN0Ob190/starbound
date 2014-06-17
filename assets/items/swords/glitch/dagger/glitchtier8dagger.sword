@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "KitKut. A strong, durable dagger.",
   "shortdescription" : "KitKut",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "glitchtier8dagger.png",

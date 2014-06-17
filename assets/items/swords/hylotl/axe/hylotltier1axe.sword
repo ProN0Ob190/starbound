@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Scythe. A small scythe.",
   "shortdescription" : "Scythe",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "hylotltier1axe.png",

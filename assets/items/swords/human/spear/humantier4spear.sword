@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "The Rhino. A spear with a little horn on it.",
   "shortdescription" : "The Rhino",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "humantier4spear.png",

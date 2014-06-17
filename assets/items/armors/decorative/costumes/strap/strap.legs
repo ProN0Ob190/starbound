@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Heat inducing body straps. Feels like I'm wearing nothing at all!",
   "shortdescription" : "Strap Legs",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

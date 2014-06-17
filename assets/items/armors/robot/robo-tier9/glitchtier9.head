@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "The legionnaire's are the forward thinking elite knights of the empire. Their helms reflect the fashions of the future.",
   "shortdescription" : "Legionnaire's Helm",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

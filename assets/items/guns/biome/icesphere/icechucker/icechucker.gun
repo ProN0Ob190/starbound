@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "An Ice Chucker. A gun that fires ice. Freeze!",
   "shortdescription" : "Ice Chucker",
-  "inspectionKind" : "gun",
+  "tooltipKind" : "gun",
   "image" : "icechucker.png",
   "handPosition" : [-4, -3],
   "firePosition" : [-10, 2],

@@ -11,7 +11,6 @@
   ],
 
   "animation" : "tentaclecomet.animation",
-  "projectiles" : "/monsters/unique/tentaclecomet/projectiles.config",
   "colors" : "/monsters/colors.config",
   "reversed" : false,
 
@@ -25,8 +24,6 @@
       "/scripts/util.lua",
       "/scripts/vec2.lua"
     ],
-
-    "scriptDelta" : 5,
 
     "metaBoundBox" : [-6.0, -5.75, 6.0, 5.75],
     "scale" : 1.0,

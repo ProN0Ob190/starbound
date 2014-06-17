@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Birdseye. A sword that cuts through fur and feathers.",
   "shortdescription" : "Birdseye",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "aviantier6shortsword.png",

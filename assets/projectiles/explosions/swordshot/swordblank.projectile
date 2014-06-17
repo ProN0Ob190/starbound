@@ -2,7 +2,6 @@
   "projectileName" : "swordblank",
   "frames" : "swordblank.png",
   "animationCycle" : 0.2,
-  "level" : 3,
   "timeToLive" : 0.001,
   "frameNumber" : 1,
   "speed" : 0,

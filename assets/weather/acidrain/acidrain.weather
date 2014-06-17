@@ -1,5 +1,6 @@
 {
   "name" : "acidrain",
+  "icon" : "/interface/cockpit/weather/acidrain.png",
 
   "particles" : [
     {

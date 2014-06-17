@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Paddlemaster 5000. A hefty sword that packs even more of a punch.",
   "shortdescription" : "Paddlemaster 5000",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "humantier7broadsword.png",

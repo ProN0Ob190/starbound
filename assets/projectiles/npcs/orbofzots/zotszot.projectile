@@ -1,0 +1,11 @@
+{
+  "projectileName" : "zotszot",
+  "frames" : "zotszot.png",
+  "animationCycle" : 0.3,
+  "frameNumber" : 4,
+  "power" : 50,
+  "physics" : "laser",
+
+  "lightColor" : [255, 180, 0],
+  "damageKind" : "electroshock"
+}

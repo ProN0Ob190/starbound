@@ -1,6 +1,8 @@
 {
   "name" : "abandonedmines",
+  "friendlyName" : "Abandoned Mines",
   "caveLiquidType" : "tarliquid",
+  "requiredStatuses" : [ "beamaxe" ],
 
   "mainBlock" : "rock20",
   "subBlocks" : [ "dirt", "rock02" ],

@@ -1,6 +1,8 @@
 {
   "name" : "cellcave",
-  "caveLiquidType" : "acid",
+  "friendlyName" : "Cell Cave",
+  "caveLiquidType" : "water",
+  "requiredStatuses" : [ "beamaxe" ],
 
   "mainBlock" : "slime",
   "subBlocks" : [ "mud" ],
@@ -59,7 +61,7 @@
         "mode" : "floor",
         "priority" : 1.0,
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredLarge",
+        "distribution" : "/biomes/distributions.config:denseLarge",
 
         "type" : "object",
         "objectSets" : [

@@ -10,7 +10,7 @@ stompAttack = {
 }
 
 function stompAttack.enter()
-  if not canStartAttack() then return nil end
+  if not canStartSkill("stompAttack") then return nil end
   return { run = coroutine.wrap(stompAttack.run) }
 end
 
@@ -34,8 +34,7 @@ function stompAttack.run(stateData)
 
   entity.setRunning(true)
   entity.setAnimationState("movement", "jump")
-  entity.playSound(entity.randomizeParameter("attackNoise"))
-  entity.jump()
+  jump()
   coroutine.yield(false)
 
   local forceTimer = stompAttack.forceDelay

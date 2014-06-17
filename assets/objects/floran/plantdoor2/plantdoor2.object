@@ -1,7 +1,6 @@
 {
   "objectName" : "plantdoor2",
   "rarity" : "Common",
-  "objectType" : "wire",
 
   "category" : "door",
   "price" : 1000,

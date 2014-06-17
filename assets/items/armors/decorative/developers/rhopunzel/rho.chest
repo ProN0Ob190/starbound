@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "THE ONE, THE ONLY.",
   "shortdescription" : "Rho",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

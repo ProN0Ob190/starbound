@@ -6,6 +6,7 @@
   "shortdescription" : "Beakseed Seed",
   "objectType" : "farmable",
   "printable" : false,
+  "price" : 90,
 
   "apexDescription" : "The beakseed is unusually crunchy, and not entirely pleasant.",
   "avianDescription" : "There's an old urban legend about Avians eating beakseeds at a banquet...",
@@ -65,12 +66,12 @@
   },
   "growing" : {
     "0" : {
-      "duration" : [1380, 1500],
+      "duration" : [405, 405],
       "success" : 1,
       "failure" : 3
     },
     "1" : {
-      "duration" : [1380, 1500],
+      "duration" : [405, 405],
       "success" : 2,
       "failure" : 3
     }

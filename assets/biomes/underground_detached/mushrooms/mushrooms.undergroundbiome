@@ -1,5 +1,7 @@
 {
   "name" : "mushrooms",
+  "friendlyName" : "Mushrooms",
+  "requiredStatuses" : [ "beamaxe" ],
 
   "mainBlock" : "dirt",
   "subBlocks" : [ "rock15", "mud", "shroomblock" ],

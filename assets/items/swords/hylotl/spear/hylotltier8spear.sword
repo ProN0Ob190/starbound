@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Trident. A striking trident spear.",
   "shortdescription" : "Trident",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "hylotltier8spear.png",

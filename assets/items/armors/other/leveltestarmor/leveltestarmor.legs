@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Prototype Greaves Armour MKI. For the adventurous.",
   "shortdescription" : "Prototype Greaves Armour MKI",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
   "learnBlueprintsOnPickup" : [
     "silverarmorpants"
   ],

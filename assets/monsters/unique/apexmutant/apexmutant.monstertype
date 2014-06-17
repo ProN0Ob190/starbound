@@ -16,14 +16,11 @@
       "/scripts/util.lua",
       "/scripts/vec2.lua",
 
-      "/monsters/ground/aggressState.lua",
+      "/monsters/ground/approachState.lua",
+      "/monsters/ground/fleeState.lua",
       "/monsters/ground/knockoutState.lua",
-      "/monsters/ground/wanderState.lua",
-
-      "/monsters/ground/meleeAttack.lua"
+      "/monsters/ground/wanderState.lua"
     ],
-
-    "scriptDelta" : 5,
 
     "damageTeam" : 1,
 
@@ -33,7 +30,7 @@
     "attackStartDistance" : 3.5,
     "attackTime" : 0.75,
     "attackCooldownTime" : 0.5,
-    "skills" : [ "meleeAttack" ],
+    "skills" : [ "rushAttack" ],
 
     "aggressive" : true,
     "territoryDistance" : 10.0,

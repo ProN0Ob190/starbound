@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Banana Splitter. A dagger perfect for cutting bananas.",
   "shortdescription" : "Banana Splitter",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "apextier4dagger.png",

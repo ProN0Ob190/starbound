@@ -2,7 +2,6 @@
   "projectileName" : "energyjavelin",
   "physics" : "arrow",
   "frames" : "energyjavelin.png",
-  "level" : 15,
   "animationCycle" : 0.25,
   "frameNumber" : 1,
   "damageKindImage" : "icon.png",

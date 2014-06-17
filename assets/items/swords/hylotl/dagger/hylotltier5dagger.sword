@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Descaler. A sleek, handy dagger.",
   "shortdescription" : "Descaler",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "hylotltier5dagger.png",

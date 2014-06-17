@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Rosebud Prime. A treasured Floran sword.",
   "shortdescription" : "Rosebud Prime",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "florantier7broadsword.png",

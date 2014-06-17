@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "iAxe. The most expensive axe money can buy.",
   "shortdescription" : "iAxe",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "humantier10axe.png",

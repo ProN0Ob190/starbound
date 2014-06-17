@@ -1,7 +1,6 @@
 {
   "objectName" : "castleswitch",
   "rarity" : "Common",
-  "objectType" : "wire",
   "description" : "I'd hit that.",
   "shortdescription" : "Gem Switch",
   "race" : "glitch",

@@ -7,7 +7,7 @@
   "description" : "A flickering lantern. It lights up the area.",
   "shortdescription" : "Lantern",
   "largeImage" : "mininglanternbig.png",
-  "inspectionKind" : "tool",
+  "tooltipKind" : "tool",
   "pointable" : false,
   "image" : "mininglantern.png",
   "handPosition" : [-2, 0],

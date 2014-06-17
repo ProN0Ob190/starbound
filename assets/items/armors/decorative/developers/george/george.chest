@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "A sexy combination of an awesome jacket and a stylish green shirt made specifically for George. Be in awe!",
   "shortdescription" : "George's Chest Swag",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

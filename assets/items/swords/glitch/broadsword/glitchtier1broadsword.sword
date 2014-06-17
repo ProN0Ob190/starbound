@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Default 2.0. A basic Glitch broadsword.",
   "shortdescription" : "Default 2.0",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "glitchtier1broadsword.png",

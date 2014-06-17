@@ -2,7 +2,6 @@
   "projectileName" : "firefinish",
   "physics" : "firespread",
   "bounces" : -1,
-  "level" : 0,
   "timeToLive" : 7,
   "speed" : 15,
   "frames" : "firefinish.png",

@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "The Durasteel helm of the outrider is built for communication. This one doesn't work.",
   "shortdescription" : "Outrider's Helm",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

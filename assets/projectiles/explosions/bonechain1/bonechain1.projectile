@@ -2,7 +2,6 @@
   "projectileName" : "bonechain1",
   "frames" : "bonechain1.png",
   "animationCycle" : 0.2,
-  "level" : 3,
   "frameNumber" : 6,
   "speed" : 50,
   "fallSpeed" : 10,

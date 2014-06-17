@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Antispyware. A sword useful for taking out pests.",
   "shortdescription" : "Antispyware",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "glitchtier4shortsword.png",

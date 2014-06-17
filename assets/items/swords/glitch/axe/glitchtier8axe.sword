@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Perpetuum. An axe you can swing forever.",
   "shortdescription" : "Perpetuum",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "glitchtier8axe.png",

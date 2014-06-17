@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Given to every chef when they pass their chef exams.",
   "shortdescription" : "Chef Jacket",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

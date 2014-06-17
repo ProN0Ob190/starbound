@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Forged from pure impervium, this beautiful work of wearable art also protects against nearly anything thrown at it.",
   "shortdescription" : "Raven's Beak",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

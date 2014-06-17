@@ -1,0 +1,12 @@
+{
+  "itemName" : "outpostwall1",
+  "rarity" : "Common",
+  "inventoryIcon" : "outpostwall1.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A colourful wall panel.",
+  "shortdescription" : "Outpost Wall",
+  "glitchdescription" : "Statement. A wall panel.",
+  "florandescription" : "Walls!",
+
+  "materialId" : 190
+}

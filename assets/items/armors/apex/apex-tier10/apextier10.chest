@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "An Impervium laced jacket that offers far more protection than the average observer might suspect.",
   "shortdescription" : "Usurper's Coat",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chest.png",

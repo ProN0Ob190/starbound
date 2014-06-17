@@ -3,7 +3,14 @@ wanderState = {}
 
 function wanderState.enter()
   if hasTarget() then return nil end
-  return { wanderDirection = util.randomDirection() }
+
+  math.randomseed(os.time())
+
+  return {
+    wanderDirection = entity.facingDirection(),
+    phaseTimer = entity.randomizeParameterRange("wanderRiseTimeRange"),
+    rising = true
+  }
 end
 
 function wanderState.update(dt, stateData)
@@ -15,19 +22,47 @@ function wanderState.update(dt, stateData)
 
   local movement = { stateData.wanderDirection, 0 }
 
-  vec2.add(movement, wanderState.calculateSeparationMovement())
-
   if self.sensors.upSensors.collision.any(true) then
-    movement[2] = 1
+    movement[2] = entity.configParameter("wanderRiseSpeed")
   elseif self.sensors.downSensors.collision.any(true) then
-    movement[2] = -1
+    movement[2] = -entity.configParameter("wanderGlideSpeed")
+  elseif stateData.rising then
+    stateData.phaseTimer = stateData.phaseTimer - dt
+
+    entity.setAnimationState("movement", "flying")
+
+    if stateData.phaseTimer > 0 or self.sensors.groundSensors.collisionTrace[4].value then
+      movement[2] = entity.configParameter("wanderRiseSpeed")
+    else
+      --stop rising and glide
+      stateData.rising = false
+      stateData.phaseTimer = entity.randomizeParameterRange("wanderGlideTimeRange")
+    end
+  else --gliding
+    stateData.phaseTimer = stateData.phaseTimer - dt
+
+    if math.sin(stateData.phaseTimer * 2) > 0.4 then
+      entity.setAnimationState("movement", "flying")
+    else
+      entity.setAnimationState("movement", "gliding")
+    end
+
+    if stateData.phaseTimer > 0 and not self.sensors.groundSensors.collisionTrace[3].value then
+      movement[2] = -entity.configParameter("wanderGlideSpeed")
+    else
+      if math.random() <= entity.configParameter("wanderEndChance") then
+        entity.fly(movement, true)
+        return true, 0.5
+      else
+        stateData.rising = true
+        stateData.phaseTimer = entity.randomizeParameterRange("wanderRiseTimeRange")
+      end
+    end
   end
 
-  if self.sensors.groundSensors.collisionTrace[3] and movement[2] == 0 then
-    movement[2] = entity.configParameter("wanderLiftSpeed")
-  end
+  movement = vec2.add(movement, wanderState.calculateSeparationMovement())
+  movement = vec2.mul(movement, entity.flySpeed() * entity.configParameter("wanderSpeedMultiplier"))
 
-  vec2.mul(movement, entity.flySpeed() * entity.configParameter("wanderSpeedMultiplier"))
   entity.fly(movement, true)
   entity.setFacingDirection(movement[1])
 

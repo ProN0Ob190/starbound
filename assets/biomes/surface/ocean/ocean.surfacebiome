@@ -1,7 +1,9 @@
 {
   "name" : "ocean",
+  "friendlyName" : "Ocean",
   "caveLiquidType" : "water",
   "oceanLiquidType" : "ocean",
+  "requiredStatuses" : [ "beamaxe" ],
 
   "hueShiftOptions" : [-60, -45, 0, 45, 60],
   "skyOptions" : [
@@ -138,27 +140,13 @@
     },
 
     "weather" : [
-      [
-        [1, "rain" ]
-      ],
-      [
-        [1.0, "clear" ]
-      ],
-      [
-        [1.0, "clear" ]
-      ],
-      [
-        [1.0, "clear" ]
-      ],
-      [
-        [1.0, "clear" ]
-      ],
-      [
-        [1.0, "clear" ]
-      ],
-      [
-        [1.0, "clear" ]
-      ]
+      "/weather.config:alwaysRaining",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear"
     ],
 
     "parallax" : "ocean.parallax",

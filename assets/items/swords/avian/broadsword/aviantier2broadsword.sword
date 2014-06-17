@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "The Skewer XL. A sword that doubles as a spit.",
   "shortdescription" : "The Skewer XL",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "aviantier2broadsword.png",

@@ -4,7 +4,6 @@
   "description" : "It seems to scan eyeballs to match personnel data.",
   "shortdescription" : "USCM Eye Scanner",
   "race" : "human",
-  "objectType" : "wire",
   "category" : "wire",
   "price" : 300,
 

@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Berryskewer. A sword decorated with berries.",
   "shortdescription" : "Berryskewer",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "florantier8shortsword.png",

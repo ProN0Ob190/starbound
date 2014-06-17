@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Copper helmet. For the practical.",
   "shortdescription" : "Copper Helmet",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

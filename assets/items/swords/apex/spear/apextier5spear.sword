@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "The Tickler. An unpleasant, ridged spear.",
   "shortdescription" : "The Tickler",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "apextier5spear.png",

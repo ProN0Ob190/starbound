@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Crabcracker. A hammer designed to take down giant enemy crabs.",
   "shortdescription" : "Crabcracker",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "hylotltier9hammer.png",

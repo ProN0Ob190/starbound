@@ -1,5 +1,5 @@
 {
-  "script" : "dash.lua",
+  "scripts" : ["dash.lua"],
   "actions" : [ "dashRight", "dashLeft" ],
   "animator" : "dash.animation",
 

@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "Some hazmat pants.",
   "shortdescription" : "Hazmat Pants",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

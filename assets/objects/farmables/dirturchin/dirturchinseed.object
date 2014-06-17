@@ -6,6 +6,7 @@
   "shortdescription" : "Dirturchin Seed",
   "objectType" : "farmable",
   "printable" : false,
+  "price" : 262,
 
   "apexDescription" : "A cheap, easy, common vegetable.",
   "avianDescription" : "When there's nothing better to eat, dirturchins will do.",
@@ -65,12 +66,12 @@
   },
   "growing" : {
     "0" : {
-      "duration" : [300, 420],
+      "duration" : [1155, 1155],
       "success" : 1,
       "failure" : 3
     },
     "1" : {
-      "duration" : [300, 420],
+      "duration" : [1155, 1155],
       "success" : 2,
       "failure" : 3
     }

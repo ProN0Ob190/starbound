@@ -2,7 +2,6 @@
   "projectileName" : "nailbomb",
   "physics" : "grenade",
   "bounces" : -1,
-  "level" : 3,
   "timeToLive" : 3,
   "damageKindImage" : "icon.png",
   "frames" : "nailbomb.png",

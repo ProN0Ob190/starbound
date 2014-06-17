@@ -7,7 +7,7 @@
   "description" : "A green flashlight! A mighty glow.",
   "shortdescription" : "Flashlight",
   "largeImage" : "greenflashlightlarge.png",
-  "inspectionKind" : "tool",
+  "tooltipKind" : "tool",
   "image" : "greenflashlight.png",
   "handPosition" : [-2, 0],
   "lightPosition" : [4, 0],

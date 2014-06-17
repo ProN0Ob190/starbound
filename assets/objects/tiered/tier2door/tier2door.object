@@ -2,7 +2,6 @@
   "objectName" : "tier2door",
   "printable" : false,
   "rarity" : "Common",
-  "objectType" : "wire",
 
   "category" : "door",
   "price" : 500,

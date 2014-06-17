@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Alienbane. A spear that could take down any alien.",
   "shortdescription" : "Alienbane",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "humantier10spear.png",

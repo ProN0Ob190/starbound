@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "This tall helmet has brain-amplifying circuitry running throughout the inside.",
   "shortdescription" : "Seeker's Braincage",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

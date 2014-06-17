@@ -6,6 +6,7 @@
   "shortdescription" : "Oculemon Seed",
   "objectType" : "farmable",
   "printable" : false,
+  "price" : 159,
 
   "apexDescription" : "The oculemon reminds me of Big Ape. That ever-watchful eye.",
   "avianDescription" : "A poisonous fruit with a piercing gaze.",
@@ -65,12 +66,12 @@
   },
   "growing" : {
     "0" : {
-      "duration" : [2820, 2940],
+      "duration" : [635, 635],
       "success" : 1,
       "failure" : 3
     },
     "1" : {
-      "duration" : [2820, 2940],
+      "duration" : [640, 640],
       "success" : 2,
       "failure" : 3
     }

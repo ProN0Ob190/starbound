@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "These slim-cut pants are woven from pure Ferozium thread for added durability.",
   "shortdescription" : "Macaw Leggings",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pantsm.png",
   "femaleFrames" : "pantsf.png",

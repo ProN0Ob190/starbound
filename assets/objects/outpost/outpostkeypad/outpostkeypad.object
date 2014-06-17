@@ -1,0 +1,49 @@
+{
+  "objectName" : "outpostkeypad",
+  "rarity" : "Common",
+  "description" : "A keypad.",
+  "shortdescription" : "Outpost Keypad",
+  "race" : "generic",
+
+  "floranDescription" : "Floran type rude word on keypad. Fish.",
+  "glitchDescription" : "Statement. A keypad.",
+
+  "category" : "wire",
+  "price" : 300,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "outpostkeypad.png:<color>.off",
+      "imagePosition" : [-8, -8],
+	  "direction" : "left",
+	  "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+	{
+      "image" : "outpostkeypad.png:<color>.off",
+      "imagePosition" : [-8, -8],
+	  "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/switch/switch.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switchtoggle.animation",
+
+  "animationParts" : {
+    "switch" : "outpostkeypad.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "inboundNodes" : [ [-1, 0] ],
+  "outboundNodes" : [ [0, -1] ],
+
+  "interval" : 13
+}

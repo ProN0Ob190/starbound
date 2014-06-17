@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Migrator. A decorated, sturdy spear.",
   "shortdescription" : "Migrator",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "aviantier3spear.png",

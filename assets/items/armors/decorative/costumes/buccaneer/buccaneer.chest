@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Whaleskin Pirate coat. Well it smells like whale anyway.",
   "shortdescription" : "Pirate Coat",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

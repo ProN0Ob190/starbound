@@ -1,0 +1,48 @@
+{
+  "objectName" : "outpostdesk",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "description" : "A basic desk.",
+  "shortdescription" : "Outpost Desk",
+  "race" : "generic",
+  "category" : "storage",
+  "price" : 500,
+  "lightColor" : [69, 99, 115],
+
+  "floranDescription" : "Desk!",
+  "glitchDescription" : "Statement. A desk.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+	{
+      "imageLayers" : [ { "image" : "outpostdeskleft.png:<color>", "unlit" : true }, { "image" : "outpostdeskleftlit.png:<color>" } ],
+	  "direction" : "left",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+	{
+      "imageLayers" : [ { "image" : "outpostdeskright.png:<color>", "unlit" : true }, { "image" : "outpostdeskrightlit.png:<color>" } ],
+	  "direction" : "right",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+
+}

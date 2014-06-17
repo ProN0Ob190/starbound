@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Titanium pants with a convenient flap for the release of bodily fluids.",
   "shortdescription" : "Pioneer's Pants",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

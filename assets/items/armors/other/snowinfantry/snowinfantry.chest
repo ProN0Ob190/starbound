@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Snow infantry chestpiece. For when a planet's giving you the cold shoulder.",
   "shortdescription" : "Snow Infantry Chest",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
   "maleFrames" : {
     "body" : "chest.png",
     "backSleeve" : "bsleeve.png",

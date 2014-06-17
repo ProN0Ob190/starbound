@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Gorillatooth. A hefty, chunky broadsword.",
   "shortdescription" : "Gorillatooth",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "apextier10broadsword.png",

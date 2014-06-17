@@ -6,6 +6,7 @@
   "shortdescription" : "sugarcane Seed",
   "objectType" : "farmable",
   "printable" : false,
+  "price" : 80,
 
   "apexDescription" : "Gnawing on sugarcane is good for Apex teeth, so they say.",
   "avianDescription" : "Sweet. Can be used to add flavour.",
@@ -65,12 +66,12 @@
   },
   "growing" : {
     "0" : {
-      "duration" : [300, 420],
+      "duration" : [360, 360],
       "success" : 1,
       "failure" : 3
     },
     "1" : {
-      "duration" : [300, 420],
+      "duration" : [360, 360],
       "success" : 2,
       "failure" : 3
     }

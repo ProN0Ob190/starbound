@@ -1,6 +1,8 @@
 {
   "name" : "volcanic",
+  "friendlyName" : "Volcanic",
   "caveLiquidType" : "lava",
+  "requiredStatuses" : [ "beamaxe" ],
 
   "hueShiftOptions" : [-54, -120, 0, 20],
   "skyOptions" : [
@@ -140,46 +142,16 @@
     },
 
     "weather" : [
-      [
-        [0.1, "rain" ],
-        [0.05, "storm" ],
-        [0.025, "glowingrain" ],
-        [0.125, "drizzle" ],
-        [0.7, "clear" ]
-      ],
-      [
-        [0.05, "acidrain" ],
-        [0.95, "clear" ]
-      ],
-      [
-        [0.03, "meteorshower" ],
-        [0.97, "clear" ]
-      ],
-      [
-        [0.01, "largemeteor" ],
-        [0.99, "clear" ]
-      ],
-      [
-        [0.25, "ash" ],
-        [0.75, "clear" ]
-      ],
-      [
-        [0.1, "spacedustshower" ],
-        [0.90, "clear" ]
-      ],
-      [
-        [0.25, "ember" ],
-        [0.75, "clear" ]
-      ],
-      [
-        [1.0, "clear" ]
-      ],
-      [
-        [1.0, "clear" ]
-      ],
-      [
-        [1.0, "clear" ]
-      ]
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:commonAsh",
+      "/weather.config:commonEmber",
+      "/weather.config:commonLightRainMixAndGlowingRain",
+      "/weather.config:rareAcidRain",
+      "/weather.config:rareLargeMeteorShower",
+      "/weather.config:uncommonMeteorShower",
+      "/weather.config:uncommonSpacedust"
     ],
 
     "ambientNoises" : {
@@ -504,9 +476,5 @@
   },
 
   "allowedDetachedBiomes" : [ "crystalline", "rust", "arctic", "arid", "desert", "forest", "grasslands", "jungle", "magma", "ocean", "savannah", "snow", "tentacles", "tundra", "volcanic" ]
-
   //    "allowedDetachedBiomes" : [ "crystalline" ]
-
-
-
 }

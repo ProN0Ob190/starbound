@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Platinum chestpiece. For the best and brightest.",
   "shortdescription" : "Platinum Chestpiece",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
   "maleFrames" : {
     "body" : "chest.png",
     "backSleeve" : "bsleeve.png",

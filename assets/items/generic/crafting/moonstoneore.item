@@ -1,0 +1,7 @@
+{
+  "itemName" : "moonstoneore",
+  "rarity" : "Common",
+  "inventoryIcon" : "moonstoneore.png",
+  "description" : "Moonstone ore, found only on moons and often used for FTL engine construction.",
+  "shortdescription" : "Moonstone Ore"
+}

@@ -2,7 +2,6 @@
   "objectName" : "tier4switch",
   "printable" : false,
   "rarity" : "Common",
-  "category" : "wire",
   "price" : 100,
   "lightColor" : [38, 122, 128],
   "flickerDistance" : 0.2,

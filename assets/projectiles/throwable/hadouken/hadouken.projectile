@@ -2,7 +2,6 @@
   "projectileName" : "hadouken",
   "physics" : "bullet",
   "bounces" : 0,
-  "level" : 12,
   "timeToLive" : 20,
   "frames" : "hadouken.png",
   "animationCycle" : 1.5,

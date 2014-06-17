@@ -2,7 +2,6 @@
   "projectileName" : "woodenarrow",
   "physics" : "arrow",
   "frames" : "woodenarrow.png",
-  "level" : 3,
   "animationCycle" : 0.25,
   "frameNumber" : 1,
   "damageKindImage" : "icon.png",

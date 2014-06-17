@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Big Gougeslicer. A sword with all manner of nasty hooked bits.",
   "shortdescription" : "Big Gougeslicer",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "florantier6broadsword.png",

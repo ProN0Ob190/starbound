@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "The armpits are a little frayed, this coat must have seen a lot of flapping.",
   "shortdescription" : "Pilot's Jacket",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

@@ -1,0 +1,19 @@
+{
+  "name" : "orbOfZotsAttack",
+  "label" : "Orb of Zots",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "orbOfZotsAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "orbofzots",
+      "range" : 18,
+      "speed" : 30,
+      "power" : 16,
+      "shots" : 1,
+      "winddownTime" : 1.1,
+      "fireAnimation" : "melee",
+      "fireAnimationTiming" : 0.3
+    }
+  }
+}

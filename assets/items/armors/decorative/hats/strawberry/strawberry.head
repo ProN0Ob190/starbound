@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "A giant strawberry mask.",
   "shortdescription" : "Strawberry Mask",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

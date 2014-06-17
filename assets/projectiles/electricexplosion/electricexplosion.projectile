@@ -2,7 +2,6 @@
   "projectileName" : "electricexplosion",
   "frames" : "electricexplosion.png",
   "animationCycle" : 0.4,
-  "level" : 3,
   "frameNumber" : 3,
   "speed" : 40,
   "fallSpeed" : 0,

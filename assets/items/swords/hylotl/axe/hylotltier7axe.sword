@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Fishing Hook. A severely curved axe.",
   "shortdescription" : "Fishing Hook",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "hylotltier7axe.png",

@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Cerulium greaves allow an ocean explorer to sink easily and stay sunk.",
   "shortdescription" : "Ocean Greaves",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

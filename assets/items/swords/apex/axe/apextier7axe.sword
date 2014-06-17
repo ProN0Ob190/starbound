@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "The Grinder. A lethal curved blade.",
   "shortdescription" : "The Grinder",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "apextier7axe.png",

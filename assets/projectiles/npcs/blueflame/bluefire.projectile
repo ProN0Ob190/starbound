@@ -1,0 +1,26 @@
+{
+  "projectileName" : "bluefire",
+  "physics" : "grenadenobounce",
+  "bounces" : 0,
+  "timeToLive" : 1,
+  "speed" : 15,
+  "frames" : "bluefire.png",
+  "animationCycle" : 0.55,
+  "lightColor" : [60, 20, 250],
+  "frameNumber" : 4,
+  "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],
+  "hydrophobic" : true,
+  "actionOnReap" : [
+
+  ],
+  "damageKind" : "fire",
+  "statusEffects" : [
+    {
+      "kind" : "glow",
+      "amount" : 100.0,
+      "color" : "blue",
+      "duration" : 5.0
+    },
+    { "kind" : "testburning" }
+  ]
+}

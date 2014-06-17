@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Hawkwing. A tomahawk with some feathers attached.",
   "shortdescription" : "Hawkwing",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "aviantier3axe.png",

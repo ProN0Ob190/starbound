@@ -1,6 +1,8 @@
 {
   "name" : "grasslands",
+  "friendlyName" : "Grasslands",
   "caveLiquidType" : [ "water", "acid", "tarliquid" ],
+  "requiredStatuses" : [ "beamaxe" ],
 
   "hueShiftOptions" : [-180, -135, -90, -45, 0, 45, 90, 135, 180],
   "skyOptions" : [
@@ -134,76 +136,20 @@
     "undergroundParallax" : "grasslands.undergroundparallax",
 
     "weather" : [
-      [
-        [0.1, "rain" ],
-        [0.05, "storm" ],
-        [0.025, "glowingrain" ],
-        [0.125, "drizzle" ],
-        [0.7, "clear" ]
-      ],
-      [
-        [0.1, "rain" ],
-        [0.05, "storm" ],
-        [0.025, "windstorm" ],
-        [0.125, "drizzle" ],
-        [0.7, "clear" ]
-      ],
-      [
-        [0.1, "rain" ],
-        [0.05, "storm" ],
-        [0.025, "groundmist" ],
-        [0.125, "drizzle" ],
-        [0.7, "clear" ]
-      ],
-      [
-        [0.05, "acidrain" ],
-        [0.95, "clear" ]
-      ],
-      [
-        [0.1, "snow" ],
-        [0.9, "clear" ]
-      ],
-      [
-        [0.005, "meteorshower" ],
-        [0.995, "clear" ]
-      ],
-      [
-        [0.001, "largemeteor" ],
-        [0.999, "clear" ]
-      ],
-      [
-        [0.1, "spacedustshower" ],
-        [0.90, "clear" ]
-      ],
-      [
-        [0.1, "rain" ],
-        [0.05, "storm" ],
-        [0.025, "hailstones" ],
-        [0.125, "drizzle" ],
-        [0.6, "clear" ],
-		[0.1, "fog" ]
-      ],
-      [
-        [0.2, "fog" ],
-        [0.8, "clear" ]		
-      ],
-      [
-        [0.1, "rain" ],
-        [0.05, "storm" ],
-        [0.025, "glowingrain" ],
-        [0.125, "drizzle" ],
-        [0.7, "clear" ]
-      ],
-	  [
-        [0.02, "spacejunk" ],
-        [0.98, "clear" ]
-      ],
-      [
-        [1.0, "clear" ]
-      ],
-      [
-        [1.0, "clear" ]
-      ]
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:commonLightRainMixAndGlowingRain",
+      "/weather.config:commonLightRainMixAndGlowingRain",
+      "/weather.config:commonLightRainMixAndGroundmist",
+      "/weather.config:commonLightRainMixAndHail",
+      "/weather.config:commonLightRainMixAndWindstorm",
+      "/weather.config:rareAcidRain",
+      "/weather.config:rareEmber",
+      "/weather.config:rareMeteorShower",
+      "/weather.config:rareSpacejunk",
+      "/weather.config:uncommonSnow",
+      "/weather.config:uncommonSpacedust",
+      "/weather.config:veryRareLargeMeteorShower"
     ],
 
     "ambientNoises" : {
@@ -536,5 +482,4 @@
   },
 
   "allowedDetachedBiomes" : [ "flowers", "arctic", "arid", "desert", "forest", "grasslands", "jungle", "magma", "ocean", "savannah", "snow", "tentacles", "tundra", "volcanic" ]
-
 }

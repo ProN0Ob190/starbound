@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Regular Shortsword. A normal, unremarkable shortsword.",
   "shortdescription" : "Regular Shortsword",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "humantier1shortsword.png",

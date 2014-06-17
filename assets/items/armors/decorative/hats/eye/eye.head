@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "A helmet with a big eyeball in the centre. Practical!",
   "shortdescription" : "All-Seeing Helmet",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

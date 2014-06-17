@@ -156,7 +156,7 @@
           "portrait" : {
             "portrait" : {
               "properties" : {
-                "image" : "<partImage>:idle"
+                "image" : "<partImage>:idle.1"
               }
             }
           }

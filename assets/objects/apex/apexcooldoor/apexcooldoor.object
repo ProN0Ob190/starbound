@@ -1,7 +1,6 @@
 {
   "objectName" : "apexcooldoor",
   "rarity" : "Common",
-  "objectType" : "wire",
 
   "category" : "door",
   "price" : 2000,

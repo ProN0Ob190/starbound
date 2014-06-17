@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "The crusader's helm contains an extra brain for paritcularly long crusades.",
   "shortdescription" : "Crusader's Helm",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

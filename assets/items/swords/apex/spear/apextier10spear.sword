@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "King Wrong. A strange Apex spear with an unusual design.",
   "shortdescription" : "King Wrong",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "apextier10spear.png",

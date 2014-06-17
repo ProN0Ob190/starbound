@@ -5,14 +5,7 @@
   "parts" : [ "legs", "chest", "tail", "head" ],
   "partParameters" : "quadruped.partparams",
 
-  "spawnParameters" : {
-    "area" : "surface",
-    "region" : "all",
-    "time" : "day"
-  },
-
   "animation" : "quadruped.animation",
-  "projectiles" : "/monsters/projectiles.config",
   "colors" : "/monsters/colors.config",
   "reversed" : true,
 
@@ -23,13 +16,17 @@
       "/scripts/util.lua",
       "/scripts/vec2.lua",
 
-      "/monsters/ground/aggressState.lua",
+      "/monsters/ground/aggroHopState.lua",
+      "/monsters/ground/approachState.lua",
+      "/monsters/ground/fleeState.lua",
+      "/monsters/ground/stunState.lua",
       "/monsters/ground/grazeState.lua",
       "/monsters/ground/herdFleeState.lua",
       "/monsters/ground/knockoutState.lua",
-      "/monsters/ground/wanderState.lua"
+      "/monsters/ground/wanderState.lua",
+
+      "/monsters/ground/createGroundRangedAttack.lua"
     ],
-    "scriptDelta" : 5,
 
     "territoryDistance" : 40.0,
     "territorialTargetRadius" : 20.0,
@@ -47,11 +44,12 @@
 
     "jumpTargetDistance" : 4,
     "jumpTime" : [0.4, 0.7],
+    "jumpNoise" : [ ],
 
     "knockoutTime" : 1,
     "knockoutEffect" : "blink",
     "deathParticles" : "deathPoof",
-    "deathNoise" : [ "/sfx/projectiles/bubble_pop.wav" ],
+    "deathNoise" : [ "/sfx/npc/enemydeathpuff.wav" ],
 
     "exhaustionTimer" : 3.0,
     "exhaustionTimeout" : 3.0,
@@ -96,42 +94,10 @@
   "familyParameters" : [
     [
       {
-        "attackStartDistance" : 7.0,
-        "attackMaxDistance" : 20,
-        "attackCooldownTime" : 0.5,
-        "baseSkills" : [ "pounceAttack" ],
-        "pounceAttackJumpHoldTime" : 1.0,
-        "pounceAttackWindupTime" : 1.0,
-        "pounceAttackCooldown" : 1.0
-      },
-
-      {
-        "attackStartDistance" : 3.5,
-        "attackTime" : 0.75,
-        "attackCooldownTime" : 0.5,
-        "baseSkills" : [ "meleeAttack" ]
-      },
-
-      {
-        "attackStartDistance" : 10.0,
-        "attackTime" : 4.0,
-        "attackCooldownTime" : 1.0,
-        "baseSkills" : [ "chargeAttack" ],
-        "chargeAttackWindupTime" : 1.0,
-        "chargeAttackAttackDistance" : 5.0,
-        "chargeAttackProjectile" : null
-      },
-
-      {
-        "attackStartDistance" : 14.0,
-        "attackMaxDistance" : 20,
-        "attackCooldownTime" : 2.0,
-        "baseSkills" : [ "flameBurstRangedAttack", "bubbleBlastRangedAttack", "fireball", "acidicspit", "barbspray", "explosivephlegm", "sonicscream", "twistingpulse", "acidspray",
-            "shockingbolt", "shockball", "gasbelch", "iceblast", "rockshot", "bloodvomit", "flyswarm", "iceshot", "sonicwave", "fireswirl", "plasmatorpedo", "darkplasma", "darkgravityball" ],
-        "shooterSkillName" : "rangedAttack",
-        "shooterGiveUpTolerance" : 20.0
+        "skillCount" : 3,
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [ "recoverSpecial" ]
       }
-
     ]
   ],
 
@@ -144,12 +110,11 @@
           "movementSettings" : {
             "collisionPoly" : [ [-2.25, -1.1], [-1.5, -1.8], [1.5, -1.8], [2.25, -1.1], [2.25, -0.1], [1.5, 0.5], [-1.5, 0.5], [-2.25, -0.1] ],
             "mass" : 1.2,
-            "walkSpeed" : 2.5,
-            "runSpeed" : 6.5,
-            "jumpSpeed" : 4
+            "walkSpeed" : 4.0,
+            "runSpeed" : 8.0
           },
 
-          "blockedSensors" : [ [2.7, -1.0], [2.7, -0.3], [2.7, 0.2], [2.7, 0.7], [2.7, 1.2], [3.2, -1.0], [3.2, -0.3], [3.2, 0.2], [3.2, 0.7], [3.2, 1.2] ],
+          "blockedSensors" : [ [2.7, 0], [2.7, 0.2], [2.7, 0.7], [2.7, 1.2] ],
           "fallSensors" : [ [0.5, -2.5], [0.5, -3.5], [0.5, -4.5], [2.0, -2.5], [2.0, -3.5], [2.0, -4.5] ],
 
           "touchDamage" : {
@@ -166,47 +131,9 @@
             "bodyMaterialKind" : "organic"
           },
 
-          "mouthOffset" : [0, 0],
+          "mouthOffset" : [1.5, 0],
           "feetOffset" : [0, -14]
         } ]
     ]
-    /*
-    [
-      [0.02, {
-        "scale" : 1.5,
-        "metaBoundBox" : [-2.5, -2.5, 2.5, 2.5],
-
-        "movementSettings" : {
-          "collisionPoly" : [ [-2.75, -1.65], [-1.7, -2.7], [2.7, -2.7], [3.75, -1.65], [3.75, -0.15], [2.55, 0.75], [-1.55, 0.75], [-2.75, -0.15] ],
-          "mass" : 1.2,
-          "walkSpeed" : 5,
-          "runSpeed" : 13,
-          "jumpSpeed" : 20
-        },
-
-        "blockedSensors" : [ [3.0, -0.8], [3.0, -0.3], [3.0, 0.2], [3.0, 0.7], [3.0, 1.2], [3.5, -0.8], [3.5, -0.3], [3.5, 0.2], [3.5, 0.7], [3.5, 1.2] ],
-        "fallSensors" : [ [0.5, -2.5], [0.5, -3.5], [0.5, -4.5], [2.0, -2.5], [2.0, -3.5], [2.0, -4.5] ],
-
-        "touchDamage" : {
-          "poly" : [ [-2.0, -0.8], [-1.5, -1.5], [1.5, -1.5], [2.0, -0.8], [2.0, -0.4], [1.4, 0.2], [-1.4, 0.2], [-2.0, -0.4] ],
-            "damage" : 45,
-            "teamType" : "enemy",
-            "damageSourceKind" : "bite",
-          "statusEffects" : [ ]
-        },
-
-        "statusParameters" : {
-          "baseMaxHealth" : 30,
-          "baseMaxEnergy" : 20,
-          "damageConfig" : "/damage/damageresponse/groundnpc.config",
-          "bodyMaterialKind" : "organic"
-        },
-        
-        "mouthOffset" : [0, 0],
-        "feetOffset" : [0, -14]
-      }]
-    ]
-*/
-
   ]
 }

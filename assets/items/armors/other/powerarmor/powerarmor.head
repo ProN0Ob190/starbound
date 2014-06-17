@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Power Armour Helmet. Heavy-duty armour.",
   "shortdescription" : "Power Armour Helmet",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

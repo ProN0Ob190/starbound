@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "This steel helm is light and airy, perfect for scouting.",
   "shortdescription" : "Scout's Helm",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

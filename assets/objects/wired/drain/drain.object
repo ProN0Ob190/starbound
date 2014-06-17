@@ -1,7 +1,6 @@
 {
   "objectName" : "drain",
   "rarity" : "Common",
-  "objectType" : "wire",
   "description" : "Gurgle gurgle!",
   "shortdescription" : "Drain",
   "race" : "generic",

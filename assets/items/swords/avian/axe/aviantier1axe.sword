@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Tiny Tomahawk. A small, versatile axe.",
   "shortdescription" : "Tiny Tomahawk",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "aviantier1axe.png",

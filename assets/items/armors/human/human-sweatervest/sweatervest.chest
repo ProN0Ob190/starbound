@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A classy sweater vest. It's business casual.",
   "shortdescription" : "Work Shirt",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

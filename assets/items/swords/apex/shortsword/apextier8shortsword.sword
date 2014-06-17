@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Shrieker. A lethal, barbed blade.",
   "shortdescription" : "Shrieker",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "apextier8shortsword.png",

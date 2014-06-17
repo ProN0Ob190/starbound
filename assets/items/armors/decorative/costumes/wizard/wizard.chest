@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A bathrobe fit for a wizard.",
   "shortdescription" : "Wizard Robe Top",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

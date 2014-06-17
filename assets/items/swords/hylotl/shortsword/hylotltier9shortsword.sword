@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Small White. A serrated shortsword.",
   "shortdescription" : "Small White",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "hylotltier9shortsword.png",

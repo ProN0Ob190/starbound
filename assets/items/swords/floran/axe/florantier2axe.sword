@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Better Choppy Thing. A decent Floran axe.",
   "shortdescription" : "Better Choppy Thing",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "florantier2axe.png",

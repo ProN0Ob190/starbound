@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Stabber. A strong spear.",
   "shortdescription" : "Stabber",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "florantier4spear.png",

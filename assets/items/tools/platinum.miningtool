@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "common",
-  "inspectionKind" : "tool",
+  "tooltipKind" : "tool",
   "description" : "Pickaxes are so last millennium! This one is made of platinum.",
   "shortdescription" : "Platinum Pickaxe",
   "largeImage" : "platinumpickaxebig.png",

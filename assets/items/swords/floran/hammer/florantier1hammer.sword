@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Smacker. A basic hammer.",
   "shortdescription" : "Smacker",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "florantier1hammer.png",

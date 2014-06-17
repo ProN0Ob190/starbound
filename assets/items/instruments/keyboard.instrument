@@ -8,7 +8,7 @@
   "shortdescription" : "The model M",
   "largeImage" : "keyboard.png",
   "image" : "keyboard.png",
-  "inspectionKind" : "tool",
+  "tooltipKind" : "tool",
   "activeImage" : "keyboard.png",
   "activeAngle" : 0,
   "activeHandPosition" : [0, -0.1],

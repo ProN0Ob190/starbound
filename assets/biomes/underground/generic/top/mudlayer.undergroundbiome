@@ -1,5 +1,7 @@
 {
   "name" : "mudlayer",
+  "friendlyName" : "Mudlayer",
+  "requiredStatuses" : [ "beamaxe" ],
 
   "undergroundParallax" : "rockunderground.undergroundparallax",
 

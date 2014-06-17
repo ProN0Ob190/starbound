@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Typical Avian fancy skirt.",
   "shortdescription" : "Avian Fancy Skirt",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

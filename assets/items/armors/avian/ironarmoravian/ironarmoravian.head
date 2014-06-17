@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "ironarmoravian",
   "shortdescription" : "ironarmoravian",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

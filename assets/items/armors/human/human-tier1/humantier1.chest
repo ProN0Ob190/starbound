@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "The scavenger's breastplate is reliable without the frills.",
   "shortdescription" : "Scavenger's Breastplate",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

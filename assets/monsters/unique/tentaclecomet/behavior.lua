@@ -286,9 +286,9 @@ function smashAttack.update(dt, stateData)
     entity.rotateGroup("flames", angle + math.pi / 2, true)
     entity.setAnimationState("flames", "idle")
 
-    local delta = vec2.mul(vec2.dup(stateData.direction), entity.flySpeed() * smashAttack.smashSpeedFraction)
+    local delta = vec2.mul(stateData.direction, entity.flySpeed() * smashAttack.smashSpeedFraction)
 
-    moveBy(vec2.mul(vec2.norm(vec2.dup(delta)), entity.flySpeed() * smashAttack.smashSpeedFraction))
+    moveBy(vec2.mul(vec2.norm(delta), entity.flySpeed() * smashAttack.smashSpeedFraction))
 
     local bounds = entity.configParameter("metaBoundBox")
     bounds = {
@@ -349,7 +349,7 @@ end
 
 function rangedAttack.enteringState(stateData)
   local fireOffset = closestCraterOffset(stateData.targetPosition)
-  entity.setFireDirection(fireOffset, vec2.norm(vec2.dup(fireOffset)))
+  entity.setFireDirection(fireOffset, vec2.norm(fireOffset))
   entity.startFiring("meteor")
 end
 

@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Look like Kyren with this top.",
   "shortdescription" : "Kyren's Top.",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

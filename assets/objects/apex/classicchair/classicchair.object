@@ -17,20 +17,33 @@
   "inventoryIcon" : "classicchairicon.png",
   "orientations" : [
     {
-      "dualImage" : "classicchair.png:<color>",
+      "image" : "classicchair.png:<color>",
 
       "imagePosition" : [-8, 0],
       "frames" : 1,
       "animationCycle" : 1.0,
+	  "flipImages" : true,
+	  "direction" : "left",
+	  "sitPosition" : [1.5, 22.5],
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
+    },
+	{
+      "image" : "classicchair.png:<color>",
 
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+	  "direction" : "right",
+	  "sitPosition" : [1.5, 22.5],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
     }
   ],
 
   "objectType" : "loungeable",
-  "sitFlipDirection" : false,
-  "sitPosition" : [1, 22]
+  "sitFlipDirection" : false
 
 }

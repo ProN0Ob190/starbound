@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Soldier's Chestpiece. Armour that really demands attenSHUN!",
   "shortdescription" : "Soldier's Chestpiece",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chest.png",

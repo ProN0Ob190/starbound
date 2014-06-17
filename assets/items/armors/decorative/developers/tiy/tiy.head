@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "This hat belongs to Tiy, what are you doing with it?",
   "shortdescription" : "Tiy's Hat",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

@@ -25,23 +25,27 @@ function init(args)
 
   local states = stateMachine.scanScripts(scripts, "(%a+State)%.lua")
   self.state = stateMachine.create(states)
-  self.state.enteringState = function(state)
-    self.state.shuffleStates()
-  end
-
-  local prefabAttacks = {}
-  for i, attack in ipairs(stateMachine.scanScripts(scripts, "(%a+Attack)%.lua")) do
-    prefabAttacks[attack] = true
-  end
 
   local attacks = {}
   local attackStateTables = {}
   for i, skillName in ipairs(entity.configParameter("skills")) do
-    if prefabAttacks[skillName] ~= nil then
-      table.insert(attacks, skillName)
-    else
-      attackStateTables[skillName] = createFlyingRangedAttack(skillName)
-      table.insert(attacks, skillName)
+    local params = entity.configParameter(skillName)
+
+    --create generic attacks from factories
+    if params and params.factory then
+      if type(_ENV[params.factory]) == "function" then
+        if not _ENV[skillName] then
+          _ENV[skillName] = _ENV[params.factory](skillName)
+        else
+          world.logInfo("Failed to create attack %s from factory %s: Table %s already exists in this context", skillName, params.factory, skillName)
+        end
+      else
+        world.logInfo("Failed to create attack %s from factory %s: factory function does not exist in this context", skillName, params.factory)
+      end
+    end
+
+    if _ENV[skillName] then
+      table.insert(attacks, 1, skillName)
     end
   end
 
@@ -51,11 +55,10 @@ function init(args)
   self.attackState.enteringState = function(state)
     entity.setActiveSkillName(state)
     setAggressive(true)
-    self.attackState.shuffleStates()
+    self.attackState.moveStateToEnd(state)
   end
 
   self.attackState.leavingState = function(state)
-    entity.stopFiring()
     setAggressive(false)
     entity.setActiveSkillName(nil)
     self.attackCooldownTimer = entity.configParameter("attackCooldownTime")
@@ -64,6 +67,7 @@ function init(args)
   entity.setDeathSound(entity.randomizeParameter("deathNoise"))
   entity.setDeathParticleBurst(entity.configParameter("deathParticles"))
 
+  entity.setFacingDirection(util.randomDirection())
   entity.setAnimationState("movement", "flying")
 end
 
@@ -149,6 +153,8 @@ function main()
   end
 
   decrementTimers()
+
+  entity.setScriptDelta(hasTarget() and 1 or 10)
 
   if self.debug then
     if attacking() then

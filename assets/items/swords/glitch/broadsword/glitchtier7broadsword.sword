@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Dataspike. A spiked blade.",
   "shortdescription" : "Dataspike",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "glitchtier7broadsword.png",

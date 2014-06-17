@@ -6,7 +6,7 @@
   "rarity" : "Legendary",
   "description" : "NOW you mine fish.",
   "shortdescription" : "Fishaxe",
-  "inspectionKind" : "tool",
+  "tooltipKind" : "tool",
   "largeImage" : "stonepickaxebig.png",
 
   "image" : "fish.png",

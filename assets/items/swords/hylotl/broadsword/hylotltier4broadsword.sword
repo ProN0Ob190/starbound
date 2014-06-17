@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "First Mate. A trusty broadsword.",
   "shortdescription" : "First Mate",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "hylotltier4broadsword.png",

@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "G.I. Standard Issue tin pot helmet.",
   "shortdescription" : "M1 Helmet",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

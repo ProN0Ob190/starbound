@@ -1,0 +1,27 @@
+{
+  "projectileName" : "glowburst",
+  "physics" : "bullet",
+  "bounces" : 0,
+  "speed" : 1,
+  "timeToLive" : 0.01,
+  "damageKindImage" : "icon.png",
+  "frames" : "glowburst.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 1,
+  "actionOnReap" : [
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/gun/plasma_ar1.wav", "/sfx/gun/plasma_ar2.wav", "/sfx/gun/plasma_ar3.wav" ]
+    },
+    {
+      "action" : "projectile",
+      "type" : "glowslide",
+      "fuzzAngle" : 40,
+      "inheritDamageFactor" : 1.0,
+      "angleAdjust" : 0
+    }
+
+  ],
+  "power" : 4,
+  "damageKind" : "default"
+}

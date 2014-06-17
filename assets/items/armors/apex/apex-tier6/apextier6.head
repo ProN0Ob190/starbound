@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Headgear that completely covers the wearer's face, but has some classy goggles to see with.",
   "shortdescription" : "Spy's Hood",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

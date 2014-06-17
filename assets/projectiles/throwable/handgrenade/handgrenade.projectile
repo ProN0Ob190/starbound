@@ -2,7 +2,6 @@
   "projectileName" : "handgrenade",
   "physics" : "grenade",
   "bounces" : 5,
-  "level" : 3,
   "timeToLive" : 3,
   "frames" : "handgrenade.png",
   "animationCycle" : 5,

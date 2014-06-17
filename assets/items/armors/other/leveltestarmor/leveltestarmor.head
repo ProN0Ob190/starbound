@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Prototype Helmet MKI. For the adventurous.",
   "shortdescription" : "Prototype Helmet MKI",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
   "learnBlueprintsOnPickup" : [
     "silverarmorhead"
   ],

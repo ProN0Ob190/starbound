@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Birdseye Two. A sword that cuts through fur and feathers.",
   "shortdescription" : "Birdseye Two",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "aviantier6broadsword.png",

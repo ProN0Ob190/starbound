@@ -6,7 +6,6 @@
   "race" : "human",
   "category" : "wire",
   "price" : 450,
-  "script" : "/objects/scripts/switch.lua",
 
   "apexDescription" : "According to this, prisoners should not be poked with sticks.",
   "avianDescription" : "Apparently requests for 'a nice cup of tea' are to be denied.",

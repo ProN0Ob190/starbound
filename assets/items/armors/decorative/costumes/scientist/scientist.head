@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Feel extra intelligent with these glasses.",
   "shortdescription" : "Scientist Glasses",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

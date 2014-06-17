@@ -6,6 +6,7 @@
   "shortdescription" : "Tomato Seed",
   "objectType" : "farmable",
   "printable" : false,
+  "price" : 142,
 
   "apexDescription" : "A tomato. Juicy.",
   "avianDescription" : "Tomato seeds can improve many a dish.",
@@ -65,12 +66,12 @@
   },
   "growing" : {
     "0" : {
-      "duration" : [300, 420],
+      "duration" : [570, 570],
       "success" : 1,
       "failure" : 3
     },
     "1" : {
-      "duration" : [300, 420],
+      "duration" : [570, 570],
       "success" : 2,
       "failure" : 3
     }

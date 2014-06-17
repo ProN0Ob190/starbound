@@ -1,5 +1,6 @@
 {
   "name" : "spacejunk",
+  "icon" : "/interface/cockpit/weather/spacejunk.png",
 
   "particles" : [
     {

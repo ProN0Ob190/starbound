@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Snow infantry helmet. Helps avoid head colds.",
   "shortdescription" : "Snow Infantry Helmet",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",

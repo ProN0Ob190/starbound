@@ -2,7 +2,6 @@
   "projectileName" : "cluster",
   "physics" : "grenade",
   "bounces" : 0,
-  "level" : 3,
   "timeToLive" : 3,
   "frames" : "cluster.png",
   "animationCycle" : 0.5,

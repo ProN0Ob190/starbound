@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Pants and boots that are far lighter than they appear - Ideal equipment for sneaking about.",
   "shortdescription" : "Rogue's Pants",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

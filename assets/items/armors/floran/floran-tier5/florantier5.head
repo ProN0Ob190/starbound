@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "The cannibal's mask contains razor sharp aegisalt teeth built to tear through floran flesh.",
   "shortdescription" : "Cannibal's Mask",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

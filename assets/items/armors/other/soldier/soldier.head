@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Soldier's Helmet. Armour that really demands attenSHUN!",
   "shortdescription" : "Soldier's Helmet",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "-50 intelligence when worn sideways.",
   "shortdescription" : "Cap",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

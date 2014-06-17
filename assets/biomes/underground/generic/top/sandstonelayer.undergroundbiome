@@ -1,5 +1,7 @@
 {
   "name" : "sandstonelayer",
+  "friendlyName" : "Sandstonelayer",
+  "requiredStatuses" : [ "beamaxe" ],
 
   "undergroundParallax" : "desert.undergroundparallax",
 

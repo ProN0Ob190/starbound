@@ -1,5 +1,7 @@
 {
   "name" : "sulphur",
+  "friendlyName" : "Sulphur",
+  "requiredStatuses" : [ "beamaxe" ],
 
   "mainBlock" : "rock12",
   "subBlocks" : [ "ash", "rock14" ],

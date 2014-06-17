@@ -2,7 +2,6 @@
   "projectileName" : "molotovflame",
   "physics" : "grenadenobounce",
   "bounces" : -1,
-  "level" : 3,
   "timeToLive" : 10,
   "speed" : 15,
   "frames" : "molotovflame.png",

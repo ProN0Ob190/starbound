@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "The sea shogun are afraid only of fatal wounds, Ferozium protecting little more than their hearts.",
   "shortdescription" : "Sea Chestguard",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

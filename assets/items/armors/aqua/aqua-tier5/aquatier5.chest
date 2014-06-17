@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "The aegisalt jacket of the reef gatherer is softened to protect the coral.",
   "shortdescription" : "Reef Jacket",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

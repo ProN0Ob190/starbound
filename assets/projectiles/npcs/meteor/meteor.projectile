@@ -2,7 +2,6 @@
   "projectileName" : "meteor",
   "frames" : "meteor.png",
   "animationCycle" : 1.0,
-  "level" : 3,
   "frameNumber" : 1,
   "damageKindImage" : "icon.png",
   "pointLight" : false,

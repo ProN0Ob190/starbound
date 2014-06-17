@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "It's not a wizard's robe, it's just a really baggy scarf.",
   "shortdescription" : "Wizard Robe Bottoms",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

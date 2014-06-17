@@ -2,7 +2,6 @@
   "objectName" : "tier2switch",
   "printable" : false,
   "rarity" : "Common",
-  "category" : "wire",
   "price" : 100,
 
   "description" : "A robust steel lever. Demands to be pulled.",

@@ -2,7 +2,7 @@
   "name" : "commonplasmaassaultrifle",
   "maxStack" : 1,
   "rarity" : "common",
-  "inspectionKind" : "gun",
+  "tooltipKind" : "gun",
   "handPosition" : [5, 2],
   "firePosition" : [-2, 10],
   "weaponType" : "Plasma Rifle",

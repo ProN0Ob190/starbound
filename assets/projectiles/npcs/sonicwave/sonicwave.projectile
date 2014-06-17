@@ -2,7 +2,6 @@
   "projectileName" : "sonicwave",
   "frames" : "sonicwave.png",
   "physics" : "laser",
-  "level" : 3,
   "animationCycle" : 1.0,
   "damageKindImage" : "icon.png",
   "frameNumber" : 7,

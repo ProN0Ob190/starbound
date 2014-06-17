@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Its frilly but it wont keep your sugar plums warm.",
   "shortdescription" : "Tutu",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

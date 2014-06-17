@@ -9,10 +9,10 @@
 
   "parameters" :
   {
-    "idleNoise" : [ "/sfx/npc/crazyhead_small/arrowhead_idle1.wav", "/sfx/npc/crazyhead_small/arrowhead_idle2.wav" ],
+    // "idleNoise" : [ "/sfx/npc/crazyhead_small/arrowhead_idle1.wav", "/sfx/npc/crazyhead_small/arrowhead_idle2.wav" ],
     "turnHostileNoise" : [ "/sfx/npc/crazyhead_small/arrowhead_turnhostile.wav" ],
-    "attackNoise" : [ "/sfx/npc/crazyhead_small/arrowhead_attack1.wav", "/sfx/npc/crazyhead_small/arrowhead_attack2.wav" ],
-    "painNoise" : [ "/sfx/npc/crazyhead_small/arrowhead_pain1.wav", "/sfx/npc/crazyhead_small/arrowhead_pain2.wav" ],
+    // "attackNoise" : [ "/sfx/npc/crazyhead_small/arrowhead_attack1.wav", "/sfx/npc/crazyhead_small/arrowhead_attack2.wav" ],
+    // "painNoise" : [ "/sfx/npc/crazyhead_small/arrowhead_pain1.wav", "/sfx/npc/crazyhead_small/arrowhead_pain2.wav" ],
     "deathNoise" : [ "/sfx/npc/crazyhead_small/arrowhead_death.wav" ]
   }
 }

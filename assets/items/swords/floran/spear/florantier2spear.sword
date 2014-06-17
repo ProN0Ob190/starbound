@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Pokerface. A spear on a stick.",
   "shortdescription" : "Pokerface",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "florantier2spear.png",

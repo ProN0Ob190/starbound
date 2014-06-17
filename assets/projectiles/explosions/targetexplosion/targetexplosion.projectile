@@ -2,7 +2,6 @@
   "projectileName" : "targetexplosion",
   "frames" : "targetexplosion.png",
   "animationCycle" : 0.5,
-  "level" : 3,
   "frameNumber" : 4,
   "timeToLive" : 3,
   "speed" : 0,

@@ -1,7 +1,6 @@
 {
   "objectName" : "smallfloorbutton",
   "rarity" : "Common",
-  "objectType" : "wire",
 
   "category" : "wire",
   "price" : 400,

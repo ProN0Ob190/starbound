@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Shock-resistant pants with titanium plated boots.",
   "shortdescription" : "Insurgent's Pants",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pantsm.png",
   "femaleFrames" : "pantsf.png",

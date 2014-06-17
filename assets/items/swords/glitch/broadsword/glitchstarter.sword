@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "A broken sword. Looks like it needs maintenance.",
   "shortdescription" : "Broken Runewrath Sword",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "glitchstarter.png",

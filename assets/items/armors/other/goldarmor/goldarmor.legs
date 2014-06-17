@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Gold greaves. For the decadent.",
   "shortdescription" : "Gold Greaves",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",
 

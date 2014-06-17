@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "This skilfully designed chestplate will deflect the spears of the unbelievers. Praise Kluex!",
   "shortdescription" : "Peacock Shirt",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

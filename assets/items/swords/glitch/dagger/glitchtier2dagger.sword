@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Dagger Pro. A decent dagger.",
   "shortdescription" : "Dagger Pro",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "glitchtier2dagger.png",

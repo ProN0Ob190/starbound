@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "The bonesmith's helm is usually decorated with the steel covered skull of the wearers first victim.",
   "shortdescription" : "Bonesmith's Skullhat",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

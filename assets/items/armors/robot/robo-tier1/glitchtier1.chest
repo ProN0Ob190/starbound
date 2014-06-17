@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A knave's breastplate is plain and unadorned, reflecting their position in society.",
   "shortdescription" : "Knave's Breastplate",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

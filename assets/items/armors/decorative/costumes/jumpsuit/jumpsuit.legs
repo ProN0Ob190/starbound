@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Made in Deep 13.",
   "shortdescription" : "Jump Suit Trousers",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

@@ -1,7 +1,6 @@
 {
   "objectName" : "spawnerhylotl",
   "rarity" : "Common",
-  "objectType" : "wire",
   "description" : "Spawn your very own Hylotl villager!",
   "shortdescription" : "Hylotl Spawner",
   "race" : "hylotl",

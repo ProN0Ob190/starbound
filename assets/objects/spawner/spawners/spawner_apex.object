@@ -1,7 +1,6 @@
 {
   "objectName" : "spawnerapex",
   "rarity" : "Common",
-  "objectType" : "wire",
   "description" : "Spawn your very own Apex villager!",
   "shortdescription" : "Apex Spawner",
   "race" : "human",

@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Goggles, soon to be used in some steampunk cosplay.",
   "shortdescription" : "Pilot Goggles",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

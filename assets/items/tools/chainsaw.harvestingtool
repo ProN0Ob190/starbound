@@ -10,7 +10,7 @@
   "image" : "chainsaw.png:{frame}",
   "frames" : 5,
   "animationCycle" : 0.5,
-  "inspectionKind" : "tool",
+  "tooltipKind" : "tool",
 
   "handPosition" : [-6, 3],
   "fireTime" : 0.25,

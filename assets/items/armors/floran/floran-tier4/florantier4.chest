@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "The hunter's chestguard protect's the hunter's vitals with solid durasteel.",
   "shortdescription" : "Hunter's Chestguard",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

@@ -1,7 +1,6 @@
 {
   "objectName" : "decoyprincess",
   "rarity" : "Common",
-  "objectType" : "wire",
   "description" : "A decoy princess. The perfect bait.",
   "shortdescription" : "Decoy Princess",
   "race" : "generic",

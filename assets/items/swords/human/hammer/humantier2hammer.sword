@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Claw Hammer. A sledgehammer with a clawed end.",
   "shortdescription" : "Claw Hammer",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "humantier2hammer.png",

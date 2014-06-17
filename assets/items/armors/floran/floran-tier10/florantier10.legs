@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A kick from an armored synthesizer can shatter bone.",
   "shortdescription" : "Synthesizer's Pants",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

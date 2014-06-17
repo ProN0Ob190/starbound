@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A shining battle helm made from bright, pure Rubium.",
   "shortdescription" : "Phoenix Helm",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

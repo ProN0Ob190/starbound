@@ -7,7 +7,7 @@ grabAttack = {
 }
 
 function grabAttack.enter()
-  if not canStartAttack() then return nil end
+  if not canStartSkill("grabAttack") then return nil end
 
   return { run = coroutine.wrap(grabAttack.run) }
 end
@@ -30,19 +30,13 @@ function grabAttack.leavingState(stateData)
 end
 
 function grabAttack.run(stateData)
-  local timer = grabAttack.maxMoveTime
-  while timer > 0 and not grabAttack.withinHoldDistance() do
-    move({ self.toTarget[1], 0 })
-    timer = timer - entity.dt()
-    coroutine.yield(false)
-  end
-
   entity.setFacingDirection(self.toTarget[1])
 
   if math.abs(self.toTarget[1]) - grabAttack.maxHoldDistance[1] > grabAttack.maxDistanceMismatch then
     return true
   end
 
+  local timer = grabAttack.maxMoveTime
   util.wait(grabAttack.holdTime, function()
     if not grabAttack.withinHoldDistance() then
       entity.setAnimationState("attack", "idle")

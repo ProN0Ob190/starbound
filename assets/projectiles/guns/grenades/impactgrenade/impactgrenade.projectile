@@ -2,7 +2,6 @@
   "projectileName" : "impactgrenade",
   "physics" : "grenade",
   "bounces" : 0,
-  "level" : 3,
   "timeToLive" : 3,
   "damageKindImage" : "icon.png",
   "frames" : "impactgrenade.png",

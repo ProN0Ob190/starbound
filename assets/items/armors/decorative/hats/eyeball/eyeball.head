@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "A giant eyeball mask. It lacks depth perception...",
   "shortdescription" : "Eyeball Mask",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

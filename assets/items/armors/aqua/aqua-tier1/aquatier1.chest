@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "This chestguard is produced with an ancient Hylotl technique that weaves iron like straw.",
   "shortdescription" : "Puddle Chestguard",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

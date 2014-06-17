@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "The lancer's breastplate is capable of absorbing shock enough to keep a rider on his mount whilst shattering a lance.",
   "shortdescription" : "Lancer's Breastplate",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chest.png",

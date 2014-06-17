@@ -1,0 +1,21 @@
+{
+  "config" : {
+    "capabilities" : ["planetTravel"],
+    "fuelMax" : 1000
+  },
+
+  "backgroundOverlays" : [
+    {
+      "image" : "glitchT2.png",
+      "position" : [8, 11.875],
+	  "unlit" : true
+    },
+	{
+      "image" : "glitchT2lit.png",
+      "position" : [8, 11.875]
+    }
+  ],
+
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "glitchT2blocks.png"
+}

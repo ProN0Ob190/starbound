@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A hat straight from the Motherland.",
   "shortdescription" : "Ushanka",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

@@ -1,5 +1,7 @@
 {
   "name" : "ice",
+  "friendlyName" : "Ice",
+  "requiredStatuses" : [ "beamaxe" ],
 
   "hueShiftOptions" : [-45, 0, 45],
 

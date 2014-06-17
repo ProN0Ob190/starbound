@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "Some form fitting and sexy pants made specifically for George's bodacious curves! Bask in the glory!",
   "shortdescription" : "George's Sexy Pants",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

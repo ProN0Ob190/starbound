@@ -63,7 +63,7 @@ function aimAt(targetPosition)
   local armTipPosition = entity.toAbsolutePosition(armTipOffset)
   local armVector = vec2.rotate(world.distance(armTipPosition, armBasePosition), aimAngle * entity.facingDirection())
 
-  armTipPosition = vec2.add(vec2.dup(armBasePosition), armVector)
+  armTipPosition = vec2.add(armBasePosition, armVector)
   armTipOffset = world.distance(armTipPosition, entity.position())
   armTipOffset[1] = armTipOffset[1] * entity.facingDirection()
   entity.setFireDirection(armTipOffset, armVector)

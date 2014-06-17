@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "The giant pauldrons on this Violium armour show that the wearer means business.",
   "shortdescription" : "Frontliner's Breastplate",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

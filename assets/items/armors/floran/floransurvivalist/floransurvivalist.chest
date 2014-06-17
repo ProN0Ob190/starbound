@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Clean leather from dead stuff.",
   "shortdescription" : "Floran Survivalist Chest",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

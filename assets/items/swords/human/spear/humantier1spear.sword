@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Basic Spear. A spear which is basic.",
   "shortdescription" : "Basic Spear",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "humantier1spear.png",

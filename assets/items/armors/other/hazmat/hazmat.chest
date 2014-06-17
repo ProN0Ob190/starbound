@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "A hazmat shirt.",
   "shortdescription" : "Hazmat Shirt",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chest.png",

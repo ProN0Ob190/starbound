@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Sapsplitter. A sword so heavy it can split... saplings? Great.",
   "shortdescription" : "Sapsplitter",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "humantier8shortsword.png",

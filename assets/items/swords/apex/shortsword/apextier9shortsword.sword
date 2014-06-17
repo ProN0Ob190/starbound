@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Mandrill. A grooved, curved sword.",
   "shortdescription" : "Mandrill",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "apextier9shortsword.png",

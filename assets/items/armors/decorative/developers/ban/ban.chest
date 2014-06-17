@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "No staring.",
   "shortdescription" : "Ban's chest",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

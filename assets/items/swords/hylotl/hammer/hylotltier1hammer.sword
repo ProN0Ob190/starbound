@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Rockstriker. A simple hammer.",
   "shortdescription" : "Rockstriker",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "hylotltier1hammer.png",

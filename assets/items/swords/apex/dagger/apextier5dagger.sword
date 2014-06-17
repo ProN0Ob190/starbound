@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Toothpick. For picking teeth, or stabbing people.",
   "shortdescription" : "Toothpick",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "apextier5dagger.png",

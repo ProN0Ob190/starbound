@@ -1,7 +1,6 @@
 {
   "objectName" : "pirateflag",
   "rarity" : "Common",
-  "objectType" : "wire",
   "description" : "Pirate a pirate! Sort of!",
   "shortdescription" : "Pirate Spawner",
   "race" : "human",

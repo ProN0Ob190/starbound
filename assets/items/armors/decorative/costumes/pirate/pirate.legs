@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Pirate pants, with holes for legs (peg or otherwise).",
   "shortdescription" : "Pirate Pants",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

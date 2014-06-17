@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "The Nibbler. A tiny dagger that feels like a nibble.",
   "shortdescription" : "The Nibbler",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "aviantier2dagger.png",

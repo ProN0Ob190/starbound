@@ -1,7 +1,6 @@
 {
   "objectName" : "slidingdoor",
   "rarity" : "Common",
-  "objectType" : "wire",
 
   "category" : "door",
   "price" : 1500,

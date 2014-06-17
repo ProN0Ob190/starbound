@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Class Axe. A stylish, practical axe.",
   "shortdescription" : "Class Axe",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "humantier4axe.png",

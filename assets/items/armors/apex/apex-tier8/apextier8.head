@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A Violium-plated helmet which is downright terrifying to all that dare oppose you.",
   "shortdescription" : "Frontliner's Helm",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

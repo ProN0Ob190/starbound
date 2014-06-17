@@ -4,8 +4,8 @@
     "species" : "dummy",
     "rules" : [
     ],
-    "anchor" : [ "entrance1", "entrance2a", "entrance2b", "entrance2c", "entrance3", "entrance4a", "entrance4b", "entrance5", "entrance6" ],
-    "gravity" : 80,
+    "anchor" : [ "entrance1", "entrance2a", "entrance2b", "entrance2c", "entrance3", "entrance5", "entrance6" ],
+    // "gravity" : 80,
     "maxRadius" : 2000,
     "maxParts" : 15
   },
@@ -468,6 +468,22 @@
           {
             "kind" : "monster",
             "typeName" : "tallbiped",
+            "seed" : "stable",
+            "parameters" : {
+              "aggressive" : true,
+              "persistent" : true
+            }
+          }
+        ] ]
+    },
+	
+	{
+      "value" : [173, 0, 179, 255],
+      "comment" : "tallbiped miniboss npc",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "monster",
+            "typeName" : "cavestarterboss",
             "seed" : "stable",
             "parameters" : {
               "aggressive" : true,

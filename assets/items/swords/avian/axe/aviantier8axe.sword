@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "The Poliwanta Cleankill. A lethal, sharp axe with beautiful plumage.",
   "shortdescription" : "The Poliwanta Cleankill",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "aviantier8axe.png",

@@ -1,5 +1,6 @@
 {
   "name" : "colourful",
+  "friendlyName" : "Colourful",
 
   "surfaceParameters" : {
     "mainBlock" : "sand2",
@@ -88,5 +89,3 @@
     }
   }
 }
-
-

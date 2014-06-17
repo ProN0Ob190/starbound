@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "My hat, it has three corners, three corners has my hat!",
   "shortdescription" : "Tricorne Hat",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "These pants are a little stiff, but really finish off the robotic look.",
   "shortdescription" : "Adventurer's Pants",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

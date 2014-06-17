@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "The floran shaman is said to channel the words of the sun.",
   "shortdescription" : "Shaman's Mask",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

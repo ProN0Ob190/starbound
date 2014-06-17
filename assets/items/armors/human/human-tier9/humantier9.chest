@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "The trailblazer's Rubium chestpiece is built for adventure.",
   "shortdescription" : "Trailblazer's Chestpiece",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

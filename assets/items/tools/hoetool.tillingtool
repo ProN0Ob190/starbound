@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "A hoe. Time for some gardening.",
   "shortdescription" : "Hoe",
-  "inspectionKind" : "tool",
+  "tooltipKind" : "tool",
   "largeImage" : "stonehoebig.png",
   "image" : "hoetool.png",
   "handPosition" : [-7, -15],

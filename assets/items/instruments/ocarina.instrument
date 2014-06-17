@@ -8,7 +8,7 @@
   "shortdescription" : "Ocarina",
   "largeImage" : "ocarina.png",
   "image" : "ocarina.png",
-  "inspectionKind" : "tool",
+  "tooltipKind" : "tool",
   "activeImage" : "ocarina.png",
   "activeAngle" : 6,
   "activeHandPosition" : [-0.4, 0.2],

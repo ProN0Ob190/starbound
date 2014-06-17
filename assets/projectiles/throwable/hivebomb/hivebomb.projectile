@@ -2,7 +2,6 @@
   "projectileName" : "hivebomb",
   "frames" : "hivebomb.png",
   "animationCycle" : 0.35,
-  "level" : 3,
   "physics" : "grenade",
   "frameNumber" : 4,
   "pointLight" : false,

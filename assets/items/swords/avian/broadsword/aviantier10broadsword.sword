@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Wing of Kluex. A lethal, powerful broadsword.",
   "shortdescription" : "Wing of Kluex",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "aviantier10broadsword.png",

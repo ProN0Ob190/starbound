@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Cogsmasher. Suitable for heavy machine-work.",
   "shortdescription" : "Cogsmasher",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "glitchtier5axe.png",

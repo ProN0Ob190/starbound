@@ -17,6 +17,7 @@
   "projectile" : {
     "speed" : 60,
     "life" : 3,
+    "power" : 1,
     "color" : [255, 10, 10]
   },
 
@@ -25,5 +26,9 @@
       { "file" : "/sfx/gun/rocket_shot.wav" },
       { "file" : "/sfx/gun/rocket_fly.wav" }
     ]
-  }
+  },
+
+  "scripts" : [
+    "/items/guns/test/test.lua"
+  ]
 }

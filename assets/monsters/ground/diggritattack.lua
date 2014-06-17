@@ -2,13 +2,12 @@ digGritAttack = {
   minDistance = 3,
   maxDistance = 9,
   maxMoveInRangeTime = 3,
-  digTime = 2,
-  fireTime = 0.2,
+  digTime = 2
 }
 
 --------------------------------------------------------------------------------
 function digGritAttack.enter()
-  if not canStartAttack() then return nil end
+  if not canStartSkill("digGritAttack") then return nil end
 
   return { run = coroutine.wrap(digGritAttack.run) }
 end
@@ -23,32 +22,28 @@ end
 
 --------------------------------------------------------------------------------
 function digGritAttack.update(dt, stateData)
-  if not canContinueAttack() then return true end
+  if not canContinueSkill() then return true end
 
   return stateData.run(stateData)
 end
 
 --------------------------------------------------------------------------------
 function digGritAttack.run(stateData)
-  local targetPosition = world.entityPosition(self.target)
-
-  if not digGritAttack.moveInRange(targetPosition) then
-    return true
-  end
-
   entity.setAnimationState("movement", "run")
 
-  local feetOffset = entity.configParameter("metaBoundBox")[2]
+  local feetOffset = entity.boundBox()[2]
 
-  local timer, projectileTimer = digGritAttack.digTime, digGritAttack.fireTime
+  local timer, projectileTimer = digGritAttack.digTime, entity.configParameter("digGritAttack.fireInterval")
   while timer > 0 do
-    targetPosition = world.entityPosition(self.target)
-    local toTarget = world.distance(targetPosition, entity.position())
-    entity.setFacingDirection(-toTarget[1])
+    entity.setFacingDirection(-self.toTarget[1])
 
     if projectileTimer < 0 then
-      world.spawnProjectile("rock", vec2.add(entity.position(), { 0, feetOffset }), entity.id(), toTarget, false, {
-        speed = 20,
+      local sourcePosition = vec2.add(entity.position(), { 0, entity.boundBox()[2] + 0.5})
+      local toTarget = world.distance(world.entityPosition(self.target), sourcePosition)
+      local fireVector = util.aimVector(toTarget, entity.configParameter("digGritAttack.speed"), root.projectileGravityMultiplier("rock"), true)
+      world.spawnProjectile("rock", sourcePosition, entity.id(), fireVector, false, {
+        speed = entity.configParameter("digGritAttack.speed"),
+        power = root.evalFunction("monsterLevelPowerMultiplier", entity.level()) * entity.configParameter("digGritAttack.power"),
         physics = "bullet",
         actionOnReap = {
           {
@@ -60,7 +55,7 @@ function digGritAttack.run(stateData)
           }
         }
       })
-      projectileTimer = digGritAttack.fireTime
+      projectileTimer = entity.configParameter("digGritAttack.fireInterval")
     end
 
     local dt = entity.dt()
@@ -71,27 +66,6 @@ function digGritAttack.run(stateData)
   end
 
   return true
-end
-
---------------------------------------------------------------------------------
-function digGritAttack.moveInRange(targetPosition)
-  local timer = digGritAttack.maxMoveInRangeTime
-  while timer > 0 do
-    local toTarget = world.distance(targetPosition, entity.position())
-    local distance = world.magnitude(toTarget)
-    if distance < digGritAttack.minDistance then
-      move({ -toTarget[1], -toTarget[2] })
-    elseif distance > digGritAttack.maxDistance then
-      move(toTarget)
-    else
-      return true
-    end
-
-    timer = timer - entity.dt()
-    coroutine.yield(false)
-  end
-
-  return false
 end
 
 --------------------------------------------------------------------------------

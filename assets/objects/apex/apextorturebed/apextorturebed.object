@@ -16,7 +16,6 @@
 
   "objectType" : "loungeable",
   "sitFlipDirection" : false,
-  "sitPosition" : [-10, 13.5],
   "sitOrientation" : "lay",
   "sitAngle" : 90,
   "sitStatusEffects" : [
@@ -27,14 +26,27 @@
   "inventoryIcon" : "apextorturebedicon.png",
   "orientations" : [
     {
-      "dualImage" : "apextorturebed.png:<color>",
+      "image" : "apextorturebed.png:<color>",
       "imagePosition" : [-23, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
+	  "flipImages" : true,
+	  "direction" : "left",
+	  "sitPosition" : [-8, 13],
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
+    },
+	{
+      "image" : "apextorturebed.png:<color>",
+      "imagePosition" : [-23, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+	  "direction" : "right",
+	  "sitPosition" : [-8, 13],
 
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
     }
   ]
 }

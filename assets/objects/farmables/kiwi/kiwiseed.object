@@ -6,6 +6,7 @@
   "shortdescription" : "kiwi Seed",
   "objectType" : "farmable",
   "printable" : false,
+  "price" : 100,
 
   "apexDescription" : "The kiwi's fur feels similar to that of an Apex.",
   "avianDescription" : "A weird fuzzy fruit, filled with delicious seeds.",
@@ -65,12 +66,12 @@
   },
   "growing" : {
     "0" : {
-      "duration" : [300, 420],
+      "duration" : [450, 450],
       "success" : 1,
       "failure" : 3
     },
     "1" : {
-      "duration" : [300, 420],
+      "duration" : [450, 450],
       "success" : 2,
       "failure" : 3
     }

@@ -2,7 +2,6 @@
   "projectileName" : "vsmallregularexplosion",
   "frames" : "vsmallregularexplosion.png",
   "animationCycle" : 0.2,
-  "level" : 3,
   "frameNumber" : 6,
   "speed" : 0,
   "fallSpeed" : 0,

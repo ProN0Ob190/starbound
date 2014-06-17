@@ -2,7 +2,6 @@
   "projectileName" : "flyswarm",
   "frames" : "flyswarm.png",
   "physics" : "flame",
-  "level" : 3,
   "animationCycle" : 1,
   "damageKindImage" : "icon.png",
   "frameNumber" : 18,

@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "The Unsubtle Knife. A large, hard-to-conceal dagger.",
   "shortdescription" : "The Unsubtle Knife",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "humantier9dagger.png",

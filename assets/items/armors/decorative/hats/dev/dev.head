@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Hard Hat. It's Hard. And a hat.",
   "shortdescription" : "Hard Hat",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

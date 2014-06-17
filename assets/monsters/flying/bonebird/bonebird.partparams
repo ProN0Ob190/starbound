@@ -6,9 +6,5 @@
     "projectileOffset" : [ "override", [0.0, 0.0] ]
   },
 
-  "partParameters" : {
-    "bonebird" : {  // wings
-      "specialSkills" : [ "flyingSwoopAttack" ]
-    }
-  }
+  "partParameters" : { }
 }

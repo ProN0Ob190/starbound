@@ -2,7 +2,6 @@
   "projectileName" : "fireswirl",
   "frames" : "fireswirl.png",
   "animationCycle" : 1,
-  "level" : 3,
   "frameNumber" : 23,
   "damageKindImage" : "icon.png",
   "physics" : "boomerang",

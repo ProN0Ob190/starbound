@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Sea Cucumber. A spiked cylindrical mace.",
   "shortdescription" : "Sea Cucumber",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "hylotltier7hammer.png",

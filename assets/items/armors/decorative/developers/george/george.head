@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "Some sexy glasses that belong to George. Can you handle them!?",
   "shortdescription" : "George's Foxy Glasses",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

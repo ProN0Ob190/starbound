@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "When the floran sentinel's march it sounds like a thunderstorm.",
   "shortdescription" : "Sentinel's Shorts",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

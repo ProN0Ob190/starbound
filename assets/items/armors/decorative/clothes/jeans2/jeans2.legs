@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Jeans, well used but still useable.",
   "shortdescription" : "Ripped Jeans",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

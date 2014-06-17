@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "A crown for the Glitch in power.",
   "shortdescription" : "Crown",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

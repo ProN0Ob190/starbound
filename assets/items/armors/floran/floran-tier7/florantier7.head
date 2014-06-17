@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "As with much of Floran technology, the gatherer's helm is built from the tech of fallen foes.",
   "shortdescription" : "Gatherer's Helm",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

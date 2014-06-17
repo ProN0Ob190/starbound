@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Curvy Slice. A curved dagger.",
   "shortdescription" : "Curvy Slice",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "florantier1dagger.png",

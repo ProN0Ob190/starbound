@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Poke. A good spear.",
   "shortdescription" : "Poke",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "glitchtier3spear.png",

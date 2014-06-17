@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "It's fluffy and powdered, but probably don't eat it.",
   "shortdescription" : "Very Subtle Wig",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

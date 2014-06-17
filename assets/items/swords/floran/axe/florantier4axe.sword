@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Chop Stick. An axe attached to a strong stick.",
   "shortdescription" : "Chop Stick",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Axe",
 
   "image" : "florantier4axe.png",

@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Thornbill. A little hooked dagger.",
   "shortdescription" : "Thornbill",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Dagger",
 
   "image" : "aviantier8dagger.png",

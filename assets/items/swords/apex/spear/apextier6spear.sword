@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "See No Evil. A trident-like spear.",
   "shortdescription" : "See No Evil",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Spear",
 
   "image" : "apextier6spear.png",

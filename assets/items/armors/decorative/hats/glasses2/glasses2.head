@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "description" : "Look like a real english gentleman.",
   "shortdescription" : "Monocle",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
