@@ -141,15 +141,15 @@ end
 
 attack.update = function(dt, stateData)
   if not targetInRange() then
-    entity.stopFiring()
+    -- entity.stopFiring()
     setAnimation("idle")
     return true
   end
 
   if aimAt(self.targetPosition) then
-    entity.startFiring(entity.configParameter("projectileType"))
+    -- entity.startFiring(entity.configParameter("projectileType"))
   else
-    entity.stopFiring()
+    -- entity.stopFiring()
   end
 
   return false

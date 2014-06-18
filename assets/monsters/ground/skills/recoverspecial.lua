@@ -4,7 +4,7 @@ function recoverSpecial.enter()
   if self.skillCooldownTimers["recoverSpecial"] <= 0 then
     local healthFraction = entity.health() / entity.maxHealth()
     if healthFraction <= entity.configParameter("recoverSpecial.triggerHealthFraction") then
-      return { healthPerSecond = (entity.maxHealth() - entity.health()) / entity.configParameter("recoverSpecial.skillTimeLimit") }
+      return { healthPerSecond = (entity.maxHealth() * entity.configParameter("recoverSpecial.recoverHealthFraction")) / entity.configParameter("recoverSpecial.skillTimeLimit") }
     end
   end
 
@@ -14,7 +14,7 @@ end
 function recoverSpecial.enterWith(args)
   if not args.recoverSpecial then return nil end
 
-  return { healthPerSecond = (entity.maxHealth() - entity.health()) / entity.configParameter("recoverSpecial.skillTimeLimit") }
+  return { healthPerSecond = (entity.maxHealth() * entity.configParameter("recoverSpecial.recoverHealthFraction")) / entity.configParameter("recoverSpecial.skillTimeLimit") }
 end
 
 function recoverSpecial.enteringState(stateData)

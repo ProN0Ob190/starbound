@@ -4,7 +4,7 @@
   "image" : "/monsters/ground/skills/icon.png",
 
   "parameters" : {
-    "scripts" : [ "/monsters/ground/digGritAttack.lua" ],
+    "scripts" : [ "/monsters/ground/skills/digGritAttack.lua" ],
     "digGritAttack" : {
       "skillTimeLimit" : 5.0,
       "cooldownTime" : 5.0,

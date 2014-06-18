@@ -128,14 +128,21 @@
           "/monsters/flying/skills/createFlyingRangedAttack.lua",
           "/monsters/flying/circleState.lua",
           "/monsters/flying/wanderState.lua",
-          "/monsters/flying/glideState.lua",
-          "/monsters/flying/landState.lua"
+          "/monsters/flying/landState.lua" ,
+          "/monsters/flying/turnState.lua"
         ],
 
-        "wanderLiftSpeed" : 0.0,
+        "wanderRiseSpeed" : 0.9,
+        "wanderRiseTimeRange" : [0.5, 2.0],
+        "wanderGlideSpeed" : 0.6,
+        "wanderGlideTimeRange" : [1.0, 4.0],
         "wanderFormationOffset" : 2.0,
-        "wanderSpeedMultiplier" : 0.25,
+        "wanderSpeedMultiplier" : 0.4,
+        "wanderEndChance" : 0.2,
 
+        "turnTime" : 1.0,
+        "turnTiltRatio" : 0.5,
+        
         "circleWidthRange" : [8.0, 12.0],
         "circleHeight" : 1.0,
         "circleOffsetYRange" : [8.0, 14.0],

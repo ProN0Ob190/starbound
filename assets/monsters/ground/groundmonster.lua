@@ -74,6 +74,11 @@ function init()
 
     self.skillParameters[skillName] = loadSkillParameters(skillName)
     self.skillCooldownTimers[skillName] = 0
+
+    --run skill onInit hooks
+    if type(_ENV[skillName].onInit) == "function" then
+      _ENV[skillName].onInit()
+    end
   end
 
   self.skillChains = {}
@@ -163,38 +168,40 @@ function damage(args)
     return
   end
 
-  --execute skill hooks
+  --execute skill onDamage hooks
   for skillName, params in pairs(self.skillParameters) do
     if type(_ENV[skillName].onDamage) == "function" then
       _ENV[skillName].onDamage(args)
     end
   end
 
-  if args.sourceId ~= self.target and args.sourceId ~= 0 then setTarget(args.sourceId) end
+  if args.damage > 0 then
+    if args.sourceId ~= self.target and args.sourceId ~= 0 then setTarget(args.sourceId) end
 
-  if self.painSoundTimer <= 0 then
-    entity.playSound(entity.randomizeParameter("painNoise"))
-    self.painSoundTimer = entity.configParameter("painSoundTimer")
-  end
-
-  if entity.health() <= 0 then
-    if self.state.pickState({ knockout = true }) then
-      world.callScriptedEntity(args.sourceId, "monsterKilled", entity.id())
+    if self.painSoundTimer <= 0 then
+      entity.playSound(entity.randomizeParameter("painNoise"))
+      self.painSoundTimer = entity.configParameter("painSoundTimer")
     end
-  end
 
-  local entityId = entity.id()
-  local damageNotificationRegion = entity.configParameter("damageNotificationRegion", { -10, -4, 10, 4 })
-  world.monsterQuery(
-    vec2.add({ damageNotificationRegion[1], damageNotificationRegion[2] }, self.position),
-    vec2.add({ damageNotificationRegion[3], damageNotificationRegion[4] }, self.position),
-    {
-      withoutEntityId = entityId,
-      inSightOf = entityId,
-      callScript = "monsterDamaged",
-      callScriptArgs = { entityId, entity.seed(), args.sourceId }
-    }
-  )
+    if entity.health() <= 0 then
+      if self.state.pickState({ knockout = true }) then
+        world.callScriptedEntity(args.sourceId, "monsterKilled", entity.id())
+      end
+    end
+
+    local entityId = entity.id()
+    local damageNotificationRegion = entity.configParameter("damageNotificationRegion", { -10, -4, 10, 4 })
+    world.monsterQuery(
+      vec2.add({ damageNotificationRegion[1], damageNotificationRegion[2] }, self.position),
+      vec2.add({ damageNotificationRegion[3], damageNotificationRegion[4] }, self.position),
+      {
+        withoutEntityId = entityId,
+        inSightOf = entityId,
+        callScript = "monsterDamaged",
+        callScriptArgs = { entityId, entity.seed(), args.sourceId }
+      }
+    )
+  end
 end
 
 --------------------------------------------------------------------------------
@@ -240,7 +247,7 @@ function main()
   --don't automatically switch states in combat
   self.state.autoPickState = not hasTarget()
 
-  --execute skill hooks
+  --execute skill onUpdate hooks
   for skillName, params in pairs(self.skillParameters) do
     if type(_ENV[skillName].onUpdate) == "function" then
       _ENV[skillName].onUpdate(dt)

@@ -24,11 +24,11 @@ function init(args)
   })
 
   self.state.enteringState = function(stateName)
-    entity.setFireDirection(entity.configParameter("beamSourceOffset"), { 0, -1 })
+    -- entity.setFireDirection(entity.configParameter("beamSourceOffset"), { 0, -1 })
   end
 
   self.state.leavingState = function(stateName)
-    entity.stopFiring()
+    -- entity.stopFiring()
     self.state.moveStateToEnd(stateName)
   end
 
@@ -183,8 +183,8 @@ function smashBlockingTiles(position, targetPosition, direction, regions)
           region[1] + (region[3] - region[1]) / 2,
           region[2] + (region[4] - region[2]) / 2
         }
-        entity.setFireDirection(midpoint, direction)
-        entity.startFiring("blockbreaker")
+        -- entity.setFireDirection(midpoint, direction)
+        -- entity.startFiring("blockbreaker")
         break
       end
     end
@@ -202,7 +202,7 @@ moveState.enter = function()
 end
 
 moveState.update = function(dt, stateData)
-  entity.stopFiring()
+  -- entity.stopFiring()
 
   stateData.timer = stateData.timer + dt
 
@@ -268,7 +268,7 @@ end
 pulseCannonAttack.update = function(dt, stateData)
   local position = entity.position()
 
-  if not entity.isFiring() then
+  if false then --not entity.isFiring() then
     if stateData.teleport then
       self.teleportState.pickState()
       stateData.teleport = false
@@ -276,13 +276,13 @@ pulseCannonAttack.update = function(dt, stateData)
     end
 
     if flyToTargetYOffsetRange({ position[1], self.targetPosition[2] }) then
-      entity.startFiring("pulsecannon", true)
+      -- entity.startFiring("pulsecannon", true)
     else
       return false
     end
   end
 
-  if entity.isFiring() then
+  if false then --entity.isFiring() then
     -- Change direction if stuck, or too far away
     if stateData.lastPosition ~= nil and world.magnitude(world.distance(position, stateData.lastPosition)) < 0.01 then
       stateData.deltaX = -stateData.deltaX
@@ -395,13 +395,13 @@ spawnReinforcementsAttack.update = function(dt, stateData)
   if math.abs(1.0 - math.abs(sinAngle)) < 0.1 then
     local percent = math.random(100)
     if percent > 90 then
-      entity.startFiring("tankspawn", true)
+      -- entity.startFiring("tankspawn", true)
     elseif percent > 60 then
-      entity.startFiring("generalspawn", true)
+      -- entity.startFiring("generalspawn", true)
     elseif percent > 30 then
-      entity.startFiring("rockettrooperspawn", true)
+      -- entity.startFiring("rockettrooperspawn", true)
     else
-      entity.startFiring("trooperspawn", true)
+      -- entity.startFiring("trooperspawn", true)
     end
 
     entity.fly({ 0, 0 }, true)
@@ -437,7 +437,7 @@ slamAttack.enter = function()
 end
 
 slamAttack.update = function(dt, stateData)
-  entity.stopFiring()
+  -- entity.stopFiring()
 
   local position = entity.position()
 
@@ -469,12 +469,12 @@ slamAttack.update = function(dt, stateData)
     return true
   end
 
-  if self.targetPosition ~= nil and not entity.isFiring() then
+  if self.targetPosition ~= nil then -- and not entity.isFiring() then
     -- Smash through any attempts at blocking off the target
     smashBlockingTiles(position, self.targetPosition, { 0, -1 }, entity.configParameter("slamAttackBlockedRegions"))
   end
 
-  if entity.onGround() and not entity.isFiring() then
+  if entity.onGround() then -- and not entity.isFiring() then
     entity.setDamageOnTouch(false)
     return true
   else
@@ -532,8 +532,8 @@ dieState.enterWith = function(params)
 
   self.teleportState.endState()
 
-  entity.stopFiring()
-  entity.startFiring("deathexplosion")
+  -- entity.stopFiring()
+  -- entity.startFiring("deathexplosion")
 
   return {
     timer = 6.0,
@@ -579,7 +579,7 @@ dieState.update = function(dt, stateData)
     local explosionAngle = math.random() * math.pi * 2.0
     local explosionOffset = { math.cos(explosionAngle) * 16.0, math.sin(explosionAngle) * 3.0 }
     local explosionPosition = vec2.rotate(explosionOffset, -entity.currentRotationAngle("all"))
-    entity.setFireDirection(explosionPosition, {1, 0})
+    -- entity.setFireDirection(explosionPosition, {1, 0})
   end
 
   stateData.timer = stateData.timer - dt

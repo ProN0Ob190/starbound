@@ -309,8 +309,8 @@ function smashAttack.update(dt, stateData)
     end
 
     if world.rectCollision(bounds) then
-      entity.setFireDirection(smashAttack.explosionOffset, { 0, 0 })
-      entity.startFiring("crashexplosion")
+      -- entity.setFireDirection(smashAttack.explosionOffset, { 0, 0 })
+      -- entity.startFiring("crashexplosion")
       stateData.landed = true
     end
   end
@@ -319,7 +319,7 @@ function smashAttack.update(dt, stateData)
 end
 
 function smashAttack.leavingState(stateData)
-  entity.stopFiring()
+  -- entity.stopFiring()
   entity.setAnimationState("flames", "hidden")
 end
 
@@ -349,8 +349,8 @@ end
 
 function rangedAttack.enteringState(stateData)
   local fireOffset = closestCraterOffset(stateData.targetPosition)
-  entity.setFireDirection(fireOffset, vec2.norm(fireOffset))
-  entity.startFiring("meteor")
+  -- entity.setFireDirection(fireOffset, vec2.norm(fireOffset))
+  -- entity.startFiring("meteor")
 end
 
 function rangedAttack.update(dt, stateData)
@@ -361,7 +361,7 @@ function rangedAttack.update(dt, stateData)
 end
 
 function rangedAttack.leavingState(stateData)
-  entity.stopFiring()
+  -- entity.stopFiring()
 end
 
 --------------------------------------------------------------------------------

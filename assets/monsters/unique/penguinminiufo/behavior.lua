@@ -35,9 +35,9 @@ function main()
 
   if self.targetPosition ~= nil then
     entity.setFireDirection({0,0}, world.distance(self.targetPosition, entity.position()))
-    entity.startFiring("plasmabullet")
+    -- entity.startFiring("plasmabullet")
   else
-    entity.stopFiring()
+    -- entity.stopFiring()
   end
 end
 

@@ -4,7 +4,7 @@
   "image" : "/monsters/ground/skills/icon.png",
 
   "parameters" : {
-    "scripts" : [ "/monsters/ground/stompAttack.lua" ],
+    "scripts" : [ "/monsters/ground/skills/stompAttack.lua" ],
     "stompAttack" : {
       "skillTimeLimit" : 5,
       "cooldownTime" : 3,

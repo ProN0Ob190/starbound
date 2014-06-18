@@ -4,7 +4,7 @@
   "image" : "/monsters/flying/skills/default.png",
 
   "parameters" : {
-    "scripts" : [ "/monsters/ground/staticProjectileAttack.lua" ],
+    "scripts" : [ "/monsters/ground/skills/staticProjectileAttack.lua" ],
     "staticProjectile" : [ "staticFireball" ],
     "staticSkillName" : "staticFireball",
     "staticProjectileHoldTime" : 2.0,

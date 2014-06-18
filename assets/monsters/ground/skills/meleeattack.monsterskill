@@ -4,7 +4,7 @@
   "image" : "/monsters/flying/skills/default.png",
 
   "parameters" : {
-    "scripts" : [ "/monsters/ground/meleeAttack.lua" ],
+    "scripts" : [ "/monsters/ground/skills/meleeAttack.lua" ],
     "meleeAttack" : {
       "skillTimeLimit" : 0.75,
       "cooldownTime" : 0.5,

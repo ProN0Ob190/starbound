@@ -4,7 +4,7 @@
   "image" : "/monsters/flying/skills/default.png",
 
   "parameters" : {
-    "scripts" : [ "/monsters/ground/rushAttack.lua" ],
+    "scripts" : [ "/monsters/ground/skills/rushAttack.lua" ],
     "rushAttack" : {
       "skillTimeLimit" : 0.8,
       "cooldownTime" : 0.0,

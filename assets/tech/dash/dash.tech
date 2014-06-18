@@ -6,6 +6,6 @@
   "maximumDoubleTapTime" : 0.2,
   "dashControlForce" : 600,
   "dashSpeed" : 40,
-  "dashDuration" : 0.3,
+  "dashDuration" : 0.17,
   "energyUsage" : 35.0
 }

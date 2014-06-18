@@ -1,8 +1,8 @@
 {
-  "name" : "asteroidfield",
+  "name" : "outpost",
   "friendlyName" : "Asteroid Field",
   "barren" : true,
-  "requiredStatuses" : [ "beamaxe", "breathProtection" ],
+  "requiredStatuses" : [ "beamaxe" ],
 
   "hueShiftOptions" : [-180, -25, 25],
   "skyOptions" : [
@@ -25,7 +25,6 @@
   "surfaceParameters" : {
     "mainBlock" : "meteoriterock",
     "subBlocks" : [ "magmarock", "rock19" ],
-    "ores" : "depth3",
 
     "parallax" : "asteroidfield.parallax",
     "undergroundParallax" : "moon.undergroundparallax",
@@ -83,20 +82,6 @@
       "night" : {
         "tracks" : [ "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-Disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/M54.ogg", "/music/Nomads.ogg", "/music/on-the-beach-at-night.ogg" ]
       }
-    },
-
-    "surfacePlaceables" : {
-      "grassMod" : [ "sand" ],
-      "grassModDensity" : 0.0,
-      "items" : [ {
-          "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:randomEncounter",
-
-          "type" : "microdungeon",
-          "microdungeons" : [ "asteroidencounter" ]
-        } ]
     },
 
     "undergroundPlaceables" : { }

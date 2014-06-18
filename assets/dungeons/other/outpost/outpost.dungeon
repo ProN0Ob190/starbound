@@ -279,10 +279,17 @@
       "rules" : [ [ "allowOverdrawing" ] ],
       "brush" : [ [ "clear" ], [ "back", "outpostsupport" ], [ "front", "outpostsupport" ] ]
     },
-
-    {
+	
+	{
       "value" : [98, 166, 65, 255],
       "comment" : "background outpost",
+      "brush" : [ [ "clear" ], [ "back", "outpost" ] ]
+    },
+
+    {
+      "value" : [76, 128, 50, 255],
+      "comment" : "background outpost overwritable",
+      "rules" : [ [ "allowOverdrawing" ] ],
       "brush" : [ [ "clear" ], [ "back", "outpost" ] ]
     },
 
@@ -293,15 +300,28 @@
     },
 
     {
+      "value" : [106, 179, 70, 255],
+      "comment" : "foreground outpost overwritable",
+      "rules" : [ [ "allowOverdrawing" ] ],
+      "brush" : [ [ "clear" ], [ "back", "outpost" ], [ "front", "outpost" ] ]
+    },
+
+    {
       "value" : [166, 89, 65, 255],
       "comment" : "background heavypipe",
       "rules" : [ [ "allowOverdrawing" ] ],
       "brush" : [ [ "clear" ], [ "back", "heavypipe" ] ]
     },
-
-    {
+	
+	{
       "value" : [217, 115, 85, 255],
       "comment" : "foreground heavypipe",
+      "brush" : [ [ "clear" ], [ "back", "heavypipe" ], [ "front", "heavypipe" ] ]
+    },
+
+    {
+      "value" : [191, 102, 75, 255],
+      "comment" : "foreground heavypipe only",
       "brush" : [ [ "clear" ], [ "front", "heavypipe" ] ]
     },
 
@@ -315,6 +335,12 @@
     {
       "value" : [153, 85, 217, 255],
       "comment" : "foreground hazard",
+      "brush" : [ [ "clear" ], [ "back", "hazard" ], [ "front", "hazard" ] ]
+    },
+
+    {
+      "value" : [135, 75, 191, 255],
+      "comment" : "foreground hazard only",
       "brush" : [ [ "clear" ], [ "front", "hazard" ] ]
     },
 
@@ -686,207 +712,219 @@
     },
 	
 	{
-      "value" : [110, 26, 255, 255],
+      "value" : [156, 26, 255, 255],
       "comment" : "outpostlocker facing left",
       "brush" : [ [ "clear" ], [ "object", "outpostlocker", { "direction" : "left" } ] ]
     },
 
     {
-      "value" : [104, 24, 242, 255],
+      "value" : [148, 24, 242, 255],
       "comment" : "outpostlocker facing right",
       "brush" : [ [ "clear" ], [ "object", "outpostlocker", { "direction" : "right" } ] ]
     },
 	
 	{
-      "value" : [117, 26, 255, 255],
+      "value" : [255, 162, 0, 255],
       "comment" : "outpostmicrowave facing left",
       "brush" : [ [ "clear" ], [ "object", "outpostmicrowave", { "direction" : "left" } ] ]
     },
 
     {
-      "value" : [111, 24, 242, 255],
+      "value" : [242, 153, 0, 255],
       "comment" : "outpostmicrowave facing right",
       "brush" : [ [ "clear" ], [ "object", "outpostmicrowave", { "direction" : "right" } ] ]
     },
 	
 	{
-      "value" : [125, 26, 255, 255],
+      "value" : [255, 166, 0, 255],
       "comment" : "outpostmonitor facing left",
       "brush" : [ [ "clear" ], [ "object", "outpostmonitor", { "direction" : "left" } ] ]
     },
 
     {
-      "value" : [119, 24, 242, 255],
+      "value" : [242, 157, 0, 255],
       "comment" : "outpostmonitor facing right",
       "brush" : [ [ "clear" ], [ "object", "outpostmonitor", { "direction" : "right" } ] ]
     },
 	
 	{
-      "value" : [255, 217, 26, 255],
+      "value" : [255, 170, 0, 255],
       "comment" : "outpostpc facing left",
       "brush" : [ [ "clear" ], [ "object", "outpostpc", { "direction" : "left" } ] ]
     },
 
     {
-      "value" : [242, 206, 24, 255],
+      "value" : [242, 162, 0, 255],
       "comment" : "outpostpc facing right",
       "brush" : [ [ "clear" ], [ "object", "outpostpc", { "direction" : "right" } ] ]
     },
 	
 	{
-      "value" : [26, 255, 232, 255],
+      "value" : [26, 255, 240, 255],
       "comment" : "outpostpublicchair facing left",
       "brush" : [ [ "clear" ], [ "object", "outpostpublicchair", { "direction" : "left" } ] ]
     },
 
     {
-      "value" : [24, 242, 220, 255],
+      "value" : [24, 242, 228, 255],
       "comment" : "outpostpublicchair facing right",
       "brush" : [ [ "clear" ], [ "object", "outpostpublicchair", { "direction" : "right" } ] ]
     },
 	
 	{
-      "value" : [255, 149, 0, 255],
+      "value" : [229, 77, 0, 255],
       "comment" : "outpostradardish facing left",
       "brush" : [ [ "clear" ], [ "object", "outpostradardish", { "direction" : "left" } ] ]
     },
 
     {
-      "value" : [242, 141, 0, 255],
+      "value" : [217, 72, 0, 255],
       "comment" : "outpostradardish facing right",
       "brush" : [ [ "clear" ], [ "object", "outpostradardish", { "direction" : "right" } ] ]
     },
 	
 	{
-      "value" : [255, 153, 0, 255],
+      "value" : [229, 80, 0, 255],
       "comment" : "outpostsecurityconsole facing left",
       "brush" : [ [ "clear" ], [ "object", "outpostsecurityconsole", { "direction" : "left" } ] ]
     },
 
     {
-      "value" : [242, 145, 0, 255],
+      "value" : [217, 76, 0, 255],
       "comment" : "outpostsecurityconsole facing right",
       "brush" : [ [ "clear" ], [ "object", "outpostsecurityconsole", { "direction" : "right" } ] ]
     },
 	
 	{
-      "value" : [133, 26, 255, 255],
+      "value" : [229, 84, 0, 255],
       "comment" : "outpostservicepanel facing left",
       "brush" : [ [ "clear" ], [ "object", "outpostservicepanel", { "direction" : "left" } ] ]
     },
 
     {
-      "value" : [126, 24, 242, 255],
+      "value" : [217, 79, 0, 255],
       "comment" : "outpostservicepanel facing right",
       "brush" : [ [ "clear" ], [ "object", "outpostservicepanel", { "direction" : "right" } ] ]
     },
 	
 	{
-      "value" : [140, 26, 255, 255],
+      "value" : [229, 88, 0, 255],
       "comment" : "outpostsmallmonitor facing left",
       "brush" : [ [ "clear" ], [ "object", "outpostsmallmonitor", { "direction" : "left" } ] ]
     },
 
     {
-      "value" : [133, 24, 242, 255],
+      "value" : [217, 83, 0, 255],
       "comment" : "outpostsmallmonitor facing right",
       "brush" : [ [ "clear" ], [ "object", "outpostsmallmonitor", { "direction" : "right" } ] ]
     },
 	
 	{
-      "value" : [255, 157, 0, 255],
+      "value" : [26, 102, 255, 255],
       "comment" : "outpoststandingdesk facing left",
       "brush" : [ [ "clear" ], [ "object", "outpoststandingdesk", { "direction" : "left" } ] ]
     },
 
     {
-      "value" : [242, 149, 0, 255],
+      "value" : [24, 97, 242, 255],
       "comment" : "outpoststandingdesk facing right",
       "brush" : [ [ "clear" ], [ "object", "outpoststandingdesk", { "direction" : "right" } ] ]
     },
 	
 	{
-      "value" : [163, 255, 26, 255],
+      "value" : [26, 87, 255, 255],
       "comment" : "outposttable facing left",
       "brush" : [ [ "clear" ], [ "object", "outposttable", { "direction" : "left" } ] ]
     },
 
     {
-      "value" : [155, 242, 24, 255],
+      "value" : [24, 82, 242, 255],
       "comment" : "outposttable facing right",
       "brush" : [ [ "clear" ], [ "object", "outposttable", { "direction" : "right" } ] ]
     },
 	
 	{
-      "value" : [255, 224, 26, 255],
+      "value" : [229, 92, 0, 255],
       "comment" : "outposttank facing left",
       "brush" : [ [ "clear" ], [ "object", "outposttank", { "direction" : "left" } ] ]
     },
 
     {
-      "value" : [242, 213, 24, 255],
+      "value" : [217, 87, 0, 255],
       "comment" : "outposttank facing right",
       "brush" : [ [ "clear" ], [ "object", "outposttank", { "direction" : "right" } ] ]
     },
 	
 	{
-      "value" : [148, 26, 255, 255],
+      "value" : [229, 96, 0, 255],
       "comment" : "outpostterminal facing left",
       "brush" : [ [ "clear" ], [ "object", "outpostterminal", { "direction" : "left" } ] ]
     },
 
     {
-      "value" : [141, 24, 242, 255],
+      "value" : [217, 90, 0, 255],
       "comment" : "outpostterminal facing right",
       "brush" : [ [ "clear" ], [ "object", "outpostterminal", { "direction" : "right" } ] ]
     },
 	
 	{
-      "value" : [255, 157, 0, 255],
+      "value" : [229, 99, 0, 255],
       "comment" : "plasticplant facing left",
       "brush" : [ [ "clear" ], [ "object", "plasticplant", { "direction" : "left" } ] ]
     },
 
     {
-      "value" : [242, 149, 0, 255],
+      "value" : [217, 94, 0, 255],
       "comment" : "plasticplant facing right",
       "brush" : [ [ "clear" ], [ "object", "plasticplant", { "direction" : "right" } ] ]
     },
 	
 	{
-      "value" : [163, 255, 26, 255],
+      "value" : [26, 71, 255, 255],
       "comment" : "roofvent facing left",
       "brush" : [ [ "clear" ], [ "object", "roofvent", { "direction" : "left" } ] ]
     },
 
     {
-      "value" : [155, 242, 24, 255],
+      "value" : [24, 68, 242, 255],
       "comment" : "roofvent facing right",
       "brush" : [ [ "clear" ], [ "object", "roofvent", { "direction" : "right" } ] ]
     },
 	
 	{
-      "value" : [255, 224, 26, 255],
+      "value" : [229, 103, 0, 255],
       "comment" : "watercooler facing left",
       "brush" : [ [ "clear" ], [ "object", "watercooler", { "direction" : "left" } ] ]
     },
 
     {
-      "value" : [242, 213, 24, 255],
+      "value" : [217, 98, 0, 255],
       "comment" : "watercooler facing right",
       "brush" : [ [ "clear" ], [ "object", "watercooler", { "direction" : "right" } ] ]
     },
 	
 	{
-      "value" : [148, 26, 255, 255],
+      "value" : [179, 119, 89, 255],
       "comment" : "outpostairlock facing left",
       "brush" : [ [ "clear" ], [ "object", "outpostairlock", { "direction" : "left" } ] ]
     },
 
     {
-      "value" : [141, 24, 242, 255],
+      "value" : [166, 110, 83, 255],
       "comment" : "outpostairlock facing right",
       "brush" : [ [ "clear" ], [ "object", "outpostairlock", { "direction" : "right" } ] ]
+    },
+	
+	{
+      "value" : [179, 126, 89, 255],
+      "comment" : "outpostairlocklarge facing left",
+      "brush" : [ [ "clear" ], [ "object", "outpostairlocklarge", { "direction" : "left" } ] ]
+    },
+
+    {
+      "value" : [166, 117, 83, 255],
+      "comment" : "outpostairlocklarge facing right",
+      "brush" : [ [ "clear" ], [ "object", "outpostairlocklarge", { "direction" : "right" } ] ]
     },
 
     // NPC MONSTER SPAWN BRUSHES //
@@ -1192,9 +1230,42 @@
       "name" : "outpostbase1",
       "rules" : [
         [ "maxSpawnCount", [1] ]
-        // [ "doNotCombineWith", [ "castlebase2", "castlebase3", "castlebase4", "castlebase5" ] ]
       ],
-      "def" : [ "image", [ "outpostbase1.png", "outpostbase1-objects.png" ] ]
+      "def" : [ "image", [ "outpostbase1.png" ] ]
+    },
+	{
+      "name" : "roombase1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "image", [ "roombase1.png" ] ]
+    },
+	{
+      "name" : "roombase2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "image", [ "roombase2.png" ] ]
+    },
+	{
+      "name" : "roombase3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "image", [ "roombase3.png" ] ]
+    },
+	{
+      "name" : "roombase4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "image", [ "roombase4.png" ] ]
+    },{
+      "name" : "roombase5",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "image", [ "roombase5.png" ] ]
     }
   ]
 }

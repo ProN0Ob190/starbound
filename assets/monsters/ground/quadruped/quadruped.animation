@@ -746,6 +746,11 @@
       "type" : "flash",
       "time" : 0.25,
       "directives" : "fade=33FF33;0.25"
+    },
+
+    "shield" : {
+      "type" : "directive",
+      "directives" : "border=3;00FFFF99;00000000"
     }
   }
 }

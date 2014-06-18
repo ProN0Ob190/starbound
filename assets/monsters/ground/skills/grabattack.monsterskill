@@ -4,7 +4,7 @@
   "image" : "/monsters/ground/skills/icon.png",
 
   "parameters" : {
-    "scripts" : [ "/monsters/ground/grabAttack.lua" ],
+    "scripts" : [ "/monsters/ground/skills/grabAttack.lua" ],
     "grabAttack" : {
       "skillTimeLimit" : 5.0,
       "cooldownTime" : 5.0,

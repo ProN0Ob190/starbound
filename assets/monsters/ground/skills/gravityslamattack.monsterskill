@@ -4,7 +4,7 @@
   "image" : "/monsters/ground/skills/icon.png",
 
   "parameters" : {
-    "scripts" : [ "/monsters/ground/gravitySlamAttack.lua" ],
+    "scripts" : [ "/monsters/ground/skills/gravitySlamAttack.lua" ],
     "gravitySlamAttack" : {
       "skillTimeLimit" : 1.5,
       "cooldownTime" : 3,

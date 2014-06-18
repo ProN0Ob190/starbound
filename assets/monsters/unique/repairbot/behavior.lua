@@ -191,18 +191,18 @@ function attackState.update(dt, stateData)
     else
       entity.setFacingDirection(toTarget[1])
       if setAnimation("attack") then
-        entity.setFireDirection(entity.configParameter("projectileOffset"), { entity.facingDirection(), 0 })
+        -- entity.setFireDirection(entity.configParameter("projectileOffset"), { entity.facingDirection(), 0 })
         shouldFire = true
       end
     end
   end
 
   if shouldFire then
-    if not entity.isFiring() then
-      entity.startFiring("projectile")
-    end
+    -- if not entity.isFiring() then
+    --   entity.startFiring("projectile")
+    -- end
   else
-    entity.stopFiring()
+    -- entity.stopFiring()
   end
 
   if self.targetId == nil then

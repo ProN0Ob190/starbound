@@ -1,0 +1,24 @@
+Outpost Layout Plan
+====================
+Overall layouts, some areas predefined (areas that connect randomly picked rooms, rooftops). 
+Make at least 5 different layouts.
+Make about three different object layer variations for each overall layout.
+
+Random Room Types:
+- Shop Stall Areas (could be done as part of the overall layout object variations).
+- Restrooms (at least 1 per outpost)
+- Lobbies (2 per outpost, with one at each end of the facility on ground level)
+- Storerooms (at least one per outpost)
+- Security/System Control Room (1 per outpost)
+- Dining Area / Break Rooms (1 per outpost)
+- Dorms (at least 1 per outpost)
+
+Minimum Room Count: 7
+
+Connector Types: 
+Blue - Most Rooms
+Coupler #1 - Lobbies
+Coupler #2 - Security Room
+Coupler #3 - Storage
+
+

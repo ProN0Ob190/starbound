@@ -9,7 +9,7 @@ function init(args)
     entity.rotateGroup("arm", -math.pi / 2)
   end
   self.state.leavingState = function(stateName)
-    entity.stopFiring()
+    -- entity.stopFiring()
     entity.setDamageOnTouch(false)
     setAnimation("idle")
   end
@@ -74,7 +74,7 @@ function aimAt(targetPosition)
   armTipPosition = vec2.add(armBasePosition, armVector)
   armTipOffset = world.distance(armTipPosition, entity.position())
   armTipOffset[1] = armTipOffset[1] * entity.facingDirection()
-  entity.setFireDirection(armTipOffset, armVector)
+  -- entity.setFireDirection(armTipOffset, armVector)
 
   local difference = aimAngle - targetAngle
   return math.abs(difference) < 0.05
@@ -177,7 +177,7 @@ function attackState.update(dt, stateData)
       entity.setFacingDirection(toTarget[1])
 
       if aimAt(vec2.add(entity.configParameter("aimCorrectionOffset"), self.targetPosition)) then
-        entity.startFiring("plasmabullet")
+        -- entity.startFiring("plasmabullet")
       end
     else
       move(toTarget)

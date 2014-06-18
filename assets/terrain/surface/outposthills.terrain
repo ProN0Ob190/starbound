@@ -1,15 +1,15 @@
 {
-  "name" : "normalSurface",
+  "name" : "outposthills",
 
   "type" : "displacement",
   "xType" : "perlin",
-  "xOctaves" : 3,
+  "xOctaves" : 1,
   "xFreq" : 0.2,
   "xAmp" : 0,
   "yType" : "perlin",
   "yOctaves" : 3,
   "yFreq" : 0.2,
-  "yAmp" : 0,
+  "yAmp" : 1,
 
   "source" : {
     "type" : "displacement",
@@ -20,7 +20,7 @@
     "yType" : "perlin",
     "yOctaves" : 2,
     "yFreq" : 0.02,
-    "yAmp" : 100,
+    "yAmp" : 10,
     "yXInfluence" : 1,
     "yYInfluence" : 0,
 

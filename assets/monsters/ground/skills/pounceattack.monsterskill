@@ -4,7 +4,7 @@
   "image" : "/monsters/flying/skills/default.png",
 
   "parameters" : {
-    "scripts" : [ "/monsters/ground/pounceAttack.lua" ],
+    "scripts" : [ "/monsters/ground/skills/pounceAttack.lua" ],
     "pounceAttack" : {
       "skillTimeLimit" : 4.0,
       "cooldownTime" : 0.5,

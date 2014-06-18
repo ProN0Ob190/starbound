@@ -118,7 +118,7 @@ end
 
 function bombAttack.enteringState(stateData)
   entity.setFireDirection({0, 0}, {1, 0})
-  entity.startFiring("bomb")
+  -- entity.startFiring("bomb")
 end
 
 function bombAttack.update(dt, stateData)
@@ -134,14 +134,14 @@ function bombAttack.update(dt, stateData)
   }
   direction = vec2.mul(direction, 2.0)
 
-  entity.setFireDirection(direction, direction)
+  -- entity.setFireDirection(direction, direction)
 
   stateData.timer = stateData.timer + dt
   return stateData.timer >= stateData.totalTime
 end
 
 function bombAttack.leavingState(stateData)
-  entity.stopFiring()
+  -- entity.stopFiring()
   self.state.pickState({ explode = true })
 end
 
@@ -188,8 +188,8 @@ function explodeState.enterWith(params)
 end
 
 function explodeState.enteringState(stateData)
-  entity.startFiring("deathexplosion")
-  entity.setFireDirection({0, 0}, {1, 0})
+  -- entity.startFiring("deathexplosion")
+  -- entity.setFireDirection({0, 0}, {1, 0})
 end
 
 function explodeState.update(dt, stateData)
@@ -200,6 +200,6 @@ function explodeState.update(dt, stateData)
 end
 
 function explodeState.leavingState(stateData)
-  entity.stopFiring()
+  -- entity.stopFiring()
   self.dead = true
 end

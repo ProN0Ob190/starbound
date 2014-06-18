@@ -161,13 +161,13 @@ function shoutAttack.update(dt, stateData)
     return false
   else
     entity.setAnimationState("movement", "ranged")
-    entity.setFireDirection(entity.configParameter("shoutProjectileOffset"), toTarget)
+    -- entity.setFireDirection(entity.configParameter("shoutProjectileOffset"), toTarget)
 
     local projectile = entity.animationStateProperty("movement", "projectile")
     if projectile ~= nil then
-      entity.startFiring(projectile)
+      -- entity.startFiring(projectile)
     else
-      entity.stopFiring()
+      -- entity.stopFiring()
     end
 
     return entity.animationState("movement") == "idle"

@@ -77,16 +77,16 @@ function shootState.update(dt, stateData)
       local oldTid = self.targetId
       self.targetId = nil
       if util.trackTarget(entity.configParameter("shoot.pollenShotDistance")) then
-        entity.setFireDirection({0, 0}, direction)
-        entity.startFiring("pollen")
+        -- entity.setFireDirection({0, 0}, direction)
+        -- entity.startFiring("pollen")
       else
         self.targetId = oldTid
-        entity.setFireDirection({0, 0}, direction)
-        entity.startFiring("seed")
+        -- entity.setFireDirection({0, 0}, direction)
+        -- entity.startFiring("seed")
       end
       stateData.shotFired = true
     else
-      entity.stopFiring()
+      -- entity.stopFiring()
     end
     stateData.recoilTimer = stateData.recoilTimer - dt
   end

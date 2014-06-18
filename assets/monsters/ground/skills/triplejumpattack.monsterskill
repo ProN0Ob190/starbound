@@ -4,7 +4,7 @@
   "image" : "/monsters/ground/skills/icon.png",
 
   "parameters" : {
-    "scripts" : [ "/monsters/ground/tripleJumpAttack.lua" ],
+    "scripts" : [ "/monsters/ground/skills/tripleJumpAttack.lua" ],
 
     "tripleJumpAttack" : {
       "skillTimeLimit" : 5.0,

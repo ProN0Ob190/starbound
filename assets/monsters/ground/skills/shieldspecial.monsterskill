@@ -4,7 +4,7 @@
   "image" : "/monsters/ground/skills/icon.png",
 
   "parameters" : {
-    "scripts" : [ "/monsters/ground/shieldSpecial.lua" ],
+    "scripts" : [ "/monsters/ground/skills/shieldSpecial.lua" ],
     "shieldSpecial" : {
       "skillTimeLimit" : 0.5,
       "cooldownTime" : 15.0,

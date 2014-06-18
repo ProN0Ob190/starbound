@@ -4,7 +4,7 @@
   "image" : "/monsters/flying/skills/default.png",
 
   "parameters" : {
-    "scripts" : [ "/monsters/ground/chargeAttack.lua" ],
+    "scripts" : [ "/monsters/ground/skills/chargeAttack.lua" ],
     "chargeAttack" : {
       "skillTimeLimit" : 5.0,
       "cooldownTime" : 0.0,

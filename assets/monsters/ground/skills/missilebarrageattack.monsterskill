@@ -4,7 +4,7 @@
   "image" : "/monsters/ground/skills/icon.png",
 
   "parameters" : {
-    "scripts" : [ "/monsters/ground/missileBarrageAttack.lua" ],
+    "scripts" : [ "/monsters/ground/skills/missileBarrageAttack.lua" ],
     "missileBarrageAttack" : {
       "skillTimeLimit" : 4.0,
       "cooldownTime" : 10.0,

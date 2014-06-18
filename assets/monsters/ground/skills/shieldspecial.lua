@@ -30,7 +30,8 @@ function shieldSpecial.activateShield()
   shieldSpecial.active = true
   shieldSpecial.health = entity.configParameter("shieldSpecial.shieldBaseHealth") * root.evalFunction("monsterLevelHealthMultiplier", entity.level())
   shieldSpecial.duration = entity.configParameter("shieldSpecial.shieldTime")
-  entity.setAnimationState("shield", "on")
+  -- entity.setAnimationState("shield", "on")
+  entity.setEffectActive("shield", true)
 
   self.skillCooldownTimers["shieldSpecial"] = entity.configParameter("shieldSpecial.cooldownTime")
 end
@@ -39,5 +40,6 @@ function shieldSpecial.deactivateShield()
   shieldSpecial.active = false
   shieldSpecial.health = 0
   shieldSpecial.duration = 0
-  entity.setAnimationState("shield", "off")
+  -- entity.setAnimationState("shield", "off")
+  entity.setEffectActive("shield", false)
 end

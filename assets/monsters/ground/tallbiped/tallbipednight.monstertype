@@ -56,7 +56,7 @@
       "/monsters/ground/knockoutState.lua",
       "/monsters/ground/wanderState.lua",
 
-      "/monsters/ground/createGroundRangedAttack.lua"
+      "/monsters/ground/skills/createGroundRangedAttack.lua"
     ],
 
     "territoryDistance" : 1000.0,

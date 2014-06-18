@@ -4,7 +4,7 @@
   "image" : "/monsters/ground/skills/icon.png",
 
   "parameters" : {
-    "scripts" : [ "/monsters/ground/blinkAttack.lua" ],
+    "scripts" : [ "/monsters/ground/skills/blinkAttack.lua" ],
 
     "blinkAttack" : {
       "skillTimeLimit" : 1.5,

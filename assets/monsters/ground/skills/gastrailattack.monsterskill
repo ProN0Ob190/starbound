@@ -4,7 +4,7 @@
   "image" : "/monsters/flying/skills/default.png",
 
   "parameters" : {
-    "scripts" : [ "/monsters/ground/gasTrailAttack.lua" ],
+    "scripts" : [ "/monsters/ground/skills/gasTrailAttack.lua" ],
     "gasTrailAttack" : {
       "skillTimeLimit" : 2.5,
       "cooldownTime" : 7.0,
