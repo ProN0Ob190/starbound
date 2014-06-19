@@ -493,7 +493,7 @@
   "rotationGroups" : {
     "projectileAim" : {
       "rotationCenter" : [-1, -0.5],
-      "angularVelocity" : 1.5
+      "angularVelocity" : 5
     }
   },
 

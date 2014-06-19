@@ -1,0 +1,85 @@
+{
+  "name" : "undergroundasteroids",
+
+  "type" : "max",
+  "sources" : [
+    {
+      "type" : "displacement",
+      "xType" : "perlin",
+      "xOctaves" : 1,
+      "xFreq" : 0.2,
+      "xAmp" : 3,
+      "yType" : "perlin",
+      "yOctaves" : 1,
+      "yFreq" : 0.2,
+      "yAmp" : 3,
+
+      "source" : {
+        "type" : "wormcave",
+
+        "radius" : 4,
+        "numberOfWormsPerSectorRange" : [0.05, 0.4],
+        "wormSizeRange" : [0.5, 6],
+        "wormSizeRate" : 0.3,
+        "timeToLiveRange" : [50, 120],
+        "headingNoiseRate" : 0.1,
+        "headingFlipThreshold" : 0.95,
+        "headingFlipAngle" : 1.5,
+        "surfaceHeadingTolerance" : 0.8
+      }
+    },
+    {
+      "type" : "surfaceAdjustment",
+      "surfaceAdjustment" : -200.0,
+      "bedrockAdjustment" : 0.0,
+      "clamp" : [-200.0, 0.0],
+      "source" : {
+        "type" : "caveground",
+
+        "caveLimit" : 5.0,
+        "caveDropoff" : 0.5,
+        // By default, caves drop-off at exacly ground-height, this offsets that downward.
+        "caveDepth" : 0,
+
+        "scale" : [2000, 2000],
+
+        "caveNoise" : {
+          "type" : "Perlin",
+          "octaves" : 2,
+          "bias" : 15.0,
+          "frequency" : 20.0,
+          "amplitude" : 15.0
+        },
+
+        "caveSubtractNoise" : {
+          "type" : "RidgedMulti",
+          "octaves" : 2,
+          "bias" : 11.0,
+          "frequency" : 16.0,
+          "amplitude" : 11.0
+        },
+
+        "caveHeightNoise" : {
+          "type" : "Perlin",
+          "octaves" : 1,
+          "frequency" : 4.0,
+          "amplitude" : 0.3
+        },
+
+        "caveXNoise" : {
+          "type" : "Perlin",
+          "octaves" : 6,
+          "frequency" : 10.0,
+          "amplitude" : 0.1
+        },
+
+        "caveYNoise" : {
+          "type" : "Perlin",
+          "octaves" : 6,
+          "frequency" : 10.0,
+          "amplitude" : 0.1
+        }
+      }
+    }
+  ]
+}

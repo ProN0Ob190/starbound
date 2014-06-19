@@ -1,6 +1,6 @@
 {
   "name" : "outpost",
-  "friendlyName" : "Asteroid Field",
+  "friendlyName" : "Outpost",
   "barren" : true,
   "requiredStatuses" : [ "beamaxe" ],
 

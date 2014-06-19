@@ -1,0 +1,12 @@
+{
+  "itemName" : "shipT8",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "upgradeT8.png",
+  "image" : "upgradeT8.png",
+
+  "shortdescription" : "Thing",
+  "description" : "Does things",
+
+  "shipUpgrade" : 7,
+  "unlockMessage" : "test message"
+}

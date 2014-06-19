@@ -10,5 +10,5 @@
   "itemDrop" : "outpostplatform",
   "shortdescription" : "Outpost Platform",
   "description" : "Standard platform designed for outposts.",
-  "footstepSound" : "/sfx/blocks/lightmetal.wav"
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.wav"
 }

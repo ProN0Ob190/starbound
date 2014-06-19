@@ -1231,41 +1231,53 @@
       "rules" : [
         [ "maxSpawnCount", [1] ]
       ],
-      "def" : [ "image", [ "outpostbase1.png" ] ]
+      "def" : [ "image", [ "outpostbase1.png", "outpostbase1-objects.png" ] ]
     },
 	{
       "name" : "roombase1",
       "rules" : [
-        [ "maxSpawnCount", [1] ]
+        [ "maxSpawnCount", [3] ]
       ],
       "def" : [ "image", [ "roombase1.png" ] ]
     },
+	
+	{
+      "name" : "roombase1nopipes",
+      "rules" : [
+        [ "maxSpawnCount", [3] ]
+      ],
+      "def" : [ "image", [ "roombase1nopipes.png" ] ]
+    },
+	
 	{
       "name" : "roombase2",
       "rules" : [
-        [ "maxSpawnCount", [1] ]
+        [ "maxSpawnCount", [3] ]
       ],
       "def" : [ "image", [ "roombase2.png" ] ]
     },
+	
+	{
+      "name" : "roombase2nopipes",
+      "rules" : [
+        [ "maxSpawnCount", [3] ]
+      ],
+      "def" : [ "image", [ "roombase2nopipes.png" ] ]
+    },
+	
 	{
       "name" : "roombase3",
       "rules" : [
-        [ "maxSpawnCount", [1] ]
+        [ "maxSpawnCount", [3] ]
       ],
       "def" : [ "image", [ "roombase3.png" ] ]
     },
 	{
-      "name" : "roombase4",
+      "name" : "roombase3nopipes",
       "rules" : [
-        [ "maxSpawnCount", [1] ]
+        [ "maxSpawnCount", [3] ]
       ],
-      "def" : [ "image", [ "roombase4.png" ] ]
-    },{
-      "name" : "roombase5",
-      "rules" : [
-        [ "maxSpawnCount", [1] ]
-      ],
-      "def" : [ "image", [ "roombase5.png" ] ]
+      "def" : [ "image", [ "roombase3nopipes.png" ] ]
     }
   ]
 }

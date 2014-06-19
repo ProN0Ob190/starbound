@@ -429,11 +429,11 @@ function checkTerrain(direction)
   local boundBox = entity.boundBox()
 
   -- update self.isBlocked
-  local blockLine
+  local blockLine, topLine
   if not reverse then
-    blockLine = {entity.toAbsolutePosition({boundBox[3] + 0.75, boundBox[4]}), entity.toAbsolutePosition({boundBox[3] + 0.75, boundBox[2] - 1.0})}
+    blockLine = {entity.toAbsolutePosition({boundBox[3] + 0.25, boundBox[4]}), entity.toAbsolutePosition({boundBox[3] + 0.25, boundBox[2] - 1.0})}
   else
-    blockLine = {entity.toAbsolutePosition({-boundBox[3] - 0.75, boundBox[4]}), entity.toAbsolutePosition({-boundBox[3] - 0.75, boundBox[2] - 1.0})}
+    blockLine = {entity.toAbsolutePosition({-boundBox[3] - 0.25, boundBox[4]}), entity.toAbsolutePosition({-boundBox[3] - 0.25, boundBox[2] - 1.0})}
   end
 
   local blockBlocks = world.collisionBlocksAlongLine(blockLine[1], blockLine[2])
@@ -443,13 +443,20 @@ function checkTerrain(direction)
     local topOffset = blockBlocks[1][2] - blockLine[2][2]
     if topOffset > 2.75 then
       self.isBlocked = true
-    elseif topOffset > 0.75 then
+    elseif topOffset > 0.25 then
       --also check for that stupid little hook ledge thing
       self.isBlocked = not world.pointCollision({blockBlocks[1][1] - direction, blockBlocks[1][2] - 1})
+
+      if not self.isBlocked then
+        --also check if blocks above prevent us from climbing
+        topLine = {entity.toAbsolutePosition({boundBox[1], boundBox[4] + 0.5}), entity.toAbsolutePosition({boundBox[3], boundBox[4] + 0.5})}
+        self.isBlocked = world.lineCollision(topLine[1], topLine[2])
+      end
     end
   end
 
   -- world.debugLine(blockLine[1], blockLine[2], self.isBlocked and "red" or "blue")
+  -- if topLine then world.debugLine(topLine[1], topLine[2], self.isBlocked and "red" or "blue") end
   -- if #blockBlocks > 0 then world.debugPoint({blockBlocks[1][1] - direction, blockBlocks[1][2] - 1}, self.isBlocked and "red" or "blue") end
 
   -- update self.willFall
@@ -651,8 +658,13 @@ function updateSkillOptions()
     option.approachDelta = world.distance(option.approachPoint, entity.position())
     option.approachDistance = world.magnitude(option.approachDelta)
     
-    option.score = -option.approachDistance
-    if option.valid == false then option.score = -1000 end
+    --score with custom hook or default method
+    if type(_ENV[option.skillName].scoreOption) == "function" then
+      option.score = _ENV[option.skillName].scoreOption(option)
+    else
+      option.score = -option.approachDistance
+      if option.valid == false then option.score = -1000 end
+    end
 
     if self.skillChains[option.skillName] then
       option.score = option.score - self.skillChains[option.skillName]

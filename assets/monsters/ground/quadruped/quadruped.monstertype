@@ -94,14 +94,14 @@
   "familyParameters" : [
     [
       {
-        "skillCount" : 3,
+        "skillCount" : 4,
         "baseSkills" : [ "meleeAttack" ],
-        "specialSkills" : [ "recoverSpecial" ]
+        "specialSkills" : [ "burrowSpecial", "recoverSpecial" ]
       },
       {
-        "skillCount" : 3,
+        "skillCount" : 4,
         "baseSkills" : [ "meleeAttack" ],
-        "specialSkills" : [ "shieldSpecial" ]
+        "specialSkills" : [ "burrowSpecial", "shieldSpecial" ]
       }
     ]
   ],

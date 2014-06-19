@@ -33,7 +33,7 @@
     {
       "drawables" : [
         {
-          "image" : "/cinematics/busy.png:{frame}"
+          "image" : "/cinematics/busy2.png:{frame}"
         }
       ],
       "animationFrames" : 8,
@@ -42,7 +42,7 @@
           "timecode" : 0,
           "zoom" : 0,
           "alpha" : 0,
-          "position" : [480, 170],
+          "position" : [480, 320],
           "frame" : 0
         },
         {
@@ -80,11 +80,12 @@
         },
         {
           "timecode" : 0.1,
+          "zoom" : 0.5,
           "alpha" : 1
         },
         {
           "timecode" : 0.4,
-          "zoom" : 1
+          "zoom" : 0.5
         },
         {
           "timecode" : 2.5,
@@ -92,8 +93,8 @@
         },
         {
           "timecode" : 3,
-          "alpha" : 1,
-          "zoom" : 0.5
+          "alpha" : 0.5,
+          "zoom" : 0.50
         },
         {
           "timecode" : 4,
@@ -102,12 +103,58 @@
           "complete" : true
         }
       ]
+    },
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/fish.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 0,
+          "zoom" : 0,
+          "alpha" : 0,
+          "position" : [485, 310]
+        },
+        {
+          "timecode" : 0.1,
+          "zoom" : 0.5,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 0.4,
+          "zoom" : 0.5
+        },
+        {
+          "timecode" : 2.5,
+          "zoom" : 0.5,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 2.85,
+          "alpha" : 1.0,
+          "zoom" : 0.65
+        },
+        {
+          "timecode" : 3.05,
+          "alpha" : 0.5,
+          "zoom" : 0.5,
+          "complete" : true
+        },
+        {
+          "timecode" : 4.5,
+          "alpha" : 0.0,
+          "zoom" : 0.5,
+          "complete" : true
+        }
+      ]
     }
   ],
   "audio" : [
     {
-      "timecode" : 0,
-      "resource" : "/sfx/cinematics/man_laugh.ogg"
+      "timecode" : 2.6,
+      "resource" : "/sfx/cinematics/fish_laugh.ogg"
     }
   ]
 }

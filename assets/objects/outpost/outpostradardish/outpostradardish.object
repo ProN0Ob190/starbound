@@ -23,7 +23,7 @@
 	  "direction" : "left",
       "lightPosition" : [0, 0],
 
-      "imagePosition" : [-25, 0],
+      "imagePosition" : [-26, 0],
       "frames" : 1,
       "animationCycle" : 1.0,
 
@@ -35,7 +35,7 @@
 	  "direction" : "right",
       "lightPosition" : [-1, 0],
 
-      "imagePosition" : [-23, 0],
+      "imagePosition" : [-22, 0],
       "frames" : 1,
       "animationCycle" : 1.0,
 
