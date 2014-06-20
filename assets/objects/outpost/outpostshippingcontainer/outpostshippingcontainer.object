@@ -23,7 +23,7 @@
 	  "flipImages" : true,
 	  "direction" : "left",
 	  
-      "lightPosition" : [0, 2],
+      "lightPosition" : [-1, 2],
 
       "imagePosition" : [-56, 0],
       "frames" : 1,

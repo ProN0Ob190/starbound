@@ -11,7 +11,7 @@
       "approachPoints" : [  ],
       "startRects" : [  ],
 
-      "maxRange" : 15,
+      "maxRange" : 10,
       "minRange" : 3,
       "maxThickness" : 4,
       "digTime" : 0.5,

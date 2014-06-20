@@ -926,6 +926,42 @@
       "comment" : "outpostairlocklarge facing right",
       "brush" : [ [ "clear" ], [ "object", "outpostairlocklarge", { "direction" : "right" } ] ]
     },
+	
+	{
+      "value" : [229, 103, 0, 255],
+      "comment" : "infinityexpress facing left",
+      "brush" : [ [ "clear" ], [ "object", "infinityexpress", { "direction" : "left" } ] ]
+    },
+
+    {
+      "value" : [217, 98, 0, 255],
+      "comment" : "infinityexpress facing right",
+      "brush" : [ [ "clear" ], [ "object", "infinityexpress", { "direction" : "right" } ] ]
+    },
+	
+	{
+      "value" : [179, 119, 89, 255],
+      "comment" : "penguinbay facing left",
+      "brush" : [ [ "clear" ], [ "object", "penguinbay", { "direction" : "left" } ] ]
+    },
+
+    {
+      "value" : [166, 110, 83, 255],
+      "comment" : "penguinbay facing right",
+      "brush" : [ [ "clear" ], [ "object", "penguinbay", { "direction" : "right" } ] ]
+    },
+	
+	{
+      "value" : [179, 126, 89, 255],
+      "comment" : "terramart facing left",
+      "brush" : [ [ "clear" ], [ "object", "terramart", { "direction" : "left" } ] ]
+    },
+
+    {
+      "value" : [166, 117, 83, 255],
+      "comment" : "terramart facing right",
+      "brush" : [ [ "clear" ], [ "object", "terramart", { "direction" : "right" } ] ]
+    },
 
     // NPC MONSTER SPAWN BRUSHES //
 

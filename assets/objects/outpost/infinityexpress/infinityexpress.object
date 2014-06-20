@@ -1,0 +1,58 @@
+{
+  "objectName" : "infinityexpress",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "description" : "An intergalactic convenience store. It seems an ideal place to stock up.",
+  "shortdescription" : "Infinity Express",
+  "race" : "generic",
+  "category" : "storage",
+  "price" : 1000,
+  "lightColor" : [175, 175, 175],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 4,
+  // Masking Unlit Transparency Values: 0% brightness on lights, 75% brightness on posters in window, 70% on window
+
+  "apexDescription" : "-todo-",
+  "avianDescription" : "-todo-",
+  "floranDescription" : "-todo-",
+  "glitchDescription" : "-todo-",
+  "humanDescription" : "-todo-",
+  "hylotlDescription" : "-todo-",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "imageLayers" : [ { "image" : "infinityexpressleft.png:<color>", "unlit" : true }, { "image" : "infinityexpressleftlit.png:<color>" } ],
+	  "direction" : "left",
+	  
+      "lightPosition" : [-2, 4],
+
+      "imagePosition" : [-88, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+	{
+	  "imageLayers" : [ { "image" : "infinityexpressright.png:<color>", "unlit" : true }, { "image" : "infinityexpressrightlit.png:<color>" } ],
+	  "direction" : "right",
+	  
+      "lightPosition" : [1, 4],
+
+      "imagePosition" : [-88, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "slotCount" : 64,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+
+}

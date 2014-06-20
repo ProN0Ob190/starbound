@@ -5,15 +5,17 @@ shieldSpecial = {
 }
 
 function shieldSpecial.onDamage(args)
-  if shieldSpecial.active then
-    entity.heal(math.min(shieldSpecial.health, args.damage))
-    shieldSpecial.health = math.max(0, shieldSpecial.health - args.damage)
+  if sourceId ~= 0 then
+    if shieldSpecial.active then
+      entity.heal(math.min(shieldSpecial.health, args.damage))
+      shieldSpecial.health = math.max(0, shieldSpecial.health - args.damage)
 
-    if shieldSpecial.health == 0 then
-      shieldSpecial.deactivateShield()
+      if shieldSpecial.health == 0 then
+        shieldSpecial.deactivateShield()
+      end
+    elseif self.skillCooldownTimers["shieldSpecial"] <= 0 and args.damage < entity.health() then
+      shieldSpecial.activateShield()
     end
-  elseif self.skillCooldownTimers["shieldSpecial"] <= 0 then
-    shieldSpecial.activateShield()
   end
 end
 

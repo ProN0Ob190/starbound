@@ -1,0 +1,53 @@
+{
+  "objectName" : "penguinbay",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "description" : "This place is selling weapons and armor. I should check out their inventory.",
+  "shortdescription" : "Penguin Bay",
+  "race" : "generic",
+  "category" : "storage",
+  "price" : 1000,
+
+  "apexDescription" : "-todo-",
+  "avianDescription" : "-todo-",
+  "floranDescription" : "-todo-",
+  "glitchDescription" : "-todo-",
+  "humanDescription" : "-todo-",
+  "hylotlDescription" : "-todo-",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "penguinbayleft.png:<color>",
+	  "direction" : "left",
+
+      "imagePosition" : [-56, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+	  "collisionSpaces" : [ [-5, 5], [-4, 5], [-3, 5], [-2, 5], [-1, 5], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [5, 5], [6, 5] ]
+    },
+	{
+	  "image" : "penguinbayright.png:<color>",
+	  "direction" : "right",
+
+      "imagePosition" : [-56, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+	  "collisionSpaces" : [ [-7, 5], [-6, 5], [-5, 5], [-4, 5], [-3, 5], [2, 5], [1, 5], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5] ]
+    }
+  ],
+
+  "slotCount" : 64,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+
+}

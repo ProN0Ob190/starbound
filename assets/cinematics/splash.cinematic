@@ -68,84 +68,64 @@
     {
       "drawables" : [
         {
-          "image" : "/cinematics/chucklelogofinal.png"
+          "image" : "/cinematics/chuckles.png:{frame}"
         }
       ],
+      "animationFrames" : 12,
       "keyframes" : [
         {
           "timecode" : 0,
           "zoom" : 0,
           "alpha" : 0,
+		  "frame" : 0,
           "position" : [480, 270]
         },
         {
-          "timecode" : 0.1,
+          "timecode" : 0.25,
           "zoom" : 0.5,
+		  "frame" : 1,
           "alpha" : 1
         },
         {
-          "timecode" : 0.4,
+          "timecode" : 0.5,
+          "zoom" : 0.5,
+		  "frame" : 1,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 0.8,
+		  "frame" : 6,
           "zoom" : 0.5
         },
         {
-          "timecode" : 2.5,
+          "timecode" : 1.5,
+		  "frame" : 11,
           "zoom" : 0.5
         },
         {
           "timecode" : 3,
-          "alpha" : 0.5,
+          "alpha" : 1,
           "zoom" : 0.50
         },
         {
-          "timecode" : 4,
-          "alpha" : 0,
-          "zoom" : 0.5,
-          "complete" : true
-        }
-      ]
-    },
-    {
-      "drawables" : [
-        {
-          "image" : "/cinematics/fish.png"
-        }
-      ],
-      "keyframes" : [
-        {
-          "timecode" : 0,
-          "zoom" : 0,
-          "alpha" : 0,
-          "position" : [485, 310]
-        },
-        {
-          "timecode" : 0.1,
-          "zoom" : 0.5,
-          "alpha" : 1
-        },
-        {
-          "timecode" : 0.4,
-          "zoom" : 0.5
-        },
-        {
-          "timecode" : 2.5,
-          "zoom" : 0.5,
-          "alpha" : 1
-        },
-        {
-          "timecode" : 2.85,
-          "alpha" : 1.0,
-          "zoom" : 0.65
-        },
-        {
-          "timecode" : 3.05,
-          "alpha" : 0.5,
+          "timecode" : 3.5,
+          "alpha" : 1,
+		  "frame" : 11,
           "zoom" : 0.5,
           "complete" : true
         },
         {
-          "timecode" : 4.5,
-          "alpha" : 0.0,
+          "timecode" : 4.0,
+          "alpha" : 0,
+		  "frame" : 11,
           "zoom" : 0.5,
+          "complete" : true
+        },
+        {
+          "timecode" : 1000,
+          "alpha" : 0,
+          "zoom" : 0.5,
+		  "frame" : 1000,
           "complete" : true
         }
       ]
@@ -153,7 +133,7 @@
   ],
   "audio" : [
     {
-      "timecode" : 2.6,
+      "timecode" : 0.8,
       "resource" : "/sfx/cinematics/fish_laugh.ogg"
     }
   ]
