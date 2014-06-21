@@ -356,6 +356,19 @@
       "comment" : "foreground glass",
       "brush" : [ [ "clear" ], [ "front", "glass" ] ]
     },
+	
+	{
+      "value" : [152, 166, 65, 255],
+      "comment" : "background mirror",
+      "rules" : [ [ "allowOverdrawing" ] ],
+      "brush" : [ [ "clear" ], [ "back", "mirror" ] ]
+    },
+
+    {
+      "value" : [200, 217, 85, 255],
+      "comment" : "foreground mirror",
+      "brush" : [ [ "clear" ], [ "front", "mirror" ] ]
+    },
 
     {
       "value" : [155, 171, 179, 255],
@@ -1269,51 +1282,149 @@
       ],
       "def" : [ "image", [ "outpostbase1.png", "outpostbase1-objects.png" ] ]
     },
+	
+	{
+      "name" : "toilet1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "toilet1", "toilet1nopipes", "toilet2", "toilet2nopipes", "toilet3", "toilet3nopipes", "toilet4", "toilet4nopipes" ] ]
+      ],
+      "def" : [ "image", [ "toilet1.png", "toilet1-objects.png" ] ]
+    },
+	
+	{
+      "name" : "toilet1nopipes",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "toilet1", "toilet1nopipes", "toilet2", "toilet2nopipes", "toilet3", "toilet3nopipes", "toilet4", "toilet4nopipes" ] ]
+      ],
+      "def" : [ "image", [ "toilet1nopipes.png", "toilet1nopipes-objects.png" ] ]
+    },
+	
+	{
+      "name" : "toilet2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "toilet1", "toilet1nopipes", "toilet2", "toilet2nopipes", "toilet3", "toilet3nopipes", "toilet4", "toilet4nopipes" ] ]
+      ],
+      "def" : [ "image", [ "toilet2.png", "toilet2-objects.png" ] ]
+    },
+	
+	{
+      "name" : "toilet2nopipes",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "toilet1", "toilet1nopipes", "toilet2", "toilet2nopipes", "toilet3", "toilet3nopipes", "toilet4", "toilet4nopipes" ] ]
+      ],
+      "def" : [ "image", [ "toilet2nopipes.png", "toilet2nopipes-objects.png" ] ]
+    },
+	
+	{
+      "name" : "toilet3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "toilet1", "toilet1nopipes", "toilet2", "toilet2nopipes", "toilet3", "toilet3nopipes", "toilet4", "toilet4nopipes" ] ]
+      ],
+      "def" : [ "image", [ "toilet3.png", "toilet3-objects.png" ] ]
+    },
+	
+	{
+      "name" : "toilet3nopipes",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "toilet1", "toilet1nopipes", "toilet2", "toilet2nopipes", "toilet3", "toilet3nopipes", "toilet4", "toilet4nopipes" ] ]
+      ],
+      "def" : [ "image", [ "toilet3nopipes.png", "toilet3nopipes-objects.png" ] ]
+    },
+	
+	{
+      "name" : "toilet4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "toilet1", "toilet1nopipes", "toilet2", "toilet2nopipes", "toilet3", "toilet3nopipes", "toilet4", "toilet4nopipes" ] ]
+      ],
+      "def" : [ "image", [ "toilet3.png", "toilet4-objects.png" ] ]
+    },
+	
+	{
+      "name" : "toilet4nopipes",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "toilet1", "toilet1nopipes", "toilet2", "toilet2nopipes", "toilet3", "toilet3nopipes", "toilet4", "toilet4nopipes" ] ]
+      ],
+      "def" : [ "image", [ "toilet3nopipes.png", "toilet4nopipes-objects.png" ] ]
+    },
+	
 	{
       "name" : "roombase1",
       "rules" : [
-        [ "maxSpawnCount", [3] ]
+        [ "maxSpawnCount", [1] ]
       ],
-      "def" : [ "image", [ "roombase1.png" ] ]
+      "def" : [ "image", [ "roombase1.png" ] ],
+	  "chance" : 0
     },
 	
 	{
       "name" : "roombase1nopipes",
       "rules" : [
-        [ "maxSpawnCount", [3] ]
+        [ "maxSpawnCount", [1] ]
       ],
-      "def" : [ "image", [ "roombase1nopipes.png" ] ]
+      "def" : [ "image", [ "roombase1nopipes.png" ] ],
+	  "chance" : 0
     },
 	
 	{
       "name" : "roombase2",
       "rules" : [
-        [ "maxSpawnCount", [3] ]
+        [ "maxSpawnCount", [1] ]
       ],
-      "def" : [ "image", [ "roombase2.png" ] ]
+      "def" : [ "image", [ "roombase2.png" ] ],
+	  "chance" : 0
     },
 	
 	{
       "name" : "roombase2nopipes",
       "rules" : [
-        [ "maxSpawnCount", [3] ]
+        [ "maxSpawnCount", [1] ]
       ],
-      "def" : [ "image", [ "roombase2nopipes.png" ] ]
+      "def" : [ "image", [ "roombase2nopipes.png" ] ],
+	  "chance" : 0
     },
 	
 	{
       "name" : "roombase3",
       "rules" : [
-        [ "maxSpawnCount", [3] ]
+        [ "maxSpawnCount", [1] ]
       ],
-      "def" : [ "image", [ "roombase3.png" ] ]
+      "def" : [ "image", [ "roombase3.png" ] ],
+	  "chance" : 0
     },
+	
 	{
       "name" : "roombase3nopipes",
       "rules" : [
-        [ "maxSpawnCount", [3] ]
+        [ "maxSpawnCount", [1] ]
       ],
-      "def" : [ "image", [ "roombase3nopipes.png" ] ]
+      "def" : [ "image", [ "roombase3nopipes.png" ] ],
+	  "chance" : 0
+    },
+	
+	{
+      "name" : "roombase4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "image", [ "roombase4.png" ] ],
+	  "chance" : 0
+    },
+	
+	{
+      "name" : "roombase4nopipes",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "image", [ "roombase4nopipes.png" ] ],
+	  "chance" : 0
     }
   ]
 }
