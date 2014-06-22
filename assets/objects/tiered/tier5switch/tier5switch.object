@@ -23,16 +23,21 @@
     {
       "dualImage" : "tier5switch.png:<color>.<frame>",
       "imagePosition" : [-8, 0],
-      "frames" : 3,
-      "animationCycle" : 0.5,
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-
     }
   ],
 
-  "script" : "/objects/scripts/switch.lua",
-  "outboundNodesLocation" : [0, 0]
+  "scripts" : [ "/objects/wired/switch/switch.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switch3.animation",
+  "animationParts" : {
+    "switch" : "tier5switch.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "outboundNodes" : [ [0, 0] ]
 
 }

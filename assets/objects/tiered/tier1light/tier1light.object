@@ -7,8 +7,8 @@
 
   "hydrophobic" : true,
 
-  "description" : "A simple iron lantern.",
-  "shortdescription" : "Iron Lantern",
+  "description" : "A handy oil lantern. Careful not to spill it.",
+  "shortdescription" : "Oil Lantern",
   "race" : "generic",
 
   "apexDescription" : "Nothing fancy, but serves its purpose.",
@@ -35,8 +35,6 @@
     {
       "image" : "tier1light.png:<color>.<frame>",
       "imagePosition" : [0, 0],
-      "frames" : 4,
-      "animationCycle" : 0.5,
 
       "spaces" : [ [0, 0], [0, 1] ],
       "fgAnchors" : [ [0, -1] ]
@@ -45,14 +43,20 @@
     {
       "image" : "tier1light.png:<color>.<frame>",
       "imagePosition" : [0, 0],
-      "frames" : 4,
-      "animationCycle" : 0.5,
 
       "spaces" : [ [0, 0], [0, 1] ],
       "fgAnchors" : [ [0, 2] ]
     }
   ],
 
-  "soundEffect" : "/sfx/objects/oillantern.wav"
+  "soundEffect" : "/sfx/objects/oillantern.wav",
 
+  "animation" : "/objects/wired/light/light4.animation",
+  "animationParts" : {
+    "light" : "tier1light.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60
 }

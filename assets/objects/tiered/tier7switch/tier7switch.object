@@ -21,18 +21,23 @@
   "inventoryIcon" : "tier7switchicon.png",
   "orientations" : [
     {
-      "dualImage" : "tier7switch.png:<color>",
+      "dualImage" : "tier7switch.png:<color>.<frame>",
       "imagePosition" : [-8, 0],
-      "frames" : 1,
-      "animationCycle" : 0.5,
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-
     }
   ],
 
-  "script" : "/objects/scripts/switch.lua",
-  "outboundNodesLocation" : [0, 0]
+  "scripts" : [ "/objects/wired/switch/switch.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switch3.animation",
+  "animationParts" : {
+    "switch" : "tier7switch.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "outboundNodes" : [ [0, 0] ]
 
 }

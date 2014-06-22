@@ -33,10 +33,20 @@
     {
       "image" : "tier9light.png:<color>.<frame>",
       "imagePosition" : [0, 0],
-      "frames" : 1,
-      "animationCycle" : 0.5,
+
       "spaces" : [ [0, 0], [0, 1] ],
       "fgAnchors" : [ [0, -1] ]
     }
-  ]
+  ],
+
+  "animation" : "/objects/wired/light/lighttoggle.animation",
+  "animationParts" : {
+    "light" : "tier9light.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inboundNodes" : [ [0, 0] ]
 }
