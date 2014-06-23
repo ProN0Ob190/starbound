@@ -1,40 +1,28 @@
-function init(args)
-  entity.alarmSoundTimer = 0
+function init(virtual)
+  if virtual then return end
 
-  if storage.alarmSoundDuration == nil then
-    storage.alarmSoundDuration = entity.configParameter("alertSoundDuration")
-  end
+  self.alarmSoundTimer = 0
+  self.alarmSoundDuration = entity.configParameter("alarmSoundDuration")
 
-  if storage.state == nil then
-    output(false)
-  else
-    output(storage.state)
-  end
+  self.lightColor = entity.configParameter("lightColor", {255, 0, 0})
 end
 
-function output(state)
-  if state ~= storage.state then
-    entity.alarmSoundTimer = 0
-
-    storage.state = state
-    if state then
-      entity.setAnimationState("alarmState", "on")
-    else
-      entity.setAnimationState("alarmState", "off")
-    end
-  end
-end
-
-function main(args)
+function main()
   if entity.getInboundNodeLevel(0) then
-    output(true)
+    entity.setAnimationState("alarmState", "on")
 
-    entity.alarmSoundTimer = entity.alarmSoundTimer - entity.dt()
-    if entity.alarmSoundTimer <= 0 then
-      entity.playSound("alertSounds")
-      entity.alarmSoundTimer = storage.alarmSoundDuration
+    local lightWave = math.sin((self.alarmSoundTimer / self.alarmSoundDuration) * math.pi) * 0.5 + 0.5
+    entity.setLightColor({lightWave * self.lightColor[1], lightWave * self.lightColor[2], lightWave * self.lightColor[3]})
+
+    if self.alarmSoundTimer <= 0 then
+      entity.playImmediateSound(entity.configParameter("alarmSound"))
+      self.alarmSoundTimer = self.alarmSoundDuration
+    else
+      self.alarmSoundTimer = self.alarmSoundTimer - entity.dt()
     end
   else
-    output(false)
+    self.alarmSoundTimer = 0
+    entity.setAnimationState("alarmState", "off")
+    entity.setLightColor({0, 0, 0, 0})
   end
 end

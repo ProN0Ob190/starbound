@@ -1,22 +1,16 @@
 {
   "animatedParts" : {
     "stateTypes" : {
-      "orientationState" : {
-        "default" : "all",
+      "sensorState" : {
+        "default" : "min",
         "states" : {
-          "all" : {
+          "min" : {
             "frames" : 1
           },
-          "left" : {
+          "med" : {
             "frames" : 1
           },
-          "right" : {
-            "frames" : 1
-          },
-          "top" : {
-            "frames" : 1
-          },
-          "bottom" : {
+          "max" : {
             "frames" : 1
           }
         }
@@ -30,30 +24,20 @@
         },
 
         "partStates" : {
-          "orientationState" : {
-            "all" : {
+          "sensorState" : {
+            "min" : {
               "properties" : {
-                "image" : "<partImage>:<color>.all"
+                "image" : "<partImage>:<color>.min"
               }
             },
-            "left" : {
+            "med" : {
               "properties" : {
-                "image" : "<partImage>:<color>.left"
+                "image" : "<partImage>:<color>.med"
               }
             },
-            "right" : {
+            "max" : {
               "properties" : {
-                "image" : "<partImage>:<color>.right"
-              }
-            },
-            "top" : {
-              "properties" : {
-                "image" : "<partImage>:<color>.top"
-              }
-            },
-            "bottom" : {
-              "properties" : {
-                "image" : "<partImage>:<color>.bottom"
+                "image" : "<partImage>:<color>.max"
               }
             }
           }

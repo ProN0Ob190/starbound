@@ -1,54 +1,54 @@
 {
   "objectName" : "lightsensor",
   "rarity" : "Common",
-  "category" : "light",
-  "printable" : false,
-  "price" : 100,
-  "description" : "Monitors the light level at a location. Left output will trigger for dim lights, right output for bright.",
+  "description" : "Activates the bottom node in dim light and the top node in bright light.",
   "shortdescription" : "Light Sensor",
   "race" : "generic",
+  "category" : "wire",
+  "price" : 1000,
+  "printable" : false,
 
   "inventoryIcon" : "lightsensoricon.png",
 
   "orientations" : [
     {
-      "image" : "lightsensor.png:default.all",
+      "image" : "lightsensor.png:default.min",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+    {
+      "image" : "lightsensor.png:default.min",
       "imagePosition" : [0, 0],
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     },
     {
-      "image" : "lightsensor.png:default.all",
+      "image" : "lightsensor.png:default.min",
       "imagePosition" : [0, 0],
 
       "spaceScan" : 0.1,
       "anchors" : [ "top" ]
     },
     {
-      "image" : "lightsensor.png:default.all",
+      "image" : "lightsensor.png:default.min",
       "imagePosition" : [0, 0],
 
       "spaceScan" : 0.1,
       "anchors" : [ "left" ]
     },
     {
-      "image" : "lightsensor.png:default.all",
+      "image" : "lightsensor.png:default.min",
       "imagePosition" : [0, 0],
 
       "spaceScan" : 0.1,
       "anchors" : [ "right" ]
-    },
-    {
-      "image" : "lightsensor.png:default.all",
-      "imagePosition" : [0, 0],
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "background" ]
     }
   ],
 
-  "scripts" : [ "/objects/wired/lightsensor/lightsensor.lua" ],
+  "scripts" : [ "lightsensor.lua" ],
   "scriptDelta" : 5,
 
   "animation" : "/objects/wired/lightsensor/lightsensor.animation",
@@ -57,8 +57,8 @@
   },
   "animationPosition" : [0, 0],
 
-  "outboundNodes" : [ [-1, 0], [1, 0] ],
+  "outboundNodes" : [ [0, -1], [0, 1] ],
 
-  "detectThresholdLow" : 0.01,
-  "detectThresholdHigh" : 0.5
+  "detectThresholdLow" : 1,
+  "detectThresholdHigh" : 40
 }

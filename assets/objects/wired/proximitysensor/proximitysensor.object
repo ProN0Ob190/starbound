@@ -32,6 +32,6 @@
 
   "outboundNodes" : [ [0, 0] ],
 
-  "detectTickDuration" : 8,
+  "detectDuration" : 0.5,
   "detectRadius" : 3
 }

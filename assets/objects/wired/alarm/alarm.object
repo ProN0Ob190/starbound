@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "category" : "light",
   "price" : 500,
-  "description" : "replace",
+  "description" : "A big flashing light and blaring siren guaranteed to draw lots of attention.",
   "shortdescription" : "Alarm",
   "race" : "apex",
 
@@ -19,7 +19,7 @@
   ],
 
   "scripts" : [ "/objects/wired/alarm/alarm.lua" ],
-  "scriptDelta" : 5,
+  "scriptDelta" : 3,
 
   "animation" : "/objects/wired/alarm/alarm.animation",
 
@@ -30,6 +30,6 @@
 
   "inboundNodes" : [ [0, 0] ],
 
-  "alertSounds" : [ "/sfx/objects/redalert.wav" ],
-  "alertSoundDuration" : 0.65
+  "alarmSound" : "/sfx/objects/redalert.wav",
+  "alarmSoundDuration" : 0.9
 }
