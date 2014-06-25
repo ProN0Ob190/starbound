@@ -65,14 +65,44 @@
   "familyParameters" : [
     [
       {
-        "meleeProjectile" : "chomp5",
+        "skillCount" : 3,
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [ "burrowSpecial" ]
+      },
+      {
+        "skillCount" : 3,
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [ "shieldSpecial" ]
+      },
+      {
+        "skillCount" : 3,
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [ "recoverSpecial" ]
+      },
+      {
+        "skillCount" : 3,
         "baseSkills" : [ "meleeAttack" ],
         "specialSkills" : [ "chargeAttack" ]
       },
       {
-        "meleeProjectile" : "chomp5",
         "baseSkills" : [ "meleeAttack" ],
-        "specialSkills" : [ "gasTrailAttack", "flameBurstAttack", "bubbleBlastAttack", "fireballAttack", "acidicSpitAttack", "barbSprayAttack", "explosivePhlegmAttack", "sonicScreamAttack", "twistingPulseAttack", "acidSprayAttack", "shockingBoltAttack", "shockBallAttack", "gasBelchAttack", "iceBlastAttack", "rockShotAttack", "bloodVomitAttack", "flySwarmAttack", "iceShotAttack", "sonicWaveAttack", "fireSwirlAttack", "plasmaTorpedoAttack", "darkPlasmaAttack", "darkGravityBallAttack" ]
+        "specialSkills" : [ "chargeAttack" ]
+      },
+      {
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [  ]
+      },
+      {
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [  ]
+      },
+      {
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [  ]
+      },
+      {
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [  ]
       }
     ]
   ],

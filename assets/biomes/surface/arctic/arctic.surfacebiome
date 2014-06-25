@@ -4,6 +4,7 @@
   "caveLiquidType" : "water",
   "oceanLiquidType" : "ocean",
   "requiredStatuses" : [ "beamaxe" ],
+  "spawnProfile" : "surfacemix",
 
   "hueShiftOptions" : [0],
   "skyOptions" : [

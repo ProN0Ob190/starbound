@@ -9,9 +9,9 @@
         "mod2Count" : 0
       },
       "forestback" : {
-        "baseCount" : 4,
-        "mod1Count" : 2,
-        "mod2Count" : 9
+        "baseCount" : 1,
+        "mod1Count" : 0,
+        "mod2Count" : 0
       },
       "clouds1" : {
         "baseCount" : 2,
@@ -55,7 +55,7 @@
     {
       "kind" : "forestfront",
       "offset" : [0, 400],
-      "parallax" : 2.4,
+      "parallax" : 2,
       "nightCorrelation" : 0,
       "minSpeed" : 0,
       "maxSpeed" : 0,
@@ -75,24 +75,24 @@
 
     {
       "kind" : "foliage/treefront",
-      "offset" : [0, 295],
+      "offset" : [0, 255],
       "parallax" : 3,
       "nightCorrelation" : 0,
       "minSpeed" : 0,
       "maxSpeed" : 0,
-      "modifiers" : "?saturation=-15?brightness=-20",
-      "fadePercent" : 0.10
+      "modifiers" : "?saturation=-10?brightness=5",
+      "fadePercent" : 0.03
     },
 
     {
       "kind" : "foliage/treeback",
-      "offset" : [0, 340],
-      "parallax" : 5,
+      "offset" : [0, 235],
+      "parallax" : 3.5,
       "nightCorrelation" : 0,
       "minSpeed" : 0,
       "maxSpeed" : 0,
-      "modifiers" : "?saturation=-15?brightness=-10",
-      "fadePercent" : 0.20
+      "modifiers" : "?saturation=-5?brightness=10",
+      "fadePercent" : 0.03
     },
 
     {

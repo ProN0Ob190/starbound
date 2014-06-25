@@ -94,14 +94,68 @@
   "familyParameters" : [
     [
       {
-        "skillCount" : 4,
+        "skillCount" : 3,
         "baseSkills" : [ "meleeAttack" ],
-        "specialSkills" : [ "burrowSpecial", "recoverSpecial" ]
+        "specialSkills" : [ "burrowSpecial" ]
       },
       {
-        "skillCount" : 4,
+        "skillCount" : 3,
         "baseSkills" : [ "meleeAttack" ],
-        "specialSkills" : [ "burrowSpecial", "shieldSpecial" ]
+        "specialSkills" : [ "shieldSpecial" ]
+      },
+      {
+        "skillCount" : 3,
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [ "recoverSpecial" ]
+      },
+      {
+        "skillCount" : 3,
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [ "chargeAttack" ]
+      },
+      {
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [ "chargeAttack" ]
+      },
+      {
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [  ]
+      },
+      {
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [  ]
+      },
+      {
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [  ]
+      },
+      {
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [  ]
+      },
+      {
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [  ]
+      },
+      {
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [  ]
+      },
+      {
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [  ]
+      },
+      {
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [  ]
+      },
+      {
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [  ]
+      },
+      {
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [  ]
       }
     ]
   ],

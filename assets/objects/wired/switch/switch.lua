@@ -1,15 +1,28 @@
-function init(args)
+function init(virtual)
+  if virtual then return end
+  
   entity.setInteractive(true)
-  entity.setAllOutboundNodes(entity.animationState("switchState") == "on")
+  if storage.state == nil then
+    output(false)
+  else
+    output(storage.state)
+  end
 end
 
 function onInteraction(args)
-  if entity.animationState("switchState") == "off" then
+  output(not storage.state)
+end
+
+function output(state)
+  storage.state = state
+  if state then
     entity.setAnimationState("switchState", "on")
+    if not (entity.configParameter("alwaysLit")) then entity.setLightColor(entity.configParameter("lightColor", {0, 0, 0, 0})) end
     entity.playSound("onSounds");
     entity.setAllOutboundNodes(true)
   else
     entity.setAnimationState("switchState", "off")
+    if not (entity.configParameter("alwaysLit")) then entity.setLightColor({0, 0, 0, 0}) end
     entity.playSound("offSounds");
     entity.setAllOutboundNodes(false)
   end

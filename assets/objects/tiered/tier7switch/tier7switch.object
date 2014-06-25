@@ -3,7 +3,7 @@
   "printable" : false,
   "rarity" : "Common",
   "price" : 100,
-  "lightColor" : [38, 122, 128],
+  "lightColor" : [38, 110, 70],
   "flickerDistance" : 0.2,
   "flickerStrength" : 0.05,
   "flickerTiming" : 4,

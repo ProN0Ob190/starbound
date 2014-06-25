@@ -45,6 +45,37 @@
       ]
     }
   },
+  "parryBlockCooldown" : 1.2,
+  "parrySound" : "/sfx/melee/shield_block_floran_perfect.wav",
+  "parryParticle" : "shieldspark",
+
+  "altStances" : {
+    "type" : "parry",
+    "rescaleTiming" : false,
+    "parryPoly" : [ [12, -14], [12, -2], [28, 6], [28, -38], [12, -26] ],
+
+    "idle" : {
+      "twoHanded" : false,
+      "armAngle" : -90,
+      "swordAngle" : -90,
+      "handPosition" : [-6.0, -17.0],
+      "duration" : 0.1
+    },
+    "windup" : {
+      "twoHanded" : true,
+      "armAngle" : 58,
+      "swordAngle" : 208,
+      "handPosition" : [15.0, -17.0],
+      "duration" : 1.0
+    },
+    "cooldown" : {
+      "twoHanded" : false,
+      "armAngle" : -90,
+      "swordAngle" : -90,
+      "handPosition" : [-6.0, -17.0],
+      "duration" : 0.1
+    }
+  },
   "palette" : [
 
     { "452b13" : "452b13", "724c23" : "724c23", "ad885f" : "ad885f", //wood//

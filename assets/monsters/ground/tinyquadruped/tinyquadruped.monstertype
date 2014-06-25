@@ -101,14 +101,69 @@
   "familyParameters" : [
     [
       {
-        "baseSkills" : [ "rushAttack" ],
-        "specialSkills" : [ "tripleJumpAttack" ]
+        "skillCount" : 3,
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [ "burrowSpecial" ]
       },
       {
-        "baseSkills" : [ "rushAttack" ],
-        "specialSkills" : [ "flameBurstAttack", "bubbleBlastAttack", "fireballAttack", "acidicSpitAttack", "barbSprayAttack", "explosivePhlegmAttack", "sonicScreamAttack", "twistingPulseAttack", "acidSprayAttack", "shockingBoltAttack", "shockBallAttack", "gasBelchAttack", "iceBlastAttack", "rockShotAttack", "bloodVomitAttack", "flySwarmAttack", "iceShotAttack", "sonicWaveAttack", "fireSwirlAttack", "plasmaTorpedoAttack", "darkPlasmaAttack", "darkGravityBallAttack" ]
+        "skillCount" : 3,
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [ "shieldSpecial" ]
+      },
+      {
+        "skillCount" : 3,
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [ "recoverSpecial" ]
+      },
+      {
+        "skillCount" : 3,
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [ "chargeAttack" ]
+      },
+      {
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [ "chargeAttack" ]
+      },
+      {
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [  ]
+      },
+      {
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [  ]
+      },
+      {
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [  ]
+      },
+      {
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [  ]
+      },
+      {
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [  ]
+      },
+      {
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [  ]
+      },
+      {
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [  ]
+      },
+      {
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [  ]
+      },
+      {
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [  ]
+      },
+      {
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [  ]
       }
-
     ]
   ],
 

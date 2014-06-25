@@ -22,8 +22,7 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-	  "imageLayers" : [ { "image" : "outpostmicrowave.png:<color>.<frame>", "unlit" : true }, { "image" : "outpostmicrowavelit.png:<color>.<frame>" } ],
-	  "flipImages" : true,
+	  "imageLayers" : [ { "image" : "outpostmicrowaveleft.png:<color>.<frame>", "unlit" : true }, { "image" : "outpostmicrowaveleftlit.png:<color>.<frame>" } ],
 	  "direction" : "left",
       "lightPosition" : [0, 1],
 
@@ -36,7 +35,7 @@
 
     },
 	{
-	  "imageLayers" : [ { "image" : "outpostmicrowave.png:<color>.<frame>", "unlit" : true }, { "image" : "outpostmicrowavelit.png:<color>.<frame>" } ],
+	  "imageLayers" : [ { "image" : "outpostmicrowaveright.png:<color>.<frame>", "unlit" : true }, { "image" : "outpostmicrowaverightlit.png:<color>.<frame>" } ],
 	  "direction" : "right",
       "lightPosition" : [-1, 1],
 

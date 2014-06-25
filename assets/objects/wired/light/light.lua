@@ -41,10 +41,12 @@ end
 function setLightState(newState)
   if newState then
     entity.setAnimationState("light", "on")
+    entity.setSoundEffectEnabled(true)
     --TODO: support lightColors configuration
     entity.setLightColor(entity.configParameter("lightColor", {255, 255, 255}))
   else
     entity.setAnimationState("light", "off")
+    entity.setSoundEffectEnabled(false)
     entity.setLightColor({0, 0, 0, 0})
   end
 end

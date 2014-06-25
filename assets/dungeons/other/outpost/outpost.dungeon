@@ -463,13 +463,13 @@
 	{
       "value" : [102, 26, 255, 255],
       "comment" : "filingcabinet facing left",
-      "brush" : [ [ "clear" ], [ "object", "bench", { "direction" : "left" } ] ]
+      "brush" : [ [ "clear" ], [ "object", "filingcabinet", { "direction" : "left" } ] ]
     },
 
     {
       "value" : [97, 24, 242, 255],
       "comment" : "filingcabinet facing right",
-      "brush" : [ [ "clear" ], [ "object", "bench", { "direction" : "right" } ] ]
+      "brush" : [ [ "clear" ], [ "object", "filingcabinet", { "direction" : "right" } ] ]
     },
 	
 	{
@@ -1281,6 +1281,420 @@
         [ "maxSpawnCount", [1] ]
       ],
       "def" : [ "image", [ "outpostbase1.png", "outpostbase1-objects.png" ] ]
+    },
+	
+	{
+      "name" : "dining1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "dining1", "dining1nopipes", "dining2", "dining2nopipes", "dining3", "dining3nopipes", "dining4", "dining4nopipes" ] ]
+      ],
+      "def" : [ "image", [ "dining1.png", "dining1-objects.png" ] ]
+    },
+	
+	{
+      "name" : "dining1nopipes",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "dining1", "dining1nopipes", "dining2", "dining2nopipes", "dining3", "dining3nopipes", "dining4", "dining4nopipes" ] ]
+      ],
+      "def" : [ "image", [ "dining1nopipes.png", "dining1nopipes-objects.png" ] ]
+    },
+	
+	{
+      "name" : "dining2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "dining1", "dining1nopipes", "dining2", "dining2nopipes", "dining3", "dining3nopipes", "dining4", "dining4nopipes" ] ]
+      ],
+      "def" : [ "image", [ "dining2.png", "dining2-objects.png" ] ]
+    },
+	
+	{
+      "name" : "dining2nopipes",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "dining1", "dining1nopipes", "dining2", "dining2nopipes", "dining3", "dining3nopipes", "dining4", "dining4nopipes" ] ]
+      ],
+      "def" : [ "image", [ "dining2nopipes.png", "dining2nopipes-objects.png" ] ]
+    },
+	
+	{
+      "name" : "dining3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "dining1", "dining1nopipes", "dining2", "dining2nopipes", "dining3", "dining3nopipes", "dining4", "dining4nopipes" ] ]
+      ],
+      "def" : [ "image", [ "dining3.png", "dining3-objects.png" ] ]
+    },
+	
+	{
+      "name" : "dining3nopipes",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "dining1", "dining1nopipes", "dining2", "dining2nopipes", "dining3", "dining3nopipes", "dining4", "dining4nopipes" ] ]
+      ],
+      "def" : [ "image", [ "dining3nopipes.png", "dining3nopipes-objects.png" ] ]
+    },
+	
+	{
+      "name" : "dining4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "dining1", "dining1nopipes", "dining2", "dining2nopipes", "dining3", "dining3nopipes", "dining4", "dining4nopipes" ] ]
+      ],
+      "def" : [ "image", [ "dining3.png", "dining4-objects.png" ] ]
+    },
+	
+	{
+      "name" : "dining4nopipes",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "dining1", "dining1nopipes", "dining2", "dining2nopipes", "dining3", "dining3nopipes", "dining4", "dining4nopipes" ] ]
+      ],
+      "def" : [ "image", [ "dining3nopipes.png", "dining4nopipes-objects.png" ] ]
+    },
+	
+	{
+      "name" : "lobby1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "lobby1", "lobby1nopipes", "lobby2", "lobby2nopipes", "lobby4", "lobby4nopipes", "lobby6", "lobby6nopipes" ] ]
+      ],
+      "def" : [ "image", [ "lobby1.png", "lobby1-objects.png" ] ]
+    },
+	
+	{
+      "name" : "lobby1nopipes",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "lobby1", "lobby1nopipes", "lobby2", "lobby2nopipes", "lobby4", "lobby4nopipes", "lobby6", "lobby6nopipes"  ] ]
+      ],
+      "def" : [ "image", [ "lobby1nopipes.png", "lobby1nopipes-objects.png" ] ]
+    },
+	
+	{
+      "name" : "lobby2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "lobby1", "lobby1nopipes", "lobby2", "lobby2nopipes", "lobby3", "lobby3nopipes", "lobby5", "lobby5nopipes" ] ]
+      ],
+      "def" : [ "image", [ "lobby1.png", "lobby2-objects.png" ] ]
+    },
+	
+	{
+      "name" : "lobby2nopipes",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "lobby1", "lobby1nopipes", "lobby2", "lobby2nopipes", "lobby3", "lobby3nopipes", "lobby5", "lobby5nopipes" ] ]
+      ],
+      "def" : [ "image", [ "lobby1nopipes.png", "lobby2nopipes-objects.png" ] ]
+    },
+	
+	{
+      "name" : "lobby3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "lobby2", "lobby2nopipes", "lobby3", "lobby3nopipes", "lobby4", "lobby4nopipes", "lobby6", "lobby6nopipes" ] ]
+      ],
+      "def" : [ "image", [ "lobby3.png", "lobby3-objects.png" ] ]
+    },
+	
+	{
+      "name" : "lobby3nopipes",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "lobby2", "lobby2nopipes", "lobby3", "lobby3nopipes", "lobby4", "lobby4nopipes", "lobby6", "lobby6nopipes" ] ]
+      ],
+      "def" : [ "image", [ "lobby3nopipes.png", "lobby3nopipes-objects.png" ] ]
+    },
+	
+	{
+      "name" : "lobby4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "lobby1", "lobby1nopipes", "lobby3", "lobby3nopipes", "lobby4", "lobby4nopipes", "lobby5", "lobby5nopipes" ] ]
+      ],
+      "def" : [ "image", [ "lobby3.png", "lobby4-objects.png" ] ]
+    },
+	
+	{
+      "name" : "lobby4nopipes",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "lobby1", "lobby1nopipes", "lobby3", "lobby3nopipes", "lobby4", "lobby4nopipes", "lobby5", "lobby5nopipes" ] ]
+      ],
+      "def" : [ "image", [ "lobby3nopipes.png", "lobby4nopipes-objects.png" ] ]
+    },
+	
+	{
+      "name" : "lobby5",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "lobby2", "lobby2nopipes", "lobby4", "lobby4nopipes", "lobby5", "lobby5nopipes", "lobby6", "lobby6nopipes" ] ]
+      ],
+      "def" : [ "image", [ "lobby5.png", "lobby5-objects.png" ] ]
+    },
+	
+	{
+      "name" : "lobby5nopipes",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "lobby2", "lobby2nopipes", "lobby4", "lobby4nopipes", "lobby5", "lobby5nopipes", "lobby6", "lobby6nopipes" ] ]
+      ],
+      "def" : [ "image", [ "lobby5nopipes.png", "lobby5nopipes-objects.png" ] ]
+    },
+	
+	{
+      "name" : "lobby6",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "lobby1", "lobby1nopipes", "lobby3", "lobby3nopipes", "lobby5", "lobby5nopipes", "lobby6", "lobby6nopipes" ] ]
+      ],
+      "def" : [ "image", [ "lobby5.png", "lobby6-objects.png" ] ]
+    },
+	
+	{
+      "name" : "lobby6nopipes",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "lobby2", "lobby2nopipes", "lobby4", "lobby4nopipes", "lobby5", "lobby5nopipes", "lobby6", "lobby6nopipes" ] ]
+      ],
+      "def" : [ "image", [ "lobby5nopipes.png", "lobby6nopipes-objects.png" ] ]
+    },
+	
+	{
+      "name" : "lobby7",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "lobby2", "lobby2nopipes", "lobby4", "lobby4nopipes", "lobby6", "lobby6nopipes", "lobby7", "lobby7nopipes", "lobby8", "lobby8nopipes" ] ]
+      ],
+      "def" : [ "image", [ "lobby7.png", "lobby7-objects.png" ] ]
+    },
+	
+	{
+      "name" : "lobby7nopipes",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "lobby2", "lobby2nopipes", "lobby4", "lobby4nopipes", "lobby6", "lobby6nopipes", "lobby7", "lobby7nopipes", "lobby8", "lobby8nopipes" ] ]
+      ],
+      "def" : [ "image", [ "lobby7nopipes.png", "lobby7nopipes-objects.png" ] ]
+    },
+	
+	{
+      "name" : "lobby8",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "lobby1", "lobby1nopipes", "lobby3", "lobby3nopipes", "lobby5", "lobby5nopipes", "lobby7", "lobby7nopipes", "lobby8", "lobby8nopipes" ] ]
+      ],
+      "def" : [ "image", [ "lobby7.png", "lobby8-objects.png" ] ]
+    },
+	
+	{
+      "name" : "lobby8nopipes",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "lobby1", "lobby1nopipes", "lobby3", "lobby3nopipes", "lobby5", "lobby5nopipes", "lobby7", "lobby7nopipes", "lobby8", "lobby8nopipes" ] ]
+      ],
+      "def" : [ "image", [ "lobby7nopipes.png", "lobby8nopipes-objects.png" ] ]
+    },
+	
+	{
+      "name" : "lobby9",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "lobby9", "lobby9nopipes" ] ]
+      ],
+      "def" : [ "image", [ "lobby9.png", "lobby9-objects.png" ] ]
+    },
+	
+	{
+      "name" : "lobby9nopipes",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "lobby9", "lobby9nopipes" ] ]
+      ],
+      "def" : [ "image", [ "lobby9nopipes.png", "lobby9nopipes-objects.png" ] ]
+    },
+	
+	{
+      "name" : "security1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "security1", "security1nopipes", "security2", "security2nopipes", "security3", "security3nopipes", "security4", "security4nopipes", "security5", "security5nopipes", "security6", "security6nopipes" ] ]
+      ],
+      "def" : [ "image", [ "security1.png", "security1-objects.png" ] ]
+    },
+	
+	{
+      "name" : "security1nopipes",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "security1", "security1nopipes", "security2", "security2nopipes", "security3", "security3nopipes", "security4", "security4nopipes", "security5", "security5nopipes", "security6", "security6nopipes" ] ]
+      ],
+      "def" : [ "image", [ "security1nopipes.png", "security1nopipes-objects.png" ] ]
+    },
+	
+	{
+      "name" : "security2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "security1", "security1nopipes", "security2", "security2nopipes", "security3", "security3nopipes", "security4", "security4nopipes", "security5", "security5nopipes", "security6", "security6nopipes" ] ]
+      ],
+      "def" : [ "image", [ "security1.png", "security2-objects.png" ] ]
+    },
+	
+	{
+      "name" : "security2nopipes",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "security1", "security1nopipes", "security2", "security2nopipes", "security3", "security3nopipes", "security4", "security4nopipes", "security5", "security5nopipes", "security6", "security6nopipes" ] ]
+      ],
+      "def" : [ "image", [ "security1nopipes.png", "security2nopipes-objects.png" ] ]
+    },
+	
+	{
+      "name" : "security3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "security1", "security1nopipes", "security2", "security2nopipes", "security3", "security3nopipes", "security4", "security4nopipes", "security5", "security5nopipes", "security6", "security6nopipes" ] ]
+      ],
+      "def" : [ "image", [ "security3.png", "security3-objects.png" ] ]
+    },
+	
+	{
+      "name" : "security3nopipes",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "security1", "security1nopipes", "security2", "security2nopipes", "security3", "security3nopipes", "security4", "security4nopipes", "security5", "security5nopipes", "security6", "security6nopipes" ] ]
+      ],
+      "def" : [ "image", [ "security3nopipes.png", "security3nopipes-objects.png" ] ]
+    },
+	
+	{
+      "name" : "security4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "security1", "security1nopipes", "security2", "security2nopipes", "security3", "security3nopipes", "security4", "security4nopipes", "security5", "security5nopipes", "security6", "security6nopipes" ] ]
+      ],
+      "def" : [ "image", [ "security3.png", "security4-objects.png" ] ]
+    },
+	
+	{
+      "name" : "security4nopipes",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "security1", "security1nopipes", "security2", "security2nopipes", "security3", "security3nopipes", "security4", "security4nopipes", "security5", "security5nopipes", "security6", "security6nopipes" ] ]
+      ],
+      "def" : [ "image", [ "security3nopipes.png", "security4nopipes-objects.png" ] ]
+    },
+	
+	{
+      "name" : "security5",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "security1", "security1nopipes", "security2", "security2nopipes", "security3", "security3nopipes", "security4", "security4nopipes", "security5", "security5nopipes", "security6", "security6nopipes" ] ]
+      ],
+      "def" : [ "image", [ "security1.png", "security5-objects.png" ] ]
+    },
+	
+	{
+      "name" : "security5nopipes",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "security1", "security1nopipes", "security2", "security2nopipes", "security3", "security3nopipes", "security4", "security4nopipes", "security5", "security5nopipes", "security6", "security6nopipes" ] ]
+      ],
+      "def" : [ "image", [ "security1nopipes.png", "security5nopipes-objects.png" ] ]
+    },
+	
+	{
+      "name" : "security6",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "security1", "security1nopipes", "security2", "security2nopipes", "security3", "security3nopipes", "security4", "security4nopipes", "security5", "security5nopipes", "security6", "security6nopipes" ] ]
+      ],
+      "def" : [ "image", [ "security1.png", "security6-objects.png" ] ]
+    },
+	
+	{
+      "name" : "security6nopipes",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "security1", "security1nopipes", "security2", "security2nopipes", "security3", "security3nopipes", "security4", "security4nopipes", "security5", "security5nopipes", "security6", "security6nopipes" ] ]
+      ],
+      "def" : [ "image", [ "security1nopipes.png", "security6nopipes-objects.png" ] ]
+    },
+	
+	{
+      "name" : "storage1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "storage1", "storage1nopipes", "storage2", "storage2nopipes", "storage3", "storage3nopipes", "storage4", "storage4nopipes" ] ]
+      ],
+      "def" : [ "image", [ "storage1.png", "storage1-objects.png" ] ]
+    },
+	
+	{
+      "name" : "storage1nopipes",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "storage1", "storage1nopipes", "storage2", "storage2nopipes", "storage3", "storage3nopipes", "storage4", "storage4nopipes" ] ]
+      ],
+      "def" : [ "image", [ "storage1nopipes.png", "storage1nopipes-objects.png" ] ]
+    },
+	
+	{
+      "name" : "storage2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "storage1", "storage1nopipes", "storage2", "storage2nopipes", "storage3", "storage3nopipes", "storage4", "storage4nopipes" ] ]
+      ],
+      "def" : [ "image", [ "storage2.png", "storage2-objects.png" ] ]
+    },
+	
+	{
+      "name" : "storage2nopipes",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "storage1", "storage1nopipes", "storage2", "storage2nopipes", "storage3", "storage3nopipes", "storage4", "storage4nopipes" ] ]
+      ],
+      "def" : [ "image", [ "storage2nopipes.png", "storage2nopipes-objects.png" ] ]
+    },
+	
+	{
+      "name" : "storage3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "storage1", "storage1nopipes", "storage2", "storage2nopipes", "storage3", "storage3nopipes", "storage4", "storage4nopipes" ] ]
+      ],
+      "def" : [ "image", [ "storage3.png", "storage3-objects.png" ] ]
+    },
+	
+	{
+      "name" : "storage3nopipes",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "storage1", "storage1nopipes", "storage2", "storage2nopipes", "storage3", "storage3nopipes", "storage4", "storage4nopipes" ] ]
+      ],
+      "def" : [ "image", [ "storage3nopipes.png", "storage3nopipes-objects.png" ] ]
+    },
+	
+	{
+      "name" : "storage4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "storage1", "storage1nopipes", "storage2", "storage2nopipes", "storage3", "storage3nopipes", "storage4", "storage4nopipes" ] ]
+      ],
+      "def" : [ "image", [ "storage4.png", "storage4-objects.png" ] ]
+    },
+	
+	{
+      "name" : "storage4nopipes",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "storage1", "storage1nopipes", "storage2", "storage2nopipes", "storage3", "storage3nopipes", "storage4", "storage4nopipes" ] ]
+      ],
+      "def" : [ "image", [ "storage4nopipes.png", "storage4nopipes-objects.png" ] ]
     },
 	
 	{

@@ -50,7 +50,7 @@
     {
       "kind" : "junglefront",
       "offset" : [0, 400],
-      "parallax" : 2.4,
+      "parallax" : 2,
       "nightCorrelation" : 0,
       "minSpeed" : 0,
       "maxSpeed" : 0,
@@ -67,6 +67,7 @@
       "modifiers" : "?saturation=-5?brightness=10",
       "fadePercent" : 0.03
     },
+	
     {
       "kind" : "foliage/treefront",
       "offset" : [0, 255],
@@ -77,6 +78,7 @@
       "modifiers" : "?saturation=-10?brightness=5",
       "fadePercent" : 0.03
     },
+	
     {
       "kind" : "foliage/treeback",
       "offset" : [0, 235],

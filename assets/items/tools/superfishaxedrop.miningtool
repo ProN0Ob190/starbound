@@ -16,7 +16,7 @@
   "swingFinish" : 60,
   "blockRadius" : 7,
   "altBlockRadius" : 1,
-  "tileDamage" : 1.0,
+  "tileDamage" : 10.0,
   "tileDamageBlunted" : 1.0,
   "twoHanded" : true,
   "strikeSound" : "/sfx/tools/pickaxe_hit.wav",

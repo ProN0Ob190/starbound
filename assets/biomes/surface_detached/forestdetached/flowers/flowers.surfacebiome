@@ -6,6 +6,7 @@
     "mainBlock" : "dirt",
     "subBlocks" : [ "rock02" ],
     "ores" : "surfaceOres",
+    "spawnProfile" : "surfacecrowded",
 
     "statusParameters" : {
       "temperatureBounds" : [15, 30],

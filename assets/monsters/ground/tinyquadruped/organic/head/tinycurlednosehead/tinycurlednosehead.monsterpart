@@ -10,7 +10,7 @@
 
   "parameters" :
   {
-    "projectileSourcePosition" : [1, -0.5],
+    "projectileSourcePosition" : [1.5, -1.25],
     // "idleNoise" : [ "/sfx/npc/smallbiped/goathead_small_idle1.wav", "/sfx/npc/smallbiped/goathead_small_idle2.wav" ],
     "turnHostileNoise" : [ "/sfx/npc/monsters/monster_surprise.wav" ],
     // "attackNoise" : [ "/sfx/npc/smallbiped/goathead_small_attack1.wav", "/sfx/npc/smallbiped/goathead_small_attack2.wav" ],
