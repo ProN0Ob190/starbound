@@ -2,7 +2,7 @@
   "name" : "desert",
   "friendlyName" : "Desert",
   "requiredStatuses" : [ "beamaxe" ],
-  "spawnProfile" : "surfacemix",
+  "spawnProfile" : "surfacesparse",
 
   "hueShiftOptions" : [-56, -45, -16, -26, 0],
   "skyOptions" : [

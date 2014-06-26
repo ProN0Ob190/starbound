@@ -1,6 +1,7 @@
 {
   "name" : "toxicplains",
   "friendlyName" : "Toxicplains",
+  "spawnProfile" : "surfacemix",
 
   "surfaceParameters" : {
     "mainBlock" : "dirt",

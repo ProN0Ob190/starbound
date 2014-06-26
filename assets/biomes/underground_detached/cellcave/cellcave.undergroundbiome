@@ -3,6 +3,7 @@
   "friendlyName" : "Cell Cave",
   "caveLiquidType" : "water",
   "requiredStatuses" : [ "beamaxe" ],
+  "spawnProfile" : "undergroundmix",
 
   "mainBlock" : "slime",
   "subBlocks" : [ "mud" ],

@@ -2,6 +2,7 @@
   "name" : "charred",
   "friendlyName" : "Charred",
   "requiredStatuses" : [ "beamaxe" ],
+  "spawnProfile" : "surfacesparse",
 
   "hueShiftOptions" : [0],
 

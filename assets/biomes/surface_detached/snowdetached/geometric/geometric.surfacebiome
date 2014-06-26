@@ -1,6 +1,7 @@
 {
   "name" : "geometric",
   "friendlyName" : "Geometric",
+  "spawnProfile" : "surfacemix",
 
   "surfaceParameters" : {
     "mainBlock" : "snow",

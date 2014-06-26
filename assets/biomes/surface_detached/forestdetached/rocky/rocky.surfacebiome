@@ -1,6 +1,7 @@
 {
   "name" : "rocky",
   "friendlyName" : "Rocky",
+  "spawnProfile" : "surfacemix",
 
   "surfaceParameters" : {
     "mainBlock" : "rock03",

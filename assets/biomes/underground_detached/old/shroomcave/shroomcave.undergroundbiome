@@ -2,6 +2,7 @@
   "name" : "shroomcave",
   "friendlyName" : "Shroom Cave",
   "requiredStatuses" : [ "beamaxe" ],
+  "spawnProfile" : "undergroundmix",
 
   "hueShiftOptions" : [-180, -135, -90, -45, 0, 45, 90, 135, 180],
 

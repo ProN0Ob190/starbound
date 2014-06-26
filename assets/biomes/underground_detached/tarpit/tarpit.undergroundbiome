@@ -3,6 +3,7 @@
   "friendlyName" : "Tarpit",
   "caveLiquidType" : "tarliquid",
   "requiredStatuses" : [ "beamaxe" ],
+  "spawnProfile" : "undergroundmix",
 
   "mainBlock" : "tar",
   "subBlocks" : [ "wetdirt" ],

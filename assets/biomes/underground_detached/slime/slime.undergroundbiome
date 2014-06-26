@@ -3,6 +3,7 @@
   "friendlyName" : "Slime Caves",
   "caveLiquidType" : "acid",
   "requiredStatuses" : [ "beamaxe" ],
+  "spawnProfile" : "undergroundmix",
 
   "mainBlock" : "slime",
   "subBlocks" : [ "dirt", "sewage" ],

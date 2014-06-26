@@ -2,6 +2,7 @@
   "name" : "hive",
   "friendlyName" : "hive",
   "requiredStatuses" : [ "beamaxe" ],
+  "spawnProfile" : "undergroundmix",
 
   "mainBlock" : "hive",
   "subBlocks" : [ "hellstone", "rock04" ],

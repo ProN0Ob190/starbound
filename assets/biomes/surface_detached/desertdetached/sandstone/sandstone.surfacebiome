@@ -1,6 +1,7 @@
 {
   "name" : "sandstone",
   "friendlyName" : "Sandstone",
+  "spawnProfile" : "surfacesparse",
 
   "surfaceParameters" : {
     "mainBlock" : "sandstone01",

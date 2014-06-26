@@ -3,6 +3,7 @@
   "friendlyName" : "Savannah",
   "caveLiquidType" : [ "water", "acid", "tarliquid" ],
   "requiredStatuses" : [ "beamaxe" ],
+  "spawnProfile" : "surfacemix",
 
   "hueShiftOptions" : [0],
   "skyOptions" : [

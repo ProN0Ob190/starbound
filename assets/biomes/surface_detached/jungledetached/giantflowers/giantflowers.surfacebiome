@@ -1,6 +1,7 @@
 {
   "name" : "giantflowers",
   "friendlyName" : "Giantflowers",
+  "spawnProfile" : "surfacemix",
 
   "surfaceParameters" : {
     "mainBlock" : "dirt",

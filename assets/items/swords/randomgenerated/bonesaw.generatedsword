@@ -30,9 +30,7 @@
       "swordAngle" : -60,
       "handPosition" : [-0.8, -28],
       "duration" : 0.07,
-      "statusEffects" : [
-        { "kind" : "shieldsuppressed", "duration" : 0.1 }
-      ]
+      "statusEffects" : [ ]
     },
     "cooldown" : {
       "twoHanded" : false,
@@ -40,9 +38,7 @@
       "swordAngle" : -105,
       "handPosition" : [1.7, -15.5],
       "duration" : 0.4,
-      "statusEffects" : [
-        { "kind" : "shieldsuppressed", "duration" : 0.1 }
-      ]
+      "statusEffects" : [ ]
     }
   },
   "palette" : [

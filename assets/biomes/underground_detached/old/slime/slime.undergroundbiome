@@ -2,6 +2,7 @@
   "name" : "slime",
   "friendlyName" : "Slime",
   "requiredStatuses" : [ "beamaxe" ],
+  "spawnProfile" : "undergroundmix",
 
   "mainBlock" : "slime",
   "subBlocks" : [ "rock15" ],

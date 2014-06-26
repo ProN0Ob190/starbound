@@ -2,6 +2,7 @@
   "name" : "sandlayer",
   "friendlyName" : "Sandlayer",
   "requiredStatuses" : [ "beamaxe" ],
+  "spawnProfile" : "undergroundmix",
 
   "undergroundParallax" : "rockunderground.undergroundparallax",
 

@@ -1,6 +1,7 @@
 {
   "name" : "crystalline",
   "friendlyName" : "Crystalline",
+  "spawnProfile" : "surfacemix",
 
   "surfaceParameters" : {
     "mainBlock" : "obsidian",

@@ -2,6 +2,7 @@
   "name" : "eyepatch",
   "friendlyName" : "Eyepatch",
   "caveLiquidType" : "tentaclejuice",
+  "spawnProfile" : "surfacemix",
 
   "surfaceParameters" : {
     "mainBlock" : "dirt",

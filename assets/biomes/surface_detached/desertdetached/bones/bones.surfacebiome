@@ -1,6 +1,7 @@
 {
   "name" : "bones",
   "friendlyName" : "Bones",
+  "spawnProfile" : "surfacesparse",
 
   "surfaceParameters" : {
     "mainBlock" : "bonematerial",

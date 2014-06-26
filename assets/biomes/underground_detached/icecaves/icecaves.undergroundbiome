@@ -2,6 +2,7 @@
   "name" : "icecaves",
   "friendlyName" : "Ice Caves",
   "requiredStatuses" : [ "beamaxe" ],
+  "spawnProfile" : "undergroundmix",
 
   "mainBlock" : "ice",
   "subBlocks" : [ "snow", "slush" ],

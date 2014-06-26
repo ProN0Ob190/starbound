@@ -2,6 +2,7 @@
   "name" : "mushrooms",
   "friendlyName" : "Mushrooms",
   "requiredStatuses" : [ "beamaxe" ],
+  "spawnProfile" : "undergroundmix",
 
   "mainBlock" : "dirt",
   "subBlocks" : [ "rock15", "mud", "shroomblock" ],

@@ -2,6 +2,7 @@
   "name" : "drysandlayer",
   "friendlyName" : "Drysandlayer",
   "requiredStatuses" : [ "beamaxe" ],
+  "spawnProfile" : "undergroundmix",
 
   "undergroundParallax" : "rockunderground.undergroundparallax",
 

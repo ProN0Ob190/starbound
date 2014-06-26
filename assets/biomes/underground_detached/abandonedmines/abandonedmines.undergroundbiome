@@ -3,6 +3,7 @@
   "friendlyName" : "Abandoned Mines",
   "caveLiquidType" : "tarliquid",
   "requiredStatuses" : [ "beamaxe" ],
+  "spawnProfile" : "undergroundmix",
 
   "mainBlock" : "rock20",
   "subBlocks" : [ "dirt", "rock02" ],

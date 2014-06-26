@@ -2,6 +2,7 @@
   "name" : "gravellayer",
   "friendlyName" : "Gravellayer",
   "requiredStatuses" : [ "beamaxe" ],
+  "spawnProfile" : "undergroundmix",
 
   "undergroundParallax" : "rockunderground.undergroundparallax",
 

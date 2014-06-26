@@ -3,6 +3,7 @@
   "friendlyName" : "Snow",
   "caveLiquidType" : [ "water", "acid", "tarliquid" ],
   "requiredStatuses" : [ "beamaxe" ],
+  "spawnProfile" : "surfacemix",
 
   "hueShiftOptions" : [-180, 0, 45, 30],
   "skyOptions" : [

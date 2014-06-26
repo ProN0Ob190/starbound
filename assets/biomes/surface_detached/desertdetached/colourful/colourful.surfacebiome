@@ -1,6 +1,7 @@
 {
   "name" : "colourful",
   "friendlyName" : "Colourful",
+  "spawnProfile" : "surfacemix",
 
   "surfaceParameters" : {
     "mainBlock" : "sand2",

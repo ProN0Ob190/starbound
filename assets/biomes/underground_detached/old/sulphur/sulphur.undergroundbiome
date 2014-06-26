@@ -2,6 +2,7 @@
   "name" : "sulphur",
   "friendlyName" : "Sulphur",
   "requiredStatuses" : [ "beamaxe" ],
+  "spawnProfile" : "undergroundmix",
 
   "mainBlock" : "rock12",
   "subBlocks" : [ "ash", "rock14" ],

@@ -1,12 +1,12 @@
 {
   "name" : "flowers",
   "friendlyName" : "Flowers",
+  "spawnProfile" : "surfacemix",
 
   "surfaceParameters" : {
     "mainBlock" : "dirt",
     "subBlocks" : [ "rock02" ],
     "ores" : "surfaceOres",
-    "spawnProfile" : "surfacecrowded",
 
     "statusParameters" : {
       "temperatureBounds" : [15, 30],

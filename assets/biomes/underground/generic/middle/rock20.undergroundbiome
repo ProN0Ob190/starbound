@@ -2,6 +2,7 @@
   "name" : "rock20layer",
   "friendlyName" : "Rock20layer",
   "requiredStatuses" : [ "beamaxe" ],
+  "spawnProfile" : "undergroundmix",
 
   "undergroundParallax" : "rockunderground.undergroundparallax",
 

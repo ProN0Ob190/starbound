@@ -2,6 +2,7 @@
   "name" : "undergroundtest1",
   "friendlyName" : "Undergroundtest1",
   "requiredStatuses" : [ "beamaxe" ],
+  "spawnProfile" : "undergroundmix",
 
   "mainBlock" : "purplecrystal",
   "subBlocks" : [ "rock04" ],

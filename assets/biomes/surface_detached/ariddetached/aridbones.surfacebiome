@@ -2,6 +2,7 @@
   "name" : "aridbones",
   "friendlyName" : "Aridbones",
   "requiredStatuses" : [ "beamaxe" ],
+  "spawnProfile" : "surfacesparse",
 
   "hueShiftOptions" : [0],
 

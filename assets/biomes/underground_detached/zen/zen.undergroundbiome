@@ -3,6 +3,7 @@
   "friendlyName" : "Zen Caves",
   "caveLiquidType" : "water",
   "requiredStatuses" : [ "beamaxe" ],
+  "spawnProfile" : "undergroundmix",
 
   "mainBlock" : "dirt",
   "subBlocks" : [ "rock04" ],

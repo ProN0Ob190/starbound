@@ -2,6 +2,7 @@
   "name" : "colorfulcave",
   "friendlyName" : "Colorful Cave",
   "requiredStatuses" : [ "beamaxe" ],
+  "spawnProfile" : "undergroundmix",
 
   "mainBlock" : "sand2",
   "subBlocks" : [ "sand", "dirt" ],

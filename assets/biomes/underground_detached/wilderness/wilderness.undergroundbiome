@@ -2,6 +2,7 @@
   "name" : "wilderness",
   "friendlyName" : "Wilderness",
   "requiredStatuses" : [ "beamaxe" ],
+  "spawnProfile" : "undergroundmix",
 
   "mainBlock" : "rock15",
   "subBlocks" : [ "dirt", "plantmatter", "hive" ],

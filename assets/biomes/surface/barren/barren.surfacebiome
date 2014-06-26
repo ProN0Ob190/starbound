@@ -2,6 +2,7 @@
   "name" : "barren",
   "friendlyName" : "Barren",
   "requiredStatuses" : [ "beamaxe" ],
+  "spawnProfile" : "surfacesparse",
 
   "hueShiftOptions" : [-180, -135, -90, -45, 0, 45, 90, 135, 180],
   "skyOptions" : [

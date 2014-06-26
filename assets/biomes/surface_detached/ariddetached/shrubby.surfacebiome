@@ -1,6 +1,7 @@
 {
   "name" : "shrubby",
   "friendlyName" : "Shrubby",
+  "spawnProfile" : "surfacemix",
 
   "surfaceParameters" : {
     "mainBlock" : "drysand",

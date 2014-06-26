@@ -941,6 +941,12 @@
     },
 	
 	{
+      "value" : [179, 134, 89, 255],
+      "comment" : "outpostslidingdoor",
+      "brush" : [ [ "clear" ], [ "object", "outpostslidingdoor" ] ]
+    },
+	
+	{
       "value" : [229, 103, 0, 255],
       "comment" : "infinityexpress facing left",
       "brush" : [ [ "clear" ], [ "object", "infinityexpress", { "direction" : "left" } ] ]
@@ -1287,7 +1293,7 @@
       "name" : "dining1",
       "rules" : [
         [ "maxSpawnCount", [1] ],
-        [ "doNotCombineWith", [ "dining1", "dining1nopipes", "dining2", "dining2nopipes", "dining3", "dining3nopipes", "dining4", "dining4nopipes" ] ]
+        [ "doNotCombineWith", [ "dining1", "dining1nopipes", "dining2", "dining2nopipes", "dining3", "dining3nopipes", "dining4", "dining4nopipes", "dorm4" ] ]
       ],
       "def" : [ "image", [ "dining1.png", "dining1-objects.png" ] ]
     },
@@ -1296,7 +1302,7 @@
       "name" : "dining1nopipes",
       "rules" : [
         [ "maxSpawnCount", [1] ],
-        [ "doNotCombineWith", [ "dining1", "dining1nopipes", "dining2", "dining2nopipes", "dining3", "dining3nopipes", "dining4", "dining4nopipes" ] ]
+        [ "doNotCombineWith", [ "dining1", "dining1nopipes", "dining2", "dining2nopipes", "dining3", "dining3nopipes", "dining4", "dining4nopipes", "dorm4" ] ]
       ],
       "def" : [ "image", [ "dining1nopipes.png", "dining1nopipes-objects.png" ] ]
     },
@@ -1305,7 +1311,7 @@
       "name" : "dining2",
       "rules" : [
         [ "maxSpawnCount", [1] ],
-        [ "doNotCombineWith", [ "dining1", "dining1nopipes", "dining2", "dining2nopipes", "dining3", "dining3nopipes", "dining4", "dining4nopipes" ] ]
+        [ "doNotCombineWith", [ "dining1", "dining1nopipes", "dining2", "dining2nopipes", "dining3", "dining3nopipes", "dining4", "dining4nopipes", "dorm3" ] ]
       ],
       "def" : [ "image", [ "dining2.png", "dining2-objects.png" ] ]
     },
@@ -1314,7 +1320,7 @@
       "name" : "dining2nopipes",
       "rules" : [
         [ "maxSpawnCount", [1] ],
-        [ "doNotCombineWith", [ "dining1", "dining1nopipes", "dining2", "dining2nopipes", "dining3", "dining3nopipes", "dining4", "dining4nopipes" ] ]
+        [ "doNotCombineWith", [ "dining1", "dining1nopipes", "dining2", "dining2nopipes", "dining3", "dining3nopipes", "dining4", "dining4nopipes", "dorm3" ] ]
       ],
       "def" : [ "image", [ "dining2nopipes.png", "dining2nopipes-objects.png" ] ]
     },
@@ -1353,6 +1359,42 @@
         [ "doNotCombineWith", [ "dining1", "dining1nopipes", "dining2", "dining2nopipes", "dining3", "dining3nopipes", "dining4", "dining4nopipes" ] ]
       ],
       "def" : [ "image", [ "dining3nopipes.png", "dining4nopipes-objects.png" ] ]
+    },
+	
+	{
+      "name" : "dorm1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "dorm1", "dorm2", "dorm3", "dorm4" ] ]
+      ],
+      "def" : [ "image", [ "dorm1.png", "dorm1-objects.png" ] ]
+    },
+	
+	{
+      "name" : "dorm2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "dorm1", "dorm2", "dorm3", "dorm4" ] ]
+      ],
+      "def" : [ "image", [ "dorm1.png", "dorm2-objects.png" ] ]
+    },
+	
+	{
+      "name" : "dorm3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "dining2", "dining2nopipes", "dorm1", "dorm2", "dorm3", "dorm4" ] ]
+      ],
+      "def" : [ "image", [ "dorm1.png", "dorm3-objects.png" ] ]
+    },
+	
+	{
+      "name" : "dorm4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "dining1", "dining1nopipes", "dorm1", "dorm2", "dorm3", "dorm4" ] ]
+      ],
+      "def" : [ "image", [ "dorm1.png", "dorm4-objects.png" ] ]
     },
 	
 	{

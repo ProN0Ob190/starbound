@@ -2,6 +2,7 @@
   "name" : "sandstonelayer",
   "friendlyName" : "Sandstonelayer",
   "requiredStatuses" : [ "beamaxe" ],
+  "spawnProfile" : "undergroundmix",
 
   "undergroundParallax" : "desert.undergroundparallax",
 

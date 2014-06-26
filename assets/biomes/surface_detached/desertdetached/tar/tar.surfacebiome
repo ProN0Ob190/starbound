@@ -2,6 +2,7 @@
   "name" : "tar",
   "friendlyName" : "Tar",
   "caveLiquidType" : "tarliquid",
+  "spawnProfile" : "surfacemix",
 
   "surfaceParameters" : {
     "mainBlock" : "tar",

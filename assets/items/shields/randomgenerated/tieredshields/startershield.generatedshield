@@ -27,6 +27,6 @@
   },
   "nameGenerator" : "startershieldnames.config:nameGen",
   "tooltipKind" : "shield",
-  "health" : 10.0,
-  "healthRegen" : 0.01
+  "health" : 5.0,
+  "healthRegen" : 0.0025
 }

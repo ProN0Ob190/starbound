@@ -2,6 +2,7 @@
   "name" : "mudlayer",
   "friendlyName" : "Mudlayer",
   "requiredStatuses" : [ "beamaxe" ],
+  "spawnProfile" : "undergroundmix",
 
   "undergroundParallax" : "rockunderground.undergroundparallax",
 

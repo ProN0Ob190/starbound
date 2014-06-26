@@ -48,7 +48,7 @@
     }
   },
   "parryBlockCooldown" : 1.2,
-  "parrySound" : "/sfx/melee/shield_block_floran_perfect.wav",
+  "parrySound" : "/sfx/melee/sword_parry.wav",
   "parryParticle" : "shieldspark",
 
   "altStances" : {

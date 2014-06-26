@@ -2,6 +2,7 @@
   "name" : "ice",
   "friendlyName" : "Ice",
   "requiredStatuses" : [ "beamaxe" ],
+  "spawnProfile" : "surfacemix",
 
   "hueShiftOptions" : [-45, 0, 45],
 

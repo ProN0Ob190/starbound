@@ -5,7 +5,7 @@
   "requiredStatuses" : [ "beamaxe" ],
   "spawnProfile" : "surfacemix",
 
-  "hueShiftOptions" : [-180, -135, -90, -66, -45, 0, 45, 90, 135, 180],
+  "hueShiftOptions" : [-30, -20, -15, -10, -5, 0, 5, 10, 15, 20, 30],
   "skyOptions" : [
 
     {

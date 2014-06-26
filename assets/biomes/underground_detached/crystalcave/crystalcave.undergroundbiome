@@ -3,6 +3,7 @@
   "friendlyName" : "Crystal Cave",
   "caveLiquidType" : "lava",
   "requiredStatuses" : [ "beamaxe" ],
+  "spawnProfile" : "undergroundmix",
 
   "mainBlock" : "rock14",
   "subBlocks" : [ "obsidian", "rock02" ],

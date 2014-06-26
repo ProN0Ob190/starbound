@@ -1,6 +1,7 @@
 {
   "name" : "oasis",
   "friendlyName" : "Oasis",
+  "spawnProfile" : "surfacemix",
 
   "surfaceParameters" : {
     "mainBlock" : "sand2",

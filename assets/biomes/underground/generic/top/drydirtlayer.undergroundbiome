@@ -2,6 +2,7 @@
   "name" : "drydirtlayer",
   "friendlyName" : "Drydirtlayer",
   "requiredStatuses" : [ "beamaxe" ],
+  "spawnProfile" : "undergroundmix",
 
   "undergroundParallax" : "rockunderground.undergroundparallax",
 
