@@ -559,7 +559,7 @@
 	{
       "value" : [178, 255, 26, 255],
       "comment" : "outpostbutton",
-      "brush" : [ [ "clear" ], [ "object", "castledoor" ] ]
+      "brush" : [ [ "clear" ], [ "object", "outpostbutton" ] ]
     },
 	
 	{
@@ -947,37 +947,37 @@
     },
 	
 	{
-      "value" : [229, 103, 0, 255],
+      "value" : [148, 255, 26, 255],
       "comment" : "infinityexpress facing left",
       "brush" : [ [ "clear" ], [ "object", "infinityexpress", { "direction" : "left" } ] ]
     },
 
     {
-      "value" : [217, 98, 0, 255],
+      "value" : [141, 242, 24, 255],
       "comment" : "infinityexpress facing right",
       "brush" : [ [ "clear" ], [ "object", "infinityexpress", { "direction" : "right" } ] ]
     },
 	
 	{
-      "value" : [179, 119, 89, 255],
+      "value" : [133, 255, 26, 255],
       "comment" : "penguinbay facing left",
       "brush" : [ [ "clear" ], [ "object", "penguinbay", { "direction" : "left" } ] ]
     },
 
     {
-      "value" : [166, 110, 83, 255],
+      "value" : [126, 242, 24, 255],
       "comment" : "penguinbay facing right",
       "brush" : [ [ "clear" ], [ "object", "penguinbay", { "direction" : "right" } ] ]
     },
 	
 	{
-      "value" : [179, 126, 89, 255],
+      "value" : [117, 255, 26, 255],
       "comment" : "terramart facing left",
       "brush" : [ [ "clear" ], [ "object", "terramart", { "direction" : "left" } ] ]
     },
 
     {
-      "value" : [166, 117, 83, 255],
+      "value" : [111, 242, 24, 255],
       "comment" : "terramart facing right",
       "brush" : [ [ "clear" ], [ "object", "terramart", { "direction" : "right" } ] ]
     },

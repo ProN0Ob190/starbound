@@ -3,7 +3,7 @@ function update(store)
     if not store.recoilTime then
       store.recoilTime = store.recoil
     end
-    vremove(store.recoil)
+    vremove(store, "recoil")
   end
   return store
 end

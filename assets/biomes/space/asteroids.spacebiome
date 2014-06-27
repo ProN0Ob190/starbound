@@ -2,6 +2,7 @@
   "name" : "asteroids",
   "friendlyName" : "Asteroids",
   "requiredStatuses" : [ "beamaxe" ],
+  "spawnProfile" : "loworbit",
 
   "mainBlock" : "meteoriterock",
   "ores" : "plutoniumBasicLeveledOres",

@@ -8,7 +8,7 @@
     {
       "image" : "humanT1.png",
       "position" : [8, 14],
-	  "unlit" : true
+      "unlit" : true
     },
     {
       "image" : "humanT1lit.png",
