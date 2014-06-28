@@ -1,7 +1,7 @@
 {
   "objectName" : "consoletribalwall",
   "rarity" : "Common",
-  "category" : "wire",
+  "category" : "decorative",
   "price" : 300,
   "description" : "A small security panel.",
   "shortdescription" : "Avian Security Panel",
@@ -17,22 +17,13 @@
   "inventoryIcon" : "consoletribalwallicon.png",
   "orientations" : [
     {
-      "dualImage" : "consoletribalwall.png:<color>.off",
+      "image" : "consoletribalwall.png:<color>.<frame>",
       "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
 
       "spaceScan" : 0.1,
       "anchors" : [ "background" ]
     }
-  ],
-
-  "scripts" : [ "/objects/wired/switch/switch.lua" ],
-  "scriptDelta" : 5,
-
-  "animation" : "/objects/wired/switch/switch4.animation",
-  "animationParts" : {
-    "switch" : "consoletribalwall.png"
-  },
-  "animationPosition" : [-8, 0],
-
-  "outboundNodes" : [ [0, 0] ]
+  ]
 }

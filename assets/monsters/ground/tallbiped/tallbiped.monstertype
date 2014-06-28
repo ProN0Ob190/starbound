@@ -129,7 +129,7 @@
             "statusEffects" : [ ]
           },
 
-          "inateStatusEffects" : [
+          "innateStatusEffects" : [
             {
               "kind" : "Protection",
               "amount" : 1.0

@@ -6,7 +6,7 @@
   "levelVariance" : [0, 0],
 
   "disableWornArmor" : true,
-  "inateStatusEffects" : [
+  "innateStatusEffects" : [
     {
       "kind" : "Protection",
       "amount" : 1.0

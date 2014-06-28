@@ -19,6 +19,8 @@
     {
       "image" : "bunkereyescanner.png:<color>.off",
       "imagePosition" : [-8, -8],
+	  
+	  "direction" : "right",
 
       "spaceScan" : 0.1,
       "anchors" : [ "background" ]

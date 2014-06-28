@@ -1,7 +1,7 @@
 function init(virtual)
   if virtual then return end
   
-  entity.setInteractive(true)
+  entity.setInteractive(entity.configParameter("interactive", true))
   if storage.state == nil then
     output(false)
   else

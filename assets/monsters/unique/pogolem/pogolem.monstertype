@@ -59,7 +59,7 @@
       "damageConfig" : "/damage/damageresponse/groundnpc.config"
     },
 
-    "inateStatusEffects" : [
+    "innateStatusEffects" : [
       {
         "kind" : "Protection",
         "amount" : 1.0

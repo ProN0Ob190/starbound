@@ -47,6 +47,6 @@
     }
   ],
 
-  "inboundNodes" : [ [-1, 1] ],
-  "outboundNodes" : [ [1, -1] ]
+  "inboundNodes" : [ [-2, 1] ],
+  "outboundNodes" : [ [2, -1] ]
 }

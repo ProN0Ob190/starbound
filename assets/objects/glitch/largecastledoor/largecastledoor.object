@@ -37,6 +37,6 @@
   },
   "animationPosition" : [-24, 0],
 
-  "inboundNodes" : [ [-1, 4] ],
-  "outboundNodes" : [ [1, 0] ]
+  "inboundNodes" : [ [0, 7] ],
+  "outboundNodes" : [ [0, 0] ]
 }

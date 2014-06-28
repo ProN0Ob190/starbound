@@ -38,7 +38,7 @@
       "airForce" : 30.0
     },
 
-    "inateStatusEffects" : [
+    "innateStatusEffects" : [
       {
         "kind" : "Protection",
         "amount" : 1.0

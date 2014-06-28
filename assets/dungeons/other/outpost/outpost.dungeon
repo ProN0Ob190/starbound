@@ -1,7 +1,7 @@
 {
   "metadata" : {
     "name" : "outpost",
-    "species" : "dummy",
+    "species" : "generic",
     "rules" : [
     ],
     "anchor" : [ "outpostbase1" ],
@@ -45,6 +45,18 @@
     {
       "value" : [255, 168, 0, 255],
       "comment" : "bright orange, alternate coupler #3",
+      "connector" : true
+    },
+	
+	{
+      "value" : [96, 0, 255, 255],
+      "comment" : "bright purple, doorway coupler #1",
+      "connector" : true
+    },
+
+    {
+      "value" : [255, 0, 120, 255],
+      "comment" : "bright hot pink, doorway coupler #2",
       "connector" : true
     },
 
@@ -881,6 +893,12 @@
     },
 	
 	{
+      "value" : [161, 229, 23, 255],
+      "comment" : "scanner",
+      "brush" : [ [ "clear" ], [ "object", "scanner" ] ]
+    },
+	
+	{
       "value" : [229, 99, 0, 255],
       "comment" : "plasticplant facing left",
       "brush" : [ [ "clear" ], [ "object", "plasticplant", { "direction" : "left" } ] ]
@@ -1287,6 +1305,14 @@
         [ "maxSpawnCount", [1] ]
       ],
       "def" : [ "image", [ "outpostbase1.png", "outpostbase1-objects.png" ] ]
+    },
+	
+	{
+      "name" : "outpostbase2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "image", [ "outpostbase2.png", "outpostbase2-objects.png" ] ]
     },
 	
 	{
@@ -1880,6 +1906,46 @@
         [ "maxSpawnCount", [1] ]
       ],
       "def" : [ "image", [ "roombase4nopipes.png" ] ],
+	  "chance" : 0
+    },
+	
+	{
+      "name" : "doorway5left",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+        [ "doNotConnectToPart", [ "doorway5left", "doorway5right", "doorway7left", "doorway7right" ] ]
+      ],
+      "def" : [ "image", [ "doorway5left.png", "doorway5left-objects.png", "doorway5-wires.png" ] ],
+	  "chance" : 0
+    },
+	
+	{
+      "name" : "doorway5right",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+        [ "doNotConnectToPart", [ "doorway5left", "doorway5right", "doorway7left", "doorway7right" ] ]
+      ],
+      "def" : [ "image", [ "doorway5right.png", "doorway5right-objects.png", "doorway5-wires.png" ] ],
+	  "chance" : 0
+    },
+	
+	{
+      "name" : "doorway7left",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+        [ "doNotConnectToPart", [ "doorway5left", "doorway5right", "doorway7left", "doorway7right" ] ]
+      ],
+      "def" : [ "image", [ "doorway7left.png", "doorway7left-objects.png", "doorway7-wires.png" ] ],
+	  "chance" : 0
+    },
+	
+	{
+      "name" : "doorway7right",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+        [ "doNotConnectToPart", [ "doorway5left", "doorway5right", "doorway7left", "doorway7right" ] ]
+      ],
+      "def" : [ "image", [ "doorway7right.png", "doorway7right-objects.png", "doorway7-wires.png" ] ],
 	  "chance" : 0
     }
   ]

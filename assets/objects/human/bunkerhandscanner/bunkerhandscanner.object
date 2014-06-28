@@ -18,8 +18,11 @@
   "inventoryIcon" : "bunkerhandscannericon.png",
   "orientations" : [
     {
-      "image" : "bunkerhandscanner.png:<color>.off",
+      "image" : "bunkerhandscanner.png:<frames>.off",
       "imagePosition" : [-8, -8],
+	  
+      "frames" : 8,
+      "animationCycle" : 2.0,
 
       "spaceScan" : 0.1,
       "anchors" : [ "background" ]

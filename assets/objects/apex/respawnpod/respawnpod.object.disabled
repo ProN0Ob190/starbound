@@ -40,8 +40,8 @@
 
   "scriptDelta" : 5,
 
-  "inboundNodes" : [ [-1, 4] ],
-  "outboundNodes" : [ [1, 0] ],
+  "inboundNodes" : [ [-1, 5] ],
+  "outboundNodes" : [ [0, 0] ],
 
   "spawnCooldownTime" : 5.0,
   "spawnTime" : 0.8,

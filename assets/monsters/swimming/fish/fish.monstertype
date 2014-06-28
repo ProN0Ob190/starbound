@@ -76,7 +76,7 @@
       "statusEffects" : [ ]
     },
 
-    "inateStatusEffects" : [
+    "innateStatusEffects" : [
       {
         "kind" : "Protection",
         "levelAdjustment" : -0.6,

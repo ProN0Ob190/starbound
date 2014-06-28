@@ -17,7 +17,7 @@
   "inventoryIcon" : "huntingpressureplateicon.png",
   "orientations" : [
     {
-      "image" : "huntingpressureplate.png:<color>.off",
+      "dualImage" : "huntingpressureplate.png:<color>.off",
       "imagePosition" : [-8, 0],
 
       "spaceScan" : 0.1,
@@ -35,7 +35,10 @@
   "animationPosition" : [-8, 0],
 
   "outboundNodes" : [ [0, 0] ],
+  
+  "interactive" : false,
 
-  "detectTickDuration" : 0,
-  "detectRadius" : 3
+  "detectDuration" : 0.1,
+  "detectRadius" : 2,
+  "detectOffset" : [0, 1]
 }

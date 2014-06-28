@@ -43,7 +43,7 @@
   },
   "animationPosition" : [-20, 0],
 
-  "inboundNodes" : [ [0, 4] ],
+  "inboundNodes" : [ [-1, 4] ],
   "outboundNodes" : [ [0, 0] ],
 
   "openSounds" : [ "/sfx/objects/apexcooldoor_open.wav" ],

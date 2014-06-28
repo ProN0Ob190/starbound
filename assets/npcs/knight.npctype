@@ -3,7 +3,7 @@
   "baseType" : "guard",
 
   "disableWornArmor" : true,
-  "inateStatusEffects" : [
+  "innateStatusEffects" : [
     {
       "kind" : "Protection",
       "amount" : 1.0

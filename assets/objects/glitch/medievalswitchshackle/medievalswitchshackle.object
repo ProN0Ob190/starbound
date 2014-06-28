@@ -28,12 +28,15 @@
 
   "scripts" : [ "/objects/wired/switch/switch.lua" ],
   "scriptDelta" : 5,
-
-  "animation" : "/objects/wired/switch/switchtoggle.animation",
+  
+  "animation" : "/objects/wired/switch/switchtoggle2.animation",
   "animationParts" : {
     "switch" : "medievalswitchshackle.png"
   },
   "animationPosition" : [-8, -24],
 
-  "outboundNodes" : [ [0, 0] ]
+  "outboundNodes" : [ [0, 0] ],
+
+  "onSounds" : [ "/sfx/objects/apexstatue3switchon.wav" ],
+  "offSounds" : [ "/sfx/objects/apexstatue3switchoff.wav" ]
 }

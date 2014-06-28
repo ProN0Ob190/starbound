@@ -2,7 +2,7 @@
   "type" : "default",
 
   "disableWornArmor" : true,
-  "inateStatusEffects" : [
+  "innateStatusEffects" : [
     {
       "kind" : "Protection",
       "amount" : 1.0

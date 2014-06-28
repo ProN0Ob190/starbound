@@ -18,29 +18,12 @@
   "inventoryIcon" : "bunkercomputericon.png",
   "orientations" : [
     {
-      "leftImage" : "bunkercomputerL.png:default.off",
-      "rightImage" : "bunkercomputerR.png:default.off",
+      "dualImage" : "bunkercomputer.png:default",
       "imagePosition" : [-16, 0],
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
 
     }
-  ],
-
-  "scripts" : [ "/objects/wired/switch/switch.lua" ],
-  "scriptDelta" : 5,
-
-  "animation" : "/objects/wired/switch/switchtoggle.animation",
-
-  // If we hade Left and Right as separate orientations, then each of those
-  // could have a different "animationParts" section with left and right, but
-  // as it stands we cannot.  In order for this to be fixed real L/R
-  // orientations have to go in.
-  "animationParts" : {
-    "switch" : "bunkercomputerL.png"
-  },
-  "animationPosition" : [-16, 0],
-
-  "outboundNodes" : [ [0, 0] ]
+  ]
 }

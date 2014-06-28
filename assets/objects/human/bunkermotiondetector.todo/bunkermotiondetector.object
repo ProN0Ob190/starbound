@@ -20,24 +20,27 @@
     {
       "image" : "bunkermotiondetector.png:<color>.off",
       "imagePosition" : [-8, -8],
+	  
+	  "direction" : "right",
 
       "spaceScan" : 0.1,
       "anchors" : [ "background" ]
     }
   ],
 
-  "scripts" : [ "/objects/wired/proximitysensor/proximitysensor.lua" ],
+  "scripts" : [ "/objects/wired/proximitysensor/proximitysensorcreature.lua" ],
   "scriptDelta" : 12,
 
   "animation" : "/objects/wired/switch/switchtoggle4loop.animation",
-
   "animationParts" : {
     "switch" : "bunkermotiondetector.png"
   },
   "animationPosition" : [-8, -8],
 
   "outboundNodes" : [ [0, 0] ],
+  
+  "interactive" : false,
 
   "detectRadius" : 3,
-  "detectTickDuration" : 10
+  "detectDuration" : 0.5
 }

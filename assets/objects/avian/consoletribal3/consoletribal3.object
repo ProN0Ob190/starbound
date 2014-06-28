@@ -17,9 +17,18 @@
   "inventoryIcon" : "consoletribal3icon.png",
   "orientations" : [
     {
-      "leftImage" : "consoletribal3left.png:<color>.off",
-      "rightImage" : "consoletribal3right.png:<color>.off",
+      "image" : "consoletribal3.png:<color>.off",
       "imagePosition" : [-8, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+	{
+      "image" : "consoletribal3.png:<color>.off",
+      "imagePosition" : [-8, 0],
+	  "direction" : "right",
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
@@ -36,7 +45,7 @@
   // as it stands we cannot.  In order for this to be fixed real L/R
   // orientations have to go in.
   "animationParts" : {
-    "switch" : "consoletribal3left.png"
+    "switch" : "consoletribal3.png"
   },
   "animationPosition" : [-8, 0],
 

@@ -19,7 +19,7 @@
   "orientations" : [
     {
       "dualImage" : "huntingdoor1.png:default",
-      "imagePosition" : [-20, 0],
+      "imagePosition" : [-16, 0],
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom", "top" ]
@@ -33,10 +33,10 @@
   "animationParts" : {
     "door" : "huntingdoor1.png"
   },
-  "animationPosition" : [-20, 0],
+  "animationPosition" : [-16, 0],
 
-  "inboundNodes" : [ [-1, 4] ],
-  "outboundNodes" : [ [1, 0] ],
+  "inboundNodes" : [ [0, 4] ],
+  "outboundNodes" : [ [0, 0] ],
 
   "openSounds" : [ "/sfx/objects/woodendoor_open.wav" ],
   "closeSounds" : [ "/sfx/objects/woodendoor_close.wav" ]

@@ -26,17 +26,5 @@
     }
   ],
 
-  "soundEffect" : "/sfx/objects/bunkerconsole.wav",
-
-  "scripts" : [ "/objects/wired/switch/switch.lua" ],
-  "scriptDelta" : 5,
-
-  "animation" : "/objects/wired/switch/switchtoggle.animation",
-
-  "animationParts" : {
-    "switch" : "bunkerconsole1.png"
-  },
-  "animationPosition" : [-16, 0],
-
-  "outboundNodes" : [ [0, 0] ]
+  "soundEffect" : "/sfx/objects/bunkerconsole.wav"
 }

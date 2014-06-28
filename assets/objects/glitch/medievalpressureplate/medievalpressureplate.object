@@ -35,7 +35,10 @@
   "animationPosition" : [-12, 0],
 
   "outboundNodes" : [ [0, 0] ],
+  
+  "interactive" : false,
 
-  "detectTickDuration" : 0,
-  "detectRadius" : 3.2
+  "detectDuration" : 0.1,
+  "detectRadius" : 2,
+  "detectOffset" : [0, 1]
 }

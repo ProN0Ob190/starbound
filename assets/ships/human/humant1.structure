@@ -1,7 +1,9 @@
 {
   "config" : {
-    "capabilities" : [],
-    "fuelMax" : 1000
+    "shipParameters" : {
+      "capabilities" : [],
+      "fuelMax" : 1000
+    }
   },
 
   "backgroundOverlays" : [

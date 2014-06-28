@@ -3,12 +3,12 @@
     "size" : [8, 8],
     "dimensions" : [2, 1],
     "names" : [
-      [ "default" ]
+      [ "off", "on" ]
     ]
   },
 
   "aliases" : {
-    "default.off" : "default",
-    "default.on" : "default"
+    "default.off" : "off",
+    "default.on" : "on"
   }
 }

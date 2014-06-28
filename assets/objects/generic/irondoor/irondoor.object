@@ -1,29 +1,28 @@
 {
   "objectName" : "irondoor",
   "rarity" : "Common",
-  "objectType" : "new",
 
   "category" : "door",
-  "price" : 500,
-  "description" : "A sturdy iron door. Perfect for keeping things out... or in.",
+  "price" : 1000,
+  "description" : "A door of crossed blades. It looks like they can be withdrawn.",
   "shortdescription" : "Iron Door",
   "race" : "generic",
 
-  "apexDescription" : "A tough-looking iron door. Reminds me of Big Ape's correctional facilities.",
-  "avianDescription" : "A sturdy door.",
-  "floranDescription" : "Door grows from ceiling like plant, but ssstronger.",
-  "glitchDescription" : "Admiring. Like a Glitch portcullis, but even sturdier.",
-  "humanDescription" : "An iron door. I wouldn't want to get trapped under here.",
-  "hylotlDescription" : "A boorish iron door. Practical, if unremarkable.",
+  "apexDescription" : "-todo-",
+  "avianDescription" : "-todo-",
+  "floranDescription" : "-todo-",
+  "glitchDescription" : "-todo-",
+  "humanDescription" : "-todo-",
+  "hylotlDescription" : "-todo-",
 
   "inventoryIcon" : "irondooricon.png",
   "orientations" : [
     {
-      "image" : "irondoor.png:default",
-      "imagePosition" : [-16, 0],
+      "dualImage" : "irondoor.png:default",
+      "imagePosition" : [-16, -32],
 
       "spaceScan" : 0.1,
-      "anchors" : [ "bottom", "top" ]
+      "anchors" : [ "top" ]
     }
   ],
 
@@ -34,11 +33,11 @@
   "animationParts" : {
     "door" : "irondoor.png"
   },
-  "animationPosition" : [-16, 0],
+  "animationPosition" : [-16, -32],
 
-  "inboundNodes" : [ [-1, 4] ],
-  "outboundNodes" : [ [1, 0] ],
+  "inboundNodes" : [ [0, 0] ],
+  "outboundNodes" : [ [0, -4] ],
 
-  "openSounds" : [ "/sfx/objects/wooddoor_open.wav" ],
-  "closeSounds" : [ "/sfx/objects/wooddoor_close.wav" ]
+  "openSounds" : [ "/sfx/objects/bardoor2_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/bardoor2_close.wav" ]
 }

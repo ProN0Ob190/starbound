@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "category" : "wire",
   "price" : 1000,
-  "lightColor" : [0, 40, 100],
+  "lightColor" : [89, 129, 179],
   "flickerDistance" : 0.2,
   "flickerStrength" : 0.05,
   "flickerTiming" : 4,
@@ -21,24 +21,12 @@
   "inventoryIcon" : "bunkerbigpanelicon.png",
   "orientations" : [
     {
-      "image" : "bunkerbigpanel.png:<color>",
+	  "imageLayers" : [ { "image" : "bunkerbigpanel.png:<color>", "unlit" : true }, { "image" : "bunkerbigpanellit.png:<color>" } ],
       "imagePosition" : [-40, -16],
-
       "spaceScan" : 0.1,
       "anchors" : [ "background" ]
     }
   ],
 
-  "soundEffect" : "/sfx/objects/bunkerdisplay.wav",
-
-  "scripts" : [ "/objects/wired/switch/switch.lua" ],
-  "scriptDelta" : 5,
-
-  "animation" : "/objects/wired/switch/switchtoggle.animation",
-  "animationParts" : {
-    "switch" : "bunkerbigpanel.png"
-  },
-  "animationPosition" : [-40, -16],
-
-  "outboundNodes" : [ [0, 0] ]
+  "soundEffect" : "/sfx/objects/bunkerdisplay.wav"
 }

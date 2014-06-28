@@ -8,7 +8,12 @@
   "shortdescription" : "Proximity Sensor",
   "race" : "generic",
 
+  "apexDescription" : "-todo-",
+  "avianDescription" : "-todo-",
+  "floranDescription" : "-todo-",
   "glitchDescription" : "Statement. A proximity sensor.",
+  "humanDescription" : "-todo-",
+  "hylotlDescription" : "-todo-",
 
   "inventoryIcon" : "proximitysensoricon.png",
   "orientations" : [
@@ -21,7 +26,7 @@
     }
   ],
 
-  "scripts" : [ "/objects/wired/proximitysensor/proximitysensor.lua" ],
+  "scripts" : [ "/objects/wired/proximitysensor/proximitysensorcreature.lua" ],
   "scriptDelta" : 5,
 
   "animation" : "/objects/wired/switch/switchtoggle.animation",
@@ -31,7 +36,10 @@
   "animationPosition" : [-8, 0],
 
   "outboundNodes" : [ [0, 0] ],
+  
+  "interactive" : false,
 
   "detectDuration" : 0.5,
-  "detectRadius" : 3
+  "detectRadius" : 2,
+  "detectOffset" : [0, 1]
 }

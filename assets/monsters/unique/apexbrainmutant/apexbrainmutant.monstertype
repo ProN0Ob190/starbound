@@ -58,7 +58,7 @@
       "damageConfig" : "/monsters/unique/apexbrainmutant/damage.config"
     },
 
-    "inateStatusEffects" : [
+    "innateStatusEffects" : [
       {
         "kind" : "Protection",
         "amount" : 1.0

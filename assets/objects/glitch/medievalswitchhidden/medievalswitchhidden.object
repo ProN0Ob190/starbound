@@ -1,11 +1,12 @@
 {
   "objectName" : "medievalswitchhidden",
   "rarity" : "Common",
+  
+  "category" : "wire",
+  "price" : 200,
   "description" : "This floor tile looks different from the rest.",
   "shortdescription" : "Hidden Switch",
   "race" : "glitch",
-  "category" : "wire",
-  "price" : 200,
 
   "apexDescription" : "This tile appears to be loose.",
   "avianDescription" : "This tile is a bad fit.",
@@ -17,16 +18,15 @@
   "inventoryIcon" : "medievalswitchhiddenicon.png",
   "orientations" : [
     {
-      "image" : "medievalswitchhidden.png:<color>.off",
+      "dualImage" : "medievalswitchhidden.png:<color>.off",
       "imagePosition" : [0, 0],
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-
     }
   ],
 
-  "scripts" : [ "/objects/wired/switch/switch.lua" ],
+  "scripts" : [ "/objects/wired/proximitysensor/proximitysensorcreature.lua" ],
   "scriptDelta" : 5,
 
   "animation" : "/objects/wired/switch/switchtoggle.animation",
@@ -35,5 +35,11 @@
   },
   "animationPosition" : [0, 0],
 
-  "outboundNodes" : [ [0, 0] ]
+  "outboundNodes" : [ [0, 0] ],
+  
+  "interactive" : false,
+
+  "detectDuration" : 0.1,
+  "detectRadius" : 1,
+  "detectOffset" : [0.5,2]
 }

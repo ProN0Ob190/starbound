@@ -1,14 +1,18 @@
-function init(args)
-  entity.setInteractive(true)
+function init(virtual)
+  if virtual then return end
+
+  self.detectOffset = entity.toAbsolutePosition(entity.configParameter("detectOffset", {0, 0}))
+
+  entity.setInteractive(entity.configParameter("interactive", true))
   entity.setAllOutboundNodes(false)
   entity.setAnimationState("switchState", "off")
-  self.countdown = 0
+  self.triggerTimer = 0
 end
 
 function trigger()
   entity.setAllOutboundNodes(true)
   entity.setAnimationState("switchState", "on")
-  self.countdown = entity.configParameter("detectTickDuration")
+  self.triggerTimer = entity.configParameter("detectDuration")
 end
 
 function onInteraction(args)
@@ -16,18 +20,16 @@ function onInteraction(args)
 end
 
 function main() 
-  if self.countdown > 0 then
-    self.countdown = self.countdown - 1
-  else
-    if self.countdown == 0 then
-      local radius = entity.configParameter("detectRadius")
-      local entityIds = world.entityQuery(entity.position(), radius, { creature = true })
-      if #entityIds > 0 then
-        trigger()
-      else
-        entity.setAllOutboundNodes(false)
-        entity.setAnimationState("switchState", "off")
-      end
+  if self.triggerTimer > 0 then
+    self.triggerTimer = self.triggerTimer - entity.dt()
+  elseif self.triggerTimer <= 0 then
+    local entityIds = world.entityQuery(self.detectOffset, entity.configParameter("detectRadius"), { creature = true })
+    if #entityIds > 0 then
+      trigger()
+    else
+      entity.setAllOutboundNodes(false)
+      entity.setAnimationState("switchState", "off")
     end
   end
 end
+
