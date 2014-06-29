@@ -15,7 +15,9 @@
       "imagePosition" : [-8, -8],
 
       "spaceScan" : 0.1,
-      "anchors" : [ "background" ]
+      "anchors" : [ "background" ],
+
+      "direction" : "right"
     }
   ],
 
@@ -29,6 +31,6 @@
   },
   "animationPosition" : [-8, -8],
 
-  "inboundNodes" : [ [-1, -1], [-1, 1] ],
-  "outboundNodes" : [ [1, 0] ]
+  "inboundNodes" : [ [-1, -1], [-1, 0] ],
+  "outboundNodes" : [ [0, 0] ]
 }

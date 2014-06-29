@@ -29,7 +29,7 @@
   },
   "animationPosition" : [0, 0],
 
-  "inboundNodes" : [ [-1, 0] ],
+  "inboundNodes" : [ [0, 0] ],
 
   "interval" : 5
 }

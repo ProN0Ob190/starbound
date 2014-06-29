@@ -54,7 +54,7 @@
   ],
 
   "scripts" : [ "liquidsensor.lua" ],
-  "scriptDelta" : 5,
+  "scriptDelta" : 2,
 
   "animation" : "liquidsensor.animation",
   "animationParts" : {
