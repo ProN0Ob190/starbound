@@ -1,16 +1,18 @@
 {
   "config" : {
-    "capabilities" : [],
-    "fuelMax" : 1000
+    "shipUpgrades" : {
+      "capabilities" : [],
+      "maxFuel" : 1000
+    }
   },
 
   "backgroundOverlays" : [
     {
       "image" : "glitchT1.png",
       "position" : [8, 11.875],
-	  "unlit" : true
+      "unlit" : true
     },
-	{
+    {
       "image" : "glitchT1lit.png",
       "position" : [8, 11.875]
     }

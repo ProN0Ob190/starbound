@@ -3,10 +3,10 @@ function init(args)
 
   if isDoorClosed() then
     entity.setColliding(true)
-    entity.setAllOutboundNodes(true)
+    entity.setAllOutboundNodes(false)
   else
     entity.setColliding(false)
-    entity.setAllOutboundNodes(false)
+    entity.setAllOutboundNodes(true)
   end
 
   onNodeConnectionChange()
@@ -68,7 +68,7 @@ function closeDoor()
     end
     entity.playSound("closeSounds")
     entity.setColliding(true)
-    entity.setAllOutboundNodes(true)
+    entity.setAllOutboundNodes(false)
   end
 end
 
@@ -81,6 +81,6 @@ function openDoor(direction)
     end
     entity.playSound("openSounds")
     entity.setColliding(false)
-    entity.setAllOutboundNodes(false)
+    entity.setAllOutboundNodes(true)
   end
 end

@@ -1,12 +1,12 @@
 {
   "id" : "aviantutorial.gearup",
   "title" : "^#9be3d6;Spread Your Wings",
-  "text" : "You have narrowly escaped the wrath of the Stargazers. Your ship has run out of fuel in orbit of an unknown planet. Before setting out in search of fuel, ^green;search your ship's storage for a ^pink;matter manipulator^white;. Press ^green;E ^white;to interact with objects.",
-  "completionText" : "Well done! The ^pink;Matter Manipulator ^white;will surely come in handy. Why not ^green;try using it to dispose of your broken fuel gauge?",
+  "text" : "I have narrowly escaped the wrath of the Stargazers. My ship has been damaged during my escape. To keep moving I'll need to ^green;repair the ships thrusters and patch up the hull. ",
+  "completionText" : "The ship has rumbled to life! There's still work to do and I need to fix the FTL drive. But it's a start!",
   "conditions" : [
     { "kind" : "gather", "item" : [ "beamaxe", 1] }
   ],
-  "moneyRange" : [10, 10],
+  "moneyRange" : [100, 100],
   "rewards" : [
     [ [ "beamaxe", 1] ]
   ],

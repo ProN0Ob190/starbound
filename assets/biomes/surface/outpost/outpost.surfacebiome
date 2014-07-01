@@ -2,7 +2,7 @@
   "name" : "outpost",
   "friendlyName" : "Outpost",
   "barren" : true,
-  "requiredStatuses" : [ "beamaxe" ],
+  "requiredStatuses" : [],
   "spawnProfile" : "surfaceairless",
 
   "hueShiftOptions" : [-180, -25, 25],

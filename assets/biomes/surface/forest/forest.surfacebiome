@@ -2,7 +2,7 @@
   "name" : "forest",
   "friendlyName" : "Forest",
   "caveLiquidType" : [ "water", "acid", "tarliquid" ],
-  "requiredStatuses" : [ "beamaxe" ],
+  "requiredStatuses" : [],
   "spawnProfile" : "surfacemix",
 
   "hueShiftOptions" : [-30, -20, -15, -10, -5, 0, 5, 10, 15, 20, 30],

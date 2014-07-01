@@ -1,8 +1,8 @@
 {
   "id" : "hylotltutorial.gearup",
   "title" : "^#9be3d6;Fish Out Of Water",
-  "text" : "You have been drifting in space for some time, unable to choose a planet to explore. Finally your ship has run out of fuel in orbit of an unknown planet, making your choice for you. Before setting out in search of fuel, ^green;search your ship's storage for a ^pink;matter manipulator^white;. Press ^green;E ^white;to interact with objects.",
-  "completionText" : "Well done! The ^pink;Matter Manipulator ^white;will surely come in handy. Why not ^green;try using it to dispose of your broken fuel gauge?",
+  "text" : "I have been drifting in space for some time, my ship damaged during my travels. To keep moving I'll need to ^green;repair the ships thrusters and patch up the hull.",
+  "completionText" : "The ship has rumbled to life! There's still work to do and I need to fix the FTL drive. But it's a start!",
   "conditions" : [
     { "kind" : "gather", "item" : [ "beamaxe", 1] }
   ],

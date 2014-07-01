@@ -13,6 +13,7 @@
   "baseParameters" : {
     "scripts" : [
       "/monsters/unique/penguinMiniUfo/behavior.lua",
+      "/monsters/simpleRangedAttack.lua",
       "/scripts/util.lua",
       "/scripts/vec2.lua"
     ],
@@ -67,6 +68,16 @@
     ],
 
     "mouthOffset" : [0, 0],
-    "feetOffset" : [0, -8]
+    "feetOffset" : [0, -8],
+
+    "projectileType" : "blueplasmabullet",
+    "projectileConfig" : {
+      "speed" : 16,
+      "power" : 2
+    },
+
+    "attackTime" : 1.0,
+    "fireInterval" : 1.0,
+    "cooldownTime" : 1.0
   }
 }

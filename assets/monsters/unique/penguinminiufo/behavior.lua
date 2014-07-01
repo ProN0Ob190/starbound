@@ -1,6 +1,8 @@
 function init(args)
   entity.setDeathParticleBurst("deathPoof")
   entity.setAnimationState("movement", "flying")
+
+  rangedAttack.loadConfig()
 end
 
 function shouldDie()
@@ -34,10 +36,10 @@ function main()
   util.trackTarget(30.0, 10.0)
 
   if self.targetPosition ~= nil then
-    entity.setFireDirection({0,0}, world.distance(self.targetPosition, entity.position()))
-    -- entity.startFiring("plasmabullet")
+    rangedAttack.aim({0,0}, world.distance(self.targetPosition, entity.position()))
+    rangedAttack.fireContinuous()
   else
-    -- entity.stopFiring()
+    rangedAttack.stopFiring()
   end
 end
 

@@ -37,8 +37,7 @@
   },
   "animationPosition" : [0, 0],
 
-  "inboundNodes" : [ [-1, 0] ],
-  "outboundNodes" : [ [0, -1] ],
+  "outboundNodes" : [ [0, 0] ],
 
   "onSounds" : [ "/sfx/objects/outpostbutton.wav" ],
   "offSounds" : [ "/sfx/objects/outpostbutton.wav" ]

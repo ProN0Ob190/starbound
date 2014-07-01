@@ -1,7 +1,7 @@
 {
   "name" : "desert",
   "friendlyName" : "Desert",
-  "requiredStatuses" : [ "beamaxe" ],
+  "requiredStatuses" : [],
   "spawnProfile" : "surfacesparse",
 
   "hueShiftOptions" : [-56, -45, -16, -26, 0],

@@ -13,6 +13,7 @@
   "baseParameters" : {
     "scripts" : [
       "/monsters/unique/penguin/behavior.lua",
+      "/monsters/simpleRangedAttack.lua",
       "/scripts/stateMachine.lua",
       "/scripts/util.lua",
       "/scripts/vec2.lua"
@@ -60,11 +61,19 @@
     "mouthOffset" : [0, 0],
     "feetOffset" : [0, -14],
 
-    "hasEmptyHand" : false
+    "hasEmptyHand" : false,
+
+    "projectileType" : "bullet-1",
+    "projectileConfig" : {
+      "power" : 1
+    },
+
+    "attackTime" : 0.3,
+    "fireInterval" : 0.1,
+    "cooldownTime" : 0.7
   },
 
   "partParameterDescription" : {
-    "projectileType" : [ "override", "machinegunbullet" ],
     "gunBaseOffset" : [ "override", [0, 0] ],
     "gunBarrelOffset" : [ "override", [0, 0] ]
   }

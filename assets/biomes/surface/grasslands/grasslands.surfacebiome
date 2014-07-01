@@ -2,7 +2,7 @@
   "name" : "grasslands",
   "friendlyName" : "Grasslands",
   "caveLiquidType" : [ "water", "acid", "tarliquid" ],
-  "requiredStatuses" : [ "beamaxe" ],
+  "requiredStatuses" : [],
   "spawnProfile" : "surfacemix",
 
   "hueShiftOptions" : [-180, -135, -90, -45, 0, 45, 90, 135, 180],

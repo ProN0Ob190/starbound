@@ -8,6 +8,10 @@ function aggroHopState.enterWith(params)
   return { wasOffGround = false }
 end
 
+function aggroHopState.enteringState(stateData)
+  entity.playSound(entity.randomizeParameter("turnHostileNoise"))
+end
+
 function aggroHopState.update(dt, stateData)
   if entity.onGround() then
     if stateData.wasOffGround then

@@ -30,7 +30,7 @@
   "animationPosition" : [-8, -8],
 
   "inboundNodes" : [ [-1, 0] ],
-  "outboundNodes" : [ [1, 0] ],
+  "outboundNodes" : [ [0, -1] ],
 
   "interval" : 30
 }

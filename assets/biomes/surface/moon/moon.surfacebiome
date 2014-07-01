@@ -2,7 +2,7 @@
   "name" : "moon",
   "friendlyName" : "Moon",
   "barren" : true,
-  "requiredStatuses" : [ "beamaxe", "breathProtection" ],
+  "requiredStatuses" : [ "breathProtection" ],
   "spawnProfile" : "surfaceairless",
 
   "hueShiftOptions" : [-180, -135, -90, -45, 0, 45, 90, 135, 180],

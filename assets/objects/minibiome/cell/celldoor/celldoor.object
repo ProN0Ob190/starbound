@@ -37,9 +37,9 @@
   },
   "animationPosition" : [0, 0],
 
-  "inboundNodes" : [ [-1, 4] ],
-  "outboundNodes" : [ [1, 0] ],
+  "inboundNodes" : [ [0, 4] ],
+  "outboundNodes" : [ [0, 0] ],
 
-  "openSounds" : [ "/sfx/objects/bunkerslidingdoor_open.wav" ],
-  "closeSounds" : [ "/sfx/objects/bunkerslidingdoor_close.wav" ]
+  "openSounds" : [ "/sfx/objects/fleshdoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/fleshdoor_close.wav" ]
 }

@@ -1,14 +1,16 @@
 {
   "config" : {
-    "capabilities" : [],
-    "fuelMax" : 1000
+    "shipUpgrades" : {
+      "capabilities" : [],
+      "maxFuel" : 1000
+    }
   },
 
   "backgroundOverlays" : [
     {
       "image" : "avianT1.png",
       "position" : [7, 15],
-	  "unlit" : true
+      "unlit" : true
     },
     {
       "image" : "avianT1lit.png",

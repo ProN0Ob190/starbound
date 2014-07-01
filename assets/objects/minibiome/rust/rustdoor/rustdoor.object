@@ -36,8 +36,8 @@
   },
   "animationPosition" : [-16, 0],
 
-  "inboundNodes" : [ [-1, 4] ],
-  "outboundNodes" : [ [1, 0] ],
+  "inboundNodes" : [ [0, 4] ],
+  "outboundNodes" : [ [0, 0] ],
 
   "openSounds" : [ "/sfx/objects/wooddoor_open.wav" ],
   "closeSounds" : [ "/sfx/objects/wooddoor_close.wav" ]

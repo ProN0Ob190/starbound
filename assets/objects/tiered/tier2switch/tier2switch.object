@@ -18,10 +18,24 @@
   "inventoryIcon" : "tier2switchicon.png",
   "orientations" : [
     {
-      "dualImage" : "tier2switch.png:<color>.off",
+      "image" : "tier2switch.png:<color>.off",
       "imagePosition" : [-8, 0],
+	  
+	  "flipImages" : true,
+	  "direction" : "left",
+	  "animationPosition" : [-9, 0],
 
-      "spaceScan" : 0.1,
+      "spaces" : [ [-1, 0], [0, 0], [-1, 1], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    },
+	{
+      "image" : "tier2switch.png:<color>.off",
+      "imagePosition" : [-8, 0],
+	  
+	  "direction" : "right",
+	  "animationPosition" : [-8, 0],
+
+      "spaces" : [ [-1, 0], [0, 0], [-1, 1], [0, 1] ],
       "anchors" : [ "bottom" ]
     }
   ],
@@ -29,11 +43,13 @@
   "scripts" : [ "/objects/wired/switch/switch.lua" ],
   "scriptDelta" : 5,
 
-  "animation" : "/objects/wired/switch/switchtoggle.animation",
+  "animation" : "/objects/wired/switch/switchtoggle2.animation",
   "animationParts" : {
     "switch" : "tier2switch.png"
   },
-  "animationPosition" : [-8, 0],
 
-  "outboundNodes" : [ [0, 0] ]
+  "outboundNodes" : [ [0, 0] ],
+
+  "onSounds" : [ "/sfx/objects/apexconsole2switch.wav" ],
+  "offSounds" : [ "/sfx/objects/apexconsole2switch.wav" ]
 }

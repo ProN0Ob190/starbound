@@ -1,16 +1,18 @@
 {
   "config" : {
-    "capabilities" : [],
-    "fuelMax" : 1000
+    "shipUpgrades" : {
+      "capabilities" : [],
+      "maxFuel" : 1000
+    }
   },
 
   "backgroundOverlays" : [
     {
       "image" : "apexT1.png",
       "position" : [9, 12],
-	  "unlit" : true
+      "unlit" : true
     },
-	{
+    {
       "image" : "apexT1lit.png",
       "position" : [9, 12]
     }

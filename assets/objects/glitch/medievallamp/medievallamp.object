@@ -26,7 +26,7 @@
 
   "lightColor" : [204, 189, 173],
   "flickerDistance" : 0.5,
-  "flickerStrength" : 0.1,
+  "flickerStrength" : 0.05,
 
   "inventoryIcon" : "medievallampicon.png",
   "orientations" : [

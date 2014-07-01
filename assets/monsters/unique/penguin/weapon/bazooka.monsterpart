@@ -8,7 +8,6 @@
   },
 
   "parameters" : {
-    "projectileType" : "bazookarocket",
     "gunBaseOffset" : [0.375, -0.625],
     "gunBarrelOffset" : [-1.25, -0.625]
   }

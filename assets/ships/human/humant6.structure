@@ -1,8 +1,8 @@
 {
   "config" : {
-    "shipParameters" : {
+    "shipUpgrades" : {
       "capabilities" : ["teleport", "planetTravel", "systemTravel"],
-      "fuelMax" : 1000
+      "maxFuel" : 1000
     }
   },
 

@@ -3,7 +3,7 @@
   "friendlyName" : "Ocean",
   "caveLiquidType" : "water",
   "oceanLiquidType" : "ocean",
-  "requiredStatuses" : [ "beamaxe" ],
+  "requiredStatuses" : [],
   "spawnProfile" : "surfacemix",
 
   "hueShiftOptions" : [-60, -45, 0, 45, 60],

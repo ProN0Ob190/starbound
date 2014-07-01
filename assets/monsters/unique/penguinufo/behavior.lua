@@ -2,6 +2,10 @@ function init(args)
   self.tookDamage = false
   self.dead = false
 
+  entity.setGravityEnabled(false)
+
+  rangedAttack.loadConfig()
+
   self.minionState = {
     timer = 0,
     spawnTimer = 0,
@@ -24,12 +28,14 @@ function init(args)
   })
 
   self.state.enteringState = function(stateName)
-    -- entity.setFireDirection(entity.configParameter("beamSourceOffset"), { 0, -1 })
+    rangedAttack.aim(entity.configParameter("beamSourceOffset"), { 0, -1 })
+    world.logInfo("!!!! ENTERING STATE %s !!!", stateName)
   end
 
   self.state.leavingState = function(stateName)
-    -- entity.stopFiring()
+    rangedAttack.stopFiring()
     self.state.moveStateToEnd(stateName)
+    world.logInfo("!!!! LEAVING STATE %s !!!", stateName)
   end
 
   self.teleportState = stateMachine.create({ "teleportAttack" })
@@ -183,8 +189,13 @@ function smashBlockingTiles(position, targetPosition, direction, regions)
           region[1] + (region[3] - region[1]) / 2,
           region[2] + (region[4] - region[2]) / 2
         }
-        -- entity.setFireDirection(midpoint, direction)
-        -- entity.startFiring("blockbreaker")
+        world.spawnProjectile(
+          entity.configParameter("projectiles.blockbreaker.type"),
+          entity.toAbsolutePosition(midpoint),
+          entity.id(),
+          {0, -1},
+          false,
+          entity.configParameter("projectiles.blockbreaker.config"))
         break
       end
     end
@@ -202,8 +213,6 @@ moveState.enter = function()
 end
 
 moveState.update = function(dt, stateData)
-  -- entity.stopFiring()
-
   stateData.timer = stateData.timer + dt
 
   local angle = 2.0 * math.pi * stateData.timer / 4.0
@@ -256,19 +265,22 @@ pulseCannonAttack = {}
 pulseCannonAttack.enter = function()
   if self.targetPosition == nil then return nil end
 
+  rangedAttack.setConfig(entity.configParameter("projectiles.pulsecannon.type"), entity.configParameter("projectiles.pulsecannon.config"), 0.2)
+
   local toTarget = world.distance(self.targetPosition, entity.position())
   return {
     timer = 0,
     deltaX = 10.0 * toTarget[1] / math.abs(toTarget[1]),
     lastPosition = nil,
-    teleport = shouldTeleport()
+    teleport = shouldTeleport(),
+    firing = false
   }
 end
 
 pulseCannonAttack.update = function(dt, stateData)
   local position = entity.position()
 
-  if false then --not entity.isFiring() then
+  if not stateData.firing then
     if stateData.teleport then
       self.teleportState.pickState()
       stateData.teleport = false
@@ -276,13 +288,13 @@ pulseCannonAttack.update = function(dt, stateData)
     end
 
     if flyToTargetYOffsetRange({ position[1], self.targetPosition[2] }) then
-      -- entity.startFiring("pulsecannon", true)
+      stateData.firing = true
     else
       return false
     end
-  end
+  else
+    rangedAttack.fireContinuous(true)
 
-  if false then --entity.isFiring() then
     -- Change direction if stuck, or too far away
     if stateData.lastPosition ~= nil and world.magnitude(world.distance(position, stateData.lastPosition)) < 0.01 then
       stateData.deltaX = -stateData.deltaX
@@ -383,6 +395,8 @@ spawnReinforcementsAttack.enter = function()
 
   return {
     timer = 0,
+    spawnTimer = 0,
+    spawnInterval = 1.0,
     basePosition = entity.position(),
     totalTime = 4.0
   }
@@ -392,19 +406,21 @@ spawnReinforcementsAttack.update = function(dt, stateData)
   local angle = 2.0 * math.pi * stateData.timer / stateData.totalTime
   local sinAngle = math.sin(angle)
 
-  if math.abs(1.0 - math.abs(sinAngle)) < 0.1 then
+  stateData.spawnTimer = stateData.spawnTimer - dt
+  if math.abs(1.0 - math.abs(sinAngle)) < 0.1 and stateData.spawnTimer <= 0 then
     local percent = math.random(100)
     if percent > 90 then
-      -- entity.startFiring("tankspawn", true)
+      rangedAttack.fireOnce(entity.configParameter("projectiles.tankspawn.type"), entity.configParameter("projectiles.tankspawn.config"), nil, true)
     elseif percent > 60 then
-      -- entity.startFiring("generalspawn", true)
+      rangedAttack.fireOnce(entity.configParameter("projectiles.generalspawn.type"), entity.configParameter("projectiles.generalspawn.config"), nil, true)
     elseif percent > 30 then
-      -- entity.startFiring("rockettrooperspawn", true)
+      rangedAttack.fireOnce(entity.configParameter("projectiles.rockettrooperspawn.type"), entity.configParameter("projectiles.rockettrooperspawn.config"), nil, true)
     else
-      -- entity.startFiring("trooperspawn", true)
+      rangedAttack.fireOnce(entity.configParameter("projectiles.trooperspawn.type"), entity.configParameter("projectiles.trooperspawn.config"), nil, true)
     end
 
     entity.fly({ 0, 0 }, true)
+    stateData.spawnTimer = stateData.spawnInterval
   else
     local targetPosition = {
       stateData.basePosition[1] + math.sin(angle) * 25.0,
@@ -437,8 +453,6 @@ slamAttack.enter = function()
 end
 
 slamAttack.update = function(dt, stateData)
-  -- entity.stopFiring()
-
   local position = entity.position()
 
   stateData.timer = stateData.timer + dt
@@ -532,8 +546,7 @@ dieState.enterWith = function(params)
 
   self.teleportState.endState()
 
-  -- entity.stopFiring()
-  -- entity.startFiring("deathexplosion")
+  rangedAttack.setConfig(entity.configParameter("projectiles.deathexplosion.type"), entity.configParameter("projectiles.deathexplosion.config"), 0.2)
 
   return {
     timer = 6.0,
@@ -542,6 +555,8 @@ dieState.enterWith = function(params)
 end
 
 dieState.update = function(dt, stateData)
+  entity.setGravityEnabled(true)
+
   if entity.onGround() then
     if stateData.timer > 1.6 then
       stateData.timer = 1.6
@@ -579,7 +594,8 @@ dieState.update = function(dt, stateData)
     local explosionAngle = math.random() * math.pi * 2.0
     local explosionOffset = { math.cos(explosionAngle) * 16.0, math.sin(explosionAngle) * 3.0 }
     local explosionPosition = vec2.rotate(explosionOffset, -entity.currentRotationAngle("all"))
-    -- entity.setFireDirection(explosionPosition, {1, 0})
+    rangedAttack.aim(explosionPosition, {1, 0})
+    rangedAttack.fireContinuous()
   end
 
   stateData.timer = stateData.timer - dt

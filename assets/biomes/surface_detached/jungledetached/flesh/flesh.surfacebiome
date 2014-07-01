@@ -1,7 +1,7 @@
 {
   "name" : "flesh",
   "friendlyName" : "Flesh",
-  "requiredStatuses" : [ "beamaxe" ],
+  "requiredStatuses" : [],
   "spawnProfile" : "surfacemix",
 
   "hueShiftOptions" : [0],

@@ -10,7 +10,7 @@
   "inventoryIcon" : "alarmicon.png",
   "orientations" : [
     {
-      "image" : "alarm.png:<color>.off",
+      "dualImage" : "alarm.png:<color>.off",
       "imagePosition" : [-8, -8],
 
       "spaceScan" : 0.1,
@@ -28,8 +28,8 @@
   },
   "animationPosition" : [-8, -8],
 
-  "inboundNodes" : [ [0, 0] ],
+  "inboundNodes" : [ [-1, 0] ],
 
   "alarmSound" : "/sfx/objects/redalert.wav",
-  "alarmSoundDuration" : 0.9
+  "alarmSoundDuration" : 1.75
 }

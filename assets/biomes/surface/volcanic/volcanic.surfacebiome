@@ -2,7 +2,7 @@
   "name" : "volcanic",
   "friendlyName" : "Volcanic",
   "caveLiquidType" : "lava",
-  "requiredStatuses" : [ "beamaxe" ],
+  "requiredStatuses" : [],
   "spawnProfile" : "surfacemix",
 
   "hueShiftOptions" : [-54, -120, 0, 20],

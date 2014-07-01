@@ -2,7 +2,7 @@
   "name" : "tundra",
   "friendlyName" : "Tundra",
   "caveLiquidType" : "water",
-  "requiredStatuses" : [ "beamaxe" ],
+  "requiredStatuses" : [],
   "spawnProfile" : "surfacemix",
 
   "hueShiftOptions" : [0],

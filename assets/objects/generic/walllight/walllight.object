@@ -10,7 +10,7 @@
 
   "lightColor" : [218, 219, 183],
   "flickerDistance" : 0.5,
-  "flickerStrength" : 0.1,
+  "flickerStrength" : 0.01,
 
   "apexDescription" : "A long mounted light.",
   "avianDescription" : "These lights would fit nicely into Avian tombs.",

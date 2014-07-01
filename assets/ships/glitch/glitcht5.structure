@@ -1,7 +1,9 @@
 {
   "config" : {
-    "capabilities" : ["planetTravel", "systemTravel"],
-    "fuelMax" : 1000
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel", "systemTravel"],
+      "maxFuel" : 1000
+    }
   },
 
   "backgroundOverlays" : [

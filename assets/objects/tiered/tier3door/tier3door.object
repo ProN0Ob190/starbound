@@ -20,7 +20,7 @@
   "orientations" : [
     {
       "image" : "tier3door.png:default",
-      "imagePosition" : [-16, 0],
+      "imagePosition" : [-20, 0],
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom", "top" ]
@@ -34,10 +34,10 @@
   "animationParts" : {
     "door" : "tier3door.png"
   },
-  "animationPosition" : [-16, 0],
+  "animationPosition" : [-20, 0],
 
   "inboundNodes" : [ [-1, 4] ],
-  "outboundNodes" : [ [1, 0] ],
+  "outboundNodes" : [ [0, 0] ],
 
   "openSounds" : [ "/sfx/objects/wooddoor_open.wav" ],
   "closeSounds" : [ "/sfx/objects/wooddoor_close.wav" ]

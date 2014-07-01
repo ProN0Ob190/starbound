@@ -555,10 +555,6 @@ end
 function setTarget(target)
   if target ~= 0 then
     self.targetHoldTimer = entity.configParameter("targetHoldTime")
-
-    if self.target ~= target then
-      entity.playSound(entity.randomizeParameter("turnHostileNoise"))
-    end
   end
 
   self.target = target

@@ -14,15 +14,17 @@
   "inventoryIcon" : "smallfloorbuttonicon.png",
   "orientations" : [
     {
-      "dualImage" : "smallfloorbutton.png:<color>.off",
+      "image" : "smallfloorbutton.png:<color>.off",
       "imagePosition" : [-6, 0],
+	  
+	  "direction" : "right",
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
   ],
 
-  "scripts" : [ "/objects/wired/momentaryswitch/momentaryswitch.lua" ],
+  "scripts" : [ "/objects/wired/proximitysensor/proximitysensorcreature.lua" ],
   "scriptDelta" : 5,
 
   "animation" : "/objects/wired/switch/switchtoggle.animation",
@@ -32,6 +34,10 @@
   "animationPosition" : [-6, 0],
 
   "outboundNodes" : [ [0, 0] ],
+  
+  "interactive" : false,
 
-  "interval" : 13
+  "detectDuration" : 0.1,
+  "detectRadius" : 1,
+  "detectOffset" : [0, 3]
 }

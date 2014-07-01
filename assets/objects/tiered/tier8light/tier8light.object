@@ -25,17 +25,17 @@
 
   "lightColor" : [255, 155, 255],
   "flickerDistance" : 0.5,
-  "flickerStrength" : 0.1,
+  "flickerStrength" : 0.01,
 
   "inventoryIcon" : "tier8lighticon.png",
   "orientations" : [
 
     {
-      "image" : "tier8light.png:<color>.<frame>",
+      "dualImage" : "tier8light.png:<color>.<frame>",
       "imagePosition" : [0, 0],
 
       "spaces" : [ [0, 0], [0, 1] ],
-      "fgAnchors" : [ [0, -1] ]
+      "anchors" : [ "bottom" ]
     }
   ],
 

@@ -1,7 +1,7 @@
 {
   "config" : {
     "capabilities" : ["planetTravel", "systemTravel"],
-    "fuelMax" : 1000
+    "maxFuel" : 1000
   },
 
   "backgroundOverlays" : [

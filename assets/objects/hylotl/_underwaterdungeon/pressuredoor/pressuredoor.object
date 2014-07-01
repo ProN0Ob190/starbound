@@ -18,8 +18,10 @@
   "inventoryIcon" : "pressuredooricon.png",
   "orientations" : [
     {
-      "dualImage" : "pressuredoor.png:default",
-      "imagePosition" : [-20, 0],
+      "image" : "pressuredoor.png:default",
+      "imagePosition" : [-21, 0],
+	  
+	  "direction" : "right",
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom", "top" ]
@@ -33,10 +35,10 @@
   "animationParts" : {
     "door" : "pressuredoor.png"
   },
-  "animationPosition" : [-16, 0],
+  "animationPosition" : [-21, 0],
 
   "inboundNodes" : [ [-1, 4] ],
-  "outboundNodes" : [ [1, 0] ],
+  "outboundNodes" : [ [0, 0] ],
 
   "openSounds" : [ "/sfx/objects/wooddoor_open.wav" ],
   "closeSounds" : [ "/sfx/objects/wooddoor_close.wav" ]

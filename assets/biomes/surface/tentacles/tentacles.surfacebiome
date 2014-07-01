@@ -2,7 +2,7 @@
   "name" : "tentacles",
   "friendlyName" : "Tentacles",
   "caveLiquidType" : "tentaclejuice",
-  "requiredStatuses" : [ "beamaxe" ],
+  "requiredStatuses" : [],
   "spawnProfile" : "surfacemix",
 
   "hueShiftOptions" : [-45, 0, 45],

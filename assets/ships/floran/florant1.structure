@@ -1,14 +1,16 @@
 {
   "config" : {
-    "capabilities" : [],
-    "fuelMax" : 1000
+    "shipUpgrades" : {
+      "capabilities" : [],
+      "maxFuel" : 1000
+    }
   },
 
   "backgroundOverlays" : [
     {
       "image" : "floranT1.png",
       "position" : [8, 12],
-	  "unlit" : true
+      "unlit" : true
     },
     {
       "image" : "floranT1lit.png",

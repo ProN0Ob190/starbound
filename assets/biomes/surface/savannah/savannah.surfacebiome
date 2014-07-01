@@ -2,7 +2,7 @@
   "name" : "savannah",
   "friendlyName" : "Savannah",
   "caveLiquidType" : [ "water", "acid", "tarliquid" ],
-  "requiredStatuses" : [ "beamaxe" ],
+  "requiredStatuses" : [],
   "spawnProfile" : "surfacemix",
 
   "hueShiftOptions" : [0],

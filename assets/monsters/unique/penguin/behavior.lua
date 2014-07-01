@@ -6,6 +6,8 @@ function init(args)
 
   entity.setDeathParticleBurst("deathPoof")
   setAnimation("invisible", true)
+
+  rangedAttack.loadConfig()
 end
 
 function isPenguinReinforcement()
@@ -56,7 +58,7 @@ function aimAt(targetPosition)
   gunBarrelPosition = vec2.add({ gunBasePosition[1], gunBasePosition[2] }, gunBarrel)
   gunBarrelOffset = world.distance(gunBarrelPosition, entity.position())
   gunBarrelOffset[1] = gunBarrelOffset[1] * entity.facingDirection()
-  entity.setFireDirection(gunBarrelOffset, gunBarrel)
+  rangedAttack.aim(gunBarrelOffset, gunBarrel)
 
   -- Just put the empty hand down
   if entity.configParameter("hasEmptyHand") then
@@ -141,15 +143,15 @@ end
 
 attack.update = function(dt, stateData)
   if not targetInRange() then
-    -- entity.stopFiring()
+    rangedAttack.stopFiring()
     setAnimation("idle")
     return true
   end
 
   if aimAt(self.targetPosition) then
-    -- entity.startFiring(entity.configParameter("projectileType"))
+    rangedAttack.fireContinuous()
   else
-    -- entity.stopFiring()
+    rangedAttack.stopFiring()
   end
 
   return false

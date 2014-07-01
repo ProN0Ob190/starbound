@@ -3,7 +3,7 @@
   "friendlyName" : "Arctic",
   "caveLiquidType" : "water",
   "oceanLiquidType" : "ocean",
-  "requiredStatuses" : [ "beamaxe" ],
+  "requiredStatuses" : [],
   "spawnProfile" : "surfacemix",
 
   "hueShiftOptions" : [0],

@@ -6,6 +6,8 @@ function init()
 
   entity.setDeathParticleBurst("deathPoof")
   entity.setAnimationState("movement", "invisible")
+
+  rangedAttack.loadConfig()
 end
 
 function isPenguinReinforcement()
@@ -58,7 +60,7 @@ function aimAt(targetPosition)
   gunBarrelPosition = vec2.add({ gunBasePosition[1], gunBasePosition[2] }, gunBarrel)
   gunBarrelOffset = world.distance(gunBarrelPosition, entity.position())
   gunBarrelOffset[1] = gunBarrelOffset[1] * entity.facingDirection()
-  -- entity.setFireDirection(gunBarrelOffset, gunBarrel)
+  rangedAttack.aim(gunBarrelOffset, gunBarrel)
 
   local difference = aimAngle - targetAngle
   return math.abs(difference) < 0.05
@@ -141,16 +143,13 @@ end
 
 fireState.update = function(dt, stateData)
   if not isTargetInRange() then
-    -- entity.stopFiring()
     return true
   end
 
   if entity.animationState("movement") ~= "attack" and stateData.timer <= 0 then
-    -- entity.stopFiring()
-
     if aimAt(self.targetPosition) then
       entity.setAnimationState("movement", "attack")
-      -- entity.startFiring("penguintankround")
+      rangedAttack.fireOnce()
       stateData.timer = 3.0
     end
   end
