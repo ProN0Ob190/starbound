@@ -1,0 +1,34 @@
+{
+  "objectName" : "apexshiplightBroken",
+  "rarity" : "Common",
+  "category" : "light",
+  "lightColor" : [160, 160, 160],
+  "flickerDistance" : 1.0,
+  "flickerStrength" : 1.0,
+  "flickerTiming" : 2,
+  "unlit" : true,
+  "price" : 500,
+  "description" : "A malfunctioning light.",
+  "shortdescription" : "Ship Light",
+  "race" : "apex",
+
+  "apexDescription" : "This light isn't getting enough power.",
+  "avianDescription" : "A flickering light.",
+  "floranDescription" : "Light make dizzy!",
+  "glitchDescription" : "Analysis. This light is malfunctioning.",
+  "humanDescription" : "This light's on the blink.",
+  "hylotlDescription" : "An underpowered light.",
+
+  "inventoryIcon" : "apexshiplightBrokenicon.png",
+  "orientations" : [
+    {
+      "image" : "apexshiplightBroken.png:<frame>",
+      "imagePosition" : [-8, 0],
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

@@ -35,5 +35,5 @@
 
   "outboundNodes" : [ [0, 0] ],
 
-  "interval" : 5
+  "interval" : 15
 }

@@ -1,0 +1,33 @@
+{
+  "objectName" : "avianshiplockerTier0",
+  "rarity" : "Common",
+  "objectType" : "noisy",
+  "category" : "decorative",
+  "description" : "Store some stuff, why don't you?",
+  "shortdescription" : "Shiplocker",
+  "race" : "avian",
+  
+  "lightColor" : [102, 61, 61],
+
+  "apexDescription" : "Avian storage locker.",
+  "avianDescription" : "For storing lots of useful items. It looks broken.",
+  "floranDescription" : "Ssssstorage.",
+  "glitchDescription" : "Indifferent. Avian storage locker.",
+  "humanDescription" : "An Avian storage hatch.",
+  "hylotlDescription" : "Storage.",
+
+  "inventoryIcon" : "shiplockericonTier0.png",
+  "orientations" : [
+    {
+	  "image" : "avianshiplockerTier0.png:<color>.<frame>",
+      "imagePosition" : [-16, -8],
+      "frames" : 8,
+      "animationCycle" : 1,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  
+  "sounds" : [ "/sfx/interface/ship_error1.wav" ]
+  
+}

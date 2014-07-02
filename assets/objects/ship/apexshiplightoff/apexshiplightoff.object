@@ -1,28 +1,24 @@
 {
-  "objectName" : "apexshiplightOFF",
+  "objectName" : "apexshiplightOff",
   "rarity" : "Common",
-  "category" : "light",
-  "lightColor" : [230, 230, 230],
-  "flickerDistance" : 0.2,
-  "flickerStrength" : 0.05,
-  "flickerTiming" : 1,
+  "category" : "decorative",
   "unlit" : true,
   "price" : 500,
   "description" : "A light that is off.",
   "shortdescription" : "Ship Light",
   "race" : "apex",
 
-  "apexDescription" : "These lights are commonly used on ships.",
+  "apexDescription" : "This light is disabled.",
   "avianDescription" : "A light. It's off.",
   "floranDescription" : "Cold off light!",
   "glitchDescription" : "Analysis. This light is off.",
   "humanDescription" : "The light is off.",
   "hylotlDescription" : "An unpowered light.",
 
-  "inventoryIcon" : "apexshiplightOFFicon.png",
+  "inventoryIcon" : "apexshiplightOfficon.png",
   "orientations" : [
     {
-      "image" : "apexshiplightOFF.png:<frame>",
+      "image" : "apexshiplightOff.png:<frame>",
       "imagePosition" : [-8, 0],
       "animationCycle" : 0.5,
 

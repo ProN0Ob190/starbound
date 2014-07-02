@@ -15,7 +15,7 @@
   "humanDescription" : "Cool door.",
   "hylotlDescription" : "A basic door.",
 
-  "inventoryIcon" : "apexshipdooricon.png",
+  "inventoryIcon" : "floranshipdooricon.png",
   "orientations" : [
     {
       "dualImage" : "floranshipdoor.png:default",

@@ -1,0 +1,41 @@
+{
+  "objectName" : "techstationTier0",
+  "rarity" : "Common",
+
+  "interactAction" : "OpenAiInterface",
+
+  "category" : "decorative",
+  "price" : 2500,
+
+  "description" : "A tech station. For creating awesome tech!",
+  "shortdescription" : "Tech Station",
+  "race" : "apex",
+  
+  "lightColor" : [77, 111, 128],
+  "lightPosition" : [-1, 0],
+  
+  "flickerDistance" : 1.0,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 8,
+
+  "apexDescription" : "A tech station. Useful but not powered on.",
+  "avianDescription" : "I can use this tech station to make things if it was on.",
+  "floranDescription" : "Floran create magic bang bangs! But off...",
+  "glitchDescription" : "Admiration. An extremely advanced tech station that is not powered.",
+  "humanDescription" : "A tech station. I can create awesome stuff here when it's not off.",
+  "hylotlDescription" : "This tech station looks decent enough, though not powered.",
+
+  "inventoryIcon" : "apexrecordplayericonTier0.png",
+  "orientations" : [
+    {
+	  "imageLayers" : [ { "image" : "techstationTier0.png:<color>.<frame>", "unlit" : true }, { "image" : "techstationlitTier0.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, -8],
+      "frames" : 8,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

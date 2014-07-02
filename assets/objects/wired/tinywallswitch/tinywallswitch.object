@@ -15,7 +15,7 @@
   "inventoryIcon" : "tinywallswitchicon.png",
   "orientations" : [
     {
-      "image" : "tinywallswitch.png:<color>.off",
+      "dualImage" : "tinywallswitch.png:<color>.off",
       "imagePosition" : [0, 0],
 
       "spaceScan" : 0.1,

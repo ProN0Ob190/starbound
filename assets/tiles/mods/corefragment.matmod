@@ -1,0 +1,10 @@
+{
+  "modId" : 50,
+  "modName" : "corefragment",
+  "frames" : "corefragment.png",
+  "variants" : 8,
+  "itemDrop" : "corefragment",
+  "Description" : "Core Fragment.",
+  "health" : 10,
+  "breaksWithTile" : true
+}

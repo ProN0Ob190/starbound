@@ -1,7 +1,7 @@
 {
-  "itemName" : "shipT7",
+  "itemName" : "shipT6",
   "rarity" : "Legendary",
-  "inventoryIcon" : "upgradeT7.png",
+  "inventoryIcon" : "upgradeT6.png",
   "image" : "upgradeT7.png",
 
   "shortdescription" : "Thing",

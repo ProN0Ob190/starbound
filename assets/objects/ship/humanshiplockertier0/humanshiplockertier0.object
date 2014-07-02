@@ -1,0 +1,32 @@
+{
+  "objectName" : "humanshiplockerTier0",
+  "rarity" : "Common",
+  "objectType" : "noisy",
+  "category" : "decorative",
+  "description" : "Store some stuff, why don't you?",
+  "shortdescription" : "Ship locker",
+  "race" : "human",
+  "lightColor" : [61, 88, 102],
+
+  "apexDescription" : "I wonder if there are any secrets inside...",
+  "avianDescription" : "Could there be anything of value within?",
+  "floranDescription" : "SSsssearch.",
+  "glitchDescription" : "Excited. Any items of interest inside?",
+  "humanDescription" : "A ship's locker. It's not working.",
+  "hylotlDescription" : "Perhaps something useful is inside.",
+
+  "inventoryIcon" : "shiplockericonTier0.png",
+  "orientations" : [
+    {
+	  "image" : "humanshiplockerTier0.png:<color>.<frame>",
+	  "imagePosition" : [-16, -8],
+      "frames" : 8,
+      "animationCycle" : 1,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  
+  "sounds" : [ "/sfx/interface/ship_error1.wav" ]
+  
+}
