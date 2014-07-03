@@ -22,7 +22,7 @@
   "inventoryIcon" : "teleportericon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "hylotlteleporter.png:<color>", "unlit" : true }, { "image" : "hylotlteleporterlit.png:<color>" } ],
+      "imageLayers" : [ { "image" : "hylotlteleporter.png:<color>", "fullbright" : true }, { "image" : "hylotlteleporterlit.png:<color>" } ],
 
       "imagePosition" : [-16, 0],
       "frames" : 1,

@@ -10,7 +10,7 @@
     {
       "image" : "hylotlT7.png",
       "position" : [48, 36],
-	  "unlit" : true
+	  "fullbright" : true
     },
     {
       "image" : "hylotlT7lit.png",

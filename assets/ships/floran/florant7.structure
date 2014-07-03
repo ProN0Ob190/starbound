@@ -10,7 +10,7 @@
     {
       "image" : "floranT7.png",
       "position" : [44, 34],
-	  "unlit" : true
+	  "fullbright" : true
     },
     {
       "image" : "floranT7lit.png",

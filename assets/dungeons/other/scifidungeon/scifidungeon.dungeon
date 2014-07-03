@@ -1062,8 +1062,8 @@
 
     {
       "value" : [232, 1, 59, 255],
-      "comment" : "apexbigalarm",
-      "brush" : [ [ "clear" ], [ "object", "apexbigalarm" ] ]
+      "comment" : "alarm",
+      "brush" : [ [ "clear" ], [ "object", "alarm" ] ]
     },
 
     {

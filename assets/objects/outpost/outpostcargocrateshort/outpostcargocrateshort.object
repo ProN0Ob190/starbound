@@ -19,7 +19,7 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "outpostcargocrateshort.png:<color>", "unlit" : true }, { "image" : "outpostcargocrateshortlit.png:<color>" } ],
+      "imageLayers" : [ { "image" : "outpostcargocrateshort.png:<color>", "fullbright" : true }, { "image" : "outpostcargocrateshortlit.png:<color>" } ],
 	  "flipImages" : true,
 	  "direction" : "left",
       "lightPosition" : [0, 0],
@@ -33,7 +33,7 @@
       "collision" : "platform"
     },
 	{
-      "imageLayers" : [ { "image" : "outpostcargocrateshort.png:<color>", "unlit" : true }, { "image" : "outpostcargocrateshortlit.png:<color>" } ],
+      "imageLayers" : [ { "image" : "outpostcargocrateshort.png:<color>", "fullbright" : true }, { "image" : "outpostcargocrateshortlit.png:<color>" } ],
 	  "direction" : "right",
       "lightPosition" : [0, 0],
 

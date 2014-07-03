@@ -19,7 +19,7 @@
   "inventoryIcon" : "shiplockericon.png",
   "orientations" : [
     {
-	  "imageLayers" : [ { "image" : "glitchshiplocker.png:<color>.<frame>", "unlit" : true }, { "image" : "glitchshiplockerlit.png:<color>.<frame>" } ],
+	  "imageLayers" : [ { "image" : "glitchshiplocker.png:<color>.<frame>", "fullbright" : true }, { "image" : "glitchshiplockerlit.png:<color>.<frame>" } ],
       "imagePosition" : [-16, -8],
       "frames" : 8,
       "animationCycle" : 1.0,

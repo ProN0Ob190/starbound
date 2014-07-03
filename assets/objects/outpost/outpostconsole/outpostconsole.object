@@ -18,7 +18,7 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-	  "imageLayers" : [ { "image" : "outpostconsole.png:<color>.<frame>", "unlit" : true }, { "image" : "outpostconsolelit.png:<color>.<frame>" } ],
+	  "imageLayers" : [ { "image" : "outpostconsole.png:<color>.<frame>", "fullbright" : true }, { "image" : "outpostconsolelit.png:<color>.<frame>" } ],
 	  "flipImages" : true,
 	  "direction" : "left",
       "lightPosition" : [-1, 2],
@@ -32,7 +32,7 @@
 
     },
 	{
-	  "imageLayers" : [ { "image" : "outpostconsole.png:<color>.<frame>", "unlit" : true }, { "image" : "outpostconsolelit.png:<color>.<frame>" } ],
+	  "imageLayers" : [ { "image" : "outpostconsole.png:<color>.<frame>", "fullbright" : true }, { "image" : "outpostconsolelit.png:<color>.<frame>" } ],
 	  "direction" : "right",
       "lightPosition" : [0, 2],
 

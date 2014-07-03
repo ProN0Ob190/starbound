@@ -24,7 +24,7 @@
   "inventoryIcon" : "plantvolcano2icon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "plantvolcano2.png:<color>", "unlit" : true }, { "image" : "plantvolcano2lit.png:<color>" } ],
+      "imageLayers" : [ { "image" : "plantvolcano2.png:<color>", "fullbright" : true }, { "image" : "plantvolcano2lit.png:<color>" } ],
       "flipImages" : true,
       "imagePosition" : [-16, 0],
       "spaceScan" : 0.1,
@@ -32,7 +32,7 @@
       "direction" : "left"
     },
     {
-      "imageLayers" : [ { "image" : "plantvolcano2.png:<color>", "unlit" : true }, { "image" : "plantvolcano2lit.png:<color>" } ],
+      "imageLayers" : [ { "image" : "plantvolcano2.png:<color>", "fullbright" : true }, { "image" : "plantvolcano2lit.png:<color>" } ],
       "imagePosition" : [-16, 0],
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],

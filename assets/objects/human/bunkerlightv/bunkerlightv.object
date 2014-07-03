@@ -14,7 +14,7 @@
   "humanDescription" : "An uncomfortably bright light.",
   "hylotlDescription" : "The creator of this light got a bit carried away.",
 
-  "unlit" : true,
+  "fullbright" : true,
   "lightColors" : {
     "default" : [125, 153, 179],
     "red" : [179, 125, 125],

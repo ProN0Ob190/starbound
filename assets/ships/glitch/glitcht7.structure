@@ -10,7 +10,7 @@
     {
       "image" : "glitchT7.png",
       "position" : [11.625, 17.375],
-	  "unlit" : true
+	  "fullbright" : true
     },
 	{
       "image" : "glitchT7lit.png",

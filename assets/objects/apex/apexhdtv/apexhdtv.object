@@ -15,22 +15,38 @@
   "humanDescription" : "Is that the infamous Big Ape I keep hearing about?",
   "hylotlDescription" : "Is this the brute responsible for the Apex regime?",
 
-  "lightColor" : [28, 181, 238],
+  "lightColor" : [89, 149, 179],
   "flickerDistance" : 0.2,
   "flickerStrength" : 0.05,
-  "flickerTiming" : 4,
+  "flickerTiming" : 1,
 
   "inventoryIcon" : "apexhdtvicon.png",
   "orientations" : [
     {
-      "image" : "apexhdtv.png:<color>",
+      "image" : "apexhdtv.png:<color>.<frame>",
       "imagePosition" : [-40, -24],
       "frames" : 1,
       "animationCycle" : 0.5,
+	  
+	  "direction" : "right",
 
       "spaceScan" : 0.1,
       "anchors" : [ "background" ]
 
     }
-  ]
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "apexhdtv.png",
+    "fg" : "apexhdtvlit.png"
+  },
+  "animationPosition" : [-40, -24],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inboundNodes" : [ [0, 0] ]
 }

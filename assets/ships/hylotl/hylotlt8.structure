@@ -1,14 +1,16 @@
 {
   "config" : {
-    "capabilities" : ["planetTravel", "systemTravel"],
-    "maxFuel" : 1000
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel", "systemTravel"],
+      "maxFuel" : 1000
+    }
   },
 
   "backgroundOverlays" : [
     {
       "image" : "hylotlT8.png",
       "position" : [14, 36],
-	  "unlit" : true
+	  "fullbright" : true
     },
     {
       "image" : "hylotlT8lit.png",

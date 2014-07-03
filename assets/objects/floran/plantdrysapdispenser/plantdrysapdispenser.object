@@ -19,7 +19,7 @@
   "inventoryIcon" : "plantdrysapdispensericon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "plantdrysapdispenser.png:<color>", "unlit" : true }, { "image" : "plantdrysapdispenserlit.png:<color>" } ],
+      "imageLayers" : [ { "image" : "plantdrysapdispenser.png:<color>", "fullbright" : true }, { "image" : "plantdrysapdispenserlit.png:<color>" } ],
       "imagePosition" : [-8, -8],
       "frames" : 1,
       "animationCycle" : 0.5,

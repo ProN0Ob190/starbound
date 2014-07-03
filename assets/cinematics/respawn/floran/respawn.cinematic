@@ -8,19 +8,19 @@
       ],
       "keyframes" : [
         {
-          "timecode" : 1.4999,
+          "timecode" : 0.74995,
           "zoom" : 500,
           "alpha" : 0,
           "position" : [480, 270]
         },
         {
-          "timecode" : 1.49999,
+          "timecode" : 0.749951,
           "zoom" : 500,
           "alpha" : 1,
           "position" : [480, 270]
         },
         {
-          "timecode" : 25,
+          "timecode" : 12.5,
           "zoom" : 500,
           "alpha" : 1,
           "position" : [480, 270]
@@ -35,19 +35,19 @@
       ],
       "keyframes" : [
         {
-          "timecode" : 1.4999,
+          "timecode" : 0.74995,
           "zoom" : 2,
           "alpha" : 0,
           "position" : [478, 212]
         },
         {
-          "timecode" : 1.49999,
+          "timecode" : 0.749951,
           "zoom" : 2,
           "alpha" : 0.6,
           "position" : [478, 212]
         },
         {
-          "timecode" : 25,
+          "timecode" : 12.5,
           "zoom" : 2,
           "alpha" : 1,
           "position" : [478, 212]
@@ -62,27 +62,27 @@
       ],
       "keyframes" : [
         {
-          "timecode" : 3,
+          "timecode" : 1.5,
           "zoom" : 2,
           "alpha" : 0,
           "frame" : 0,
           "position" : [480, 270]
         },
         {
-          "timecode" : 5,
+          "timecode" : 2.5,
           "zoom" : 2,
           "alpha" : 1,
           "frame" : 0,
           "position" : [480, 270]
         },
         {
-          "timecode" : 22,
+          "timecode" : 11,
           "alpha" : 1,
           "zoom" : 2,
           "frame" : 96.999
         },
         {
-          "timecode" : 23.5,
+          "timecode" : 11.75,
           "alpha" : 0,
           "zoom" : 2,
           "frame" : 96.999
@@ -93,21 +93,21 @@
       "avatar" : "nude",
       "keyframes" : [
         {
-          "timecode" : 17.9,
+          "timecode" : 8.95,
           "zoom" : 2,
           "alpha" : 0,
           "frame" : 0,
           "position" : [483, 258]
         },
         {
-          "timecode" : 20.5,
+          "timecode" : 10.25,
           "zoom" : 2,
           "alpha" : 1,
           "frame" : 0,
           "position" : [483, 258]
         },
         {
-          "timecode" : 25,
+          "timecode" : 12.5,
           "alpha" : 1,
           "zoom" : 2,
           "frame" : 100
@@ -122,27 +122,27 @@
       ],
       "keyframes" : [
         {
-          "timecode" : 3,
+          "timecode" : 1.5,
           "zoom" : 2,
           "alpha" : 0,
           "frame" : 0,
           "position" : [480, 270]
         },
         {
-          "timecode" : 5,
+          "timecode" : 2.5,
           "zoom" : 2,
           "alpha" : 1,
           "frame" : 0,
           "position" : [480, 270]
         },
         {
-          "timecode" : 22,
+          "timecode" : 11,
           "alpha" : 1,
           "zoom" : 2,
           "frame" : 96.999
         },
         {
-          "timecode" : 23.5,
+          "timecode" : 11.75,
           "alpha" : 0,
           "zoom" : 2,
           "frame" : 96.999

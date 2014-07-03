@@ -12,6 +12,10 @@
       "shipParameters" : {
         "shipLevel" : 2
       }
+    },
+    { 
+      "action" : "QuestTrigger",
+      "trigger" : "ai-test-trigger"
     }
   ],
 

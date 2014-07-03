@@ -19,32 +19,32 @@
   "inventoryIcon" : "hivelight2icon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "hivelight2.png:<color>.<frame>", "unlit" : true }, { "image" : "hivelight2lit.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "hivelight2.png:<color>.<frame>", "fullbright" : true }, { "image" : "hivelight2lit.png:<color>.<frame>" } ],
       "flipImages" : true,
       "imagePosition" : [0, 0],
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     },
     {
-      "imageLayers" : [ { "image" : "hivelight2top.png:<color>.<frame>", "unlit" : true }, { "image" : "hivelight2toplit.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "hivelight2top.png:<color>.<frame>", "fullbright" : true }, { "image" : "hivelight2toplit.png:<color>.<frame>" } ],
       "imagePosition" : [0, 0],
       "spaceScan" : 0.1,
       "anchors" : [ "top" ]
     },
     {
-      "imageLayers" : [ { "image" : "hivelight2left.png:<color>.<frame>", "unlit" : true }, { "image" : "hivelight2leftlit.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "hivelight2left.png:<color>.<frame>", "fullbright" : true }, { "image" : "hivelight2leftlit.png:<color>.<frame>" } ],
       "imagePosition" : [0, 0],
       "spaceScan" : 0.1,
       "anchors" : [ "left" ]
     },
     {
-      "imageLayers" : [ { "image" : "hivelight2right.png:<color>.<frame>", "unlit" : true }, { "image" : "hivelight2rightlit.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "hivelight2right.png:<color>.<frame>", "fullbright" : true }, { "image" : "hivelight2rightlit.png:<color>.<frame>" } ],
       "imagePosition" : [0, 0],
       "spaceScan" : 0.1,
       "anchors" : [ "right" ]
     },
     {
-      "imageLayers" : [ { "image" : "hivelight2back.png:<color>.<frame>", "unlit" : true }, { "image" : "hivelight2backlit.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "hivelight2back.png:<color>.<frame>", "fullbright" : true }, { "image" : "hivelight2backlit.png:<color>.<frame>" } ],
       "imagePosition" : [0, 0],
       "spaceScan" : 0.1,
       "anchors" : [ "background" ]

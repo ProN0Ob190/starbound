@@ -9,7 +9,7 @@
   "shortdescription" : "DNA Plant",
   "race" : "apex",
 
-  "unlit" : true,
+  "fullbright" : true,
   "lightColor" : [51, 72, 87],
 
   "apexDescription" : "This plant looks like snakes.",

@@ -19,7 +19,7 @@
   "orientations" : [
     {
 	
-	  "imageLayers" : [ { "image" : "brokenapexfuelhatch.png:<color>.<frame>", "unlit" : true }, { "image" : "brokenapexfuelhatchlit.png:<color>.<frame>" } ],
+	  "imageLayers" : [ { "image" : "brokenapexfuelhatch.png:<color>.<frame>", "fullbright" : true }, { "image" : "brokenapexfuelhatchlit.png:<color>.<frame>" } ],
 
       "imagePosition" : [-8, -16],
       "frames" : 12,

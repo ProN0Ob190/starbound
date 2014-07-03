@@ -19,7 +19,7 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-	  "imageLayers" : [ { "image" : "outpostshippingcontainer.png:<color>", "unlit" : true }, { "image" : "outpostshippingcontainerlit.png:<color>" } ],
+	  "imageLayers" : [ { "image" : "outpostshippingcontainer.png:<color>", "fullbright" : true }, { "image" : "outpostshippingcontainerlit.png:<color>" } ],
 	  "flipImages" : true,
 	  "direction" : "left",
 	  
@@ -34,7 +34,7 @@
       "collision" : "platform"
     },
 	{
-	  "imageLayers" : [ { "image" : "outpostshippingcontainer.png:<color>", "unlit" : true }, { "image" : "outpostshippingcontainerlit.png:<color>" } ],
+	  "imageLayers" : [ { "image" : "outpostshippingcontainer.png:<color>", "fullbright" : true }, { "image" : "outpostshippingcontainerlit.png:<color>" } ],
 	  "direction" : "right",
 	  
       "lightPosition" : [0, 2],

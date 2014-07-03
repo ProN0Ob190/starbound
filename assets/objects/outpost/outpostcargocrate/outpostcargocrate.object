@@ -20,7 +20,7 @@
   "orientations" : [
     {
 	
-	  "imageLayers" : [ { "image" : "outpostcargocrate.png:<color>", "unlit" : true }, { "image" : "outpostcargocratelit.png:<color>" } ],
+	  "imageLayers" : [ { "image" : "outpostcargocrate.png:<color>", "fullbright" : true }, { "image" : "outpostcargocratelit.png:<color>" } ],
 	  "flipImages" : true,
 	  "direction" : "left",
       "lightPosition" : [-1, 1],
@@ -35,7 +35,7 @@
     },
 	{
 	
-	  "imageLayers" : [ { "image" : "outpostcargocrate.png:<color>", "unlit" : true }, { "image" : "outpostcargocratelit.png:<color>" } ],
+	  "imageLayers" : [ { "image" : "outpostcargocrate.png:<color>", "fullbright" : true }, { "image" : "outpostcargocratelit.png:<color>" } ],
 	  "direction" : "right",
       "lightPosition" : [0, 1],
 

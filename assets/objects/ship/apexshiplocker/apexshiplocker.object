@@ -21,7 +21,7 @@
   "inventoryIcon" : "shiplockericon.png",
   "orientations" : [
     {
-	  "imageLayers" : [ { "image" : "apexshiplocker.png:<color>.<frame>", "unlit" : true }, { "image" : "apexshiplockerlit.png:<color>.<frame>" } ],
+	  "imageLayers" : [ { "image" : "apexshiplocker.png:<color>.<frame>", "fullbright" : true }, { "image" : "apexshiplockerlit.png:<color>.<frame>" } ],
       "imagePosition" : [-16, -8],
       "frames" : 8,
       "animationCycle" : 1.0,

@@ -1,14 +1,16 @@
 {
   "config" : {
-    "capabilities" : ["planetTravel", "systemTravel"],
-    "maxFuel" : 1000
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel", "systemTravel"],
+      "maxFuel" : 1000
+    }
   },
 
   "backgroundOverlays" : [
     {
       "image" : "floranT8.png",
       "position" : [12, 34],
-	  "unlit" : true
+	  "fullbright" : true
     },
     {
       "image" : "floranT8lit.png",

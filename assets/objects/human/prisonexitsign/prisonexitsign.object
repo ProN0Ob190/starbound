@@ -14,7 +14,7 @@
     "black" : [100, 100, 100],
     "white" : [153, 153, 153]
   },
-  "unlit" : true,
+  "fullbright" : true,
   "description" : "If you go this way, you're sure to be exiting... something.",
   "shortdescription" : "Exit Sign",
   "race" : "human",

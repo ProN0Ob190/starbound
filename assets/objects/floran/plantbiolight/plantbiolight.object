@@ -19,7 +19,7 @@
   "inventoryIcon" : "plantbiolighticon.png",
   "orientations" : [
     {
-      "image" : "plantbiolight.png:<frame>", "unlit" : true,
+      "image" : "plantbiolight.png:<frame>", "fullbright" : true,
       "imagePosition" : [0, 0],
 
       "spaceScan" : 0.1,
@@ -27,7 +27,7 @@
     },
 
     {
-      "image" : "plantbiolightleft.png:<frame>", "unlit" : true,
+      "image" : "plantbiolightleft.png:<frame>", "fullbright" : true,
       "imagePosition" : [0, 0],
 
       "spaceScan" : 0.1,
@@ -35,7 +35,7 @@
     },
 
     {
-      "image" : "plantbiolightright.png:<frame>", "unlit" : true,
+      "image" : "plantbiolightright.png:<frame>", "fullbright" : true,
       "imagePosition" : [0, 0],
 
       "spaceScan" : 0.1,
@@ -43,7 +43,7 @@
     },
 
     {
-      "image" : "plantbiolight.png:<frame>", "unlit" : true,
+      "image" : "plantbiolight.png:<frame>", "fullbright" : true,
       "imagePosition" : [0, 0],
 
       "spaceScan" : 0.1,

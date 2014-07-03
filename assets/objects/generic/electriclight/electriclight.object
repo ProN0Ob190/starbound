@@ -14,7 +14,7 @@
   "humanDescription" : "A basic light.",
   "hylotlDescription" : "An ordinary light.",
 
-  "unlit" : true,
+  "fullbright" : true,
   "lightColors" : {
     "default" : [179, 178, 161],
     "red" : [229, 211, 207],

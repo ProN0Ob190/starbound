@@ -27,7 +27,7 @@
   "inventoryIcon" : "aviantechstationTier0icon.png",
   "orientations" : [
     {
-	  "imageLayers" : [ { "image" : "aviantechstationTier0.png:<color>.<frame>", "unlit" : true }, { "image" : "aviantechstationlitTier0.png:<color>.<frame>" } ],
+	  "imageLayers" : [ { "image" : "aviantechstationTier0.png:<color>.<frame>", "fullbright" : true }, { "image" : "aviantechstationlitTier0.png:<color>.<frame>" } ],
       "imagePosition" : [-16, -8],
       "frames" : 8,
       "animationCycle" : 1.0,

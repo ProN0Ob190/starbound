@@ -19,7 +19,7 @@
   "inventoryIcon" : "huntinglight1icon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "huntinglight1.png:<color>.<frame>", "unlit" : true }, { "image" : "huntinglight1lit.png:<color>.<frame>" } ],
+      "image" : "huntinglight1.png:<color>.<frame>",
       "flipImages" : true,
       "imagePosition" : [-8, 0],
       "spaceScan" : 0.1,
@@ -28,12 +28,24 @@
       "lightPosition" : [0, 3]
     },
     {
-      "imageLayers" : [ { "image" : "huntinglight1.png:<color>.<frame>", "unlit" : true }, { "image" : "huntinglight1lit.png:<color>.<frame>" } ],
+      "image" : "huntinglight1.png:<color>.<frame>",
       "imagePosition" : [-8, 0],
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "direction" : "right",
       "lightPosition" : [0, 3]
     }
-  ]
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "huntinglight1.png",
+    "fg" : "huntinglight1lit.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inboundNodes" : [ [0, 0] ]
 }

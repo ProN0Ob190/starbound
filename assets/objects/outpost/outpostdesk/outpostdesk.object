@@ -15,7 +15,7 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
 	{
-      "imageLayers" : [ { "image" : "outpostdeskleft.png:<color>", "unlit" : true }, { "image" : "outpostdeskleftlit.png:<color>" } ],
+      "imageLayers" : [ { "image" : "outpostdeskleft.png:<color>", "fullbright" : true }, { "image" : "outpostdeskleftlit.png:<color>" } ],
 	  "direction" : "left",
 
       "imagePosition" : [-16, 0],
@@ -27,7 +27,7 @@
       "collision" : "platform"
     },
 	{
-      "imageLayers" : [ { "image" : "outpostdeskright.png:<color>", "unlit" : true }, { "image" : "outpostdeskrightlit.png:<color>" } ],
+      "imageLayers" : [ { "image" : "outpostdeskright.png:<color>", "fullbright" : true }, { "image" : "outpostdeskrightlit.png:<color>" } ],
 	  "direction" : "right",
 
       "imagePosition" : [-16, 0],

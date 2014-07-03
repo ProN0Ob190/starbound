@@ -10,7 +10,7 @@
     {
       "image" : "humanT1.png",
       "position" : [8, 14],
-      "unlit" : true
+      "fullbright" : true
     },
     {
       "image" : "humanT1lit.png",

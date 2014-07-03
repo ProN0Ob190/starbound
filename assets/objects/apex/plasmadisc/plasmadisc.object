@@ -6,7 +6,7 @@
   "description" : "Whoooaaaaa.",
   "shortdescription" : "Plasma Disc",
   "race" : "apex",
-  "unlit" : true,
+  "fullbright" : true,
   "lightColor" : [17, 107, 140],
   "flickerDistance" : 0.2,
   "flickerStrength" : 0.05,

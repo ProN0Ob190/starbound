@@ -23,7 +23,7 @@
   "inventoryIcon" : "apexrecordplayericon.png",
   "orientations" : [
     {
-	  "imageLayers" : [ { "image" : "aviantechstation.png:<color>.<frame>", "unlit" : true }, { "image" : "aviantechstationlit.png:<color>.<frame>" } ],
+	  "imageLayers" : [ { "image" : "aviantechstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "aviantechstationlit.png:<color>.<frame>" } ],
       "imagePosition" : [-16, -8],
       "frames" : 8,
       "animationCycle" : 1.0,

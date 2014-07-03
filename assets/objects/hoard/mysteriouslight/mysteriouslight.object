@@ -30,7 +30,7 @@
   "inventoryIcon" : "mysteriouslighticon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "mysteriouslightceiling1.png:<color>.<frame>", "unlit" : true }, { "image" : "mysteriouslightceiling2.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "mysteriouslightceiling1.png:<color>.<frame>", "fullbright" : true }, { "image" : "mysteriouslightceiling2.png:<color>.<frame>" } ],
       "frames" : 1,
       "animationCycle" : 0.5,
       "imagePosition" : [0, 0],
@@ -42,7 +42,7 @@
     },
 
     {
-      "imageLayers" : [ { "image" : "mysteriouslightground1.png:<color>.<frame>", "unlit" : true }, { "image" : "mysteriouslightground2.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "mysteriouslightground1.png:<color>.<frame>", "fullbright" : true }, { "image" : "mysteriouslightground2.png:<color>.<frame>" } ],
       "frames" : 1,
       "animationCycle" : 0.5,
       "imagePosition" : [0, 0],
@@ -54,7 +54,7 @@
     },
 
     {
-      "imageLayers" : [ { "image" : "mysteriouslightleft1.png:<color>.<frame>", "unlit" : true }, { "image" : "mysteriouslightleft2.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "mysteriouslightleft1.png:<color>.<frame>", "fullbright" : true }, { "image" : "mysteriouslightleft2.png:<color>.<frame>" } ],
       "frames" : 1,
       "animationCycle" : 0.5,
       "imagePosition" : [0, 0],
@@ -66,7 +66,7 @@
     },
 
     {
-      "imageLayers" : [ { "image" : "mysteriouslightright1.png:<color>.<frame>", "unlit" : true }, { "image" : "mysteriouslightright2.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "mysteriouslightright1.png:<color>.<frame>", "fullbright" : true }, { "image" : "mysteriouslightright2.png:<color>.<frame>" } ],
       "frames" : 1,
       "animationCycle" : 0.5,
       "imagePosition" : [0, 0],

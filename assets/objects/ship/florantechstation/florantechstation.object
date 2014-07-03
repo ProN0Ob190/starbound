@@ -23,7 +23,7 @@
   "inventoryIcon" : "florantechstationicon.png",
   "orientations" : [
     {
-	  "imageLayers" : [ { "image" : "florantechstation.png:<color>.<frame>", "unlit" : true }, { "image" : "florantechstationlit.png:<color>.<frame>" } ],
+	  "imageLayers" : [ { "image" : "florantechstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "florantechstationlit.png:<color>.<frame>" } ],
       "imagePosition" : [-16, -8],
       "frames" : 8,
       "animationCycle" : 1.0,

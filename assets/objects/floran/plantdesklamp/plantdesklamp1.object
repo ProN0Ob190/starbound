@@ -21,7 +21,7 @@
   "inventoryIcon" : "plantdesklampicon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "plantdesklamp1.png:<color>.<frame>", "unlit" : true }, { "image" : "plantdesklamp2.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "plantdesklamp1.png:<color>.<frame>", "fullbright" : true }, { "image" : "plantdesklamp2.png:<color>.<frame>" } ],
       "flipImages" : true,
       "imagePosition" : [-3, 0],
       "spaceScan" : 0.1,
@@ -31,7 +31,7 @@
       "pointAngle" : 225
     },
     {
-      "imageLayers" : [ { "image" : "plantdesklamp1.png:<color>.<frame>", "unlit" : true }, { "image" : "plantdesklamp2.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "plantdesklamp1.png:<color>.<frame>", "fullbright" : true }, { "image" : "plantdesklamp2.png:<color>.<frame>" } ],
       "imagePosition" : [-9, 0],
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],

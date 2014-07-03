@@ -9,7 +9,7 @@
   "shortdescription" : "Blueprint Blob",
   "race" : "apex",
 
-  "unlit" : true,
+  "fullbright" : true,
   "lightColor" : [0, 250, 150],
 
   "apexDescription" : "A blueprint encased in vile slime.",

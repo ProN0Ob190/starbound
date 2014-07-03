@@ -6,7 +6,7 @@
   "flickerDistance" : 1.0,
   "flickerStrength" : 1.0,
   "flickerTiming" : 2,
-  "unlit" : true,
+  "fullbright" : true,
   "price" : 500,
   "description" : "A malfunctioning light.",
   "shortdescription" : "Ship Light",

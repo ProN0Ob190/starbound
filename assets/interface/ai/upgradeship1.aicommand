@@ -11,6 +11,10 @@
       "shipParameters" : {
         "shipLevel" : 1
       }
+    },
+    { 
+      "action" : "StartQuest",
+      "questTemplateId" : "testquest.ai"
     }
   ],
 

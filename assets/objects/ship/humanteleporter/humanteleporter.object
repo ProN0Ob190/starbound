@@ -22,7 +22,7 @@
   "inventoryIcon" : "teleportericon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "humanteleporter.png:<color>", "unlit" : true }, { "image" : "humanteleporterlit.png:<color>" } ],
+      "imageLayers" : [ { "image" : "humanteleporter.png:<color>", "fullbright" : true }, { "image" : "humanteleporterlit.png:<color>" } ],
 
       "imagePosition" : [-16, 0],
       "frames" : 1,

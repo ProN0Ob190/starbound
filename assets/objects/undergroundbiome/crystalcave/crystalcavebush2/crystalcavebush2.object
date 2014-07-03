@@ -9,7 +9,7 @@
   "shortdescription" : "Crystalline Bush",
   "race" : "apex",
 
-  "unlit" : true,
+  "fullbright" : true,
   "lightColor" : [51, 72, 87],
 
   "apexDescription" : "A beautiful crystal bush.",

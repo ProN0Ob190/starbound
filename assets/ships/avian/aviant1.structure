@@ -10,7 +10,7 @@
     {
       "image" : "avianT1.png",
       "position" : [7, 15],
-      "unlit" : true
+      "fullbright" : true
     },
     {
       "image" : "avianT1lit.png",

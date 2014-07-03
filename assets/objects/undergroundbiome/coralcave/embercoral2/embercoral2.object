@@ -9,7 +9,7 @@
   "shortdescription" : "Ember Coral",
   "race" : "apex",
 
-  "unlit" : true,
+  "fullbright" : true,
   "lightColor" : [240, 120, 0],
 
   "floranDescription" : "Crissspy.",

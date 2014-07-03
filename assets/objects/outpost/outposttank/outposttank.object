@@ -18,7 +18,7 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "outposttank.png:<color>", "unlit" : true }, { "image" : "outposttanklit.png:<color>" } ],
+      "imageLayers" : [ { "image" : "outposttank.png:<color>", "fullbright" : true }, { "image" : "outposttanklit.png:<color>" } ],
 	  "flipImages" : true,
 	  "direction" : "left",
 	  
@@ -32,7 +32,7 @@
       "anchors" : [ "bottom" ]
     },
 	{
-      "imageLayers" : [ { "image" : "outposttank.png:<color>", "unlit" : true }, { "image" : "outposttanklit.png:<color>" } ],
+      "imageLayers" : [ { "image" : "outposttank.png:<color>", "fullbright" : true }, { "image" : "outposttanklit.png:<color>" } ],
 	  "direction" : "right",
 	  
       "lightPosition" : [0, 2],

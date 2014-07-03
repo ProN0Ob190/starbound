@@ -1,10 +1,12 @@
 {
   "objectName" : "apexpod2",
   "rarity" : "Common",
-  "category" : "decorative",
+  "category" : "light",
   "price" : 2000,
-  // "unlit" : true,
-  "lightColor" : [57, 89, 45],
+  "lightColor" : [115, 179, 89],
+  "flickerDistance" : 1.0,
+  "flickerStrength" : 0.1,
+  "flickerTiming" : 1,
   "description" : "The pod is empty.",
   "shortdescription" : "Apex Life Support Pod",
   "race" : "apex",
@@ -19,17 +21,47 @@
   "inventoryIcon" : "apexpod2icon.png",
   "orientations" : [
     {
-      "dualImage" : "apexpod2.png:<color>",
+      "image" : "apexpod2.png:<color>.<frame>",
       "imagePosition" : [-16, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
+	  
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "animationPosition" : [-16, 0],
+	  "lightPosition" : [0, 3],
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
+    },
+	{
+      "image" : "apexpod2.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+	  
+	  "direction" : "right",
+	  "animationPosition" : [-16, 0],
+	  "lightPosition" : [0, 3],
 
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
     }
   ],
 
-  "soundEffect" : "/sfx/objects/apexpod.wav"
+  "soundEffect" : "/sfx/objects/apexpod.wav",
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "apexpod2.png",
+    "fg" : "apexpod2lit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inboundNodes" : [ [0, 0] ]
 
 }

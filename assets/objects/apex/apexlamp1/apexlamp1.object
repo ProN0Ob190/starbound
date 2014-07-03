@@ -23,9 +23,35 @@
       "imagePosition" : [-6, 0],
       "frames" : 1,
       "animationCycle" : 0.3,
-
+	  "flipImages" : true,
+	  "direction" : "left",
+      "lightPosition" : [0, 1],
+	  "animationPosition" : [-10, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+	{
+      "image" : "apexlamp1.png:<color>.<frame>",
+      "imagePosition" : [-6, 0],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+	  "direction" : "right",
+      "lightPosition" : [0, 1],
+	  "animationPosition" : [-6, 0],
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
-  ]
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "apexlamp1.png",
+    "fg" : "apexlamp1lit.png"
+  },
+  
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inboundNodes" : [ [0, 0] ]
 }

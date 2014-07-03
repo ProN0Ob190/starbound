@@ -6,7 +6,7 @@
   "flickerDistance" : 1,
   "flickerStrength" : 1,
   "flickerTiming" : 7,
-  "unlit" : true,
+  "fullbright" : true,
   "price" : 500,
   "description" : "A light.",
   "shortdescription" : "Ship Light",

@@ -6,7 +6,7 @@
   "flickerDistance" : 0.2,
   "flickerStrength" : 0.05,
   "flickerTiming" : 1,
-  "unlit" : true,
+  "fullbright" : true,
   "price" : 500,
   "description" : "Go Ape!",
   "shortdescription" : "Apex Level 01 Sign",
@@ -22,13 +22,31 @@
   "inventoryIcon" : "apexlevel1signicon.png",
   "orientations" : [
     {
-      "image" : "apexlevel1sign.png:<color>",
+      "image" : "apexlevel1sign.png:<color>.<frame>",
       "imagePosition" : [-16, -16],
       "animationCycle" : 0.5,
+	  
+	  "direction" : "right",
 
       "spaceScan" : 0.1,
       "anchors" : [ "background" ]
 
     }
-  ]
+  ],
+
+  "soundEffect" : "/sfx/objects/fluorescent_light_quiet.wav",
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "apexlevel1sign.png",
+    "fg" : "apexlevel1signlit.png"
+  },
+  "animationPosition" : [-16, -16],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inboundNodes" : [ [0, 0] ]
 }

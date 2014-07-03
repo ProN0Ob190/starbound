@@ -30,7 +30,7 @@
       "approach" : [0, 20],
       "timeToLive" : 2,
       "layer" : "front",
-	  "unlit" : true
+	  "fullbright" : true
     },
 
     "particleVariance" : {

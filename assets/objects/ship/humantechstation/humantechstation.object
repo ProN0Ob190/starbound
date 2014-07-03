@@ -23,7 +23,7 @@
   "inventoryIcon" : "humantechstationicon.png",
   "orientations" : [
     {
-	  "imageLayers" : [ { "image" : "humantechstation.png:<color>.<frame>", "unlit" : true }, { "image" : "humantechstationlit.png:<color>.<frame>" } ],
+	  "imageLayers" : [ { "image" : "humantechstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "humantechstationlit.png:<color>.<frame>" } ],
       "imagePosition" : [-16, -8],
       "frames" : 8,
       "animationCycle" : 1.0,

@@ -8,7 +8,7 @@
   "shortdescription" : "Tiny Lamppost",
   "race" : "apex",
 
-  "unlit" : true,
+  "fullbright" : true,
   "lightColor" : [72, 72, 72],
 
   "apexDescription" : "A tiny lamppost.",

@@ -1,24 +1,19 @@
 {
   "commandName" : "giveBeamaxe",
+  "onlyOnce" : true,
   "actions" : [
-    { 
+     { 
       "action" : "GivePlayerItems",
       "items" : [ "beamaxe", 1],
       "essentialSlot" : 1
-    }
-	/*
-    { 
+    },	   
+	{ 
       "action" : "PlayCinematic",
       "cinematicConfig" : {
-        "resource" : "/cinematics/respawn/floran/respawn.cinematic"
+        "resource" : "/cinematics/beamaxe.cinematic"
       }
-    },
-    { 
-      "action" : "PlaySound",
-      "sound" : "/sfx/statuseffects/powerup.wav",
-      "loops" : 3
     }
-*/	
+
   ],
 
   "speciesText" : {
@@ -34,7 +29,7 @@
       "successSpeech" : [
         {
           "animation" : "talk",
-          "text" : "I have switched on your matter manipulator and renabled the ships teleporter. It will take you to the planet below. ",
+          "text" : "I have switched on your matter manipulator and renabled the ships teleporter.",
           "speedModifier" : 1.0
         }
       ],
@@ -57,8 +52,8 @@
       ],
       "successSpeech" : [
         {
-          "animation" : "Your matter manipulator has been enabled. The ships teleporter will now grant you access.",
-          "text" : "Success",
+          "animation" : "talk",
+          "text" : "Your matter manipulator has been enabled. The ships teleporter will now grant you access.",
           "speedModifier" : 1.0
         }
       ],
@@ -75,14 +70,14 @@
       "selectSpeech" : [
         {
           "animation" : "talk",
-          "text" : "Selected",
+          "text" : "The matter manipulator is very powerful!! Hehehe, it will let you dessstroy matter!!",
           "speedModifier" : 1.0
         }
       ],
       "successSpeech" : [
         {
           "animation" : "talk",
-          "text" : "Success",
+          "text" : "Yes!! The matter manipulator is working! Now you can use the shipsss teleporter!",
           "speedModifier" : 1.0
         }
       ],
@@ -99,14 +94,14 @@
       "selectSpeech" : [
         {
           "animation" : "talk",
-          "text" : "The matter manipulator is very powerful!! Hehehe, it will let you dessstroy matter!!",
+          "text" : "To wield the matter manipulator is like wielding magic itself.",
           "speedModifier" : 1.0
         }
       ],
       "successSpeech" : [
         {
           "animation" : "talk",
-          "text" : "Go! Go! The matter manipulator is working! Now you can use the shipsss teleporter to hunt around on the teeny little planet.",
+          "text" : "Your matter manipulator is enabled! The ships teleporter is also fuctional your grace.",
           "speedModifier" : 1.0
         }
       ],
@@ -130,7 +125,7 @@
       "successSpeech" : [
         {
           "animation" : "talk",
-          "text" : "It worked! I've also enabled the ships teleporter. You'll be able to go and explore the planet below. Be careful!",
+          "text" : "It worked! I've also enabled the ships teleporter. You'll be able to go and explore the planet below.",
           "speedModifier" : 1.0
         }
       ],
@@ -154,7 +149,7 @@
       "successSpeech" : [
         {
           "animation" : "talk",
-          "text" : "It has been a success. The beauty and grace of the matter manipulator is now yours to command. I have also enabled the ship's teleporter.",
+          "text" : "It has been a success. The matter manipulator is ready. I have also enabled the ship's teleporter.",
           "speedModifier" : 1.0
         }
       ],

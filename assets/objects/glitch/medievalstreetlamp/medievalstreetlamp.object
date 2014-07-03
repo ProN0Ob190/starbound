@@ -31,7 +31,7 @@
   "inventoryIcon" : "medievalstreetlampicon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "medievalstreetlamp1.png:<color>.<frame>", "unlit" : true }, { "image" : "medievalstreetlamp2.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "medievalstreetlamp1.png:<color>.<frame>", "fullbright" : true }, { "image" : "medievalstreetlamp2.png:<color>.<frame>" } ],
       "flipImages" : true,
       "imagePosition" : [-16, 0],
       "spaceScan" : 0.1,
@@ -40,7 +40,7 @@
       "lightPosition" : [-2, 3]
     },
     {
-      "imageLayers" : [ { "image" : "medievalstreetlamp1.png:<color>.<frame>", "unlit" : true }, { "image" : "medievalstreetlamp2.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "medievalstreetlamp1.png:<color>.<frame>", "fullbright" : true }, { "image" : "medievalstreetlamp2.png:<color>.<frame>" } ],
       "imagePosition" : [-16, 0],
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],

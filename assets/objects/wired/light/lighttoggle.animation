@@ -4,12 +4,8 @@
       "light" : {
         "default" : "off",
         "states" : {
-          "off" : {
-            "frames" : 1
-          },
-          "on" : {
-            "frames" : 1
-          }
+          "off" : {},
+          "on" : {}
         }
       }
     },

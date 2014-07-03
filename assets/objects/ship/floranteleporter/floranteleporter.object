@@ -22,7 +22,7 @@
   "inventoryIcon" : "teleportericon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "floranteleporter.png:<color>", "unlit" : true }, { "image" : "floranteleporterlit.png:<color>" } ],
+      "imageLayers" : [ { "image" : "floranteleporter.png:<color>", "fullbright" : true }, { "image" : "floranteleporterlit.png:<color>" } ],
 
       "imagePosition" : [-16, 0],
       "frames" : 1,

@@ -19,7 +19,7 @@
   "inventoryIcon" : "floranlighticon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "floranlightback1.png:<color>.<frame>", "unlit" : true }, { "image" : "floranlightback2.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "floranlightback1.png:<color>.<frame>", "fullbright" : true }, { "image" : "floranlightback2.png:<color>.<frame>" } ],
       "imagePosition" : [-8, 0],
       "frames" : 1,
       "animationCycle" : 0.3,
@@ -27,7 +27,7 @@
       "anchors" : [ "background" ]
     },
     {
-      "imageLayers" : [ { "image" : "floranlightceiling1.png:<color>.<frame>", "unlit" : true }, { "image" : "floranlightceiling2.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "floranlightceiling1.png:<color>.<frame>", "fullbright" : true }, { "image" : "floranlightceiling2.png:<color>.<frame>" } ],
       "imagePosition" : [-8, 0],
       "frames" : 1,
       "animationCycle" : 0.3,
@@ -36,7 +36,7 @@
       "anchors" : [ "top" ]
     },
     {
-      "imageLayers" : [ { "image" : "floranlightground1.png:<color>.<frame>", "unlit" : true }, { "image" : "floranlightground2.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "floranlightground1.png:<color>.<frame>", "fullbright" : true }, { "image" : "floranlightground2.png:<color>.<frame>" } ],
       "imagePosition" : [-8, 8],
       "frames" : 1,
       "animationCycle" : 0.3,
@@ -45,7 +45,7 @@
       "anchors" : [ "bottom" ]
     },
     {
-      "imageLayers" : [ { "image" : "floranlightleft1.png:<color>.<frame>", "unlit" : true }, { "image" : "floranlightleft2.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "floranlightleft1.png:<color>.<frame>", "fullbright" : true }, { "image" : "floranlightleft2.png:<color>.<frame>" } ],
       "imagePosition" : [0, 0],
       "frames" : 1,
       "animationCycle" : 0.3,
@@ -54,7 +54,7 @@
       "anchors" : [ "left" ]
     },
     {
-      "imageLayers" : [ { "image" : "floranlightright1.png:<color>.<frame>", "unlit" : true }, { "image" : "floranlightright2.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "floranlightright1.png:<color>.<frame>", "fullbright" : true }, { "image" : "floranlightright2.png:<color>.<frame>" } ],
       "imagePosition" : [-8, 0],
       "frames" : 1,
       "animationCycle" : 0.3,

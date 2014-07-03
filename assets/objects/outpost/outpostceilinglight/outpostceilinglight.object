@@ -17,7 +17,7 @@
   "inventoryIcon" : "outpostceilinglighticon.png",
   "orientations" : [
     {
-	"imageLayers" : [ { "image" : "outpostceilinglight.png:<color>.<frame>", "unlit" : true }, { "image" : "outpostceilinglightlit.png:<color>.<frame>" } ],
+	"imageLayers" : [ { "image" : "outpostceilinglight.png:<color>.<frame>", "fullbright" : true }, { "image" : "outpostceilinglightlit.png:<color>.<frame>" } ],
       "imagePosition" : [-12, 0],
       "frames" : 1,
       "animationCycle" : 0.3,
@@ -29,7 +29,7 @@
       "pointAngle" : 270
     },
 	{
-	"imageLayers" : [ { "image" : "outpostceilinglight.png:<color>.<frame>", "unlit" : true }, { "image" : "outpostceilinglightlit.png:<color>.<frame>" } ],
+	"imageLayers" : [ { "image" : "outpostceilinglight.png:<color>.<frame>", "fullbright" : true }, { "image" : "outpostceilinglightlit.png:<color>.<frame>" } ],
       "imagePosition" : [-12, 0],
       "frames" : 1,
       "animationCycle" : 0.3,

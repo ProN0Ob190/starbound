@@ -21,7 +21,7 @@
   "inventoryIcon" : "bunkerbigpanelicon.png",
   "orientations" : [
     {
-	  "imageLayers" : [ { "image" : "bunkerbigpanel.png:<color>", "unlit" : true }, { "image" : "bunkerbigpanellit.png:<color>" } ],
+	  "imageLayers" : [ { "image" : "bunkerbigpanel.png:<color>", "fullbright" : true }, { "image" : "bunkerbigpanellit.png:<color>" } ],
       "imagePosition" : [-40, -16],
       "spaceScan" : 0.1,
       "anchors" : [ "background" ]

@@ -23,9 +23,24 @@
       "imagePosition" : [-8, -8],
       "frames" : 1,
       "animationCycle" : 0.3,
+	  "direction" : "right",
 
       "spaceScan" : 0.1,
       "anchors" : [ "top" ]
     }
-  ]
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "apexlamp3.png",
+    "fg" : "apexlamp3lit.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inboundNodes" : [ [0, 0] ]
 }

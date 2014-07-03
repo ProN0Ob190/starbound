@@ -5,8 +5,6 @@
   "category" : "light",
   "price" : 300,
 
-  "hydrophobic" : true,
-
   "description" : "A simple iron lantern.",
   "shortdescription" : "Iron Lantern",
   "race" : "generic",

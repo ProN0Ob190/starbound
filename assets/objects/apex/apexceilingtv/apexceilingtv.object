@@ -21,7 +21,7 @@
   "inventoryIcon" : "apexceilingtvicon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "apexceilingtv.png:<color>.<frame>", "unlit" : true }, { "image" : "apexceilingtvlit.png:<color>.<frame>" } ],
+      "image" : "apexceilingtv.png:<color>.<frame>",
       "flipImages" : true,
       "imagePosition" : [-8, -16],
       "frames" : 14,
@@ -32,7 +32,7 @@
       "lightPosition" : [-3, -3]
     },
     {
-      "imageLayers" : [ { "image" : "apexceilingtv.png:<color>.<frame>", "unlit" : true }, { "image" : "apexceilingtvlit.png:<color>.<frame>" } ],
+      "image" : "apexceilingtv.png:<color>.<frame>",
       "imagePosition" : [-8, -16],
       "frames" : 14,
       "animationCycle" : 2.0,
@@ -43,6 +43,18 @@
     }
   ],
 
-  "soundEffect" : "/sfx/objects/tv_static.wav"
+  "soundEffect" : "/sfx/objects/tv_static.wav",
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "apexceilingtv.png",
+    "fg" : "apexceilingtvlit.png"
+  },
+  "animationPosition" : [-8, -16],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inboundNodes" : [ [0, 0] ]
 
 }

@@ -2,7 +2,7 @@
   "objectName" : "apexshiplightOff",
   "rarity" : "Common",
   "category" : "decorative",
-  "unlit" : true,
+  "fullbright" : true,
   "price" : 500,
   "description" : "A light that is off.",
   "shortdescription" : "Ship Light",

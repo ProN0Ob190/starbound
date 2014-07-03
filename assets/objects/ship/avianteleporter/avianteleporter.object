@@ -22,7 +22,7 @@
   "inventoryIcon" : "teleportericon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "avianteleporter.png:<color>", "unlit" : true }, { "image" : "avianteleporterlit.png:<color>" } ],
+      "imageLayers" : [ { "image" : "avianteleporter.png:<color>", "fullbright" : true }, { "image" : "avianteleporterlit.png:<color>" } ],
 
       "imagePosition" : [-16, 0],
       "frames" : 1,

@@ -18,7 +18,7 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
 	{
-      "imageLayers" : [ { "image" : "bathroomhanddryer.png:<color>", "unlit" : true }, { "image" : "bathroomhanddryerlit.png:<color>" } ],
+      "imageLayers" : [ { "image" : "bathroomhanddryer.png:<color>", "fullbright" : true }, { "image" : "bathroomhanddryerlit.png:<color>" } ],
       "flipImages" : true,
       "imagePosition" : [-8, -8],
       "spaceScan" : 0.1,
@@ -26,7 +26,7 @@
       "direction" : "left"
     },
     {
-      "imageLayers" : [ { "image" : "bathroomhanddryer.png:<color>", "unlit" : true }, { "image" : "bathroomhanddryerlit.png:<color>" } ],
+      "imageLayers" : [ { "image" : "bathroomhanddryer.png:<color>", "fullbright" : true }, { "image" : "bathroomhanddryerlit.png:<color>" } ],
       "imagePosition" : [-8, -8],
       "spaceScan" : 0.1,
       "anchors" : [ "background" ],

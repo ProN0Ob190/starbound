@@ -18,7 +18,7 @@
   "inventoryIcon" : "fuelhatchicon.png",
   "orientations" : [
     {
-	  "imageLayers" : [ { "image" : "apexfuelhatch.png:<color>.<frame>", "unlit" : true }, { "image" : "apexfuelhatchlit.png:<color>.<frame>" } ],
+	  "imageLayers" : [ { "image" : "apexfuelhatch.png:<color>.<frame>", "fullbright" : true }, { "image" : "apexfuelhatchlit.png:<color>.<frame>" } ],
 
       "imagePosition" : [-8, -16],
       "frames" : 4,

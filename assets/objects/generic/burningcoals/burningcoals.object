@@ -57,7 +57,7 @@
   "inventoryIcon" : "burningcoalsicon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "burningcoals.png:<color>.<frame>", "unlit" : true }, { "image" : "burningcoalslit.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "burningcoals.png:<color>.<frame>", "fullbright" : true }, { "image" : "burningcoalslit.png:<color>.<frame>" } ],
       "flipImages" : true,
       "imagePosition" : [-8, 0],
       "frames" : 4,
@@ -67,7 +67,7 @@
       "direction" : "left"
     },
     {
-      "imageLayers" : [ { "image" : "burningcoals.png:<color>.<frame>", "unlit" : true }, { "image" : "burningcoalslit.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "burningcoals.png:<color>.<frame>", "fullbright" : true }, { "image" : "burningcoalslit.png:<color>.<frame>" } ],
       "imagePosition" : [-8, 0],
       "frames" : 4,
       "animationCycle" : 1.5,

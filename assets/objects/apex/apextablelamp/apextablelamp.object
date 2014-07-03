@@ -4,7 +4,7 @@
   "description" : "This strange lamp emits a low green light.",
   "shortdescription" : "Green Lamp Pod",
   "race" : "apex",
-  "unlit" : "true",
+  "fullbright" : "true",
 
   "apexDescription" : "These lamps were handed out by the Miniknog in my youth. They appear in many Apex homes.",
   "avianDescription" : "This device glows an unnatural green.",
@@ -15,7 +15,7 @@
 
   "category" : "light",
   "price" : 200,
-  "lightColor" : [64, 89, 54],
+  "lightColor" : [83, 153, 46],
 
   "inventoryIcon" : "apextablelampicon.png",
   "orientations" : [
@@ -24,9 +24,23 @@
       "imagePosition" : [0, 0],
       "frames" : 1,
       "animationCycle" : 0.3,
+	  
+	  "direction" : "right",
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
-  ]
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "apextablelamp.png",
+    "fg" : "apextablelamplit.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inboundNodes" : [ [0, 0] ]
 }

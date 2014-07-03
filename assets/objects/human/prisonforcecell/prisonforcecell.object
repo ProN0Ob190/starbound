@@ -7,7 +7,7 @@
   "category" : "light",
   "price" : 800,
   "lightColor" : [200, 200, 175],
-  "unlit" : true,
+  "fullbright" : true,
   "apexDescription" : "This cell seems more secure than the rest.",
   "avianDescription" : "Being trapped in such a small space would be hellish, even for one of the grounded.",
   "floranDescription" : "Ssstupid cell not hold Floran. Floran bussst out!",

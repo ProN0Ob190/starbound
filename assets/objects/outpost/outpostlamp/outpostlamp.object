@@ -15,7 +15,7 @@
   "inventoryIcon" : "outpostlampicon.png",
   "orientations" : [
 	{
-	  "imageLayers" : [ { "image" : "outpostlamp.png:<color>.<frame>", "unlit" : true }, { "image" : "outpostlamplit.png:<color>.<frame>" } ],
+	  "imageLayers" : [ { "image" : "outpostlamp.png:<color>.<frame>", "fullbright" : true }, { "image" : "outpostlamplit.png:<color>.<frame>" } ],
       "imagePosition" : [0, 0],
 	  "direction" : "left",
 	  "flipImages" : true,
@@ -23,7 +23,7 @@
       "anchors" : [ "background" ]
     },
 	{
-	  "imageLayers" : [ { "image" : "outpostlamp.png:<color>.<frame>", "unlit" : true }, { "image" : "outpostlamplit.png:<color>.<frame>" } ],
+	  "imageLayers" : [ { "image" : "outpostlamp.png:<color>.<frame>", "fullbright" : true }, { "image" : "outpostlamplit.png:<color>.<frame>" } ],
       "imagePosition" : [0, 0],
 	  "direction" : "right",
       "spaceScan" : 0.1,

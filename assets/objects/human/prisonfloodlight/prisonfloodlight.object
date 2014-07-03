@@ -30,7 +30,7 @@
   "inventoryIcon" : "prisonfloodlighticon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "prisonfloodlightceiling1.png:<color>.<frame>", "unlit" : true }, { "image" : "prisonfloodlightceiling2.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "prisonfloodlightceiling1.png:<color>.<frame>", "fullbright" : true }, { "image" : "prisonfloodlightceiling2.png:<color>.<frame>" } ],
       "frames" : 1,
       "animationCycle" : 0.5,
       "imagePosition" : [-4, -8],
@@ -42,7 +42,7 @@
     },
 
     {
-      "imageLayers" : [ { "image" : "prisonfloodlightceilingleft1.png:<color>.<frame>", "unlit" : true }, { "image" : "prisonfloodlightceilingleft2.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "prisonfloodlightceilingleft1.png:<color>.<frame>", "fullbright" : true }, { "image" : "prisonfloodlightceilingleft2.png:<color>.<frame>" } ],
       "frames" : 1,
       "animationCycle" : 0.5,
       "imagePosition" : [0, -8],
@@ -54,7 +54,7 @@
     },
 
     {
-      "imageLayers" : [ { "image" : "prisonfloodlightceilingright1.png:<color>.<frame>", "unlit" : true }, { "image" : "prisonfloodlightceilingright2.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "prisonfloodlightceilingright1.png:<color>.<frame>", "fullbright" : true }, { "image" : "prisonfloodlightceilingright2.png:<color>.<frame>" } ],
       "frames" : 1,
       "animationCycle" : 0.5,
       "imagePosition" : [-8, -8],
@@ -66,7 +66,7 @@
     },
 
     {
-      "imageLayers" : [ { "image" : "prisonfloodlightground1.png:<color>.<frame>", "unlit" : true }, { "image" : "prisonfloodlightground2.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "prisonfloodlightground1.png:<color>.<frame>", "fullbright" : true }, { "image" : "prisonfloodlightground2.png:<color>.<frame>" } ],
       "frames" : 1,
       "animationCycle" : 0.5,
       "imagePosition" : [-4, 0],
@@ -78,7 +78,7 @@
     },
 
     {
-      "imageLayers" : [ { "image" : "prisonfloodlightgroundleft1.png:<color>.<frame>", "unlit" : true }, { "image" : "prisonfloodlightgroundleft2.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "prisonfloodlightgroundleft1.png:<color>.<frame>", "fullbright" : true }, { "image" : "prisonfloodlightgroundleft2.png:<color>.<frame>" } ],
       "frames" : 1,
       "animationCycle" : 0.5,
       "imagePosition" : [0, 0],
@@ -90,7 +90,7 @@
     },
 
     {
-      "imageLayers" : [ { "image" : "prisonfloodlightgroundright1.png:<color>.<frame>", "unlit" : true }, { "image" : "prisonfloodlightgroundright2.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "prisonfloodlightgroundright1.png:<color>.<frame>", "fullbright" : true }, { "image" : "prisonfloodlightgroundright2.png:<color>.<frame>" } ],
       "frames" : 1,
       "animationCycle" : 0.5,
       "imagePosition" : [-8, 0],
@@ -102,7 +102,7 @@
     },
 
     {
-      "imageLayers" : [ { "image" : "prisonfloodlightleft1.png:<color>.<frame>", "unlit" : true }, { "image" : "prisonfloodlightleft2.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "prisonfloodlightleft1.png:<color>.<frame>", "fullbright" : true }, { "image" : "prisonfloodlightleft2.png:<color>.<frame>" } ],
       "frames" : 1,
       "animationCycle" : 0.5,
       "imagePosition" : [0, -4],
@@ -114,7 +114,7 @@
     },
 
     {
-      "imageLayers" : [ { "image" : "prisonfloodlightright1.png:<color>.<frame>", "unlit" : true }, { "image" : "prisonfloodlightright2.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "prisonfloodlightright1.png:<color>.<frame>", "fullbright" : true }, { "image" : "prisonfloodlightright2.png:<color>.<frame>" } ],
       "frames" : 1,
       "animationCycle" : 0.5,
       "imagePosition" : [-8, -4],

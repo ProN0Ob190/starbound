@@ -9,7 +9,7 @@
   "shortdescription" : "Slime Blob",
   "race" : "apex",
 
-  "unlit" : true,
+  "fullbright" : true,
   "lightColor" : [0, 50, 40],
 
   "apexDescription" : "A putrid mound of slime.",

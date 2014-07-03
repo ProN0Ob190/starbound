@@ -19,7 +19,7 @@
   "inventoryIcon" : "huntinglight3icon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "huntinglight3.png:<color>.<frame>", "unlit" : true }, { "image" : "huntinglight3lit.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "huntinglight3.png:<color>.<frame>", "fullbright" : true }, { "image" : "huntinglight3lit.png:<color>.<frame>" } ],
       "flipImages" : true,
       "imagePosition" : [-2, 0],
       "spaceScan" : 0.1,
@@ -27,7 +27,7 @@
       "direction" : "left"
     },
     {
-      "imageLayers" : [ { "image" : "huntinglight3.png:<color>.<frame>", "unlit" : true }, { "image" : "huntinglight3lit.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "huntinglight3.png:<color>.<frame>", "fullbright" : true }, { "image" : "huntinglight3lit.png:<color>.<frame>" } ],
       "imagePosition" : [-2, 0],
       "spaceScan" : 0.1,
       "anchors" : [ "top" ],

@@ -8,7 +8,7 @@
   "category" : "light",
   "price" : 1000,
   "lightColor" : [128, 47, 0],
-  "unlit" : true,
+  "fullbright" : true,
 
   "apexDescription" : "A hypnotising lamp.",
   "avianDescription" : "This lamp demands to be stared at.",

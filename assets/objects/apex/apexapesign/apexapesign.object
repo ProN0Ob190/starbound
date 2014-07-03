@@ -6,7 +6,6 @@
   "flickerDistance" : 0.2,
   "flickerStrength" : 0.05,
   "flickerTiming" : 1,
-  "unlit" : true,
   "price" : 500,
   "apexDescription" : "Big Ape... even now I feel watched.",
   "avianDescription" : "By the feathers! The Stargazers would call this blasphemy.",
@@ -22,10 +21,11 @@
   "inventoryIcon" : "apexapesignicon.png",
   "orientations" : [
     {
-      "image" : "apexapesign.png:<color>",
+      "image" : "apexapesign.png:<color>.<frame>",
       "imagePosition" : [-16, -16],
       "frames" : 1,
       "animationCycle" : 0.5,
+      "direction" : "right",
 
       "spaceScan" : 0.1,
       "anchors" : [ "background" ]
@@ -33,6 +33,20 @@
     }
   ],
 
-  "soundEffect" : "/sfx/objects/fluorescent_light_quiet.wav"
+  "soundEffect" : "/sfx/objects/fluorescent_light_quiet.wav",
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "apexapesign.png",
+    "fg" : "apexapesignlit.png"
+  },
+  "animationPosition" : [-16, -16],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inboundNodes" : [ [0, 0] ]
 
 }

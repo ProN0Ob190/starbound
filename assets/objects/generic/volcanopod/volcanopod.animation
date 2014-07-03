@@ -21,7 +21,7 @@
       "tis1" : {
         "properties" : {
           "centered" : false,
-          "unlit" : true
+          "fullbright" : true
         },
 
         "partStates" : {

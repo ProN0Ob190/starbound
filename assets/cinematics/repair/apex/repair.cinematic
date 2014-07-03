@@ -20,9 +20,15 @@
           "position" : [480, 270]
         },
         {
-          "timecode" : 10,
+          "timecode" : 3,
           "zoom" : 500,
           "alpha" : 1,
+          "position" : [480, 270]
+        },
+        {
+          "timecode" : 3.3,
+          "zoom" : 500,
+          "alpha" : 0,
           "position" : [480, 270]
         }
       ]
@@ -47,9 +53,15 @@
           "position" : [479, 208]
         },
         {
-          "timecode" : 10,
+          "timecode" : 3,
           "zoom" : 2,
           "alpha" : 1,
+          "position" : [479, 208]
+        },
+        {
+          "timecode" : 3.0,
+          "zoom" : 2,
+          "alpha" : 0,
           "position" : [479, 208]
         }
       ]
@@ -57,7 +69,7 @@
     {
       "drawables" : [
         {
-          "image" : "/cinematics/repair/apex/layer1.png:{frame}"
+          "image" : "/cinematics/repair/bunnyRepair.png:{frame}"
         }
       ],
 	  "animationFrames" : 8,
@@ -77,14 +89,24 @@
           "position" : [480, 240]
         },
         {
-          "timecode" : 10,
+          "timecode" : 3,
           "alpha" : 1,
-          "zoom" : 2,
-          "frame" : 25
+          "zoom" : 25,
+          "frame" : 35
+        },
+        {
+          "timecode" : 3.3,
+          "alpha" : 1,
+          "zoom" : 0,
+          "frame" : 35
         }
       ]
     }
   ],
   "audio" : [
+    {
+      "timecode" : 0.01,
+      "resource" : "/sfx/interface/ship_upgrading.wav"
+    }
   ]
 }

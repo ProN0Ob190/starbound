@@ -10,7 +10,7 @@
     {
       "image" : "apexT5.png",
       "position" : [-1, 3],
-	  "unlit" : true
+	  "fullbright" : true
     },
 	{
       "image" : "apexT5lit.png",

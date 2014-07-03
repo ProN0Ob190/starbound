@@ -19,7 +19,7 @@
   "inventoryIcon" : "floranlamp1icon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "floranlamp1.png:<color>.<frame>", "unlit" : true }, { "image" : "floranlamp1lit.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "floranlamp1.png:<color>.<frame>", "fullbright" : true }, { "image" : "floranlamp1lit.png:<color>.<frame>" } ],
       "flipImages" : true,
       "imagePosition" : [-8, 0],
       "spaceScan" : 0.1,
@@ -28,7 +28,7 @@
       "lightPosition" : [-1, 1]
     },
     {
-      "imageLayers" : [ { "image" : "floranlamp1.png:<color>.<frame>", "unlit" : true }, { "image" : "floranlamp1lit.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "floranlamp1.png:<color>.<frame>", "fullbright" : true }, { "image" : "floranlamp1lit.png:<color>.<frame>" } ],
       "imagePosition" : [-8, 0],
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
