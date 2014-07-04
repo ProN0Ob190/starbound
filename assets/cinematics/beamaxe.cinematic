@@ -145,8 +145,8 @@
       "resource" : "/sfx/interface/quest_event.wav"
     },
     {
-      "timecode" : 5.4,
-      "resource" : "/sfx/objects/fridge_open.wav"
+      "timecode" : 5.2,
+      "resource" : "/sfx/interface/item_equip.wav"
     }
   ]
 }

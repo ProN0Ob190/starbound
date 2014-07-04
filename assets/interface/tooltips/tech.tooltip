@@ -18,8 +18,9 @@
   },
   "descriptionLabel" : {
     "type" : "label",
-    "position" : [11, 61],
+    "position" : [11, 69],
     "hAnchor" : "left",
+    "vAnchor" : "top",
     "wrapWidth" : 126
   },
   "objectImage" : {

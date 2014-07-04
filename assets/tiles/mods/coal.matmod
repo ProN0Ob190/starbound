@@ -6,5 +6,6 @@
   "itemDrop" : "coalore",
   "Description" : "Coal ore.",
   "health" : 5,
+  "harvestLevel" : 1,
   "breaksWithTile" : true
 }

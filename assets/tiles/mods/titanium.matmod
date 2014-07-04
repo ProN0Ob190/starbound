@@ -6,5 +6,6 @@
   "itemDrop" : "titaniumore",
   "Description" : "Titanium.",
   "health" : 10,
+  "harvestLevel" : 4,
   "breaksWithTile" : true
 }

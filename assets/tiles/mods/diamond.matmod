@@ -6,5 +6,6 @@
   "itemDrop" : "diamondore",
   "Description" : "Diamonde.",
   "health" : 22,
+  "harvestLevel" : 6,
   "breaksWithTile" : true
 }

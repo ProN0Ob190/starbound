@@ -24,28 +24,24 @@
       "image" : "apexceilingtv.png:<color>.<frame>",
       "flipImages" : true,
       "imagePosition" : [-8, -16],
-      "frames" : 14,
-      "animationCycle" : 2.0,
       "spaceScan" : 0.1,
       "anchors" : [ "top" ],
       "direction" : "left",
-      "lightPosition" : [-3, -3]
+      "lightPosition" : [-2, -3]
     },
     {
       "image" : "apexceilingtv.png:<color>.<frame>",
       "imagePosition" : [-8, -16],
-      "frames" : 14,
-      "animationCycle" : 2.0,
       "spaceScan" : 0.1,
       "anchors" : [ "top" ],
       "direction" : "right",
-      "lightPosition" : [3, -3]
+      "lightPosition" : [4, -3]
     }
   ],
 
   "soundEffect" : "/sfx/objects/tv_static.wav",
 
-  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animation" : "apexceilingtv.animation",
   "animationParts" : {
     "bg" : "apexceilingtv.png",
     "fg" : "apexceilingtvlit.png"
@@ -56,5 +52,4 @@
   "scriptDelta" : 60,
 
   "inboundNodes" : [ [0, 0] ]
-
 }

@@ -5,6 +5,7 @@
   "variants" : 8,
   "itemDrop" : "copperore",
   "Description" : "Copper ore.",
+  "breaksWithTile" : true,
   "health" : 6,
-  "breaksWithTile" : true
+  "harvestLevel" : 2
 }

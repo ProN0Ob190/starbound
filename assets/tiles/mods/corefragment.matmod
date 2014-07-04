@@ -3,7 +3,7 @@
   "modName" : "corefragment",
   "frames" : "corefragment.png",
   "variants" : 8,
-  "itemDrop" : "corefragment",
+  "itemDrop" : "corefragmentore",
   "Description" : "Core Fragment.",
   "health" : 10,
   "breaksWithTile" : true

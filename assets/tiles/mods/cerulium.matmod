@@ -6,5 +6,6 @@
   "itemDrop" : "Ceruliumore",
   "Description" : "Cerulium.",
   "health" : 18,
+  "harvestLevel" : 6,
   "breaksWithTile" : true
 }

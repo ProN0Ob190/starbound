@@ -14,36 +14,53 @@
 
   "category" : "light",
   "price" : 500,
-  "lightColor" : [217, 217, 190],
+  "lightColor" : [153, 153, 130],
 
   "inventoryIcon" : "classiclighticon.png",
   "orientations" : [
     {
-      "image" : "classiclightbg.png:<color>.<frame>",
-      "imagePosition" : [0, -8],
-      "frames" : 1,
-      "animationCycle" : 0.3,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "background" ]
-    },
-    {
       "image" : "classiclightleft.png:<color>.<frame>",
-      "imagePosition" : [0, -8],
-      "frames" : 1,
-      "animationCycle" : 0.3,
-
+      "imagePosition" : [0, 0],
+	  "animationParts" : {
+	  "bg" : "classiclightleft.png",
+	  "fg" : "classiclightleftlit.png"
+	  },
+	  "animationPosition" : [0, 0],
+	  "direction" : "right",
       "spaceScan" : 0.1,
       "anchors" : [ "left" ]
     },
     {
       "image" : "classiclightright.png:<color>.<frame>",
-      "imagePosition" : [0, -8],
-      "frames" : 1,
-      "animationCycle" : 0.3,
-
+      "imagePosition" : [0, 0],
+	  "animationParts" : {
+	  "bg" : "classiclightright.png",
+	  "fg" : "classiclightrightlit.png"
+	  },
+	  "animationPosition" : [0, 0],
+	  "direction" : "right",
       "spaceScan" : 0.1,
       "anchors" : [ "right" ]
+    },
+	{
+      "image" : "classiclightbg.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+	  "animationParts" : {
+	  "bg" : "classiclightbg.png",
+	  "fg" : "classiclightbglit.png"
+	  },
+	  "animationPosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
     }
-  ]
+  ],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  
+  "interactive" : false,
+
+  "inboundNodes" : [ [0, 0] ]
 }

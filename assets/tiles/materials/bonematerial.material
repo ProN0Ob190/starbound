@@ -10,5 +10,8 @@
   "glitchDescription" : "Analysis. This bone came from a huge creature.",
   "floranDescription" : "Bonesss!",
   "footstepSound" : "/sfx/blocks/footstep_bone.wav",
-  "health" : 15.0
+  "falling" : true,
+  "cascading" : true,
+  "health" : 2,
+  "breathable" : "notBreathable"
 }

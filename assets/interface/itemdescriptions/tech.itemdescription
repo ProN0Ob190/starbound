@@ -1,9 +1,10 @@
 {
   "descriptionLabel" : {
     "type" : "label",
-    "position" : [48, 100],
-    "wrapWidth" : 150,
-    "hAnchor" : "left"
+    "position" : [48, 108],
+    "wrapWidth" : 146,
+    "hAnchor" : "left",
+    "vAnchor" : "top"
   },
   "title" : {
     "type" : "label",

@@ -2,7 +2,6 @@
   "starterTreasure" : [
     [0, {
         "fill" : [
-          "beamaxe",
           "flashlight",
           [ "wheatseed", 6],
           [ "coalore", 3],
@@ -17,7 +16,6 @@
   "avianStarterTreasure" : [
     [0, {
         "fill" : [
-          "beamaxe",
           "flashlight",
           [ "torch", 10],
           [ "wheatseed", 6],
@@ -31,7 +29,6 @@
   "apexStarterTreasure" : [
     [0, {
         "fill" : [
-          "beamaxe",
           "flashlight",
           [ "torch", 10],
           [ "wheatseed", 6],
@@ -45,7 +42,6 @@
   "humanStarterTreasure" : [
     [0, {
         "fill" : [
-          "beamaxe",
           "flashlight",
           [ "torch", 10],
           [ "wheatseed", 6],
@@ -59,7 +55,6 @@
   "glitchStarterTreasure" : [
     [0, {
         "fill" : [
-          "beamaxe",
           "flashlight",
           [ "torch", 10],
           [ "wheatseed", 6],
@@ -73,7 +68,6 @@
   "hylotlStarterTreasure" : [
     [0, {
         "fill" : [
-          "beamaxe",
           "flashlight",
           [ "torch", 10],
           [ "wheatseed", 6],
@@ -87,7 +81,6 @@
   "floranStarterTreasure" : [
     [0, {
         "fill" : [
-          "beamaxe",
           "flashlight",
           [ "torch", 10],
           [ "wheatseed", 6],

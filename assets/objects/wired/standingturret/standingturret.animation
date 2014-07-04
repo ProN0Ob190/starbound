@@ -19,6 +19,24 @@
           }
         }
       },
+      "orientation" : {
+        "priority" : 0,
+        "default" : "horizontal",
+
+        "states" : {
+          "horizontal" : {
+            "frames" : 1
+          },
+          "vertical" : {
+            "frames" : 1
+          },
+          "attack" : {
+            "frames" : 4,
+            "cycle" : 0.25,
+            "mode" : "loop"
+          }
+        }
+      },
       "energy" : {
         "default" : "full",
 
@@ -29,15 +47,23 @@
           "low" : { "frames" : 1 },
           "none" : { "frames" : 1 }
         }
+      },
+      "opened" : {
+        "default" : "true",
+
+        "states" : {
+          "true" : { "frames" : 1 },
+          "false" : { "frames" : 1 }
+        }
       }
     },
 
     "parts" : {
       "gun" : {
         "properties" : {
-          "offset" : [0, 0],
+          "offset" : [0.25, -0.75],
           "rotationGroup" : "gun",
-          "centered" : false,
+          "centered" : true,
           "zLevel" : 3
         },
 
@@ -65,64 +91,92 @@
       "stand" : {
         "properties" : {
           "offset" : [0, 0],
-          "centered" : false,
+          "image" : "<partImage>",
+          "centered" : true,
           "zLevel" : 1
-        },
-
-        "partStates" : {
-          "movement" : {
-            "idle" : {
-              "properties" : {
-                "image" : "<partImage>:stand"
-              }
-            },
-            "dead" : {
-              "properties" : {
-                "image" : "<partImage>:stand"
-              }
-            },
-            "attack" : {
-              "properties" : {
-                "image" : "<partImage>:stand"
-              }
-            }
-          }
         }
       },
 
-      "energy" : {
+      "energybottom" : {
         "properties" : {
-          "offset" : [0, 0.5],
+          "offset" : [0.375, -1.5],
           "centered" : false,
-          "zLevel" : 2
+          "zLevel" : 2,
+          "scalingGroup" : "energy" 
         },
 
         "partStates" : {
           "energy" : {
             "full" : {
-              "properties" : {
-                "image" : "<partImage>:full"
-              }
+              "properties" : { "image" : "<partImage>:full" }
             },
             "high" : {
-              "properties" : {
-                "image" : "<partImage>:high"
-              }
+              "properties" : { "image" : "<partImage>:high" }
             },
             "medium" : {
-              "properties" : {
-                "image" : "<partImage>:medium"
-              }
+              "properties" : { "image" : "<partImage>:medium" }
             },
             "low" : {
-              "properties" : {
-                "image" : "<partImage>:low"
-              }
+              "properties" : { "image" : "<partImage>:low" }
             },
             "none" : {
-              "properties" : {
-                "image" : "<partImage>:none"
-              }
+              "properties" : { "image" : "<partImage>:none" }
+            }
+          }
+        }
+      },
+      "energytop" : {
+        "properties" : {
+          "offset" : [0.375, 1.375],
+          "centered" : false,
+          "zLevel" : 2,
+          "scalingGroup" : "energy" 
+        },
+
+        "partStates" : {
+          "energy" : {
+            "full" : {
+              "properties" : { "image" : "<partImage>:full" }
+            },
+            "high" : {
+              "properties" : { "image" : "<partImage>:high" }
+            },
+            "medium" : {
+              "properties" : { "image" : "<partImage>:medium" }
+            },
+            "low" : {
+              "properties" : { "image" : "<partImage>:low" }
+            },
+            "none" : {
+              "properties" : { "image" : "<partImage>:none" }
+            }
+          }
+        }
+      },
+      "energyside" : {
+        "properties" : {
+          "offset" : [-1.5, -0.625],
+          "centered" : false,
+          "zLevel" : 2,
+          "scalingGroup" : "energyv" 
+        },
+
+        "partStates" : {
+          "energy" : {
+            "full" : {
+              "properties" : { "image" : "<partImage>:full" }
+            },
+            "high" : {
+              "properties" : { "image" : "<partImage>:high" }
+            },
+            "medium" : {
+              "properties" : { "image" : "<partImage>:medium" }
+            },
+            "low" : {
+              "properties" : { "image" : "<partImage>:low" }
+            },
+            "none" : {
+              "properties" : { "image" : "<partImage>:none" }
             }
           }
         }
@@ -132,8 +186,16 @@
 
   "rotationGroups" : {
     "gun" : {
-      "rotationCenter" : [1.5, 1.875],
+      "rotationCenter" : [0, 0],
       "angularVelocity" : 1
+    }
+  },
+  "scalingGroups" : {
+    "energy" : {
+      "pivot" : [0, 0]
+    },
+    "energyv" : {
+      "pivot" : [0, 0]
     }
   }
 }

@@ -4,10 +4,12 @@
       "light" : {
         "default" : "off",
         "states" : {
-          "off" : {
-			},
+          "off" : {},
           "on" : {
-			}
+            "frames" : 14,
+            "cycle" : 2.0,
+            "mode" : "loop"
+          }
         }
       }
     },
@@ -22,13 +24,13 @@
           "light" : {
             "off" : {
               "properties" : {
-                "image" : "<partImage>:<frame>.off"
+                "image" : "<partImage>:<color>.off"
               }
             },
 
             "on" : {
               "properties" : {
-                "image" : "<partImage>:cyclingtv.<frame>.on",
+                "image" : "<partImage>:<color>.<frame>",
                 "fullbright" : true
               }
             }
@@ -45,13 +47,13 @@
           "light" : {
             "off" : {
               "properties" : {
-                "image" : "<partImage>:<frame>.off"
+                "image" : "<partImage>:<color>.off"
               }
             },
 
             "on" : {
               "properties" : {
-                "image" : "<partImage>:cyclingtv.<frame>.on"
+                "image" : "<partImage>:<color>.<frame>"
               }
             }
           }

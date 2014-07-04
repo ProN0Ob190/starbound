@@ -6,5 +6,6 @@
   "itemDrop" : "platinumore",
   "Description" : "Platinum.",
   "health" : 18,
+  "harvestLevel" : 5,
   "breaksWithTile" : true
 }

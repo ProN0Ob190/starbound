@@ -6,5 +6,6 @@
   "itemDrop" : "silverore",
   "Description" : "Silver.",
   "health" : 10,
+  "harvestLevel" : 3,
   "breaksWithTile" : true
 }

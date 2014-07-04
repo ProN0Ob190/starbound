@@ -7,7 +7,7 @@
 
   "category" : "light",
   "price" : 800,
-  "lightColor" : [217, 217, 190],
+  "lightColor" : [191, 191, 163],
 
   "apexDescription" : "A beautiful classic chandelier.",
   "avianDescription" : "A very charming set of lights.",
@@ -23,9 +23,25 @@
       "imagePosition" : [-20, -16],
       "frames" : 1,
       "animationCycle" : 0.3,
+	  
+	  "direction" : "right",
 
       "spaceScan" : 0.1,
       "anchors" : [ "top" ]
     }
-  ]
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "classicchandelier.png",
+    "fg" : "classicchandelierlit.png"
+  },
+  "animationPosition" : [-20, -16],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inboundNodes" : [ [0, 0] ]
 }

@@ -40,9 +40,10 @@
   },
   "descriptionLabel" : {
     "type" : "label",
-    "position" : [10, 103],
+    "position" : [10, 111],
     "wrapWidth" : 122,
-    "hAnchor" : "left"
+    "hAnchor" : "left",
+    "vAnchor" : "top"
   },
   "statusList" : {
     "scissoring" : false,

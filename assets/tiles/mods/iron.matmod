@@ -6,5 +6,6 @@
   "itemDrop" : "ironore",
   "Description" : "Iron.",
   "health" : 6,
+  "harvestLevel" : 3,
   "breaksWithTile" : true
 }

@@ -1,8 +1,11 @@
 {
   "commandName" : "upgradeShip2",
+  "icon" : "thrusters.png",
   "actions" : [
     { 
       "action" : "PlayCinematic",
+	  "itemsRequired" : [ ["corefragmentore", 20] ],
+	  "moneyRequired" : 1000,
       "cinematicConfig" : {
         "resource" : "/cinematics/repair/apex/repair.cinematic"
       }
@@ -14,11 +17,15 @@
       }
     },
     { 
-      "action" : "QuestTrigger",
-      "trigger" : "ai-test-trigger"
+      "action" : "DisableCommand",
+      "command" : "upgradeShip2"
+    },
+    { 
+      "action" : "questTrigger",
+      "trigger" : "ai.repairthrusters"
     }
   ],
-
+  
   "speciesText" : {
     "apex" : {
       "buttonText" : "Repair Ship's Thrusters",
@@ -32,7 +39,7 @@
       "successSpeech" : [
         {
           "animation" : "yell",
-          "text" : "The ship's thrusters have been repaired!",
+          "text" : "The ship's thrusters have been repaired! Travel within this system is now available. Next we need to fix the ship's FTL drive.",
           "speedModifier" : 1.0
         }
       ],
@@ -56,13 +63,13 @@
       "successSpeech" : [
         {
           "animation" : "talk",
-          "text" : "The ship's thrusters have been repaired!",
+          "text" : "The ship's thrusters have been repaired! Travel within this system is now available. Next we need to fix the ship's FTL drive.",
           "speedModifier" : 1.0
         }
       ],
       "failSpeech" : [
         {
-          "animation" : "talk",
+          "animation" : "refuse",
           "text" : "Failure! You've not yet gathered the required materials.",
           "speedModifier" : 1.0
         }
@@ -80,13 +87,13 @@
       "successSpeech" : [
         {
           "animation" : "talk",
-          "text" : "The ship's thrusters have been repaired!",
+          "text" : "The ship's thrusters have been repaired! Travel within this system is now available. Next we need to fix the ship's FTL drive.",
           "speedModifier" : 1.0
         }
       ],
       "failSpeech" : [
         {
-          "animation" : "talk",
+          "animation" : "refuse",
           "text" : "Failure! You've not yet gathered the required materials.",
           "speedModifier" : 1.0
         }
@@ -104,13 +111,13 @@
       "successSpeech" : [
         {
           "animation" : "talk",
-          "text" : "The ship's thrusters have been repaired!",
+          "text" : "The ship's thrusters have been repaired! Travel within this system is now available. Next we need to fix the ship's FTL drive.",
           "speedModifier" : 1.0
         }
       ],
       "failSpeech" : [
         {
-          "animation" : "talk",
+          "animation" : "refuse",
           "text" : "Failure! You've not yet gathered the required materials.",
           "speedModifier" : 1.0
         }
@@ -128,13 +135,13 @@
       "successSpeech" : [
         {
           "animation" : "talk",
-          "text" : "The ship's thrusters have been repaired!",
+          "text" : "The ship's thrusters have been repaired! Travel within this system is now available. Next we need to fix the ship's FTL drive.",
           "speedModifier" : 1.0
         }
       ],
       "failSpeech" : [
         {
-          "animation" : "talk",
+          "animation" : "refuse",
           "text" : "Failure! You've not yet gathered the required materials.",
           "speedModifier" : 1.0
         }
@@ -152,13 +159,13 @@
       "successSpeech" : [
         {
           "animation" : "talk",
-          "text" : "The ship's thrusters have been repaired!",
+          "text" : "The ship's thrusters have been repaired! Travel within this system is now available. Next we need to fix the ship's FTL drive.",
           "speedModifier" : 1.0
         }
       ],
       "failSpeech" : [
         {
-          "animation" : "talk",
+          "animation" : "refuse",
           "text" : "Failure! You've not yet gathered the required materials.",
           "speedModifier" : 1.0
         }

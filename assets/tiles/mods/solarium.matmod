@@ -6,5 +6,6 @@
   "itemDrop" : "solariumore",
   "Description" : "Solarium.",
   "health" : 20,
+  "harvestLevel" : 6,
   "breaksWithTile" : true
 }

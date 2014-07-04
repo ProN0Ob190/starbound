@@ -1,5 +1,6 @@
 {
   "commandName" : "upgradeShip1",
+  "icon" : "ai.png",
   "actions" : [
     { 
       "action" : "PlaySound",
@@ -13,8 +14,8 @@
       }
     },
     { 
-      "action" : "StartQuest",
-      "questTemplateId" : "testquest.ai"
+      "action" : "DisableCommand",
+      "command" : "upgradeShip1"
     }
   ],
 

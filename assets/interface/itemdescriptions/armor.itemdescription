@@ -20,9 +20,10 @@
   },
   "descriptionLabel" : {
     "type" : "label",
-    "position" : [16, 82],
+    "position" : [16, 90],
     "wrapWidth" : 122,
-    "hAnchor" : "left"
+    "hAnchor" : "left",
+    "vAnchor" : "top"
   },
   "title" : {
     "type" : "label",
