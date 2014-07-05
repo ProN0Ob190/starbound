@@ -1,8 +1,7 @@
 {
   "input" : [
     { "item" : "shroom", "count" : 40 },
-    { "item" : "darkwoodmaterial", "count" : 50 },
-    { "item" : "money", "count" : 80 }
+    { "item" : "darkwoodmaterial", "count" : 50 }
 
   ],
   "output" : { "item" : "shroomtable", "count" : 1 },

@@ -1,7 +1,6 @@
 {
   "input" : [
-    { "item" : "steelbar", "count" : 10 },
-    { "item" : "money", "count" : 350 }
+    { "item" : "steelbar", "count" : 10 }
   ],
   "output" : {
     "item" : "brainextractor",

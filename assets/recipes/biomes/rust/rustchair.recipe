@@ -2,7 +2,6 @@
   "input" : [
     { "item" : "metallic", "count" : 25 },
     { "item" : "bolt", "count" : 5 },
-    { "item" : "money", "count" : 80 },
     { "item" : "copperbar", "count" : 2 }
   ],
   "output" : { "item" : "rustchair", "count" : 1 },

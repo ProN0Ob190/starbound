@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "objectType" : "container",
 
-  "slotCount" : 4,
+  "slotCount" : 1,
   "uiConfig" : "/interface/turret/standingturret.config",
   "frameCooldown" : 67,
   "autoCloseCooldown" : 3600,

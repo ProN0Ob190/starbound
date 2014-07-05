@@ -1,9 +1,8 @@
 {
   "input" : [
     { "item" : "copperbar", "count" : 8 },
-    { "item" : "stonepickaxe", "count" : 1 },
-    { "item" : "money", "count" : 100 }
+    { "item" : "stonepickaxe", "count" : 1 }
   ],
   "output" : { "item" : "copperpickaxe", "count" : 1 },
-  "groups" : [ "anvil", "tools", "all" ]
+  "groups" : [ "craftingtable", "tools", "all" ]
 }

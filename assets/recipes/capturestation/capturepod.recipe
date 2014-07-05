@@ -1,7 +1,6 @@
 {
   "input" : [
-    { "item" : "steelbar", "count" : 8 },
-    { "item" : "money", "count" : 400 }
+    { "item" : "steelbar", "count" : 8 }
   ],
   "output" : { "item" : "capturepod", "count" : 1 },
   "groups" : [ "capturestation", "other", "all" ]

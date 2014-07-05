@@ -1,8 +1,7 @@
 {
   "input" : [
     { "item" : "steelbar", "count" : 20 },
-    { "item" : "artificialbrain", "count" : 1 },
-    { "item" : "money", "count" : 400 }
+    { "item" : "artificialbrain", "count" : 1 }
   ],
   "output" : { "item" : "robothead", "count" : 1 },
   "groups" : [ "metalworkstation", "other", "all" ]

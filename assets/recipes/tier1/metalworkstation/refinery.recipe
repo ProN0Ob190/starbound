@@ -1,8 +1,7 @@
 {
   "input" : [
     { "item" : "steelbar", "count" : 20 },
-    { "item" : "coalore", "count" : 20 },
-    { "item" : "money", "count" : 450 }
+    { "item" : "coalore", "count" : 20 }
   ],
   "output" : {
     "item" : "refinery",

@@ -1,7 +1,6 @@
 {
   "input" : [
     { "item" : "ironanvil", "count" : 1 },
-    { "item" : "money", "count" : 300 },
     { "item" : "moltencore", "count" : 1 }
   ],
   "output" : {

@@ -1,7 +1,6 @@
 {
   "input" : [
-    { "item" : "ironbar", "count" : 5 },
-    { "item" : "money", "count" : 450 }
+    { "item" : "ironbar", "count" : 5 }
   ],
   "output" : {
     "item" : "tier2engine",

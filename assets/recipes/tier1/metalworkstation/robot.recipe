@@ -1,7 +1,6 @@
 {
   "input" : [
     { "item" : "steelbar", "count" : 5 },
-    { "item" : "money", "count" : 50 },
     { "item" : "robothead", "count" : 1 },
     { "item" : "robotchest", "count" : 1 },
     { "item" : "robotlegs", "count" : 1 },

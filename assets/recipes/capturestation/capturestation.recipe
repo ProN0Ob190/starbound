@@ -1,7 +1,6 @@
 {
   "input" : [
-    { "item" : "durasteelbar", "count" : 20 },
-    { "item" : "money", "count" : 2500 }
+    { "item" : "durasteelbar", "count" : 20 }
   ],
   "output" : {
     "item" : "capturestation",

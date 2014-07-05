@@ -1,7 +1,6 @@
 {
   "input" : [
-    { "item" : "platinumbar", "count" : 35 },
-    { "item" : "money", "count" : 1000 }
+    { "item" : "platinumbar", "count" : 35 }
   ],
   "output" : { "item" : "platinumarmorchest", "count" : 1 },
   "groups" : [ "anvil", "armors", "all" ]

@@ -3,8 +3,7 @@
     { "item" : "darkwoodmaterial", "count" : 100 },
     { "item" : "ironbar", "count" : 10 },
     { "item" : "copperbar", "count" : 10 },
-    { "item" : "silverbar", "count" : 2 },
-    { "item" : "money", "count" : 150 }
+    { "item" : "silverbar", "count" : 2 }
   ],
   "output" : {
     "item" : "ironbeacon",

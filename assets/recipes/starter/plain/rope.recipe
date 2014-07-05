@@ -1,7 +1,6 @@
 {
   "input" : [
-    { "item" : "plantfibre", "count" : 4 },
-    { "item" : "ironbar", "count" : 1 }
+    { "item" : "plantfibre", "count" : 4 }
   ],
   "output" : {
     "item" : "climbingrope",

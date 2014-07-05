@@ -1,7 +1,6 @@
 {
   "input" : [
     { "item" : "oculemon", "count" : 40 },
-    { "item" : "money", "count" : 250 },
     { "item" : "monsterplating", "count" : 1 }
   ],
   "output" : { "item" : "eyetable", "count" : 1 },

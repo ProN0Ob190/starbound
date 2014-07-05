@@ -2,8 +2,7 @@
   "input" : [
     { "item" : "woodencraftingtable1", "count" : 1 },
     { "item" : "processor", "count" : 1 },
-    { "item" : "steelbar", "count" : 20 },
-    { "item" : "money", "count" : 600 }
+    { "item" : "steelbar", "count" : 20 }
   ],
   "output" : {
     "item" : "roboticcraftingtable",

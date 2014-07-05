@@ -1,8 +1,7 @@
 {
   "input" : [
     { "item" : "icecrystal", "count" : 40 },
-    { "item" : "ironbar", "count" : 5 },
-    { "item" : "money", "count" : 150 }
+    { "item" : "ironbar", "count" : 5 }
 
   ],
   "output" : { "item" : "geometrictable", "count" : 1 },

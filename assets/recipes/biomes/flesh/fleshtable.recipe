@@ -1,7 +1,6 @@
 {
   "input" : [
     { "item" : "fleshstrand", "count" : 35 },
-    { "item" : "money", "count" : 155 },
     { "item" : "cellmateria", "count" : 1 }
   ],
   "output" : { "item" : "fleshtable", "count" : 1 },
