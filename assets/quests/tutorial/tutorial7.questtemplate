@@ -1,16 +1,13 @@
 {
   "id" : "tutorial7.gearup",
-  "title" : "^#9be3d6;Stake Your Claim",
-  "text" : "The anvil can be used for more than making armor and tools! You can also use it to ^green;craft decorative plaques that will mark a building as your property. ^white;Why not try making one?",
-  "completionText" : "Nice work! Plaques like these will come in handy if you decide to settle down somewhere.",
+  "title" : "^#9be3d6;Forging Ahead",
+  "text" : "^green;To make use of stronger and more valuable ores I need an ^orange;iron anvil. ^white;A copper pickaxe will be strong enough to mine the iron required to produce one. ",
+  "completionText" : "Perfect! Now I can craft all sorts of weapons and armor. I should craft some equipment and go in search of core fragments deep underground. I'll need them to fix my ship's thrusters. ",
   "conditions" : [
-    { "kind" : "gather", "item" : [ "markerwallplaque1", 1] }
+    { "kind" : "gather", "item" : [ "ironanvil", 1], "consume" : false }
   ],
-  "moneyRange" : [300, 300],
-  "rewards" : [
-    [ [ "ironbar", 1] ]
-  ],
+  "moneyRange" : [10, 10],
   "planetMode" : "none",
   "questDungeons" : [ ],
-  "followUp" : "tutorial8.gearup"
+  "followUp" : ""
 }

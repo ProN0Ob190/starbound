@@ -3,7 +3,7 @@
   "friendlyName" : "Volcanic",
   "caveLiquidType" : "lava",
   "requiredStatuses" : [],
-  "spawnProfile" : "surfacemix",
+  "spawnProfiles" : [ "surfacemix1", "surfacemix2", "surfacemix3" ],
 
   "hueShiftOptions" : [-54, -120, 0, 20],
   "skyOptions" : [

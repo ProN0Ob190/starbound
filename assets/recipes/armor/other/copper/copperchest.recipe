@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "copperbar", "count" : 35 }
+    { "item" : "copperbar", "count" : 18 }
   ],
   "output" : { "item" : "copperarmorchest", "count" : 1 },
   "groups" : [ "anvil", "armors", "all" ]

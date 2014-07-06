@@ -1,7 +1,7 @@
 {
   "name" : "spring",
   "friendlyName" : "Spring",
-  "spawnProfile" : "surfacemix",
+  "spawnProfiles" : [ "surfacemix1", "surfacemix2", "surfacemix3" ],
 
   "surfaceParameters" : {
     "mainBlock" : "dirt",

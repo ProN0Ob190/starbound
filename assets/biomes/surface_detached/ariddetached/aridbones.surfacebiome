@@ -2,7 +2,7 @@
   "name" : "aridbones",
   "friendlyName" : "Aridbones",
   "requiredStatuses" : [],
-  "spawnProfile" : "surfacesparse",
+  "spawnProfiles" : [ "surfacemix1", "surfacemix2", "surfacemix3" ],
 
   "hueShiftOptions" : [0],
 

@@ -3,7 +3,7 @@
   "friendlyName" : "Arid",
   "caveLiquidType" : [ "water", "acid", "tarliquid" ],
   "requiredStatuses" : [],
-  "spawnProfile" : "surfacemix",
+  "spawnProfiles" : [ "surfacemix1", "surfacemix2", "surfacemix3" ],
 
   "hueShiftOptions" : [-180, -135, -90, -45, 0, 45, 90, 135, 180],
   "skyOptions" : [

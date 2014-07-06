@@ -2,7 +2,7 @@
   "name" : "heck",
   "friendlyName" : "Heck",
   "requiredStatuses" : [ "beamaxe" ],
-  "spawnProfile" : "undergroundmix",
+  "spawnProfiles" : [ "undergroundmix1", "undergroundmix2", "undergroundmix3" ],
 
   "mainBlock" : "hellstone",
   "subBlocks" : [ "brains", "rock04" ],

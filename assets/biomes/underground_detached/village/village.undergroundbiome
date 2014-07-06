@@ -2,7 +2,7 @@
   "name" : "village",
   "friendlyName" : "Village",
   "requiredStatuses" : [ "beamaxe" ],
-  "spawnProfile" : "undergroundmix",
+  "spawnProfiles" : [ "undergroundmix1", "undergroundmix2", "undergroundmix3" ],
 
   "mainBlock" : "fadedblocks",
   "subBlocks" : [ "dirt", "rock19", "rock02" ],

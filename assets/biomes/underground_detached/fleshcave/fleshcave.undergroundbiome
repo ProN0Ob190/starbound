@@ -2,7 +2,7 @@
   "name" : "fleshcave",
   "friendlyName" : "Flesh Cave",
   "requiredStatuses" : [ "beamaxe" ],
-  "spawnProfile" : "undergroundmix",
+  "spawnProfiles" : [ "undergroundmix1", "undergroundmix2", "undergroundmix3" ],
 
   "mainBlock" : "fleshblock",
   "subBlocks" : [ "corruptdirt", "bonematerial" ],

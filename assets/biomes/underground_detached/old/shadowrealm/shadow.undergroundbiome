@@ -2,7 +2,7 @@
   "name" : "shadow",
   "friendlyName" : "Shadow",
   "requiredStatuses" : [ "beamaxe" ],
-  "spawnProfile" : "undergroundmix",
+  "spawnProfiles" : [ "undergroundmix1", "undergroundmix2", "undergroundmix3" ],
 
   "mainBlock" : "obsidian",
   "subBlocks" : [ "tar", "direstone" ],

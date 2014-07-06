@@ -1,7 +1,7 @@
 {
   "name" : "rust",
   "friendlyName" : "Rust",
-  "spawnProfile" : "surfacemix",
+  "spawnProfiles" : [ "surfacemix1", "surfacemix2", "surfacemix3" ],
 
   "surfaceParameters" : {
     "mainBlock" : "rock19",

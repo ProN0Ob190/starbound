@@ -2,7 +2,7 @@
   "name" : "undergroundtest2",
   "friendlyName" : "Undergroundtest2",
   "requiredStatuses" : [ "beamaxe" ],
-  "spawnProfile" : "undergroundmix",
+  "spawnProfiles" : [ "undergroundmix1", "undergroundmix2", "undergroundmix3" ],
 
   "mainBlock" : "hellstone",
   "subBlocks" : [ "rock04" ],

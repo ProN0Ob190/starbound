@@ -3,7 +3,7 @@
   "friendlyName" : "Magma",
   "caveLiquidType" : "lava",
   "requiredStatuses" : [],
-  "spawnProfile" : "surfacemix",
+  "spawnProfiles" : [ "surfacemix1", "surfacemix2", "surfacemix3" ],
 
   "hueShiftOptions" : [-18, 0, 15],
   "skyOptions" : [

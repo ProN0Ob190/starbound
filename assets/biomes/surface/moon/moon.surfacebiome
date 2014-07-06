@@ -3,7 +3,7 @@
   "friendlyName" : "Moon",
   "barren" : true,
   "requiredStatuses" : [ "breathProtection" ],
-  "spawnProfile" : "surfaceairless",
+  "spawnProfiles" : [ "surfaceairless1", "surfaceairless2", "surfaceairless3" ],
 
   "hueShiftOptions" : [-180, -135, -90, -45, 0, 45, 90, 135, 180],
   "skyOptions" : [

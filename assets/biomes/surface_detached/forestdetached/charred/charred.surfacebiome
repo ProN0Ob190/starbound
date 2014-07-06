@@ -2,7 +2,7 @@
   "name" : "charred",
   "friendlyName" : "Charred",
   "requiredStatuses" : [],
-  "spawnProfile" : "surfacesparse",
+  "spawnProfiles" : [ "surfacemix1", "surfacemix2", "surfacemix3" ],
 
   "hueShiftOptions" : [0],
 

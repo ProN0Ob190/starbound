@@ -4,7 +4,7 @@
   "caveLiquidType" : "water",
   "oceanLiquidType" : "ocean",
   "requiredStatuses" : [],
-  "spawnProfile" : "surfacemix",
+  "spawnProfiles" : [ "surfacemix1", "surfacemix2", "surfacemix3" ],
 
   "hueShiftOptions" : [-60, -45, 0, 45, 60],
   "skyOptions" : [

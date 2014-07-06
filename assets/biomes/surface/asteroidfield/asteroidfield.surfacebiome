@@ -3,7 +3,7 @@
   "friendlyName" : "Asteroid Field",
   "barren" : true,
   "requiredStatuses" : [ "breathProtection" ],
-  "spawnProfile" : "surfaceairless",
+  "spawnProfiles" : [ "surfaceairless1", "surfaceairless2", "surfaceairless3" ],
 
   "hueShiftOptions" : [-180, -25, 25],
   "skyOptions" : [

@@ -1,13 +1,13 @@
 {
   "id" : "tutorial6.gearup",
-  "title" : "^#9be3d6;Forging Ahead",
-  "text" : "Next I need to get some armour. Working with metal requires an anvil but before I can craft one I'll need to melt some iron ore. I should ^green;Obtain 2x iron ore and smelt it in a furnace to obtain an ^orange;iron bar^white;.",
-  "completionText" : "Nice! I'll need a whole bunch of iron bars to craft an anvil. Once I have armor and a capable pickaxe I can obtain the materials I need from the planet core to fix the ships thrusters.",
+  "title" : "^#9be3d6;Tools for the job",
+  "text" : "I'm going to need better tools if I'm going to survive down here. ^green;I should start by making use of a furnace and smelting some copper ore to obtain a ^orange;copper bar.^white; I can turn a copper bar into all sorts of things.. ",
+  "completionText" : "Nice! I'll need a whole bunch of copper bars to start building tools. A copper pickaxe will allow me to mine even better ore.",
   "conditions" : [
-    { "kind" : "gather", "item" : [ "ironbar", 1], "consume" : false }
+    { "kind" : "gather", "item" : [ "copperbar", 1], "consume" : false }
   ],
   "moneyRange" : [10, 10],
   "planetMode" : "none",
   "questDungeons" : [ ],
-  "followUp" : ""
+  "followUp" : "tutorial7.gearup"
 }

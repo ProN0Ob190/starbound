@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "ironbar", "count" : 35 },
+    { "item" : "ironbar", "count" : 18 },
     { "item" : "copperarmorchest", "count" : 1 }
   ],
   "output" : { "item" : "aviantier1chest", "count" : 1 },

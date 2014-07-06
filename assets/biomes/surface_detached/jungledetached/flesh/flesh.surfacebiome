@@ -2,7 +2,7 @@
   "name" : "flesh",
   "friendlyName" : "Flesh",
   "requiredStatuses" : [],
-  "spawnProfile" : "surfacemix",
+  "spawnProfiles" : [ "surfacemix1", "surfacemix2", "surfacemix3" ],
 
   "hueShiftOptions" : [0],
 

@@ -3,7 +3,7 @@
   "friendlyName" : "Tundra",
   "caveLiquidType" : "water",
   "requiredStatuses" : [],
-  "spawnProfile" : "surfacemix",
+  "spawnProfiles" : [ "surfacemix1", "surfacemix2", "surfacemix3" ],
 
   "hueShiftOptions" : [0],
   "skyOptions" : [

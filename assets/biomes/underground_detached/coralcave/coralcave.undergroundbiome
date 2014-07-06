@@ -3,7 +3,7 @@
   "friendlyName" : "Coral Cave",
   "caveLiquidType" : "tarliquid",
   "requiredStatuses" : [ "beamaxe" ],
-  "spawnProfile" : "undergroundmix",
+  "spawnProfiles" : [ "undergroundmix1", "undergroundmix2", "undergroundmix3" ],
 
   "mainBlock" : "rock14",
   "subBlocks" : [ "dirt", "rock19" ],
