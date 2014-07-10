@@ -3,14 +3,14 @@
     {
       "containers" : [ "chestavian2" ],
       "treasurePool" : "basicTreasure",
-      "minimumLevel" : 1
+      "minimumLevel" : 0
     }
   ],
   "weaponChest" : [
     {
       "containers" : [ "chestmedavian2" ],
       "treasurePool" : "crappyWeapon",
-      "minimumLevel" : 1
+      "minimumLevel" : 0
     }
   ],
 
@@ -26,119 +26,119 @@
     {
       "containers" : [ "shroomchest" ],
       "treasurePool" : "mushroomTreasure",
-      "minimumLevel" : 1
+      "minimumLevel" : 0
     }
   ],
   "barrelChest" : [
     {
       "containers" : [ "barrel" ],
       "treasurePool" : "abandonedminesTreasure",
-      "minimumLevel" : 1
+      "minimumLevel" : 0
     }
   ],
   "iceChest" : [
     {
       "containers" : [ "icechest" ],
       "treasurePool" : "iceTreasure",
-      "minimumLevel" : 1
+      "minimumLevel" : 0
     }
   ],
   "toxicChest" : [
     {
       "containers" : [ "toxicchest" ],
       "treasurePool" : "toxicTreasure",
-      "minimumLevel" : 1
+      "minimumLevel" : 0
     }
   ],
   "rainbowChest" : [
     {
       "containers" : [ "rainbowchest" ],
       "treasurePool" : "rainbowTreasure",
-      "minimumLevel" : 1
+      "minimumLevel" : 0
     }
   ],
   "giantflowerChest" : [
     {
       "containers" : [ "giantflowerchest" ],
       "treasurePool" : "giantflowerTreasure",
-      "minimumLevel" : 1
+      "minimumLevel" : 0
     }
   ],
   "sandstoneChest" : [
     {
       "containers" : [ "sandstonechest" ],
       "treasurePool" : "sandstoneTreasure",
-      "minimumLevel" : 1
+      "minimumLevel" : 0
     }
   ],
   "boneChest" : [
     {
       "containers" : [ "bonechest" ],
       "treasurePool" : "boneTreasure",
-      "minimumLevel" : 1
+      "minimumLevel" : 0
     }
   ],
   "rustChest" : [
     {
       "containers" : [ "rustchest" ],
       "treasurePool" : "rustTreasure",
-      "minimumLevel" : 1
+      "minimumLevel" : 0
     }
   ],
   "crystalChest" : [
     {
       "containers" : [ "crystalchest" ],
       "treasurePool" : "crystalTreasure",
-      "minimumLevel" : 1
+      "minimumLevel" : 0
     }
   ],
   "cellChest" : [
     {
       "containers" : [ "cellchest" ],
       "treasurePool" : "cellTreasure",
-      "minimumLevel" : 1
+      "minimumLevel" : 0
     }
   ],
   "geometricChest" : [
     {
       "containers" : [ "geometricchest" ],
       "treasurePool" : "geometricTreasure",
-      "minimumLevel" : 1
+      "minimumLevel" : 0
     }
   ],
   "icesphereChest" : [
     {
       "containers" : [ "icespherechest" ],
       "treasurePool" : "icesphereTreasure",
-      "minimumLevel" : 1
+      "minimumLevel" : 0
     }
   ],
   "eyeChest" : [
     {
       "containers" : [ "eyechest" ],
       "treasurePool" : "eyeTreasure",
-      "minimumLevel" : 1
+      "minimumLevel" : 0
     }
   ],
   "glitchvillageChest" : [
     {
       "containers" : [ "medievalbookcase", "medievalchest", "medievaldesk", "medievalcabinet" ],
       "treasurePool" : "glitchVillageLore",
-      "minimumLevel" : 1
+      "minimumLevel" : 0
     }
   ],
   "glitchcastleChest" : [
     {
       "containers" : [ "royalbookcase", "royalchest", "royaldesk", "royalcabinet" ],
       "treasurePool" : "glitchCastleLore",
-      "minimumLevel" : 1
+      "minimumLevel" : 0
     }
   ],
   "glitchsewerChest" : [
     {
       "containers" : [ "medievalbookcase", "medievalchest", "medievaldesk", "medievalcabinet" ],
       "treasurePool" : "glitchSewerLore",
-      "minimumLevel" : 1
+      "minimumLevel" : 0
     }
   ],
 
@@ -146,7 +146,7 @@
     {
       "containers" : [ "floranbookcase", "florancabinet1", "florancabinet2", "florancabinet3" ],
       "treasurePool" : "floranHellLore",
-      "minimumLevel" : 1
+      "minimumLevel" : 0
     }
   ],
 
@@ -154,7 +154,7 @@
     {
       "containers" : [ "floranbookcase", "florancabinet1", "florancabinet2", "florancabinet3" ],
       "treasurePool" : "floranHuntLore",
-      "minimumLevel" : 1
+      "minimumLevel" : 0
     }
   ],
 
@@ -162,7 +162,7 @@
     {
       "containers" : [ "floranbookcase", "florancabinet1", "florancabinet2", "florancabinet3" ],
       "treasurePool" : "floranVillageLore",
-      "minimumLevel" : 1
+      "minimumLevel" : 0
     }
   ],
 
@@ -170,7 +170,7 @@
     {
       "containers" : [ "tribalbookcase1", "tribalbookcase2", "tribalcabinet1", "tribalcloset1" ],
       "treasurePool" : "avianVillageLore",
-      "minimumLevel" : 1
+      "minimumLevel" : 0
     }
   ],
 
@@ -178,7 +178,7 @@
     {
       "containers" : [ "chestavian1", "chestavian2", "chestmedavian1", "chestmedavian2", "tribalwallcabinet" ],
       "treasurePool" : "avianTempleLore",
-      "minimumLevel" : 1
+      "minimumLevel" : 0
     }
   ],
 
@@ -186,14 +186,14 @@
     {
       "containers" : [ "tribalbookcase1", "tribalbookcase2", "tribalcabinet1", "tribalcloset1" ],
       "treasurePool" : "avianTombLore",
-      "minimumLevel" : 1
+      "minimumLevel" : 0
     }
   ],
   "apextestChest" : [
     {
       "containers" : [ "techchest", "apexcoolcupboard", "apexcooldesk" ],
       "treasurePool" : "apexTestLore",
-      "minimumLevel" : 1
+      "minimumLevel" : 0
     }
   ],
 
@@ -201,7 +201,7 @@
     {
       "containers" : [ "techchest", "apexcoolcupboard", "apexcooldesk" ],
       "treasurePool" : "apexLabLore",
-      "minimumLevel" : 1
+      "minimumLevel" : 0
     }
   ],
 
@@ -209,14 +209,14 @@
     {
       "containers" : [ "techchest", "apexcoolcupboard", "apexcooldesk", "apexcounter1", "apexcounter2" ],
       "treasurePool" : "apexTownLore",
-      "minimumLevel" : 1
+      "minimumLevel" : 0
     }
   ],
   "avianairshipChest" : [
     {
       "containers" : [ "tribalbookcase1", "tribalbookcase2", "tribalcabinet1", "tribalcloset1" ],
       "treasurePool" : "avianAirshipLore",
-      "minimumLevel" : 1
+      "minimumLevel" : 0
     }
   ],
 
@@ -224,7 +224,7 @@
     {
       "containers" : [ "tribalbookcase1", "tribalbookcase2", "tribalcabinet1", "tribalcloset1" ],
       "treasurePool" : "avianTowerLore",
-      "minimumLevel" : 1
+      "minimumLevel" : 0
     }
   ],
 
@@ -232,7 +232,7 @@
     {
       "containers" : [ "bunkerbookcase", "bunkercabinet1" ],
       "treasurePool" : "humanBunkerLore",
-      "minimumLevel" : 1
+      "minimumLevel" : 0
     }
   ],
 
@@ -240,7 +240,7 @@
     {
       "containers" : [ "bunkerbookcase", "bunkercabinet1" ],
       "treasurePool" : "humanPrisonLore",
-      "minimumLevel" : 1
+      "minimumLevel" : 0
     }
   ],
 
@@ -248,7 +248,7 @@
     {
       "containers" : [ "fleshchest" ],
       "treasurePool" : "fleshTreasure",
-      "minimumLevel" : 1
+      "minimumLevel" : 0
     }
   ],
 
@@ -256,7 +256,7 @@
     {
       "containers" : [ "heckchest", "heckaltar" ],
       "treasurePool" : "heckTreasure",
-      "minimumLevel" : 1
+      "minimumLevel" : 0
     }
   ],
   
@@ -264,7 +264,7 @@
     {
       "containers" : [ "hivechest" ],
       "treasurePool" : "hiveTreasure",
-      "minimumLevel" : 1
+      "minimumLevel" : 0
     }
   ]
 

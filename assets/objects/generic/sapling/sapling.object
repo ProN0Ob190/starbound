@@ -35,17 +35,17 @@
   },
   "growing" : {
     "0" : {
-      "duration" : [30, 50],
+      "duration" : [15, 25],
       "success" : 1,
       "failure" : 3
     },
     "1" : {
-      "duration" : [30, 50],
+      "duration" : [15, 25],
       "success" : 2,
       "failure" : 3
     },
     "2" : {
-      "duration" : [30, 50],
+      "duration" : [15, 25],
       "command" : "spawnTree",
       "success" : 3,
       "failure" : 3

@@ -3882,35 +3882,41 @@
   "parts" : [
     {
       "name" : "1",
+	  "minimumThreatLevel" : 1.5,
       "rules" : [ ],
       "def" : [ "image", [ "1.png", "1a.png" ] ]
     },
 	{
       "name" : "2",
+	  "minimumThreatLevel" : 1.5,
       "rules" : [ ],
       "def" : [ "image", [ "2.png", "2a.png" ] ]
     },
 	
 	{
       "name" : "3",
+	  "minimumThreatLevel" : 1.5,
       "rules" : [ ],
       "def" : [ "image", [ "3.png", "3a.png" ] ]
     },
 	
 	{
       "name" : "4",
+	  "minimumThreatLevel" : 1.5,
       "rules" : [ ],
       "def" : [ "image", [ "4.png", "4a.png" ] ]
     },
 	
 	{
       "name" : "5",
+	  "minimumThreatLevel" : 1.5,
       "rules" : [ ],
       "def" : [ "image", [ "5.png", "5a.png" ] ]
     },
 	
 	{
       "name" : "6",
+	  "minimumThreatLevel" : 1.5,
       "rules" : [ ],
       "def" : [ "image", [ "6.png", "6a.png" ] ]
     }

@@ -1,11 +1,45 @@
 {
   "name" : "savannah",
   "friendlyName" : "Savannah",
-  "caveLiquidType" : [ "water", "acid", "tarliquid" ],
+
+  "caveLiquidType" : [
+    [0.0, ["water"]],
+    [1.5, ["water", "tarliquid"]],
+    [2.5, ["water", "acid", "tarliquid"]]
+  ],
+
   "requiredStatuses" : [],
   "spawnProfiles" : [ "surfacemix1", "surfacemix2", "surfacemix3" ],
 
   "hueShiftOptions" : [0],
+
+  "weather" : [
+    [0, [
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:commonFog",
+      "/weather.config:commonLightRainMixAndGlowingRain",
+      "/weather.config:commonLightRainMixAndGlowingRain",
+      "/weather.config:commonLightRainMixAndGroundmist",
+      "/weather.config:commonLightRainMixAndWindstorm"
+    ]],
+    [1.5, [
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:commonFog",
+      "/weather.config:commonLightRainMixAndGlowingRain",
+      "/weather.config:commonLightRainMixAndGlowingRain",
+      "/weather.config:commonLightRainMixAndGroundmist",
+      "/weather.config:commonLightRainMixAndWindstorm",
+      "/weather.config:rareAcidRain",
+      "/weather.config:rareMeteorShower",
+      "/weather.config:rareSpacejunk",
+      "/weather.config:commonSandstorm",
+      "/weather.config:uncommonSpacedust",
+      "/weather.config:veryRareLargeMeteorShower"
+    ]]
+  ],
+
   "skyOptions" : [
 
     {
@@ -135,22 +169,6 @@
 
     "parallax" : "savannah.parallax",
     "undergroundParallax" : "savannah.undergroundparallax",
-
-    "weather" : [
-      "/weather.config:clear",
-      "/weather.config:clear",
-      "/weather.config:commonFog",
-      "/weather.config:commonLightRainMixAndGlowingRain",
-      "/weather.config:commonLightRainMixAndGlowingRain",
-      "/weather.config:commonLightRainMixAndGroundmist",
-      "/weather.config:commonLightRainMixAndWindstorm",
-      "/weather.config:rareAcidRain",
-      "/weather.config:rareMeteorShower",
-      "/weather.config:rareSpacejunk",
-      "/weather.config:commonSandstorm",
-      "/weather.config:uncommonSpacedust",
-      "/weather.config:veryRareLargeMeteorShower"
-    ],
 
     "statusParameters" : {
       "temperatureBounds" : [5, 25],
@@ -486,5 +504,7 @@
     }
   },
 
-  "allowedDetachedBiomes" : [ "crystalline", "rust", "arctic", "arid", "desert", "forest", "grasslands", "jungle", "magma", "ocean", "savannah", "snow", "tentacles", "tundra", "volcanic" ]
+  "allowedDetachedBiomes" : [
+    [0, [ "crystalline", "rust", "arctic", "arid", "desert", "forest", "grasslands", "jungle", "magma", "ocean", "savannah", "snow", "tentacles", "tundra", "volcanic" ]]
+  ]
 }

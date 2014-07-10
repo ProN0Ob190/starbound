@@ -1,11 +1,44 @@
 {
   "name" : "snow",
   "friendlyName" : "Snow",
-  "caveLiquidType" : [ "water", "acid", "tarliquid" ],
+
+  "caveLiquidType" : [
+    [0.0, ["water"]],
+    [1.5, ["water", "tarliquid"]],
+    [2.5, ["water", "acid", "tarliquid"]]
+  ],
+
   "requiredStatuses" : [],
   "spawnProfiles" : [ "surfacemix1", "surfacemix2", "surfacemix3" ],
 
   "hueShiftOptions" : [-180, 0, 45, 30],
+
+  "weather" : [
+    [0, [
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:commonLightRainMixAndGlowingRain",
+      "/weather.config:commonSnowAndHail",
+      "/weather.config:commonSnowAndSnowstorm"
+    ]],
+    [1.5, [
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:commonLightRainMixAndGlowingRain",
+      "/weather.config:commonSnowAndHail",
+      "/weather.config:commonSnowAndIcestorm",
+      "/weather.config:commonSnowAndSnowstorm",
+      "/weather.config:rareAcidRain",
+      "/weather.config:rareMeteorShower",
+      "/weather.config:veryCommonSnow",
+      "/weather.config:veryCommonSnow",
+      "/weather.config:veryCommonSnowAndSpacedust",
+      "/weather.config:veryCommonSnowAndSnowstorm",
+      "/weather.config:veryCommonSnowstorm",
+      "/weather.config:veryRareLargeMeteorShower"
+    ]]
+  ],
+
   "skyOptions" : [
     {
       "mainColor" : [255, 255, 255],
@@ -140,23 +173,6 @@
 
     "parallax" : "snow.parallax",
     "undergroundParallax" : "snow.undergroundparallax",
-
-    "weather" : [
-      "/weather.config:clear",
-      "/weather.config:clear",
-      "/weather.config:commonLightRainMixAndGlowingRain",
-      "/weather.config:commonSnowAndHail",
-      "/weather.config:commonSnowAndIcestorm",
-      "/weather.config:commonSnowAndSnowstorm",
-      "/weather.config:rareAcidRain",
-      "/weather.config:rareMeteorShower",
-      "/weather.config:veryCommonSnow",
-      "/weather.config:veryCommonSnow",
-      "/weather.config:veryCommonSnowAndSpacedust",
-      "/weather.config:veryCommonSnowAndSnowstorm",
-      "/weather.config:veryCommonSnowstorm",
-      "/weather.config:veryRareLargeMeteorShower"
-    ],
 
     "ambientNoises" : {
       "day" : {
@@ -561,6 +577,8 @@
       "temperatureVariability" : 5
     }
   },
-  "allowedDetachedBiomes" : [ "geometric", "orb", "spring", "ice", "arctic", "arid", "desert", "forest", "grasslands", "jungle", "magma", "ocean", "savannah", "snow", "tentacles", "tundra", "volcanic" ]
+  "allowedDetachedBiomes" : [
+    [0, [ "geometric", "orb", "spring", "ice", "arctic", "arid", "desert", "forest", "grasslands", "jungle", "magma", "ocean", "savannah", "snow", "tentacles", "tundra", "volcanic" ]]
+  ]
   //  "allowedDetachedBiomes" : [ "ice", "spring" ]
 }

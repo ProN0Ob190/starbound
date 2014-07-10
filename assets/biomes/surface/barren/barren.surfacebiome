@@ -5,6 +5,33 @@
   "spawnProfiles" : [ "surfacemix1", "surfacemix2", "surfacemix3" ],
 
   "hueShiftOptions" : [-180, -135, -90, -45, 0, 45, 90, 135, 180],
+
+  "weather" : [
+    [0, [
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:commonLightRainMix",
+      "/weather.config:commonSandstorm"
+    ]],
+    [1.5, [
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:commonLightRainMix",
+      "/weather.config:commonSandstorm",
+      "/weather.config:rareAcidRain",
+      "/weather.config:rareMeteorShower",
+      "/weather.config:uncommonSpacedustShower",
+      "/weather.config:veryCommonSandstorm",
+      "/weather.config:veryRareLargeMeteorShower"
+    ]]
+  ],
+
   "skyOptions" : [
 
     {
@@ -141,21 +168,6 @@
       "dayNightTemperatureVariability" : -12,
       "temperatureVariability" : 3
     },
-
-    "weather" : [
-      "/weather.config:clear",
-      "/weather.config:clear",
-      "/weather.config:clear",
-      "/weather.config:clear",
-      "/weather.config:clear",
-      "/weather.config:commonLightRainMix",
-      "/weather.config:commonSandstorm",
-      "/weather.config:rareAcidRain",
-      "/weather.config:rareMeteorShower",
-      "/weather.config:uncommonSpacedustShower",
-      "/weather.config:veryCommonSandstorm",
-      "/weather.config:veryRareLargeMeteorShower"
-    ],
 
     "ambientNoises" : {
       "day" : {

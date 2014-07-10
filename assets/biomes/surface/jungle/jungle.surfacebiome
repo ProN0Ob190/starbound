@@ -1,11 +1,42 @@
 {
   "name" : "jungle",
   "friendlyName" : "Jungle",
-  "caveLiquidType" : [ "water", "acid", "tarliquid" ],
+
+  "caveLiquidType" : [
+    [0.0, ["water"]],
+    [1.5, ["water", "tarliquid"]],
+    [2.5, ["water", "acid", "tarliquid"]]
+  ],
+
   "requiredStatuses" : [],
   "spawnProfiles" : [ "surfacemix1", "surfacemix2", "surfacemix3" ],
 
   "hueShiftOptions" : [-180, -135, -90, -45, 0, 45, 90, 135, 180],
+
+  "weather" : [
+    [0, [
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:commonLightRainMixAndGlowingRain",
+      "/weather.config:commonLightRainMixAndGlowingRain"
+    ]],
+    [1.5, [
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:commonLightRainMixAndGlowingRain",
+      "/weather.config:commonLightRainMixAndGlowingRain",
+      "/weather.config:commonLightRainMixAndGlowingRain",
+      "/weather.config:rareAcidRain",
+      "/weather.config:rareMeteorShower",
+      "/weather.config:rareSpacejunk",
+      "/weather.config:veryRareLargeMeteorShower"
+    ]]
+  ],
+
   "skyOptions" : [
 
     {
@@ -505,5 +536,7 @@
     }
   },
 
-  "allowedDetachedBiomes" : [ "flesh", "giantflowers", "arctic", "arid", "desert", "forest", "grasslands", "jungle", "magma", "ocean", "savannah", "snow", "tentacles", "tundra", "volcanic" ]
+  "allowedDetachedBiomes" : [
+    [0, [ "flesh", "giantflowers", "arctic", "arid", "desert", "forest", "grasslands", "jungle", "magma", "ocean", "savannah", "snow", "tentacles", "tundra", "volcanic" ]]
+  ]
 }

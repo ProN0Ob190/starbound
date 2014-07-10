@@ -4,7 +4,7 @@
     "species" : "dummy",
     "rules" : [
     ],
-    "anchor" : [ "tomb", "tomb2", "tomb3", "tomb4", "tomb5" ],
+    "anchor" : [ "tomb1", "tomb2", "tomb3", "tomb4", "tomb5" ],
     "maxRadius" : 500,
     "maxParts" : 20
   },
@@ -13,19 +13,16 @@
       "value" : [255, 0, 220, 255],
       "comment" : "magic pinkppp, a no-op value"
     },
-
     {
       "value" : [0, 0, 0, 255],
       "rules" : [ [ "worldGenMustContainAirBackground" ], [ "allowOverdrawing" ] ],
       "brush" : [ [ "clear" ] ]
     },
-
     {
       "value" : [255, 255, 255, 255],
       "rules" : [ [ "worldGenMustContainSolidBackground" ], [ "allowOverdrawing" ] ],
       "brush" : [ [ "surface" ] ]
     },
-
     {
       "value" : [0, 38, 255, 255],
       "comment" : "bright blue, entrance coupler",
@@ -37,13 +34,6 @@
       "comment" : "bright aqua, water coupler",
       "connector" : true
     },
-
-    {
-      "value" : [186, 255, 0, 255],
-      "comment" : "bright green, pyramid entrance coupler",
-      "connector" : true
-    },
-
     {
       "value" : [32, 32, 32, 255],
       "comment" : "Empty hole",
@@ -88,13 +78,6 @@
     },
 
     {
-      "value" : [120, 96, 197, 255],
-      "comment" : "endcap temple1",
-      "rules" : [ [ "allowOverdrawing" ] ],
-      "brush" : [ [ "clear" ], [ "back", "temple1" ], [ "front", "temple1" ] ]
-    },
-
-    {
       "value" : [146, 247, 241, 255],
       "comment" : "background temple2",
       "brush" : [ [ "clear" ], [ "back", "temple2" ] ]
@@ -103,20 +86,6 @@
     {
       "value" : [146, 210, 247, 255],
       "comment" : "foreground temple2",
-      "brush" : [ [ "clear" ], [ "back", "temple2" ], [ "front", "temple2" ] ]
-    },
-
-    {
-      "value" : [196, 228, 246, 255],
-      "comment" : "overwritable foreground temple2 for pyramid entrance",
-      "rules" : [ [ "allowOverdrawing" ] ],
-      "brush" : [ [ "clear" ], [ "back", "temple2" ], [ "front", "temple2" ] ]
-    },
-
-    {
-      "value" : [96, 160, 197, 255],
-      "comment" : "endcap temple2 for water pools",
-      "rules" : [ [ "allowOverdrawing" ] ],
       "brush" : [ [ "clear" ], [ "back", "temple2" ], [ "front", "temple2" ] ]
     },
 
@@ -488,13 +457,6 @@
       "value" : [109, 90, 8, 255],
       "comment" : "background tombbrick",
       "brush" : [ [ "clear" ], [ "back", "tombbrick" ] ]
-    },
-
-    {
-      "value" : [26, 77, 0, 255],
-      "comment" : "biome tree",
-      "rules" : [ [ "allowOverdrawing" ] ],
-      "brush" : [ [ "biometree" ] ]
     },
 
     {
@@ -962,49 +924,49 @@
     {
       "value" : [220, 125, 185, 255],
       "comment" : "tombthing1 facing left",
-      "brush" : [ [ "clear" ], [ "object", "tombthing1", { "direction" : "left" } ] ]
+      "brush" : [ [ "clear" ], [ "object", "tombthing1", { "direction" : "left", "parameters" : { "treasurePools" : [ "tombtreasure" ] } } ] ]
     },
 
     {
       "value" : [230, 125, 185, 255],
       "comment" : "tombthing1 facing right",
-      "brush" : [ [ "clear" ], [ "object", "tombthing1", { "direction" : "right" } ] ]
+      "brush" : [ [ "clear" ], [ "object", "tombthing1", { "direction" : "right", "parameters" : { "treasurePools" : [ "tombtreasure" ] } } ] ]
     },
 
     {
       "value" : [203, 125, 220, 255],
       "comment" : "tombthing2 facing left",
-      "brush" : [ [ "clear" ], [ "object", "tombthing2", { "direction" : "left" } ] ]
+      "brush" : [ [ "clear" ], [ "object", "tombthing2", { "direction" : "left", "parameters" : { "treasurePools" : [ "tombtreasure" ] } } ] ]
     },
 
     {
       "value" : [213, 125, 220, 255],
       "comment" : "tombthing2 facing right",
-      "brush" : [ [ "clear" ], [ "object", "tombthing2", { "direction" : "right" } ] ]
+      "brush" : [ [ "clear" ], [ "object", "tombthing2", { "direction" : "right", "parameters" : { "treasurePools" : [ "tombtreasure" ] } } ] ]
     },
 
     {
       "value" : [138, 125, 220, 255],
       "comment" : "tombthing3 facing left",
-      "brush" : [ [ "clear" ], [ "object", "tombthing3", { "direction" : "left" } ] ]
+      "brush" : [ [ "clear" ], [ "object", "tombthing3", { "direction" : "left", "parameters" : { "treasurePools" : [ "tombtreasure" ] } } ] ]
     },
 
     {
       "value" : [148, 125, 220, 255],
       "comment" : "tombthing3 facing right",
-      "brush" : [ [ "clear" ], [ "object", "tombthing3", { "direction" : "right" } ] ]
+      "brush" : [ [ "clear" ], [ "object", "tombthing3", { "direction" : "right", "parameters" : { "treasurePools" : [ "tombtreasure" ] } } ] ]
     },
 
     {
       "value" : [125, 161, 220, 255],
       "comment" : "tombthing4 facing left",
-      "brush" : [ [ "clear" ], [ "object", "tombthing4", { "direction" : "left" } ] ]
+      "brush" : [ [ "clear" ], [ "object", "tombthing4", { "direction" : "left", "parameters" : { "treasurePools" : [ "tombtreasure" ] } } ] ]
     },
 
     {
       "value" : [135, 161, 220, 255],
       "comment" : "tombthing4 facing right",
-      "brush" : [ [ "clear" ], [ "object", "tombthing4", { "direction" : "right" } ] ]
+      "brush" : [ [ "clear" ], [ "object", "tombthing4", { "direction" : "right", "parameters" : { "treasurePools" : [ "tombtreasure" ] } } ] ]
     },
 
     {
@@ -1022,49 +984,49 @@
     {
       "value" : [125, 220, 212, 255],
       "comment" : "tribalbookcase1 facing left",
-      "brush" : [ [ "clear" ], [ "object", "tribalbookcase1", { "direction" : "left" } ] ]
+      "brush" : [ [ "clear" ], [ "object", "tribalbookcase1", { "direction" : "left", "parameters" : { "treasurePools" : [ "avianVillageLore" ] } } ] ]
     },
 
     {
       "value" : [135, 220, 212, 255],
       "comment" : "tribalbookcase1 facing right",
-      "brush" : [ [ "clear" ], [ "object", "tribalbookcase1", { "direction" : "right" } ] ]
+      "brush" : [ [ "clear" ], [ "object", "tribalbookcase1", { "direction" : "right", "parameters" : { "treasurePools" : [ "avianVillageLore" ] } } ] ]
     },
 
     {
       "value" : [125, 220, 159, 255],
       "comment" : "tribalbookcase2 facing left",
-      "brush" : [ [ "clear" ], [ "object", "tribalbookcase2", { "direction" : "left" } ] ]
+      "brush" : [ [ "clear" ], [ "object", "tribalbookcase2", { "direction" : "left", "parameters" : { "treasurePools" : [ "avianVillageLore" ] } } ] ]
     },
 
     {
       "value" : [135, 220, 159, 255],
       "comment" : "tribalbookcase2 facing right",
-      "brush" : [ [ "clear" ], [ "object", "tribalbookcase2", { "direction" : "right" } ] ]
+      "brush" : [ [ "clear" ], [ "object", "tribalbookcase2", { "direction" : "right", "parameters" : { "treasurePools" : [ "avianVillageLore" ] } } ] ]
     },
 
     {
       "value" : [174, 220, 125, 255],
       "comment" : "tribalcabinet1 facing left",
-      "brush" : [ [ "clear" ], [ "object", "tribalcabinet1", { "direction" : "left" } ] ]
+      "brush" : [ [ "clear" ], [ "object", "tribalcabinet1", { "direction" : "left", "parameters" : { "treasurePools" : [ "avianVillageLore" ] } } ] ]
     },
 
     {
       "value" : [184, 220, 125, 255],
       "comment" : "tribalcabinet1 facing right",
-      "brush" : [ [ "clear" ], [ "object", "tribalcabinet1", { "direction" : "right" } ] ]
+      "brush" : [ [ "clear" ], [ "object", "tribalcabinet1", { "direction" : "right", "parameters" : { "treasurePools" : [ "avianVillageLore" ] } } ] ]
     },
 
     {
       "value" : [163, 222, 134, 255],
       "comment" : "tribalcloset1 facing left",
-      "brush" : [ [ "clear" ], [ "object", "tribalcloset1", { "direction" : "left" } ] ]
+      "brush" : [ [ "clear" ], [ "object", "tribalcloset1", { "direction" : "left", "parameters" : { "treasurePools" : [ "avianVillageLore" ] } } ] ]
     },
 
     {
       "value" : [173, 222, 134, 255],
       "comment" : "tribalcloset1 facing right",
-      "brush" : [ [ "clear" ], [ "object", "tribalcloset1", { "direction" : "right" } ] ]
+      "brush" : [ [ "clear" ], [ "object", "tribalcloset1", { "direction" : "right", "parameters" : { "treasurePools" : [ "avianVillageLore" ] } } ] ]
     },
 
     {
@@ -1388,13 +1350,13 @@
     {
       "value" : [64, 189, 23, 255],
       "comment" : "tribalwallcabinet facing left",
-      "brush" : [ [ "clear" ], [ "object", "tribalwallcabinet", { "direction" : "left", "parameters" : { "treasurePools" : [ "avianTempleLore" ] } } ] ]
+      "brush" : [ [ "clear" ], [ "object", "tribalwallcabinet", { "direction" : "left", "parameters" : { "treasurePools" : [ "naturalcaveTreasure" ] } } ] ]
     },
 
     {
       "value" : [50, 189, 23, 255],
       "comment" : "tribalwallcabinet facing right",
-      "brush" : [ [ "clear" ], [ "object", "tribalwallcabinet", { "direction" : "right", "parameters" : { "treasurePools" : [ "avianTempleLore" ] } } ] ]
+      "brush" : [ [ "clear" ], [ "object", "tribalwallcabinet", { "direction" : "right", "parameters" : { "treasurePools" : [ "naturalcaveTreasure" ] } } ] ]
     },
 
     {
@@ -1472,73 +1434,73 @@
     {
       "value" : [255, 184, 153, 255],
       "comment" : "chestavian1 facing left",
-      "brush" : [ [ "clear" ], [ "object", "chestavian1", { "direction" : "left", "parameters" : { "treasurePools" : [ "avianTempleLore" ] } } ] ]
+      "brush" : [ [ "clear" ], [ "object", "chestavian1", { "direction" : "left", "parameters" : { "treasurePools" : [ "basicTreasure" ] } } ] ]
     },
 
     {
       "value" : [245, 184, 153, 255],
       "comment" : "chestavian1 facing right",
-      "brush" : [ [ "clear" ], [ "object", "chestavian1", { "direction" : "right", "parameters" : { "treasurePools" : [ "avianTempleLore" ] } } ] ]
+      "brush" : [ [ "clear" ], [ "object", "chestavian1", { "direction" : "right", "parameters" : { "treasurePools" : [ "basicTreasure" ] } } ] ]
     },
 
     {
       "value" : [255, 208, 153, 255],
       "comment" : "chestavian2 facing left",
-      "brush" : [ [ "clear" ], [ "object", "chestavian2", { "direction" : "left", "parameters" : { "treasurePools" : [ "avianTempleLore" ] } } ] ]
+      "brush" : [ [ "clear" ], [ "object", "chestavian2", { "direction" : "left", "parameters" : { "treasurePools" : [ "basicTreasure" ] } } ] ]
     },
 
     {
       "value" : [245, 208, 153, 255],
       "comment" : "chestavian2 facing right",
-      "brush" : [ [ "clear" ], [ "object", "chestavian2", { "direction" : "right", "parameters" : { "treasurePools" : [ "avianTempleLore" ] } } ] ]
+      "brush" : [ [ "clear" ], [ "object", "chestavian2", { "direction" : "right", "parameters" : { "treasurePools" : [ "basicTreasure" ] } } ] ]
     },
 
     {
       "value" : [255, 225, 153, 255],
       "comment" : "chestmedavian1 facing left",
-      "brush" : [ [ "clear" ], [ "object", "chestmedavian1", { "direction" : "left", "parameters" : { "treasurePools" : [ "avianTempleLore" ] } } ] ]
+      "brush" : [ [ "clear" ], [ "object", "chestmedavian1", { "direction" : "left", "parameters" : { "treasurePools" : [ "basicTreasure" ] } } ] ]
     },
 
     {
       "value" : [245, 225, 153, 255],
       "comment" : "chestmedavian1 facing right",
-      "brush" : [ [ "clear" ], [ "object", "chestmedavian1", { "direction" : "right", "parameters" : { "treasurePools" : [ "avianTempleLore" ] } } ] ]
+      "brush" : [ [ "clear" ], [ "object", "chestmedavian1", { "direction" : "right", "parameters" : { "treasurePools" : [ "basicTreasure" ] } } ] ]
     },
 
     {
       "value" : [255, 244, 153, 255],
       "comment" : "chestmedavian2 facing left",
-      "brush" : [ [ "clear" ], [ "object", "chestmedavian2", { "direction" : "left", "parameters" : { "treasurePools" : [ "avianTempleLore" ] } } ] ]
+      "brush" : [ [ "clear" ], [ "object", "chestmedavian2", { "direction" : "left", "parameters" : { "treasurePools" : [ "basicTreasure" ] } } ] ]
     },
 
     {
       "value" : [245, 244, 153, 255],
       "comment" : "chestmedavian2 facing right",
-      "brush" : [ [ "clear" ], [ "object", "chestmedavian2", { "direction" : "right", "parameters" : { "treasurePools" : [ "avianTempleLore" ] } } ] ]
+      "brush" : [ [ "clear" ], [ "object", "chestmedavian2", { "direction" : "right", "parameters" : { "treasurePools" : [ "basicTreasure" ] } } ] ]
     },
 
     {
       "value" : [228, 255, 87, 255],
       "comment" : "woodencrate1 facing left",
-      "brush" : [ [ "clear" ], [ "object", "woodencrate1", { "direction" : "left" } ] ]
+      "brush" : [ [ "clear" ], [ "object", "woodencrate1", { "direction" : "left", "parameters" : { "treasurePools" : [ "naturalcaveTreasure" ] } } ] ]
     },
 
     {
       "value" : [218, 255, 87, 255],
       "comment" : "woodencrate1 facing right",
-      "brush" : [ [ "clear" ], [ "object", "woodencrate1", { "direction" : "right" } ] ]
+      "brush" : [ [ "clear" ], [ "object", "woodencrate1", { "direction" : "right", "parameters" : { "treasurePools" : [ "naturalcaveTreasure" ] } } ] ]
     },
 
     {
       "value" : [255, 228, 87, 255],
       "comment" : "woodencrate2 facing left",
-      "brush" : [ [ "clear" ], [ "object", "woodencrate2", { "direction" : "left" } ] ]
+      "brush" : [ [ "clear" ], [ "object", "woodencrate2", { "direction" : "left", "parameters" : { "treasurePools" : [ "naturalcaveTreasure" ] } } ] ]
     },
 
     {
       "value" : [245, 228, 87, 255],
       "comment" : "woodencrate2 facing right",
-      "brush" : [ [ "clear" ], [ "object", "woodencrate2", { "direction" : "right" } ] ]
+      "brush" : [ [ "clear" ], [ "object", "woodencrate2", { "direction" : "right", "parameters" : { "treasurePools" : [ "naturalcaveTreasure" ] } } ] ]
     },
 
     {
@@ -1623,12 +1585,6 @@
       "value" : [20, 110, 245, 255],
       "comment" : "fountain2",
       "brush" : [ [ "clear" ], [ "object", "fountain2" ] ]
-    },
-
-    {
-      "value" : [255, 56, 26, 255],
-      "comment" : "chest facing left",
-      "brush" : [ [ "clear" ], [ "object", "chestavian2", { "direction" : "left", "parameters" : { "treasurePools" : [ "basicTreasure" ] } } ] ]
     },
 
     {
@@ -1761,6 +1717,12 @@
       "value" : [75, 135, 87, 255],
       "comment" : "owlclock facing right",
       "brush" : [ [ "clear" ], [ "object", "owlclock", { "direction" : "right" } ] ]
+    },
+
+    {
+      "value" : [250, 200, 250, 255],
+      "comment" : "dungeonpod",
+      "brush" : [ [ "clear" ], [ "object", "dungeonpod" ] ]
     },
 
     // NPC MONSTER SPAWN BRUSHES //
@@ -1934,15 +1896,93 @@
             "typeName" : "airshipcaptain"
           }
         ] ]
-    }
+    },
 
+    {
+      "value" : [175, 0, 175, 255],
+      "comment" : "avian temple guard npc",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "npc",
+            "species" : "avian",
+            "typeName" : "templeguard"
+          }
+        ] ]
+    },
+
+    {
+      "value" : [200, 0, 200, 255],
+      "comment" : "avian sentry placeholder npc",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "npc",
+            "species" : "avian",
+            "typeName" : "templeguard"
+          }
+        ] ]
+    },
+
+    {
+      "value" : [225, 0, 225, 255],
+      "comment" : "avian skull placeholder npc",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "npc",
+            "species" : "avian",
+            "typeName" : "templeguard"
+          }
+        ] ]
+    },
+
+    {
+      "value" : [0, 175, 175, 255],
+      "comment" : "avian tomb zombie npc",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "npc",
+            "species" : "avian",
+            "typeName" : "tombzombie"
+          }
+        ] ]
+    },
+
+    {
+      "value" : [0, 200, 200, 255],
+      "comment" : "swarpion npc",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "monster",
+            "typeName" : "swarpion",
+            "parameters" : {
+              "damageTeam" : 1,
+              "aggressive" : true
+            }
+          }
+        ] ]
+    },
+
+    {
+      "value" : [0, 225, 225, 255],
+      "comment" : "bonebird npc",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "monster",
+            "typeName" : "bonebird",
+            "seed" : "stable",
+            "parameters" : {
+              "damageTeam" : 1,
+              "aggressive" : true
+            }
+          }
+        ] ]
+    }
   ],
 
   "parts" : [
     {
-      "name" : "tomb",
+      "name" : "tomb1",
       "rules" : [ ],
-      "def" : [ "image", [ "tomb.png", "tomba.png" ] ]
+      "def" : [ "image", [ "tomb1.png", "tomb1a.png" ] ]
     },
 
     {

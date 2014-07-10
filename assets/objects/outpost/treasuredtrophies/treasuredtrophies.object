@@ -1,0 +1,49 @@
+{
+  "objectName" : "treasuredtrophies",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "description" : "I can sell some of my loot here. I should check out their inventory.",
+  "shortdescription" : "Treasured Trophies",
+  "race" : "generic",
+  "category" : "storage",
+  "price" : 1000,
+
+  "apexDescription" : "-todo-",
+  "avianDescription" : "-todo-",
+  "floranDescription" : "-todo-",
+  "glitchDescription" : "-todo-",
+  "humanDescription" : "-todo-",
+  "hylotlDescription" : "-todo-",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "treasuredtrophiesleft.png:<color>",
+	  "direction" : "left",
+
+      "imagePosition" : [-56, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+	{
+	  "image" : "treasuredtrophiesright.png:<color>",
+	  "direction" : "right",
+
+      "imagePosition" : [-56, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "slotCount" : 64,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+
+}

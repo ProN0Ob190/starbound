@@ -1,6 +1,7 @@
 {
   "name" : "undergroundtest1",
   "friendlyName" : "Undergroundtest1",
+  "caveLiquidType" : "water",
   "requiredStatuses" : [ "beamaxe" ],
   "spawnProfiles" : [ "undergroundmix1", "undergroundmix2", "undergroundmix3" ],
 

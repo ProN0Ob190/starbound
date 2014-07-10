@@ -1,6 +1,7 @@
 {
   "name" : "slime",
   "friendlyName" : "Slime",
+  "caveLiquidType" : "water",
   "requiredStatuses" : [ "beamaxe" ],
   "spawnProfiles" : [ "undergroundmix1", "undergroundmix2", "undergroundmix3" ],
 

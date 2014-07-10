@@ -16,7 +16,7 @@
 
   "category" : "light",
   "price" : 800,
-  "lightColor" : [229, 218, 207],
+  "lightColor" : [229, 212, 195],
   "flickerDistance" : 0.5,
   "flickerStrength" : 0.1,
 

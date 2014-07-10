@@ -18,7 +18,7 @@
   "humanDescription" : "A smelting furnace. Hot.",
   "hylotlDescription" : "A hot, imposing furnace.",
 
-  "lightColor" : [229, 218, 207],
+  "lightColor" : [179, 165, 152],
   "flickerDistance" : 0.5,
   "flickerStrength" : 0.1,
 

@@ -17,7 +17,7 @@
   "blockRadius" : 7,
   "altBlockRadius" : 1,
   "tileDamageType" : "blockish",
-  "tileDamage" : 1.0,
+  "tileDamage" : 10.0,
   "tileDamageBlunted" : 1.0,
   "harvestLevel" : 0,
   "twoHanded" : true,

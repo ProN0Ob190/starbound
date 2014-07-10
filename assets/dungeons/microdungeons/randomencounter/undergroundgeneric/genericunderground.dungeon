@@ -5,7 +5,7 @@
     "rules" : [
     ],
     "anchor" : [ "1" ],
-
+    // "gravity" : 80,
     "maxRadius" : 2000,
     "maxParts" : 15
   },
@@ -21,8 +21,7 @@
     },
     {
       "value" : [255, 255, 255, 255],
-      "rules" : [ [ "worldGenMustContainSolidBackground" ], [ "allowOverdrawing" ] ],
-      "brush" : [ [ "surface", { "variant" : 0 } ] ]
+      "rules" : [ [ "worldGenMustContainSolidBackground" ], [ "allowOverdrawing" ] ]
     },
     {
       "value" : [0, 38, 255, 255],
@@ -195,12 +194,6 @@
     },
 
     {
-      "value" : [160, 163, 169, 255],
-      "comment" : "stone platform",
-      "brush" : [ [ "clear" ], [ "front", "stoneplatform" ] ]
-    },
-
-    {
       "value" : [184, 145, 101, 255],
       "comment" : "wooden stairs/platform",
       "brush" : [ [ "clear" ], [ "front", "woodenplatform" ] ]
@@ -239,37 +232,37 @@
     {
       "value" : [255, 57, 94, 255],
       "comment" : "woodencrate1 facing left",
-      "brush" : [ [ "clear" ], [ "object", "woodencrate1", { "direction" : "left" } ] ]
+      "brush" : [ [ "clear" ], [ "object", "woodencrate1", { "direction" : "left", "parameters" : { "treasurePools" : [ "naturalcaveTreasure" ] } } ] ]
     },
 
     {
       "value" : [229, 50, 83, 255],
       "comment" : "woodencrate1 facing right",
-      "brush" : [ [ "clear" ], [ "object", "woodencrate1", { "direction" : "right" } ] ]
+      "brush" : [ [ "clear" ], [ "object", "woodencrate1", { "direction" : "right", "parameters" : { "treasurePools" : [ "naturalcaveTreasure" ] } } ] ]
     },
 
     {
       "value" : [255, 56, 136, 255],
       "comment" : "woodencrate2 facing left",
-      "brush" : [ [ "clear" ], [ "object", "woodencrate2", { "direction" : "left" } ] ]
+      "brush" : [ [ "clear" ], [ "object", "woodencrate2", { "direction" : "left", "parameters" : { "treasurePools" : [ "naturalcaveTreasureLarge" ] } } ] ]
     },
 
     {
       "value" : [229, 50, 122, 255],
       "comment" : "woodencrate2 facing right",
-      "brush" : [ [ "clear" ], [ "object", "woodencrate2", { "direction" : "right" } ] ]
+      "brush" : [ [ "clear" ], [ "object", "woodencrate2", { "direction" : "right", "parameters" : { "treasurePools" : [ "naturalcaveTreasureLarge" ] } } ] ]
     },
 
     {
       "value" : [196, 56, 255, 255],
       "comment" : "bunkercrate facing left",
-      "brush" : [ [ "clear" ], [ "object", "bunkercrate", { "direction" : "left" } ] ]
+      "brush" : [ [ "clear" ], [ "object", "bunkercrate", { "direction" : "left", "parameters" : { "treasurePools" : [ "naturalcaveTreasure" ] } } ] ]
     },
 
     {
       "value" : [176, 50, 229, 255],
       "comment" : "bunkercrate facing right",
-      "brush" : [ [ "clear" ], [ "object", "bunkercrate", { "direction" : "right" } ] ]
+      "brush" : [ [ "clear" ], [ "object", "bunkercrate", { "direction" : "right", "parameters" : { "treasurePools" : [ "naturalcaveTreasure" ] } } ] ]
     },
 
     {
@@ -434,16 +427,115 @@
       "brush" : [ [ "clear" ], [ "object", "woodendoor" ] ]
     },
 
+    // NPC MONSTER SPAWN BRUSHES //
+
     {
-      "value" : [241, 45, 0, 255],
-      "comment" : "ceilingspikes",
-      "brush" : [ [ "random", [ [ "object", "ceilingspike1" ], [ "object", "ceilingspike2" ], [ "object", "ceilingspike3" ], [ "object", "ceilingspike4" ] ] ] ]
+      "value" : [152, 0, 0, 255],
+      "comment" : "smallbiped npc",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "monster",
+            "typeName" : "smallbiped",
+            "seed" : "stable",
+            "parameters" : {
+              "aggressive" : true,
+              "persistent" : true
+            }
+          }
+        ] ]
     },
 
     {
-      "value" : [185, 35, 0, 255],
-      "comment" : "thorns",
-      "brush" : [ [ "random", [ [ "object", "thorns1" ], [ "object", "thorns2" ], [ "object", "thorns3" ], [ "object", "thorns4" ] ] ] ]
+      "value" : [64, 0, 152, 255],
+      "comment" : "small flying npc",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "monster",
+            "typeName" : "smallflying",
+            "seed" : "stable",
+            "parameters" : {
+              "aggressive" : true,
+              "persistent" : true
+            }
+          }
+        ] ]
+    },
+
+    {
+      "value" : [0, 136, 152, 255],
+      "comment" : "tallbiped npc",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "monster",
+            "typeName" : "tallbiped",
+            "seed" : "stable",
+            "parameters" : {
+              "aggressive" : true,
+              "persistent" : true
+            }
+          }
+        ] ]
+    },
+	
+	{
+      "value" : [173, 0, 179, 255],
+      "comment" : "tallbiped miniboss npc",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "monster",
+            "typeName" : "cavestarterboss",
+            "seed" : "stable",
+            "parameters" : {
+              "aggressive" : true,
+              "persistent" : true
+            }
+          }
+        ] ]
+    },
+
+    {
+      "value" : [14, 152, 0, 255],
+      "comment" : "fish npc #1",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "monster",
+            "typeName" : "fish",
+            "seed" : "stable",
+            "parameters" : {
+              "persistent" : true
+            }
+          }
+        ] ]
+    },
+
+    {
+      "value" : [143, 152, 0, 255],
+      "comment" : "fish npc #2",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "monster",
+            "typeName" : "fish",
+            "seed" : "stable",
+            "parameters" : {
+              "persistent" : true
+            }
+          }
+        ] ]
+    },
+
+    {
+      "value" : [152, 93, 0, 255],
+      "comment" : "fish npc #3",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "monster",
+            "typeName" : "fish",
+            "seed" : "stable",
+            "parameters" : {
+              "persistent" : true
+            }
+          }
+        ] ]
     }
   ],
 

@@ -23,16 +23,40 @@
   "orientations" : [
     {
       "image" : "plasmadisc.png:<color>.<frame>",
-      "imagePosition" : [-6, 2],
-      "frames" : 4,
-      "animationCycle" : 0.5,
+      "imagePosition" : [-7, 1],
+	  
+	  "direction" : "left",
+	  "flipImages" : true,
+      "animationPosition" : [-12, 1],
 
       "spaceScan" : 0.1,
       "anchors" : [ "background" ]
+    },
+	{
+      "image" : "plasmadisc.png:<color>.<frame>",
+      "imagePosition" : [-7, 1],
+	  
+	  "direction" : "right",
+      "animationPosition" : [-7, 1],
 
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
     }
   ],
 
-  "soundEffect" : "/sfx/objects/plasmadisc.wav"
+  "soundEffect" : "/sfx/objects/plasmadisc.wav",
+
+  "animation" : "plasmadisc.animation",
+  "animationParts" : {
+    "bg" : "plasmadisc.png",
+    "fg" : "plasmadisclit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inboundNodes" : [ [0, 0] ]
 
 }

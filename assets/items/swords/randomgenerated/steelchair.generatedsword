@@ -3,7 +3,7 @@
   "bladeBehindHandle" : false,
   "baseDps" : [2.5, 3.5],
   "rateOfSwing" : [0.8, 1],
-  "multiplier" : 0.275,
+  "multiplier" : 0.3,
   "firePosition" : [4, 2],
   "fireAfterWindup" : true,
   "muzzleFlashes" : [ ],
@@ -22,7 +22,6 @@
       "armAngle" : -90,
       "swordAngle" : -90,
       "handPosition" : [-2, -18],
-      "armFrameOverride" : "idleMelee",
       "duration" : 0.1
     },
     "windup" : {
@@ -44,6 +43,37 @@
       "statusEffects" : [
         { "kind" : "shieldsuppressed", "duration" : 0.1 }
       ]
+    }
+  },
+  "parryBlockCooldown" : 1.2,
+  "parrySound" : "/sfx/melee/sword_parry.wav",
+  "parryParticle" : "shieldspark",
+
+  "altStances" : {
+    "type" : "parry",
+    "rescaleTiming" : false,
+    "parryPoly" : [ [-10, 24], [6, 32], [6, -12], [-10, 0] ],
+
+    "idle" : {
+      "twoHanded" : false,
+      "armAngle" : -90,
+      "swordAngle" : -90,
+      "handPosition" : [-2.0, -18.0],
+      "duration" : 0.1
+    },
+    "windup" : {
+      "twoHanded" : true,
+      "armAngle" : 0,
+      "swordAngle" : 20,
+      "handPosition" : [-2.0, -10.0],
+      "duration" : 1.0
+    },
+    "cooldown" : {
+      "twoHanded" : false,
+      "armAngle" : -90,
+      "swordAngle" : -90,
+      "handPosition" : [-2.0, -18.0],
+      "duration" : 0.1
     }
   },
   "palette" : [

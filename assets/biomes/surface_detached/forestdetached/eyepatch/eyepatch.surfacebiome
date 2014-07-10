@@ -1,7 +1,11 @@
 {
   "name" : "eyepatch",
   "friendlyName" : "Eyepatch",
-  "caveLiquidType" : "tentaclejuice",
+
+  "caveLiquidType" : [
+    [0, ["tentaclejuice"]]
+  ],
+
   "spawnProfiles" : [ "surfacemix1", "surfacemix2", "surfacemix3" ],
 
   "surfaceParameters" : {

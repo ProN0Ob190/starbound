@@ -17,7 +17,7 @@
   "altBlockRadius" : 1,
   "twoHanded" : true,
   "strikeSound" : "/sfx/tools/pickaxe_hit.wav",
-  "durability" : 7500,
+  "durability" : 3750,
   "durabilityPerUse" : 1,
   "durabilityRegenChart" : [
     [ [ "copperore" ], 750], [ [ "silverore" ], 1125], [ [ "goldore" ], 1500], [ [ "platinumore" ], 1875], [ [ "diamond" ], 2250]

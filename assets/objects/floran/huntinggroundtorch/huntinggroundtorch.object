@@ -16,11 +16,9 @@
 
   "category" : "light",
   "price" : 800,
-  "lightColor" : [229, 218, 207],
+  "lightColor" : [191, 177, 163],
   "flickerDistance" : 0.5,
   "flickerStrength" : 0.1,
-
-  "soundEffect" : "/sfx/objects/campfire.wav",
 
   "statusEffects" : [
     {
@@ -55,13 +53,37 @@
   "inventoryIcon" : "huntinggroundtorchicon.png",
   "orientations" : [
     {
-      "dualImage" : "huntinggroundtorch.png:<color>.<frame>",
+      "image" : "huntinggroundtorch.png:<color>.<frame>",
       "imagePosition" : [-8, 0],
-      "frames" : 4,
-      "animationCycle" : 0.5,
+	  
+	  "direction" : "left",
+	  "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+	{
+      "image" : "huntinggroundtorch.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+	  
+	  "direction" : "right",
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
-  ]
+  ],
+
+  "soundEffect" : "/sfx/objects/torch.wav",
+
+  "animation" : "huntinggroundtorch.animation",
+  "animationParts" : {
+    "bg" : "huntinggroundtorch.png",
+    "fg" : "huntinggroundtorchlit.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inboundNodes" : [ [0, 0] ]
 }

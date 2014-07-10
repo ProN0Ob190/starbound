@@ -1,7 +1,11 @@
 {
   "name" : "tar",
   "friendlyName" : "Tar",
-  "caveLiquidType" : "tarliquid",
+
+  "caveLiquidType" : [
+    [0, ["tarliquid"]]
+  ],
+
   "spawnProfiles" : [ "surfacemix1", "surfacemix2", "surfacemix3" ],
 
   "surfaceParameters" : {

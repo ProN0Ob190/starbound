@@ -1,11 +1,42 @@
 {
   "name" : "arid",
   "friendlyName" : "Arid",
-  "caveLiquidType" : [ "water", "acid", "tarliquid" ],
+
+  "caveLiquidType" : [
+    [0.0, ["water"]],
+    [1.5, ["water", "tarliquid"]],
+    [2.5, ["water", "acid", "tarliquid"]]
+  ],
+
   "requiredStatuses" : [],
   "spawnProfiles" : [ "surfacemix1", "surfacemix2", "surfacemix3" ],
 
   "hueShiftOptions" : [-180, -135, -90, -45, 0, 45, 90, 135, 180],
+
+  "weather" : [
+    [0, [
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:commonSandstorm"
+    ]],
+    [1.5, [
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:commonSandstorm",
+      "/weather.config:rareMeteorShower",
+      "/weather.config:uncommonGlowingRain",
+      "/weather.config:uncommonSpacedust",
+      "/weather.config:veryCommonSandstorm",
+      "/weather.config:veryRareLargeMeteorShower"
+    ]]
+  ],
+
   "skyOptions" : [
 
     {
@@ -142,21 +173,6 @@
       "dayNightTemperatureVariability" : -12,
       "temperatureVariability" : 3
     },
-
-    "weather" : [
-      "/weather.config:clear",
-      "/weather.config:clear",
-      "/weather.config:clear",
-      "/weather.config:clear",
-      "/weather.config:clear",
-      "/weather.config:commonSandstorm",
-      "/weather.config:rareMeteorShower",
-      "/weather.config:uncommonGlowingRain",
-      "/weather.config:uncommonSpacedust",
-      "/weather.config:veryCommonSandstorm",
-      "/weather.config:veryRareLargeMeteorShower"
-    ],
-
 
     "ambientNoises" : {
       "day" : {
@@ -497,5 +513,7 @@
     }
   },
 
-  "allowedDetachedBiomes" : [ "shrubby", "aridbones", "arctic", "arid", "desert", "forest", "grasslands", "jungle", "magma", "ocean", "savannah", "snow", "tentacles", "tundra", "volcanic" ]
+  "allowedDetachedBiomes" : [
+    [0, [ "shrubby", "aridbones", "arctic", "arid", "desert", "forest", "grasslands", "jungle", "magma", "ocean", "savannah", "snow", "tentacles", "tundra", "volcanic" ]]
+  ]
 }

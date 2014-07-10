@@ -198,9 +198,7 @@
   "naturalcaveTreasure" : [
     [1, {
         "pool" : [
-          [0.05, [ "money", 15] ],
-          [0.15, [ "money", 5] ],
-          [0.25, [ "money", 2] ],
+          [0.4, [ "money", 1] ],
           [0.03, [ "rope", 1] ],
           [0.04, [ "bomb", 1] ],
           [0.02, "flashlight" ],
@@ -220,15 +218,15 @@
           [0.04, [ "ironbar", 2] ],
           [0.02, [ "ironbar", 5] ],
           [0.03, [ "coalore", 5] ],
-          [0.03, [ "fullwood1", 5] ],
-          [0.02, [ "fullwood1", 10] ],
+          [0.05, [ "fullwood1", 5] ],
+          [0.025, [ "fullwood1", 10] ],
           [0.04, [ "darkwoodmaterial", 10] ],
-          [0.03, [ "cobblestonematerial", 10] ],
-          [0.01, [ "cobblestonematerial", 25] ]
+          [0.045, [ "cobblestonematerial", 10] ],
+          [0.02, [ "cobblestonematerial", 25] ]
         ],
         "poolRounds" : [
-          [0.4, 0],
-          [0.4, 1],
+          [0.5, 0],
+          [0.3, 1],
           [0.2, 2]
         ],
         "levelVariance" : [0, 0],
@@ -239,9 +237,7 @@
   "naturalcaveTreasureLarge" : [
     [1, {
         "pool" : [
-          [0.05, [ "money", 15] ],
-          [0.15, [ "money", 5] ],
-          [0.25, [ "money", 2] ],
+          [0.45, [ "money", 1] ],
           [0.03, [ "rope", 1] ],
           [0.04, [ "bomb", 1] ],
           [0.02, "flashlight" ],
@@ -261,17 +257,17 @@
           [0.04, [ "ironbar", 2] ],
           [0.02, [ "ironbar", 5] ],
           [0.03, [ "coalore", 5] ],
-          [0.03, [ "fullwood1", 5] ],
-          [0.02, [ "fullwood1", 10] ],
+          [0.05, [ "fullwood1", 5] ],
+          [0.025, [ "fullwood1", 10] ],
           [0.04, [ "darkwoodmaterial", 10] ],
-          [0.03, [ "cobblestonematerial", 10] ],
-          [0.01, [ "cobblestonematerial", 25] ]
+          [0.045, [ "cobblestonematerial", 10] ],
+          [0.02, [ "cobblestonematerial", 25] ]
         ],
         "poolRounds" : [
           [0.2, 0],
-          [0.4, 1],
+          [0.5, 1],
           [0.2, 2],
-          [0.2, 3]
+          [0.1, 3]
         ],
         "levelVariance" : [0, 0],
         "allowDuplication" : true

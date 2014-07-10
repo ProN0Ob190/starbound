@@ -1270,6 +1270,7 @@
   "parts" : [
     {
       "name" : "lab1",
+	  "minimumThreatLevel" : 1.5,
       "rules" : [
         [ "maxSpawnCount", [1] ]
       ],
@@ -1278,6 +1279,7 @@
 
     {
       "name" : "lab2",
+	  "minimumThreatLevel" : 1.5,
       "rules" : [
         [ "maxSpawnCount", [1] ]
       ],
@@ -1286,6 +1288,7 @@
 
     {
       "name" : "lab3",
+	  "minimumThreatLevel" : 1.5,
       "rules" : [
         [ "maxSpawnCount", [1] ]
       ],
@@ -1294,6 +1297,7 @@
 
     {
       "name" : "lab4",
+	  "minimumThreatLevel" : 1.5,
       "rules" : [
         [ "maxSpawnCount", [1] ]
       ],
@@ -1302,6 +1306,7 @@
 
     {
       "name" : "lab5",
+	  "minimumThreatLevel" : 1.5,
       "rules" : [
         [ "maxSpawnCount", [1] ]
       ],
@@ -1310,6 +1315,7 @@
 
     {
       "name" : "lab6",
+	  "minimumThreatLevel" : 1.5,
       "rules" : [
         [ "maxSpawnCount", [1] ]
       ],
@@ -1318,6 +1324,7 @@
 
     {
       "name" : "apexmedical",
+	  "minimumThreatLevel" : 1.5,
       "rules" : [
         [ "maxSpawnCount", [1] ]
       ],
@@ -1326,6 +1333,7 @@
 
 	{
       "name" : "agaranhouse1",
+	  "minimumThreatLevel" : 1.5,
       "rules" : [
         [ "maxSpawnCount", [1] ]
       ],
@@ -1334,6 +1342,7 @@
 	
 	{
       "name" : "agaranhouse2",
+	  "minimumThreatLevel" : 1.5,
       "rules" : [
         [ "maxSpawnCount", [1] ]
       ],
@@ -1342,6 +1351,7 @@
 	
 	{
       "name" : "agaranhouse3",
+	  "minimumThreatLevel" : 1.5,
       "rules" : [
         [ "maxSpawnCount", [1] ]
       ],
@@ -1350,6 +1360,7 @@
 	
 	{
       "name" : "giantpod1",
+	  "minimumThreatLevel" : 1.5,
       "rules" : [
         [ "maxSpawnCount", [1] ]
       ],
@@ -1358,6 +1369,7 @@
 	
     {
       "name" : "agaranmedical",
+	  "minimumThreatLevel" : 1.5,
       "rules" : [
         [ "maxSpawnCount", [1] ]
       ],

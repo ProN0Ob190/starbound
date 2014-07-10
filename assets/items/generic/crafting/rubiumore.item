@@ -2,6 +2,6 @@
   "itemName" : "Rubiumore",
   "rarity" : "Common",
   "inventoryIcon" : "Rubiumore.png",
-  "description" : "Rubium ore. Can be used for smelting or repairs. Select ore and right click pickaxe.",
+  "description" : "Rubium ore. Can be used for smelting or repairs. Pick up ore and right click mining tool to repair.",
   "shortdescription" : "Rubium Ore"
 }

@@ -1,6 +1,7 @@
 {
   "name" : "colorfulcave",
   "friendlyName" : "Colorful Cave",
+  "caveLiquidType" : "water",
   "requiredStatuses" : [ "beamaxe" ],
   "spawnProfiles" : [ "undergroundmix1", "undergroundmix2", "undergroundmix3" ],
 

@@ -1,9 +1,11 @@
 function update(store)
-  if store.recoil then
-    if not store.recoilTime then
-      store.recoilTime = store.recoil
+  if store.data then
+    if store.data.recoil then
+      if not store.data.recoilTime then
+        store.data.recoilTime = store.data.recoil
+      end
+      vremove(store.data, "recoil")
     end
-    vremove(store, "recoil")
   end
   return store
 end

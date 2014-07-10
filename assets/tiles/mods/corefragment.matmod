@@ -6,5 +6,6 @@
   "itemDrop" : "corefragmentore",
   "Description" : "Core Fragment.",
   "health" : 10,
+  "harvestLevel" : 3,
   "breaksWithTile" : true
 }

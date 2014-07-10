@@ -5,6 +5,34 @@
   "spawnProfiles" : [ "surfacemix1", "surfacemix2", "surfacemix3" ],
 
   "hueShiftOptions" : [-56, -45, -16, -26, 0],
+
+  "weather" : [
+    [0, [
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:commonSandstorm"
+    ]],
+    [1.5, [
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:commonSandstorm",
+      "/weather.config:rareAcidRain",
+      "/weather.config:rareMeteorShower",
+      "/weather.config:uncommonGlowingRain",
+      "/weather.config:veryRareLargeMeteorShower"
+    ]]
+  ],
+
   "skyOptions" : [
 
     {
@@ -138,21 +166,6 @@
       "dayNightTemperatureVariability" : -13,
       "temperatureVariability" : 3
     },
-
-    "weather" : [
-      "/weather.config:clear",
-      "/weather.config:clear",
-      "/weather.config:clear",
-      "/weather.config:clear",
-      "/weather.config:clear",
-      "/weather.config:clear",
-      "/weather.config:clear",
-      "/weather.config:commonSandstorm",
-      "/weather.config:rareAcidRain",
-      "/weather.config:rareMeteorShower",
-      "/weather.config:uncommonGlowingRain",
-      "/weather.config:veryRareLargeMeteorShower"
-    ],
 
     "parallax" : "desert.parallax",
     "undergroundParallax" : "desert.undergroundparallax",
@@ -523,5 +536,7 @@
     }
   },
 
-  "allowedDetachedBiomes" : [ "bones", "sandstone", "tar", "oasis", "colourful", "arctic", "arid", "desert", "forest", "grasslands", "jungle", "magma", "ocean", "savannah", "snow", "tentacles", "tundra", "volcanic" ]
+  "allowedDetachedBiomes" : [
+    [0, [ "bones", "sandstone", "tar", "oasis", "colourful", "arctic", "arid", "desert", "forest", "grasslands", "jungle", "magma", "ocean", "savannah", "snow", "tentacles", "tundra", "volcanic" ]]
+  ]
 }

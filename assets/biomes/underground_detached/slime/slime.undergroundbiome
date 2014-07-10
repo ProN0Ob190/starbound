@@ -2,6 +2,7 @@
   "name" : "slimecaves",
   "friendlyName" : "Slime Caves",
   "caveLiquidType" : "acid",
+
   "requiredStatuses" : [ "beamaxe" ],
   "spawnProfiles" : [ "undergroundmix1", "undergroundmix2", "undergroundmix3" ],
 

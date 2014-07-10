@@ -14,7 +14,7 @@
 
   "category" : "light",
   "price" : 500,
-  "lightColor" : [217, 217, 190],
+  "lightColor" : [210, 210, 200],
 
   "inventoryIcon" : "classiclightarticon.png",
   "orientations" : [
@@ -23,9 +23,38 @@
       "imagePosition" : [-12, -8],
       "frames" : 1,
       "animationCycle" : 0.3,
+	  
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "animationPosition" : [-12, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+	{
+      "image" : "classiclightart.png:<color>.<frame>",
+      "imagePosition" : [-12, -8],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+	  
+	  "direction" : "right",
+	  "animationPosition" : [-12, -8],
 
       "spaceScan" : 0.1,
       "anchors" : [ "top" ]
     }
-  ]
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "classiclightart.png",
+    "fg" : "classiclightartlit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inboundNodes" : [ [0, 0] ]
 }

@@ -1,6 +1,7 @@
 {
   "name" : "mushrooms",
   "friendlyName" : "Mushrooms",
+  "caveLiquidType" : "water",
   "requiredStatuses" : [ "beamaxe" ],
   "spawnProfiles" : [ "undergroundmix1", "undergroundmix2", "undergroundmix3" ],
 

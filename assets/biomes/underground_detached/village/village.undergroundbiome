@@ -1,6 +1,7 @@
 {
   "name" : "village",
   "friendlyName" : "Village",
+  "caveLiquidType" : "water",
   "requiredStatuses" : [ "beamaxe" ],
   "spawnProfiles" : [ "undergroundmix1", "undergroundmix2", "undergroundmix3" ],
 

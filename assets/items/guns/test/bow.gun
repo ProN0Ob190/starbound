@@ -8,7 +8,7 @@
   "shortdescription" : "Hunting Bow",
   "image" : "bowfull.png:<frame>",
   "imageFrameSelector" : "bowImageSelector",
-  "handPosition" : [0, -1],
+  "handPosition" : [-2, 0],
   "firePosition" : [20, 1.5],
   "level" : 1,
   "fireTime" : 0.65,

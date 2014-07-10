@@ -6,6 +6,30 @@
   "spawnProfiles" : [ "surfaceairless1", "surfaceairless2", "surfaceairless3" ],
 
   "hueShiftOptions" : [-180, -25, 25],
+
+  "weather" : [
+    [0, [
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:uncommonGlowingRain"
+    ]],
+    [1.5, [
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:uncommonGlowingRain",
+      "/weather.config:rareLargeMeteorShower",
+      "/weather.config:uncommonMeteorShower"
+    ]]
+  ],
+
   "skyOptions" : [
 
     {
@@ -36,18 +60,6 @@
       "temperatureVariability" : 10,
       "breathable" : false
     },
-
-    "weather" : [
-      "/weather.config:clear",
-      "/weather.config:clear",
-      "/weather.config:clear",
-      "/weather.config:clear",
-      "/weather.config:clear",
-      "/weather.config:clear",
-      "/weather.config:uncommonGlowingRain",
-      "/weather.config:rareLargeMeteorShower",
-      "/weather.config:uncommonMeteorShower"
-    ],
 
     "ambientNoises" : {
       "day" : {

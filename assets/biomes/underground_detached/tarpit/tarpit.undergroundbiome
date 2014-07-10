@@ -2,6 +2,7 @@
   "name" : "tarpit",
   "friendlyName" : "Tarpit",
   "caveLiquidType" : "tarliquid",
+
   "requiredStatuses" : [ "beamaxe" ],
   "spawnProfiles" : [ "undergroundmix1", "undergroundmix2", "undergroundmix3" ],
 

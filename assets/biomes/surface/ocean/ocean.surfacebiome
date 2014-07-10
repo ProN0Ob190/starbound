@@ -1,12 +1,32 @@
 {
   "name" : "ocean",
   "friendlyName" : "Ocean",
-  "caveLiquidType" : "water",
-  "oceanLiquidType" : "ocean",
+
+  "caveLiquidType" : [
+    [0, ["water"]]
+  ],
+
+  "oceanLiquidType" : [
+    [0, ["ocean"]]
+  ],
+
   "requiredStatuses" : [],
   "spawnProfiles" : [ "surfacemix1", "surfacemix2", "surfacemix3" ],
 
   "hueShiftOptions" : [-60, -45, 0, 45, 60],
+
+  "weather" : [
+    [0, [
+      "/weather.config:alwaysRaining",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear"
+    ]]
+  ],
+
   "skyOptions" : [
 
     {
@@ -139,16 +159,6 @@
       "dayNightTemperatureVariability" : 70,
       "temperatureVariability" : 5
     },
-
-    "weather" : [
-      "/weather.config:alwaysRaining",
-      "/weather.config:clear",
-      "/weather.config:clear",
-      "/weather.config:clear",
-      "/weather.config:clear",
-      "/weather.config:clear",
-      "/weather.config:clear"
-    ],
 
     "parallax" : "ocean.parallax",
     "undergroundParallax" : "ocean.undergroundparallax",

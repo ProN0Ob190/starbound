@@ -1,13 +1,40 @@
 {
   "name" : "forest",
   "friendlyName" : "Forest",
-  "caveLiquidType" : [ "water", "acid", "tarliquid" ],
+
+  "caveLiquidType" : [
+    [0.0, ["water"]],
+    [1.5, ["water", "tarliquid"]],
+    [2.5, ["water", "acid", "tarliquid"]]
+  ],
+
   "requiredStatuses" : [],
   "spawnProfiles" : [ "surfacemix1", "surfacemix2", "surfacemix3" ],
 
   "hueShiftOptions" : [-30, -20, -15, -10, -5, 0, 5, 10, 15, 20, 30],
-  "skyOptions" : [
 
+  "weather" : [
+    [0, [
+        "/weather.config:commonLightRainMixAndGlowingRain",
+        "/weather.config:commonLightRainMixAndGlowingRain"
+    ]],
+    [1.5, [
+        "/weather.config:commonLightRainMixAndGlowingRain",
+        "/weather.config:commonLightRainMixAndGlowingRain",
+        "/weather.config:commonLightRainMixAndGroundmist",
+        "/weather.config:commonLightRainMixAndHail",
+        "/weather.config:commonLightRainMixAndWindstorm",
+        "/weather.config:rareAcidRain",
+        "/weather.config:rareEmber",
+        "/weather.config:rareMeteorShower",
+        "/weather.config:rareSpacejunk",
+        "/weather.config:uncommonSnow",
+        "/weather.config:uncommonSpacedust",
+        "/weather.config:veryRareLargeMeteorShower"
+    ]]
+  ],
+
+  "skyOptions" : [
     {
       "mainColor" : [255, 255, 255],
 
@@ -137,21 +164,6 @@
     "parallax" : "forest.parallax",
     "undergroundParallax" : "forest.undergroundparallax",
 
-    "weather" : [
-      "/weather.config:commonLightRainMixAndGlowingRain",
-      "/weather.config:commonLightRainMixAndGlowingRain",
-      "/weather.config:commonLightRainMixAndGroundmist",
-      "/weather.config:commonLightRainMixAndHail",
-      "/weather.config:commonLightRainMixAndWindstorm",
-      "/weather.config:rareAcidRain",
-      "/weather.config:rareEmber",
-      "/weather.config:rareMeteorShower",
-      "/weather.config:rareSpacejunk",
-      "/weather.config:uncommonSnow",
-      "/weather.config:uncommonSpacedust",
-      "/weather.config:veryRareLargeMeteorShower"
-    ],
-
     "statusParameters" : {
       "temperatureBounds" : [3, 10],
       "dayNightTemperatureVariability" : -12,
@@ -276,20 +288,19 @@
             }
           ]
         },
+
         {
           "mode" : "floor",
-          "priority" : 0.0,
+          "priority" : 0,
           "variants" : 1,
           "distribution" : "/biomes/distributions.config:overgroundChests",
 
           "type" : "treasureBox",
           "treasureBoxSets" : [ "basicChest" ]
         },
-
-
         {
           "mode" : "floor",
-          "priority" : 1.0,
+          "priority" : 1,
           "variants" : 1,
           "distribution" : "/biomes/distributions.config:overgroundChests",
 
@@ -303,13 +314,14 @@
         },
         {
           "mode" : "floor",
-          "priority" : 0.0,
+          "priority" : 0,
           "variants" : 1,
           "distribution" : "/biomes/distributions.config:overgroundChests",
 
           "type" : "treasureBox",
           "treasureBoxSets" : [ "weaponChest" ]
         },
+
         {
           "mode" : "floor",
           "priority" : 3.0,
@@ -563,6 +575,9 @@
     }
   },
 
-  "allowedDetachedBiomes" : [ "toxicplains", "flowers", "eyepatch", "mushroompatch", "arctic", "arid", "desert", "forest", "grasslands", "jungle", "magma", "ocean", "savannah", "snow", "tentacles", "tundra", "volcanic" ]
+  "allowedDetachedBiomes" : [
+    [0.0, [ "mushroompatch" ]],
+    [1.5, [ "toxicplains", "flowers", "eyepatch", "mushroompatch", "arctic", "arid", "desert", "forest", "grasslands", "jungle", "magma", "ocean", "savannah", "snow", "tentacles", "tundra", "volcanic" ]]
+  ]
   // "allowedDetachedBiomes" : [ "toxicplains", "charred", "flowers", "eyepatch", "mushroompatch", "rocky" ]
 }

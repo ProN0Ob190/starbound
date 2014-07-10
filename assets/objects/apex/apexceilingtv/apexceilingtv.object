@@ -3,7 +3,10 @@
   "rarity" : "Common",
   "category" : "decorative",
   "price" : 800,
-  "lightColor" : [89, 89, 89],
+  "lightColor" : [125, 125, 125],
+  "pointLight" : true,
+  "pointBeam" : 0.70,
+  
   "flickerDistance" : 0.2,
   "flickerStrength" : 0.1,
   "flickerTiming" : 8,
@@ -27,7 +30,8 @@
       "spaceScan" : 0.1,
       "anchors" : [ "top" ],
       "direction" : "left",
-      "lightPosition" : [-2, -3]
+      "lightPosition" : [0, -2],
+      "pointAngle" : 225
     },
     {
       "image" : "apexceilingtv.png:<color>.<frame>",
@@ -35,7 +39,8 @@
       "spaceScan" : 0.1,
       "anchors" : [ "top" ],
       "direction" : "right",
-      "lightPosition" : [4, -3]
+      "lightPosition" : [0, -2],
+      "pointAngle" : 315
     }
   ],
 

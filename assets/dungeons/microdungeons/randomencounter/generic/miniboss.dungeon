@@ -3896,16 +3896,19 @@
   "parts" : [
     {
       "name" : "quadrupedminiboss",
+	  "minimumThreatLevel" : 1.5,
       "rules" : [ ],
       "def" : [ "image", [ "quadrupedminiboss.png", "quadrupedminibossobjects.png" ] ]
     },
 	{
       "name" : "tallbipedminiboss",
+	  "minimumThreatLevel" : 1.5,
       "rules" : [ ],
       "def" : [ "image", [ "quadrupedminiboss.png", "tallbipedminibossobjects.png" ] ]
     },
     {
       "name" : "smallflyingminiboss",
+	  "minimumThreatLevel" : 1.5,
       "rules" : [ ],
       "def" : [ "image", [ "quadrupedminiboss.png", "smallflyingminibossobjects.png" ] ]
     }

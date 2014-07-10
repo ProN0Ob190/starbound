@@ -16,7 +16,7 @@
   "humanDescription" : "An old torch.",
   "hylotlDescription" : "The Hylotl do not light torches. Beneath the ocean, air is too precious to waste.",
 
-  "lightColor" : [229, 218, 207],
+  "lightColor" : [191, 177, 163],
   "flickerDistance" : 0.5,
   "flickerStrength" : 0.1,
 
@@ -31,17 +31,27 @@
   "orientations" : [
     {
       "image" : "birdgroundlantern.png:<color>.<frame>",
-
       "imagePosition" : [0, 0],
-      "frames" : 4,
-      "animationCycle" : 1.0,
+	  
+	  "direction" : "right",
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-
     }
   ],
 
-  "soundEffect" : "/sfx/objects/torch.wav"
+  "soundEffect" : "/sfx/objects/torch.wav",
+
+  "animation" : "birdgroundlantern.animation",
+  "animationParts" : {
+    "bg" : "birdgroundlantern.png",
+    "fg" : "birdgroundlanternlit.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inboundNodes" : [ [0, 0] ]
 
 }

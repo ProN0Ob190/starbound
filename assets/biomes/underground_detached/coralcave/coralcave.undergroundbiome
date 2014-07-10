@@ -1,7 +1,9 @@
 {
   "name" : "coralcave",
   "friendlyName" : "Coral Cave",
+
   "caveLiquidType" : "tarliquid",
+
   "requiredStatuses" : [ "beamaxe" ],
   "spawnProfiles" : [ "undergroundmix1", "undergroundmix2", "undergroundmix3" ],
 

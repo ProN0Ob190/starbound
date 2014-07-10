@@ -1,12 +1,15 @@
 {
   "name" : "fleshcave",
   "friendlyName" : "Flesh Cave",
+
+  "caveLiquidType" : "tentaclejuice",
+
   "requiredStatuses" : [ "beamaxe" ],
   "spawnProfiles" : [ "undergroundmix1", "undergroundmix2", "undergroundmix3" ],
 
   "mainBlock" : "fleshblock",
   "subBlocks" : [ "corruptdirt", "bonematerial" ],
-  "caveLiquidType" : "tentaclejuice",
+
   "ores" : "depth2",
 
   "statusParameters" : {

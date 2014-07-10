@@ -24,7 +24,7 @@
       "range" : 2
     } ],
 
-  "lightColor" : [179, 153, 125],
+  "lightColor" : [179, 165, 152],
   "flickerDistance" : 0.5,
   "flickerStrength" : 0.1,
 

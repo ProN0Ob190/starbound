@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "fullwood1", "count" : 10 },
+    { "item" : "darkwoodmaterial", "count" : 30 },
     { "item" : "plantfibre", "count" : 1 }
   ],
   "output" : {

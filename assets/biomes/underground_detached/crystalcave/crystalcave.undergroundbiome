@@ -1,7 +1,9 @@
 {
   "name" : "crystalcave",
   "friendlyName" : "Crystal Cave",
+
   "caveLiquidType" : "lava",
+
   "requiredStatuses" : [ "beamaxe" ],
   "spawnProfiles" : [ "undergroundmix1", "undergroundmix2", "undergroundmix3" ],
 

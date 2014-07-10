@@ -18,7 +18,7 @@
   "humanDescription" : "A giant cauldron. I hope there are no witches around.",
   "hylotlDescription" : "Full of smells few Hylotl have experienced.",
 
-  "lightColor" : [229, 218, 207],
+  "lightColor" : [217, 200, 184],
   "flickerDistance" : 0.5,
   "flickerStrength" : 0.1,
 

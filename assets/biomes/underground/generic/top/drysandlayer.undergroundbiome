@@ -1,6 +1,7 @@
 {
   "name" : "drysandlayer",
   "friendlyName" : "Drysandlayer",
+  "caveLiquidType" : "water",
   "requiredStatuses" : [ "beamaxe" ],
   "spawnProfiles" : [ "undergroundmix1", "undergroundmix2", "undergroundmix3" ],
 
@@ -45,15 +46,6 @@
             "parameters" : { }
           }
         ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 3.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:denseLarge",
-
-        "type" : "microdungeon",
-        "microdungeons" : [ "underground" ]
       },
       {
         "mode" : "floor",
@@ -154,7 +146,7 @@
         "distribution" : "/biomes/distributions.config:randomEncounterUnderground",
 
         "type" : "microdungeon",
-        "microdungeons" : [ "undergroundencounter", "avianundergroundencounter", "apexundergroundencounter" ]
+        "microdungeons" : [ "avianundergroundencounter", "floranundergroundencounter", "glitchundergroundencounter" ]
       }
     ]
   },

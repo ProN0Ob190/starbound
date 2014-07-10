@@ -1,11 +1,43 @@
 {
   "name" : "tundra",
   "friendlyName" : "Tundra",
-  "caveLiquidType" : "water",
+
+  "caveLiquidType" : [
+    [0.0, ["water"]],
+    [1.5, ["water", "tarliquid"]],
+    [2.5, ["water", "acid", "tarliquid"]]
+  ],
+
   "requiredStatuses" : [],
   "spawnProfiles" : [ "surfacemix1", "surfacemix2", "surfacemix3" ],
 
   "hueShiftOptions" : [0],
+
+  "weather" : [
+    [0, [
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:commonSnowAndHail",
+      "/weather.config:commonSnowAndIcestorm",
+      "/weather.config:commonSnowAndSnowstorm"
+    ]],
+    [1.5, [
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:commonSnowAndHail",
+      "/weather.config:commonSnowAndIcestorm",
+      "/weather.config:commonSnowAndSnowstorm",
+      "/weather.config:rareMeteorShower",
+      "/weather.config:uncommonGlowingRain",
+      "/weather.config:veryCommonSnow",
+      "/weather.config:veryCommonSnow",
+      "/weather.config:veryCommonSnowAndSnowstorm",
+      "/weather.config:veryCommonSnowAndSpacedust",
+      "/weather.config:veryCommonSnowstorm",
+      "/weather.config:veryRareLargeMeteorShower"
+    ]]
+  ],
+
   "skyOptions" : [
 
     {
@@ -135,22 +167,6 @@
 
     "parallax" : "tundra.parallax",
     "undergroundParallax" : "tundra.undergroundparallax",
-
-    "weather" : [
-      "/weather.config:clear",
-      "/weather.config:clear",
-      "/weather.config:commonSnowAndHail",
-      "/weather.config:commonSnowAndIcestorm",
-      "/weather.config:commonSnowAndSnowstorm",
-      "/weather.config:rareMeteorShower",
-      "/weather.config:uncommonGlowingRain",
-      "/weather.config:veryCommonSnow",
-      "/weather.config:veryCommonSnow",
-      "/weather.config:veryCommonSnowAndSnowstorm",
-      "/weather.config:veryCommonSnowAndSpacedust",
-      "/weather.config:veryCommonSnowstorm",
-      "/weather.config:veryRareLargeMeteorShower"
-    ],
 
     "statusParameters" : {
       "temperatureBounds" : [-50, -15],
@@ -542,6 +558,8 @@
     }
   },
 
-  "allowedDetachedBiomes" : [ "geometric", "orb", "spring", "ice", "arctic", "arid", "desert", "forest", "grasslands", "jungle", "magma", "ocean", "savannah", "snow", "tentacles", "tundra", "volcanic" ]
+  "allowedDetachedBiomes" : [
+    [0, [ "geometric", "orb", "spring", "ice", "arctic", "arid", "desert", "forest", "grasslands", "jungle", "magma", "ocean", "savannah", "snow", "tentacles", "tundra", "volcanic" ]]
+  ]
   //  "allowedDetachedBiomes" : [ "ice", "spring" ]
 }
