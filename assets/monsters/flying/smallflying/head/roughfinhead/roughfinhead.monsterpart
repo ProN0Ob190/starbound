@@ -1,9 +1,0 @@
-{
-  "name" : "roughfinhead",
-  "category" : "smallflying_organic",
-  "type" : "head",
-
-  "frames" : {
-    "head" : "roughfinhead.png"
-  }
-}

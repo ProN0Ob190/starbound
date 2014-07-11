@@ -1,9 +1,0 @@
-{
-  "name" : "tinyvolcanochest",
-  "category" : "tinyquadruped_organic",
-  "type" : "chest",
-
-  "frames" : {
-    "chest" : "tinyvolcanochest.png"
-  }
-}

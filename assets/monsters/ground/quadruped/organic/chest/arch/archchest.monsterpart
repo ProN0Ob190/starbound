@@ -1,9 +1,0 @@
-{
-  "name" : "archchest",
-  "category" : "quadruped_organic",
-  "type" : "chest",
-
-  "frames" : {
-    "chest" : "archchest.png"
-  }
-}

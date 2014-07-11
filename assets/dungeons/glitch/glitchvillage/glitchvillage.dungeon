@@ -1899,7 +1899,7 @@
       "brush" : [ [ "npc",
           {
             "kind" : "monster",
-            "typeName" : "quadruped",
+            "typeName" : "largequadruped",
             "seed" : "stable",
             "parameters" : {
               "aggressive" : false

@@ -1,9 +1,0 @@
-{
-  "name" : "ribbonbody",
-  "category" : "smallflying_organic",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "ribbonbody.png"
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "name" : "tinygatorchest",
-  "category" : "tinyquadruped_organic",
-  "type" : "chest",
-
-  "frames" : {
-    "chest" : "tinygatorchest.png"
-  }
-}

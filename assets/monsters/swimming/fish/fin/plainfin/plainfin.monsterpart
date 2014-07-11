@@ -1,6 +1,6 @@
 {
   "name" : "plainfin",
-  "category" : "fish_organic",
+  "category" : "fish",
   "type" : "fin",
 
   "frames" : {

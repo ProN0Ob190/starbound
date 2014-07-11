@@ -4,8 +4,7 @@
     "species" : "dummy",
     "rules" : [
     ],
-    // "anchor" : [ "lab", "lab2", "lab3" ],
-    "anchor" : [ "lab3" ],
+	"anchor" : [ "lab1", "lab2", "trap1" ],
     "maxRadius" : 2000,
     "maxParts" : 100
   },
@@ -267,11 +266,41 @@
       "comment" : "foreground crosshatch",
       "brush" : [ [ "clear" ], [ "back", "crosshatch" ], [ "front", "crosshatch" ] ]
     },
+	
+	{
+      "value" : [128, 121, 64, 255],
+      "comment" : "background baseboard",
+      "brush" : [ [ "clear" ], [ "back", "baseboard" ] ]
+    },
+
+    {
+      "value" : [166, 157, 83, 255],
+      "comment" : "foreground baseboard",
+      "brush" : [ [ "clear" ], [ "back", "baseboard" ], [ "front", "baseboard" ] ]
+    },
 
     {
       "value" : [54, 63, 105, 255],
       "comment" : "acid pool foreground",
       "brush" : [ [ "clear" ], [ "acid" ] ]
+    },
+
+    {
+      "value" : [255, 0, 0, 255],
+      "comment" : "wire #1 Red",
+      "brush" : [ [ "wire", { "group" : "group1", "local" : true } ] ]
+    },
+
+    {
+      "value" : [0, 255, 0, 255],
+      "comment" : "wire #2 Green",
+      "brush" : [ [ "wire", { "group" : "group2", "local" : true } ] ]
+    },
+
+    {
+      "value" : [0, 0, 255, 255],
+      "comment" : "wire #3 Blue",
+      "brush" : [ [ "wire", { "group" : "group3", "local" : true } ] ]
     },
 
     {
@@ -325,13 +354,13 @@
     {
       "value" : [255, 143, 64, 255],
       "comment" : "apexcoolbookcase facing left",
-      "brush" : [ [ "clear" ], [ "object", "apexcoolbookcase", { "direction" : "left" } ] ]
+      "brush" : [ [ "clear" ], [ "object", "apexcoolbookcase", { "direction" : "left", "parameters" : { "treasurePools" : [ "apexLabLore" ] } } ] ]
     },
 
     {
       "value" : [229, 129, 57, 255],
       "comment" : "apexcoolbookcase facing right",
-      "brush" : [ [ "clear" ], [ "object", "apexcoolbookcase", { "direction" : "right" } ] ]
+      "brush" : [ [ "clear" ], [ "object", "apexcoolbookcase", { "direction" : "right", "parameters" : { "treasurePools" : [ "apexLabLore" ] } } ] ]
     },
 
     {
@@ -367,37 +396,37 @@
     {
       "value" : [255, 236, 30, 255],
       "comment" : "techchest facing left",
-      "brush" : [ [ "clear" ], [ "object", "techchest", { "direction" : "left", "parameters" : { "treasurePools" : [ "basicTreasure" ] } } ] ]
+      "brush" : [ [ "clear" ], [ "object", "techchest", { "direction" : "left", "parameters" : { "treasurePools" : [ "apexlabtreasure" ] } } ] ]
     },
 
     {
       "value" : [229, 213, 28, 255],
       "comment" : "techchest facing right",
-      "brush" : [ [ "clear" ], [ "object", "techchest", { "direction" : "right", "parameters" : { "treasurePools" : [ "basicTreasure" ] } } ] ]
+      "brush" : [ [ "clear" ], [ "object", "techchest", { "direction" : "right", "parameters" : { "treasurePools" : [ "apexlabtreasure" ] } } ] ]
     },
 
     {
       "value" : [255, 191, 64, 255],
       "comment" : "apexcoolcupboard facing left",
-      "brush" : [ [ "clear" ], [ "object", "apexcoolcupboard", { "direction" : "left", "parameters" : { "treasurePools" : [ "naturalcaveTreasureLarge" ] } } ] ]
+      "brush" : [ [ "clear" ], [ "object", "apexcoolcupboard", { "direction" : "left", "parameters" : { "treasurePools" : [ "apexstimtreasure" ] } } ] ]
     },
 
     {
       "value" : [229, 172, 57, 255],
       "comment" : "apexcoolcupboard facing right",
-      "brush" : [ [ "clear" ], [ "object", "apexcoolcupboard", { "direction" : "right", "parameters" : { "treasurePools" : [ "naturalcaveTreasureLarge" ] } } ] ]
+      "brush" : [ [ "clear" ], [ "object", "apexcoolcupboard", { "direction" : "right", "parameters" : { "treasurePools" : [ "apexstimtreasure" ] } } ] ]
     },
 
     {
       "value" : [255, 207, 64, 255],
       "comment" : "apexcooldesk facing left",
-      "brush" : [ [ "clear" ], [ "object", "apexcooldesk", { "direction" : "left" } ] ]
+      "brush" : [ [ "clear" ], [ "object", "apexcooldesk", { "direction" : "left", "parameters" : { "treasurePools" : [ "apexLabLore" ] } } ] ]
     },
 
     {
       "value" : [229, 186, 57, 255],
       "comment" : "apexcooldesk facing right",
-      "brush" : [ [ "clear" ], [ "object", "apexcooldesk", { "direction" : "right" } ] ]
+      "brush" : [ [ "clear" ], [ "object", "apexcooldesk", { "direction" : "right", "parameters" : { "treasurePools" : [ "apexLabLore" ] } } ] ]
     },
 
     {
@@ -663,6 +692,24 @@
       "comment" : "apexthoughtreassign",
       "brush" : [ [ "clear" ], [ "object", "apexthoughtreassign" ] ]
     },
+	
+	{
+      "value" : [128, 255, 0, 255],
+      "comment" : "smallfloorbutton",
+      "brush" : [ [ "clear" ], [ "object", "smallfloorbutton" ] ]
+    },
+	
+	{
+      "value" : [119, 255, 0, 255],
+      "comment" : "smallwallbutton",
+      "brush" : [ [ "clear" ], [ "object", "smallwallbutton" ] ]
+    },
+	
+	{
+      "value" : [102, 255, 0, 255],
+      "comment" : "smallwallswitch",
+      "brush" : [ [ "clear" ], [ "object", "smallwallswitch" ] ]
+    },
 
     {
       "value" : [253, 224, 78, 255],
@@ -674,6 +721,12 @@
       "value" : [252, 228, 104, 255],
       "comment" : "hazardtapeh",
       "brush" : [ [ "clear" ], [ "object", "hazardtapeh" ] ]
+    },
+	
+	{
+      "value" : [242, 218, 99, 255],
+      "comment" : "hazardtapev",
+      "brush" : [ [ "clear" ], [ "object", "hazardtapev" ] ]
     },
 
     {
@@ -1019,7 +1072,7 @@
     },
 
     {
-      "value" : [255, 64, 128, 255],
+      "value" : [255, 65, 128, 255],
       "comment" : "apexstatue facing left",
       "brush" : [ [ "clear" ], [ "object", "apexstatue", { "direction" : "left" } ] ]
     },
@@ -1075,21 +1128,21 @@
     {
       "value" : [90, 241, 143, 255],
       "comment" : "apexlocker facing left",
-      "brush" : [ [ "clear" ], [ "object", "apexlocker", { "direction" : "left" } ] ]
+      "brush" : [ [ "clear" ], [ "object", "apexlocker", { "direction" : "left", "parameters" : { "treasurePools" : [ "apexlockertreasure" ] } } ] ]
     },
 
     {
       "value" : [80, 217, 128, 255],
       "comment" : "apexlocker facing right",
-      "brush" : [ [ "clear" ], [ "object", "apexlocker", { "direction" : "right" } ] ]
+      "brush" : [ [ "clear" ], [ "object", "apexlocker", { "direction" : "right", "parameters" : { "treasurePools" : [ "apexlockertreasure" ] } } ] ]
     },
 
     {
       "value" : [90, 217, 80, 255],
       "comment" : "apextablelamp",
       "brush" : [ [ "clear" ], [ "object", "apextablelamp" ] ]
-    },
-
+	},
+	
     {
       "value" : [217, 80, 80, 255],
       "comment" : "redflask",
@@ -1106,26 +1159,182 @@
       "value" : [80, 109, 217, 255],
       "comment" : "blueflask",
       "brush" : [ [ "clear" ], [ "object", "blueflask" ] ]
+    },
+
+    {
+      "value" : [250, 200, 250, 255],
+      "comment" : "dungeonpod",
+      "brush" : [ [ "clear" ], [ "object", "dungeonpod" ] ]
+    },
+
+    // NPC MONSTER SPAWN BRUSHES //
+
+    {
+      "value" : [0, 200, 0, 255],
+      "comment" : "apex villager npc",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "npc",
+            "species" : "apex",
+            "typeName" : "villager",
+            "parameters" : {
+              "scriptConfig" : {
+                "sit" : {
+                  "moveTimeLimit" : 30,
+                  "searchRadius" : 25
+                },
+
+                "sleep" : {
+                  "searchRadius" : 15,
+                  "moveToBedTimeLimit" : 30.0
+                },
+
+                "work" : {
+                  "searchDistance" : -1.0
+                }
+              }
+            }
+          }
+        ] ]
+    },
+
+    {
+      "value" : [0, 0, 200, 255],
+      "comment" : "apex general store merchant npc",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "npc",
+            "species" : "apex",
+            "typeName" : "merchant",
+            "parameters" : {
+              "scriptConfig" : {
+                "noticePlayersRadius" : 20.0,
+                "merchant" : {
+                  "storeRadius" : 2,
+                  "categories" : [ "apexingredients" ],
+                  "priceVarianceRange" : [0.8, 1.2],
+                  "numItems" : 12
+                },
+                "sit" : {
+                  "searchRadius" : 8
+                }
+              }
+            }
+          }
+        ] ]
+    },
+
+    {
+      "value" : [200, 0, 0, 255],
+      "comment" : "apex guard npc",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "npc",
+            "species" : "apex",
+            "typeName" : "villageguard"
+          }
+        ] ]
+    },
+
+    {
+      "value" : [225, 0, 0, 255],
+      "comment" : "apex guard captain npc",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "npc",
+            "species" : "apex",
+            "typeName" : "villageguardcaptain"
+          }
+        ] ]
+    },
+
+    {
+      "value" : [0, 200, 200, 255],
+      "comment" : "apex lab scientist npc",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "npc",
+            "species" : "apex",
+            "typeName" : "labscientist"
+          }
+        ] ]
+    },
+
+    {
+      "value" : [0, 225, 225, 255],
+      "comment" : "apex lab guard npc",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "npc",
+            "species" : "apex",
+            "typeName" : "labguard"
+          }
+        ] ]
+    },
+
+    {
+      "value" : [0, 175, 175, 255],
+      "comment" : "apex exterior lab guard npc",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "npc",
+            "species" : "apex",
+            "typeName" : "labguard",
+            "parameters" : {
+              "scriptConfig" : {
+                "guard" : {
+                  "patrolDistance" : 0,
+                  "noticeDistance" : 30,
+                  "hailDistance" : 30,
+                  "stopDistance" : 10,
+                  "attackDistance" : 5
+                }
+              }
+            }
+          }
+        ] ]
+    },
+
+    {
+      "value" : [200, 0, 200, 255],
+      "comment" : "apex mutant npc",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "monster",
+            "typeName" : "apexmutant"
+          }
+        ] ]
+    },
+
+    {
+      "value" : [225, 0, 225, 255],
+      "comment" : "apex brain mutant npc",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "monster",
+            "typeName" : "apexbrainmutant"
+          }
+        ] ]
     }
   ],
 
   "parts" : [
     {
-      "name" : "lab",
+      "name" : "lab1",
       "rules" : [ ],
-      "def" : [ "image", [ "lab.png", "laba.png" ] ]
+      "def" : [ "image", [ "lab1.png", "lab1-objects.png" ] ]
     },
-
-    {
+	
+	{
       "name" : "lab2",
       "rules" : [ ],
-      "def" : [ "image", [ "lab2.png", "lab2a.png" ] ]
+      "def" : [ "image", [ "lab2.png", "lab2-objects.png" ] ]
     },
-
-    {
-      "name" : "lab3",
+	
+	{
+      "name" : "trap1",
       "rules" : [ ],
-      "def" : [ "image", [ "lab3.png", "lab3a.png" ] ]
+      "def" : [ "image", [ "trap1.png", "trap1-objects.png" ] ]
     }
   ]
 }

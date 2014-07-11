@@ -1,9 +1,0 @@
-{
-  "name" : "leaftailbody",
-  "category" : "smallflying_organic",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "leaftailbody.png"
-  }
-}

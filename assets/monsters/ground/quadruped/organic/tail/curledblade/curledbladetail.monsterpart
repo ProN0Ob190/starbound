@@ -1,9 +1,0 @@
-{
-  "name" : "curledbladetail",
-  "category" : "quadruped_organic",
-  "type" : "tail",
-
-  "frames" : {
-    "tail" : "curledbladetail.png"
-  }
-}

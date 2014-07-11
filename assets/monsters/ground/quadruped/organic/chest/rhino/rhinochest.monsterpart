@@ -1,9 +1,0 @@
-{
-  "name" : "rhinochest",
-  "category" : "quadruped_organic",
-  "type" : "chest",
-
-  "frames" : {
-    "chest" : "rhinochest.png"
-  }
-}

@@ -3,11 +3,8 @@ function init(args)
 
   self.target = 0
   self.toTarget = {0, 0}
-  if entity.configParameter("alwaysAggressive", false) then
-    self.aggressive = true
-  else
-    self.aggressive = entity.configParameter("aggressive", false)
-  end
+
+  self.aggressive = entity.configParameter("aggressive", false)
   
   self.knockout = false
   self.dead = false
@@ -94,9 +91,10 @@ function setAggressive(enabled)
   if enabled then
     entity.setAggressive(true)
     entity.setDamageOnTouch(true)
+    self.aggressive = true
   else
     entity.setDamageOnTouch(entity.configParameter("alwaysDamageOnTouch", false))
-    entity.setAggressive(entity.configParameter("alwaysAggressive", false))
+    entity.setAggressive(self.aggressive)
   end
 end
 

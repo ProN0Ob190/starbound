@@ -1,9 +1,0 @@
-{
-  "name" : "lightningchest",
-  "category" : "quadruped_organic",
-  "type" : "chest",
-
-  "frames" : {
-    "chest" : "lightningchest.png"
-  }
-}

@@ -463,11 +463,11 @@
 
     {
       "value" : [0, 136, 152, 255],
-      "comment" : "tallbiped npc",
+      "comment" : "largebiped npc",
       "brush" : [ [ "npc",
           {
             "kind" : "monster",
-            "typeName" : "tallbiped",
+            "typeName" : "largebiped",
             "seed" : "stable",
             "parameters" : {
               "aggressive" : true,
@@ -479,11 +479,11 @@
 	
 	{
       "value" : [173, 0, 179, 255],
-      "comment" : "tallbiped miniboss npc",
+      "comment" : "largebiped miniboss npc",
       "brush" : [ [ "npc",
           {
             "kind" : "monster",
-            "typeName" : "cavestarterboss",
+            "typeName" : "minibossquadruped",
             "seed" : "stable",
             "parameters" : {
               "aggressive" : true,

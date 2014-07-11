@@ -12,6 +12,11 @@
   "race" : "generic",
   "category" : "crafting",
   "price" : 200,
+  
+  "lightColor" : [35, 51, 51],
+  "flickerDistance" : 1,
+  "flickerStrength" : 0.1,
+  "flickerTiming" : 4,
 
   "apexDescription" : "A fancy crafting table.",
   "avianDescription" : "A mechanical crafting table.",
@@ -23,11 +28,31 @@
   "inventoryIcon" : "roboticcraftingtableicon.png",
   "orientations" : [
     {
-      "dualImage" : "roboticcraftingtable.png:<color>.<frame>",
+	  "imageLayers" : [ { "image" : "roboticcraftingtable.png:<color>.<frame>", "fullbright" : true }, { "image" : "roboticcraftingtablelit.png:<color>.<frame>" } ],
 
       "imagePosition" : [-16, 0],
       "frames" : 22,
       "animationCycle" : 2.0,
+	  
+	  "direction" : "left",
+	  "flipImages" : true,
+	  
+	  "lightPosition" : [ -1, 2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+	{
+	  "imageLayers" : [ { "image" : "roboticcraftingtable.png:<color>.<frame>", "fullbright" : true }, { "image" : "roboticcraftingtablelit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 22,
+      "animationCycle" : 2.0,
+	  
+	  "direction" : "right",
+	  
+	  "lightPosition" : [ 0, 2],
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]

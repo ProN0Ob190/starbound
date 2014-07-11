@@ -4,7 +4,7 @@
     "species" : "dummy",
     "rules" : [
     ],
-    "anchor" : [ "quadrupedminiboss", "smallflyingminiboss", "tallbipedminiboss" ],
+    "anchor" : [ "minibossquadruped", "minibossflying", "minibossbiped" ],
     "maxRadius" : 2000,
     "maxParts" : 15
   },
@@ -1762,7 +1762,7 @@
       "brush" : [ [ "npc",
           {
             "kind" : "monster",
-            "typeName" : "quadrupedminiboss",
+            "typeName" : "minibossquadruped",
             "seed" : "stable",
             "parameters" : {
               "aggressive" : true
@@ -1773,11 +1773,11 @@
 	
     {
       "value" : [0, 175, 100, 255],
-      "comment" : "tallbiped miniboss npc",
+      "comment" : "biped miniboss npc",
       "brush" : [ [ "npc",
           {
             "kind" : "monster",
-            "typeName" : "tallbipedminiboss",
+            "typeName" : "minibossbiped",
             "seed" : "stable",
             "parameters" : {
               "aggressive" : true
@@ -1788,11 +1788,11 @@
 
     {
       "value" : [100, 175, 0, 255],
-      "comment" : "smallflying miniboss npc",
+      "comment" : "flying miniboss npc",
       "brush" : [ [ "npc",
           {
             "kind" : "monster",
-            "typeName" : "smallflyingminiboss",
+            "typeName" : "minibossflying",
             "seed" : "stable",
             "parameters" : {
               "aggressive" : true
@@ -3631,7 +3631,7 @@
       "brush" : [ [ "npc",
           {
             "kind" : "monster",
-            "typeName" : "quadruped",
+            "typeName" : "largequadruped",
             "seed" : "stable",
             "parameters" : {
               "aggressive" : false
@@ -3895,23 +3895,22 @@
 
   "parts" : [
     {
-      "name" : "quadrupedminiboss",
-	  "minimumThreatLevel" : 1.5,
+      "name" : "minibossquadruped",
+      "minimumThreatLevel" : 1.5,
       "rules" : [ ],
-      "def" : [ "image", [ "quadrupedminiboss.png", "quadrupedminibossobjects.png" ] ]
+      "def" : [ "image", [ "minibossquadruped.png", "minibossquadrupedobjects.png" ] ]
     },
 	{
-      "name" : "tallbipedminiboss",
-	  "minimumThreatLevel" : 1.5,
+      "name" : "minibossbiped",
+      "minimumThreatLevel" : 1.5,
       "rules" : [ ],
-      "def" : [ "image", [ "quadrupedminiboss.png", "tallbipedminibossobjects.png" ] ]
+      "def" : [ "image", [ "minibossquadruped.png", "minibossbipedobjects.png" ] ]
     },
     {
-      "name" : "smallflyingminiboss",
-	  "minimumThreatLevel" : 1.5,
+      "name" : "minibossflying",
+      "minimumThreatLevel" : 1.5,
       "rules" : [ ],
-      "def" : [ "image", [ "quadrupedminiboss.png", "smallflyingminibossobjects.png" ] ]
+      "def" : [ "image", [ "minibossquadruped.png", "minibossflyingobjects.png" ] ]
     }
-
   ]
 }

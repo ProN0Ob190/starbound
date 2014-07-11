@@ -1,9 +1,0 @@
-{
-  "name" : "crookedtail",
-  "category" : "quadruped_organic",
-  "type" : "tail",
-
-  "frames" : {
-    "tail" : "crookedtail.png"
-  }
-}

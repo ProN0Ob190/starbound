@@ -1,9 +1,0 @@
-{
-  "name" : "tinywart1chest",
-  "category" : "tinyquadruped_organic",
-  "type" : "chest",
-
-  "frames" : {
-    "chest" : "tinywart1chest.png"
-  }
-}

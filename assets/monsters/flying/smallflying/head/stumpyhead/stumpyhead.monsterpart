@@ -1,9 +1,0 @@
-{
-  "name" : "stumpyhead",
-  "category" : "smallflying_organic",
-  "type" : "head",
-
-  "frames" : {
-    "head" : "stumpyhead.png"
-  }
-}

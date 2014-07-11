@@ -1,7 +1,7 @@
 {
   "type" : "smallflying",
 
-  "categories" : [ "smallflying_organic" ],
+  "categories" : [ "smallflying" ],
   "parts" : [ "body", "head", "wings" ],
   "partParameters" : "smallflying.partparams",
 

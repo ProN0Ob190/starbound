@@ -12,6 +12,11 @@
   "race" : "generic",
   "category" : "crafting",
   "price" : 200,
+  
+  "lightColor" : [179, 124, 62],
+  "flickerDistance" : 1,
+  "flickerStrength" : 0.1,
+  "flickerTiming" : 1,
 
   "apexDescription" : "A crafting table. I can make steel here.",
   "avianDescription" : "A crafting table. I can make steel here.",
@@ -23,16 +28,31 @@
   "inventoryIcon" : "metalworkstationicon.png",
   "orientations" : [
     {
-      "dualImage" : "metalworkstation.png:<color>.<frame>",
+	  "imageLayers" : [ { "image" : "metalworkstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "metalworkstationlit.png:<color>.<frame>" } ],
 
       "imagePosition" : [-8, 0],
       "frames" : 5,
-      "animationCycle" : 1.0,
+      "animationCycle" : 1.5,
+	  
+	  "direction" : "left",
+	  "flipImages" : true,
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform"
+    },
+	{
+	  "imageLayers" : [ { "image" : "metalworkstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "metalworkstationlit.png:<color>.<frame>" } ],
 
+      "imagePosition" : [-8, 0],
+      "frames" : 5,
+      "animationCycle" : 1.5,
+	  
+	  "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
     }
   ]
 }

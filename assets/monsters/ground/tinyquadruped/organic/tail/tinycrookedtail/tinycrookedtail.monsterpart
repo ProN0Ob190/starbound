@@ -1,9 +1,0 @@
-{
-  "name" : "tinycrookedtail",
-  "category" : "tinyquadruped_organic",
-  "type" : "tail",
-
-  "frames" : {
-    "tail" : "tinycrookedtail.png"
-  }
-}

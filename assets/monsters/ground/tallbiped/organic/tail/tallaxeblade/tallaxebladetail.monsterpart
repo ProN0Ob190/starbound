@@ -1,9 +1,0 @@
-{
-  "name" : "tallaxebladetail",
-  "category" : "tallbiped_organic",
-  "type" : "tail",
-
-  "frames" : {
-    "tail" : "tallaxebladetail.png"
-  }
-}

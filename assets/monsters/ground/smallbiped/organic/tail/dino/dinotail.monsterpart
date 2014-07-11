@@ -1,9 +1,0 @@
-{
-  "name" : "dinotail",
-  "category" : "smallbiped_organic",
-  "type" : "tail",
-
-  "frames" : {
-    "tail" : "dinotail.png"
-  }
-}

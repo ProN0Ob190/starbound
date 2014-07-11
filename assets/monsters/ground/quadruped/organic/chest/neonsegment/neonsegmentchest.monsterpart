@@ -1,9 +1,0 @@
-{
-  "name" : "neonsegmentchest",
-  "category" : "quadruped_organic",
-  "type" : "chest",
-
-  "frames" : {
-    "chest" : "neonsegmentchest.png"
-  }
-}

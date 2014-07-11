@@ -46,17 +46,32 @@
 
   "inventoryIcon" : "stonefurnaceicon.png",
   "orientations" : [
-    {
-      "dualImage" : "stonefurnace.png:<color>.<frame>",
+	{
+	  "imageLayers" : [ { "image" : "stonefurnace.png:<color>.<frame>", "fullbright" : true }, { "image" : "stonefurnacelit.png:<color>.<frame>" } ],
 
-      "imagePosition" : [0, 0],
+      "imagePosition" : [-8, 0],
       "frames" : 4,
       "animationCycle" : 0.5,
+	  
+	  "direction" : "left",
+	  "flipImages" : true,
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform"
+    },
+	{
+	  "imageLayers" : [ { "image" : "stonefurnace.png:<color>.<frame>", "fullbright" : true }, { "image" : "stonefurnacelit.png:<color>.<frame>" } ],
 
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+	  
+	  "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
     }
   ],
 

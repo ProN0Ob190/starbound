@@ -1,9 +1,0 @@
-{
-  "name" : "tortoisechest",
-  "category" : "quadruped_organic",
-  "type" : "chest",
-
-  "frames" : {
-    "chest" : "tortoisechest.png"
-  }
-}

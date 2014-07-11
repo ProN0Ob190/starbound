@@ -1,7 +1,7 @@
 {
   "type" : "fish",
 
-  "categories" : [ "fish_organic" ],
+  "categories" : [ "fish" ],
   "parts" : [ "head", "tail", "fin" ],
 
   "animation" : "fish.animation",

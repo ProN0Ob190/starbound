@@ -1,7 +1,7 @@
 {
   "type" : "smallshroom",
 
-  "categories" : [ "smallshroom_organic" ],
+  "categories" : [ "smallshroom" ],
   "parts" : [ "arms", "chest", "tail", "head" ],
   "partParameters" : "smallshroom.partparams",
 

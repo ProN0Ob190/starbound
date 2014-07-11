@@ -15,7 +15,7 @@ function init()
   self.skillOptions = {}
   self.noOptionCount = 0
 
-  self.aggressive = entity.configParameter("alwaysAggressive", false) or entity.configParameter("aggressive", false)
+  self.aggressive = entity.configParameter("aggressive", false)
 
   if capturepod ~= nil then
     capturepod.onInit()
@@ -53,6 +53,7 @@ function init()
     table.insert(states, 1, special)
   end
 
+  self.globalCooldown = entity.configParameter("globalCooldown", 0.75)
   self.skillCooldownTimers = {}
   self.skillParameters = {}
   for _, skillName in pairs(entity.configParameter("skills")) do
@@ -102,7 +103,13 @@ function init()
     entity.setActiveSkillName(nil)
     if isSkillState(stateName) then
       setAggressive(true, false)
-      self.skillCooldownTimers[stateName] = self.skillParameters[stateName].cooldownTime
+      for k,v in pairs(self.skillCooldownTimers) do
+        if k == stateName then
+          self.skillCooldownTimers[k] = self.skillParameters[k].cooldownTime
+        else
+          self.skillCooldownTimers[k] = math.max(self.skillCooldownTimers[k], self.globalCooldown)
+        end
+      end
     end
   end
 
@@ -564,10 +571,10 @@ end
 function setAggressive(enabled, damageOnTouch)
   if enabled then
     entity.setAggressive(true)
+    self.aggressive = true
   else
-    local aggressive = entity.configParameter("alwaysAggressive", false)
-    entity.setAggressive(aggressive)
-    if not aggressive then
+    entity.setAggressive(self.aggressive)
+    if not self.aggressive then
       damageOnTouch = false
     end
   end

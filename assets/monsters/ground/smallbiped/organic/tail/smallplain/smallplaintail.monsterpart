@@ -1,9 +1,0 @@
-{
-  "name" : "smallplaintail",
-  "category" : "smallbiped_organic",
-  "type" : "tail",
-
-  "frames" : {
-    "tail" : "smallplaintail.png"
-  }
-}

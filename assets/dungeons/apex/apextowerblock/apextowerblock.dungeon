@@ -215,6 +215,18 @@
       "comment" : "foreground crosshatch",
       "brush" : [ [ "clear" ], [ "back", "crosshatch" ], [ "front", "crosshatch" ] ]
     },
+	
+	{
+      "value" : [128, 121, 64, 255],
+      "comment" : "background baseboard",
+      "brush" : [ [ "clear" ], [ "back", "baseboard" ] ]
+    },
+
+    {
+      "value" : [166, 157, 83, 255],
+      "comment" : "foreground baseboard",
+      "brush" : [ [ "clear" ], [ "back", "baseboard" ], [ "front", "baseboard" ] ]
+    },
 
     {
       "value" : [21, 114, 185, 255],
@@ -683,6 +695,24 @@
       "comment" : "apexthoughtreassign",
       "brush" : [ [ "clear" ], [ "object", "apexthoughtreassign" ] ]
     },
+	
+	{
+      "value" : [128, 255, 0, 255],
+      "comment" : "smallfloorbutton",
+      "brush" : [ [ "clear" ], [ "object", "smallfloorbutton" ] ]
+    },
+	
+	{
+      "value" : [119, 255, 0, 255],
+      "comment" : "smallwallbutton",
+      "brush" : [ [ "clear" ], [ "object", "smallwallbutton" ] ]
+    },
+	
+	{
+      "value" : [102, 255, 0, 255],
+      "comment" : "smallwallswitch",
+      "brush" : [ [ "clear" ], [ "object", "smallwallswitch" ] ]
+    },
 
     {
       "value" : [253, 224, 78, 255],
@@ -694,6 +724,12 @@
       "value" : [252, 228, 104, 255],
       "comment" : "hazardtapeh",
       "brush" : [ [ "clear" ], [ "object", "hazardtapeh" ] ]
+    },
+	
+	{
+      "value" : [242, 218, 99, 255],
+      "comment" : "hazardtapev",
+      "brush" : [ [ "clear" ], [ "object", "hazardtapev" ] ]
     },
 
     {

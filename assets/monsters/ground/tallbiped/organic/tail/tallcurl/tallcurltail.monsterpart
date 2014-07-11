@@ -1,9 +1,0 @@
-{
-  "name" : "tallcurltail",
-  "category" : "tallbiped_organic",
-  "type" : "tail",
-
-  "frames" : {
-    "tail" : "tallcurltail.png"
-  }
-}

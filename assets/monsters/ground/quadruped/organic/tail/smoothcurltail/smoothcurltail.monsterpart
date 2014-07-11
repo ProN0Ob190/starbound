@@ -1,9 +1,0 @@
-{
-  "name" : "smoothcurltail",
-  "category" : "quadruped_organic",
-  "type" : "tail",
-
-  "frames" : {
-    "tail" : "smoothcurltail.png"
-  }
-}
