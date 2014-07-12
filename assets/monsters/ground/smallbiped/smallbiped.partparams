@@ -18,21 +18,5 @@
     "meleeProjectile" : [ "override", "chomp4" ]
   },
 
-  "partParameters" : {
-    "smallimparms" : {
-      "specialSkills" : [ "gravitySlamAttack" ]
-    },
-    "bellychest" : {
-      "specialSkills" : [ "stompAttack" ]
-    },
-    "curlhead" : {
-      "specialSkills" : [ "gustAttack" ]
-    },
-    "cauldronhead" : {
-      "specialSkills" : [ "blinkAttack" ]
-    },
-    "smallcurltail" : {
-      "specialSkills" : [ "gustAttack" ]
-    }
-  }
+  "partParameters" : { }
 }

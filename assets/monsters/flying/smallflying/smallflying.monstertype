@@ -152,28 +152,7 @@
         "glideSpiralDispersion" : 0.2,
 
         "baseSkills" : [ "flyingSwoopBounceAttack" ],
-        "specialSkills" : [
-          "acidicSpitAttack",
-          "acidSprayAttack",
-          "barbSprayAttack",
-          "bloodVomitAttack",
-          "bubbleBlastAttack",
-          "darkPlasmaAttack",
-          "explosivePhlegmAttack",
-          "fireballAttack",
-          "fireSwirlAttack",
-          "flameBurstAttack",
-          "flySwarmAttack",
-          "gasBelchAttack",
-          "iceBlastAttack",
-          "iceShotAttack",
-          "rockShotAttack",
-          "shockBallAttack",
-          "shockingBoltAttack",
-          "sonicScreamAttack",
-          "sonicWaveAttack",
-          "twistingPulseAttack"
-        ]
+        "specialSkills" : [ ]
       }
     ]
   ]

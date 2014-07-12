@@ -101,59 +101,19 @@
   "familyParameters" : [
     [
       {
-        "skillCount" : 3,
         "baseSkills" : [ "meleeAttack" ],
         "specialSkills" : [ "burrowSpecial" ]
       },
       {
-        "skillCount" : 3,
         "baseSkills" : [ "meleeAttack" ],
-        "specialSkills" : [ "shieldSpecial" ]
+        "specialSkills" : [ "pounceAttack" ]
       },
       {
-        "skillCount" : 3,
-        "baseSkills" : [ "meleeAttack" ],
-        "specialSkills" : [ "recoverSpecial" ]
-      },
-      {
-        "skillCount" : 3,
-        "baseSkills" : [ "meleeAttack" ],
-        "specialSkills" : [ "chargeAttack" ]
-      },
-      {
-        "baseSkills" : [ "meleeAttack" ],
-        "specialSkills" : [ "chargeAttack" ]
-      },
-      {
-        "baseSkills" : [ "meleeAttack" ],
+        "baseSkills" : [ "rushAttack" ],
         "specialSkills" : [  ]
       },
       {
-        "baseSkills" : [ "meleeAttack" ],
-        "specialSkills" : [  ]
-      },
-      {
-        "baseSkills" : [ "meleeAttack" ],
-        "specialSkills" : [  ]
-      },
-      {
-        "baseSkills" : [ "meleeAttack" ],
-        "specialSkills" : [  ]
-      },
-      {
-        "baseSkills" : [ "meleeAttack" ],
-        "specialSkills" : [  ]
-      },
-      {
-        "baseSkills" : [ "meleeAttack" ],
-        "specialSkills" : [  ]
-      },
-      {
-        "baseSkills" : [ "meleeAttack" ],
-        "specialSkills" : [  ]
-      },
-      {
-        "baseSkills" : [ "meleeAttack" ],
+        "baseSkills" : [ "pounceAttack" ],
         "specialSkills" : [  ]
       },
       {

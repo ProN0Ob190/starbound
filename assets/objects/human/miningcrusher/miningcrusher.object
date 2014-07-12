@@ -14,7 +14,7 @@
   "humanDescription" : "A machine used for breaking down rocks.",
   "hylotlDescription" : "An unsightly metal construction.",
 
-  "inventoryIcon" : "miningcrusher.png",
+  "inventoryIcon" : "miningcrushericon.png",
   "orientations" : [
     {
       "dualImage" : "miningcrusher.png:<color>",

@@ -25,342 +25,342 @@
       //TODO: suction attack
       "specialSkills" : [  ]
     },
-    "arrowhead" : {
+    "largearrowhead" : {
       "specialSkills" : [ "sonicScreamAttack" ]
     },
-    "bearhead" : {
+    "largebearhead" : {
       "specialSkills" : [ "mightyRoarAttack" ]
     },
-    "bigfinhead" : {
+    "largebigfinhead" : {
       "specialSkills" : [ "bubbleBlastAttack" ]
     },
-    "billhead" : {
+    "largebillhead" : {
       "specialSkills" : [ "waterGunAttack" ]
     },
-    "bladedhead" : {
+    "largebladedhead" : {
       "specialSkills" : [ "spinSlashAttack" ]
     },
-    "buffalohead" : {
+    "largebuffalohead" : {
       "specialSkills" : [ "gasBelchAttack" ]
     },
-    "centaurhead" : {
+    "largecentaurhead" : {
       "specialSkills" : [ "rainbowVomitAttack" ]
     },
-    "chainsawhead" : {
+    "largechainsawhead" : {
       "specialSkills" : [ "shockingBoltAttack" ]
     },
-    "clawhead" : {
+    "largeclawhead" : {
       "specialSkills" : [ "plasmaTorpedoAttack" ]
     },
-    "crazyhead" : {
+    "largecrazyhead" : {
       "specialSkills" : [ "eyeballSprayAttack" ]
     },
-    "creepyhead" : {
+    "largecreepyhead" : {
       "specialSkills" : [ "bloodVomitAttack" ]
     },
-    "crownhead" : {
+    "largecrownhead" : {
       "specialSkills" : [ "acidicSpitAttack" ]
     },
-    "curledhead" : {
+    "largecurledhead" : {
       "specialSkills" : [ "fireballAttack" ]
     },
-    "curlednosehead" : {
+    "largecurlednosehead" : {
       "specialSkills" : [ "rockShotAttack" ]
     },
-    "cutestripeyhead" : {
+    "largecutestripeyhead" : {
       "specialSkills" : [ "flySwarmAttack" ]
     },
-    "dogsnakehead" : {
+    "largedogsnakehead" : {
       "specialSkills" : [ "flameBurstAttack" ]
     },
-    "domeplatehead" : {
+    "largedomeplatehead" : {
       "specialSkills" : [ "rockShotAttack" ]
     },
-    "doublejawhead" : {
+    "largedoublejawhead" : {
       "specialSkills" : [ "doubleBarbSprayAttack" ]
     },
-    "dragonhead" : {
+    "largedragonhead" : {
       "specialSkills" : [ "miniDragonBreathAttack" ]
     },
-    "droopyhead" : {
+    "largedroopyhead" : {
       "specialSkills" : [ "acidSprayAttack" ]
     },
-    "eyeballhead" : {
+    "largeeyeballhead" : {
       "specialSkills" : [ "beamBurstAttack" ]
     },
-    "eyentlerhead" : {
+    "largeeyentlerhead" : {
       "specialSkills" : [ "plasmaSweepAttack" ]
     },
-    "eyestalkhead" : {
+    "largeeyestalkhead" : {
       "specialSkills" : [ "eyeballShotAttack" ]
     },
-    "fancybirdhead" : {
+    "largefancybirdhead" : {
       "specialSkills" : [ "glitterAttack" ]
     },
-    "fangedshadowyhead" : {
+    "largefangedshadowyhead" : {
       "specialSkills" : [ "darkGravityBallAttack" ]
     },
-    "floppyhead" : {
+    "largefloppyhead" : {
       "specialSkills" : [ "fireSwirlAttack" ]
     },
-    "gatorhead" : {
+    "largegatorhead" : {
       "specialSkills" : [ "rangedChompAttack" ]
     },
-    "gorillahead" : {
+    "largegorillahead" : {
       "specialSkills" : [ "seedSpitAttack" ]
     },
-    "guardedhead" : {
+    "largeguardedhead" : {
       "specialSkills" : [ "rockRollAttack" ]
     },
-    "horniesthead" : {
+    "largehorniesthead" : {
       "specialSkills" : [ "iceBlastAttack" ]
     },
-    "hypnohead" : {
+    "largehypnohead" : {
       //TODO: orb that blinks back and forth between damaging and harmless/beneficial
       "specialSkills" : [  ]
     },
-    "insomniachead" : {
+    "largeinsomniachead" : {
       "specialSkills" : [ "snotBubbleAttack" ]
     },
-    "lizardshellhead" : {
+    "largelizardshellhead" : {
       "specialSkills" : [ "leafyGustAttack" ]
     },
-    "minicrochead" : {
+    "largeminicrochead" : {
       "specialSkills" : [ "mudBallAttack" ]
     },
-    "petalhead" : {
+    "largepetalhead" : {
       "specialSkills" : [ "lightBallAttack" ]
     },
-    "platedhead" : {
+    "largeplatedhead" : {
       "specialSkills" : [ "shardSprayAttack" ]
     },
-    "raptorhead" : {
+    "largeraptorhead" : {
       "specialSkills" : [ "blueFlameAttack" ]
     },
-    "relaxedhead" : {
+    "largerelaxedhead" : {
       "specialSkills" : [ "smokeRingAttack" ]
     },
-    "sandwormhead" : {
+    "largesandwormhead" : {
       "specialSkills" : [ "spiceCloudAttack" ]
     },
-    "scrabhead" : {
+    "largescrabhead" : {
       "specialSkills" : [ "sonicWaveAttack" ]
     },
-    "shadowyhead" : {
+    "largeshadowyhead" : {
       "specialSkills" : [ "darkGasAttack" ]
     },
-    "skullbuffalohead" : {
+    "largeskullbuffalohead" : {
       "specialSkills" : [ "boneRainAttack" ]
     },
-    "soullesshead" : {
+    "largesoullesshead" : {
       "specialSkills" : [ "orbOfZotsAttack" ]
     },
-    "squoidhead" : {
+    "largesquoidhead" : {
       "specialSkills" : [ "inkSprayAttack" ]
     },
-    "tapirhead" : {
+    "largetapirhead" : {
       "specialSkills" : [ "snotShotAttack" ]
     },
-    "teethyhead" : {
+    "largeteethyhead" : {
       "specialSkills" : [ "beetleSwarmAttack" ]
     },
-    "thicktuskhead" : {
+    "largethicktuskhead" : {
       //TODO: rising, splitting, palm-tree-style light globe
       "specialSkills" : [  ]
     },
-    "thintuskhead" : {
+    "largethintuskhead" : {
       "specialSkills" : [ "fishBreathAttack" ]
     },
-    "toadhead" : {
+    "largetoadhead" : {
       "specialSkills" : [ "explosivePhlegmAttack" ]
     },
-    "verticaleyehead" : {
+    "largeverticaleyehead" : {
       "specialSkills" : [ "cellBlastAttack" ]
     },
 
     //LEGS
 
-    "armlegs" : {
+    "largearmlegs" : {
       "specialSkills" : [  ]
     },
-    "beastspiderlegs" : {
+    "largebeastspiderlegs" : {
       "specialSkills" : [  ]
     },
-    "bigcatlegs" : {
+    "largebigcatlegs" : {
       "specialSkills" : [  ]
     },
-    "bigtoelegs" : {
+    "largebigtoelegs" : {
       "specialSkills" : [  ]
     },
-    "derplegs" : {
+    "largederplegs" : {
       "specialSkills" : [  ]
     },
-    "derpzillalegs" : {
+    "largederpzillalegs" : {
       "specialSkills" : [  ]
     },
-    "floatinglegs" : {
+    "largefloatinglegs" : {
       "specialSkills" : [  ]
     },
-    "froglegs" : {
+    "largefroglegs" : {
       "specialSkills" : [  ]
     },
-    "gatorlegs" : {
+    "largegatorlegs" : {
       "specialSkills" : [  ]
     },
-    "gorillalegs" : {
+    "largegorillalegs" : {
       "specialSkills" : [  ]
     },
-    "plainlegs" : {
+    "largeplainlegs" : {
       "specialSkills" : [  ]
     },
-    "rexlegs" : {
+    "largerexlegs" : {
       "specialSkills" : [  ]
     },
-    "rhinolegs" : {
+    "largerhinolegs" : {
       "specialSkills" : [  ]
     },
-    "rockgolemlegs" : {
+    "largerockgolemlegs" : {
       "specialSkills" : [  ]
     },
-    "shortlegs" : {
+    "largeshortlegs" : {
       "specialSkills" : [  ]
     },
-    "tentaclelegs" : {
+    "largetentaclelegs" : {
       "specialSkills" : [  ]
     },
-    "thicklegs" : {
+    "largethicklegs" : {
       "specialSkills" : [  ]
     },
-    "tortoiselegs" : {
+    "largetortoiselegs" : {
       "specialSkills" : [  ]
     },
 
     //TAILS
 
-    "crookedtail" : {
+    "largecrookedtail" : {
       "specialSkills" : [  ]
     },
-    "curledbladetail" : {
+    "largecurledbladetail" : {
       "specialSkills" : [  ]
     },
-    "eyeballtail" : {
+    "largeeyeballtail" : {
       "specialSkills" : [  ]
     },
-    "feathertail" : {
+    "largefeathertail" : {
       "specialSkills" : [  ]
     },
-    "flippertail" : {
+    "largeflippertail" : {
       "specialSkills" : [  ]
     },
-    "furtail" : {
+    "largefurtail" : {
       "specialSkills" : [  ]
     },
-    "fuzzytail" : {
+    "largefuzzytail" : {
       "specialSkills" : [  ]
     },
-    "gatortail" : {
+    "largegatortail" : {
       "specialSkills" : [  ]
     },
-    "knifebladetail" : {
+    "largeknifebladetail" : {
       "specialSkills" : [  ]
     },
-    "notail" : {
+    "largenotail" : {
       "specialSkills" : [  ]
     },
-    "poofytail" : {
+    "largepoofytail" : {
       "specialSkills" : [  ]
     },
-    "rextail" : {
+    "largerextail" : {
       "specialSkills" : [  ]
     },
-    "rhinotail" : {
+    "largerhinotail" : {
       "specialSkills" : [  ]
     },
-    "simple1tail" : {
+    "largesimple1tail" : {
       "specialSkills" : [  ]
     },
-    "simple2tail" : {
+    "largesimple2tail" : {
       "specialSkills" : [  ]
     },
-    "smoothcurltail" : {
+    "largesmoothcurltail" : {
       "specialSkills" : [  ]
     },
-    "spiketail" : {
+    "largespiketail" : {
       "specialSkills" : [  ]
     },
-    "spineplatetail" : {
+    "largespineplatetail" : {
       "specialSkills" : [  ]
     },
-    "swirltail" : {
+    "largeswirltail" : {
       "specialSkills" : [  ]
     },
-    "toothtail" : {
+    "largetoothtail" : {
       "specialSkills" : [  ]
     },
-    "triangletail" : {
+    "largetriangletail" : {
       "specialSkills" : [  ]
     },
-    "tripletail" : {
+    "largetripletail" : {
       "specialSkills" : [  ]
     },
 
     //CHESTS
 
-    "archchest" : {
+    "largearchchest" : {
       "specialSkills" : [  ]
     },
-    "archspikechest" : {
+    "largearchspikechest" : {
       "specialSkills" : [  ]
     },
-    "blade1chest" : {
+    "largeblade1chest" : {
       "specialSkills" : [  ]
     },
-    "blade2chest" : {
+    "largeblade2chest" : {
       "specialSkills" : [  ]
     },
-    "bulbchest" : {
+    "largebulbchest" : {
       "specialSkills" : [  ]
     },
-    "forkedchest" : {
+    "largeforkedchest" : {
       "specialSkills" : [  ]
     },
-    "fuzzychest" : {
+    "largefuzzychest" : {
       "specialSkills" : [  ]
     },
-    "gatorchest" : {
+    "largegatorchest" : {
       "specialSkills" : [  ]
     },
-    "gorillachest" : {
+    "largegorillachest" : {
       "specialSkills" : [  ]
     },
-    "lightningchest" : {
+    "largelightningchest" : {
       "specialSkills" : [  ]
     },
-    "neonsegmentchest" : {
+    "largeneonsegmentchest" : {
       "specialSkills" : [  ]
     },
-    "platechest" : {
+    "largeplatechest" : {
       "specialSkills" : [  ]
     },
-    "rexchest" : {
+    "largerexchest" : {
       "specialSkills" : [  ]
     },
-    "rhinochest" : {
+    "largerhinochest" : {
       "specialSkills" : [  ]
     },
-    "spineplatechest" : {
+    "largespineplatechest" : {
       "specialSkills" : [  ]
     },
-    "tortoisechest" : {
+    "largetortoisechest" : {
       "specialSkills" : [  ]
     },
-    "volcanochest" : {
+    "largevolcanochest" : {
       "specialSkills" : [  ]
     },
-    "wart1chest" : {
+    "largewart1chest" : {
       "specialSkills" : [  ]
     },
-    "wart2chest" : {
+    "largewart2chest" : {
       "specialSkills" : [  ]
     }
   }

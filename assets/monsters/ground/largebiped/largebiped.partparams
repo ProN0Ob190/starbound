@@ -19,12 +19,20 @@
   },
 
   "partParameters" : {
-    "tallimparms" : {
-      "specialSkills" : [ "grabAttack" ]
+    "largeimparms" : {
+      "specialSkills" : [ "gravitySlamAttack" ]
     },
-
-    "tallplainarms" : {
-      "specialSkills" : [ "grabAttack" ]
+    "largebellychest" : {
+      "specialSkills" : [ "stompAttack" ]
+    },
+    "largecurlhead" : {
+      "specialSkills" : [ "gustAttack" ]
+    },
+    "largecauldronhead" : {
+      "specialSkills" : [ "blinkAttack" ]
+    },
+    "largecurltail" : {
+      "specialSkills" : [ "gustAttack" ]
     }
   }
 }

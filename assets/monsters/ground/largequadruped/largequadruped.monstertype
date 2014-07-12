@@ -114,6 +114,7 @@
         "specialSkills" : [ "chargeAttack" ]
       },
       {
+        "skillCount" : 3,
         "baseSkills" : [ "meleeAttack" ],
         "specialSkills" : [ "chargeAttack" ]
       },

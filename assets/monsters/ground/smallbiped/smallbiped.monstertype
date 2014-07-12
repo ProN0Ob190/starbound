@@ -106,6 +106,18 @@
       {
         "baseSkills" : [ "meleeAttack" ],
         "specialSkills" : [ "pounceAttack" ]
+      },
+      {
+        "baseSkills" : [ "pounceAttack" ],
+        "specialSkills" : [  ]
+      },
+      {
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [  ]
+      },
+      {
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [  ]
       }
     ]
   ],

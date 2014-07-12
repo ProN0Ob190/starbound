@@ -17,15 +17,33 @@
   "inventoryIcon" : "miningbelticon.png",
   "orientations" : [
     {
-      "dualImage" : "miningbelt.png:<color>",
+      "image" : "miningbelt.png:<color>",
 
-      "imagePosition" : [-20, 0],
+      "imagePosition" : [-16, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
+	  
+	  "direction" : "left",
+	  "flipImages" : true,
 
       "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+	  "collisionSpaces" : [ [-2, 1], [-1, 1], [0, 1], [1, 1] ]
+    },
+	{
+      "image" : "miningbelt.png:<color>",
 
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+	  
+	  "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+	  "collisionSpaces" : [ [-1, 1], [0, 1], [1, 1], [2, 1] ]
     }
   ]
 }

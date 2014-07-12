@@ -12,28 +12,5 @@
   "footstepSound" : "/sfx/blocks/footstep_dirt.wav",
   "tillableMod" : 31,
   "soil" : true,
-  "health" : 2.3,
-
-  "renderingProfile" : {
-    "texture" : "dirt.png",
-    "opaque" : true,
-
-    "results" : {
-      "normal" : [
-        {
-          "textureSize" : [8, 8],
-          "texturePosition" : [4, 12],
-          "variants" : 5,
-          "variantStride" : [16, 0],
-          "target" : [0, 0, 8, 8]
-        }
-      ]
-    },
-
-    "matches" : [
-      {
-        "result" : "normal"
-      }
-    ]
-  }
+  "health" : 2.3
 }

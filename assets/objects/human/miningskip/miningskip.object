@@ -17,15 +17,29 @@
   "inventoryIcon" : "miningskipicon.png",
   "orientations" : [
     {
-      "dualImage" : "miningskip.png:<color>",
+      "image" : "miningskip.png:<color>",
 
-      "imagePosition" : [-24, 0],
+      "imagePosition" : [-25, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
+	  
+	  "direction" : "left",
+	  "flipImages" : true,
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
+    },
+	{
+      "image" : "miningskip.png:<color>",
 
+      "imagePosition" : [-23, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+	  
+	  "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
     }
   ]
 }

@@ -186,6 +186,18 @@
       "rules" : [ [ "allowOverdrawing" ] ],
       "brush" : [ [ "clear" ], [ "back", "darkwood" ], [ "front", "darkwood" ] ]
     },
+	
+	{
+      "value" : [186, 65, 20, 255],
+      "comment" : "background girder",
+      "brush" : [ [ "clear" ], [ "back", "girder" ] ]
+    },
+
+    {
+      "value" : [237, 82, 26, 255],
+      "comment" : "foreground girder",
+      "brush" : [ [ "clear" ], [ "back", "girder" ], [ "front", "girder" ] ]
+    },
 
     {
       "value" : [137, 124, 76, 255],
@@ -426,16 +438,82 @@
       "comment" : "woodendoor",
       "brush" : [ [ "clear" ], [ "object", "woodendoor" ] ]
     },
+	
+	{
+      "value" : [255, 45, 26, 255],
+      "comment" : "miningbelt facing left",
+      "brush" : [ [ "clear" ], [ "object", "miningbelt", { "direction" : "left" } ] ]
+    },
+
+    {
+      "value" : [242, 42, 24, 255],
+      "comment" : "miningbelt facing right",
+      "brush" : [ [ "clear" ], [ "object", "miningbelt", { "direction" : "right" } ] ]
+    },
+	
+	{
+      "value" : [255, 56, 26, 255],
+      "comment" : "miningcrusher facing left",
+      "brush" : [ [ "clear" ], [ "object", "miningcrusher", { "direction" : "left" } ] ]
+    },
+
+    {
+      "value" : [242, 53, 24, 255],
+      "comment" : "miningcrusher facing right",
+      "brush" : [ [ "clear" ], [ "object", "miningcrusher", { "direction" : "right" } ] ]
+    },
+	
+	{
+      "value" : [255, 91, 26, 255],
+      "comment" : "mininghazardsign",
+      "brush" : [ [ "clear" ], [ "object", "mininghazardsign" ] ]
+    },
+	
+	{
+      "value" : [255, 79, 26, 255],
+      "comment" : "miningfence facing left",
+      "brush" : [ [ "clear" ], [ "object", "miningfence", { "direction" : "left" } ] ]
+    },
+
+    {
+      "value" : [242, 75, 24, 255],
+      "comment" : "miningfence facing right",
+      "brush" : [ [ "clear" ], [ "object", "miningfence", { "direction" : "right" } ] ]
+    },
+	
+	{
+      "value" : [255, 68, 26, 255],
+      "comment" : "miningskip facing left",
+      "brush" : [ [ "clear" ], [ "object", "miningskip", { "direction" : "left" } ] ]
+    },
+
+    {
+      "value" : [242, 64, 24, 255],
+      "comment" : "miningskip facing right",
+      "brush" : [ [ "clear" ], [ "object", "miningskip", { "direction" : "right" } ] ]
+    },
+	
+	{
+      "value" : [255, 102, 26, 255],
+      "comment" : "miningdoor facing left",
+      "brush" : [ [ "clear" ], [ "object", "miningdoor", { "direction" : "left" } ] ]
+    },
+
+    {
+      "value" : [242, 97, 24, 255],
+      "comment" : "miningdoor facing right",
+      "brush" : [ [ "clear" ], [ "object", "miningdoor", { "direction" : "right" } ] ]
+    },
 
     // NPC MONSTER SPAWN BRUSHES //
 
     {
-      "value" : [152, 0, 0, 255],
-      "comment" : "smallbiped npc",
+      "value" : [0, 152, 104, 255],
+      "comment" : "small quadruped npc",
       "brush" : [ [ "npc",
           {
             "kind" : "monster",
-            "typeName" : "smallbiped",
+            "typeName" : "smallquadruped",
             "seed" : "stable",
             "parameters" : {
               "aggressive" : true,
@@ -445,6 +523,38 @@
         ] ]
     },
 
+    {
+      "value" : [152, 0, 79, 255],
+      "comment" : "large quadruped npc",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "monster",
+            "typeName" : "largequadruped",
+            "seed" : "stable",
+            "parameters" : {
+              "aggressive" : true,
+              "persistent" : true
+            }
+          }
+        ] ]
+    },
+	
+	{
+      "value" : [152, 125, 0, 255],
+      "comment" : "miniboss quadruped npc",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "monster",
+            "typeName" : "minibossquadruped",
+            "seed" : "stable",
+            "parameters" : {
+              "aggressive" : true,
+              "persistent" : true
+            }
+          }
+        ] ]
+    },
+	
     {
       "value" : [64, 0, 152, 255],
       "comment" : "small flying npc",
@@ -460,10 +570,42 @@
           }
         ] ]
     },
+	
+	{
+      "value" : [152, 54, 0, 255],
+      "comment" : "large flying npc",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "monster",
+            "typeName" : "largeflying",
+            "seed" : "stable",
+            "parameters" : {
+              "aggressive" : true,
+              "persistent" : true
+            }
+          }
+        ] ]
+    },
+	
+	{
+      "value" : [152, 0, 0, 255],
+      "comment" : "small biped npc",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "monster",
+            "typeName" : "smallbiped",
+            "seed" : "stable",
+            "parameters" : {
+              "aggressive" : true,
+              "persistent" : true
+            }
+          }
+        ] ]
+    },
 
     {
       "value" : [0, 136, 152, 255],
-      "comment" : "largebiped npc",
+      "comment" : "large biped npc",
       "brush" : [ [ "npc",
           {
             "kind" : "monster",
@@ -479,11 +621,11 @@
 	
 	{
       "value" : [173, 0, 179, 255],
-      "comment" : "largebiped miniboss npc",
+      "comment" : "miniboss biped npc",
       "brush" : [ [ "npc",
           {
             "kind" : "monster",
-            "typeName" : "minibossquadruped",
+            "typeName" : "minibossbiped",
             "seed" : "stable",
             "parameters" : {
               "aggressive" : true,
