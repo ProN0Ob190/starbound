@@ -33,10 +33,22 @@
       "image" : "birdgroundlantern.png:<color>.<frame>",
       "imagePosition" : [0, 0],
 	  
+	  "direction" : "left",
+	  "flipImages" : true,
+	  
+      "spaces" : [ [0, 0], [0, 1], [0, 2] ],
+      "anchors" : [ "bottom" ],
+	  "animationPosition" : [0, 0]
+    },
+	{
+      "image" : "birdgroundlantern.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+	  
 	  "direction" : "right",
 
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+      "spaces" : [ [0, 0], [0, 1], [0, 2] ],
+      "anchors" : [ "bottom" ],
+	  "animationPosition" : [0, 0]
     }
   ],
 
@@ -47,11 +59,12 @@
     "bg" : "birdgroundlantern.png",
     "fg" : "birdgroundlanternlit.png"
   },
-  "animationPosition" : [0, 0],
 
   "scripts" : [ "/objects/wired/light/light.lua" ],
   "scriptDelta" : 60,
 
-  "inboundNodes" : [ [0, 0] ]
+  "inboundNodes" : [ [0, 0] ],
+  
+  "interactive" : false
 
 }

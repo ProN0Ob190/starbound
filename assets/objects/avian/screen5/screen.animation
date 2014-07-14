@@ -4,18 +4,11 @@
       "light" : {
         "default" : "off",
         "states" : {
-          "off" : {
-            "properties" : {
-              "particleEmittersOff" : [ "torch" ]
-            }
-          },
+          "off" : {},
           "on" : {
-            "frames" : 4,
-            "cycle" : 0.5,
-            "mode" : "loop",
-            "properties" : {
-              "particleEmittersOn" : [ "torch" ]
-            }
+            "frames" : 8,
+            "cycle" : 1.0,
+            "mode" : "loop"
           }
         }
       }
@@ -66,34 +59,6 @@
           }
         }
       }
-    }
-  },
-
-  "particleEmitters" : {
-    "torch" : {
-      "emissionRate" : 1.0,
-      "emissionVariance" : 0.5,
-
-      "particles" : [
-        {
-          "particle" : {
-            "type" : "ember",
-            "position" : [0.5, 1.9],
-            "size" : 1.0,
-            "color" : [255, 100, 0, 255],
-            "light" : [150, 50, 50],
-            "fade" : 0.9,
-            "initialVelocity" : [0.0, 5.0],
-            "finalVelocity" : [0.0, -50.0],
-            "approach" : [0, 20],
-            "timeToLive" : 0.6,
-            "layer" : "middle",
-            "variance" : {
-              "initialVelocity" : [1.5, 2.0]
-            }
-          }
-        }
-      ]
     }
   }
 }

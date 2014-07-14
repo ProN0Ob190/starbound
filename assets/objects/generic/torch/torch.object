@@ -95,7 +95,7 @@
 
   "soundEffect" : "/sfx/objects/torch.wav",
 
-  "animation" : "/objects/wired/light/torch.animation",
+  "animation" : "torch.animation",
   "animationPosition" : [1, 0],
 
   "scripts" : [ "/objects/wired/light/light.lua" ],

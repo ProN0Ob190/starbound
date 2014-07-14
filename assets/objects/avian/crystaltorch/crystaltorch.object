@@ -29,12 +29,23 @@
 
   "inventoryIcon" : "crystaltorchicon.png",
   "orientations" : [
+	{
+      "image" : "crystaltorch.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+	  
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "animationPosition" : [0, 0],
 
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "background" ]
+    },
     {
       "image" : "crystaltorch.png:<color>.<frame>",
-      "imagePosition" : [1, 0],
+      "imagePosition" : [0, 0],
 	  
 	  "direction" : "right",
+	  "animationPosition" : [0, 0],
 
       "spaces" : [ [0, 0], [0, 1] ],
       "anchors" : [ "background" ]
@@ -46,7 +57,6 @@
     "bg" : "crystaltorch.png",
     "fg" : "crystaltorchlit.png"
   },
-  "animationPosition" : [0, 0],
 
   "scripts" : [ "/objects/wired/light/light.lua" ],
   "scriptDelta" : 60,

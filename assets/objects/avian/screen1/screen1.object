@@ -7,7 +7,7 @@
 
   "category" : "decorative",
   "price" : 500,
-  "lightColor" : [0, 40, 100],
+  "lightColor" : [27, 68, 89],
   "flickerDistance" : 0.2,
   "flickerStrength" : 0.05,
   "flickerTiming" : 4,
@@ -24,18 +24,28 @@
     {
       "image" : "screen1.png:<color>.<frame>",
       "imagePosition" : [0, 0],
-      "frames" : 8,
-      "animationCycle" : 1.0,
+	  
+	  "direction" : "right",
 
-      "spaces" : [
-        [0, 0]
-      ],
-
-      "bgAnchors" : [
-        [0, 0]
-      ]
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
     }
   ],
+
+  "animation" : "screen.animation",
+  "animationParts" : {
+    "bg" : "screen1.png",
+    "fg" : "screen1lit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inboundNodes" : [ [0, 0] ],
+  
+  "interactive" : false,
+  
+  "animationPosition" : [0, 0],
 
   "soundEffect" : "/sfx/objects/screen1.wav",
   "soundEffectRadius" : 15
