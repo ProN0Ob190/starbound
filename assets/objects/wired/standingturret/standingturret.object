@@ -2,6 +2,7 @@
   "objectName" : "standingturret",
   "rarity" : "Common",
   "objectType" : "container",
+  "price" : 2500,
 
   "slotCount" : 1,
   "uiConfig" : "/interface/turret/standingturret.config",

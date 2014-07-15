@@ -27,40 +27,44 @@
       "range" : 2
     } ],
 
-
-
-  "particleEmitter" : {
-    "emissionRate" : 1.0,
-    "emissionVariance" : 0.5,
-
-    "particle" : {
-      "type" : "ember",
-      "size" : 1.0,
-      "color" : [255, 100, 0, 255],
-      "light" : [150, 50, 50],
-      "fade" : 0.9,
-      "initialVelocity" : [0.0, 5.0],
-      "finalVelocity" : [0.0, -50.0],
-      "approach" : [0, 20],
-      "timeToLive" : 0.6,
-      "layer" : "middle"
-    },
-
-    "particleVariance" : {
-      "initialVelocity" : [1.5, 2.0]
-    }
-  },
-
   "inventoryIcon" : "floranchandeliericon.png",
   "orientations" : [
     {
-      "dualImage" : "floranchandelier.png:<color>.<frame>",
+      "image" : "floranchandelier.png:<color>.<frame>",
       "imagePosition" : [-16, -16],
-      "frames" : 4,
-      "animationCycle" : 0.5,
+	  
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "animationPosition" : [-16, -16],
 
-      "spaceScan" : 0.1,
+      "spaces" : [ [-1, 0], [0, 0], [-2, -1], [-1, -1], [0, -1], [1, -1], [-2, -2], [-1, -2], [0, -2], [1, -2] ],
+      "anchors" : [ "top" ]
+    },
+	{
+      "image" : "floranchandelier.png:<color>.<frame>",
+      "imagePosition" : [-16, -16],
+	  
+	  "direction" : "right",
+	  "animationPosition" : [-16, -16],
+
+      "spaces" : [ [-1, 0], [0, 0], [-2, -1], [-1, -1], [0, -1], [1, -1], [-2, -2], [-1, -2], [0, -2], [1, -2] ],
       "anchors" : [ "top" ]
     }
-  ]
+  ],
+
+  "soundEffect" : "/sfx/objects/torch.wav",
+
+  "animation" : "floranchandelier.animation",
+  "animationParts" : {
+    "bg" : "floranchandelier.png",
+    "fg" : "floranchandelierlit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inboundNodes" : [ [0, 0] ],
+  
+  "interactive" : false
+
 }

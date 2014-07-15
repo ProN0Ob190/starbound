@@ -673,8 +673,14 @@
 
     {
       "value" : [94, 33, 217, 255],
-      "comment" : "floranlight",
-      "brush" : [ [ "clear" ], [ "object", "floranlight" ] ]
+      "comment" : "floranlight facing left",
+      "brush" : [ [ "clear" ], [ "object", "floranlight", { "direction" : "left" } ] ]
+    },
+	
+	{
+      "value" : [83, 29, 191, 255],
+      "comment" : "floranlight facing right",
+      "brush" : [ [ "clear" ], [ "object", "floranlight", { "direction" : "right" } ] ]
     },
 
     {

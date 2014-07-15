@@ -4,7 +4,7 @@
     "species" : "dummy",
     "rules" : [
     ],
-	"anchor" : [ "lab1", "lab2", "trap1" ],
+	"anchor" : [ "lab1", "lab2", "lab3", "trap1", "trap2", "trap3" ],
     "maxRadius" : 2000,
     "maxParts" : 100
   },
@@ -1332,9 +1332,27 @@
     },
 	
 	{
+      "name" : "lab3",
+      "rules" : [ ],
+      "def" : [ "image", [ "lab3.png", "lab3-objects.png", "lab3-wires.png" ] ]
+    },
+	
+	{
       "name" : "trap1",
       "rules" : [ ],
       "def" : [ "image", [ "trap1.png", "trap1-objects.png" ] ]
+    },
+	
+	{
+      "name" : "trap2",
+      "rules" : [ ],
+      "def" : [ "image", [ "trap2.png", "trap2-objects.png" ] ]
+    },
+	
+	{
+      "name" : "trap3",
+      "rules" : [ ],
+      "def" : [ "image", [ "trap3.png", "trap3-objects.png", "trap3-liquids.png" ] ]
     }
   ]
 }
