@@ -1,9 +1,0 @@
-{
-  "modId" : 6,
-  "modName" : "bone",
-  "frames" : "bone.png",
-  "variants" : 5,
-  "Description" : "Yuck, crushed bones!",
-  "footstepSound" : "/sfx/blocks/footstep_gravel.wav",
-  "health" : 0
-}

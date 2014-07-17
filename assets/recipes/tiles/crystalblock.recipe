@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "crystal", "count" : 3 }
-  ],
-  "output" : { "item" : "crystalblock", "count" : 1 },
-  "groups" : [ "craftingtable", "materials", "all" ]
-}

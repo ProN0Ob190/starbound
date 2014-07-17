@@ -1,6 +1,0 @@
-{
-  "kind" : "clumsyprotection",
-  "tooltipLabel" : "Clumsy Protection (%)",
-  "tooltipAmountLabel" : "%amount%",
-  "percentage" : true
-}

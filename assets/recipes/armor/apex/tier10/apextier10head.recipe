@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "imperviumbar", "count" : 20 }
-  ],
-  "output" : { "item" : "apextier10head", "count" : 1 },
-  "groups" : [ "craftingtable", "armors", "all" ]
-}

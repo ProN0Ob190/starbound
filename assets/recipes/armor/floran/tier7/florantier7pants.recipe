@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "Ceruliumbar", "count" : 12 }
-  ],
-  "output" : { "item" : "florantier7pants", "count" : 1 },
-  "groups" : [ "craftingtable", "armors", "all" ]
-}

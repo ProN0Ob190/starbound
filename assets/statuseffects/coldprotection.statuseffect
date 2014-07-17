@@ -1,6 +1,0 @@
-{
-  "kind" : "coldprotection",
-  "tooltipLabel" : "",
-  "tooltipAmountLabel" : "%amount%",
-  "icon" : [ "/interface/tooltips/warmth.png" ]
-}

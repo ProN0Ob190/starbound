@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "durasteelbar", "count" : 35 }
-  ],
-  "output" : { "item" : "aviantier4chest", "count" : 1 },
-  "groups" : [ "craftingtable", "armors", "all" ]
-}

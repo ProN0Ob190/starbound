@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "dirtmaterial", "count" : 3 }
-  ],
-  "output" : { "item" : "packeddirt", "count" : 1 },
-  "groups" : [ "craftingtable", "materials", "all" ]
-}

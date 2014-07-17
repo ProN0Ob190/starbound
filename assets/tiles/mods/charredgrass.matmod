@@ -1,9 +1,0 @@
-{
-  "modId" : 12,
-  "modName" : "charredgrass",
-  "frames" : "charredgrass.png",
-  "variants" : 5,
-  "Description" : "Charred grass clings to life amongst the ashes.",
-  "footstepSound" : "/sfx/blocks/footstep_grass.wav",
-  "health" : 0
-}

@@ -198,12 +198,12 @@ function damage(args)
 
     local entityId = entity.id()
     local damageNotificationRegion = entity.configParameter("damageNotificationRegion", { -10, -4, 10, 4 })
-    world.monsterQuery(
+    world.entityQuery(
       vec2.add({ damageNotificationRegion[1], damageNotificationRegion[2] }, self.position),
       vec2.add({ damageNotificationRegion[3], damageNotificationRegion[4] }, self.position),
       {
+        includedTypes = {"monster"},
         withoutEntityId = entityId,
-        inSightOf = entityId,
         callScript = "monsterDamaged",
         callScriptArgs = { entityId, entity.seed(), args.sourceId }
       }
@@ -377,7 +377,7 @@ end
 
 --------------------------------------------------------------------------------
 function calculateSeparationMovement()
-  local entityIds = world.monsterQuery(self.position, 0.5, { withoutEntityId = entity.id(), order = "nearest" })
+  local entityIds = world.entityQuery(self.position, 0.5, { includedTypes = {"monster"}, withoutEntityId = entity.id(), order = "nearest" })
   if #entityIds > 0 then
     local separationMovement = world.distance(self.position, world.entityPosition(entityIds[1]))
     return util.toDirection(separationMovement[1])

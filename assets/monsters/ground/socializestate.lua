@@ -92,7 +92,7 @@ end
 function socializeState.findPartner()
   local min = vec2.add({ socializeState.searchRegion[1], socializeState.searchRegion[2] }, self.position)
   local max = vec2.add({ socializeState.searchRegion[3], socializeState.searchRegion[4] }, self.position)
-  local entityIds = world.monsterQuery(min, max, { withoutEntityId = entity.id(), callScript = "canSocialize" })
+  local entityIds = world.entityQuery(min, max, { includedTypes = {"monster"}, withoutEntityId = entity.id(), callScript = "canSocialize" })
   if #entityIds > 0 then
     return entityIds[1]
   end

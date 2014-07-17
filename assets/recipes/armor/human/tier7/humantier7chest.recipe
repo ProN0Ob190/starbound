@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "Ceruliumbar", "count" : 35 }
-  ],
-  "output" : { "item" : "humantier7chest", "count" : 1 },
-  "groups" : [ "craftingtable", "armors", "all" ]
-}

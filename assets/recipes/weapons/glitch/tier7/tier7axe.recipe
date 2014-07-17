@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "Ceruliumbar", "count" : 5 }
-  ],
-  "output" : { "item" : "glitchtier7axe", "count" : 1 },
-  "groups" : [ "metalworkstation", "weapons", "all" ]
-}

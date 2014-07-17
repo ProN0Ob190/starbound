@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "boltbulb", "count" : 2 }
-  ],
-  "output" : { "item" : "nutsandbolts", "count" : 1 },
-  "groups" : [ "kitchen", "consumables", "side" ]
-}

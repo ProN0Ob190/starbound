@@ -1,6 +1,0 @@
-{
-  "kind" : "energyregenmodifier",
-  "tooltipLabel" : "",
-  "tooltipAmountLabel" : "%amount%",
-  "icon" : [ "/interface/inventory/lightningplus.png" ]
-}

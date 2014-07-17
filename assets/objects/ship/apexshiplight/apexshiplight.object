@@ -21,14 +21,32 @@
 
   "inventoryIcon" : "apexshiplighticon.png",
   "orientations" : [
-    {
-      "image" : "apexshiplight.png:<frame>",
+	{
+      "image" : "apexshiplight.png:<color>.<frame>",
       "imagePosition" : [-8, 0],
-      "animationCycle" : 0.5,
+      
+	  "animationParts" : {
+		"light" : "apexshiplight.png"
+	  },
+	  "animationPosition" : [-8, 0],
+	  
+	  "direction" : "right",
 
       "spaceScan" : 0.1,
       "anchors" : [ "background" ]
 
     }
-  ]
+  ],
+
+  "soundEffect" : "/sfx/objects/fluorescent_light_quiet.wav",
+  
+  "animation" : "/objects/wired/light/lighttoggle.animation",
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inboundNodes" : [ [0, 0] ]
+  
 }

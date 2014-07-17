@@ -1,6 +1,0 @@
-{
-  "image" : "forestunderground.png?brightness=-65",
-  "dividerimage" : "rockdivider.png?brightness=-65",
-  "parallax" : 1.1,
-  "origin" : [0, 395]
-}

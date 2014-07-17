@@ -1,8 +1,0 @@
-{
-  "itemName" : "uraniumrod",
-  "rarity" : "Uncommon",
-  "inventoryIcon" : "uraniumrod.png",
-  "description" : "It's a uranium rod.",
-  "shortdescription" : "Uranium Rod",
-  "fuelAmount" : 10
-}

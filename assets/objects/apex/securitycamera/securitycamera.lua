@@ -130,9 +130,9 @@ end
 function scanState.findTarget(startPosition, endPosition)
   local selfId = entity.id()
 
-  local entityIds = world.entityLineQuery(startPosition, endPosition, { validTargetOf = selfId })
+  local entityIds = world.entityLineQuery(startPosition, endPosition, { includedTypes = {"creature"}, withoutEntityId = selfId })
   for i, entityId in ipairs(entityIds) do
-    if entityId ~= selfId then
+    if entity.isValidTarget(entityId) then
       return entityId
     end
   end
@@ -186,7 +186,7 @@ function alertState.update(dt, stateData)
 end
 
 function alertState.isVisible(startPosition, endPosition, targetId)
-  local entityIds = world.entityLineQuery(startPosition, endPosition)
+  local entityIds = world.entityLineQuery(startPosition, endPosition, {includedTypes = {"creature"}})
   for i, entityId in ipairs(entityIds) do
     if entityId == targetId then
       return true

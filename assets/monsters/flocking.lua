@@ -20,7 +20,7 @@ function flocking.calculateMovement(flockGroupFunctionName, entitiesToFind)
   local hasLeader = false
   local flockPositions, flockSeparations, flockHeadings = {}, {}, {}
 
-  for i, entityId in ipairs(world.monsterQuery(flockRegionMin, flockRegionMax)) do
+  for i, entityId in ipairs(world.entityQuery(flockRegionMin, flockRegionMax, {includedTypes={"monster"}})) do
     if entityId ~= selfEntityId then
       local flockInfo = world.callScriptedEntity(entityId, flockGroupFunctionName)
       if flockInfo ~= nil then

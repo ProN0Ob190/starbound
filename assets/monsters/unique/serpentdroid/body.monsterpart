@@ -1,9 +1,0 @@
-{
-  "name" : "body",
-  "category" : "serpentdroid",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "serpentdroid.png"
-  }
-}

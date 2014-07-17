@@ -1,8 +1,0 @@
-{
-  "name" : "swimboost",
-  "icon" : [ ],
-  "kind" : "statuseffect",
-  "statusEffects" : [
-    { "kind" : "swimboost", "amount" : 0.8 }
-  ]
-}

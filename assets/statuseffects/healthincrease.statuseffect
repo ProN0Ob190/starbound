@@ -1,6 +1,0 @@
-{
-  "kind" : "healthincrease",
-  "tooltipLabel" : "",
-  "tooltipAmountLabel" : "%amount%",
-  "icon" : [ "/interface/inventory/heart.png" ]
-}

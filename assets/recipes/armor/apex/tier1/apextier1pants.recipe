@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "ironbar", "count" : 6 },
-    { "item" : "copperarmorpants", "count" : 1 }
-  ],
-  "output" : { "item" : "apextier1pants", "count" : 1 },
-  "groups" : [ "anvil", "armors", "all" ]
-}

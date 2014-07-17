@@ -1,7 +1,0 @@
-{
-  "name" : "lighttoenergy",
-  "icon" : [ ],
-  "lightToEnergyPerTick" : 0.1,
-  // relative to the 'mouth'
-  "offset" : [-1, 5]
-}

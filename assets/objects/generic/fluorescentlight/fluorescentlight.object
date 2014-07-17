@@ -18,63 +18,118 @@
   "flickerDistance" : 0.2,
   "flickerStrength" : 0.05,
   "flickerTiming" : 4,
+  "fullbright" : true,
 
   "inventoryIcon" : "fluorescentlighticon.png",
   "orientations" : [
     {
       "image" : "fluorescentlighttop.png:<color>.<frame>",
       "imagePosition" : [-8, 4],
-      "frames" : 1,
-      "animationCycle" : 0.3,
+	  
+	  "animationParts" : {
+		"light" : "fluorescentlighttop.png"
+	  },
+	  "animationPosition" : [-8, 4],
+	  "direction" : "right",
 
       "spaceScan" : 0.1,
       "anchors" : [ "top" ]
-
     },
 
     {
       "image" : "fluorescentlightbottom.png:<color>.<frame>",
       "imagePosition" : [-8, 0],
-      "frames" : 1,
-      "animationCycle" : 0.3,
+      
+	  "animationParts" : {
+		"light" : "fluorescentlightbottom.png"
+	  },
+	  "animationPosition" : [-8, 0],
+	  "direction" : "right",
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-
     },
 
     {
       "image" : "fluorescentlightleft.png:<color>.<frame>",
       "imagePosition" : [0, -8],
-      "frames" : 1,
-      "animationCycle" : 0.3,
-
+      
+	  "animationParts" : {
+		"light" : "fluorescentlightleft.png"
+	  },
+	  "animationPosition" : [0, -8],
+	  "direction" : "right",
+	  
       "spaceScan" : 0.1,
       "anchors" : [ "left" ]
     },
-
-    {
+	
+	{
+      "image" : "fluorescentlightleft.png:<color>.<frame>",
+      "imagePosition" : [0, -8],
+      
+	  "animationParts" : {
+		"light" : "fluorescentlightright.png"
+	  },
+	  "animationPosition" : [-4, -8],
+	  "direction" : "left",
+	  
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ]
+    },
+	
+	{
       "image" : "fluorescentlightright.png:<color>.<frame>",
       "imagePosition" : [4, -8],
-      "frames" : 1,
-      "animationCycle" : 0.3,
+      
+	  "animationParts" : {
+		"light" : "fluorescentlightleft.png"
+	  },
+	  "animationPosition" : [0, -8],
+	  "direction" : "left",
 
       "spaceScan" : 0.1,
       "anchors" : [ "right" ]
     },
 
     {
+      "image" : "fluorescentlightright.png:<color>.<frame>",
+      "imagePosition" : [4, -8],
+      
+	  "animationParts" : {
+		"light" : "fluorescentlightright.png"
+	  },
+	  "animationPosition" : [4, -8],
+	  "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ]
+    },
+	
+    {
       "image" : "fluorescentlight.png:<color>.<frame>",
-      "imagePosition" : [-8, 4],
-      "frames" : 1,
-      "animationCycle" : 0.3,
+      "imagePosition" : [-8, 1],
+      
+	  "animationParts" : {
+		"light" : "fluorescentlight.png"
+	  },
+	  "animationPosition" : [-8, 1],
+	  "direction" : "right",
 
       "spaceScan" : 0.1,
       "anchors" : [ "background" ]
-
     }
   ],
 
-  "soundEffect" : "/sfx/objects/fluorescent_light_quiet.wav"
+  "soundEffect" : "/sfx/objects/fluorescent_light_quiet.wav",
+  
+  "animation" : "/objects/wired/light/lighttoggle.animation",
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inboundNodes" : [ [0, 0] ]
 
 }

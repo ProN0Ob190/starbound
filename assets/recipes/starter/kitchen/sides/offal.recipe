@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "meatchunks", "count" : 2 },
-    { "item" : "rawribmeat", "count" : 1 }
-  ],
-  "output" : { "item" : "offal", "count" : 1 },
-  "groups" : [ "kitchen", "consumables", "side" ]
-}

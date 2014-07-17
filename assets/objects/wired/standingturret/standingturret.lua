@@ -164,12 +164,14 @@ end
 --------------------------------------------------------------------------------
 
 function potentialTargets()  
-  --Gets all valid targets + all monsters
-  local validTargetIds = world.entityQuery(getBasePosition(), self.targetRange, { validTargetOf = entity.id() })
-  local monsterIds = world.monsterQuery(getBasePosition(), self.targetRange, { notAnObject = true })
+  --Gets all valid npc targets + all monsters
+  local npcIds = world.entityQuery(getBasePosition(), self.targetRange, { includedTypes = {"npc"} })
+  local monsterIds = world.entityQuery(getBasePosition(), self.targetRange, { includedTypes = {"monster"} })
 
-  for key,validTargetId in ipairs(validTargetIds) do
-    monsterIds[#monsterIds+1] = validTargetId
+  for i,npcId in ipairs(npcIds) do
+    if entity.isValidTarget(npcId) then
+      monsterIds[#monsterIds+1] = npcId
+    end
   end
   
   return monsterIds

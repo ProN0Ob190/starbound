@@ -1,8 +1,0 @@
-{
-  "modId" : 13,
-  "modName" : "aridgrass",
-  "frames" : "aridgrass.png",
-  "variants" : 5,
-  "Description" : "Dry, crunchy grass.",
-  "health" : 0
-}
