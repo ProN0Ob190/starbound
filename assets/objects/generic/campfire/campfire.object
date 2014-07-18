@@ -1,0 +1,82 @@
+{
+  "objectName" : "campfire",
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "Embers dance away from the camp fire, warming the air.",
+  "shortdescription" : "Camp Fire",
+  "subtitle" : "Campsite cooking.",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 200,
+  "objectType" : "container",
+
+  "hydrophobic" : true,
+
+  "apexDescription" : "A healthy camp fire.",
+  "avianDescription" : "Warmth and light.",
+  "floranDescription" : "Floran afraid of camp fire. But Floran likesss to cook.",
+  "glitchDescription" : "Idea. I want to roast marshmallows.",
+  "humanDescription" : "I've always enjoyed watching the flames of a camp fire dance.",
+  "hylotlDescription" : "A camp fire, perfect for cooking food.",
+
+  "lightColor" : [217, 200, 184],
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.1,
+
+  "particleEmitter" : {
+    "emissionRate" : 1.0,
+    "emissionVariance" : 0.5,
+
+    "particle" : {
+      "type" : "ember",
+	  "position" : [0.5, 0.3],
+      "size" : 1.0,
+      "color" : [255, 100, 0, 255],
+      "light" : [150, 50, 50],
+      "fade" : 0.9,
+      "initialVelocity" : [0.0, 5.0],
+      "finalVelocity" : [0.0, 3.0],
+      "approach" : [0, 20],
+      "timeToLive" : 2,
+      "layer" : "middle"
+    },
+
+    "particleVariance" : {
+      "initialVelocity" : [0.5, 2.0],
+	  "position" : [0.4, 0]
+    }
+  },
+
+  "inventoryIcon" : "campfireicon.png",
+  "orientations" : [
+    {
+      "image" : "campfire.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [0, 1], [1, 0], [1, 1] ],
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/campfire.wav",
+
+  "statusEffects" : [
+    {
+      "kind" : "Warmth",
+      "amount" : 70,
+      "range" : 8
+    }
+  ],
+
+  "recipeGroup" : "cooking",
+  "openSounds" : [ "/sfx/objects/campfire_use.wav" ],
+  "slotCount" : 2,
+  "uiConfig" : "/interface/objectcrafting/campfire.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+
+}

@@ -1,0 +1,39 @@
+{
+  "objectName" : "medievalarmorswitch",
+  "rarity" : "Common",
+  "description" : "Shiny armour stands resolute. Hmm... the axe looks loose.",
+  "shortdescription" : "Glitch Display Armour",
+  "race" : "glitch",
+  "category" : "wire",
+  "price" : 1400,
+
+  "apexDescription" : "A beautiful set of armour. The axe looks loose.",
+  "avianDescription" : "It appears to be Glitch battle armour. The axe looks strange.",
+  "floranDescription" : "Metal armour for metal man. Floran sssmell ssomething sstrange here.",
+  "glitchDescription" : "Educate. This armour is built purely for decoration. Real battle armour is far more rugged. I'm not sure this is armour at all though.",
+  "humanDescription" : "An attractive set of armour. If this were a movie, the axe would be a secret switch.",
+  "hylotlDescription" : "This armour looks as if it's never been worn. The axe doesn't look like a weapon at all.",
+
+  "inventoryIcon" : "medievalarmorswitchicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "medievalarmorswitch.png:<color>.off",
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/switch/switch.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switchtoggle2.animation",
+  "animationParts" : {
+    "switch" : "medievalarmorswitch.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "outboundNodes" : [ [0, 0] ]
+}

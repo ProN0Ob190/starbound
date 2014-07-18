@@ -1,0 +1,85 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "jetpack" : {
+        "default" : "off",
+        "states" : {
+          "off" : {
+            "properties" : {
+              "particleEmittersOff" : [ "jetpackParticles" ]
+            }
+          },
+          "on" : {
+            "frames" : 5,
+            "cycle" : 0.5,
+            "mode" : "loop",
+            "properties" : {
+              "persistentSound" : "/sfx/objects/plasmadisc.wav",
+              "particleEmittersOn" : [ "jetpackParticles" ]
+            }
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "bubble" : {
+        "partStates" : {
+          "jetpack" : {
+            "on" : {
+              "properties" : {
+                "centered" : true,
+                "image" : "/animations/gravitybubble/gravitybubble.png:<frameIndex>",
+                "back" : true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "particleEmitters" : {
+    "jetpackParticles" : {
+      "emissionRate" : 14.0,
+      "particles" : [
+        {
+          "particle" : "gravitybubbledot",
+          "offset" : [-1, 0]
+        },
+        {
+          "particle" : "gravitybubbledot",
+          "offset" : [-1, 1]
+        },
+        {
+          "particle" : "gravitybubbledot",
+          "offset" : [-1, 2]
+        },
+        {
+          "particle" : "gravitybubbledot",
+          "offset" : [0, 0]
+        },
+        {
+          "particle" : "gravitybubbledot",
+          "offset" : [0, 1]
+        },
+        {
+          "particle" : "gravitybubbledot",
+          "offset" : [0, 2]
+        },
+        {
+          "particle" : "gravitybubbledot",
+          "offset" : [1, 0]
+        },
+        {
+          "particle" : "gravitybubbledot",
+          "offset" : [1, 1]
+        },
+        {
+          "particle" : "gravitybubbledot",
+          "offset" : [1, 2]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "modId" : 27,
+  "modName" : "Cerulium",
+  "frames" : "Cerulium.png",
+  "variants" : 8,
+  "itemDrop" : "Ceruliumore",
+  "Description" : "Cerulium.",
+  "health" : 18,
+  "harvestLevel" : 6,
+  "breaksWithTile" : true
+}

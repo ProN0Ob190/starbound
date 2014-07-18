@@ -1,0 +1,49 @@
+{
+  "objectName" : "signproduce",
+  "rarity" : "Common",
+  "description" : "A shop that sells produce! What sort of produce do robots eat, though?",
+  "shortdescription" : "Produce Shop Sign",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 300,
+
+  "apexDescription" : "A wooden sign. Looks like it belongs to a grocery store.",
+  "avianDescription" : "A wooden sign. It depicts a fruit.",
+  "floranDescription" : "Fruit ssshop nearby? Hssssss!",
+  "glitchDescription" : "Identify. A sign that marks a Glitch produce store.",
+  "humanDescription" : "Looks like a sign that sits outside a produce store.",
+  "hylotlDescription" : "This sign suggests a food store.",
+
+  "inventoryIcon" : "signproduceicon.png",
+  "orientations" : [
+    {
+      "image" : "signproduce.png:<color>",
+
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaces" : [ [-1, 0], [0, 0], [1, 0], [-1, -1], [0, -1], [1, -1] ],
+      "fgAnchors" : [ [-2, 0], [2, 0] ]
+    },
+    {
+      "image" : "signproduceleft.png:<color>",
+
+      "imagePosition" : [0, -8],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaces" : [ [0, 0], [1, 0], [2, 0], [0, -1], [1, -1], [2, -1] ],
+      "fgAnchors" : [ [-1, 0] ]
+    },
+    {
+      "image" : "signproduceright.png:<color>",
+      "imagePosition" : [-16, -8],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+
+      "spaces" : [ [-2, 0], [-1, 0], [0, 0], [-2, -1], [-1, -1], [0, -1] ],
+      "fgAnchors" : [ [1, 0] ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "materialId" : 70,
+  "materialName" : "woodenplatform",
+  "platform" : true,
+  "transparent" : true,
+  "stairVariants" : 1,
+  "stairImage" : "woodenstairs.png",
+  "platformVariants" : 3,
+  "platformImage" : "woodenplatform.png",
+  "itemDrop" : "woodenplatform",
+  "shortdescription" : "Wooden Platform",
+  "description" : "Nicely carved wooden platforms.",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.wav"
+}

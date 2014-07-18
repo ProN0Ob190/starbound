@@ -1,0 +1,8 @@
+{
+  "name" : "reducefalldamage",
+  "icon" : [ ],
+  "kind" : "statuseffect",
+  "statusEffects" : [
+    { "kind" : "reducefalldamage", "amount" : 0.8 }
+  ]
+}

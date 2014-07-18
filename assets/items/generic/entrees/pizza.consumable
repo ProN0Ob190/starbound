@@ -1,0 +1,21 @@
+{
+  "itemName" : "pizza",
+  "rarity" : "Common",
+  "inventoryIcon" : "pizza.png",
+  "description" : "A whole pizza! You...gonna eat all that?",
+  "shortdescription" : "Pizza",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 100
+      },
+      {
+        "kind" : "mollyhealing3" },
+      {
+        "kind" : "energy",
+        "amount" : 25
+      },
+      {
+        "kind" : "fooddepletionsuppressed" }
+    ] ]
+}

@@ -1,0 +1,18 @@
+{
+  "name" : "largegrumpyhead",
+  "category" : "largebiped",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "largegrumpyhead.png"
+  },
+
+  "parameters" :
+  {
+    // "idleNoise" : [ "/sfx/npc/quadruped/sandworm_idle1.wav", "/sfx/npc/quadruped/sandworm_idle2.wav" ],
+    "turnHostileNoise" : [ "/sfx/npc/monsters/monster_surprise.wav" ],
+    // "attackNoise" : [ "/sfx/npc/quadruped/sandworm_attack1.wav", "/sfx/npc/quadruped/sandworm_attack2.wav" ],
+    // "painNoise" : [ "/sfx/npc/quadruped/sandworm_pain1.wav", "/sfx/npc/quadruped/sandworm_pain2.wav" ],
+    "deathNoise" : [ "/sfx/npc/enemydeathpuff.wav" ]
+  }
+}

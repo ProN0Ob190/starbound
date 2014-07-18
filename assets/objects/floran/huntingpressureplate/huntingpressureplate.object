@@ -25,7 +25,7 @@
     }
   ],
 
-  "scripts" : [ "/objects/wired/proximitysensor/proximitysensorcreature.lua" ],
+  "scripts" : [ "/objects/wired/proximitysensor/proximitysensor.lua" ],
   "scriptDelta" : 5,
 
   "animation" : "/objects/wired/switch/switchtoggle2.animation",
@@ -39,6 +39,6 @@
   "interactive" : false,
 
   "detectDuration" : 0.1,
-  "detectRadius" : 2,
-  "detectOffset" : [0, 1]
+  "detectEntityTypes" : [ "creature" ],
+  "detectArea" : [ [-1, 0.5], [1, 0.5] ]
 }

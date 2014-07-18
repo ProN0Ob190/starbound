@@ -1,0 +1,12 @@
+{
+  "itemName" : "darksmoothstonematerial",
+  "rarity" : "Common",
+  "inventoryIcon" : "darksmoothstone.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Dark Smooth Stone.",
+  "description" : "A dark, smooth stone block. Mysterious.",
+  "glitchdescription" : "Analysis. A dark block of unknown origin.",
+  "florandescription" : "Sssmooth block.",
+
+  "materialId" : 6
+}

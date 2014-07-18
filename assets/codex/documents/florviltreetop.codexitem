@@ -1,0 +1,10 @@
+{
+  "codexId" : "florviltreetop",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "floranvillagebook_14.png",
+  "itemName" : "florviltreetopCodex",
+  "rarity" : "common",
+  "description" : "Greenfinger's Notes: Treetop Dwellings",
+  "shortdescription" : "Treetop Dwellings"
+}

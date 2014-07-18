@@ -1,0 +1,15 @@
+{
+  "materialId" : 156,
+  "materialName" : "ornatewall",
+  "frames" : "ornatewall.png",
+  "particleColor" : [89, 127, 52, 255],
+  "variants" : 5,
+  "itemDrop" : "ornatewall",
+  "description" : "A remarkably ornate wall.",
+  "shortdescription" : "Ornate Wall",
+  "glitchDescription" : "Statement. An ornate wall.",
+  "floranDescription" : "Wall too pretty to sssmash.",
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.wav",
+  "health" : 20
+}

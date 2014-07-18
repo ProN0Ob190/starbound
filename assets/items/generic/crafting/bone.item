@@ -1,0 +1,10 @@
+{
+  "itemName" : "bone",
+  "rarity" : "Common",
+  "inventoryIcon" : "bone.png",
+  "description" : "It's a bone.",
+  "shortdescription" : "Bone",
+  "learnBlueprintsOnPickup" : [
+    "bonematerial"
+  ]
+}

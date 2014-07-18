@@ -1,0 +1,36 @@
+{
+  "objectName" : "medievalchair",
+  "rarity" : "Common",
+  "description" : "A Glitch chair .Makes your butt ache pretty quickly.",
+  "shortdescription" : "Glitch Chair",
+  "race" : "glitch",
+  "category" : "furniture",
+  "price" : 400,
+
+  "apexDescription" : "A hard wood dining room chair.",
+  "avianDescription" : "An uncomfortable wooden seat. Decorated with modesty.",
+  "floranDescription" : "Pointy ssseat make good weapon.",
+  "glitchDescription" : "Observe. A common dining room chair. Styled in typical Glitch fashion.",
+  "humanDescription" : "A Glitch chair. It's hard and uncomfortable.",
+  "hylotlDescription" : "The Glitch seem to like pointy furniture.",
+
+  "inventoryIcon" : "medievalchairicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "medievalchair.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 20]
+
+}

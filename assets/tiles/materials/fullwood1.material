@@ -1,0 +1,15 @@
+{
+  "materialId" : 57,
+  "materialName" : "fullwood1",
+  "frames" : "fullwood1.png",
+  "particleColor" : [102, 73, 41, 255],
+  "variants" : 5,
+  "itemDrop" : "fullwood1",
+  "description" : "Rough and unrefined, this wood looks freshly chopped.",
+  "shortdescription" : "Unrefined Wood",
+  "glitchDescription" : "Statement. Unrefined wood.",
+  "floranDescription" : "Unssstabbed wood.",
+  "footstepSound" : "/sfx/blocks/footstep_wood.wav",
+  "health" : 6,
+  "damageTable" : "/tiles/flammableDamage.config"
+}

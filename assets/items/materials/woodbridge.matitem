@@ -1,0 +1,12 @@
+{
+  "itemName" : "woodbridge",
+  "rarity" : "Common",
+  "inventoryIcon" : "woodbridge.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Wooden Bridge Block",
+  "description" : "The wood is very old and creaks in the wind.",
+  "glitchdescription" : "Statement. A block perfect for building a dangerous bridge.",
+  "florandescription" : "Floran build bridge and live under it.",
+
+  "materialId" : 65
+}

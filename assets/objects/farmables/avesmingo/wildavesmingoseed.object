@@ -1,0 +1,83 @@
+{
+  "objectName" : "wildavesmingoseed",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Avesmingo, the plant of a 100 different flavours.",
+  "shortdescription" : "Avesmingo Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "objectItem" : "avesmingoseed",
+
+  "apexDescription" : "They say this has a hundred different flavours. Is banana one of them?",
+  "avianDescription" : "A plant so full of flavour. Even the seed is especially tasty.",
+  "floranDescription" : "None of these flavours tassste like meatssss.",
+  "glitchDescription" : "Investigate. This tastes like... broccoli.",
+  "humanDescription" : "If flavours count, this should cover my five-a-day fifty times over.",
+  "hylotlDescription" : "This has far too many flavours. You can't appreciate any of them.",
+
+  "inventoryIcon" : "avesmingoseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "avesmingoseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "avesmingo",
+            "count" : 1
+          },
+          {
+            "name" : "avesmingoseed",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "avesmingo",
+            "count" : 1
+          },
+          {
+            "name" : "plantfibre",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "avesmingo",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [2820, 2940],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [2820, 2940],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

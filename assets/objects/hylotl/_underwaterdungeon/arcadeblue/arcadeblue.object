@@ -1,0 +1,33 @@
+{
+  "objectName" : "arcadeblue",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 2000,
+  "lightColor" : [150, 215, 235],
+
+  "description" : "The machine runs a game called 'Psychedelic Rodeo Melee'.",
+  "shortdescription" : "Blue Arcade Machine",
+  "race" : "hylotl",
+
+  "apexDescription" : "Psychedelic Rodeo Melee is oddly...peaceful.",
+  "avianDescription" : "Psychedelic Rodeo Melee is a surprisingly relaxing game.",
+  "floranDescription" : "Floran thought game wasss called Psychotic Rodeo Melee, got excited. Is not.",
+  "glitchDescription" : "Critical. I give Psychedelic Rodeo Melee a 4/10.",
+  "humanDescription" : "You'd never know by the title, but Psychedelic Rodeo Melee is pretty deep.",
+  "hylotlDescription" : "At its core, Psychedelic Rodeo Melee is a coming-of-age story.",
+
+  "inventoryIcon" : "arcadeblueicon.png",
+  "orientations" : [
+    {
+      "leftImage" : "arcadeblueleft.png:<color>.<frame>",
+      "rightImage" : "arcadeblueright.png:<color>.<frame>",
+      "imagePosition" : [-12, 0],
+      "frames" : 2,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

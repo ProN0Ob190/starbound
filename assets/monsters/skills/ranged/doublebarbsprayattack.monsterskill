@@ -1,0 +1,17 @@
+{
+  "name" : "doubleBarbSprayAttack",
+  "label" : "BARB SPRAY",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "doubleBarbSprayAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "doublethorns",
+      "range" : 20,
+      "speed" : -23,
+      "power" : 10,
+      "shots" : 6,
+      "fireInterval" : 0.1
+    }
+  }
+}

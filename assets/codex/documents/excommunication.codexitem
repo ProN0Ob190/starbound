@@ -1,0 +1,10 @@
+{
+  "codexId" : "excommunication",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "aviantemplebook_04.png",
+  "itemName" : "excommunicationCodex",
+  "rarity" : "common",
+  "description" : "Greenfinger's Notes on Excommunication",
+  "shortdescription" : "Excommunication Notes"
+}

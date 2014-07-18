@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "aegisaltbar", "count" : 40 }
+  ],
+  "output" : { "item" : "techupgrade33", "count" : 1 },
+  "groups" : [ "roboticcraftingtable", "all" ]
+}

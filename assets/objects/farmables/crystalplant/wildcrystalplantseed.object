@@ -1,0 +1,83 @@
+{
+  "objectName" : "wildcrystalplantseed",
+  "rarity" : "Common",
+  "description" : "Crystal Plant Seed. It's time to farm hard.",
+  "category" : "farmable",
+  "shortdescription" : "Crystal Plant Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "objectItem" : "crystalplantseed",
+
+  "apexDescription" : "I could grow a beautiful crystal plant.",
+  "avianDescription" : "A crystal plant. Shiny.",
+  "floranDescription" : "Plant hard like Floran.",
+  "glitchDescription" : "Statement. The crystals from the Crystal Plant are strong enough to engrave a Glitch.",
+  "humanDescription" : "Shiny, cool plant.",
+  "hylotlDescription" : "A remarkable feat of nature.",
+
+  "inventoryIcon" : "crystalplantseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "crystalplantseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "crystalplant",
+            "count" : 1
+          },
+          {
+            "name" : "crystalplantseed",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "crystalplant",
+            "count" : 1
+          },
+          {
+            "name" : "plantfibre",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "crystalplant",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [2820, 2940],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [2820, 2940],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "objectName" : "hayroll",
+  "rarity" : "Common",
+  "description" : "A roll of hay.",
+  "shortdescription" : "Hay Roll",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 300,
+
+  "apexDescription" : "Nicely rolled hay.",
+  "avianDescription" : "Avians do not roll hay this way.",
+  "floranDescription" : "Hay could roll away!",
+  "glitchDescription" : "Identify. Hay all rolled up and ready to be sold.",
+  "humanDescription" : "A great big roll of hay.",
+  "hylotlDescription" : "A surface plant, dried and all rolled up.",
+
+  "inventoryIcon" : "hayrollicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "hayroll.png:<color>",
+
+      "imagePosition" : [-8, -0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

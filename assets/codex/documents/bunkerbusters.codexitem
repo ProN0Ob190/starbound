@@ -1,0 +1,10 @@
+{
+  "codexId" : "bunkerbusters",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "humanbunkerbook_10.png",
+  "itemName" : "bunkerbustersCodex",
+  "rarity" : "common",
+  "description" : "Bunker Busters",
+  "shortdescription" : "Bunker Busters"
+}

@@ -1,0 +1,13 @@
+{
+  "id" : "glitchtutorial.gearup",
+  "title" : "^#9be3d6;Time For An Upgrade",
+  "text" : "As one of the few Glitch to achieve self awareness I was forced to flee my home with little preparation. My ship has been damaged and I am in orbit of an unknown planet. To keep moving I'll need to ^green;repair the ships thrusters and patch up the hull.",
+  "completionText" : "The ship has rumbled to life! There's still work to do and I need to fix the FTL drive. But it's a start!",
+  "conditions" : [
+    { "kind" : "trigger", "trigger" : "ai.repairthrusters" }
+  ],
+  "moneyRange" : [500, 500],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "canBeAbandoned" : false
+}

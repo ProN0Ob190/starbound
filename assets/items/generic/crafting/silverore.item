@@ -1,0 +1,7 @@
+{
+  "itemName" : "silverore",
+  "rarity" : "Common",
+  "inventoryIcon" : "silverore.png",
+  "description" : "It's silver. Can be used for smelting or repairs. Pick up ore and right click mining tool to repair.",
+  "shortdescription" : "Silver Ore"
+}

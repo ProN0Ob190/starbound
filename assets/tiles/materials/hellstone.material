@@ -1,0 +1,14 @@
+{
+  "materialId" : 12,
+  "materialName" : "hellstone",
+  "frames" : "hellstone.png",
+  "particleColor" : [96, 19, 30, 255],
+  "variants" : 5,
+  "itemDrop" : "hellstonematerial",
+  "description" : "Eww, a fleshy looking material!",
+  "shortdescription" : "Block of Flesh",
+  "glitchDescription" : "Alarm. This appears to be flesh.",
+  "floranDescription" : "Sssquishy, ssslimy flesh.",
+  "footstepSound" : "/sfx/blocks/footstep_brains.wav",
+  "health" : 30
+}

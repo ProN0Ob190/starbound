@@ -1,0 +1,21 @@
+{
+  "itemName" : "molotov",
+  "rarity" : "Common",
+  "inventoryIcon" : "molotovicon.png",
+  "image" : "molotovicon.png",
+  "shortdescription" : "Molotov",
+  "description" : "A molotov. For the anarchist in all of us.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "molotov",
+  "projectileConfig" : {
+    "speed" : 55,
+    "power" : 10
+  }
+}
+

@@ -1,0 +1,10 @@
+{
+  "codexId" : "sewerlonely",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "glitchsewerbook_07.png",
+  "itemName" : "sewerlonelyCodex",
+  "rarity" : "common",
+  "description" : "Loneliness",
+  "shortdescription" : "Loneliness"
+}

@@ -1,0 +1,22 @@
+{
+  "itemName" : "hotbone",
+  "rarity" : "Common",
+  "inventoryIcon" : "hotbone.png",
+  "description" : "Boneboo roasted with chilis makes for a crunchy, spicy Floran treat.",
+  "shortdescription" : "Hot Bone",
+  "handPosition" : [3, 0],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 85
+      },
+      {
+        "kind" : "mollyhealing2" },
+      {
+        "kind" : "fire",
+        "amount" : 5
+      },
+      {
+        "kind" : "sugarrush" }
+    ] ]
+}

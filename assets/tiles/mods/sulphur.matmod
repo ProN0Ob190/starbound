@@ -1,0 +1,10 @@
+{
+  "modId" : 23,
+  "modName" : "sulphur",
+  "frames" : "sulphur.png",
+  "variants" : 8,
+  "itemDrop" : "sulphur",
+  "Description" : "Sulphur.",
+  "health" : 0,
+  "breaksWithTile" : true
+}

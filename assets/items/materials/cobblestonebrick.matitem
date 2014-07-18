@@ -1,0 +1,12 @@
+{
+  "itemName" : "cobblestonebrick",
+  "rarity" : "Common",
+  "inventoryIcon" : "cobblestonebrick.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Cobblestone Brick",
+  "description" : "Small bricks made of cobblestone.",
+  "glitchdescription" : "Statement. Cobblestone.",
+  "florandescription" : "Cobblessstone.",
+
+  "materialId" : 132
+}

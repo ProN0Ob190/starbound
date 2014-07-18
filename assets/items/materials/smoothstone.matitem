@@ -1,0 +1,12 @@
+{
+  "itemName" : "smoothstonematerial",
+  "rarity" : "Common",
+  "inventoryIcon" : "smoothstone.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Smooth, almost soft, stone.",
+  "shortdescription" : "Smooth Stone Block",
+  "glitchdescription" : "Statement. A smooth stone block.",
+  "florandescription" : "Sssmooth ssstone.",
+
+  "materialId" : 24
+}

@@ -1,0 +1,96 @@
+{
+  "type" : "hellprisoner",
+  "baseType" : "guard",
+
+  "disableWornArmor" : true,
+  "innateStatusEffects" : [
+    {
+      "kind" : "Protection",
+      "amount" : 1.0
+    }
+  ],
+
+  "damageTeam" : 2,
+
+  "levelVariance" : [0, 0.5],
+
+  "scripts" : [
+    "/npcs/main.lua",
+    "/npcs/timers.lua",
+    "/scripts/sensors.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua",
+
+    "/npcs/meleeAttackState.lua",
+    "/npcs/rangedAttackState.lua",
+
+    "/npcs/guard/guardState.lua"
+  ],
+
+  "scriptConfig" : {
+    "attackerLimit" : 8,
+    "attackerLimitCooldown" : 3,
+    "noticePlayersRadius" : 30,
+
+    "guard" : {
+      "patrolDistance" : 4,
+      "noticeDistance" : 30,
+      "hailDistance" : -1,
+      "stopDistance" : -1,
+      "attackDistance" : 30,
+      "changeDirectionTimeRange" : [5, 10],
+
+      "attackSayingPercent" : 25,
+
+      "dialog" : {
+        "attack" : {
+          "default" : [ "Intruder!"
+          ],
+          "floran" : {
+            "default" : [
+              "Floran issss hungry!",
+              "Floran wantsssss!",
+              "Fleshhhhh!"
+            ]
+          }
+        }
+      }
+    },
+
+    "meleeAttack" : {
+      "swingDistance" : 3,
+      "runThreshold" : 0
+    }
+  },
+
+  "items" : {
+    "floran" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "floranleafchest", "data" : { "colorIndex" : 11 } } ],
+            "legs" : [ { "name" : "floranleaflegs", "data" : { "colorIndex" : 11 } } ],
+            "sheathedprimary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "shiv" } }
+            ]
+          }
+        ] ]
+    ]
+  },
+
+  "movementControllerSettings" : {
+    "runSpeed" : 15
+  },
+
+  "dropPools" : [ "prisonberserkertreasure" ],
+
+  "statusParameters" : {
+    "baseMaxHealth" : 40,
+    "baseMaxEnergy" : 40,
+    "bodyMaterialKind" : "organic",
+    "damageConfig" : "/damage/damageresponse/npcs.config",
+    "invulnerabilityTime" : 0,
+    "energyReplenishmentRate" : 10.0
+  }
+}
+

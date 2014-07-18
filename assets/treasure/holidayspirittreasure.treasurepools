@@ -1,0 +1,20 @@
+{
+  "holidaySpiritTreasure" : [
+    [1, {
+        "pool" : [
+          [0.10, [ "money", 10] ],
+          [0.05, [ "money", 25] ],
+          [0.55, [ "holidayspirit", 1] ],
+          [0.20, [ "holidayspirit", 2] ],
+          [0.075, [ "holidayspirit", 3] ],
+          [0.025, [ "holidayspirit", 5] ]
+        ],
+        "poolRounds" : [
+          [0.10, 0],
+          [0.90, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ]
+}

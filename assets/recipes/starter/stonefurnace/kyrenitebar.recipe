@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "Ceruliumbar", "count" : 2 },
+    { "item" : "coal", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "Violiumbar",
+    "count" : 1
+  },
+  "groups" : [ "stonefurnace", "all" ]
+}

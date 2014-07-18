@@ -1,0 +1,7 @@
+{
+  "itemName" : "blueprint",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "blueprint.png",
+  "description" : "Used for crafting",
+  "shortdescription" : "Blueprint"
+}

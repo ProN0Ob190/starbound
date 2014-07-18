@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "skyrailplatform",
+    "count" : 3
+  },
+  "groups" : [ "skyrailtable", "all" ]
+}

@@ -1,0 +1,54 @@
+{
+  "projectileName" : "plasmacrystalX",
+  "physics" : "bullet",
+  "bounces" : 0,
+  "speed" : 120,
+  "timeToLive" : 0.4,
+  "lightColor" : [85, 230, 45],
+  "frames" : "plasmacrystalX.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 1,
+  "actionOnReap" : [
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/melee/sword_parry.wav" ]
+    },
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/vlightblockexplosion/vlightblockexplosion.config"
+    }, 
+	{
+      "action" : "projectile",
+      "type" : "crystalshardX",
+      "fuzzAngle" : 45,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "crystalshardX",
+      "fuzzAngle" : 45,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "crystalshardX",
+      "fuzzAngle" : 45,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "crystalshardX",
+      "fuzzAngle" : 45,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "crystalshardX",
+      "fuzzAngle" : 45,
+      "angleAdjust" : 0
+    }
+
+  ],
+  "power" : 1600,
+  "damageKind" : "default"
+}

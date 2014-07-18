@@ -1,0 +1,18 @@
+{
+  "materialId" : 178,
+  "materialName" : "cloudblock",
+  "frames" : "cloudblock.png",
+  "particleColor" : [255, 255, 255, 255],
+  "variants" : 5,
+  "transparent" : true,
+  "itemDrop" : "cloudblock",
+  "description" : "Somewhat solid clouds! You can even walk on them!",
+  "shortdescription" : "Cloud Block",
+  "glitchDescription" : "Curious. A block of clouds.",
+  "floranDescription" : "Maybe I can eat?",
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_ash.wav",
+  "tillableMod" : 31,
+  "soil" : true,
+  "health" : 0.01
+}

@@ -1,0 +1,18 @@
+{
+  "name" : "shardSprayAttack",
+  "label" : "SHARD SPRAY",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "shardSprayAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "multirockshard",
+      "arc" : "low",
+      "range" : 15,
+      "power" : 10,
+      "speed" : 30,
+      "shots" : 5,
+      "fireInterval" : 0.1
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "itemName" : "combatsword",
+  "inventoryIcon" : "combatswordicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "State of the badass art.",
+  "shortdescription" : "CombatSword",
+
+  "image" : "combatsword.png",
+  "firePosition" : [-2, 4],
+  "fireTime" : 0.5,
+  "fireAfterWindup" : true,
+
+
+  "primaryStances" : {
+    "directional" : true,
+    "projectileType" : "testswoosh3",
+    "projectile" : {
+      "speed" : 0.1,
+      "power" : 50
+    },
+    "idle" : {
+      "twoHanded" : false,
+      "armAngle" : 999,
+      "swordAngle" : 999,
+      "handPosition" : [-6, -16],
+      "duration" : 0.1
+    },
+    "windup" : {
+      "twoHanded" : false,
+      "armAngle" : 90,
+      "swordAngle" : 90,
+      "handPosition" : [-6, -16],
+      "duration" : 0.1,
+      "statusEffects" : [ ]
+    },
+    "cooldown" : {
+      "twoHanded" : false,
+      "armAngle" : -90,
+      "swordAngle" : -90,
+      "handPosition" : [-6, -16],
+      "duration" : 0.4,
+      "statusEffects" : [ ]
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "smallmissilebody",
+  "category" : "smallmissile",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "missile.png"
+  }
+}

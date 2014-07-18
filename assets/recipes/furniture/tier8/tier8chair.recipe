@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "Violiumbar", "count" : 2 }
+  ],
+  "output" : { "item" : "tier8chair", "count" : 1 },
+  "groups" : [ "metalworkstation", "furniture", "objects", "all" ]
+}

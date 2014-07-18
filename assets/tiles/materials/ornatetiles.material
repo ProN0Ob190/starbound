@@ -1,0 +1,15 @@
+{
+  "materialId" : 157,
+  "materialName" : "ornatetiles",
+  "frames" : "ornatetiles.png",
+  "particleColor" : [89, 127, 52, 255],
+  "variants" : 1,
+  "itemDrop" : "ornatetiles",
+  "description" : "Esquisite ornate tiles.",
+  "shortdescription" : "Ornate Tiles",
+  "glitchDescription" : "Statement. Some ornate tiling.",
+  "floranDescription" : "Floran appreciate ornate tiling.",
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.wav",
+  "health" : 20
+}

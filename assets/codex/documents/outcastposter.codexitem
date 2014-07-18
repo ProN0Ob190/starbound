@@ -1,0 +1,10 @@
+{
+  "codexId" : "outcastposter",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "glitchvillagebook_07.png",
+  "itemName" : "outcastposterCodex",
+  "rarity" : "common",
+  "description" : "Outcast Poster.",
+  "shortdescription" : "Outcast Poster"
+}

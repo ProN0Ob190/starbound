@@ -1,0 +1,34 @@
+{
+  "objectName" : "holidaylights",
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "category" : "light",
+  "price" : 150,
+  "description" : "A string of small, twinkling fairy lights.",
+  "shortdescription" : "Fairy Lights",
+  "race" : "generic",
+
+  "apexDescription" : "These little lights are quite pretty.",
+  "avianDescription" : "It's hard not to love these pretty little lights.",
+  "floranDescription" : "Much sssparkle.",
+  "glitchDescription" : "Happy. These twinkling lights add much to the cheery atmosphere.",
+  "humanDescription" : "I've always been fond of fairy lights.",
+  "hylotlDescription" : "Such simple beauty.",
+
+  "lightColor" : [204, 189, 173],
+
+  "inventoryIcon" : "holidaylightsicon.png",
+  "orientations" : [
+    {
+      "image" : "holidaylights.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "itemName" : "greenapple",
+  "rarity" : "Common",
+  "inventoryIcon" : "greenapple.png",
+  "description" : "A tart green apple, ripe for baking or consuming with my face!",
+  "shortdescription" : "Green Apple",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 25
+      }
+    ] ]
+}

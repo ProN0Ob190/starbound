@@ -1,0 +1,31 @@
+{
+  "objectName" : "medievalplate",
+  "rarity" : "Common",
+  "description" : "A plate. It's gathering dust here.",
+  "shortdescription" : "Glitch Plate",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 200,
+
+  "apexDescription" : "A little wooden plate.",
+  "avianDescription" : "A dish on which food is served.",
+  "floranDescription" : "Plate need food. Yum yum.",
+  "glitchDescription" : "Reminisce. I once ate all my meals from a plate like this.",
+  "humanDescription" : "A nicely decorated wooden plate.",
+  "hylotlDescription" : "A rounded wooden plate.",
+
+  "inventoryIcon" : "medievalplateicon.png",
+  "orientations" : [
+    {
+      "image" : "medievalplate.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

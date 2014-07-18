@@ -1,0 +1,10 @@
+{
+  "modId" : 15,
+  "modName" : "crystal",
+  "frames" : "crystal.png",
+  "variants" : 8,
+  "itemDrop" : "crystal",
+  "Description" : "Crystal.",
+  "health" : 10,
+  "breaksWithTile" : true
+}

@@ -1,0 +1,62 @@
+{
+  "objectName" : "heartforge",
+  "rarity" : "Uncommon",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/heartforge.config",
+    "filter" : [ "heartforge" ]
+  },
+  "description" : "For all your holiday crafting needs!",
+  "shortdescription" : "Heart Forge",
+  "race" : "generic",
+  "category" : "crafting",
+  "printable" : false,
+  "price" : 500,
+
+  "apexDescription" : "A table with tools for crafting festive decorations.",
+  "avianDescription" : "This festive table will allow me to spread holiday cheer.",
+  "floranDescription" : "Floran make pretty red bowsss.",
+  "glitchDescription" : "Festive. I shall craft the most delicious gumdrop.",
+  "humanDescription" : "I can craft loads of holiday decorations with this table!",
+  "hylotlDescription" : "With this table, I can create the tackiest of holiday decorations.",
+
+  "statusEffects" : [
+    {
+      "kind" : "Warmth",
+      "amount" : 50,
+      "range" : 8
+    } ],
+
+  "lightColor" : [204, 189, 173],
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.1,
+
+  "inventoryIcon" : "heartforgeicon.png",
+
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "heartforge.png:<color>.<frame>", "fullbright" : true }, { "image" : "heartforgelit.png:<color>.<frame>" } ],
+      "flipImages" : true,
+      "imagePosition" : [-16, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left",
+      "lightPosition" : [0, 1]
+    },
+    {
+      "imageLayers" : [ { "image" : "heartforge.png:<color>.<frame>", "fullbright" : true }, { "image" : "heartforgelit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+      "lightPosition" : [-1, 1]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/furnace.wav"
+}

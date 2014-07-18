@@ -1,0 +1,10 @@
+{
+  "codexId" : "florvilbook",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "floranvillagebook_07.png",
+  "itemName" : "florvilbookCodex",
+  "rarity" : "common",
+  "description" : "Page of an Exercise Book",
+  "shortdescription" : "Exercise Book"
+}

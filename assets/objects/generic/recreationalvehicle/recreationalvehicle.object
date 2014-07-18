@@ -1,0 +1,40 @@
+{
+  "objectName" : "recreationalvehicle",
+  "rarity" : "Common",
+  "description" : "Hey look at this book, 50 Shades of Green. It's about aliens.",
+  "shortdescription" : "Recreational Vehicle",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 1000,
+  "health" : 100,
+
+  "apexDescription" : "A simple wooden bookcase.",
+  "avianDescription" : "A bookcase. Very simple.",
+  "floranDescription" : "Sssimple wooden bookcase.",
+  "glitchDescription" : "Uninterested. Just a bookcase.",
+  "humanDescription" : "A regular bookcase.",
+  "hylotlDescription" : "A spot to place books.",
+
+  "inventoryIcon" : "recreationalvehicleicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "recreationalvehicle.png",
+
+      "imagePosition" : [-40, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+  "smashSounds" : [ "/sfx/objects/capsule_break1.wav", "/sfx/objects/capsule_break2.wav", "/sfx/objects/capsule_break3.wav" ],
+  "smashDropOptions" : [
+    [ [ "scientistchest", 1, { } ], [ "scientisthead", 1, { } ], [ "scientistlegs", 1, { } ], [ "watermachine", 1, { } ], [ "copperore", 1, { } ], [ "gasmaskhead", 1, { } ] ]
+  ],
+  "breakDropOptions" : [
+    [ [ "scientistchest", 1, { } ], [ "scientisthead", 1, { } ], [ "scientistlegs", 1, { } ], [ "watermachine", 1, { } ], [ "copperore", 1, { } ], [ "gasmaskhead", 1, { } ] ]
+  ]
+}

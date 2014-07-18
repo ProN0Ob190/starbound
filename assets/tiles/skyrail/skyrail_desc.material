@@ -1,0 +1,14 @@
+{
+  "materialId" : 6967,
+  "materialName" : "skyrail_desc",
+  "platform" : true,
+  "transparent" : true,
+  "stairVariants" : 1,
+  "stairImage" : "skyrail_descdiag.png",
+  "platformVariants" : 5,
+  "platformImage" : "skyrail_descflat.png",
+  "itemDrop" : "skyrail_desc",
+  "shortdescription" : "Skyrail Switcher -",
+  "description" : "Gives priority to lower rails.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.wav"
+}

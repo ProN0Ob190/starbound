@@ -1,0 +1,31 @@
+{
+  "objectName" : "woodenlamp3",
+  "rarity" : "Common",
+  "description" : "A cute ceiling lamp.",
+  "shortdescription" : "Wooden Ceiling Lamp",
+  "race" : "generic",
+
+  "apexDescription" : "A small wooden ceiling lamp.",
+  "avianDescription" : "Wood and electricity becomes light.",
+  "floranDescription" : "Sssweet hanging lamp.",
+  "glitchDescription" : "Identify. A simple ceiling lamp.",
+  "humanDescription" : "A nice little ceiling lamp.",
+  "hylotlDescription" : "A charming lamp for the ceiling.",
+
+  "category" : "light",
+  "price" : 600,
+  "lightColor" : [217, 217, 190],
+
+  "inventoryIcon" : "woodenlamp3icon.png",
+  "orientations" : [
+    {
+      "image" : "woodenlamp3.png:<color>.<frame>",
+      "imagePosition" : [-2, 0],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ]
+}

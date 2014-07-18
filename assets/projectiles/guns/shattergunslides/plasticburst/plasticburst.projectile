@@ -1,0 +1,41 @@
+{
+  "projectileName" : "plasticburst",
+  "physics" : "bullet",
+  "bounces" : 0,
+  "speed" : 1,
+  "timeToLive" : 0.01,
+  "damageKindImage" : "icon.png",
+  "frames" : "plasticburst.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 1,
+  "actionOnReap" : [
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/melee/laser_weapon_hit.wav" ]
+    },
+	{
+      "action" : "projectile",
+      "type" : "plasticslide",
+      "fuzzAngle" : 35,
+      "inheritDamageFactor" : 0.2,
+      "angleAdjust" : -15
+    },
+    {
+      "action" : "projectile",
+      "type" : "plasticslide",
+      "fuzzAngle" : 45,
+      "inheritDamageFactor" : 0.2,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "plasticslide",
+      "fuzzAngle" : 35,
+      "inheritDamageFactor" : 0.2,
+      "angleAdjust" : 15
+    }
+
+  ],
+  "power" : 4,
+  "damageKind" : "default"
+}

@@ -1,0 +1,80 @@
+{
+  "objectName" : "electriclight",
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 400,
+  "description" : "A cheap electric light.",
+  "shortdescription" : "Electric Light",
+  "race" : "generic",
+
+  "apexDescription" : "A small electrical light.",
+  "avianDescription" : "Electricity harnessed to produce light.",
+  "floranDescription" : "Sssmall light with no flame.",
+  "glitchDescription" : "Label. A light.",
+  "humanDescription" : "A basic light.",
+  "hylotlDescription" : "An ordinary light.",
+
+  "fullbright" : true,
+  "lightColors" : {
+    "default" : [179, 178, 161],
+    "red" : [229, 211, 207],
+    "pink" : [207, 207, 229],
+    "blue" : [211, 229, 207],
+    "green" : [229, 229, 207],
+    "yellow" : [229, 217, 207],
+    "orange" : [229, 207, 217],
+    "black" : [0, 0, 0],
+    "white" : [229, 229, 229]
+  },
+
+  "inventoryIcon" : "electriclighticon.png",
+  "orientations" : [
+    {
+      "image" : "electriclightleft.png:<color>.<frame>",
+      "frames" : 1,
+      "imagePosition" : [0, 0],
+
+      "spaces" : [ [0, 0] ],
+      "fgAnchors" : [ [-1, 0] ]
+    },
+
+    {
+      "image" : "electriclightright.png:<color>.<frame>",
+      "frames" : 1,
+      "imagePosition" : [0, 0],
+
+      "spaces" : [ [0, 0] ],
+      "fgAnchors" : [ [1, 0] ]
+    },
+
+    {
+      "image" : "electriclightceiling.png:<color>.<frame>",
+      "frames" : 1,
+      "imagePosition" : [1, 0],
+
+      "spaces" : [ [0, 0] ],
+      "fgAnchors" : [ [0, 1] ]
+    },
+
+    {
+      "image" : "electriclightground.png:<color>.<frame>",
+      "frames" : 1,
+      "imagePosition" : [1, 0],
+
+      "spaces" : [ [0, 0] ],
+      "fgAnchors" : [ [0, -1] ]
+    },
+
+    {
+      "image" : "electriclightbg.png:<color>.<frame>",
+      "frames" : 1,
+      "imagePosition" : [1, 0],
+
+      "spaces" : [ [0, 0] ],
+      "bgAnchors" : [ [0, 0] ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/electriclight.wav"
+
+}

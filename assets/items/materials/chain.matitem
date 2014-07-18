@@ -1,0 +1,12 @@
+{
+  "itemName" : "chain",
+  "rarity" : "Common",
+  "inventoryIcon" : "chain.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Steel chains, and not the fun kind.",
+  "shortdescription" : "Steel chain",
+  "glitchdescription" : "Statement. Chains.",
+  "florandescription" : "Floran use chains to catch prey.",
+
+  "materialId" : 100
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 10 },
+    { "item" : "copperarmorhead", "count" : 1 }
+  ],
+  "output" : { "item" : "apextier1head", "count" : 1 },
+  "groups" : [ "anvil", "armors", "all" ]
+}

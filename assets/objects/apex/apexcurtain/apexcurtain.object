@@ -1,0 +1,31 @@
+{
+  "objectName" : "apexcurtain",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 500,
+
+  "description" : "A thin set of short curtains.",
+  "shortdescription" : "Standard Issue Curtain",
+  "race" : "apex",
+
+  "apexDescription" : "These curtains don't close. Privacy is not something the Apex get to experience often.",
+  "avianDescription" : "Thin sheets of fabric. They're too small to cover any window.",
+  "floranDescription" : "Ssssilly Apex make curtain too sssmall to cover window.",
+  "glitchDescription" : "Confusion. Curtains too small for purpose.",
+  "humanDescription" : "These curtains aren't very wide. You couldn't cover a window with them.",
+  "hylotlDescription" : "This is a fabric of dull colours and rough feel.",
+
+  "inventoryIcon" : "apexcurtainicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "apexcurtain.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

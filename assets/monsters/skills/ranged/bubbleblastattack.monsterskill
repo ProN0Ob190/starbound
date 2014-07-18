@@ -1,0 +1,18 @@
+{
+  "name" : "bubbleBlastAttack",
+  "label" : "BUBBLE BLAST",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "bubbleBlastAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "bubbles",
+      "arc" : "low",
+      "range" : 15,
+      "speed" : 25,
+      "power" : 11,
+      "shots" : 20,
+      "fireInterval" : 0.066
+    }
+  }
+}

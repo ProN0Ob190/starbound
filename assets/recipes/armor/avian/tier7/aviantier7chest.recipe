@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "Ceruliumbar", "count" : 35 }
+  ],
+  "output" : { "item" : "aviantier7chest", "count" : 1 },
+  "groups" : [ "craftingtable", "armors", "all" ]
+}

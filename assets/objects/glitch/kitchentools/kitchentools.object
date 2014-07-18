@@ -1,0 +1,31 @@
+{
+  "objectName" : "kitchentools",
+  "rarity" : "Common",
+  "description" : "Tools necessary for creating pure, unadulterated deliciousness.",
+  "shortdescription" : "Kitchen Tools",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 450,
+
+  "apexDescription" : "Kitchen utensils. I wonder what the Glitch cook.",
+  "avianDescription" : "A set of tools that look like they're made for making food.",
+  "floranDescription" : "Sssharp knife for cutting meat.",
+  "glitchDescription" : "Educate. These tools are for making food. The Glitch contain technology to convert food into energy.",
+  "humanDescription" : "I wonder how fast a Glitch can chop vegetables.",
+  "hylotlDescription" : "Hylotl use a katana to chop their food. Just kidding.",
+
+  "inventoryIcon" : "kitchentoolsicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "kitchentools.png:<color>",
+
+      "imagePosition" : [-16, -12],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

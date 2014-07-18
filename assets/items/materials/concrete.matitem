@@ -1,0 +1,12 @@
+{
+  "itemName" : "concretematerial",
+  "rarity" : "Common",
+  "inventoryIcon" : "concrete.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Cold, hard, concrete.",
+  "shortdescription" : "Concrete Block",
+  "glitchdescription" : "Statement. Concrete.",
+  "florandescription" : "Con... crete.",
+
+  "materialId" : 5
+}

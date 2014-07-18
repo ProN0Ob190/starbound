@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "boltbulb", "count" : 1 },
+    { "item" : "wheat", "count" : 1 },
+    { "item" : "eggshoot", "count" : 1 },
+    { "item" : "sugar", "count" : 1 }
+  ],
+  "output" : { "item" : "blackcurrentcrumble", "count" : 1 },
+  "groups" : [ "kitchen", "consumables", "dessert" ]
+}

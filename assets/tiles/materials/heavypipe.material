@@ -1,0 +1,167 @@
+{
+  "materialId" : 185,
+  "materialName" : "heavypipe",
+  "frames" : "outposthorizontal.png",
+  "particleColor" : [194, 194, 194, 255],
+  "variants" : 5,
+  "itemDrop" : "heavypipe",
+  "shortdescription" : "Heavy Pipe",
+  "description" : "An outpost pipe.",
+  "glitchDescription" : "Statement. A pipe.",
+  "floranDescription" : "Pipe!",
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.wav",
+  "drawBackground" : true,
+  "health" : 6,
+  "neighborAwareRendering" : {
+    "legend" : { },
+    "filters" : [
+      {
+        "texture" : "heavypipeno.png",
+        "neighbors" : [
+          [ "X", "0", "X" ],
+          [ "0", "S", "0" ],
+          [ "X", "0", "X" ]
+        ]
+      },
+      {
+        "texture" : "heavypipeNSEW.png",
+        "neighbors" : [
+          [ "X", "1", "X" ],
+          [ "1", "S", "1" ],
+          [ "X", "1", "X" ]
+        ]
+      },
+      {
+        "texture" : "heavypipeNSE.png",
+        "neighbors" : [
+          [ "X", "1", "X" ],
+          [ "0", "S", "1" ],
+          [ "X", "1", "X" ]
+        ]
+      },
+      {
+        "texture" : "heavypipeNSW.png",
+        "neighbors" : [
+          [ "X", "1", "X" ],
+          [ "1", "S", "0" ],
+          [ "X", "1", "X" ]
+        ]
+      },
+      {
+        "texture" : "heavypipeNEW.png",
+        "neighbors" : [
+          [ "X", "1", "X" ],
+          [ "1", "S", "1" ],
+          [ "X", "0", "X" ]
+        ]
+      },
+      {
+        "texture" : "heavypipeSEW.png",
+        "neighbors" : [
+          [ "X", "0", "X" ],
+          [ "1", "S", "1" ],
+          [ "X", "1", "X" ]
+        ]
+      },
+      {
+        "texture" : "heavypipeNE.png",
+        "neighbors" : [
+          [ "1", "X" ],
+          [ "S", "1" ]
+        ]
+      },
+      {
+        "texture" : "heavypipeNW.png",
+        "neighbors" : [
+          [ "X", "1" ],
+          [ "1", "S" ]
+        ]
+      },
+      {
+        "texture" : "heavypipeSW.png",
+        "neighbors" : [
+          [ "1", "S" ],
+          [ "X", "1" ]
+        ]
+      },
+      {
+        "texture" : "heavypipeSE.png",
+        "neighbors" : [
+          [ "S", "1" ],
+          [ "1", "X" ]
+        ]
+      },
+      {
+        "texture" : "heavypipeN.png",
+        "neighbors" : [
+          [ "0" ],
+          [ "S" ],
+          [ "1" ]
+        ]
+      },
+      {
+        "texture" : "heavypipeS.png",
+        "neighbors" : [
+          [ "1" ],
+          [ "S" ],
+          [ "0" ]
+        ]
+      },
+      {
+        "texture" : "heavypipevertical.png",
+        "neighbors" : [
+          [ "1" ],
+          [ "S" ],
+          [ "1" ]
+        ]
+      },
+      {
+        "texture" : "heavypipeE.png",
+        "neighbors" : [
+          [ "1", "S", "0" ]
+        ]
+      },
+      {
+        "texture" : "heavypipeW.png",
+        "neighbors" : [
+          [ "0", "S", "1" ]
+        ]
+      },
+      {
+        "texture" : "heavypipehorizontal.png",
+        "neighbors" : [
+          [ "1", "S", "1" ]
+        ]
+      },
+      {
+        "texture" : "heavypipeinnercornermissing.png",
+        "neighbors" : [
+          [ "s", "1" ],
+          [ "1", "0" ]
+        ]
+      },
+      {
+        "texture" : "heavypipeinnercornermissing.png",
+        "neighbors" : [
+          [ "0", "1" ],
+          [ "1", "s" ]
+        ]
+      },
+      {
+        "texture" : "heavypipeinnercornermissing.png",
+        "neighbors" : [
+          [ "1", "s" ],
+          [ "0", "1" ]
+        ]
+      },
+      {
+        "texture" : "heavypipeinnercornermissing.png",
+        "neighbors" : [
+          [ "1", "0" ],
+          [ "s", "1" ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 20 },
+    { "item" : "climbingrope", "count" : 4 }
+  ],
+  "output" : { "item" : "grapplinghook", "count" : 1 },
+  "groups" : [ "roboticcraftingtable", "tools", "all" ]
+}

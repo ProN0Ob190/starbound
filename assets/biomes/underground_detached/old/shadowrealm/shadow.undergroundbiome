@@ -1,0 +1,27 @@
+{
+  "name" : "shadow",
+  "friendlyName" : "Shadow",
+  "caveLiquidType" : "water",
+  "requiredStatuses" : [ "beamaxe" ],
+  "spawnProfiles" : [ "undergroundmix1", "undergroundmix2", "undergroundmix3" ],
+
+  "mainBlock" : "obsidian",
+  "subBlocks" : [ "tar", "direstone" ],
+  "ores" : "depth3",
+
+  "statusParameters" : {
+    "temperatureBounds" : [0, 5],
+    "dayNightTemperatureVariability" : 10,
+    "temperatureVariability" : 1
+  },
+
+  "hueShiftOptions" : [0],
+  "undergroundParallax" : "shadow.undergroundparallax",
+
+  "sky" : {
+    "topColor" : [182, 204, 255],
+    "bottomColor" : [224, 239, 255],
+    "nightTopColor" : [0, 0, 30],
+    "nightBottomColor" : [0, 0, 0]
+  }
+}

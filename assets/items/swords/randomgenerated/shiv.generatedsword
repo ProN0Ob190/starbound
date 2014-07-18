@@ -1,0 +1,54 @@
+{
+  "name" : "shiv",
+  "baseDps" : [2.5, 3.5],
+  "rateOfSwing" : [1.0, 3.5],
+  "multiplier" : 0.4,
+  "firePosition" : [13.5, -1.5],
+  "fireAfterWindup" : true,
+  "muzzleFlashes" : [ ],
+  "soundEffect" : [ "/sfx/melee/swing_dagger.wav" ],
+  "kind" : "shiv",
+  "tooltipKind" : "sword",
+
+  "primaryStances" : {
+    "directional" : true,
+    "projectileTypes" : [ "daggerswoosh1" ],
+    "projectile" : {
+      "speed" : 0.5
+    },
+    "idle" : {
+      "twoHanded" : false,
+      "armAngle" : -90,
+      "swordAngle" : -90,
+      "handPosition" : [-3, -18.5],
+      "armFrameOverride" : "idleMelee",
+      "duration" : 0.1
+    },
+    "windup" : {
+      "twoHanded" : false,
+      "armAngle" : 0,
+      "swordAngle" : -60,
+      "handPosition" : [0.2, -25],
+      "duration" : 0.07,
+      "statusEffects" : [ ]
+    },
+    "cooldown" : {
+      "twoHanded" : false,
+      "armAngle" : -140,
+      "swordAngle" : -90,
+      "handPosition" : [2.7, -12.5],
+      "duration" : 0.4,
+      "statusEffects" : [ ]
+    }
+  },
+  "palette" : [
+
+    { "676767" : "756257", "B1B1B1" : "a18d7f", "E9E9E9" : "e0c7b5", //iron//
+      "A1750B" : "7e0000", "BC8B07" : "b71111", "F5E458" : "eb3f3f", //gold//
+      "624122" : "5b5b5b", "886337" : "7f7e7d", "b0885f" : "a09f9e", //wood//
+      "F32200" : "ffae46", "FFAB9E" : "ffd878", "FEFFFF" : "fcf7da", //energy//
+      "605C57" : "363636", "A89E93" : "5d5d5c", "D2C5B6" : "7e7e7e" //steel//
+    }
+  ],
+  "nameGenerator" : "daggernames.config:nameGen"
+}

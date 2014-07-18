@@ -1,0 +1,42 @@
+{
+  "objectName" : "barbedwire",
+  "rarity" : "Common",
+  "description" : "Ouch! I shouldn't get too close to that.",
+  "shortdescription" : "Barbed Wire",
+  "race" : "human",
+  "category" : "decorative",
+  "price" : 500,
+
+  "apexDescription" : "Barbed wire. The Miniknog often use this to keep people out... or in.",
+  "avianDescription" : "Sharp wire. Have to be careful it doesn't snag my feathers.",
+  "floranDescription" : "Sssharp, ssspiky ssstring.",
+  "glitchDescription" : "Cautious. This sharp wire could scratch even the toughest Glitch shell.",
+  "humanDescription" : "Barbed wire. The bane of human clothing.",
+  "hylotlDescription" : "Sharp spikes fashioned with wire. A barbaric, primitive form of security.",
+
+  "inventoryIcon" : "barbedwireicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "barbedwire.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "statusEffects" : [
+    {
+      "kind" : "directdamage",
+      "amount" : 0.5,
+      "range" : 0
+    },
+    {
+      "kind" : "encumbered"
+    }
+  ]
+}

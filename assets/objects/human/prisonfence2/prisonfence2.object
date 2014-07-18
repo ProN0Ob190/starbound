@@ -1,0 +1,31 @@
+{
+  "objectName" : "prisonfence2",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 300,
+
+  "description" : "It's a chainlink fence.",
+  "shortdescription" : "Short Chainlink Fence",
+  "race" : "human",
+
+  "apexDescription" : "A chain-link fence.",
+  "avianDescription" : "A fence. Cruel mockery for the grounded.",
+  "floranDescription" : "No fence stop Floran! ... Fence stop Floran.",
+  "glitchDescription" : "Statement. A chain-link fence.",
+  "humanDescription" : "In my youth, I used to climb fences like this to steal food. Tasty, tasty crime.",
+  "hylotlDescription" : "If this fence was under the ocean, I could just swim over it. Then again, why would it be?",
+
+  "inventoryIcon" : "prisonfence2icon.png",
+  "orientations" : [
+    {
+      "image" : "prisonfence2.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "codexId" : "bossdreadwing",
+  "title" : "Reading material",
+  "inventoryIcon" : "bossbook.png",
+  "codexkind" : "codex",
+  "itemName" : "bossdreadwingCodex",
+  "rarity" : "common",
+  "description" : "Information on Dreadwing, penguin scourge of the skies.",
+  "shortdescription" : "Dreadwing The Penguin"
+}

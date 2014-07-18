@@ -1,0 +1,14 @@
+{
+  "itemName" : "bloodypuss",
+  "rarity" : "Common",
+  "inventoryIcon" : "bloodypuss.png",
+  "description" : "A thick, shake-like drink of meat and pussplum.",
+  "shortdescription" : "Bloody Puss",
+  "handPosition" : [-8, 0],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 20
+      }
+    ] ]
+}

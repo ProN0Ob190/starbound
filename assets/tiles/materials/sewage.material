@@ -1,0 +1,16 @@
+{
+  "materialId" : 136,
+  "materialName" : "sewage",
+  "particleColor" : [97, 92, 60, 255],
+  "frames" : "sewage.png",
+  "variants" : 5,
+  "itemDrop" : "sewage",
+  "description" : "Disgusting sewage. Lovely.",
+  "shortdescription" : "Sewage Block",
+  "glitchDescription" : "Repulsion. Sewage.",
+  "floranDescription" : "Ssstinky mess.",
+  "footstepSound" : "/sfx/blocks/footstep_brains.wav",
+  "falling" : true,
+  "cascading" : true,
+  "health" : 2
+}

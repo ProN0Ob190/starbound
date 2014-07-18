@@ -1,0 +1,32 @@
+{
+  "objectName" : "hylotllilypad",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 1000,
+
+  "description" : "It looks like a decorative lily pad.",
+  "shortdescription" : "Metal Lily Pad",
+  "race" : "hylotl",
+
+  "apexDescription" : "A decorative metal lily pad. Nice.",
+  "avianDescription" : "I haven't seen this many lily pads since that time I crash-landed in a swamp.",
+  "floranDescription" : "Floran control plantsss. Frogmen make sssilly metal thing.",
+  "glitchDescription" : "Critical. This lily pad would make for interesting decoration if it wasn't surrounded by numerous other lily pads.",
+  "humanDescription" : "The perfect gift for someone who adores lily pads. Unfortunately, that someone is not me.",
+  "hylotlDescription" : "The beauty of nature meets the harshness of urban sprawl.",
+
+
+  "inventoryIcon" : "hylotllilypadicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "hylotllilypad.png:<color>",
+      "imagePosition" : [-24, -24],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "objectName" : "woodenlamp1",
+  "rarity" : "Common",
+  "description" : "A cute wooden lamp.",
+  "shortdescription" : "Wooden Table Lamp",
+  "race" : "generic",
+
+  "apexDescription" : "A small wooden lamp.",
+  "avianDescription" : "Wood and electricity becomes light.",
+  "floranDescription" : "Sssweet lamp.",
+  "glitchDescription" : "Identify. A simple lamp.",
+  "humanDescription" : "A nice little lamp.",
+  "hylotlDescription" : "A charming lamp.",
+
+  "category" : "light",
+  "price" : 600,
+  "lightColor" : [217, 217, 190],
+
+  "inventoryIcon" : "woodenlamp1icon.png",
+  "orientations" : [
+    {
+      "image" : "woodenlamp1.png:<color>.<frame>",
+      "imagePosition" : [-1, 0],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "objectName" : "shroomchair",
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A mushroom chair. Or maybe a toadstool.",
+  "shortdescription" : "Shroom Chair",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 900,
+
+  "apexDescription" : "This chair feels spongey and weird.",
+  "avianDescription" : "The back of this chair chafes against my feathers.",
+  "floranDescription" : "Floran sssquish chair.",
+  "glitchDescription" : "Pondering. How many years did it take for mushrooms to develop this shape?",
+  "humanDescription" : "I bet whoever sits here is a fun guy. Yeah, I went there.",
+  "hylotlDescription" : "This chair has the feel of a sea sponge.",
+
+  "inventoryIcon" : "shroomchairicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "shroomchair.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 22]
+
+}

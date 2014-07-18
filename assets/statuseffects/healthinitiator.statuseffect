@@ -1,0 +1,13 @@
+{
+  "kind" : "healthinitiator",
+  "duration" : 30,
+  "primitives" : [
+    {
+      "name" : "Health",
+      "mode" : "max", //don't stack
+      "amount" : 0.1450
+    }
+  ],
+  "effectSources" : [ "redstim" ],
+  "mainInterfaceIcon" : "/interface/statuses/heal.png"
+}

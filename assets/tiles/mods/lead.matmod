@@ -1,0 +1,10 @@
+{
+  "modId" : 19,
+  "modName" : "lead",
+  "frames" : "lead.png",
+  "variants" : 8,
+  "itemDrop" : "lead",
+  "Description" : "Lead.",
+  "health" : 10,
+  "breaksWithTile" : true
+}

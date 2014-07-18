@@ -1,0 +1,31 @@
+{
+  "objectName" : "apexwoodpanel",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 400,
+
+  "description" : "It's just a wall panel.",
+  "shortdescription" : "Wooden Panel",
+  "race" : "apex",
+
+  "apexDescription" : "A wooden panel. These appear in lots of Apex housing.",
+  "avianDescription" : "What is this for?",
+  "floranDescription" : "Pointless Apex decoration, hsss.",
+  "glitchDescription" : "Unimpressed. Pointless wooden panel.",
+  "humanDescription" : "You could hide a mic behind one of these.",
+  "hylotlDescription" : "Is this decorative or does it have some purpose?",
+
+  "inventoryIcon" : "apexwoodpanelicon.png",
+  "orientations" : [
+    {
+      "image" : "apexwoodpanel.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

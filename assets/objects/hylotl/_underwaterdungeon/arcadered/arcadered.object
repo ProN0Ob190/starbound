@@ -1,0 +1,33 @@
+{
+  "objectName" : "arcadered",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 2000,
+  "lightColor" : [150, 215, 235],
+
+  "description" : "This machine runs a game called 'Cool Wizard Island'.",
+  "shortdescription" : "Red Arcade Machine",
+  "race" : "hylotl",
+
+  "apexDescription" : "As an Apex of science, I'm not sure I can agree that the wizards in Cool Wizard Island are very cool.",
+  "avianDescription" : "I can't place my talon on it, but something about Cool Wizard Island seems blasphemous.",
+  "floranDescription" : "Wizard runs around sssetting things on fire! Stabbing is easier.",
+  "glitchDescription" : "Amused. There is little not to enjoy about Cool Wizard Island. 9/10.",
+  "humanDescription" : "Cool Wizard Island is, predictably, about cool wizards living on an island. It's very funny for a game developed by a Hylotl.",
+  "hylotlDescription" : "Cool Wizard Island was one of my favorite arcade games as a young Hylotl.",
+
+  "inventoryIcon" : "arcaderedicon.png",
+  "orientations" : [
+    {
+      "leftImage" : "arcaderedleft.png:<color>.<frame>",
+      "rightImage" : "arcaderedright.png:<color>.<frame>",
+      "imagePosition" : [-12, 0],
+      "frames" : 2,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "brainreboot",
+  "icon" : [ ],
+  "kind" : "statuseffect",
+  "statusEffects" : [
+    { "kind" : "brainreboot", "chance" : 100.0 }
+  ]
+}

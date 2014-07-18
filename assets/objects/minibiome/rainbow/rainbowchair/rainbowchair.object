@@ -1,0 +1,37 @@
+{
+  "objectName" : "rainbowchair",
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A gloriously colourful rainbow chair.",
+  "shortdescription" : "Rainbow Chair",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 400,
+
+  "apexDescription" : "This chair is hugely uplifting.",
+  "avianDescription" : "A breathtakingly colourful chair.",
+  "floranDescription" : "Floran love pretty chair.",
+  "glitchDescription" : "Emotional. This chair fills me with the joy of life.",
+  "humanDescription" : "What an awesome chair!",
+  "hylotlDescription" : "Sitting here would lift even the grumpiest Hylotl's mood.",
+
+  "inventoryIcon" : "rainbowchairicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "rainbowchair.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 22]
+
+}

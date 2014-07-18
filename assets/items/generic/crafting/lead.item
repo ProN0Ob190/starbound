@@ -1,0 +1,7 @@
+{
+  "itemName" : "lead",
+  "rarity" : "Common",
+  "inventoryIcon" : "lead.png",
+  "description" : "A block of lead.",
+  "shortdescription" : "Lead"
+}

@@ -1,0 +1,14 @@
+{
+  "materialId" : 17,
+  "materialName" : "rock02",
+  "frames" : "rock02.png",
+  "particleColor" : [134, 138, 135, 255],
+  "variants" : 5,
+  "itemDrop" : "cobblestonematerial",
+  "description" : "Rough, unrefined stone.",
+  "shortdescription" : "Rock Block",
+  "glitchDescription" : "Statement. Rock.",
+  "floranDescription" : "Rocksss.",
+  "footstepSound" : "/sfx/blocks/footstep_stone.wav",
+  "health" : 16
+}

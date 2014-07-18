@@ -1,0 +1,44 @@
+{
+  "objectName" : "sandstonedoor",
+  "printable" : false,
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 800,
+  "description" : "A rough sandstone door.",
+  "shortdescription" : "Sandstone Door",
+  "race" : "generic",
+
+  "apexDescription" : "A door made of sandstone.",
+  "avianDescription" : "A well-made sandstone door.",
+  "floranDescription" : "Sssandy door.",
+  "glitchDescription" : "Observation. A hardy sandstone door.",
+  "humanDescription" : "Nice door.",
+  "hylotlDescription" : "A rough, sandy door. Crude.",
+
+  "inventoryIcon" : "sandstonedooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "sandstonedoor.png:default",
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationParts" : {
+    "door" : "sandstonedoor.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "inboundNodes" : [ [0, 4] ],
+  "outboundNodes" : [ [0, 0] ],
+
+  "openSounds" : [ "/sfx/objects/wooddoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/wooddoor_close.wav" ]
+}

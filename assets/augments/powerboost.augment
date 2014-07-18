@@ -1,0 +1,8 @@
+{
+  "name" : "powerboost",
+  "icon" : [ ],
+  "kind" : "statuseffect",
+  "statusEffects" : [
+    { "kind" : "powerboost", "amount" : 0.8 }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "objectName" : "outpostlight",
+  "rarity" : "Common",
+  "description" : "A wall light.",
+  "shortdescription" : "Outpost Wall Light",
+  "race" : "generic",
+
+  "category" : "light",
+  "price" : 500,
+  "lightColor" : [220, 220, 220],
+
+  "floranDescription" : "Ssshiny.",
+  "glitchDescription" : "Statement. A light fixture.",
+
+  "inventoryIcon" : "outpostlight.png",
+  "orientations" : [
+    {
+      "image" : "outpostlight.png:<color>.<frame>",
+      "imagePosition" : [-0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

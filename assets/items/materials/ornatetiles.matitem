@@ -1,0 +1,12 @@
+{
+  "itemName" : "ornatetiles",
+  "rarity" : "Common",
+  "inventoryIcon" : "ornatetilesicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Esquisite ornate tiles.",
+  "shortdescription" : "Ornate Tiles",
+  "glitchdescription" : "Statement. Some ornate tiling.",
+  "florandescription" : "Floran appreciate ornate tiling.",
+
+  "materialId" : 157
+}

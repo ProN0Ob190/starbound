@@ -1,0 +1,40 @@
+{
+  "objectName" : "prisoncontrolpanel",
+  "rarity" : "Common",
+
+  "description" : "A control panel that appears to operate lights, doors and alarms.",
+  "shortdescription" : "Prison Control Panel",
+  "race" : "human",
+  "category" : "wire",
+  "price" : 1000,
+
+  "apexDescription" : "It feels strange to be on the operating side of a prison control panel.",
+  "avianDescription" : "If, for some reason, I ever need to learn how to operate a prison, I'll learn how to use this.",
+  "floranDescription" : "Machine beep at Floran. Floran hissss at machine. Punch button. Light break. Sssame old ssstory.",
+  "glitchDescription" : "Understanding. This machine controls a variety of prison functions.",
+  "humanDescription" : "Tempted to gather up a bunch of prisoners then release them, just so I can yell 'Jailbreak!'",
+  "hylotlDescription" : "A hands-off approach to prison management.",
+
+  "inventoryIcon" : "prisoncontrolpanelicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "prisoncontrolpanel.png:<color>.off",
+      "imagePosition" : [-24, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/switch/switch.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switchtoggle.animation",
+
+  "animationParts" : {
+    "switch" : "prisoncontrolpanel.png"
+  },
+  "animationPosition" : [-24, 0],
+
+  "outboundNodes" : [ [0, 0] ]
+}

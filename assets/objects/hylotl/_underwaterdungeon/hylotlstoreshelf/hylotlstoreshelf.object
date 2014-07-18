@@ -1,0 +1,31 @@
+{
+  "objectName" : "hylotlstoreshelf",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 500,
+
+  "description" : "The shelf is packed with all kinds of Hylotl goods.",
+  "shortdescription" : "Hylotl Store Shelf",
+  "race" : "hylotl",
+
+  "apexDescription" : "Plenty of tasty-looking foods displayed here.",
+  "avianDescription" : "Oh, some of this food looks rather interesting.",
+  "floranDescription" : "Ehh...where's the meat?",
+  "glitchDescription" : "Intrigued. Some of these foods look like they could be tasty.",
+  "humanDescription" : "Some Hylotl food looks like it could be pretty good!",
+  "hylotlDescription" : "Mmm, they're selling some of my very favorite foods.",
+
+  "inventoryIcon" : "hylotlstoreshelficon.png",
+  "orientations" : [
+    {
+      "dualImage" : "hylotlstoreshelf.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

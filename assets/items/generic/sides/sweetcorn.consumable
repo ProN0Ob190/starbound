@@ -1,0 +1,21 @@
+{
+  "itemName" : "sweetcorn",
+  "rarity" : "Common",
+  "inventoryIcon" : "sweetcorn.png",
+  "description" : "Sweet corn! I could eat it raw, but it's probably even better if I cook it.",
+  "shortdescription" : "Sweet Corn",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 50
+      },
+      {
+        "kind" : "health",
+        "amount" : 5
+      },
+      {
+        "kind" : "energy",
+        "amount" : 10
+      }
+    ] ]
+}

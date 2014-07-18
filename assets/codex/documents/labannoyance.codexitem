@@ -1,0 +1,10 @@
+{
+  "codexId" : "labannoyance",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "apexlabbook_11.png",
+  "itemName" : "labannoyanceCodex",
+  "rarity" : "common",
+  "description" : "A Ludicrous Annoyance, by Big Ape",
+  "shortdescription" : "A Ludicrous Annoyance"
+}

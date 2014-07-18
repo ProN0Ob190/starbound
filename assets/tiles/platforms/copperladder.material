@@ -1,0 +1,14 @@
+{
+  "materialId" : 140,
+  "materialName" : "copperladder",
+  "platform" : true,
+  "transparent" : true,
+  "stairVariants" : 1,
+  "stairImage" : "copperladder.png",
+  "platformVariants" : 1,
+  "platformImage" : "copperladder.png",
+  "itemDrop" : "copperplatform",
+  "shortdescription" : "Copper Ladder",
+  "description" : "A copper ladder.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.wav"
+}

@@ -1,0 +1,83 @@
+{
+  "objectName" : "potatoseed",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Potato seed! Boil Em, Mash Em, Stick Em In A Stew.",
+  "shortdescription" : "Potato Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 265,
+
+  "apexDescription" : "Potatoes. Unremarkable.",
+  "avianDescription" : "Mashed potatoes make for a good dish.",
+  "floranDescription" : "Hard, crunchy brown potatoesss.",
+  "glitchDescription" : "Admiration. Humans create many dishes from such a simple thing.",
+  "humanDescription" : "Ahhh, potatoes. Is there anything you can't do?",
+  "hylotlDescription" : "A common, tedious root vegetable.",
+
+  "inventoryIcon" : "potatoseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "potatoseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "potato",
+            "count" : 1
+          },
+          {
+            "name" : "potatoseed",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "potato",
+            "count" : 1
+          },
+          {
+            "name" : "plantfibre",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "potato",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [1170, 1170],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [1170, 1170],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

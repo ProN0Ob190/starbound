@@ -1,0 +1,10 @@
+{
+  "codexId" : "shiphero",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "avianairshipbook_09.png",
+  "itemName" : "shipheroCodex",
+  "rarity" : "common",
+  "description" : "Journal of a Hero",
+  "shortdescription" : "Hero's Journal"
+}

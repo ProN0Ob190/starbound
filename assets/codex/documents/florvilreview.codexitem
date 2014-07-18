@@ -1,0 +1,10 @@
+{
+  "codexId" : "florvilreview",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "floranvillagebook_13.png",
+  "itemName" : "florvilreviewCodex",
+  "rarity" : "common",
+  "description" : "A review of Floran Peace",
+  "shortdescription" : "A Review"
+}

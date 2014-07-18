@@ -1,0 +1,10 @@
+{
+  "itemName" : "targetblinktech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/blink.png",
+  "description" : "Press F to teleport to your mouse cursor with this Targeted Blink tech!",
+  "shortdescription" : "Targeted Blink",
+  "tooltipKind" : "tech",
+
+  "techModule" : "targetblink.tech"
+}

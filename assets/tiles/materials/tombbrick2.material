@@ -1,0 +1,15 @@
+{
+  "materialId" : 61,
+  "materialName" : "tombbrick2",
+  "frames" : "tombbrick2.png",
+  "particleColor" : [120, 127, 154, 255],
+  "variants" : 5,
+  "itemDrop" : "tombbrick2",
+  "shortdescription" : "Unmarked Tomb Brick",
+  "description" : "These old bricks are unmarked.",
+  "glitchDescription" : "Statement. Dusty bricks.",
+  "floranDescription" : "Dusssty bricks.",
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_stone.wav",
+  "health" : 30
+}

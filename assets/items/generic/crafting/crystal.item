@@ -1,0 +1,10 @@
+{
+  "itemName" : "crystal",
+  "rarity" : "Common",
+  "inventoryIcon" : "crystal.png",
+  "description" : "Shiny crystal.",
+  "shortdescription" : "Crystal",
+  "learnBlueprintsOnPickup" : [
+    "crystalblock"
+  ]
+}

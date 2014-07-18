@@ -1,0 +1,30 @@
+{
+  "objectName" : "grail",
+  "rarity" : "Rare",
+  "description" : "A grail! It might be holy.",
+  "shortdescription" : "Grail",
+  "race" : "glitch",
+  "price" : 1000,
+
+  "apexDescription" : "A golden cup. Might be nice to drink out of.",
+  "avianDescription" : "This chalice hums with a powerful energy.",
+  "floranDescription" : "Floran drink from ssshiny cup, then throw on floor. Sssmash!",
+  "glitchDescription" : "Observation. A massive chalice.",
+  "humanDescription" : "The holy grail! I've just stumbled across it. Who's laughing NOW, Galahad?",
+  "hylotlDescription" : "A basic, functional golden cup.",
+
+  "inventoryIcon" : "grailicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "grail.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

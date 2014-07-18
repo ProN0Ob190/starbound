@@ -1,0 +1,36 @@
+{
+  "objectName" : "medievalcounter",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 750,
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/kitchen.config",
+    "filter" : [ "kitchen" ]
+  },
+  "description" : "Ye olde kitchen counter.",
+  "shortdescription" : "Glitch Counter",
+  "race" : "glitch",
+
+  "apexDescription" : "It appears to be a surface used for preparing food. The wood has absorbed lots of different smells.",
+  "avianDescription" : "This counter smells of many different foods.",
+  "floranDescription" : "MMMm meat wass chopped on thiss counter. Floran can ssmell it.",
+  "glitchDescription" : "Identify. A Glitch kitchen counter. The wood contains many different scents.",
+  "humanDescription" : "A rough kitchen counter. I hope no splinters get stuck in the food.",
+  "hylotlDescription" : "The wood has a rich scent. Such smells are rare beneath the waves.",
+
+  "inventoryIcon" : "medievalcountericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "medievalcounter.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

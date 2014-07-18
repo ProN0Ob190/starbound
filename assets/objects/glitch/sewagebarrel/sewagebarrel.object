@@ -1,0 +1,33 @@
+{
+  "objectName" : "sewagebarrel",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 150,
+  "description" : "A barrel of sewage. Almost certainly toxic.",
+  "shortdescription" : "Sewage Barrel",
+  "race" : "generic",
+
+  "apexDescription" : "Note to self: do not drink from glowing barrels.",
+  "avianDescription" : "Pollution. What a shame.",
+  "floranDescription" : "Greenfinger dump this.",
+  "glitchDescription" : "Decisive. This barrel is best left unanalysed.",
+  "humanDescription" : "Back on earth, you could be fined for dumping sewage.",
+  "hylotlDescription" : "At least it isn't in the ocean.",
+
+  "inventoryIcon" : "sewagebarrelicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "sewagebarrel.png:<color>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+
+}

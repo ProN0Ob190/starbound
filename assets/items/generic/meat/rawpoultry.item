@@ -1,0 +1,13 @@
+{
+  "itemName" : "rawpoultry",
+  "rarity" : "Common",
+  "inventoryIcon" : "rawpoultry.png",
+  "description" : "Raw poultry. Might wanna cook it first...",
+  "shortdescription" : "Raw Poultry",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 15
+      }
+    ] ]
+}

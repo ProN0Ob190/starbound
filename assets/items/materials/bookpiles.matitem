@@ -1,0 +1,12 @@
+{
+  "itemName" : "bookpiles",
+  "rarity" : "Common",
+  "inventoryIcon" : "bookpiles.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Pile of Books",
+  "description" : "A pile of dusty old books, they're full of tales of dragons and knights.",
+  "glitchdescription" : "Studying. A pile of very interesting tomes.",
+  "florandescription" : "Floran will try to read all books.",
+
+  "materialId" : 120
+}

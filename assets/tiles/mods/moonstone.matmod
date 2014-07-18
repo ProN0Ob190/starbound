@@ -1,0 +1,10 @@
+{
+  "modId" : 40,
+  "modName" : "moonstone",
+  "frames" : "moonstone.png",
+  "variants" : 8,
+  "itemDrop" : "moonstoneore",
+  "Description" : "Moonstone.",
+  "health" : 20,
+  "breaksWithTile" : true
+}

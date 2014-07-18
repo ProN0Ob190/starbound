@@ -1,0 +1,50 @@
+{
+  "objectName" : "plantcage3",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 1500,
+  "description" : "A cage. Looks like there was an angry rat in it.",
+  "shortdescription" : "Prison Cage",
+  "race" : "floran",
+
+  "apexDescription" : "A sturdy cage.",
+  "avianDescription" : "An imposing cage.",
+  "floranDescription" : "Floran kick through cage.",
+  "glitchDescription" : "Analysis. This cage could withstand the might of even the Mecharachnid.",
+  "humanDescription" : "Would I even fit in this cage?",
+  "hylotlDescription" : "A cage from which Floran prisoners rarely escape.",
+
+  "inventoryIcon" : "plantcage3icon.png",
+  "orientations" : [
+    {
+      "image" : "plantcage3.png:<color>",
+      "flipImages" : true,
+      "imagePosition" : [-17, -24],
+      "spaceScan" : 0.1,
+      "bgAnchors" : [ [0, 4] ],
+      "direction" : "left"
+    },
+    {
+      "image" : "plantcage3.png:<color>",
+      "imagePosition" : [-15, -24],
+      "spaceScan" : 0.1,
+      "bgAnchors" : [ [0, 4] ],
+      "direction" : "right"
+    },
+    {
+      "image" : "plantcage3.png:<color>",
+      "flipImages" : true,
+      "imagePosition" : [-17, -24],
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [0, 4] ],
+      "direction" : "left"
+    },
+    {
+      "image" : "plantcage3.png:<color>",
+      "imagePosition" : [-15, -24],
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [0, 4] ],
+      "direction" : "right"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "objectName" : "hockeytable",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 2000,
+
+  "description" : "A classic air hockey table. First to ten wins!",
+  "shortdescription" : "Air Hockey Table",
+  "race" : "hylotl",
+
+  "apexDescription" : "Air hockey? It looks fun!",
+  "avianDescription" : "It's a sort of table game with pucks. It could be fun...",
+  "floranDescription" : "Floran could beat ssstupid frogman at table game.",
+  "glitchDescription" : "Determined. I will master this table game.",
+  "humanDescription" : "Air hockey! I was great at this as a kid...",
+  "hylotlDescription" : "To win at air hockey, one must have superb reflexes.",
+
+  "inventoryIcon" : "hockeytableicon.png",
+  "orientations" : [
+    {
+      "leftImage" : "hockeytableleft.png:<color>.<frame>",
+      "rightImage" : "hockeytableright.png:<color>.<frame>",
+      "imagePosition" : [-12, 0],
+      "frames" : 2,
+      "animationCycle" : 0.8,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "itemName" : "throwingaxe",
+  "rarity" : "Common",
+  "inventoryIcon" : "throwingaxeicon.png",
+  "image" : "throwingaxeicon.png",
+  "shortdescription" : "Throwing Axe.",
+  "description" : "A throwing axe. For people who are way outta line.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "throwingaxe",
+  "projectileConfig" : {
+    "speed" : 45,
+    "power" : 150
+  }
+}
+

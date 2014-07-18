@@ -1,0 +1,31 @@
+{
+  "objectName" : "floransmalltable",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 750,
+  "description" : "This table is fashioned out of a small tree topped with a slab of wood. It's almost artsy!",
+  "shortdescription" : "Small Primitive Table",
+  "race" : "floran",
+
+  "apexDescription" : "A table built out of a small tree.",
+  "avianDescription" : "The Floran build furniture from the remains of both creatures and plants, it seems.",
+  "floranDescription" : "Floran make ssmall table from tree.",
+  "glitchDescription" : "Identify. The base is a dead sapling.",
+  "humanDescription" : "The base of this table looks a lot like a small tree.",
+  "hylotlDescription" : "The Floran appear to have fashioned a table from a tree.",
+
+  "inventoryIcon" : "floransmalltableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "floransmalltable.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

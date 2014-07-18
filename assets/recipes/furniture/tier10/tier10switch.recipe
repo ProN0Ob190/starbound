@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "imperviumbar", "count" : 2 }
+  ],
+  "output" : { "item" : "tier10switch", "count" : 1 },
+  "groups" : [ "metalworkstation", "wire", "objects", "all" ]
+}

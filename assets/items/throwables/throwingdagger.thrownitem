@@ -1,0 +1,21 @@
+{
+  "itemName" : "throwingdagger",
+  "rarity" : "Common",
+  "inventoryIcon" : "throwingdaggericon.png",
+  "image" : "throwingdaggericon.png",
+  "shortdescription" : "Throwing Dagger.",
+  "description" : "A throwing dagger. For combat or circus acts.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "throwingdagger",
+  "projectileConfig" : {
+    "speed" : 45,
+    "power" : 15
+  }
+}
+

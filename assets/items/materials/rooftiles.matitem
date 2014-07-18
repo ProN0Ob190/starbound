@@ -1,0 +1,12 @@
+{
+  "itemName" : "rooftiles",
+  "rarity" : "Common",
+  "inventoryIcon" : "rooftiles.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Weathered roof tiles. Their shape makes me feel uneasy.",
+  "glitchdescription" : "Statement. Roofing tiles.",
+  "florandescription" : "Roof.",
+  "shortdescription" : "Roof Tiles",
+
+  "materialId" : 121
+}

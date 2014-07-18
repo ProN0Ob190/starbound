@@ -1,0 +1,37 @@
+{
+  "objectName" : "landmine",
+  "rarity" : "Common",
+
+  "category" : "wire",
+  "price" : 800,
+  "description" : "Watch your step!",
+  "shortdescription" : "Land mine",
+  "race" : "generic",
+
+  "inventoryIcon" : "landmineicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "landmine.png:<color>.off",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/landmine/landmine.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switchtoggle.animation",
+  "animationParts" : {
+    "switch" : "landmine.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "outboundNodes" : [ [0, 0] ],
+
+  "firstProjectile" : "smoke",
+  "timer" : 6,
+  "secondProjectile" : "burningstatusprojectile",
+  "detectRadius" : 4
+}

@@ -1,0 +1,13 @@
+{
+  "itemName" : "chili",
+  "rarity" : "Common",
+  "inventoryIcon" : "chiliicon.png",
+  "description" : "Super hot, only suitable for humans.",
+  "shortdescription" : "Chili",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 25
+      }
+    ] ]
+}

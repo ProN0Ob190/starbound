@@ -1,0 +1,15 @@
+{
+  "materialId" : 4,
+  "materialName" : "composite01",
+  "frames" : "composite01.png",
+  "particleColor" : [214, 214, 214, 255],
+  "variants" : 1,
+  "itemDrop" : "composite01material",
+  "description" : "A smooth panel made of titanium.",
+  "shortdescription" : "Titanium Panel",
+  "glitchDescription" : "Statement. Titanium.",
+  "floranDescription" : "Sssmooth titanium.",
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "health" : 30
+}

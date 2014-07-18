@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "aegisaltbar", "count" : 35 }
+  ],
+  "output" : { "item" : "hylotltier5chest", "count" : 1 },
+  "groups" : [ "craftingtable", "armors", "all" ]
+}

@@ -1,0 +1,7 @@
+{
+  "itemName" : "voxel10k",
+  "rarity" : "Common",
+  "inventoryIcon" : "voxel10k.png",
+  "description" : "10000 pixels compressed into a voxel. 40% of pixels are lost during the compression process. Can be refined into 6000 pixels.",
+  "shortdescription" : "10k Voxel"
+}

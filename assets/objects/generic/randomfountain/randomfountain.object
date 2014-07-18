@@ -1,0 +1,63 @@
+{
+  "objectName" : "randomfountain",
+  "rarity" : "Common",
+
+  "category" : "--todo--",
+  "price" : 0,
+  "description" : "A random fountain. The most unpredictable of fountains.",
+  "shortdescription" : "Random Fountain",
+  "race" : "generic",
+
+  "apexDescription" : "A fountain!",
+  "avianDescription" : "A fountain.",
+  "floranDescription" : "Floran drink from sssplashy thing.",
+  "glitchDescription" : "Hesitant. A fountain.",
+  "humanDescription" : "I wish I had some washing up liquid to pour in.",
+  "hylotlDescription" : "A delightful fountain.",
+
+  "inventoryIcon" : "randomfountainicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "randomfountain.png:default",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/tis1/tis1.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/generic/randomfountain/randomfountain.animation",
+  "animationParts" : {
+    "tis1" : "randomfountain.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "useSounds" : [ "/sfx/objects/bardoor_open.wav" ],
+
+  "inboundNodes" : [ ],
+  "outboundNodes" : [ ],
+
+  "breakDropOptions" : [ ],
+
+  "projectileOptions" : [
+    {
+      "projectileType" : "healingstatusprojectile",
+      "projectileParams" : { }
+    },
+    {
+      "projectileType" : "runstatusprojectile",
+      "projectileParams" : { }
+    },
+    {
+      "projectileType" : "jumpstatusprojectile",
+      "projectileParams" : { }
+    },
+    {
+      "projectileType" : "glowstatusprojectile",
+      "projectileParams" : { }
+    }
+  ]
+}

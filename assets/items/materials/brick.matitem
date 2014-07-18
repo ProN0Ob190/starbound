@@ -1,0 +1,12 @@
+{
+  "itemName" : "brickmaterial",
+  "rarity" : "Common",
+  "inventoryIcon" : "brick.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Bricks",
+  "description" : "Small but perfectly formed bricks. Quaint.",
+  "glitchdescription" : "Statement. Bricks.",
+  "florandescription" : "Bricksss.",
+
+  "materialId" : 2
+}

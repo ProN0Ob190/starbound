@@ -1,0 +1,10 @@
+{
+  "codexId" : "castlemisunderstanding",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "glitchcastlebook_11.png",
+  "itemName" : "castlemisunderstandingCodex",
+  "rarity" : "common",
+  "description" : "A Slight Misunderstanding",
+  "shortdescription" : "Slight Misunderstanding"
+}

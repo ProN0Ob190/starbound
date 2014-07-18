@@ -1,0 +1,12 @@
+{
+  "itemName" : "greenneonsymbol",
+  "rarity" : "Common",
+  "inventoryIcon" : "greenneonsymbolicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A tile with a strange green glyph engraved in the centre.",
+  "shortdescription" : "Green Neon Symbol",
+  "glitchdescription" : "Perturbed. This symbol's meaning escapes me.",
+  "florandescription" : "Floran like green picture.",
+
+  "materialId" : 114
+}

@@ -1,0 +1,12 @@
+{
+  "itemName" : "mud",
+  "rarity" : "Common",
+  "inventoryIcon" : "mud.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Thick and sticky mud.",
+  "shortdescription" : "Mud",
+  "glitchdescription" : "Statement. The muddiest of mud.",
+  "florandescription" : "Mud. Floran like make messsss.",
+
+  "materialId" : 53
+}

@@ -1,0 +1,22 @@
+{
+  "itemName" : "nutsandbolts",
+  "rarity" : "Common",
+  "inventoryIcon" : "nutsandbolts.png",
+  "description" : "Assorted copper-flavored morsels.",
+  "shortdescription" : "Nuts n' Bolts",
+  "handPosition" : [0, -4],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 50
+      },
+      {
+        "kind" : "health",
+        "amount" : 10
+      },
+      {
+        "kind" : "energy",
+        "amount" : 10
+      }
+    ] ]
+}

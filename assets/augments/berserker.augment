@@ -1,0 +1,6 @@
+{
+  "name" : "berserker",
+  "icon" : [ ],
+  "duration" : 3000,
+  "bonusArmor" : 30.0
+}

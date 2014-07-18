@@ -1,0 +1,12 @@
+{
+  "itemName" : "rustymetal",
+  "rarity" : "Common",
+  "inventoryIcon" : "rustymetal.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Old metal encrusted with rust.",
+  "shortdescription" : "Rusty Metal",
+  "glitchdescription" : "Alarm. This metal makes me uncomfortable.",
+  "florandescription" : "Russsty.",
+
+  "materialId" : 50
+}

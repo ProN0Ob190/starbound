@@ -1,0 +1,15 @@
+{
+  "materialId" : 170,
+  "materialName" : "throwingblock",
+  "frames" : "throwingblock.png",
+  "particleColor" : [200, 200, 200, 255],
+  "variants" : 1,
+  "itemDrop" : "throwingblock",
+  "description" : "A small block.",
+  "shortdescription" : "Throwing Block",
+  "glitchDescription" : "Statement. A little block.",
+  "floranDescription" : "Floran throw block!",
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "health" : 1
+}

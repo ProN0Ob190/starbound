@@ -1,0 +1,10 @@
+{
+  "codexId" : "shippowercrystals",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "avianairshipbook_12.png",
+  "itemName" : "shippowercrystalsCodex",
+  "rarity" : "common",
+  "description" : "Avian Power Crystals",
+  "shortdescription" : "Power Crystals"
+}

@@ -1,0 +1,12 @@
+{
+  "itemName" : "homewalls1",
+  "rarity" : "Common",
+  "inventoryIcon" : "homewalls1.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Nicely painted brickwork.",
+  "shortdescription" : "Painted Brick",
+  "glitchdescription" : "Statement. Painted brick.",
+  "florandescription" : "Bricksss.",
+
+  "materialId" : 58
+}

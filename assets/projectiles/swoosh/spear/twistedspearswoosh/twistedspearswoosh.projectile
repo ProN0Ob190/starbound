@@ -1,0 +1,20 @@
+{
+  "projectileName" : "twistedspearswoosh",
+  "frames" : "twistedspearswoosh.png",
+  "animationCycle" : 0.05,
+  "frameNumber" : 3,
+  "speed" : 0,
+  "orientationLocked" : true,
+  "damagePoly" : [ [-35, 5.5], [22.5, 5.5], [22.5, -5.5], [-35, -5.5] ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "damageKind" : "axe",
+  "physics" : "grenade",
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/twistedspearchain1/twistedspearchain1.config"
+    }
+  ]
+}

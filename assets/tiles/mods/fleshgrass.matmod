@@ -1,0 +1,9 @@
+{
+  "modId" : 222,
+  "modName" : "fleshgrass",
+  "frames" : "fleshgrass.png",
+  "variants" : 5,
+  "Description" : "Gross, fleshy grass.",
+  "footstepSound" : "/sfx/blocks/footstep_mud.wav",
+  "health" : 0
+}

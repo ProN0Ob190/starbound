@@ -1,0 +1,43 @@
+{
+  "objectName" : "plantdesklamp",
+  "rarity" : "Common",
+  "description" : "A desk lamp. One of the most useful items in any Floran prison.",
+  "shortdescription" : "Plant Desk Lamp",
+  "race" : "floran",
+
+  "apexDescription" : "This desk lamp appears out of place",
+  "avianDescription" : "I can't imagine what they use desk lamps for here.",
+  "floranDescription" : "Desk lamp used to sssmash prisoners.",
+  "glitchDescription" : "Puzzled. A desk lamp.",
+  "humanDescription" : "This would look delightful on my desk.",
+  "hylotlDescription" : "I would never place this monstrosity on my desk.",
+
+  "category" : "light",
+  "price" : 750,
+  "lightColor" : [120, 179, 89],
+  "pointLight" : true,
+  "pointBeam" : 0.3,
+
+  "inventoryIcon" : "plantdesklampicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "plantdesklamp1.png:<color>.<frame>", "fullbright" : true }, { "image" : "plantdesklamp2.png:<color>.<frame>" } ],
+      "flipImages" : true,
+      "imagePosition" : [-3, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left",
+      "lightPosition" : [0, 1],
+      "pointAngle" : 225
+    },
+    {
+      "imageLayers" : [ { "image" : "plantdesklamp1.png:<color>.<frame>", "fullbright" : true }, { "image" : "plantdesklamp2.png:<color>.<frame>" } ],
+      "imagePosition" : [-9, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+      "lightPosition" : [0, 1],
+      "pointAngle" : 315
+    }
+  ]
+}

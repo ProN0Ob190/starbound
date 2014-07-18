@@ -1,0 +1,21 @@
+{
+  "name" : "missileBarrageAttack",
+  "label" : "MISSILE BARRAGE",
+  "image" : "/monsters/ground/skills/icon.png",
+
+  "parameters" : {
+    "scripts" : [ "/monsters/ground/skills/missileBarrageAttack.lua" ],
+    "missileBarrageAttack" : {
+      "skillTimeLimit" : 4.0,
+      "cooldownTime" : 10.0,
+
+      "approachPoints" : [ [-16, 0], [16, 0], [0, -10] ],
+      "startRects" : [ [-35, -20, -15, 20], [15, -20, 35, 20], [-15, -20, 15, -5] ],
+
+      "startOnGround" : true,
+      "requireLos" : false,
+
+      "sounds" : [ "/sfx/gun/rocket_shot.wav" ]
+    }
+  }
+}

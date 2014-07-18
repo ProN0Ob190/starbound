@@ -1,0 +1,73 @@
+{
+  "name" : "mushroompatch",
+  "friendlyName" : "Mushroompatch",
+  "spawnProfiles" : [ "surfacemix1", "surfacemix2", "surfacemix3" ],
+
+  "surfaceParameters" : {
+    "mainBlock" : "dirt",
+    "subBlocks" : [ "rock02" ],
+    "ores" : "surfaceOres",
+
+    "statusParameters" : {
+      "temperatureBounds" : [15, 30],
+      "dayNightTemperatureVariability" : 12,
+      "temperatureVariability" : 3
+    },
+
+    "surfacePlaceables" : {
+      "grassMod" : [ "grass" ],
+      "grassModDensity" : 0.9,
+
+      "items" : [
+        {
+          "mode" : "floor",
+          "priority" : 2.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:denseLarge",
+
+          "type" : "tree",
+          "treeFoliageHueShiftMax" : 180,
+          "treeStemHueShiftMax" : 15,
+          "treeStemList" : [ "mushroomstalk" ],
+          "treeFoliageList" : [ "mushroomyellowtop", "mushroomredtop" ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 0.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:minibiomeChests",
+
+          "type" : "treasureBox",
+          "treasureBoxSets" : [ "mushroomChest" ]
+        },
+
+        {
+          "mode" : "floor",
+          "priority" : 0.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:denseSmall",
+          "type" : "microdungeon",
+          "microdungeons" : [ "shroomencounter" ]
+
+        },
+
+        {
+          "mode" : "floor",
+          "priority" : 2.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+          "type" : "object",
+          "objectSets" : [
+            {
+              "pool" : [ [1, "mushroomseed" ] ],
+              "parameters" : { "startingStage" : 2 }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
+
+

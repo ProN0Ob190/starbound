@@ -1,0 +1,12 @@
+{
+  "itemName" : "platematerial",
+  "rarity" : "Common",
+  "inventoryIcon" : "plate.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Reminds me of the inside of the medical centre back home.",
+  "shortdescription" : "Smooth Plated Block",
+  "glitchdescription" : "Statement. A metal plate.",
+  "florandescription" : "Not kind of plate Floran deserves, but kind of plate Floran needs.",
+
+  "materialId" : 14
+}

@@ -1,0 +1,15 @@
+{
+  "itemName" : "tier2engine",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "tier2engine.png",
+  "image" : "tier2engine.png",
+
+  "shortdescription" : "Starmap Upgrade MK2",
+  "description" : "I can use this to upgrade my ships engine, allowing flight into the beta sector.",
+
+  // Remember you can override this with parameters, no need for more than one
+  // unlock item
+  "sectorUnlock" : "beta",
+  "tierRecipesUnlock" : "tier2",
+  "unlockMessage" : "Starmap Updated. New data has been uploaded to your ships navigation systems. Select the beta sector from the top of the navigator when in galaxy view to advance."
+}

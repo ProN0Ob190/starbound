@@ -1,0 +1,14 @@
+{
+  "materialId" : 165,
+  "materialName" : "fleshblock",
+  "frames" : "fleshblock.png",
+  "particleColor" : [166, 27, 32, 255],
+  "variants" : 5,
+  "itemDrop" : "fleshblock",
+  "description" : "A hideous, foul-smelling block made of some kind of flesh.",
+  "shortdescription" : "Flesh Block",
+  "glitchDescription" : "Disgust. A block made of flesh.",
+  "floranDescription" : "Sssquishy meat block.",
+  "footstepSound" : "/sfx/blocks/footstep_mud.wav",
+  "health" : 3.5
+}

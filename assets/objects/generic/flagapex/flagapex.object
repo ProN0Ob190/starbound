@@ -1,0 +1,33 @@
+{
+  "objectName" : "flagapex",
+  "rarity" : "Common",
+
+  "category" : "crafting",
+  "price" : 100,
+
+  "description" : "An Apex flag. The symbol of the Miniknog.",
+  "shortdescription" : "Apex Flag",
+  "race" : "human",
+
+  "apexDescription" : "This Apex flag is not one us Resistance types respond well to.",
+  "avianDescription" : "The Apex flag of oppression.",
+  "floranDescription" : "Floran think this monkey flag mean ssspeed boost!",
+  "glitchDescription" : "Statement. An Apex flag.",
+  "humanDescription" : "This Apex flag is somewhat familiar.",
+  "hylotlDescription" : "This Apex flag reminds us of their barbaric hierarchy.",
+
+
+  "inventoryIcon" : "flagapexicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "flagapex.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

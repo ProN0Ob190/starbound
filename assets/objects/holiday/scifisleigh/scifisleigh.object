@@ -1,0 +1,46 @@
+{
+  "objectName" : "scifisleigh",
+  "rarity" : "Uncommon",
+  "description" : "This colourful sleigh has a big rocket engine on the back! Who needs reindeer, right?",
+  "shortdescription" : "Holiday Rocket Sleigh",
+  "race" : "generic",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 2000,
+
+  "apexDescription" : "Looks like this year, Santa's gone superpowered.",
+  "avianDescription" : "A rocket-powered sleigh. Amazing.",
+  "floranDescription" : "Floran become Sssanta!",
+  "glitchDescription" : "Amusement. A rocket-powered sleigh.",
+  "humanDescription" : "This would give the reindeer a run for their money.",
+  "hylotlDescription" : "Rockets could explain how Santa delivers so many presents in one night.",
+
+  "inventoryIcon" : "scifisleighicon.png",
+  "orientations" : [
+    {
+      "image" : "scifisleigh.png:<color>",
+      "flipImages" : true,
+      "imagePosition" : [-64, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "direction" : "left",
+
+      "spaceScan" : 0.1,
+      "fgAnchors" : [
+        [-7, -1], [-6, -1], [-5, -1], [-4, -1], [-3, -1], [-2, -1], [-1, -1], [0, -1], [1, -1]
+      ]
+    },
+    {
+      "image" : "scifisleigh.png:<color>",
+      "imagePosition" : [-64, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "fgAnchors" : [
+        [-4, -1], [-3, -1], [-2, -1], [-1, -1], [0, -1], [1, -1], [2, -1], [3, -1], [4, -1]
+      ]
+    }
+  ]
+}

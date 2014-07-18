@@ -1,0 +1,16 @@
+{
+  "materialId" : 52,
+  "materialName" : "clay",
+  "frames" : "clay.png",
+  "particleColor" : [127, 126, 156, 255],
+  "variants" : 3,
+  "itemDrop" : "clay",
+  "description" : "Dry and dusty clay.",
+  "shortdescription" : "Clay",
+  "glitchDescription" : "Statement. Clay.",
+  "floranDescription" : "Clay.",
+  "footstepSound" : "/sfx/blocks/footstep_wetclay.wav",
+  "tillableMod" : 31,
+  "soil" : true,
+  "health" : 6
+}

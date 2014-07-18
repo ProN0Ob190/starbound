@@ -1,0 +1,16 @@
+{
+  "itemName" : "valentinechocolates",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "valentinechocolates.png",
+  "description" : "A heart shaped box with Valentine chocolates inside! Heals your hunger AND body!",
+  "shortdescription" : "Chocolate",
+  "handPosition" : [0, -4],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 60
+      },
+      {
+        "kind" : "mollyhealing2" }
+    ] ]
+}

@@ -1,0 +1,20 @@
+{
+  "name" : "rangedChompAttack",
+  "label" : "AIR CHOMP",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "rangedChompAttack" : {
+      "cooldownTime" : 3,
+
+      "factory" : "createRangedAttack",
+      "projectile" : "chomp5",
+      "range" : 10,
+      "speed" : 20,
+      "power" : 15,
+      "shots" : 1,
+      "fireAnimation" : "melee",
+      "fireAnimationTiming" : 0.3
+    }
+  }
+}

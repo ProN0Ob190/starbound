@@ -1,0 +1,12 @@
+{
+  "itemName" : "tombbrick2",
+  "rarity" : "Common",
+  "inventoryIcon" : "tombbrick2.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Unmarked Tomb Brick",
+  "description" : "These old bricks are unmarked.",
+  "glitchdescription" : "Statement. Dusty bricks.",
+  "florandescription" : "Dusssty bricks.",
+
+  "materialId" : 61
+}

@@ -1,0 +1,15 @@
+{
+  "materialId" : 60,
+  "materialName" : "tombbrick",
+  "frames" : "tombbrick.png",
+  "particleColor" : [124, 120, 154, 255],
+  "variants" : 25,
+  "itemDrop" : "tombbrick",
+  "shortdescription" : "Tomb Brick",
+  "description" : "Dusty and ancient, these blocks are at home in the darkest of tombs.",
+  "glitchDescription" : "Statement. Dusty bricks.",
+  "floranDescription" : "Dusssty bricks.",
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_stone.wav",
+  "health" : 30
+}

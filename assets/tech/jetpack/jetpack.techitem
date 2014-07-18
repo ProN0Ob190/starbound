@@ -1,0 +1,10 @@
+{
+  "itemName" : "jetpackTech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/gravityball.png",
+  "description" : "Press Jump while in the air to use this Gravity Bubble tech.",
+  "shortdescription" : "Gravity Bubble",
+  "tooltipKind" : "tech",
+
+  "techModule" : "jetpack.tech"
+}

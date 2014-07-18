@@ -1,0 +1,12 @@
+{
+  "itemName" : "ornateroofing",
+  "rarity" : "Common",
+  "inventoryIcon" : "ornateroofingicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Delightful ornate roofing.",
+  "shortdescription" : "Ornate Roofing",
+  "glitchdescription" : "Statement. Pleasant ornate roofing.",
+  "florandescription" : "Floran raise the ornate roof.",
+
+  "materialId" : 159
+}

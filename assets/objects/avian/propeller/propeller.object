@@ -1,0 +1,40 @@
+{
+  "objectName" : "propeller",
+  "rarity" : "Common",
+  "price" : 1200,
+  "description" : "A beautifully crafted propeller.",
+  "shortdescription" : "Propeller",
+  "race" : "avian",
+  "category" : "decorative",
+
+  "apexDescription" : "An enormous propeller.",
+  "avianDescription" : "They may not be wings, but these propellers keep Avian airships aloft.",
+  "floranDescription" : "Ssspinny machine make ssships fly.",
+  "glitchDescription" : "Observation. These propellers must spin very quickly to keep an entire ship in the air.",
+  "humanDescription" : "The propeller is very loud.",
+  "hylotlDescription" : "Loud and obnoxious but fit for purpose.",
+
+  "inventoryIcon" : "propellericon.png",
+  "orientations" : [
+    {
+      "image" : "propeller.png:<color>.<frame>",
+      "imagePosition" : [-28, 0],
+      "frames" : 4,
+      "animationCycle" : 0.1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/propeller.wav",
+
+  "statusEffects" : [
+    {
+      "kind" : "slash",
+      "amount" : 20,
+      "range" : 0
+    }
+  ]
+
+}

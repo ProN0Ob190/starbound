@@ -1,0 +1,54 @@
+{
+  "objectName" : "spawnerfloran",
+  "rarity" : "Common",
+  "description" : "Spawn your very own Floran villager!",
+  "shortdescription" : "Floran Spawner",
+  "race" : "human",
+  "printable" : false,
+  "category" : "spawner",
+  "price" : 300,
+
+  "apexDescription" : "Spawning Florans could be a disaster.",
+  "avianDescription" : "I'm not sure I want to spawn Florans.",
+  "floranDescription" : "Floran sssummon cocoon-kin! Yesss!",
+  "glitchDescription" : "Pleased. I always enjoy interacting with the plants.",
+  "humanDescription" : "Let's get some Florans in here and get the party started!",
+  "hylotlDescription" : "Summoning in some Florans would be a terrible idea.",
+
+  "inventoryIcon" : "defaulticon.png",
+  "orientations" : [
+    {
+      "image" : "spawner_floran.png",
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/spawner/spawners/spawner.lua" ],
+  "scriptDelta" : 1,
+  //6000,
+
+  "animation" : "/objects/spawner/spawners/floran.animation",
+
+  "animationParts" : {
+    "switch" : "spawner_floran.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "inboundNodes" : [ ],
+  "outboundNodes" : [ ],
+
+  "spawner" : {
+    "searchRadius" : 32.0,
+    "npcSpeciesOptions" : [ "floran" ],
+    "npcTypeOptions" : [ "villager" ],
+    "npcParameterOptions" : [
+      {
+        "dropPools" : [ ]
+      }
+    ]
+  }
+
+}

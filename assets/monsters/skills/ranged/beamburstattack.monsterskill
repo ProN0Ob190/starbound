@@ -1,0 +1,22 @@
+{
+  "name" : "beamBurstAttack",
+  "label" : "BEAM BURST",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "beamBurstAttack" : {
+      "cooldownTime" : 3.0,
+
+      "factory" : "createRangedAttack",
+      "projectile" : "preshortbeam",
+      "range" : 13,
+      "speed" : 0.01,
+      "power" : 20,
+      "shots" : 1,
+      "fireSound" : "beamBurstAttack.fireSounds",
+      "fireSounds" : [ "/sfx/gun/plasma_sniper_charge1.wav" ],
+      "windupTime" : 0.2,
+      "lockAim" : true
+    }
+  }
+}

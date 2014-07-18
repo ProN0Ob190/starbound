@@ -1,0 +1,31 @@
+{
+  "objectName" : "prisonpaper1",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 100,
+
+  "description" : "It says, 'REMINDER TO ALL INMATES: You're here for life.'",
+  "shortdescription" : "Inmate Notice",
+  "race" : "human",
+
+  "apexDescription" : "A chilling reminder, reminiscent of the Miniknog.",
+  "avianDescription" : "So tactless.",
+  "floranDescription" : "Floran think this sssay 'have nice day'.",
+  "glitchDescription" : "Questioning. This seems a somewhat harsh judgement for all crimes.",
+  "humanDescription" : "A little bit of prison humour. Only SOME inmates were here for life, really. You jokers.",
+  "hylotlDescription" : "The human prison system seems more oppressive than I first suspected.",
+
+  "inventoryIcon" : "prisonpaper1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "prisonpaper1.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

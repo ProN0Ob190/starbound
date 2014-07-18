@@ -1,0 +1,30 @@
+{
+  "objectName" : "apexbrainjar",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 600,
+  "description" : "A brain in a jar, daydreaming.",
+  "shortdescription" : "Brain in a Jar",
+  "race" : "apex",
+  "apexDescription" : "This is an Apex brain...",
+  "avianDescription" : "This brain is so large.",
+  "floranDescription" : "Ssssucculent pickled brain.",
+  "glitchDescription" : "Wistful jealousy. A real brain..",
+  "humanDescription" : "Is that a... brain?",
+  "hylotlDescription" : "Foolishness, to believe the mind can be confined to a jar.",
+
+  "inventoryIcon" : "apexbrainjaricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "apexbrainjar.png:<color>",
+
+      "imagePosition" : [-6, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

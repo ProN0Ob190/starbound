@@ -1,0 +1,12 @@
+{
+  "itemName" : "aztecmaterial",
+  "rarity" : "Common",
+  "inventoryIcon" : "aztec.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Glyph Block",
+  "description" : "Small glyphs cover the stone.",
+  "glitchdescription" : "Cryptography. I do not know what these glyphs say.",
+  "florandescription" : "Floran not can read this.",
+
+  "materialId" : 1
+}

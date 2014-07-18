@@ -1,0 +1,31 @@
+{
+  "objectName" : "woodensink",
+  "rarity" : "Common",
+  "description" : "A wooden sink.. I haven't washed my hands in a long time.",
+  "shortdescription" : "Wooden Sink",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 600,
+
+  "apexDescription" : "A kitchen sink.",
+  "avianDescription" : "A water basin.",
+  "floranDescription" : "Turn handle water come out!",
+  "glitchDescription" : "Identify. A sink.",
+  "humanDescription" : "A nice sink. I wonder if the water is fresh.",
+  "hylotlDescription" : "Water!",
+
+  "inventoryIcon" : "woodensinkicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "woodensink.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

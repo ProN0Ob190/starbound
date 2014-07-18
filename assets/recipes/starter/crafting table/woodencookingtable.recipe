@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 15 },
+    { "item" : "copperbar", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "woodencookingtable",
+    "count" : 1
+  },
+  "groups" : [ "craftingtable", "objects", "tools", "all" ]
+}

@@ -1,0 +1,21 @@
+{
+  "itemName" : "throwingneedle",
+  "rarity" : "Common",
+  "inventoryIcon" : "throwingneedleicon.png",
+  "image" : "throwingneedleicon.png",
+  "shortdescription" : "Throwing Needle.",
+  "description" : "A throwing needle. Great against evil haystacks.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "throwingneedle",
+  "projectileConfig" : {
+    "speed" : 45,
+    "power" : 80
+  }
+}
+

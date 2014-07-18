@@ -1,0 +1,9 @@
+{
+  "modId" : 9,
+  "modName" : "junglegrass",
+  "frames" : "junglegrass.png",
+  "variants" : 5,
+  "Description" : "Dense grass.",
+  "footstepSound" : "/sfx/blocks/footstep_grass.wav",
+  "health" : 0
+}

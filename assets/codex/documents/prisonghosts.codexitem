@@ -1,0 +1,10 @@
+{
+  "codexId" : "prisonghosts",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "humanprisonbook_12.png",
+  "itemName" : "prisonghostsCodex",
+  "rarity" : "common",
+  "description" : "Ghosts in the Walls",
+  "shortdescription" : "Ghosts"
+}

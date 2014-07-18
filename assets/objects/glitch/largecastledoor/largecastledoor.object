@@ -1,0 +1,42 @@
+{
+  "objectName" : "largecastledoor",
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 2500,
+  "description" : "A huge door! It's somewhat intimidating.",
+  "shortdescription" : "Glitch Large Door",
+  "race" : "glitch",
+
+  "apexDescription" : "A huge door. You'd need a battering ram to take this down.",
+  "avianDescription" : "This is perhaps the biggest door I've ever seen.",
+  "floranDescription" : "Door big! Make Floran feel sssmall.",
+  "glitchDescription" : "Identification. This is the door to a Glitch keep. It can be barred from the inside by a huge plank of wood.",
+  "humanDescription" : "A huge fortified door. It'd require more than a battering ram to get this open.",
+  "hylotlDescription" : "Such doors are built for those that many wish to harm.",
+
+  //Not sure how to get animation working properly.
+
+  "inventoryIcon" : "largecastledooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "largecastledoor.png:default",
+      "imagePosition" : [-24, 0],
+
+      "spaces" : [ [0, 0], [0, 1], [0, 2], [0, 3], [0, 4], [0, 5], [0, 6], [0, 7] ],
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationParts" : {
+    "door" : "largecastledoor.png"
+  },
+  "animationPosition" : [-24, 0],
+
+  "inboundNodes" : [ [0, 7] ],
+  "outboundNodes" : [ [0, 0] ]
+}

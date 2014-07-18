@@ -1,0 +1,19 @@
+{
+  "itemName" : "fishnchips",
+  "rarity" : "Common",
+  "inventoryIcon" : "fishnchips.png",
+  "description" : "Fry all the things! This is an old Earthling favorite.",
+  "shortdescription" : "Fish n Chips",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 100
+      },
+      {
+        "kind" : "mollyhealing3" },
+      {
+        "kind" : "energy",
+        "amount" : 15
+      }
+    ] ]
+}

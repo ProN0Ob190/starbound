@@ -1,0 +1,38 @@
+{
+  "objectName" : "embercoral3",
+  "rarity" : "Common",
+  "category" : "pot",
+  "price" : 400,
+  "objectItem" : "embercoral",
+
+  "description" : "A crispy coral shrub.",
+  "shortdescription" : "Ember Coral",
+  "race" : "apex",
+
+  "fullbright" : true,
+  "lightColor" : [240, 120, 0],
+
+  "floranDescription" : "Crissspy.",
+  "glitchDescription" : "Statement. A crispy coral shrub.",
+
+  "inventoryIcon" : "capsulebigicon.png",
+  "orientations" : [
+    {
+      "image" : "embercoral3.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "smashSounds" : [ "/sfx/objects/capsule_break1.wav", "/sfx/objects/capsule_break2.wav", "/sfx/objects/capsule_break3.wav" ],
+  "smashDropOptions" : [
+    [ [ "coralfragment", 1, { } ] ]
+  ],
+  "breakDropOptions" : [
+    [ [ "coralfragment", 1, { } ] ]
+  ]
+}

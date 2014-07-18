@@ -1,0 +1,9 @@
+{
+  "modId" : 8,
+  "modName" : "tar",
+  "frames" : "tar.png",
+  "variants" : 5,
+  "Description" : "Thick tar covers the ground here.",
+  "footstepSound" : "/sfx/blocks/footstep_mud.wav",
+  "health" : 0
+}

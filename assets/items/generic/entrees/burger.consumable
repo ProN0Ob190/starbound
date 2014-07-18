@@ -1,0 +1,19 @@
+{
+  "itemName" : "burger",
+  "rarity" : "Common",
+  "inventoryIcon" : "burger.png",
+  "description" : "A juicy hamburger.",
+  "shortdescription" : "Burger",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 100
+      },
+      {
+        "kind" : "mollyhealing3" },
+      {
+        "kind" : "energy",
+        "amount" : 15
+      }
+    ] ]
+}

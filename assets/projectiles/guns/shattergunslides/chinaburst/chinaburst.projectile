@@ -1,0 +1,34 @@
+{
+  "projectileName" : "chinaburst",
+  "physics" : "bullet",
+  "bounces" : 0,
+  "speed" : 1,
+  "timeToLive" : 0.01,
+  "damageKindImage" : "icon.png",
+  "frames" : "chinaburst.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 1,
+  "actionOnReap" : [
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/objects/pot_break_medium1.wav", "/sfx/objects/pot_break_medium2.wav" ]
+    },
+    {
+      "action" : "projectile",
+      "type" : "chinaslide",
+      "fuzzAngle" : 30,
+      "inheritDamageFactor" : 0.5,
+      "angleAdjust" : -15
+    },
+    {
+      "action" : "projectile",
+      "type" : "chinaslide",
+      "fuzzAngle" : 30,
+      "inheritDamageFactor" : 0.5,
+      "angleAdjust" : 15
+    }
+
+  ],
+  "power" : 6,
+  "damageKind" : "default"
+}

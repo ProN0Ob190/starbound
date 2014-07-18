@@ -1,0 +1,12 @@
+{
+  "itemName" : "meteoriterock",
+  "rarity" : "Common",
+  "inventoryIcon" : "meteoriterock.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "An extremely hard rock found just outside the atmosphere.",
+  "shortdescription" : "Meteorite Rock",
+  "glitchdescription" : "Analysis. This rock is of extraterrestrial origin.",
+  "florandescription" : "Floran like falling rocks.",
+
+  "materialId" : 161
+}

@@ -1,0 +1,20 @@
+{
+  "itemName" : "chilistew",
+  "rarity" : "Common",
+  "inventoryIcon" : "chilistew.png",
+  "description" : "A delicious beefy chili. Spicy!",
+  "shortdescription" : "Chili",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 100
+      },
+      {
+        "kind" : "mollyhealing3" },
+      {
+        "kind" : "energy",
+        "amount" : 15
+      }
+    ] ]
+}

@@ -1,0 +1,10 @@
+{
+  "codexId" : "avianburials",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "aviantombbook_01.png",
+  "itemName" : "avianburialsCodex",
+  "rarity" : "common",
+  "description" : "Avian Burials",
+  "shortdescription" : "Avian Burials"
+}

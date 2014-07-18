@@ -1,0 +1,8 @@
+{
+  "name" : "flawed",
+  "icon" : [ ],
+  "kind" : "statuseffect",
+  "statusEffects" : [
+    { "kind" : "flawedprotection", "chance" : 10.0 }
+  ]
+}

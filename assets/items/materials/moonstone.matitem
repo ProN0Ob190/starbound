@@ -1,0 +1,12 @@
+{
+  "itemName" : "moonstone",
+  "rarity" : "Common",
+  "inventoryIcon" : "moonstoneicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Beautiful, smooth moonstone.",
+  "shortdescription" : "Moonstone",
+  "glitchdescription" : "Statement. Moonstone.",
+  "florandescription" : "Ssshiny stone.",
+
+  "materialId" : 79
+}

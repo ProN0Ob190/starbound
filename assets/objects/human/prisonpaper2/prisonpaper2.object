@@ -1,0 +1,31 @@
+{
+  "objectName" : "prisonpaper2",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 100,
+
+  "description" : "The paper is ripped and the words are smudged.",
+  "shortdescription" : "USCM Torn Memo",
+  "race" : "human",
+
+  "apexDescription" : "I'm sure whatever this said was very important.",
+  "avianDescription" : "I can't entirely make the words out.",
+  "floranDescription" : "Floran recognise thisss! It picture of Floran ssstabbing creature.",
+  "glitchDescription" : "Solving. It appears this was a passive-aggressive note aimed at someone stealing milk.",
+  "humanDescription" : "This was clearly a hugely important message from USCM. It's impossible to read now.",
+  "hylotlDescription" : "This paper appears to have had some liquid spilled on it.",
+
+  "inventoryIcon" : "prisonpaper2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "prisonpaper2.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

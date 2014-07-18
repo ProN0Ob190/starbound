@@ -1,0 +1,13 @@
+{
+  "kind" : "nanowrap",
+  "duration" : 5,
+  "primitives" : [
+    {
+      "name" : "Health",
+      "mode" : "max", //don't stack
+      "amount" : 0.25
+    }
+  ],
+  "effectSources" : [ "health" ],
+  "mainInterfaceIcon" : "/interface/statuses/heal.png"
+}

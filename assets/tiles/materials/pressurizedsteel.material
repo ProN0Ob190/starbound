@@ -1,0 +1,15 @@
+{
+  "materialId" : 154,
+  "materialName" : "pressurizedsteel",
+  "frames" : "pressurizedsteel.png",
+  "particleColor" : [89, 127, 52, 255],
+  "variants" : 5,
+  "itemDrop" : "pressurizedsteel",
+  "description" : "Pressurised steel.",
+  "shortdescription" : "Pressurised Steel",
+  "glitchDescription" : "Statement. Pressurised steel.",
+  "floranDescription" : "Sssteel.",
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.wav",
+  "health" : 20
+}

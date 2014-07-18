@@ -1,0 +1,18 @@
+{
+  "name" : "flySwarmAttack",
+  "label" : "FLY SWARM",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "flySwarmAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "flyswarm",
+      "arc" : "low",
+      "range" : 10,
+      "speed" : 15,
+      "power" : 10,
+      "shots" : 4,
+      "fireInterval" : 0.2
+    }
+  }
+}

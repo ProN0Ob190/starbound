@@ -1,0 +1,14 @@
+{
+  "materialId" : 118,
+  "materialName" : "bambooplatform",
+  "platform" : true,
+  "transparent" : true,
+  "stairVariants" : 1,
+  "stairImage" : "bamboostairs.png",
+  "platformVariants" : 3,
+  "platformImage" : "bambooplatform.png",
+  "itemDrop" : "bambooplatform",
+  "shortdescription" : "Bamboo Platform",
+  "description" : "Charmingly constructed bamboo platforms.",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.wav"
+}

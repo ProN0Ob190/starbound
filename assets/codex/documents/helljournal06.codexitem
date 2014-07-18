@@ -1,0 +1,10 @@
+{
+  "codexId" : "helljournal06",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "floranhellbook_06.png",
+  "itemName" : "helljournal06Codex",
+  "rarity" : "common",
+  "description" : "A Greenguard's Journal #6",
+  "shortdescription" : "Greenguard's Journal"
+}

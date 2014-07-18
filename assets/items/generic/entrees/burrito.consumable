@@ -1,0 +1,19 @@
+{
+  "itemName" : "burrito",
+  "rarity" : "Common",
+  "inventoryIcon" : "burrito.png",
+  "description" : "A bean and cheese burrito. Deliciously unhealthy!",
+  "shortdescription" : "Burrito",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 100
+      },
+      {
+        "kind" : "mollyhealing3" },
+      {
+        "kind" : "energy",
+        "amount" : 15
+      }
+    ] ]
+}

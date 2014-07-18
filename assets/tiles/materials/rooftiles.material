@@ -1,0 +1,15 @@
+{
+  "materialId" : 121,
+  "materialName" : "rooftiles",
+  "frames" : "rooftiles.png",
+  "particleColor" : [110, 71, 60, 255],
+  "variants" : 5,
+  "itemDrop" : "rooftiles",
+  "description" : "Weathered roof tiles. Their shape makes me feel uneasy.",
+  "glitchDescription" : "Statement. Roofing tiles.",
+  "floranDescription" : "Roof.",
+  "shortdescription" : "Roof Tiles",
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_stone.wav",
+  "health" : 18
+}

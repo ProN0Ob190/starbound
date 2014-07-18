@@ -1,0 +1,22 @@
+{
+  "itemName" : "pearlpeaparcels",
+  "rarity" : "Common",
+  "inventoryIcon" : "pearlpeaparcels.png",
+  "description" : "Pearlpeas wrapped neatly in a wartweed bundle.",
+  "shortdescription" : "Pearlpea Parcels",
+  "handPosition" : [-8, 4],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 75
+      },
+      {
+        "kind" : "health",
+        "amount" : 10
+      },
+      {
+        "kind" : "energy",
+        "amount" : 10
+      }
+    ] ]
+}

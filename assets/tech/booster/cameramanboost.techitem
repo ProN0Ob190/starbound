@@ -1,0 +1,10 @@
+{
+  "itemName" : "cameramanboost",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/bubbleboost.png",
+  "description" : "Press and hold Jump in the air to float around with this Cameraman Boost tech.",
+  "shortdescription" : "Camera Man Boost",
+  "tooltipKind" : "tech",
+
+  "techModule" : "cameramanboost.tech"
+}

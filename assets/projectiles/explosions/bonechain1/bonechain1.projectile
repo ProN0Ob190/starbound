@@ -1,0 +1,24 @@
+{
+  "projectileName" : "bonechain1",
+  "frames" : "bonechain1.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 6,
+  "speed" : 50,
+  "fallSpeed" : 10,
+  "damagePoly" : [ [-36, 0], [-24, -24], [0, -36], [24, -24], [36, 0] ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "universalDamage" : false,
+  "damageKind" : "default",
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "bonechain2",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.5,
+      "angleAdjust" : 0
+    }
+
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "itemName" : "pozest",
+  "rarity" : "Common",
+  "inventoryIcon" : "pozest.png",
+  "description" : "A popular cocktail with the barfly Glitch.",
+  "shortdescription" : "Pozest",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 5
+      }
+    ] ]
+}

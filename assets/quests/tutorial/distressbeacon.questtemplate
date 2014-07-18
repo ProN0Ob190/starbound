@@ -1,0 +1,16 @@
+{
+  "id" : "distressbeacon.gearup",
+  "title" : "^#9be3d6;First Contact",
+  "text" : "Your ship's engine isn't yet strong enough to take you beyond the Alpha sector. ^green;Craft a ^orange;Distress Beacon ^green;and maybe you'll be able to make contact with a larger ship. ^white;Make sure you're ready for anything before you do though!",
+  "completionText" : "Nicely done. I suggest you gear up before placing it. You never know who'll receive your signal.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "ironbeacon", 1] }
+  ],
+  "moneyRange" : [500, 500],
+  "rewards" : [
+    [ [ "ironbeacon", 1] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : ""
+}

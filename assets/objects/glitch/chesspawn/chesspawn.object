@@ -1,0 +1,31 @@
+{
+  "objectName" : "chesspawn",
+  "rarity" : "Common",
+  "description" : "Poor Pawn, you're the most important piece to me!",
+  "shortdescription" : "Stone Pawn",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 200,
+
+  "apexDescription" : "A chess piece. The Miniknog does not permit games of chess.",
+  "avianDescription" : "Some kind of decorative statue, perhaps?",
+  "floranDescription" : "Ssstrange statue. What iss it?",
+  "glitchDescription" : "Educate. Glitch nobility learn to play this game from an early age. They play on large, courtyard-sized boards. ",
+  "humanDescription" : "A chess piece. A huge chess piece.",
+  "hylotlDescription" : "It looks like a large game piece. The Hylotl have many boardgames.",
+
+  "inventoryIcon" : "chesspawnicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "chesspawn.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

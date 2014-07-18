@@ -1,0 +1,26 @@
+{
+  "name" : "crossbowwood",
+  "maxStack" : 1,
+  "rarity" : "common",
+  "tooltipKind" : "gun",
+  "handPosition" : [3, 0],
+  "firePosition" : [-2, 9],
+  "weaponType" : "Crossbow",
+  "baseDps" : [5, 5.5],
+  "rateOfFire" : [0.6, 1.6],
+  "hands" : [2, 2],
+  "recoilTime" : 0.1,
+  "spread" : [1, 1],
+  "multiplier" : 1.0,
+  "accuracy" : 100,
+  "muzzleFlashes" : [
+    "/animations/muzzleflash/blankmuzzle/blankmuzzle.animation"
+  ],
+  "projectileTypes" : [ "woodenbolt" ],
+  "directories" : [ "/items/guns/randomgenerated/crossbow/" ],
+  "fireSound" : [ "/sfx/gun/crossbow1.wav" ],
+  "palette" : [
+    { "e35f5d" : "d39855", "b22042" : "9e5f29", "871132" : "65371a", "a9a9a9" : "a9a9a9", "6a6a6a" : "6a6a6a", "3b3b3b" : "3b3b3b", "222222" : "222222" } //wood stock//
+  ],
+  "nameGenerator" : "crossbownames.config:nameGen"
+}

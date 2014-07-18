@@ -1,0 +1,31 @@
+{
+  "objectName" : "hylotlcashregister",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 500,
+
+  "description" : "Ka-ching!",
+  "shortdescription" : "Cash Register",
+  "race" : "hylotl",
+
+  "apexDescription" : "A device used to calculate transactions.",
+  "avianDescription" : "A device used in the selling of things.",
+  "floranDescription" : "Ka-chiiing!",
+  "glitchDescription" : "Curious. I wonder how well this establishment does, financially?",
+  "humanDescription" : "Looks like a cash register.",
+  "hylotlDescription" : "It is a cash register.",
+
+  "inventoryIcon" : "hylotlcashregistericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "hylotlcashregister.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

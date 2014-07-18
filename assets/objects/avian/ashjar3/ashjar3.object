@@ -20,7 +20,7 @@
     {
       "dualImage" : "ashjar3.png:<color>",
 
-      "imagePosition" : [0, 0],
+      "imagePosition" : [2, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
 

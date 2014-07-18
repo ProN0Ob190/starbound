@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "silverbar", "count" : 20 },
+    { "item" : "copperdrill", "count" : 1 }
+  ],
+  "output" : { "item" : "silverdrill", "count" : 1 },
+  "groups" : [ "roboticcraftingtable", "tools", "all" ]
+}

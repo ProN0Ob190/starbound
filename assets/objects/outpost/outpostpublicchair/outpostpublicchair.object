@@ -1,0 +1,36 @@
+{
+  "objectName" : "outpostpublicchair",
+  "rarity" : "Common",
+  "description" : "A chair that anyone can sit on!",
+  "shortdescription" : "Outpost Public Chair",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 600,
+
+  "apexDescription" : "A chair.",
+  "avianDescription" : "A chair.",
+  "floranDescription" : "If you cut me, do I not ssstab?",
+  "glitchDescription" : "Statement. A chair.",
+  "humanDescription" : "A chair.",
+  "hylotlDescription" : "Sometimes I wonder what the point is.",
+
+  "inventoryIcon" : "outpostpublicchairicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "outpostpublicchair.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 22]
+
+}

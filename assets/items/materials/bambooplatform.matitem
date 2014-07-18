@@ -1,0 +1,13 @@
+{
+  "itemName" : "bambooplatform",
+  // "twoHanded" : false,
+  "rarity" : "Common",
+  "inventoryIcon" : "bambooplatformicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "What charmingly constructed bamboo platforms.",
+  "shortdescription" : "Bamboo Platform",
+  "glitchdescription" : "Statement. A Bamboo platform.",
+  "florandescription" : "Platformsss.",
+
+  "materialId" : 118
+}

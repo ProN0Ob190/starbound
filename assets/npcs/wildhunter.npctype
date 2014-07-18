@@ -1,0 +1,111 @@
+{
+  "type" : "wildhunter",
+  "baseType" : "guard",
+
+  "disableWornArmor" : true,
+  "innateStatusEffects" : [
+    {
+      "kind" : "Protection",
+      "amount" : 1.0
+    }
+  ],
+
+  "damageTeam" : 1,
+  "levelVariance" : [0.25, 0.5],
+
+  "scripts" : [
+    "/npcs/main.lua",
+    "/npcs/timers.lua",
+    "/scripts/sensors.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua",
+
+    "/npcs/meleeAttackState.lua",
+    "/npcs/rangedAttackState.lua",
+
+    "/npcs/guard/guardState.lua",
+    "/npcs/guard/returnToPostState.lua"
+  ],
+
+  "scriptConfig" : {
+    "attackerLimit" : 8,
+    "attackerLimitCooldown" : 3,
+    "noticePlayersRadius" : 30,
+
+    "guard" : {
+      "patrolDistance" : 5,
+      "noticeDistance" : 30,
+      "hailDistance" : -1,
+      "stopDistance" : -1,
+      "attackDistance" : 30,
+      "changeDirectionTimeRange" : [5, 10],
+
+      "attackSayingPercent" : 0,
+
+      "dialog" : {
+        "attack" : {
+          "default" : [ "Intruder!"
+          ],
+          "floran" : {
+            "default" : [
+              "Freshhhhh prey!"
+            ]
+          }
+        }
+      }
+    },
+
+    "returnToPost" : {
+      "moveTime" : 20,
+      "minDistance" : 2
+    },
+
+    "meleeAttack" : {
+      "swingDistance" : 4,
+      "runThreshold" : 0
+    }
+  },
+
+  "items" : {
+    "floran" : [
+      [0, [
+          {
+            "head" : [ { "name" : "florantier5head" } ],
+            "chest" : [ { "name" : "florantier5chest" } ],
+            "legs" : [ { "name" : "florantier5pants" } ],
+            "primary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commonspear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonaxe" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonhammer" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonbroadsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "floranneedler" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "floranbasicshield" } }
+            ]
+          }
+        ] ]
+    ]
+  },
+
+  "movementControllerSettings" : {
+    "runSpeed" : 15
+  },
+
+  "dropPools" : [ "floranwildhuntertreasure" ],
+
+  "statusParameters" : {
+    "baseMaxHealth" : 40,
+    "baseMaxEnergy" : 40,
+    "bodyMaterialKind" : "organic",
+    "damageConfig" : "/damage/damageresponse/npcs.config",
+    "invulnerabilityTime" : 0,
+    "energyReplenishmentRate" : 10.0
+  }
+}
+

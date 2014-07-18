@@ -1,0 +1,31 @@
+{
+  "objectName" : "shippingcontainer",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 500,
+
+  "description" : "A very large shipping container.",
+  "shortdescription" : "Shipping Container",
+  "race" : "hylotl",
+
+  "apexDescription" : "It's a huge bin for shipping large cargo.",
+  "avianDescription" : "I would guess it's meant for shipping very large objects.",
+  "floranDescription" : "Maybe food in it.",
+  "glitchDescription" : "Curious. What's stored in here?",
+  "humanDescription" : "It's a really big shipping container.",
+  "hylotlDescription" : "A rather large container for shipping large quantities of cargo.",
+
+  "inventoryIcon" : "shippingcontainericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "shippingcontainer.png:<color>",
+      "imagePosition" : [-60, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

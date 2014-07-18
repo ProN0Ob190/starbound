@@ -1,0 +1,42 @@
+{
+  "objectName" : "goldball",
+  "rarity" : "Uncommon",
+  "description" : "A golden ball. These are popular as holiday ornaments.",
+  "shortdescription" : "Gold Ball Holiday Ornament",
+  "race" : "generic",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 500,
+
+  "apexDescription" : "A shiny golden ball. Pretty.",
+  "avianDescription" : "A majestic golden ball.",
+  "floranDescription" : "Floran kick ssshiny ball!",
+  "glitchDescription" : "Happy. A lovely decoration.",
+  "humanDescription" : "Gotta be careful not to smash this bauble.",
+  "hylotlDescription" : "There's something hypnotising about this shiny ball.",
+
+  "inventoryIcon" : "goldballicon.png",
+  "orientations" : [
+    {
+      "image" : "goldball.png:<color>",
+      "flipImages" : true,
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "direction" : "left",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "goldball.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

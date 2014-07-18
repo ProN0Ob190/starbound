@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "Feroziumbar", "count" : 12 }
+  ],
+  "output" : { "item" : "aviantier6pants", "count" : 1 },
+  "groups" : [ "craftingtable", "armors", "all" ]
+}

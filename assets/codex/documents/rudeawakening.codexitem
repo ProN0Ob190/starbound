@@ -1,0 +1,10 @@
+{
+  "codexId" : "rudeawakening",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "aviantemplebook_08.png",
+  "itemName" : "rudeawakeningCodex",
+  "rarity" : "common",
+  "description" : "A Rude Awakening",
+  "shortdescription" : "Rude Awakening"
+}

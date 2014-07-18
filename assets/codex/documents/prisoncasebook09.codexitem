@@ -1,0 +1,10 @@
+{
+  "codexId" : "prisoncasebook09",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "humanprisonbook_09.png",
+  "itemName" : "prisoncasebook09Codex",
+  "rarity" : "common",
+  "description" : "The Steel Casebook: Prisoners #9",
+  "shortdescription" : "Prisoners"
+}

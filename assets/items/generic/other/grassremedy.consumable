@@ -1,0 +1,16 @@
+{
+  "itemName" : "grassremedy",
+  "rarity" : "Common",
+  "inventoryIcon" : "grassremedy.png",
+  "description" : "A concoction that provides -TODO-.",
+  "shortdescription" : "Grass Remedy",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      {
+        "kind" : "redstim",
+        "amount" : 0.5
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ]
+}

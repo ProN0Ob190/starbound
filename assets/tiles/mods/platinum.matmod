@@ -1,0 +1,11 @@
+{
+  "modId" : 20,
+  "modName" : "platinum",
+  "frames" : "platinum.png",
+  "variants" : 8,
+  "itemDrop" : "platinumore",
+  "Description" : "Platinum.",
+  "health" : 18,
+  "harvestLevel" : 5,
+  "breaksWithTile" : true
+}

@@ -1,0 +1,43 @@
+{
+  "objectName" : "wooddoor",
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 500,
+  "description" : "A manufactured wooden door.",
+  "shortdescription" : "Wooden Door",
+  "race" : "generic",
+
+  "apexDescription" : "This wooden door was not made by hand.",
+  "avianDescription" : "This door was produced by a machine.",
+  "floranDescription" : "Floran not like door made in factory.",
+  "glitchDescription" : "Observation. Appears to be manufactured in high quantities.",
+  "humanDescription" : "A cheaply manufactured door.",
+  "hylotlDescription" : "This door lacks a personal touch.",
+
+  "inventoryIcon" : "wooddooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "wooddoor.png:default",
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationParts" : {
+    "door" : "wooddoor.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "inboundNodes" : [ [0, 4] ],
+  "outboundNodes" : [ [0, 0] ],
+
+  "openSounds" : [ "/sfx/objects/wooddoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/wooddoor_close.wav" ]
+}

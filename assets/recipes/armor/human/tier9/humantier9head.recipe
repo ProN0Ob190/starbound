@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "Rubiumbar", "count" : 20 }
+  ],
+  "output" : { "item" : "humantier9head", "count" : 1 },
+  "groups" : [ "craftingtable", "armors", "all" ]
+}

@@ -1,0 +1,31 @@
+{
+  "objectName" : "poptopplush",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 500,
+
+  "description" : "A soft Poptop plush toy.",
+  "shortdescription" : "Poptop Plushie",
+  "race" : "hylotl",
+
+  "apexDescription" : "Poptops give me the creeps, but this one is almost cute.",
+  "avianDescription" : "Why make plushies of such a terrifying little creature?",
+  "floranDescription" : "Awww, Floran like Poptop plushie best.",
+  "glitchDescription" : "Conflicted. Poptops are deadly creatures, but they're quite cute.",
+  "humanDescription" : "Aww, it's almost enough to make you forget how scary real Poptops are.",
+  "hylotlDescription" : "This is quite an adorable plushie of a rather scary creature.",
+
+  "inventoryIcon" : "poptopplushicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "poptopplush.png:<color>",
+      "imagePosition" : [-12, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

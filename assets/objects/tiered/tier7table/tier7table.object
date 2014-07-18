@@ -1,0 +1,33 @@
+{
+  "objectName" : "tier7table",
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A very hardy Cerulium table.",
+  "shortdescription" : "Cerulium Table",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 500,
+
+  "apexDescription" : "This Cerulium table is very sleek.",
+  "avianDescription" : "An immensely sturdy Cerulium table.",
+  "floranDescription" : "Table good enough for Floran to ssslice meatsss.",
+  "glitchDescription" : "Approving. A very well-made Cerulium table.",
+  "humanDescription" : "A cool Cerulium table.",
+  "hylotlDescription" : "Not usually my kind of table, but this is rather impressive.",
+
+  "inventoryIcon" : "tier7tableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "tier7table.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

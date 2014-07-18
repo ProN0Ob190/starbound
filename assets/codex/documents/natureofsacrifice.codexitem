@@ -1,0 +1,10 @@
+{
+  "codexId" : "natureofsacrifice",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "aviantemplebook_06.png",
+  "itemName" : "natureofsacrificeCodex",
+  "rarity" : "common",
+  "description" : "Notes on the Nature of Sacrifice",
+  "shortdescription" : "Sacrifice Notes"
+}

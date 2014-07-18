@@ -1,0 +1,12 @@
+{
+  "itemName" : "redtoyblock",
+  "rarity" : "Common",
+  "inventoryIcon" : "redtoyblock.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Red Toy Block",
+  "description" : "A plastic toy block.",
+  "glitchdescription" : "Statement. A plastic toy block.",
+  "florandescription" : "Floran like toy block.",
+
+  "materialId" : 80
+}

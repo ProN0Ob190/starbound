@@ -1,0 +1,10 @@
+{
+  "codexId" : "shipairshanty",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "avianairshipbook_01.png",
+  "itemName" : "shipairshantyCodex",
+  "rarity" : "common",
+  "description" : "An Avian Air Shanty",
+  "shortdescription" : "Air Shanty"
+}

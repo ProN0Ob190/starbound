@@ -1,0 +1,31 @@
+{
+  "objectName" : "hylotlshorttable",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 750,
+  "description" : "A table set at kneeling height.",
+  "shortdescription" : "Traditional Short Table",
+  "race" : "hylotl",
+
+  "apexDescription" : "A small table. It doesn't look very sturdy.",
+  "avianDescription" : "The flimsy legs of this table look as if they could snap at any moment.",
+  "floranDescription" : "Frogman table too fragile for Floran to chop meat.",
+  "glitchDescription" : "Critical. One swift kick and this table would fall apart.",
+  "humanDescription" : "This table wobbles quite easily.",
+  "hylotlDescription" : "With a table like this, every meal is a joyous experience.",
+
+  "inventoryIcon" : "hylotlshorttableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "hylotlshorttable.png:<color>",
+      "imagePosition" : [-20, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

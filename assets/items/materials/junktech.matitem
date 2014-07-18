@@ -1,0 +1,12 @@
+{
+  "itemName" : "junktech",
+  "rarity" : "Common",
+  "inventoryIcon" : "junktech.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Junk Tech",
+  "description" : "Useless scrap metal, mostly remnants of outmoded technology.",
+  "glitchdescription" : "Disregard. A pile of junk.",
+  "florandescription" : "Messsss.",
+
+  "materialId" : 101
+}

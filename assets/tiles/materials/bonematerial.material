@@ -1,0 +1,17 @@
+{
+  "materialId" : 129,
+  "materialName" : "bonematerial",
+  "frames" : "bonematerial.png",
+  "particleColor" : [231, 223, 189, 255],
+  "variants" : 5,
+  "itemDrop" : "bonematerial",
+  "description" : "Polished bone made into a building material.",
+  "shortdescription" : "Bone Block",
+  "glitchDescription" : "Analysis. This bone came from a huge creature.",
+  "floranDescription" : "Bonesss!",
+  "footstepSound" : "/sfx/blocks/footstep_bone.wav",
+  "falling" : true,
+  "cascading" : true,
+  "health" : 2,
+  "breathable" : "notBreathable"
+}

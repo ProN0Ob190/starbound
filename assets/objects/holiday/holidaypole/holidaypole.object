@@ -1,0 +1,33 @@
+{
+  "objectName" : "holidaypole",
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "price" : 300,
+  "description" : "A holiday pole! Not to be confused with a Festivus pole.",
+  "shortdescription" : "Holiday Pole",
+  "race" : "generic",
+
+  "apexDescription" : "A striped pole...",
+  "avianDescription" : "The pole is striped like holiday candy.",
+  "floranDescription" : "It'sss big pole.",
+  "glitchDescription" : "Curious. A candy-striped pole.",
+  "humanDescription" : "A candy-striped pole. ",
+  "hylotlDescription" : "A gawdy red and white striped pole.",
+
+  "inventoryIcon" : "holidaypoleicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "holidaypole.png:<color>",
+
+      "imagePosition" : [-12, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "objectName" : "metalworkstation",
+  "rarity" : "Common",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/metalworkstation.config",
+    "filter" : [ "metalworkstation", "anvil", "plain" ]
+  },
+  "printable" : false,
+  "description" : "A station for producing and making use of various metals. Can produce steel.",
+  "shortdescription" : "Metalwork Station",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 200,
+  
+  "lightColor" : [179, 124, 62],
+  "flickerDistance" : 1,
+  "flickerStrength" : 0.1,
+  "flickerTiming" : 1,
+
+  "apexDescription" : "A crafting table. I can make steel here.",
+  "avianDescription" : "A crafting table. I can make steel here.",
+  "floranDescription" : "Floran make sssteel on table.",
+  "glitchDescription" : "Statement. I can make steel here.",
+  "humanDescription" : "A crafting table. I can make steel here.",
+  "hylotlDescription" : "A crafting table. I can make steel here.",
+
+  "inventoryIcon" : "metalworkstationicon.png",
+  "orientations" : [
+    {
+	  "imageLayers" : [ { "image" : "metalworkstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "metalworkstationlit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 5,
+      "animationCycle" : 1.5,
+	  
+	  "direction" : "left",
+	  "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+	{
+	  "imageLayers" : [ { "image" : "metalworkstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "metalworkstationlit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 5,
+      "animationCycle" : 1.5,
+	  
+	  "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ]
+}

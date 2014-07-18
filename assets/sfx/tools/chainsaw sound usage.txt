@@ -1,0 +1,16 @@
+IDEAL SOUND USAGE FOR CHAINSAW
+====================================
+
+While idle in player's hands, loop chainsaw_idle.wav.
+Upon player use on tree first play chainsaw_rev_up.wav 
+and then start loop of either chainsaw_cut_wood for normal trees
+or chainsaw_cut_metal for the rare metal tree. These sounds are 
+to loop either until the player lets go of the mouse button
+or until the cut is complete. Once this happens, 
+end any chainsaw_cut sounds that are playing, 
+then play chainsaw_rev_down.wav before resuming loop of chainsaw_idle.wav.
+ 
+For an example of how this should sound in game, listen to chainsaw_demo.wav. 
+The first playthrough will show how it should be once it's all working, 
+including a sample of the cutting sound looping at least partially.
+In the second playthrough there will be gaps between the samples so you can hear where the files are separated.

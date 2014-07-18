@@ -1,0 +1,17 @@
+{
+  "name" : "darkGravityBallAttack",
+  "label" : "DARK GRAVITY BALL",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "darkGravityBallAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "darkgravityball",
+      "range" : 15,
+      "speed" : 15,
+      "power" : 16,
+      "shots" : 1,
+      "winddownTime" : 0.5
+    }
+  }
+}

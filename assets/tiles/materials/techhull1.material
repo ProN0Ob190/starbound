@@ -1,0 +1,15 @@
+{
+  "materialId" : 59,
+  "materialName" : "techhull1",
+  "frames" : "techhull1.png",
+  "particleColor" : [148, 148, 148, 255],
+  "variants" : 5,
+  "itemDrop" : "techhull1",
+  "description" : "Wiring hides beneath this reinforced hi-tech plated material.",
+  "shortdescription" : "Reinforced Tech Block",
+  "glitchDescription" : "Statement. Plating which hides wires.",
+  "floranDescription" : "Rip plating off, ssslash wires.",
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_girder.wav",
+  "health" : 20
+}

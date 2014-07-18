@@ -1,0 +1,36 @@
+{
+  "objectName" : "bench",
+  "rarity" : "Common",
+  "description" : "A basic bench.",
+  "shortdescription" : "A bench",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 600,
+
+  "apexDescription" : "A bench.",
+  "avianDescription" : "A bench.",
+  "floranDescription" : "Ssseat.",
+  "glitchDescription" : "Statement. A bench.",
+  "humanDescription" : "A bench.",
+  "hylotlDescription" : "A simple bench.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bench.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [4, 21]
+
+}

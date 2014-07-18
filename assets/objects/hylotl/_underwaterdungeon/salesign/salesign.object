@@ -1,0 +1,51 @@
+{
+  "objectName" : "salesign",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 300,
+
+  "shortdescription" : "Sale Sign",
+  "description" : "A banner advertising a sale. Everybody loves sales!",
+  "race" : "hylotl",
+
+  "apexDescription" : "Oh, looks like they're having a sale over here...",
+  "avianDescription" : "This shop is having a sale.",
+  "floranDescription" : "Cheap stuff? Floran likesss.",
+  "glitchDescription" : "Intrigued. I wonder if they've got any good deals?",
+  "humanDescription" : "It looks like this shop is having a sale.",
+  "hylotlDescription" : "This shop appears to be having a sale.",
+
+  "inventoryIcon" : "salesignicon.png",
+  "orientations" : [
+    {
+      "image" : "salesignleft.png:<color>",
+      "imagePosition" : [0, -24],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ]
+
+    },
+    {
+      "image" : "salesignright.png:<color>",
+      "imagePosition" : [-8, -24],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ]
+
+    },
+    {
+      "image" : "salesignceiling.png:<color>",
+      "imagePosition" : [-20, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name" : "largeowlhead",
+  "category" : "largebiped",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "largeowlhead.png"
+  },
+
+  "parameters" :
+  {
+    // "idleNoise" : [ "/sfx/npc/quadruped/powlhead_idle1.wav", "/sfx/npc/quadruped/powlhead_idle2.wav" ],
+    "turnHostileNoise" : [ "/sfx/npc/monsters/monster_surprise.wav" ],
+    // "attackNoise" : [ "/sfx/npc/quadruped/powlhead_attack1.wav", "/sfx/npc/quadruped/powlhead_attack2.wav" ],
+    // "painNoise" : [ "/sfx/npc/quadruped/powlhead_pain1.wav", "/sfx/npc/quadruped/powlhead_pain2.wav" ],
+    "deathNoise" : [ "/sfx/npc/enemydeathpuff.wav" ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "objectName" : "prisonbench",
+  "rarity" : "Common",
+  "description" : "A simple bench, save for the fact that the legs are nailed to the floor.",
+  "shortdescription" : "Prison Bench",
+  "race" : "human",
+  "category" : "furniture",
+  "price" : 650,
+
+  "apexDescription" : "A bench. It's a lot more comfortable than you'd expect.",
+  "avianDescription" : "A fairly comfortable prison bench.",
+  "floranDescription" : "Floran sssit down and wait. But for what?",
+  "glitchDescription" : "Statement. A relatively comfortable bench.",
+  "humanDescription" : "A bench. It's nailed to the floor. Disappointing. I could do with a new bench.",
+  "hylotlDescription" : "A secure bench. Nobody will be stealing this in a hurry.",
+
+  "inventoryIcon" : "prisonbenchicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "prisonbench.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [3, 22]
+
+}

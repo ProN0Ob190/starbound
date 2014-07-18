@@ -1,0 +1,20 @@
+{
+  "itemName" : "piodia",
+  "rarity" : "Common",
+  "inventoryIcon" : "piodia.png",
+  "description" : "A variation on pizzap- it's got a more coppery tang.",
+  "shortdescription" : "Piodia",
+  "handPosition" : [-2, 4],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 100
+      },
+      {
+        "kind" : "mollyhealing2" },
+      {
+        "kind" : "energy",
+        "amount" : 55
+      }
+    ] ]
+}

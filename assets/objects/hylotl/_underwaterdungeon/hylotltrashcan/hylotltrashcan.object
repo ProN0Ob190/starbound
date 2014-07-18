@@ -1,0 +1,31 @@
+{
+  "objectName" : "hylotltrashcan",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 200,
+
+  "description" : "A garbage bin.",
+  "shortdescription" : "Trash Can",
+  "race" : "hylotl",
+
+  "apexDescription" : "It's a garbage bin.",
+  "avianDescription" : "A bin for discarding trash.",
+  "floranDescription" : "Floran usually throw scraps on ground.",
+  "glitchDescription" : "Bored. A garbage bin.",
+  "humanDescription" : "A trash can.",
+  "hylotlDescription" : "A bin meant for waste disposal.",
+
+  "inventoryIcon" : "hylotltrashcanicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "hylotltrashcan.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "projectileName" : "icebolt",
+  "physics" : "arrow",
+  "frames" : "icebolt.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "emitters" : [ "icetrail" ],
+  "damageKindImage" : "icon.png",
+  "timeToLive" : 30,
+  "pointLight" : true,
+  "light" : [13, 70, 79],
+  "statusEffects" : [
+    {
+      "kind" : "slow"
+    }
+  ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "power" : 5.0,
+  "damageKind" : "default"
+}

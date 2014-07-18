@@ -1,0 +1,54 @@
+{
+  "objectName" : "spawnerdoctor",
+  "rarity" : "Common",
+  "description" : "Spawn your very own doctor!",
+  "shortdescription" : "Doctor Spawner",
+  "race" : "human",
+  "printable" : false,
+  "category" : "spawner",
+  "price" : 300,
+
+  "apexDescription" : "A doctor could be handy to have around.",
+  "avianDescription" : "I guess the doctors are on-call.",
+  "floranDescription" : "Floran want medicine man to fix ssstabs!",
+  "glitchDescription" : "Interested. Perhaps I can learn of the wonders of medicine.",
+  "humanDescription" : "An unlimited supply of doctors. Thanks, Obama!",
+  "hylotlDescription" : "These doctors had better have received the correct training.",
+
+  "inventoryIcon" : "defaulticon.png",
+  "orientations" : [
+    {
+      "image" : "spawner_doctor.png",
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/spawner/spawners/spawner.lua" ],
+  "scriptDelta" : 1,
+  //6000,
+
+  "animation" : "/objects/spawner/spawners/doctor.animation",
+
+  "animationParts" : {
+    "switch" : "spawner_doctor.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "inboundNodes" : [ ],
+  "outboundNodes" : [ ],
+
+  "spawner" : {
+    "searchRadius" : 32.0,
+    "npcSpeciesOptions" : [ "apex", "avian", "floran", "glitch", "human", "hylotl" ],
+    "npcTypeOptions" : [ "doctormerchant" ],
+    "npcParameterOptions" : [
+      {
+        "dropPools" : [ ]
+      }
+    ]
+  }
+
+}

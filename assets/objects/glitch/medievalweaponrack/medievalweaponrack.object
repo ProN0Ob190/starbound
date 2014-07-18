@@ -1,0 +1,31 @@
+{
+  "objectName" : "medievalweaponrack",
+  "rarity" : "Common",
+  "description" : "A rack full of... fairly dull iron swords.",
+  "shortdescription" : "Glitch Weapon Rack",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 600,
+
+  "apexDescription" : "The blades of these swords have dulled with time.",
+  "avianDescription" : "A blunt selection of swords.",
+  "floranDescription" : "Ssswords not ssharp.",
+  "glitchDescription" : "Deduction. These swords are blunt. Likely they have been forgotten. Glitch knights prefer to forge their own swords.",
+  "humanDescription" : "Barely sharp enough to cut cheese.",
+  "hylotlDescription" : "A blunt set of swords. Such pitiful things.",
+
+  "inventoryIcon" : "medievalweaponrackicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "medievalweaponrack.png:<color>",
+
+      "imagePosition" : [-16, -0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

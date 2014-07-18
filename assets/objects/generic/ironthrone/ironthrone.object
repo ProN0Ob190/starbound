@@ -1,0 +1,36 @@
+{
+  "objectName" : "ironthrone",
+  "rarity" : "rare",
+  "description" : "A throne of 1000 swords.",
+  "shortdescription" : "Iron Throne",
+  "race" : "geeric",
+  "category" : "furniture",
+  "price" : 99999,
+
+  "apexDescription" : "This looks like a Miniknog torture device.",
+  "avianDescription" : "It's as if an attempt was made to build a nest from swords.",
+  "floranDescription" : "Floran ssshould sit on a throne like thiss.",
+  "glitchDescription" : "Review. Entirely impractical. Three out of ten.",
+  "humanDescription" : "Someone sitting on that could never get comfortable.",
+  "hylotlDescription" : "Throne or torture device?",
+
+  "inventoryIcon" : "ironthroneicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ironthrone.png:<color>",
+
+      "imagePosition" : [-15, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [4, 25]
+
+}

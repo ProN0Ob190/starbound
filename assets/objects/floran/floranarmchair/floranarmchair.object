@@ -1,0 +1,35 @@
+{
+  "objectName" : "floranarmchair",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 1200,
+  "description" : "It's just an armchair made of bones. No big deal.",
+  "shortdescription" : "Bone Armchair",
+  "race" : "floran",
+
+  "apexDescription" : "A chair built from bones and leather.",
+  "avianDescription" : "The bone in this chair is almost as smooth as glass.",
+  "floranDescription" : "Floran polish bone of prey. Make trophy chair. Floran with mossst bone lead Floran village...",
+  "glitchDescription" : "Morbid. This chair has teeth marks in it.",
+  "humanDescription" : "The bones have been sharpened to a point.",
+  "hylotlDescription" : "The Hylotl believe all creatures are sacred. They should not end up as armchairs.",
+
+  "inventoryIcon" : "floranarmchairicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "floranarmchair.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [5, 20]
+
+}

@@ -1,0 +1,31 @@
+{
+  "objectName" : "apexnameplate",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 400,
+
+  "apexDescription" : "It reads... 'Big Ape'.",
+  "avianDescription" : "'Big Ape', is he nearby?",
+  "floranDescription" : "It say 'Big Ape'. Big Ape... big dinner.",
+  "glitchDescription" : "Nervous. Cautious! A Big Ape could be nearby.",
+  "humanDescription" : "It reads 'Big Ape'. Are we finally going to meet this guy?",
+  "hylotlDescription" : "'Big Ape'... Does he need a nameplate?",
+
+  "description" : "It says 'BIG APE'.",
+  "shortdescription" : "Nameplate",
+  "race" : "apex",
+
+  "inventoryIcon" : "apexnameplateicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "apexnameplate.png:<color>",
+      "imagePosition" : [-12, -0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

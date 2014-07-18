@@ -1,0 +1,14 @@
+{
+  "materialId" : 126,
+  "materialName" : "plantplatform",
+  "platform" : true,
+  "transparent" : true,
+  "stairVariants" : 1,
+  "stairImage" : "plantstairs.png",
+  "platformVariants" : 5,
+  "platformImage" : "plantplatform.png",
+  "itemDrop" : "plantplatform",
+  "shortdescription" : "Mossy Platform",
+  "description" : "The platform is slimy with moss and leaves. Best be careful not to slip!",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.wav"
+}

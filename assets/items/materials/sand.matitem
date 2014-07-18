@@ -1,0 +1,12 @@
+{
+  "itemName" : "sand",
+  "rarity" : "Common",
+  "inventoryIcon" : "sand.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A fine glittering sand. Could probably be made into glass!",
+  "shortdescription" : "Fine Sand",
+  "glitchdescription" : "Statement. Sand.",
+  "florandescription" : "Sssand.",
+
+  "materialId" : 21
+}

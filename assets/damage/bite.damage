@@ -1,0 +1,29 @@
+{
+  "kind" : "bite",
+  "effects" : {
+    "organic" : {
+      "hit" : {
+        "sounds" : [ "/sfx/melee/bite.wav" ],
+        "particles" : [
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/melee/bite_kill.wav" ],
+        "particles" : [
+        ]
+      }
+    },
+    "robotic" : {
+      "hit" : {
+        "sounds" : [ "/sfx/melee/bite_robotic1.wav", "/sfx/melee/bite_robotic2.wav", "/sfx/melee/bite_robotic3.wav" ],
+        "particles" : [
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/melee/kill_robotic1.wav", "/sfx/melee/kill_robotic2.wav" ],
+        "particles" : [
+        ]
+      }
+    }
+  }
+}

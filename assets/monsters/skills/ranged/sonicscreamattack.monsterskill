@@ -1,0 +1,20 @@
+{
+  "name" : "sonicScreamAttack",
+  "label" : "SONIC SCREAM",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "sonicScreamAttack" : {
+      "cooldownTime" : 3,
+
+      "factory" : "createRangedAttack",
+      "projectile" : "sonic",
+      "range" : 18,
+      "speed" : 30,
+      "power" : 10,
+      "shots" : 3,
+      "fireInterval" : 0.15,
+      "lockAim" : true
+    }
+  }
+}

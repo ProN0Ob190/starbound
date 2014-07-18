@@ -1,0 +1,13 @@
+{
+  "itemName" : "oculemon",
+  "rarity" : "Common",
+  "inventoryIcon" : "oculemon.png",
+  "description" : "The iris is the best part. Could be poisonous to anyone but a Floran.",
+  "shortdescription" : "Oculemon",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 25
+      }
+    ] ]
+}

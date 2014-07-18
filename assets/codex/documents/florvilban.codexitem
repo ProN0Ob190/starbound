@@ -1,0 +1,10 @@
+{
+  "codexId" : "florvilban",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "floranvillagebook_06.png",
+  "itemName" : "florvilbanCodex",
+  "rarity" : "common",
+  "description" : "Greenfinger's Notes: Writing Ban",
+  "shortdescription" : "Writing Ban"
+}

@@ -1,0 +1,20 @@
+{
+  "itemName" : "meatandmarrow",
+  "rarity" : "Common",
+  "inventoryIcon" : "meatandmarrow.png",
+  "description" : "It's exactly what it says on the tin, if only it had come in a tin.",
+  "shortdescription" : "Meat n' Marrow",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 100
+      },
+      {
+        "kind" : "mollyhealing3" },
+      {
+        "kind" : "energy",
+        "amount" : 15
+      }
+    ] ]
+}

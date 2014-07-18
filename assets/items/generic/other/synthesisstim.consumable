@@ -1,0 +1,16 @@
+{
+  "itemName" : "synthesisstim",
+  "rarity" : "Common",
+  "inventoryIcon" : "synthesisstim.png",
+  "description" : "A stim that triggers -TODO-.",
+  "shortdescription" : "Synthesis Stim",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      {
+        "kind" : "redstim",
+        "amount" : 0.5
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ]
+}

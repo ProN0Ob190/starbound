@@ -1,0 +1,33 @@
+{
+  "objectName" : "giantfloranpod",
+  "rarity" : "Common",
+  "objectType" : "noisy",
+  "category" : "decorative",
+  "price" : 750,
+  "description" : "A giant pod. It seems to contain a beast.",
+  "shortdescription" : "Giant Fungal Pod",
+  "race" : "floran",
+
+  "apexDescription" : "What is this monstrosity?",
+  "avianDescription" : "This huge pod must contain a huge beast.",
+  "floranDescription" : "Floran ssstab... no, Floran run away...",
+  "glitchDescription" : "Analyse. The creature inside appears to be ready to emerge.",
+  "humanDescription" : "I don't want to meet the thing inside here.",
+  "hylotlDescription" : "Stand my ground. Stand my ground. The Florans cannot hurt me.",
+
+  "inventoryIcon" : "giantfloranpodicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "giantfloranpod.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "sounds" : [ "/sfx/npc/quadruped/lion_pain1.wav" ]
+}

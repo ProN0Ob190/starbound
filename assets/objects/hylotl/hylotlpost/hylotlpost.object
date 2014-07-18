@@ -1,0 +1,30 @@
+{
+  "objectName" : "hylotlpost",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 750,
+  "description" : "A decorative wooden post.",
+  "shortdescription" : "Traditional Wooden Post",
+  "race" : "hylotl",
+
+  "apexDescription" : "An unremarkable post.",
+  "avianDescription" : "Pretty good for sharpening one's beak on.",
+  "floranDescription" : "Possst. Chop post. Chop!",
+  "glitchDescription" : "Critical. Even for a basic post, this is uninspiring.",
+  "humanDescription" : "This post seems quite wobbly.",
+  "hylotlDescription" : "This post represents an eternal bastion of strength, rising out of the ocean to claim the skies.",
+
+  "inventoryIcon" : "hylotlposticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "hylotlpost.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

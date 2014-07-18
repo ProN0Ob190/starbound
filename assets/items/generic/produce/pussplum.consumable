@@ -1,0 +1,14 @@
+{
+  "itemName" : "pussplum",
+  "rarity" : "Common",
+  "inventoryIcon" : "pussplum.png",
+  "description" : "Pussplum! Juicy!",
+  "shortdescription" : "Pussplum",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 25
+      }
+    ] ]
+}

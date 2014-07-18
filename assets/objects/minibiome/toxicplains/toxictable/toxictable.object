@@ -1,0 +1,33 @@
+{
+  "objectName" : "toxictable",
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A thorny table. Careful where you put your feet.",
+  "shortdescription" : "Toxic Table",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 1600,
+
+  "apexDescription" : "This table is soft, squidgy and somewhat disconcerting.",
+  "avianDescription" : "It's hard to get comfortable sitting here.",
+  "floranDescription" : "Floran not use table to ssslice meat. Floran would ssslice table.",
+  "glitchDescription" : "Caution. The thorns are exceptionally sharp.",
+  "humanDescription" : "This table feels like it would collapse under the weight of a meal.",
+  "hylotlDescription" : "This reminds me of a beautiful lily pad.",
+
+  "inventoryIcon" : "toxictableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "toxictable.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

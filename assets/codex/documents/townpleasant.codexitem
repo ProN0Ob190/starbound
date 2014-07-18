@@ -1,0 +1,10 @@
+{
+  "codexId" : "townpleasant",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "apexvillagebook_08.png",
+  "itemName" : "townpleasantCodex",
+  "rarity" : "common",
+  "description" : "A Pleasant Town",
+  "shortdescription" : "Pleasant Town"
+}

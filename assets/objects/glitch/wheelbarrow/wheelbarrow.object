@@ -1,0 +1,44 @@
+{
+  "objectName" : "wheelbarrow",
+  "rarity" : "Common",
+  "description" : "A wheelbarrow for transporting goods.",
+  "shortdescription" : "Wheelbarrow",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 750,
+
+  "apexDescription" : "A large wheelbarrow. It looks as if it could carry a large number of objects.",
+  "avianDescription" : "A large wooden cart on wheels. I wonder what it's used for.",
+  "floranDescription" : "Floran would like to go for ride!",
+  "glitchDescription" : "Examine. A Glitch wheelbarrow. Glitch use these large wheelbarrows to drag goods from door to door in an attempt to make a sale.",
+  "humanDescription" : "A very large wheelbarrow. You could take a nap in here.",
+  "hylotlDescription" : "A very large cart. Wouldn't four wheels be better?",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-6, 15],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/glitch/wheelbarrow/wheelbarrowcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    { "kind" : "Nude" },
+    { "kind" : "Health", "amount" : 0.06 }
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "wheelbarrowicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "wheelbarrow.png:<color>",
+
+      "imagePosition" : [-32, -0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "objectName" : "giantflowerchair",
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A flower chair. If you enjoy sitting here, you like butter.",
+  "shortdescription" : "Giant Flower Chair",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 900,
+
+  "apexDescription" : "This chair feels spongey and weird.",
+  "avianDescription" : "The back of this chair chafes against my feathers.",
+  "floranDescription" : "Floran sssit in flower, feel happy.",
+  "glitchDescription" : "Pondering. How many years did it take for the petals to strengthen enough to support my weight?",
+  "humanDescription" : "A chair made of a flower. The pollen makes me sneeze.",
+  "hylotlDescription" : "Did this flower grow this way naturally, or was it shaped?",
+
+  "inventoryIcon" : "giantflowerchairicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "giantflowerchair.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 17]
+
+}

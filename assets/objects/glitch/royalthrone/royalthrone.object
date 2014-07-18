@@ -1,0 +1,36 @@
+{
+  "objectName" : "royalthrone",
+  "rarity" : "Common",
+  "description" : "A throne fit for royal buttocks.",
+  "shortdescription" : "Royal Throne",
+  "race" : "glitch",
+  "category" : "furniture",
+  "price" : 2000,
+
+  "apexDescription" : "A large gold throne.",
+  "avianDescription" : "Glitch royalty appear to surround themselves with gold.",
+  "floranDescription" : "Ssshiny metal chair.",
+  "glitchDescription" : "Educate. Glitch magistrates would sit upon this throne and hand out judgements in civil cases brought before them. Often the judgements were harsh.",
+  "humanDescription" : "A royal throne. Beautifully crafted from gold and satin.",
+  "hylotlDescription" : "The focal point of pompous opulence.",
+
+  "inventoryIcon" : "royalthroneicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "royalthrone.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 20]
+
+}

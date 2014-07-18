@@ -1,0 +1,31 @@
+{
+  "objectName" : "plantvinetable",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 600,
+  "description" : "A table. Vines creep up the sides.",
+  "shortdescription" : "A Table",
+  "race" : "floran",
+
+  "apexDescription" : "This table is somewhat sinister.",
+  "avianDescription" : "I'd rather not eat off of this.",
+  "floranDescription" : "Floran like table.",
+  "glitchDescription" : "Analysis. This table can grow in length to accommodate more guests.",
+  "humanDescription" : "A creepy table.",
+  "hylotlDescription" : "Some kind of living table. Terrifying.",
+
+  "inventoryIcon" : "plantvinetableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "plantvinetable.png:<color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

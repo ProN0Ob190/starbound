@@ -1,0 +1,43 @@
+{
+  "objectName" : "plantdoor2",
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 1000,
+  "description" : "A door. It opens.",
+  "shortdescription" : "Door",
+  "race" : "floran",
+
+  "apexDescription" : "A door. Let's open it.",
+  "avianDescription" : "A door.",
+  "floranDescription" : "Floran obey no door.",
+  "glitchDescription" : "Statement. A door.",
+  "humanDescription" : "A large slab blocking my way. Wait, it's a door.",
+  "hylotlDescription" : "I have so many things to say about this door, but there is nobody around to listen.",
+
+  "inventoryIcon" : "plantdoor2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "plantdoor2.png:default",
+      "imagePosition" : [-16, -32],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationParts" : {
+    "door" : "plantdoor2.png"
+  },
+  "animationPosition" : [-16, -32],
+
+  "inboundNodes" : [ [0, 0] ],
+  "outboundNodes" : [ [0, -4] ],
+
+  "openSounds" : [ "/sfx/objects/bardoor2_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/bardoor2_close.wav" ]
+}

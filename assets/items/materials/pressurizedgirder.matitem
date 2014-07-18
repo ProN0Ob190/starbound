@@ -1,0 +1,12 @@
+{
+  "itemName" : "pressurizedgirder",
+  "rarity" : "Common",
+  "inventoryIcon" : "pressurizedgirdericon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A pressurised girder.",
+  "shortdescription" : "Pressurised Girder",
+  "glitchdescription" : "Statement. A pressurised girder.",
+  "florandescription" : "Girder.",
+
+  "materialId" : 153
+}

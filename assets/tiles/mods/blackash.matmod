@@ -1,0 +1,9 @@
+{
+  "modId" : 302,
+  "modName" : "blackash",
+  "frames" : "blackash.png",
+  "variants" : 5,
+  "Description" : "A thick layer of black ash.",
+  "footstepSound" : "/sfx/blocks/footstep_ash.wav",
+  "health" : 0
+}

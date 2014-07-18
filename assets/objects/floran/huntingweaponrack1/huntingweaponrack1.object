@@ -1,0 +1,30 @@
+{
+  "objectName" : "huntingweaponrack1",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 750,
+  "description" : "A weapon rack. Unsurprisingly, a lot of the weapons are gone.",
+  "shortdescription" : "Weapon Rack",
+  "race" : "floran",
+
+  "apexDescription" : "A weapon rack.",
+  "avianDescription" : "Weapons.",
+  "floranDescription" : "Ssstab ssstand.",
+  "glitchDescription" : "Observation. These weapons are well-used.",
+  "humanDescription" : "No guns. No deal.",
+  "hylotlDescription" : "A brazen display of violent intent.",
+
+
+  "inventoryIcon" : "huntingweaponrack1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "huntingweaponrack1.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "materialId" : 131,
+  "materialName" : "frozenwater",
+  "frames" : "frozenwater.png",
+  "particleColor" : [176, 174, 168, 255],
+  "variants" : 5,
+  "itemDrop" : "ice",
+  "description" : "The water appears to have frozen.",
+  "shortdescription" : "Frozen Water",
+  "glitchDescription" : "Statement. Frozen water.",
+  "floranDescription" : "Ssslippy cold water.",
+  "footstepSound" : "/sfx/blocks/footstep_ice.wav",
+  "health" : 1.0,
+  "damageTable" : "/tiles/flammableDamage.config"
+}

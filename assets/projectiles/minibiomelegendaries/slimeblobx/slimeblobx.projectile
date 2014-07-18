@@ -1,0 +1,48 @@
+{
+  "projectileName" : "slimeblobX",
+  "frames" : "slimeblobX.png",
+  "animationCycle" : 0.5,
+  "timeToLive" : 0.8,
+  "frameNumber" : 2,
+  "damageKindImage" : "icon.png",
+  "physics" : "grenadezbomb",
+  "speed" : 25,
+  "pointLight" : true,
+  "lightColor" : [0, 50, 40],
+  "statusEffects" : [
+    { "kind" : "testpoison" }
+  ],
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "slimeclusterX",
+      "fuzzAngle" : 45,
+      "angleAdjust" : 45
+    },
+	{
+      "action" : "projectile",
+      "type" : "slimeclusterX",
+      "fuzzAngle" : 45,
+      "angleAdjust" : -45
+    },
+	{
+      "action" : "projectile",
+      "type" : "slimeclusterX",
+      "fuzzAngle" : 180,
+      "angleAdjust" : 180
+    },
+	{
+      "action" : "projectile",
+      "type" : "slimeclusterX",
+      "fuzzAngle" : 180,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/projectiles/goocluster_pop.wav" ]
+    }
+  ],
+  "power" : 1500,
+  "damageType" : "hitTest",
+  "damageKind" : "acid"
+}

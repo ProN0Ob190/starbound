@@ -1,0 +1,44 @@
+{
+  "objectName" : "tier9door",
+  "printable" : false,
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 500,
+  "description" : "A creepy Rubium door.",
+  "shortdescription" : "Rubium Door",
+  "race" : "generic",
+
+  "apexDescription" : "This door is creepy enough to stop anyone trying to break in.",
+  "avianDescription" : "A very eerie door.",
+  "floranDescription" : "Floran hide behind door. Then door scare Floran.",
+  "glitchDescription" : "Nervous. This door has an eye on it.",
+  "humanDescription" : "A fairly terrifying Rubium door.",
+  "hylotlDescription" : "A robust Rubium door. It also has an eye on it. Strange design.",
+
+  "inventoryIcon" : "tier9dooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "tier9door.png:default",
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationParts" : {
+    "door" : "tier9door.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "inboundNodes" : [ [0, 4] ],
+  "outboundNodes" : [ [0, 0] ],
+
+  "openSounds" : [ "/sfx/objects/wooddoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/wooddoor_close.wav" ]
+}

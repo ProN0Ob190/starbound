@@ -1,0 +1,20 @@
+{
+  "itemName" : "pizzap",
+  "rarity" : "Common",
+  "inventoryIcon" : "pizzap.png",
+  "description" : "It's good if you can get past the metallic aftertaste!",
+  "shortdescription" : "Pizzap",
+  "handPosition" : [-2, 4],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 100
+      },
+      {
+        "kind" : "mollyhealing2" },
+      {
+        "kind" : "energy",
+        "amount" : 55
+      }
+    ] ]
+}

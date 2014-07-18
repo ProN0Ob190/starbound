@@ -1,0 +1,39 @@
+{
+  "objectName" : "stocking1",
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "price" : 250,
+  "description" : "A fuzzy red stocking. A little too big for anyone's foot.",
+  "shortdescription" : "Red Stocking",
+  "race" : "generic",
+
+  "apexDescription" : "A strange tradition. Why hang socks on the wall? Is there anything in it?",
+  "avianDescription" : "I wouldn't be caught dead wearing that. Is there something in it?",
+  "floranDescription" : "Ssstupid fuzzy sock. Ssssomething inside?",
+  "glitchDescription" : "Curious. Why has a sock been hung on the wall? Is there something inside?",
+  "humanDescription" : "Did Santa leave me anything this year? A lump of coal, perhaps?",
+  "hylotlDescription" : "A gawdy sock. Why is it hanging on the wall? Is there anything inside?",
+
+  "inventoryIcon" : "stocking1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "stocking1.png:<color>",
+
+      "imagePosition" : [-6, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ],
+  "smashSounds" : [ "/sfx/objects/cardboardbox_close.wav", "/sfx/objects/cardboardbox_open.wav" ],
+  "smashDropOptions" : [
+    [ [ "coalore", 1, { } ] ]
+  ],
+  "breakDropOptions" : [
+    [ [ "coalore", 1, { } ] ]
+  ]
+}

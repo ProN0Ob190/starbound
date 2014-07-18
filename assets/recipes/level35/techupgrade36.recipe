@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "Violiumbar", "count" : 40 }
+  ],
+  "output" : { "item" : "techupgrade36", "count" : 1 },
+  "groups" : [ "roboticcraftingtable", "all" ]
+}

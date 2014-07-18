@@ -1,0 +1,12 @@
+{
+  "itemName" : "temple1",
+  "rarity" : "Common",
+  "inventoryIcon" : "temple1.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Temple Block",
+  "description" : "These stones look ancient. Intricate carvings of creatures are scratched into their surface. One seems to be mooning me.",
+  "glitchdescription" : "Curiosity. These stone carvings are rather crude.",
+  "florandescription" : "Floran like ssstone pictures.",
+
+  "materialId" : 26
+}

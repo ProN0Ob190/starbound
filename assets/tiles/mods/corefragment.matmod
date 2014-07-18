@@ -1,0 +1,11 @@
+{
+  "modId" : 50,
+  "modName" : "corefragment",
+  "frames" : "corefragment.png",
+  "variants" : 8,
+  "itemDrop" : "corefragmentore",
+  "Description" : "Core Fragment.",
+  "health" : 10,
+  "harvestLevel" : 3,
+  "breaksWithTile" : true
+}

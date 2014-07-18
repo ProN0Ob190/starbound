@@ -1,0 +1,14 @@
+{
+  "itemName" : "doping",
+  "rarity" : "Common",
+  "inventoryIcon" : "medkit.png",
+  "description" : "Not really a med kit. For when you absolutely, positively have to be 100% cheaty.",
+  "shortdescription" : "Doping Kit",
+  "effects" : [ [
+      {
+        "kind" : "jumpboostinitiator",
+        "amount" : 0.5
+      }
+    ] ],
+  "emote" : ""
+}

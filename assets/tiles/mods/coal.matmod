@@ -1,0 +1,11 @@
+{
+  "modId" : 11,
+  "modName" : "coal",
+  "frames" : "coal.png",
+  "variants" : 8,
+  "itemDrop" : "coalore",
+  "Description" : "Coal ore.",
+  "health" : 5,
+  "harvestLevel" : 1,
+  "breaksWithTile" : true
+}

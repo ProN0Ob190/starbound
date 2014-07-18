@@ -1,0 +1,35 @@
+{
+  "objectName" : "jukebox",
+  "rarity" : "Common",
+  "objectType" : "noisy",
+
+  "category" : "decorative",
+  "price" : 1500,
+
+  "description" : "This jukebox only seems to have songs from a band called the 'Jon Afro Band'.",
+  "shortdescription" : "Jon Afro Jukebox",
+  "race" : "human",
+
+  "apexDescription" : "A cheerful music box. There's only one band, though.",
+  "avianDescription" : "This jukebox can brighten even the darkest spirits.",
+  "floranDescription" : "Box make noissse at Floran. Floran make noissse back.",
+  "glitchDescription" : "Grooving. The music affects my circuits in such a way that I can't help but dance.",
+  "humanDescription" : "Oh boy, they have my favourite album! Space just got funkier.",
+  "hylotlDescription" : "Human music lacks the tonal nuance of its Hylotl counterpart.",
+
+  "inventoryIcon" : "jukeboxicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "jukebox.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "sounds" : [ "/sfx/objects/jab.ogg" ]
+}

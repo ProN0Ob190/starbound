@@ -1,0 +1,10 @@
+{
+  "codexId" : "sewerlament",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "glitchsewerbook_06.png",
+  "itemName" : "sewerlamentCodex",
+  "rarity" : "common",
+  "description" : "A Lament",
+  "shortdescription" : "Lament"
+}

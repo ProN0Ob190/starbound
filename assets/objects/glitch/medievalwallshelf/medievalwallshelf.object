@@ -1,0 +1,31 @@
+{
+  "objectName" : "medievalwallshelf",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 300,
+  "description" : "A wooden wall shelf for displaying trinkets.",
+  "shortdescription" : "Glitch Wall Shelf",
+  "race" : "glitch",
+
+  "apexDescription" : "A simple wooden shelf. It looks pretty stable.",
+  "avianDescription" : "A strong shelf made from wood.",
+  "floranDescription" : "Wood sshelf very sstrong.",
+  "glitchDescription" : "Observation. This wooden shelf is strong and stable.",
+  "humanDescription" : "A decent wooden shelf.",
+  "hylotlDescription" : "A tightly fixed wooden shelf.",
+
+  "inventoryIcon" : "medievalwallshelficon.png",
+  "orientations" : [
+    {
+      "dualImage" : "medievalwallshelf.png:<color>",
+      "imagePosition" : [-32, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "materialId" : 22,
+  "materialName" : "sand2",
+  "frames" : "sand2.png",
+  "particleColor" : [200, 183, 120, 255],
+  "variants" : 5,
+  "itemDrop" : "sand2",
+  "description" : "Soft and warm sand.",
+  "shortdescription" : "Sand",
+  "glitchDescription" : "Statement. Sand.",
+  "floranDescription" : "Sssand.",
+  "footstepSound" : "/sfx/blocks/footstep_sand2.wav",
+  "health" : 1.6,
+  "soil" : true
+}

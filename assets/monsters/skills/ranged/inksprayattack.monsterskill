@@ -1,0 +1,18 @@
+{
+  "name" : "inkSprayAttack",
+  "label" : "INK SPRAY",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "inkSprayAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "inkspray",
+      "arc" : "low",
+      "range" : 12,
+      "power" : 8,
+      "speed" : 35,
+      "shots" : 6,
+      "fireInterval" : 0.066
+    }
+  }
+}

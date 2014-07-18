@@ -1,0 +1,89 @@
+{
+  "projectileName" : "magicmolotov",
+  "frames" : "magicmolotov.png",
+  "animationCycle" : 0.25,
+  "physics" : "grenade",
+  "frameNumber" : 4,
+  "pointLight" : false,
+  "speed" : 180,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/regularexplosion2/regularexplosion2.config"
+    },
+    {
+      "action" : "projectile",
+      "type" : "firepart1",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.001,
+      "angleAdjust" : 35
+    },
+    {
+      "action" : "projectile",
+      "type" : "firepart1",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.001,
+      "angleAdjust" : -35
+    },
+    {
+      "action" : "projectile",
+      "type" : "firepart1",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.001,
+      "angleAdjust" : 1
+    },
+    {
+      "action" : "projectile",
+      "type" : "firepart1",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.001,
+      "angleAdjust" : -18
+    },
+    {
+      "action" : "projectile",
+      "type" : "firepart1",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.001,
+      "angleAdjust" : 18
+    },
+    {
+      "action" : "projectile",
+      "type" : "firepart1",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.001,
+      "angleAdjust" : 55
+    },
+    {
+      "action" : "projectile",
+      "type" : "firepart1",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.001,
+      "angleAdjust" : -55
+    },
+    {
+      "action" : "projectile",
+      "type" : "firepart1",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.001,
+      "angleAdjust" : -1
+    },
+    {
+      "action" : "projectile",
+      "type" : "firepart1",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.001,
+      "angleAdjust" : -65
+    },
+    {
+      "action" : "projectile",
+      "type" : "firepart1",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.001,
+      "angleAdjust" : 65
+    }
+  ],
+  "power" : 5.0,
+  "damageKind" : "default"
+}
+
+

@@ -1,0 +1,41 @@
+{
+  "objectName" : "gunchest",
+  "rarity" : "Common",
+  "objectType" : "container",
+
+  "category" : "storage",
+  "price" : 500,
+  "description" : "A high-tech container for guns.",
+  "shortdescription" : "Gun Chest",
+  "race" : "generic",
+
+  "apexDescription" : "I've seen many a Miniknog guard store their guns in chests like this.",
+  "avianDescription" : "I believe these chests are used to store firearms.",
+  "floranDescription" : "Ugly frogmen put guns in this chessst.",
+  "glitchDescription" : "Statement. A high-tech chest universally recognized for gun storage.",
+  "humanDescription" : "A storage container for guns. I've seen the USCM guys on TV use these.",
+  "hylotlDescription" : "A chest for gun storage. I don't remember where I've seen these before.",
+
+  "inventoryIcon" : "gunchesticon.png",
+  "lightColor" : [100, 0, 30],
+  "orientations" : [
+    {
+      "dualImage" : "gunchest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+
+  ],
+
+  "openSounds" : [ "/sfx/objects/castleswitchon.wav" ],
+  "closeSounds" : [ "/sfx/objects/castleswitchoff.wav" ],
+  "frameCount" : 3,
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

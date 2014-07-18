@@ -1,0 +1,10 @@
+{
+  "codexId" : "modernprayer",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "aviantemplebook_03.png",
+  "itemName" : "modernprayerCodex",
+  "rarity" : "common",
+  "description" : "A Modern Avian Prayer",
+  "shortdescription" : "Modern Prayer"
+}

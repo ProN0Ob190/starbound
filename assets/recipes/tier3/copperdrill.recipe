@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "copperbar", "count" : 20 }
+  ],
+  "output" : { "item" : "copperdrill", "count" : 1 },
+  "groups" : [ "roboticcraftingtable", "tools", "all" ]
+}

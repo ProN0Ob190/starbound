@@ -1,0 +1,17 @@
+{
+  "itemName" : "bananasplit",
+  "rarity" : "Common",
+  "inventoryIcon" : "bananasplit.png",
+  "description" : "The secret ingredient in this Apex favorite is pineapple!",
+  "shortdescription" : "Banana Split",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 100
+      },
+      {
+        "kind" : "mollyhealing2" },
+      {
+        "kind" : "sugarrush" }
+    ] ]
+}

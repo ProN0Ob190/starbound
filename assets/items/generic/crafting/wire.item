@@ -1,0 +1,7 @@
+{
+  "itemName" : "wire",
+  "rarity" : "Common",
+  "inventoryIcon" : "wire.png",
+  "description" : "A spool of wire.",
+  "shortdescription" : "Wire"
+}

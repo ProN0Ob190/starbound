@@ -1,0 +1,58 @@
+{
+  "objectName" : "medievalfireplace",
+  "rarity" : "Common",
+  "category" : "crafting",
+  "price" : 1000,
+  "subtitle" : "Medieval Fireplace",
+  "objectType" : "container",
+
+  "description" : "The crackle of the fire puts me at ease.",
+  "shortdescription" : "Glitch Fireplace",
+  "race" : "glitch",
+
+  "hydrophobic" : true,
+
+  "apexDescription" : "A stone fireplace. A good way to warm a cold castle.",
+  "avianDescription" : "A stone structure and a fire within. Likely built to provide warmth.",
+  "floranDescription" : "Hsss Floran would rather be cold than sssit by fire.",
+  "glitchDescription" : "Wistful. Before I became self aware I would spend many nights in front of a fire like this. My world was so small.",
+  "humanDescription" : "A warm stone fire. All I need is a bag of marshmallows.",
+  "hylotlDescription" : "The temperature in Hylotl cities is carefully controlled. It's nice to feel the warmth of a fire on my skin.",
+
+  "statusEffects" : [
+    {
+      "kind" : "Warmth",
+      "amount" : 50,
+      "range" : 8
+    } ],
+
+  "lightColor" : [204, 189, 173],
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.1,
+
+  "inventoryIcon" : "medievalfireplaceicon.png",
+  "orientations" : [
+
+    {
+      "dualImage" : "medievalfireplace.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "frames" : 4,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [0, -1] ],
+      "collision" : "platform"
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/furnace.wav",
+
+  "recipeGroup" : "cooking",
+  "openSounds" : [ "/sfx/objects/campfire_use.wav" ],
+  "slotCount" : 2,
+  "uiConfig" : "/interface/objectcrafting/campfire.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+
+
+}

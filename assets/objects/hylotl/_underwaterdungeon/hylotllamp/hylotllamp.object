@@ -1,0 +1,32 @@
+{
+  "objectName" : "hylotllamp",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 350,
+  "lightColor" : [150, 40, 40],
+
+  "shortdescription" : "Bio-Lamp",
+  "description" : "A small lamp that gives off a low red light.",
+  "race" : "hylotl",
+
+  "apexDescription" : "I wonder what this lamp is made of?",
+  "avianDescription" : "This looks similar in concept to Avian crystal lamps.",
+  "floranDescription" : "Shiny glowy lamp.",
+  "glitchDescription" : "Intrigued. I wonder how such lamps are made?",
+  "humanDescription" : "It looks a little like a Hylotl eye. I wonder what it's made of?",
+  "hylotlDescription" : "The glowing gem in the center is cut to resemble a Hylotl eye. It gives off a very atmospheric light.",
+
+  "inventoryIcon" : "hylotllampicon.png",
+  "orientations" : [
+    {
+      "image" : "hylotllamp.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "objectName" : "wreckwiresceiling",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 100,
+
+  "description" : "Old wiring, torn apart.",
+  "shortdescription" : "Wrecked Hanging Wires",
+  "race" : "generic",
+
+  "apexDescription" : "Broken wires.",
+  "avianDescription" : "Damaged copper.",
+  "floranDescription" : "Broken copper viness.",
+  "glitchDescription" : "Analyse. These wires are not capable of carrying a current.",
+  "humanDescription" : "The wires were ripped apart.",
+  "hylotlDescription" : "Did someone damage these wires on purpose?",
+
+  "inventoryIcon" : "wreckwiresceilingicon.png",
+  "orientations" : [
+    {
+      "image" : "wreckwiresceiling.png:<color>",
+      "imagePosition" : [-8, -4],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+
+    }
+  ]
+}

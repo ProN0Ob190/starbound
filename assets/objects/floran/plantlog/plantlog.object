@@ -1,0 +1,30 @@
+{
+  "objectName" : "plantlog",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 1500,
+  "description" : "A log. Check for termites before you sit down.",
+  "shortdescription" : "A Log",
+  "race" : "floran",
+
+  "apexDescription" : "A log.",
+  "avianDescription" : "A mouldy log.",
+  "floranDescription" : "Floran roll log down hill, crush fishmen.",
+  "glitchDescription" : "Statement. A log.",
+  "humanDescription" : "Back in my day, I was an expert caber-tosser.",
+  "hylotlDescription" : "A log.",
+
+  "inventoryIcon" : "plantlogicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "plantlog.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

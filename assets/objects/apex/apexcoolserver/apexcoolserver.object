@@ -1,0 +1,29 @@
+{
+  "objectName" : "apexcoolserver",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 1000,
+  "description" : "It looks like a server. I wonder what kind of games could be hosted on that.",
+  "shortdescription" : "Cool Server",
+  "race" : "apex",
+  "apexDescription" : "A secure server. Inaccessible.",
+  "avianDescription" : "There are many blinking lights.",
+  "floranDescription" : "Box of lights makes clicky ssound.",
+  "glitchDescription" : "Shame. A server protected by security even I can not bypass.",
+  "humanDescription" : "It looks like a data server. No way we're getting anything from this.",
+  "hylotlDescription" : "This server would contain enough data to fill a thousand Hylotl libraries.",
+
+  "inventoryIcon" : "apexcoolservericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "apexcoolserver.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

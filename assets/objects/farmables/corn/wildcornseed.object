@@ -1,0 +1,83 @@
+{
+  "objectName" : "wildcornseed",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Corn! Good for digestion.",
+  "shortdescription" : "Corn Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "objectItem" : "cornseed",
+
+  "apexDescription" : "Corn. Yet another food that looks like a banana, but isn't.",
+  "avianDescription" : "Pecking at a cob of corn makes for a great snack.",
+  "floranDescription" : "Hard yellow corn, cook and it goesss pop.",
+  "glitchDescription" : "Sceptical. It is claimed that if the Glitch eat corn, it will pop inside us.",
+  "humanDescription" : "A steady supply of sweetcorn is a wonderful thing.",
+  "hylotlDescription" : "A common, flavourless snack.",
+
+  "inventoryIcon" : "cornseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "cornseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "corn",
+            "count" : 1
+          },
+          {
+            "name" : "cornseed",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "corn",
+            "count" : 1
+          },
+          {
+            "name" : "plantfibre",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "corn",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [300, 420],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [300, 420],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

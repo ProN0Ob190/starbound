@@ -1,0 +1,11 @@
+{
+  "name" : "headlight",
+  "icon" : [ ],
+  "energyPerTick" : 0.1,
+  // relative to the 'mouth'
+  "offset" : [-1, 5],
+  "angle" : 0,
+  "color" : [255, 255, 255],
+  "width" : 0.1,
+  "ambient" : 0.5
+}

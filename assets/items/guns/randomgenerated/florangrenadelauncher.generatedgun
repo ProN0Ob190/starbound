@@ -1,0 +1,26 @@
+{
+  "name" : "florangrenadelauncher",
+  "maxStack" : 1,
+  "rarity" : "common",
+  "tooltipKind" : "gun",
+  "handPosition" : [9, 2],
+  "firePosition" : [-2, 8],
+  "weaponType" : "Floran Grenade Launcher",
+  "baseDps" : [5, 5.5],
+  "rateOfFire" : [0.3, 0.8],
+  "hands" : [2, 2],
+  "recoilTime" : 0.1,
+  "spread" : [1, 1],
+  "multiplier" : 1.0,
+  "accuracy" : 100,
+  "muzzleFlashes" : [
+    "/animations/muzzleflash/blankmuzzle/blankmuzzle.animation"
+  ],
+  "projectileTypes" : [ "acidgrenade" ],
+  "directories" : [ "/items/guns/randomgenerated/florangrenadelauncher/" ],
+  "fireSound" : [ "/sfx/gun/grenade1.wav" ],
+  "palette" : [
+    { "e35f5d" : "d39855", "b22042" : "9e5f29", "871132" : "65371a", "a9a9a9" : "a9a9a9", "6a6a6a" : "6a6a6a", "3b3b3b" : "3b3b3b", "222222" : "222222" } //wood stock//
+  ],
+  "nameGenerator" : "floranneedlernames.config:nameGen"
+}

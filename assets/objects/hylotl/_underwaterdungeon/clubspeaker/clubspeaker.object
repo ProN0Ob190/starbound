@@ -1,0 +1,31 @@
+{
+  "objectName" : "clubspeaker",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 500,
+
+  "description" : "A large club speaker.",
+  "shortdescription" : "Club Speaker",
+  "race" : "hylotl",
+
+  "apexDescription" : "This music makes me want to dance!",
+  "avianDescription" : "What is that terrible noise?",
+  "floranDescription" : "This music make Floran want to ssstab! But so do most thingsss.",
+  "glitchDescription" : "Negative. This music is not pleasant.",
+  "humanDescription" : "Just your typical club music, not unlike the kind I've heard in clubs on Earth.",
+  "hylotlDescription" : "This is a really popular club song.",
+
+  "inventoryIcon" : "clubspeakericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "clubspeaker.png:<color>",
+      "imagePosition" : [-12, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

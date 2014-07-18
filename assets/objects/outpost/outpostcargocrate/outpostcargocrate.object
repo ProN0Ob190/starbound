@@ -1,0 +1,57 @@
+{
+  "objectName" : "outpostcargocrate",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "description" : "A crate containing cargo. What cargo? Who knows.",
+  "shortdescription" : "Outpost Cargo Crate",
+  "race" : "generic",
+  "category" : "storage",
+  "price" : 500,
+  "lightColor" : [46, 66, 77],
+
+  "apexDescription" : "A mysterious cargo crate.",
+  "avianDescription" : "I wonder what's in here.",
+  "floranDescription" : "Floran ssship Floran in cargo crate. Leap out. Sssurprise!",
+  "glitchDescription" : "Statement. A cargo container.",
+  "humanDescription" : "Ooh, cargo!",
+  "hylotlDescription" : "A basic crate.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	
+	  "imageLayers" : [ { "image" : "outpostcargocrate.png:<color>", "fullbright" : true }, { "image" : "outpostcargocratelit.png:<color>" } ],
+	  "flipImages" : true,
+	  "direction" : "left",
+      "lightPosition" : [-1, 1],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+	{
+	
+	  "imageLayers" : [ { "image" : "outpostcargocrate.png:<color>", "fullbright" : true }, { "image" : "outpostcargocratelit.png:<color>" } ],
+	  "direction" : "right",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+
+}

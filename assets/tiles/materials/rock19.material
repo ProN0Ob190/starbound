@@ -1,0 +1,13 @@
+{
+  "materialId" : 74,
+  "materialName" : "rock19",
+  "frames" : "rock19.png",
+  "particleColor" : [123, 102, 91, 255],
+  "variants" : 5,
+  "itemDrop" : "cobblestonematerial",
+  "description" : "Rough, unrefined stone.",
+  "shortdescription" : "Rock Block",
+  "glitchDescription" : "Statement. Rock.",
+  "floranDescription" : "Rocksss.",
+  "health" : 9
+}

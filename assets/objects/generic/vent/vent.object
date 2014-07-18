@@ -1,0 +1,31 @@
+{
+  "objectName" : "vent",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 100,
+
+  "description" : "This vent clangs as air whistles through.",
+  "shortdescription" : "Air Vent",
+  "race" : "generic",
+
+  "apexDescription" : "An air vent.",
+  "avianDescription" : "A vent.",
+  "floranDescription" : "Vent.",
+  "glitchDescription" : "Identify. Vent.",
+  "humanDescription" : "A small air vent.",
+  "hylotlDescription" : "Ventilation.",
+
+  "inventoryIcon" : "venticon.png",
+  "orientations" : [
+    {
+      "image" : "vent.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

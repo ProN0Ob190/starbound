@@ -1,0 +1,14 @@
+{
+  "itemName" : "eggshoot",
+  "rarity" : "Common",
+  "inventoryIcon" : "eggshoot.png",
+  "description" : "Eggshoot, I like the yoke.",
+  "shortdescription" : "Eggshoot",
+  "handPosition" : [-8, 0],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 25
+      }
+    ] ]
+}

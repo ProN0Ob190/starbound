@@ -1,0 +1,127 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "movement" : {
+        "priority" : 0,
+        "default" : "idle",
+
+        "states" : {
+          "idle" : { }
+        }
+      },
+
+      "portrait" : {
+        "priority" : -1,
+        "default" : "portrait",
+        "states" : {
+          "portrait" : {
+            "frames" : 1
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "body" : {
+        "properties" : {
+          "rotationGroup" : "body",
+          "zLevel" : 3
+        },
+        "partStates" : {
+          "movement" : {
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:idle.<frame>"
+              }
+            }
+          },
+
+          "portrait" : {
+            "portrait" : {
+              "properties" : {
+                "image" : "<partImage>:portrait"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "rotationGroups" : {
+    "body" : {
+      "rotationCenter" : [0.3, 0],
+      "angularVelocity" : 500
+    }
+  },
+
+  "particleEmitters" : {
+    "smokeTrail" : {
+      "emissionRate" : 50.0,
+      "emissionVariance" : 10.0,
+      "active" : true,
+      "particles" : [
+        {
+          "particle" : {
+            "type" : "ember",
+            "size" : 2.0,
+            "color" : [140, 140, 140, 140],
+            "fade" : 0.9,
+            "destructionAction" : "shrink",
+            "destructionTime" : 0.5,
+            "initialVelocity" : [0.0, 0.0],
+            "finalVelocity" : [0.0, 0.5],
+            "approach" : [0, 1],
+            "timeToLive" : 0.6,
+            "layer" : "back",
+            "variance" : {
+              "position" : [0.5, 0.5],
+              "size" : 1.5
+            }
+          }
+        }
+      ]
+    },
+
+    "launchPoof" : {
+      "emissionRate" : 0.001, //only poof when the monster first appears
+      "active" : true,
+      "particles" : [
+        {
+          "particle" : {
+            "type" : "animated",
+            "animation" : "/animations/smoke/smoke.animation",
+            "layer" : "back",
+            "size" : 1,
+            "position" : [0, -1],
+            "initialVelocity" : [0, 0],
+            "finalVelocity" : [0, 0],
+            "timeToLive" : 0.5,
+            "fade" : 1
+          }
+        }
+      ]
+    },
+
+    "deathPoof" : {
+      "particles" : [
+        {
+          "particle" : {
+            "type" : "animated",
+            "animation" : "/animations/puff2c/puff2c.animation",
+            "size" : 1,
+            "angularVelocity" : 35,
+            "fade" : 1,
+            "destructionTime" : 7,
+            "position" : [0, 0],
+            "initialVelocity" : [0, 0],
+            "finalVelocity" : [0, 0],
+            "approach" : [1, 1],
+            "timeToLive" : 0.4,
+            "layer" : "middle"
+          }
+        }
+      ]
+    }
+  }
+}

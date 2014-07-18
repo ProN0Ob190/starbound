@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "shroom", "count" : 60 }
+  ],
+  "output" : { "item" : "mushroomhead", "count" : 1 },
+  "groups" : [ "spinningwheel", "head" ]
+}

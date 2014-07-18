@@ -1,0 +1,212 @@
+{
+  "type" : "airshipquartermaster",
+  "baseType" : "merchant",
+
+  "disableWornArmor" : true,
+  "innateStatusEffects" : [
+    {
+      "kind" : "Protection",
+      "amount" : 1.0
+    }
+  ],
+
+  "damageTeam" : 1,
+
+  "levelVariance" : [0, 0],
+
+  "scripts" : [
+    "/npcs/main.lua",
+    "/npcs/timers.lua",
+    "/scripts/sensors.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua",
+
+    "/npcs/chatState.lua",
+    "/npcs/sleepState.lua",
+    "/npcs/standingIdleState.lua",
+    "/npcs/wanderState.lua",
+
+    "/npcs/meleeAttackState.lua",
+    "/npcs/rangedAttackState.lua",
+
+    "/npcs/merchant/merchantState.lua",
+    "/npcs/merchant/returnToStoreState.lua"
+  ],
+
+  "scriptConfig" : {
+
+    "noticePlayersRadius" : 30.0,
+
+    "merchant" : {
+      "waitTime" : 10,
+      "storeRadius" : 8,
+
+      "dialog" : {
+        "start" : {
+          "default" : [
+            "So, what do ya need?",
+            "Anythin' catch yer eye?",
+            "Let's trade!",
+            "Take a look!",
+            "Nothin' but the finest.",
+            "I jus' know we have somethin' useful fer ya."
+          ],
+          "avian" : {
+            "default" : [
+              "So, what do ya need?",
+              "Anythin' catch yer eye?",
+              "Let's trade!",
+              "Take a look!",
+              "Nothin' but the finest.",
+              "I jus' know we have somethin' useful fer ya."
+            ]
+          }
+        },
+        "end" : {
+          "default" : [
+            "Come to us whene'er ya need more supplies!",
+            "Anythin' else ya need, come see me!",
+            "If ya got the pixels, we got the goods."
+          ],
+          "avian" : {
+            "default" : [
+              "Come to us whene'er ya need more supplies!",
+              "Anythin' else ya need, come see me!",
+              "If ya got the pixels, we got the goods."
+            ]
+          }
+        }
+      },
+
+      "categories" : [ "randomguns", "randomswords" ],
+      "priceVarianceRange" : [0.75, 1],
+      "numItems" : 20
+    },
+
+    "returnToStore" : {
+      "waitTime" : 10,
+
+      "dialog" : {
+        "follow" : {
+          "default" : [
+            "Lookin' to trade? Follow me.",
+            "After some supplies? I can help with that! Come with me.",
+            "Ah, so ya need some supplies, eh? Right this way!"
+          ]
+        },
+        "welcome" : {
+          "default" : [
+            "Here we are then!",
+            "Now then, what were ya lookin' for?",
+            "This is it!"
+          ]
+        },
+        "tout" : {
+          "default" : [
+            "Need some supplies? I can 'elp with that!",
+            "If it's supplies yer lookin' for, I handle the trades around here!"
+          ]
+        }
+      }
+    },
+
+    "meleeAttack" : {
+      "swingDistance" : 5,
+      "swingTime" : 0.4,
+      "swingCooldownTime" : 0.6,
+      "runThreshold" : 0,
+      "searchTime" : 10,
+      "backoffDistanceRange" : [8.0, 12.0],
+      "repositionCooldownTimeRange" : [2.0, 3.0]
+    },
+
+    "rangedAttack" : {
+      "minDistance" : 10,
+      "maxDistance" : 30,
+      "coverYOffset" : -1.5,
+      "coverYClearanceOffset" : 0.5,
+      "coverDistance" : 2.5,
+      "coverHideTimeRange" : [0.5, 1.0],
+      "coverFireTimeRange" : [1.0, 3.0],
+      "attackerSpacing" : 2.5,
+      "searchTime" : 10
+    }
+  },
+
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "aviantier2chest" } ],
+            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 4 } } ],
+            "sheathedprimary" : [ [ "generatedsword", 1, { "definition" : "commondagger" } ] ]
+          }
+        ] ]
+    ],
+    "apex" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "aviantier2chest" } ],
+            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 4 } } ],
+            "sheathedprimary" : [ [ "generatedsword", 1, { "definition" : "commondagger" } ] ]
+          }
+        ] ]
+    ],
+    "avian" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "aviantier2chest" } ],
+            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 4 } } ],
+            "sheathedprimary" : [ [ "generatedsword", 1, { "definition" : "commondagger" } ] ]
+          }
+        ] ]
+    ],
+    "floran" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "aviantier2chest" } ],
+            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 4 } } ],
+            "sheathedprimary" : [ [ "generatedsword", 1, { "definition" : "commondagger" } ] ]
+          }
+        ] ]
+    ],
+    "glitch" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "aviantier2chest" } ],
+            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 4 } } ],
+            "sheathedprimary" : [ [ "generatedsword", 1, { "definition" : "commondagger" } ] ]
+          }
+        ] ]
+    ],
+    "human" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "aviantier2chest" } ],
+            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 4 } } ],
+            "sheathedprimary" : [ [ "generatedsword", 1, { "definition" : "commondagger" } ] ]
+          }
+        ] ]
+    ],
+    "hylotl" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "aviantier2chest" } ],
+            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 4 } } ],
+            "sheathedprimary" : [ [ "generatedsword", 1, { "definition" : "commondagger" } ] ]
+          }
+        ] ]
+    ]
+  },
+
+  "statusParameters" : {
+    "baseMaxHealth" : 40,
+    "baseMaxEnergy" : 40,
+    "bodyMaterialKind" : "organic",
+    "damageConfig" : "/damage/damageresponse/npcs.config",
+    "invulnerabilityTime" : 0,
+    "energyReplenishmentRate" : 10.0
+  }
+}

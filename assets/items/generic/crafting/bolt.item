@@ -1,0 +1,7 @@
+{
+  "itemName" : "bolt",
+  "rarity" : "Common",
+  "inventoryIcon" : "bolt.png",
+  "description" : "A small metal bolt.",
+  "shortdescription" : "Bolt"
+}

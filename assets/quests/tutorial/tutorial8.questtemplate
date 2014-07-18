@@ -1,0 +1,16 @@
+{
+  "id" : "tutorial8.gearup",
+  "title" : "^#9be3d6;A Hunter's Prize",
+  "text" : "If you're feeling confident in your hunting prowess, maybe you should try taking on some bigger prey? ^green;A rather large life form was detected ^white;in the planetary scan when you first arrived at this world. It was initially detected ^green;at the mouth of a large cave. ^white;With some luck it won't have gone far.",
+  "completionText" : "An impressive claw! I bet someone out there would pay good money to own something like this.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "monsterclaw", 1] }
+  ],
+  "moneyRange" : [300, 300],
+  "rewards" : [
+    [ [ "monsterclaw", 1] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : ""
+}

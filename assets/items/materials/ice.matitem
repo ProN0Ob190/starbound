@@ -1,0 +1,12 @@
+{
+  "itemName" : "ice",
+  "rarity" : "Common",
+  "inventoryIcon" : "ice.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Ice",
+  "description" : "Solid ice, tingly to the touch.",
+  "glitchdescription" : "Statement. Cold, cold ice.",
+  "florandescription" : "Ice. Sssmooth to the touch.",
+
+  "materialId" : 32
+}

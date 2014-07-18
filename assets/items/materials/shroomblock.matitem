@@ -1,0 +1,12 @@
+{
+  "itemName" : "shroomblock",
+  "rarity" : "Common",
+  "inventoryIcon" : "shroomblock.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A block made of soft fungus.",
+  "shortdescription" : "Mushroom Block",
+  "glitchdescription" : "Statement. A fungal block.",
+  "florandescription" : "Mushroomsss.",
+
+  "materialId" : 162
+}

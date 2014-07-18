@@ -1,0 +1,17 @@
+{
+  "itemName" : "milk",
+  "rarity" : "Common",
+  "inventoryIcon" : "milk.png",
+  "description" : "Mmm, milk.",
+  "shortdescription" : "Milk",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 15
+      },
+      {
+        "kind" : "health",
+        "amount" : 10
+      }
+    ] ]
+}

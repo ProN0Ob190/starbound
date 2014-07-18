@@ -1,0 +1,21 @@
+{
+  "itemName" : "gardensalad",
+  "rarity" : "Common",
+  "inventoryIcon" : "gardensalad.png",
+  "description" : "A big bowl of leafy greens and veggies. Nutritious!",
+  "shortdescription" : "Garden Salad",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 70
+      },
+      {
+        "kind" : "health",
+        "amount" : 10
+      },
+      {
+        "kind" : "energy",
+        "amount" : 10
+      }
+    ] ]
+}

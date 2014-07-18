@@ -1,0 +1,40 @@
+{
+  "objectName" : "woodsupport",
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 150,
+  "description" : "A mouldy wooden support.",
+  "shortdescription" : "Wooden Support",
+  "race" : "generic",
+
+  "apexDescription" : "A wooden support. Looks worse for wear.",
+  "avianDescription" : "A wooden support.",
+  "floranDescription" : "Sssmelly wood made into sssupport.",
+  "glitchDescription" : "Observation. I believe this wood has been half eaten by woodworm.",
+  "humanDescription" : "A wooden support. In poor condition.",
+  "hylotlDescription" : "A worn wooden support.",
+
+  "inventoryIcon" : "woodsupporticon.png",
+  "orientations" : [
+    {
+      "image" : "woodsupportleft.png:<color>",
+
+
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "top" ]
+    },
+
+    {
+      "image" : "woodsupportright.png:<color>",
+
+
+      "imagePosition" : [-24, 0],
+
+      "spaceScan" : 0.01,
+      "anchors" : [ "right", "top" ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "materialId" : 7,
+  "materialName" : "darkwood",
+  "frames" : "darkwood.png",
+  "particleColor" : [137, 124, 76, 255],
+  "variants" : 5,
+  "itemDrop" : "darkwoodmaterial",
+  "description" : "I think I see alien woodworm.",
+  "shortdescription" : "Wood Planks",
+  "glitchDescription" : "Statement. Wood.",
+  "floranDescription" : "Sssplintery wood.",
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_wood.wav",
+  "health" : 7,
+  "damageTable" : "/tiles/flammableDamage.config"
+}

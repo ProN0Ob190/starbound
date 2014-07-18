@@ -1,0 +1,18 @@
+{
+  "itemName" : "keyboard",
+  "inventoryIcon" : "keyboard.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "A Glitch model M. With buckling spring mechanism from a more civilized age.",
+  "shortdescription" : "The model M",
+  "largeImage" : "keyboard.png",
+  "image" : "keyboard.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "keyboard.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0, -0.1],
+  "handPosition" : [0, 0],
+  "twoHanded" : true,
+  "kind" : "keyboard"
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "fleshstrand", "count" : 20 },
+    { "item" : "cellmateria", "count" : 1 }
+  ],
+  "output" : { "item" : "fleshdoor", "count" : 1 },
+  "groups" : [ "craftingtable", "door", "objects", "all" ]
+}

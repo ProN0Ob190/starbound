@@ -1,0 +1,84 @@
+{
+  "name" : "tier2shortsword",
+  "level" : 15,
+  "baseDps" : [2.5, 3.5],
+  "rateOfSwing" : [0.7, 3],
+  "multiplier" : 0.4,
+  "firePosition" : [22, -2],
+  "fireAfterWindup" : true,
+  "muzzleFlashes" : [ ],
+  "soundEffect" : [ "/sfx/melee/swing_onehanded.wav" ],
+  "kind" : "sword",
+  "tooltipKind" : "sword",
+
+  "primaryStances" : {
+    "directional" : true,
+    "projectileTypes" : [ "shortswordswoosh1" ],
+    "projectile" : {
+      "speed" : 0.1
+    },
+    "idle" : {
+      "twoHanded" : false,
+      "armAngle" : -90,
+      "swordAngle" : -90,
+      "handPosition" : [-2.7, -14.5],
+      "armFrameOverride" : "idleMelee",
+      "duration" : 0.1
+    },
+    "windup" : {
+      "twoHanded" : false,
+      "armAngle" : 0,
+      "swordAngle" : -60,
+      "handPosition" : [0.2, -25],
+      "duration" : 0.07,
+      "statusEffects" : [ ]
+    },
+    "cooldown" : {
+      "twoHanded" : false,
+      "armAngle" : -140,
+      "swordAngle" : -90,
+      "handPosition" : [2.2, -9],
+      "duration" : 0.4,
+      "statusEffects" : [ ]
+    }
+  },
+  "palette" : [
+
+    { "676767" : "676767", "B1B1B1" : "B1B1B1", "E9E9E9" : "E9E9E9", //iron//
+      "A1750B" : "A1750B", "BC8B07" : "BC8B07", "F5E458" : "F5E458", //gold//
+      "624122" : "624122", "886337" : "886337", "b0885f" : "b0885f", //wood//
+      "605C57" : "605C57", "A89E93" : "A89E93", "D2C5B6" : "D2C5B6" //steel//
+    },
+
+    { "676767" : "506876", "B1B1B1" : "768e9c", "E9E9E9" : "a4b7c2", //iron//
+      "A1750B" : "77678f", "BC8B07" : "9f8eb8", "F5E458" : "cabae1", //gold//
+      "624122" : "624122", "886337" : "886337", "b0885f" : "b0885f", //wood//
+      "605C57" : "80503b", "A89E93" : "b3816b", "D2C5B6" : "d3a894" //steel//
+    },
+
+    { "676767" : "6a6050", "B1B1B1" : "968f80", "E9E9E9" : "ccc5b7", //iron//
+      "A1750B" : "875744", "BC8B07" : "a5725e", "F5E458" : "d49982", //gold//
+      "624122" : "624122", "886337" : "886337", "b0885f" : "b0885f", //wood//
+      "605C57" : "826f2b", "A89E93" : "ab974f", "D2C5B6" : "cdba77" //steel//
+    },
+
+    { "676767" : "6a6050", "B1B1B1" : "968f80", "E9E9E9" : "ccc5b7", //iron//
+      "A1750B" : "a34c83", "BC8B07" : "c179a7", "F5E458" : "d7a2c4", //gold//
+      "624122" : "624122", "886337" : "886337", "b0885f" : "b0885f", //wood//
+      "605C57" : "826f2b", "A89E93" : "ab974f", "D2C5B6" : "cdba77" //steel//
+    },
+
+    { "676767" : "506876", "B1B1B1" : "768e9c", "E9E9E9" : "a4b7c2", //iron//
+      "A1750B" : "825839", "BC8B07" : "ac8971", "F5E458" : "e0c7b3", //gold//
+      "624122" : "624122", "886337" : "886337", "b0885f" : "b0885f", //wood//
+      "605C57" : "505e83", "A89E93" : "808fb4", "D2C5B6" : "a9b5d3" //steel//
+    },
+
+    { "676767" : "bfbfbf", "B1B1B1" : "dddddd", "E9E9E9" : "f2f2f2", //iron//
+      "A1750B" : "506876", "BC8B07" : "768e9c", "F5E458" : "a4b7c2", //gold//
+      "624122" : "624122", "886337" : "886337", "b0885f" : "b0885f", //wood//
+      "605C57" : "3e3e3e", "A89E93" : "888888", "D2C5B6" : "b6b6b6" //steel//
+    }
+  ],
+  "nameGenerator" : "tier2swordnames.config:nameGen"
+}

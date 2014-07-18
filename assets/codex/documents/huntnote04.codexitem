@@ -1,0 +1,10 @@
+{
+  "codexId" : "huntnote04",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "floranhuntinggroundsbook_14.png",
+  "itemName" : "huntnote04Codex",
+  "rarity" : "common",
+  "description" : "A scrawled note written in Apex language #4",
+  "shortdescription" : "Scrawled Note"
+}

@@ -1,0 +1,52 @@
+{
+  "objectName" : "tier2light",
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 300,
+
+  "description" : "A simple iron lantern.",
+  "shortdescription" : "Iron Lantern",
+  "race" : "generic",
+
+  "apexDescription" : "Nothing fancy, but serves its purpose.",
+  "avianDescription" : "This basic lantern will light up even the darkest room.",
+  "floranDescription" : "Lantern sssafe for Floran.",
+  "glitchDescription" : "Statement. A robust lantern.",
+  "humanDescription" : "A neat, sturdy lantern.",
+  "hylotlDescription" : "A useful light source.",
+
+  "statusEffects" : [
+    {
+      "kind" : "Warmth",
+      "amount" : 10,
+      "range" : 2
+    } ],
+
+  "lightColor" : [255, 247, 153],
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.1,
+
+  "inventoryIcon" : "tier2lighticon.png",
+  "orientations" : [
+
+    {
+      "image" : "tier2light.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttoggle.animation",
+  "animationParts" : {
+    "light" : "tier2light.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inboundNodes" : [ [0, 0] ]
+}

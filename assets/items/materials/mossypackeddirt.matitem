@@ -1,0 +1,12 @@
+{
+  "itemName" : "mossypackeddirt",
+  "rarity" : "Common",
+  "inventoryIcon" : "packeddirt.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Packed Dirt",
+  "glitchdescription" : "Statement. Mossy dirt.",
+  "florandescription" : "Fluffy dirt.",
+  "description" : "Packed dirt, covered in moss.",
+
+  "materialId" : 135
+}

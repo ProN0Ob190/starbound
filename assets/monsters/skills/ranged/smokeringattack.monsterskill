@@ -1,0 +1,17 @@
+{
+  "name" : "smokeRingAttack",
+  "label" : "TOBOLD'S REVENGE",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "smokeRingAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "smokering",
+      "range" : 16,
+      "speed" : 20,
+      "power" : 14,
+      "shots" : 1,
+      "windupTime" : 0.5
+    }
+  }
+}

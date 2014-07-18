@@ -1,0 +1,14 @@
+{
+  "itemName" : "pineapple",
+  "rarity" : "Common",
+  "inventoryIcon" : "pineappleicon.png",
+  "description" : "Pineapple, make sure you cut it open first.",
+  "shortdescription" : "Pineapple",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 25
+      }
+    ] ]
+}

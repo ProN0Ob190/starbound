@@ -1,0 +1,44 @@
+{
+  "objectName" : "sleepingbag",
+  "rarity" : "Common",
+  "description" : "It's a sleeping bag. It's not the comfiest, but it'll do.",
+  "shortdescription" : "Sleeping Bag",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 1500,
+
+  "apexDescription" : "Rebel Apex spend many nights sleeping in these.",
+  "avianDescription" : "Sleeping here would be uncomfortable on the feathers.",
+  "floranDescription" : "Floran does not like sssleeping in bag.",
+  "glitchDescription" : "Sarcasm. Oh how wonderful.",
+  "humanDescription" : "A sleeping bag. Good protection against the elements in a pinch.",
+  "hylotlDescription" : "Do these work underwater?",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [14, 5],
+  "sitOrientation" : "lay",
+  "sitAngle" : -90,
+  "sitCoverImage" : "/objects/generic/sleepingbag/sleepingbagcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    { "kind" : "Nude" },
+    { "kind" : "Health", "amount" : 0.06 }
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "sleepingbagicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "sleepingbag.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

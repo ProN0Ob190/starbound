@@ -1,0 +1,10 @@
+{
+  "codexId" : "florvilrant",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "floranvillagebook_12.png",
+  "itemName" : "florvilrantCodex",
+  "rarity" : "common",
+  "description" : "An Angry Rant",
+  "shortdescription" : "Angry Rant"
+}

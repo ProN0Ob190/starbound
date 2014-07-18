@@ -1,0 +1,31 @@
+{
+  "objectName" : "mask6",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 800,
+
+  "description" : "This mask looks like my ex-wife.",
+  "shortdescription" : "Decorative Priest Mask",
+  "race" : "avian",
+
+  "apexDescription" : "It looks like an Avian mask.",
+  "avianDescription" : "This mask is a welcome to stargazers.",
+  "floranDescription" : "Birdmen make themselvesss look angry.",
+  "glitchDescription" : "Identification. Likely this mask is supposed to be an Avian.",
+  "humanDescription" : "I think that's an Avian.",
+  "hylotlDescription" : "Remarkably, this Avian mask is not very accurate.",
+
+  "inventoryIcon" : "mask6icon.png",
+  "orientations" : [
+    {
+      "image" : "mask6.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

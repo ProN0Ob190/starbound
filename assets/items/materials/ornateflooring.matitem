@@ -1,0 +1,12 @@
+{
+  "itemName" : "ornateflooring",
+  "rarity" : "Common",
+  "inventoryIcon" : "ornateflooringicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Delightful ornate flooring.",
+  "shortdescription" : "Ornate Flooring",
+  "glitchdescription" : "Admiration. A beautiful ornate floor.",
+  "florandescription" : "Floran walk on ornate floor with ssstilettos.",
+
+  "materialId" : 158
+}

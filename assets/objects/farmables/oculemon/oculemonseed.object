@@ -1,0 +1,83 @@
+{
+  "objectName" : "oculemonseed",
+  "rarity" : "Common",
+  "description" : "The iris is the best part. Could be poisonous to anyone but a Floran.",
+  "category" : "farmable",
+  "shortdescription" : "Oculemon Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 159,
+
+  "apexDescription" : "The oculemon reminds me of Big Ape. That ever-watchful eye.",
+  "avianDescription" : "A poisonous fruit with a piercing gaze.",
+  "floranDescription" : "Next best thing to eyeballsss. Floran like, others get sssick.",
+  "glitchDescription" : "Introspective. Is this fruit perhaps a window to its own soul?.",
+  "humanDescription" : "Of all the fruit in all the universe, the oculemon may just be the creepiest.",
+  "hylotlDescription" : "Poisonous, but if carefully prepared, oculemons are possible to use as a flavour enhancer.",
+
+  "inventoryIcon" : "oculemonseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "oculemonseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "oculemon",
+            "count" : 1
+          },
+          {
+            "name" : "oculemonseed",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "oculemon",
+            "count" : 1
+          },
+          {
+            "name" : "plantfibre",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "oculemon",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [635, 635],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [640, 640],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

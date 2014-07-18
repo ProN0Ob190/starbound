@@ -1,0 +1,37 @@
+{
+  "objectName" : "bulb",
+  "rarity" : "Common",
+  "description" : "<An output light. Shows whether something is on or off.>",
+  "shortdescription" : "Bulb",
+  "race" : "human",
+
+  "category" : "wire",
+  "price" : 300,
+
+  "inventoryIcon" : "bulb.png:default.1",
+  "orientations" : [
+    {
+      "image" : "bulb.png:<color>.off",
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/logic/logic.lua" ],
+  "scriptDelta" : 1,
+
+  "animation" : "/objects/wired/logic/logic.animation",
+
+  "animationParts" : {
+    "switch" : "bulb.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "inboundNodes" : [ [-1, 0] ],
+  "outboundNodes" : [ ],
+
+  "gates" : 1,
+  "truthtable" : [ false, true ]
+}

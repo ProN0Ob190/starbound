@@ -1,0 +1,40 @@
+{
+  "objectName" : "electricdoor",
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 2000,
+  "description" : "It's some sort of electrical barrier. Looks dangerous...",
+  "shortdescription" : "Electrical Barrier",
+  "race" : "generic",
+
+  "apexDescription" : "The current forms a shield to keep things out.",
+  "avianDescription" : "Electricity? Remarkable.",
+  "floranDescription" : "Door sssizzless. Floran afraid.",
+  "glitchDescription" : "Inspect. The current here is completely grounded. There is no danger.",
+  "humanDescription" : "Who makes a door like this?",
+  "hylotlDescription" : "The Hylotl are very cautious with electrical current.",
+
+  "inventoryIcon" : "electricdooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "electricdoor.png:default",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/animatedslidingdoor.animation",
+  "animationParts" : {
+    "door" : "electricdoor.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "inboundNodes" : [ [0, 4] ],
+  "outboundNodes" : [ [0, 0] ]
+}

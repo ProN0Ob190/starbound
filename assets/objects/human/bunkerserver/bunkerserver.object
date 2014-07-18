@@ -1,0 +1,34 @@
+{
+  "objectName" : "bunkerserver",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 600,
+  "description" : "It's a large server cabinet.",
+  "shortdescription" : "Server Cabinet",
+  "race" : "human",
+
+  "apexDescription" : "A server cabinet.",
+  "avianDescription" : "An unremarkable server cabinet.",
+  "floranDescription" : "BEEP? BEEP. BUZZ.",
+  "glitchDescription" : "Alliterate. Sparking server structure.",
+  "humanDescription" : "A server. I wonder if it hosts The Cloud. Man, I love The Cloud. The Cloud is the best.",
+  "hylotlDescription" : "A server cluster.",
+
+  "inventoryIcon" : "bunkerservericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bunkerserver.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/bunkerserver.wav"
+
+}

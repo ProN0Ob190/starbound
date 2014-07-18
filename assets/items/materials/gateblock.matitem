@@ -1,0 +1,12 @@
+{
+  "itemName" : "gateblock",
+  "rarity" : "Common",
+  "inventoryIcon" : "gateblock.png",
+  "dropCollision" : [71, 66, 57, 255],
+  "description" : "Simply fabulous.",
+  "shortdescription" : "Gate Block",
+  "glitchdescription" : "An ancient block.",
+  "florandescription" : "Ancient blocksss.",
+
+  "materialId" : 186
+}

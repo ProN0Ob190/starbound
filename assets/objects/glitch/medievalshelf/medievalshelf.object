@@ -1,0 +1,31 @@
+{
+  "objectName" : "medievalshelf",
+  "rarity" : "Common",
+  "description" : "Ye olde wooden shelf.",
+  "shortdescription" : "Glitch Shelf",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 500,
+
+  "apexDescription" : "An empty wooden shelf.",
+  "avianDescription" : "It's just an empty shelf.",
+  "floranDescription" : "Empty sshelf.",
+  "glitchDescription" : "Uninterested. Just a shelf.",
+  "humanDescription" : "Just an old wooden shelf.",
+  "hylotlDescription" : "A simple, empty shelf.",
+
+  "inventoryIcon" : "medievalshelficon.png",
+  "orientations" : [
+    {
+      "dualImage" : "medievalshelf.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "projectileName" : "plasticslide",
+  "physics" : "bouncer",
+  "bounces" : 2,
+  "timeToLive" : 0.8,
+  "damageKindImage" : "icon.png",
+  "frames" : "plasticslide.png",
+  "animationLoops" : false,
+  "animationCycle" : 0.6,
+  "frameNumber" : 5,
+  "speed" : 50,
+  "power" : 1.0,
+  "damageKind" : "default"
+}

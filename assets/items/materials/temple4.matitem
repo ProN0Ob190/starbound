@@ -1,0 +1,12 @@
+{
+  "itemName" : "temple4",
+  "rarity" : "Common",
+  "inventoryIcon" : "temple4.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Simple Temple Blocks",
+  "description" : "Old and poorly crafted blocks, crude drawings are scratched into the stone.",
+  "glitchdescription" : "Curiosity. These stone carvings are rather crude.",
+  "florandescription" : "Floran like ssstone pictures.",
+
+  "materialId" : 29
+}

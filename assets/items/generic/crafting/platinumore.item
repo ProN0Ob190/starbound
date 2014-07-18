@@ -1,0 +1,7 @@
+{
+  "itemName" : "platinumore",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "platinumore.png",
+  "description" : "It's platinum. Can be used for smelting or repairs. Pick up ore and right click mining tool to repair.",
+  "shortdescription" : "Platinum Ore"
+}

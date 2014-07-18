@@ -1,0 +1,62 @@
+{
+  "name" : "giantflowers",
+  "friendlyName" : "Giantflowers",
+  "spawnProfiles" : [ "surfacemix1", "surfacemix2", "surfacemix3" ],
+
+  "surfaceParameters" : {
+    "mainBlock" : "dirt",
+    "subBlocks" : [ "clay", "mud" ],
+    "ores" : "surfaceOres",
+
+    "statusParameters" : {
+      "temperatureBounds" : [30, 50],
+      "dayNightTemperatureVariability" : 15,
+      "temperatureVariability" : 10
+    },
+
+    "surfacePlaceables" : {
+      "grassMod" : [ "junglegrass" ],
+      "grassModDensity" : 0.9,
+
+      "items" : [
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+          "type" : "object",
+          "objectSets" : [
+            {
+              "pool" : [ [0.35, "giantflower1" ], [0.35, "giantflower2" ], [0.35, "giantflower3" ], [0.35, "giantflower4" ] ],
+              "parameters" : { }
+            }
+          ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 0.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:minibiomeChests",
+
+          "type" : "treasureBox",
+          "treasureBoxSets" : [ "giantflowerChest" ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:denseLarge",
+
+          "type" : "tree",
+          "treeFoliageHueShiftMax" : 180,
+          "treeStemHueShiftMax" : 15,
+          "treeStemList" : [ "giantflower" ],
+          "treeFoliageList" : [ "whitepetals", "redflower" ]
+        }
+      ]
+    }
+  }
+}
+
+

@@ -1,0 +1,113 @@
+{
+  "type" : "templeguard",
+  "baseType" : "guard",
+
+  "disableWornArmor" : true,
+  "innateStatusEffects" : [
+    {
+      "kind" : "Protection",
+      "amount" : 1.0
+    }
+  ],
+
+  "damageTeam" : 1,
+
+  "levelVariance" : [0.5, 0.75],
+
+  "scripts" : [
+    "/npcs/main.lua",
+    "/npcs/timers.lua",
+    "/scripts/sensors.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua",
+
+    "/npcs/meleeAttackState.lua",
+    "/npcs/rangedAttackState.lua",
+
+    "/npcs/guard/guardState.lua",
+    "/npcs/guard/returnToPostState.lua"
+  ],
+
+  "scriptConfig" : {
+    "attackerLimit" : 8,
+    "attackerLimitCooldown" : 3,
+    "noticePlayersRadius" : 30,
+
+    "guard" : {
+      "patrolDistance" : 5,
+      "noticeDistance" : 30,
+      "hailDistance" : -1,
+      "stopDistance" : -1,
+      "attackDistance" : 30,
+      "changeDirectionTimeRange" : [5, 10],
+
+      "attackSayingPercent" : 25,
+
+      "dialog" : {
+        "attack" : {
+          "default" : [
+            "Intruder! Leave this hallowed ground!",
+            "Stop right where you are!",
+            "You dishonour Kluex!",
+            "You are unwelcome, stranger!",
+            "Today, Kluex claims another soul!",
+            "The wrath of Kluex will fall upon you!",
+            "The power of Kluex compels me to slay you!"
+          ],
+          "avian" : {
+            "default" : [
+              "Filthy Grounded scum! Today, you die!",
+              "Rend the unbeliever limb from limb!",
+              "Your disbelief will be your undoing!",
+              "I’ll kill you myself, scum!",
+              "Your disregard towards our mighty Kluex is despicable!",
+              "We’ll throw you off the tower and see if you can fly!",
+              "I... I must destroy you, heretic! I have no choice!"
+            ]
+          }
+        }
+      }
+    },
+
+    "returnToPost" : {
+      "moveTime" : 20,
+      "minDistance" : 2
+    },
+
+    "meleeAttack" : {
+      "switchDistance" : 15,
+      "runThreshold" : 0
+    }
+  },
+
+  "items" : {
+    "avian" : [
+      [0, [
+          {
+            "head" : [ { "name" : "aviantier5head" } ],
+            "chest" : [ { "name" : "aviantier5chest" } ],
+            "legs" : [ { "name" : "aviantier5pants" } ],
+            "primary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "aviangun" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "aviansword" } }
+            ]
+          }
+        ] ]
+    ]
+  },
+
+  "dropPools" : [ "templeguardtreasure" ],
+
+  "statusParameters" : {
+    "baseMaxHealth" : 40,
+    "baseMaxEnergy" : 40,
+    "bodyMaterialKind" : "organic",
+    "damageConfig" : "/damage/damageresponse/npcs.config",
+    "invulnerabilityTime" : 0,
+    "energyReplenishmentRate" : 10.0
+  }
+}
+

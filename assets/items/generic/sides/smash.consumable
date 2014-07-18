@@ -1,0 +1,27 @@
+{
+  "itemName" : "smash",
+  "rarity" : "Common",
+  "inventoryIcon" : "smash.png",
+  "description" : "A famous Glitch chef tried to imitate mashed potatoes. He succeeded...kinda.",
+  "shortdescription" : "Smash",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 75
+      },
+      {
+        "kind" : "health",
+        "amount" : 20
+      },
+      {
+        "kind" : "energy",
+        "amount" : 10
+      },
+      {
+        "kind" : "electroshock",
+        "amount" : 5
+      },
+      {
+        "kind" : "doping" }
+    ] ]
+}

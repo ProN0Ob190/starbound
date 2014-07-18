@@ -1,0 +1,37 @@
+{
+  "objectName" : "idolsupport",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 800,
+  "description" : "A support beam carved to resemble a fearsome bird.",
+  "shortdescription" : "Carved Support Beam",
+  "race" : "avian",
+
+  "apexDescription" : "It appears to be a load-bearing carving.",
+  "avianDescription" : "A decorative support beam.",
+  "floranDescription" : "Birdmen not quite sso ssstrong.",
+  "glitchDescription" : "Statement. This is a support beam.",
+  "humanDescription" : "Would anything fall down if I remove this?",
+  "hylotlDescription" : "Great attention to detail.",
+
+  "inventoryIcon" : "idolsupporticon.png",
+  "orientations" : [
+    {
+      "image" : "idolsupportleft.png:<color>",
+
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "left" ]
+    },
+
+    {
+      "image" : "idolsupportright.png:<color>",
+
+      "imagePosition" : [-24, 0],
+
+      "spaceScan" : 0.01,
+      "anchors" : [ "bottom", "right" ]
+    }
+  ]
+}

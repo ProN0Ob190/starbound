@@ -1,0 +1,10 @@
+{
+  "codexId" : "templecorale",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "aviantemplebook_10.png",
+  "itemName" : "templecoraleCodex",
+  "rarity" : "common",
+  "description" : "The Peaceful Temple",
+  "shortdescription" : "Peaceful Temple"
+}

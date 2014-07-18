@@ -1,0 +1,15 @@
+{
+  "materialId" : 31,
+  "materialName" : "slush",
+  "frames" : "slush.png",
+  "particleColor" : [214, 242, 251, 255],
+  "variants" : 5,
+  "itemDrop" : "slush",
+  "shortdescription" : "Slush",
+  "description" : "Melting ice makes a thick slush.",
+  "glitchDescription" : "Statement. Melted ice.",
+  "floranDescription" : "Ssslushy.",
+  "footstepSound" : "/sfx/blocks/footstep_slush.wav",
+  "health" : 1.5,
+  "damageTable" : "/tiles/flammableDamage.config"
+}

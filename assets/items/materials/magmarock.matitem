@@ -1,0 +1,12 @@
+{
+  "itemName" : "magmarock",
+  "rarity" : "Common",
+  "inventoryIcon" : "magmarock.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Magmarock. Hot stuff.",
+  "shortdescription" : "Magmarock",
+  "glitchdescription" : "Statement. Magmarock.",
+  "florandescription" : "Burny rock. Hisssss.",
+
+  "materialId" : 81
+}

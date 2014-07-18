@@ -1,0 +1,12 @@
+{
+  "itemName" : "wallpaper",
+  "rarity" : "Common",
+  "inventoryIcon" : "wallpaper.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Some classy wallpaper for the classy frog in us all.",
+  "shortdescription" : "Classic Wallpaper",
+  "glitchdescription" : "Derisive. A vile Hylotl pattern.",
+  "florandescription" : "Wall paper remind Floran of fishmen.",
+
+  "materialId" : 99
+}

@@ -1,0 +1,17 @@
+{
+  "name" : "barbSprayAttack",
+  "label" : "BARB SPRAY",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "barbSprayAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "thorns",
+      "range" : 20,
+      "speed" : 23,
+      "power" : 10,
+      "shots" : 6,
+      "fireInterval" : 0.1
+    }
+  }
+}

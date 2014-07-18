@@ -1,0 +1,36 @@
+{
+  "objectName" : "plantchair",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 600,
+  "description" : "A chair. Looks uncomfortable.",
+  "shortdescription" : "Prison Chair",
+  "race" : "floran",
+
+  "apexDescription" : "A chair.",
+  "avianDescription" : "An uncomfortable chair.",
+  "floranDescription" : "Chair.",
+  "glitchDescription" : "Paranoid. What if this innocuous-looking chair holds a dark secret?",
+  "humanDescription" : "An unremarkable chair.",
+  "hylotlDescription" : "An inferior chair.",
+
+  "inventoryIcon" : "plantchairicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "plantchair.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 22]
+
+}

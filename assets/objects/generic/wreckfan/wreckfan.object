@@ -1,0 +1,31 @@
+{
+  "objectName" : "wreckfan",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 200,
+
+  "description" : "The stale air produces little more than a creak from this old fan.",
+  "shortdescription" : "Wrecked Fan",
+  "race" : "generic",
+
+  "apexDescription" : "A rusted old fan. It barely turns.",
+  "avianDescription" : "A whistle of air still slips through.",
+  "floranDescription" : "Ssspinning has sstopped.",
+  "glitchDescription" : "Observation. Once this would have supplied clean air.",
+  "humanDescription" : "The blades are rusted.",
+  "hylotlDescription" : "This no longer circulates air.",
+
+  "inventoryIcon" : "wreckfanicon.png",
+  "orientations" : [
+    {
+      "image" : "wreckfan.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

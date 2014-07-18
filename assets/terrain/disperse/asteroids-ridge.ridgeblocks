@@ -1,0 +1,12 @@
+{
+  "name" : "asteroids-ridge",
+  "size" : 250,
+  "noise" : 0.0,
+  "frequency" : 0.6,
+
+  "magic1" : 200,
+  "magic2" : 30,
+  "magic3" : 15,
+  "magic4" : 40,
+  "magic5" : 80
+}

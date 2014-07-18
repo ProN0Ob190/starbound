@@ -1,0 +1,10 @@
+{
+  "kind" : "sugarrush",
+  "duration" : 15,
+  "primitives" : [
+    { "name" : "jumpboost", "percentage" : 25, "mode" : "max" },
+    { "name" : "runboost", "mode" : "max" }
+  ],
+  "effectSources" : [ "burning" ],
+  "mainInterfaceIcon" : "/interface/statuses/fire.png"
+}

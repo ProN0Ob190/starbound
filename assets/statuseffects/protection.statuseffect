@@ -1,0 +1,8 @@
+{
+  "kind" : "protection",
+  "tooltipLabel" : "",
+  "tooltipAmountLabel" : "%amount%",
+  "icon" : [ "/interface/tooltips/armor.png" ],
+  "suppressTooltip" : false
+
+}

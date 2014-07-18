@@ -1,0 +1,10 @@
+{
+  "codexId" : "tombdiary01",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "aviantombbook_02.png",
+  "itemName" : "tombdiary01Codex",
+  "rarity" : "common",
+  "description" : "Tombkeeper's Diary #1",
+  "shortdescription" : "Tombkeeper's Diary #1"
+}

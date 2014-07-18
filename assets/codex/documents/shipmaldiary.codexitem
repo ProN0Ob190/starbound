@@ -1,0 +1,10 @@
+{
+  "codexId" : "shipmaldiary",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "avianairshipbook_11.png",
+  "itemName" : "shipmaldiaryCodex",
+  "rarity" : "common",
+  "description" : "Diary of Mallard Wrenolds",
+  "shortdescription" : "Wrenolds' Diary"
+}

@@ -1,0 +1,10 @@
+{
+  "codexId" : "sewerpometheus",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "glitchsewerbook_10.png",
+  "itemName" : "sewerpometheusCodex",
+  "rarity" : "common",
+  "description" : "The Modern Po-metheus",
+  "shortdescription" : "Po-metheus"
+}

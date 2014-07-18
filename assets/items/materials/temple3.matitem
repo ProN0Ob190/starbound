@@ -1,0 +1,12 @@
+{
+  "itemName" : "temple3",
+  "rarity" : "Common",
+  "inventoryIcon" : "temple3.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Small Temple Bricks",
+  "description" : "Dusty but finely crafted bricks.",
+  "glitchdescription" : "Statement. Dusty bricks.",
+  "florandescription" : "Dusssty bricks.",
+
+  "materialId" : 28
+}

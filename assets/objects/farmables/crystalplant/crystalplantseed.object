@@ -1,0 +1,82 @@
+{
+  "objectName" : "crystalplantseed",
+  "rarity" : "Common",
+  "description" : "A Crystal plant. Money DOES grow on trees.",
+  "category" : "farmable",
+  "shortdescription" : "Crystal Plant Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+
+  "apexDescription" : "Grow your own crystals. Handy.",
+  "avianDescription" : "A plant that grows crystals. Magical.",
+  "floranDescription" : "Floran puzzled by shiny plant.",
+  "glitchDescription" : "Economic. Farming these in abundance could damage the economy.",
+  "humanDescription" : "When I was little, I always wanted a money tree. This is the next best thing.",
+  "hylotlDescription" : "A plant from which sprouts a glorious glowing crystal.",
+
+  "inventoryIcon" : "crystalplantseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "crystalplantseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "crystalplant",
+            "count" : 1
+          },
+          {
+            "name" : "crystalplantseed",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "crystalplant",
+            "count" : 1
+          },
+          {
+            "name" : "plantfibre",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "crystalplant",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [2820, 2940],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [2820, 2940],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

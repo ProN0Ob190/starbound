@@ -1,0 +1,43 @@
+{
+  "objectName" : "classicbardoor",
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 1500,
+  "description" : "This door is beautifully crafted.",
+  "shortdescription" : "Classic Barred Door",
+  "race" : "apex",
+
+  "apexDescription" : "A heavy, barred door. The handle appears to be pure gold.",
+  "avianDescription" : "This door has been crafted with great love... or fear.",
+  "floranDescription" : "Ssstrong door. But nothing keeps Floran out.",
+  "glitchDescription" : "Impressed. Expert craftsmanship required to produce door of this calibre.",
+  "humanDescription" : "That's a big, classy door.",
+  "hylotlDescription" : "Exquisite craftsmanship.",
+
+  "inventoryIcon" : "classicbardooricon.png",
+  "orientations" : [
+    {
+      "image" : "classicbardoor.png:default",
+      "imagePosition" : [-20, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationParts" : {
+    "door" : "classicbardoor.png"
+  },
+  "animationPosition" : [-20, 0],
+
+  "inboundNodes" : [ [-1, 4] ],
+  "outboundNodes" : [ [0, 0] ],
+
+  "openSounds" : [ "/sfx/objects/bardoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/bardoor_close.wav" ]
+}

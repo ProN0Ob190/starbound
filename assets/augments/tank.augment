@@ -1,0 +1,8 @@
+{
+  "name" : "tank",
+  "icon" : [ ],
+  "kind" : "statuseffect",
+  "statusEffects" : [
+    { "kind" : "protection", "amount" : 1000 }
+  ]
+}

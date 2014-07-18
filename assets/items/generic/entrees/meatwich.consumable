@@ -1,0 +1,19 @@
+{
+  "itemName" : "meatwich",
+  "rarity" : "Common",
+  "inventoryIcon" : "meatwich.png",
+  "description" : "Chunks of meat sandwiched between more chunks of meat. Meaty!",
+  "shortdescription" : "Meatwich",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 100
+      },
+      {
+        "kind" : "mollyhealing3" },
+      {
+        "kind" : "energy",
+        "amount" : 15
+      }
+    ] ]
+}

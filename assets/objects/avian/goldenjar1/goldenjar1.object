@@ -1,0 +1,31 @@
+{
+  "objectName" : "goldenjar1",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 1000,
+  "description" : "This beady-eyed bird jar is made of solid gold.",
+  "shortdescription" : "Golden Bird Jar",
+  "race" : "avian",
+
+  "apexDescription" : "Looks like this was built to hold something important.",
+  "avianDescription" : "This pot holds the organs of a Stargazer.",
+  "floranDescription" : "Fanccy bird pot. All gold and shiny. Nice smell from inside.",
+  "glitchDescription" : "Disgust. The pot appears to hold a heart, lungs and brain of Avian origin.",
+  "humanDescription" : "It smells like rotting flesh.",
+  "hylotlDescription" : "The smell suggests there are remains inside.",
+
+  "inventoryIcon" : "goldenjar1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "goldenjar1.png:<color>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [1, 0], [0, 1], [1, 1] ],
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

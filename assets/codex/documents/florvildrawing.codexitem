@@ -1,0 +1,10 @@
+{
+  "codexId" : "florvildrawing",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "floranvillagebook_08.png",
+  "itemName" : "florvildrawingCodex",
+  "rarity" : "common",
+  "description" : "A Charcoal Drawing",
+  "shortdescription" : "Charcoal Drawing"
+}

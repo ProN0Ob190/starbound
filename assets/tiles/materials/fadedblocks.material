@@ -1,0 +1,15 @@
+{
+  "materialId" : 56,
+  "materialName" : "fadedblocks",
+  "frames" : "fadedblocks.png",
+  "particleColor" : [243, 242, 215, 255],
+  "variants" : 5,
+  "itemDrop" : "fadedblocks",
+  "description" : "Soft faded brick.",
+  "shortdescription" : "Soft Brick",
+  "glitchDescription" : "Statement. Brick.",
+  "floranDescription" : "Bricksss.",
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_stone2.wav",
+  "health" : 22
+}

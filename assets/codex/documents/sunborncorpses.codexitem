@@ -1,0 +1,10 @@
+{
+  "codexId" : "sunborncorpses",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "aviantombbook_11.png",
+  "itemName" : "sunborncorpsesCodex",
+  "rarity" : "common",
+  "description" : "Notes on Sunborn Corpses",
+  "shortdescription" : "Sunborn Corpses"
+}

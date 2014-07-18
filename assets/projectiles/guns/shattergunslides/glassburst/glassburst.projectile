@@ -1,0 +1,41 @@
+{
+  "projectileName" : "glassburst",
+  "physics" : "bullet",
+  "bounces" : 0,
+  "speed" : 1,
+  "timeToLive" : 0.01,
+  "damageKindImage" : "icon.png",
+  "frames" : "glassburst.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 1,
+  "actionOnReap" : [
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/objects/vase_break_medium1.wav", "/sfx/objects/vase_break_medium2.wav", "/sfx/objects/vase_break_medium3.wav" ]
+    },
+    {
+      "action" : "projectile",
+      "type" : "glassslide",
+      "fuzzAngle" : 30,
+      "inheritDamageFactor" : 0.3,
+      "angleAdjust" : -20
+    },
+    {
+      "action" : "projectile",
+      "type" : "glassslide",
+      "fuzzAngle" : 20,
+      "inheritDamageFactor" : 0.4,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "glassslide",
+      "fuzzAngle" : 30,
+      "inheritDamageFactor" : 0.3,
+      "angleAdjust" : 20
+    }
+
+  ],
+  "power" : 5,
+  "damageKind" : "default"
+}
