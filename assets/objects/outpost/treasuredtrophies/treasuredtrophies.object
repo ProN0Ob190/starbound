@@ -22,8 +22,8 @@
 	  "direction" : "left",
 
       "imagePosition" : [-56, 0],
-      "frames" : 12,
-      "animationCycle" : 2.0,
+      "frames" : 48,
+      "animationCycle" : 4.8,
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
@@ -33,8 +33,8 @@
 	  "direction" : "right",
 
       "imagePosition" : [-56, 0],
-      "frames" : 12,
-      "animationCycle" : 2.0,
+      "frames" : 48,
+      "animationCycle" : 4.8,
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]

@@ -1740,6 +1740,12 @@
     },
 
     {
+      "value" : [77, 116, 135, 255],
+      "comment" : "avianteleporterdecorative",
+      "brush" : [ [ "clear" ], [ "object", "avianteleporterdecorative" ] ]
+    },
+
+    {
       "value" : [250, 200, 250, 255],
       "comment" : "dungeonpod",
       "brush" : [ [ "clear" ], [ "object", "dungeonpod" ] ]

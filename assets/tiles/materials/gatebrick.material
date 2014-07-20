@@ -1,0 +1,15 @@
+{
+  "materialId" : 184,
+  "materialName" : "gatebrick",
+  "frames" : "gatebrick.png",
+  "particleColor" : [71, 66, 57, 255],
+  "variants" : 10,
+  "itemDrop" : "gateblock",
+  "description" : "An ancient brick.",
+  "shortdescription" : "Gate Brick",
+  "glitchDescription" : "Statement. An ancient block.",
+  "floranDescription" : "Brick.",
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.wav",
+  "health" : 30
+}

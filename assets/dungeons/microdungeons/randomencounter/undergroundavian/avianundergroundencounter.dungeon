@@ -4,7 +4,7 @@
     "species" : "dummy",
     "rules" : [
     ],
-    "anchor" : [ "tomb1", "tomb2", "tomb3", "tomb4", "tomb5" ],
+    "anchor" : [ "chest1", "chest2", "chest3", "chest4", "chest5", "chest6", "chest7", "chest8", "chest9", "home1", "tomb1", "tomb2", "tomb3", "tomb4", "tomb5" ],
     "maxRadius" : 500,
     "maxParts" : 20
   },
@@ -1720,6 +1720,12 @@
     },
 
     {
+      "value" : [77, 116, 135, 255],
+      "comment" : "avianteleporterdecorative",
+      "brush" : [ [ "clear" ], [ "object", "avianteleporterdecorative" ] ]
+    },
+    
+    {
       "value" : [250, 200, 250, 255],
       "comment" : "dungeonpod",
       "brush" : [ [ "clear" ], [ "object", "dungeonpod" ] ]
@@ -1979,6 +1985,66 @@
   ],
 
   "parts" : [
+    {
+      "name" : "chest1",
+      "rules" : [ ],
+      "def" : [ "image", [ "chest1.png", "chest1-objects.png" ] ]
+    },
+    
+    {
+      "name" : "chest2",
+      "rules" : [ ],
+      "def" : [ "image", [ "chest2.png", "chest2-objects.png" ] ]
+    },
+    
+    {
+      "name" : "chest3",
+      "rules" : [ ],
+      "def" : [ "image", [ "chest3.png", "chest3-objects.png" ] ]
+    },
+    
+    {
+      "name" : "chest4",
+      "rules" : [ ],
+      "def" : [ "image", [ "chest4.png", "chest4-objects.png", "chest4-wires.png" ] ]
+    },
+    
+    {
+      "name" : "chest5",
+      "rules" : [ ],
+      "def" : [ "image", [ "chest5.png", "chest5-objects.png" ] ]
+    },
+    
+    {
+      "name" : "chest6",
+      "rules" : [ ],
+      "def" : [ "image", [ "chest6.png", "chest6-objects.png" ] ]
+    },
+    
+    {
+      "name" : "chest7",
+      "rules" : [ ],
+      "def" : [ "image", [ "chest7.png", "chest7-objects.png" ] ]
+    },
+    
+    {
+      "name" : "chest8",
+      "rules" : [ ],
+      "def" : [ "image", [ "chest6.png", "chest8-objects.png" ] ]
+    },
+    
+    {
+      "name" : "chest9",
+      "rules" : [ ],
+      "def" : [ "image", [ "chest9.png", "chest9-objects.png" ] ]
+    },
+    
+    {
+      "name" : "home1",
+      "rules" : [ ],
+      "def" : [ "image", [ "home1.png", "home1-objects.png" ] ]
+    },
+    
     {
       "name" : "tomb1",
       "rules" : [ ],

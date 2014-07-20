@@ -1,0 +1,14 @@
+{
+  "materialId" : 189,
+  "materialName" : "ancientplatform",
+  "platform" : true,
+  "transparent" : true,
+  "stairVariants" : 1,
+  "stairImage" : "ancientstairs.png",
+  "platformVariants" : 3,
+  "platformImage" : "ancientplatform.png",
+  "itemDrop" : "ancientplatform",
+  "shortdescription" : "Ancient Platform",
+  "description" : "Ancient platform... It's some kind of stone tech.",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.wav"
+}
