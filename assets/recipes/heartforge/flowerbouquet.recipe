@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "plantfibre", "count" : 30 },
-    { "item" : "money", "count" : 100 }
-  ],
-  "output" : { "item" : "flowerbouquet", "count" : 1 },
-  "groups" : [ "heartforge", "weapons", "all" ]
-}

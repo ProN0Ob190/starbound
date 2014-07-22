@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "money", "count" : 1000 }
-  ],
-  "output" : { "item" : "voxel1k", "count" : 1 },
-  "groups" : [ "compressor" ]
-}

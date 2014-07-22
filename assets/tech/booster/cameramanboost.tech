@@ -1,9 +1,0 @@
-{
-  "scripts" : ["booster.lua"],
-  "actions" : [ "boostRightUp", "boostRightDown", "boostLeftUp", "boostLeftDown", "boostRight", "boostDown", "boostLeft", "boostUp" ],
-  "animator" : "cameramanboost.animation",
-
-  "boostControlForce" : 300,
-  "boostSpeed" : 12,
-  "energyUsagePerSecond" : 0
-}

@@ -1,8 +1,0 @@
-{
-  "name" : "hawkeyes",
-  "icon" : [ ],
-  "kind" : "statuseffect",
-  "statusEffects" : [
-    { "kind" : "hawkeyes", "amount" : 0.7 }
-  ]
-}

@@ -1,8 +1,0 @@
-{
-  "name" : "absorption",
-  "icon" : [ ],
-  "kind" : "statuseffect",
-  "statusEffects" : [
-    { "kind" : "absorption", "amount" : 30.0 }
-  ]
-}
