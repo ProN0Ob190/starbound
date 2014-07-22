@@ -1,14 +1,22 @@
 {
   "materialId" : 127,
   "materialName" : "ironblock",
-  "frames" : "ironblock.png",
   "particleColor" : [176, 174, 168, 255],
-  "variants" : 5,
   "itemDrop" : "ironblock",
   "description" : "A solid iron block.",
   "shortdescription" : "Iron Block",
   "glitchDescription" : "Statement. Iron.",
   "floranDescription" : "Metal like Glitch.",
   "footstepSound" : "/sfx/blocks/footstep_composite.wav",
-  "health" : 30.0
+  "health" : 30.0,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "ironblock.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
 }

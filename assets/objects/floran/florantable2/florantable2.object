@@ -1,0 +1,31 @@
+{
+  "objectName" : "florantable2",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 800,
+  "description" : "A wooden countertop used for chopping meat.",
+  "shortdescription" : "Primitive Countertop",
+  "race" : "floran",
+
+  "apexDescription" : "The surface of this table appears to have been damaged by a blade.",
+  "avianDescription" : "Blood stains the surface of this table.",
+  "floranDescription" : "Floran chop meat here. Ssshare with other Floran.",
+  "glitchDescription" : "Sarcasm. The Floran couldn't possibly use this table for anything gruesome.",
+  "humanDescription" : "The state of the surface makes it look like a butcher's table.",
+  "hylotlDescription" : "The Floran appear to use this table for meat preparation.",
+
+  "inventoryIcon" : "florantable2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "florantable2.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

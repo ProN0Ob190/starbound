@@ -1,15 +1,22 @@
 {
   "materialId" : 13,
   "materialName" : "metallic",
-  "frames" : "metallic.png",
   "particleColor" : [125, 125, 125, 255],
-  "variants" : 5,
   "itemDrop" : "metallicmaterial",
   "description" : "This looks hi-tech!",
   "shortdescription" : "Hi-tech Block",
   "glitchDescription" : "Analysis. This block's technology is unknown to me.",
   "floranDescription" : "Magic computer block.",
-  "multicolored" : true,
   "footstepSound" : "/sfx/blocks/footstep_metallic.wav",
-  "health" : 35
+  "health" : 35,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "metallic.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
 }

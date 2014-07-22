@@ -1,0 +1,58 @@
+{
+  "objectName" : "sapling",
+  "rarity" : "Common",
+  "category" : "sapling",
+  "description" : "A sapling. From simple roots a tree will grow.",
+  "shortdescription" : "Sapling",
+  "objectType" : "farmable",
+  "printable" : false,
+  "retainObjectParametersInItem" : true,
+
+  "apexDescription" : "I can plant this to grow a tree.",
+  "avianDescription" : "I can grow a tree by planting this sapling.",
+  "floranDescription" : "Floran plant cute sssapling, grow big bad evil tree!",
+  "glitchDescription" : "Wonder. Planting this sapling allows me to grow life.",
+  "humanDescription" : "This sapling will grow into a tree.",
+  "hylotlDescription" : "Such wondrous life, springing forth from the tiniest shoot. Sigh.",
+
+  "inventoryIcon" : "saplingicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "sapling.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : false,
+      "requireSoilAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [15, 25],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [15, 25],
+      "success" : 2,
+      "failure" : 3
+    },
+    "2" : {
+      "duration" : [15, 25],
+      "command" : "spawnTree",
+      "success" : 3,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

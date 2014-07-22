@@ -1,11 +1,17 @@
 {
   "modId" : 27,
   "modName" : "Cerulium",
-  "frames" : "Cerulium.png",
-  "variants" : 8,
   "itemDrop" : "Ceruliumore",
   "Description" : "Cerulium.",
   "health" : 18,
   "harvestLevel" : 6,
-  "breaksWithTile" : true
+  "breaksWithTile" : true,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "cerulium.png",
+    "variants" : 8,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
 }

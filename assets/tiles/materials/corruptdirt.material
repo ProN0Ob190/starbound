@@ -1,9 +1,7 @@
 {
   "materialId" : 145,
   "materialName" : "corruptdirt",
-  "frames" : "corruptdirt.png",
   "particleColor" : [112, 72, 39, 255],
-  "variants" : 5,
   "itemDrop" : "corruptdirtmaterial",
   "description" : "Ick. Corrupted dirt.",
   "shortdescription" : "Corrupt Dirt Block",
@@ -12,5 +10,15 @@
   "footstepSound" : "/sfx/blocks/footstep_dirt.wav",
   "tillableMod" : 31,
   "soil" : true,
-  "health" : 1.3
+  "health" : 1.3,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "corruptdirt.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
 }

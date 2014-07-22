@@ -1,0 +1,28 @@
+{
+  "objectName" : "prisongrateh",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 300,
+  "description" : "Rusted metal grates meant for ventilation.",
+  "shortdescription" : "Horizonal Metal Grates",
+  "race" : "human",
+
+  "apexDescription" : "A rusted metal grate.",
+  "avianDescription" : "A grate made of metal. It's rusty.",
+  "floranDescription" : "Grate.",
+  "glitchDescription" : "Measuring. It would be possible for an agile Glitch to fit through here.",
+  "humanDescription" : "I've always wanted to go crawling through vents.",
+  "hylotlDescription" : "A vent. It has not been looked after.",
+
+  "inventoryIcon" : "prisongratehicon.png",
+  "orientations" : [
+    {
+      "image" : "prisongrateh.png:<color>",
+      "frames" : 1,
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

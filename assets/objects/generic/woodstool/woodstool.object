@@ -1,0 +1,35 @@
+{
+  "objectName" : "woodstool",
+  "rarity" : "Common",
+  "description" : "A cute wooden stool.",
+  "shortdescription" : "Wooden Stool",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 200,
+
+  "apexDescription" : "A small wooden stool.",
+  "avianDescription" : "A stool. Perhaps for one to rest one's talons.",
+  "floranDescription" : "Tiny ssseat.",
+  "glitchDescription" : "Observation. A very small stool.",
+  "humanDescription" : "A cute little stool.",
+  "hylotlDescription" : "A charming stool.",
+
+  "inventoryIcon" : "woodstoolicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "woodstool.png:<color>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [5, 21]
+}

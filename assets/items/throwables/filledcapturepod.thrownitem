@@ -1,0 +1,22 @@
+{
+  "itemName" : "filledcapturepod",
+  "rarity" : "Common",
+  "inventoryIcon" : "filledcapturepodicon.png",
+  "image" : "filledcapturepodicon.png",
+  "shortdescription" : "Filled Capture Pod",
+  "description" : "Throw it... Who knows what'll happen?",
+
+  "maxStack" : 1,
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "filledcapturepod",
+  "projectileConfig" : {
+    "speed" : 70,
+    "level" : 7
+  }
+}
+

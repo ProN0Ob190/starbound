@@ -1,0 +1,17 @@
+{
+  "name" : "lightBallAttack",
+  "label" : "LIGHT BALL",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "lightBallAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "lightball",
+      "range" : 18,
+      "speed" : 20,
+      "power" : 16,
+      "shots" : 1,
+      "winddownTime" : 0.5
+    }
+  }
+}

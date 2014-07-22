@@ -1,0 +1,51 @@
+{
+  "objectName" : "plantpanel",
+  "rarity" : "Common",
+
+  "category" : "wire",
+  "price" : 700,
+  "description" : "Lots of tempting buttons that should probably be left alone.",
+  "shortdescription" : "Plant Control Panel",
+  "race" : "floran",
+
+  "apexDescription" : "I wonder what this button does...",
+  "avianDescription" : "Does something happen if I push this button?",
+  "floranDescription" : "Floran touch buttonssss.",
+  "glitchDescription" : "Curiosity. A collection of buttons.",
+  "humanDescription" : "All these buttons to press! What could possibly go wrong?",
+  "hylotlDescription" : "Look before you leap.",
+
+  "inventoryIcon" : "plantpanelicon.png",
+  "orientations" : [
+    {
+      "image" : "plantpanel.png:<color>.off",
+      "flipImages" : true,
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left"
+    },
+    {
+      "image" : "plantpanel.png:<color>.off",
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right"
+
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/switch/switch.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switchtoggle.animation",
+  "animationParts" : {
+    "switch" : "plantpanel.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "outboundNodes" : [ [0, 0] ],
+
+  "onSounds" : [ "/sfx/objects/plantpanel_interact.wav" ],
+  "offSounds" : [ "/sfx/objects/plantpanel_interact.wav" ]
+}

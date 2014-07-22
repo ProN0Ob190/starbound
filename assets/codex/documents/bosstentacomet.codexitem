@@ -1,0 +1,10 @@
+{
+  "codexId" : "bosstentacomet",
+  "title" : "Reading material",
+  "inventoryIcon" : "bossbook.png",
+  "codexkind" : "codex",
+  "itemName" : "bosstentacometCodex",
+  "rarity" : "common",
+  "description" : "Information on Tentacomet, the creature so terrifying nobody could think of a good name for it.",
+  "shortdescription" : "Tentacomet"
+}

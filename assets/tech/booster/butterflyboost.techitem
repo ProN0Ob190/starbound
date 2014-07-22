@@ -1,0 +1,10 @@
+{
+  "itemName" : "butterflyboost",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/butterflyboost.png",
+  "description" : "Press and hold Jump in the air to float around with this Butterfly Boost tech.",
+  "shortdescription" : "Butterfly Boost",
+  "tooltipKind" : "tech",
+
+  "techModule" : "butterflyboost.tech"
+}

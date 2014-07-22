@@ -1,0 +1,32 @@
+{
+  "objectName" : "persistenceofpixels",
+  "rarity" : "Common",
+  "description" : "A bit of Glitch surrealism.",
+  "shortdescription" : "Persistence of Pixels",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 2500,
+
+  "apexDescription" : "A strange painting. It looks like it depicts the death of time itself.",
+  "avianDescription" : "It seems to depict a selection of melting Glitch time readers.",
+  "floranDescription" : "Floran not undersstand sstrange painting.",
+  "glitchDescription" : "Deduction. I believe the Glitch are aware of their situation in some subconscious way. Perhaps that awareness is how this painting came to be.",
+  "humanDescription" : "Melting clocks. Why would the Glitch paint this?",
+  "hylotlDescription" : "A surreal piece of art. If only one could question the artist.",
+
+
+  "inventoryIcon" : "persistenceofpixelsicon.png",
+  "orientations" : [
+    {
+      "image" : "persistenceofpixels.png:<color>",
+
+      "imagePosition" : [-16, -16],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

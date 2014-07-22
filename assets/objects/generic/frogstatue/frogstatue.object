@@ -1,0 +1,29 @@
+{
+  "objectName" : "frogstatue",
+  "rarity" : "Common",
+  "description" : "A statue of a frog sitting peacefully.",
+  "shortdescription" : "Frog Statue",
+  "race" : "generic",
+  "price" : 500,
+
+  "apexDescription" : "A peaceful-looking frog.",
+  "avianDescription" : "This creature looks pensive and thoughtful.",
+  "floranDescription" : "Floran think Floran ssstab this once.",
+  "glitchDescription" : "Interest. This statue depicts a species of frog of which I am not aware.",
+  "humanDescription" : "If there were a few of these guys, we could have a sing-along.",
+  "hylotlDescription" : "Mother! Oh. It's a statue of a frog.",
+
+  "inventoryIcon" : "frogstatueicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "frogstatue.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

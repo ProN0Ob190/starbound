@@ -5,7 +5,7 @@
   "transparent" : true,
   "stairVariants" : 1,
   "stairImage" : "copperstairs.png",
-  "platformVariants" : 3,
+  "platformVariants" :1,
   "platformImage" : "copperplatform.png",
   "itemDrop" : "copperplatform",
   "shortdescription" : "Copper Platform",

@@ -1,0 +1,44 @@
+{
+  "objectName" : "tribalbed2",
+  "rarity" : "Common",
+  "description" : "A beautifully carved Avian bed.",
+  "shortdescription" : "Avian Bed",
+  "race" : "avian",
+  "category" : "furniture",
+  "price" : 1000,
+
+  "apexDescription" : "A colourful set of warm sheets on a comfortable-looking bed.",
+  "avianDescription" : "Even with their eyes closed the grounded enjoy bright colours around them.",
+  "floranDescription" : "Sssoft bed. Floran could ressst here.",
+  "glitchDescription" : "Wistful remembrance. This is not unlike the bed I used to rest in.",
+  "humanDescription" : "This bed looks wonderfully comfortable.",
+  "hylotlDescription" : "A fine set of warm covers.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-10, 14],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/avian/tribalbed2/tribalbed2cover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    { "kind" : "Nude" },
+    { "kind" : "Health", "amount" : 0.06 }
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "tribalbed2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "tribalbed2.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

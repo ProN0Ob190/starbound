@@ -1,0 +1,33 @@
+{
+  "objectName" : "flaghuman",
+  "rarity" : "Common",
+
+  "category" : "crafting",
+  "price" : 100,
+
+  "description" : "The flag of the USCM. Salute!",
+  "shortdescription" : "Human Flag",
+  "race" : "human",
+
+  "apexDescription" : "A human flag. Looks like it represents their military.",
+  "avianDescription" : "I see this human symbol a lot.",
+  "floranDescription" : "Floran like meatman flag!",
+  "glitchDescription" : "Statement. A human flag, depicting the symbol of the USCM.",
+  "humanDescription" : "Hoo-rah! USCM till I die, baby!",
+  "hylotlDescription" : "A crude and garish human flag.",
+
+
+  "inventoryIcon" : "flaghumanicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "flaghuman.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

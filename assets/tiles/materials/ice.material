@@ -1,9 +1,7 @@
 {
   "materialId" : 32,
   "materialName" : "ice",
-  "frames" : "ice.png",
   "particleColor" : [145, 186, 233, 255],
-  "variants" : 5,
   "itemDrop" : "ice",
   "shortdescription" : "Ice",
   "description" : "Solid ice, tingly to the touch.",
@@ -11,5 +9,15 @@
   "floranDescription" : "Ice. Sssmooth to the touch.",
   "footstepSound" : "/sfx/blocks/footstep_ice.wav",
   "health" : 2.5,
-  "damageTable" : "/tiles/flammableDamage.config"
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "ice.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
 }

@@ -1,0 +1,31 @@
+{
+  "objectName" : "huntingdisplay1",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 1500,
+
+  "description" : "A spear on a plaque. If you press a button below it, the spear sings.",
+  "shortdescription" : "Spear on a Plaque",
+  "race" : "floran",
+
+  "apexDescription" : "A decorative spear.",
+  "avianDescription" : "A sturdy weapon.",
+  "floranDescription" : "Floran display weapons that kill big prey.",
+  "glitchDescription" : "Impressed. Floran weaponry outclasses even that of the Glitch.",
+  "humanDescription" : "A spear. Nice.",
+  "hylotlDescription" : "Once again the Florans proudly display their barbarism.",
+
+  "inventoryIcon" : "huntingdisplay1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "huntingdisplay1.png:<color>",
+      "imagePosition" : [-28, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

@@ -9,7 +9,16 @@
   "shortdescription" : "Smooth Metal",
   "glitchDescription" : "Suave. Smooth as a Glitch.",
   "floranDescription" : "Sssmooth metal.",
-  "multicolored" : true,
   "footstepSound" : "/sfx/blocks/footstep_composite.wav",
-  "health" : 40
+  "health" : 40,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "smoothmetal.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
 }

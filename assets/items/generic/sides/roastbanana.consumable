@@ -1,0 +1,21 @@
+{
+  "itemName" : "roastbanana",
+  "rarity" : "Common",
+  "inventoryIcon" : "roastbanana.png",
+  "description" : "Not as tasty or filling as a battered banana, but undeniably better for you.",
+  "shortdescription" : "Roast Banana",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 50
+      },
+      {
+        "kind" : "health",
+        "amount" : 5
+      },
+      {
+        "kind" : "energy",
+        "amount" : 10
+      }
+    ] ]
+}

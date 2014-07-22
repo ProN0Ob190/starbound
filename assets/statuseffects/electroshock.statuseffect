@@ -1,0 +1,11 @@
+{
+  "kind" : "electroshock",
+  "tooltipLabel" : "ElectroDamage(%)",
+  "tooltipAmountLabel" : "%amount%",
+  "mainInterfaceIcon" : "/interface/statuses/electric.png",
+  "primitives" : [
+    { "name" : "directdamage", "value" : 1 }
+  ],
+  "damageKind" : "electroshock",
+  "effectSources" : [ ]
+}

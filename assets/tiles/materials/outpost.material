@@ -1,0 +1,174 @@
+{
+  "materialId" : 266,
+  "materialName" : "outpost",
+  "frames" : "outposthorizontal.png",
+  "particleColor" : [194, 194, 194, 255],
+  "variants" : 1,
+  "itemDrop" : "outpost",
+  "shortdescription" : "Outpost Wall",
+  "description" : "An outpost wall.",
+  "glitchDescription" : "Statement. A wall.",
+  "floranDescription" : "Wall!",
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.wav",
+  "health" : 10,
+  "neighborAwareRendering" : {
+    "legend" : {
+      "3" : {
+        "type" : "AtLeast",
+        "count" : 3
+      },
+      "A" : {
+        "type" : "Any"
+      }
+    },
+    "filters" : [
+      {
+        "texture" : "outpostno.png",
+        "neighbors" : [
+          [ "0", "0", "0" ],
+          [ "0", "S", "0" ],
+          [ "0", "0", "0" ]
+        ]
+      },
+      {
+        "texture" : "outpostNSEW.png",
+        "neighbors" : [
+          [ "X", "1", "X" ],
+          [ "1", "S", "1" ],
+          [ "X", "1", "X" ]
+        ]
+      },
+      {
+        "texture" : "outpostNSE.png",
+        "neighbors" : [
+          [ "X", "1", "X" ],
+          [ "X", "S", "1" ],
+          [ "X", "1", "X" ]
+        ]
+      },
+      {
+        "texture" : "outpostNSW.png",
+        "neighbors" : [
+          [ "X", "1", "X" ],
+          [ "1", "S", "X" ],
+          [ "X", "1", "X" ]
+        ]
+      },
+      {
+        "texture" : "outpostNEW.png",
+        "neighbors" : [
+          [ "X", "1", "X" ],
+          [ "1", "S", "1" ],
+          [ "X", "X", "X" ]
+        ]
+      },
+      {
+        "texture" : "outpostSEW.png",
+        "neighbors" : [
+          [ "X", "X", "X" ],
+          [ "1", "S", "1" ],
+          [ "X", "1", "X" ]
+        ]
+      },
+      {
+        "texture" : "outpostNE.png",
+        "neighbors" : [
+          [ "1", "X" ],
+          [ "S", "1" ]
+        ]
+      },
+      {
+        "texture" : "outpostNW.png",
+        "neighbors" : [
+          [ "X", "1" ],
+          [ "1", "S" ]
+        ]
+      },
+      {
+        "texture" : "outpostSW.png",
+        "neighbors" : [
+          [ "1", "S" ],
+          [ "X", "1" ]
+        ]
+      },
+      {
+        "texture" : "outpostSE.png",
+        "neighbors" : [
+          [ "S", "1" ],
+          [ "1", "X" ]
+        ]
+      },
+      {
+        "texture" : "outpostN.png",
+        "neighbors" : [
+          [ "0" ],
+          [ "S" ],
+          [ "1" ]
+        ]
+      },
+      {
+        "texture" : "outpostS.png",
+        "neighbors" : [
+          [ "1" ],
+          [ "S" ],
+          [ "0" ]
+        ]
+      },
+      {
+        "texture" : "outpostvertical.png",
+        "neighbors" : [
+          [ "A" ],
+          [ "S" ],
+          [ "A" ]
+        ]
+      },
+      {
+        "texture" : "outpostE.png",
+        "neighbors" : [
+          [ "0", "S", "1" ]
+        ]
+      },
+      {
+        "texture" : "outpostW.png",
+        "neighbors" : [
+          [ "1", "S", "0" ]
+        ]
+      },
+      {
+        "texture" : "outposthorizontal.png",
+        "neighbors" : [
+          [ "A", "S", "A" ]
+        ]
+      },
+      {
+        "texture" : "outpostcornermissing.png",
+        "neighbors" : [
+          [ "s", "1" ],
+          [ "1", "0" ]
+        ]
+      },
+      {
+        "texture" : "outpostcornermissing.png",
+        "neighbors" : [
+          [ "0", "1" ],
+          [ "1", "s" ]
+        ]
+      },
+      {
+        "texture" : "outpostcornermissing.png",
+        "neighbors" : [
+          [ "1", "s" ],
+          [ "0", "1" ]
+        ]
+      },
+      {
+        "texture" : "outpostcornermissing.png",
+        "neighbors" : [
+          [ "1", "0" ],
+          [ "s", "1" ]
+        ]
+}
+    ]
+  }
+}

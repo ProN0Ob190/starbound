@@ -1,0 +1,12 @@
+{
+  "itemName" : "drysand",
+  "rarity" : "Common",
+  "inventoryIcon" : "drysand.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Hard, cracked sand that shatters underfoot.",
+  "shortdescription" : "Dry Sand",
+  "glitchdescription" : "Statement. Sand.",
+  "florandescription" : "Sssandy sand.",
+
+  "materialId" : 44
+}

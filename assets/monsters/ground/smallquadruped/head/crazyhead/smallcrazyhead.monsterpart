@@ -1,0 +1,20 @@
+{
+  "name" : "smallcrazyhead",
+  "category" : "smallquadruped",
+  "type" : "head",
+
+
+  "frames" : {
+    "head" : "smallcrazyhead.png"
+  },
+
+  "parameters" :
+  {
+    "projectileSourcePosition" : [1, -1.25],
+    // "idleNoise" : [ "/sfx/npc/smallbiped/crazyhead_small_idle1.wav", "/sfx/npc/smallbiped/crazyhead_small_idle2.wav" ],
+    "turnHostileNoise" : [ "/sfx/npc/monsters/monster_surprise.wav" ],
+    // "attackNoise" : [ "/sfx/npc/smallbiped/crazyhead_small_attack1.wav", "/sfx/npc/smallbiped/crazyhead_small_attack2.wav" ],
+    // "painNoise" : [ "/sfx/npc/smallbiped/crazyhead_small_pain1.wav", "/sfx/npc/smallbiped/crazyhead_small_pain2.wav" ],
+    "deathNoise" : [ "/sfx/npc/enemydeathpuff.wav" ]
+  }
+}

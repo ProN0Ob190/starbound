@@ -1,0 +1,21 @@
+{
+  "itemName" : "fishinabone",
+  "rarity" : "Common",
+  "inventoryIcon" : "fishinabone.png",
+  "description" : "A whole fish shoved haphazardly inside a boneboo.",
+  "shortdescription" : "Fish in a Bone",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 65
+      },
+      {
+        "kind" : "health",
+        "amount" : 10
+      },
+      {
+        "kind" : "energy",
+        "amount" : 10
+      }
+    ] ]
+}

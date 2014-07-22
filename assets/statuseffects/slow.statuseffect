@@ -1,0 +1,10 @@
+{
+  "kind" : "slow",
+  "duration" : 2.5,
+  "primitives" : [
+    { "name" : "groundmovementmodifier", "mode" : "min", "amount" : -0.9 },
+    { "name" : "jumpboost", "mode" : "min", "amount" : -0.4 },
+    { "name" : "glide", "mode" : "min", "amount" : -0.2 }
+  ],
+  "effectSources" : [ "slow" ]
+}

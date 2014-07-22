@@ -1,0 +1,10 @@
+{
+  "codexId" : "castleking03",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "glitchcastlebook_03.png",
+  "itemName" : "castleking03Codex",
+  "rarity" : "common",
+  "description" : "The Would-Be King #3",
+  "shortdescription" : "The Would-Be King"
+}

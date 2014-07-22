@@ -1,0 +1,30 @@
+{
+  "objectName" : "huntingpike3",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 1500,
+  "description" : "A skull on a spike. A Floran favourite.",
+  "shortdescription" : "Skull on a Spike",
+  "race" : "floran",
+
+  "apexDescription" : "Big Ape once adopted similar methods of intimidation.",
+  "avianDescription" : "A skull on a spike. Reminds me of the Stargazers.",
+  "floranDescription" : "Hello boneman. Floran miss you.",
+  "glitchDescription" : "Analysis. This is a Hylotl skull.",
+  "humanDescription" : "Chilling. A skull on a spike.",
+  "hylotlDescription" : "The Florans revel in death. They should be eradicated.",
+
+  "inventoryIcon" : "huntingpike3icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "huntingpike3.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

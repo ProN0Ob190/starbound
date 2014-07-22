@@ -1,9 +1,15 @@
 {
   "modId" : 6,
   "modName" : "bone",
-  "frames" : "bone.png",
-  "variants" : 5,
   "Description" : "Yuck, crushed bones!",
   "footstepSound" : "/sfx/blocks/footstep_gravel.wav",
-  "health" : 0
+  "health" : 0,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "bone.png",
+    "variants" : 5,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
 }

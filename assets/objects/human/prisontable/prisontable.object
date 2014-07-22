@@ -1,0 +1,31 @@
+{
+  "objectName" : "prisontable",
+  "rarity" : "Common",
+  "description" : "Just a typical cafeteria table.",
+  "shortdescription" : "Cafeteria Table",
+  "race" : "human",
+  "category" : "furniture",
+  "price" : 600,
+
+  "apexDescription" : "A table.",
+  "avianDescription" : "An unremarkable table.",
+  "floranDescription" : "Table for ssslicing.",
+  "glitchDescription" : "Statement. A regular table.",
+  "humanDescription" : "A normal table.",
+  "hylotlDescription" : "A table, no class or craftsmanship on display.",
+
+  "inventoryIcon" : "prisontableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "prisontable.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "itemName" : "medkit",
+  "rarity" : "Common",
+  "inventoryIcon" : "medkit.png",
+  "description" : "A med kit. For when you absolutely, positively have to be 100% healthy.",
+  "shortdescription" : "Medical Kit",
+  "effects" : [ [
+      {
+        "kind" : "health",
+        "amount" : 25
+      }
+    ] ],
+  "emote" : ""
+}

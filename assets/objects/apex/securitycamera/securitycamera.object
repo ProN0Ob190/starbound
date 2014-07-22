@@ -1,0 +1,62 @@
+{
+  "objectName" : "apexsecuritycamera",
+  "rarity" : "Common",
+
+  "category" : "wire",
+  "price" : 2000,
+  "description" : "The finest security camera the Apex labs have to offer.",
+  "shortdescription" : "Apex Security Camera",
+  "race" : "apex",
+
+  "apexDescription" : "Always watchful.",
+  "avianDescription" : "Must move like the wind to remain unseen.",
+  "floranDescription" : "Sssuch bright lasersss.",
+  "glitchDescription" : "Care. Must not disrupt my brother in his vigilance.",
+  "humanDescription" : "An automated security camera.",
+  "hylotlDescription" : "A mere laser could not penetrate depths of the ocean.",
+
+  "inventoryIcon" : "securitycameraicon.png",
+  "orientations" : [
+    {
+      "image" : "securitycamera.png:idle",
+      "spaces" : [
+        [0, 0], [1, 0], [2, 0], [3, 0],
+        [0, 1], [1, 1], [2, 1], [3, 1],
+        [0, 2], [1, 2]
+      ],
+      "anchors" : [ "left" ],
+      "direction" : "right",
+      "animationParts" : {
+        "camera" : "securitycamera.png",
+        "bracket" : "securitycamera.png"
+      }
+    }
+  ],
+
+  "scripts" : [
+    "/objects/apex/securitycamera/securitycamera.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua"
+  ],
+
+  "damageTeam" : {
+    "type" : "passive"
+  },
+
+  "scriptDelta" : 5,
+
+  "animation" : "securitycamera.animation",
+
+  "outboundNodes" : [ [0, 0] ],
+
+  "rotationTime" : 2.5,
+  "rotationRange" : [0, 60],
+  "rotationPauseTime" : 0.5,
+
+  "maxLaserLength" : 10,
+
+  "baseOffset" : [1.625, 0.9375],
+  "tipOffset" : [3.375, 0.875]
+
+}

@@ -1,0 +1,17 @@
+{
+  "name" : "asteroids",
+  "friendlyName" : "Asteroids",
+  "requiredStatuses" : [ "beamaxe" ],
+  "spawnProfiles" : [ "loworbit" ],
+
+  "mainBlock" : "meteoriterock",
+  "ores" : "plutoniumBasicLeveledOres",
+
+  "hueShiftOptions" : [0],
+
+  "statusParameters" : {
+    "temperatureBounds" : [-200, -100],
+    "dayNightTemperatureVariability" : 0,
+    "temperatureVariability" : 0
+  }
+}

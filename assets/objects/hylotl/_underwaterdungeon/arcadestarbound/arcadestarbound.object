@@ -1,0 +1,33 @@
+{
+  "objectName" : "arcadestarbound",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 2000,
+  "lightColor" : [150, 215, 235],
+
+  "description" : "A Starbound arcade machine. How meta.",
+  "shortdescription" : "Starbound Arcade Machine",
+  "race" : "hylotl",
+
+  "apexDescription" : "A game called Starbound. Sounds fun!",
+  "avianDescription" : "Never heard of this Starbound game. And yet...",
+  "floranDescription" : "Ssstarbound beepy game. Floran get achievement for sssmashing fourth wall.",
+  "glitchDescription" : "Determined. I will set the high score on this new Starbound videogame.",
+  "humanDescription" : "Starbound? I wonder what score this has on Metacritic.",
+  "hylotlDescription" : "Some kind of quaint, simple game called Starbound. How adorable.",
+
+  "inventoryIcon" : "arcadestarboundicon.png",
+  "orientations" : [
+    {
+      "leftImage" : "arcadestarboundleft.png:<color>.<frame>",
+      "rightImage" : "arcadestarboundright.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "frames" : 2,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

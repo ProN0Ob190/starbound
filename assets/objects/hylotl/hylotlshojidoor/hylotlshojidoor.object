@@ -1,0 +1,43 @@
+{
+  "objectName" : "hylotlshojidoor",
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 750,
+  "description" : "A shoji screen door.",
+  "shortdescription" : "Traditional Shoji Door",
+  "race" : "hylotl",
+
+  "apexDescription" : "A simple door. Serves its purpose.",
+  "avianDescription" : "A decent door that lets plenty of light in.",
+  "floranDescription" : "Once, Floran fall through door like thisss.",
+  "glitchDescription" : "Critical. This door is simply perfect if you abhor privacy.",
+  "humanDescription" : "A flimsy door. Not much good at keeping anything out.",
+  "hylotlDescription" : "The contours and construction of this door allow for a perfectly smooth opening motion.",
+
+  "inventoryIcon" : "hylotlshojidooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "hylotlshojidoor.png:default",
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationParts" : {
+    "door" : "hylotlshojidoor.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "inboundNodes" : [ [0, 4] ],
+  "outboundNodes" : [ [0, 0] ],
+
+  "openSounds" : [ "/sfx/objects/wooddoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/wooddoor_close.wav" ]
+}

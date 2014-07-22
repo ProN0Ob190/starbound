@@ -1,0 +1,37 @@
+{
+  "objectName" : "huntingbench",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 1500,
+  "description" : "A Floran hunting bench. It's had a lot of use.",
+  "shortdescription" : "Hunting Bench",
+  "race" : "floran",
+
+  "apexDescription" : "How many kills have been carved up by a Floran sat here?",
+  "avianDescription" : "A sturdy Floran bench.",
+  "floranDescription" : "Hunting bench. Cut cut ssstab sssit here.",
+  "glitchDescription" : "Studying. Signs indicate this bench is stained with the blood of over three thousand different species.",
+  "humanDescription" : "Cool, a bench. Looks bloody.",
+  "hylotlDescription" : "A bench used by the Floran to rest in between hunts.",
+
+
+  "inventoryIcon" : "huntingbenchicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "huntingbench.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [5, 22]
+
+}

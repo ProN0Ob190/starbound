@@ -1,0 +1,57 @@
+{
+  "objectName" : "classicbed",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 2000,
+  "description" : "A beautiful bed of rich wood and silks.",
+  "shortdescription" : "Classic Bed",
+  "race" : "apex",
+
+  "apexDescription" : "Is this how the Miniknog sleep?",
+  "avianDescription" : "I haven't seen anything as comfortable since I left the nest.",
+  "floranDescription" : "Sssilky sssoftness.",
+  "glitchDescription" : "Pampered. This bed does wonderful things to my sensors.",
+  "humanDescription" : "Wow, what a bed. I'm tempted to fall asleep right now.",
+  "hylotlDescription" : "Such finery, but no match for Hylotl craftsmanship.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/apex/classicbed/classicbedcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    { "kind" : "Nude" },
+    { "kind" : "Health", "amount" : 0.06 }
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "classicbedicon.png",
+  "orientations" : [
+    {
+      "image" : "classicbed.png:<color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+	  "flipImages" : true,
+	  "direction" : "left",
+	  "sitPosition" : [-7, 14.5],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+	{
+      "image" : "classicbed.png:<color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+	  "direction" : "right",
+	  "sitPosition" : [-7, 14.5],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

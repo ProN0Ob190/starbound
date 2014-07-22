@@ -2,8 +2,6 @@
   "materialId" : 42,
   "materialName" : "slime",
   "particleColor" : [124, 145, 86, 255],
-  "frames" : "slime.png",
-  "variants" : 5,
   "itemDrop" : "slime",
   "description" : "A thick mucus. It's tempting to poke it.",
   "shortdescription" : "Slime Block",
@@ -11,5 +9,15 @@
   "floranDescription" : "Ssslimy!",
   "footstepSound" : "/sfx/blocks/footstep_brains.wav",
   "health" : 2,
-  "soil" : true
+  "soil" : true,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "slime.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
 }

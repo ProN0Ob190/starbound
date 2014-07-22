@@ -1,0 +1,31 @@
+{
+  "objectName" : "poisonsign",
+  "rarity" : "Common",
+  "description" : "I get an ominous feeling looking at this sign.",
+  "shortdescription" : "Poison Sign",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 250,
+
+  "apexDescription" : "Poison.",
+  "avianDescription" : "Poison.",
+  "floranDescription" : "It sssay, tasssty!",
+  "glitchDescription" : "Concern. Poison ahead.",
+  "humanDescription" : "Cool! Poison.",
+  "hylotlDescription" : "Poison.",
+
+  "inventoryIcon" : "poisonsignicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "poisonsign.png:default",
+
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

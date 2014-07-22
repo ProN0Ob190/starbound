@@ -1,0 +1,36 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "skyrail" : {
+        "default" : "off",
+        "states" : {
+          "off" : { },
+          "on" : {
+            "frames" : 4,
+            "cycle" : 0.4,
+            "mode" : "loop"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "raileffect" : {
+        "properties" : {
+          "centered" : true,
+          "offset" : [0, 1.5]
+        },
+
+        "partStates" : {
+          "skyrail" : {
+            "on" : {
+              "properties" : {
+                "image" : "raileffect.png:<frameIndex>"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "itemName" : "stoneplatform",
+  // "twoHanded" : false,
+  "rarity" : "Common",
+  "inventoryIcon" : "stoneplatform.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A natural stone platform.",
+  "shortdescription" : "Stone Platform",
+  "glitchdescription" : "Statement. A natural stone platform.",
+  "florandescription" : "Ssstone to ssstand on.",
+
+  "materialId" : 125
+}

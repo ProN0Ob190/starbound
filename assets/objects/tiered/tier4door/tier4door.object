@@ -1,0 +1,44 @@
+{
+  "objectName" : "tier4door",
+  "printable" : false,
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 500,
+  "description" : "A secure durasteel door.",
+  "shortdescription" : "Durasteel Door",
+  "race" : "generic",
+
+  "apexDescription" : "This door is rather secure.",
+  "avianDescription" : "Very sturdy for a basic door.",
+  "floranDescription" : "Floran hide behind door. Jump out. Ssstab!",
+  "glitchDescription" : "Approving. A useful door.",
+  "humanDescription" : "A sturdy durasteel door.",
+  "hylotlDescription" : "A robust durasteel door.",
+
+  "inventoryIcon" : "tier4dooricon.png",
+  "orientations" : [
+    {
+      "image" : "tier4door.png:default",
+      "imagePosition" : [-20, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationParts" : {
+    "door" : "tier4door.png"
+  },
+  "animationPosition" : [-20, 0],
+
+  "inboundNodes" : [ [-1, 4] ],
+  "outboundNodes" : [ [0, 0] ],
+
+  "openSounds" : [ "/sfx/objects/bardoor2_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/bardoor2_close.wav" ]
+}

@@ -1,0 +1,22 @@
+{
+  "itemName" : "avesmingoicecream",
+  "rarity" : "Common",
+  "inventoryIcon" : "avesmingoicecream.png",
+  "description" : "Avesmingos can taste like anything! For better or worse, so can this ice cream.",
+  "shortdescription" : "Avesmingo Ice Cream",
+  "handPosition" : [2, 2],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 100
+      },
+      {
+        "kind" : "mollyhealing3" },
+      {
+        "kind" : "energy",
+        "amount" : 50
+      },
+      {
+        "kind" : "doping" }
+    ] ]
+}

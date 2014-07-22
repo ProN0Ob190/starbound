@@ -1,0 +1,22 @@
+{
+  "materialId" : 184,
+  "materialName" : "ancientbrick",
+  "particleColor" : [71, 66, 57, 255],
+  "itemDrop" : "ancientbrick",
+  "description" : "An ancient brick.",
+  "shortdescription" : "Ancient Brick",
+  "glitchDescription" : "Statement. An ancient block.",
+  "floranDescription" : "Brick.",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.wav",
+  "health" : 30,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "ancientbrick.png",
+    "variants" : 10,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
+}

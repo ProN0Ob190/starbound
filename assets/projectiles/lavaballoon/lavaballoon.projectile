@@ -1,0 +1,10 @@
+{
+  "projectileName" : "lavaballoon",
+  "physics" : "grenade",
+  "frames" : "lavaballoon.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 2,
+
+  "actionOnReap" : [ { "action" : "liquid", "liquidId" : 3, "quantity" : 1000 } ],
+  "damageKind" : "default"
+}

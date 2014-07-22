@@ -1,9 +1,7 @@
 {
   "materialId" : 130,
   "materialName" : "iceblock",
-  "frames" : "iceblock.png",
   "particleColor" : [145, 186, 233, 255],
-  "variants" : 5,
   "itemDrop" : "iceblock",
   "shortdescription" : "Ice Block",
   "description" : "A solid ice block.",
@@ -11,5 +9,15 @@
   "floranDescription" : "Ice. Sssmooth to the touch.",
   "footstepSound" : "/sfx/blocks/footstep_ice.wav",
   "health" : 9.5,
-  "damageTable" : "/tiles/flammableDamage.config"
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "iceblock.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
 }

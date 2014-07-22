@@ -1,0 +1,12 @@
+{
+  "itemName" : "ancientblock",
+  "rarity" : "Common",
+  "inventoryIcon" : "ancientblock.png",
+  "dropCollision" : [71, 66, 57, 255],
+  "description" : "These bricks have certainly survived the test of time.",
+  "shortdescription" : "Ancient Block",
+  "glitchdescription" : "An ancient block.",
+  "florandescription" : "Ancient blocksss.",
+
+  "materialId" : 186
+}

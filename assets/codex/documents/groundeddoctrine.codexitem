@@ -1,0 +1,10 @@
+{
+  "codexId" : "groundeddoctrine",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "avianvillagebook_02.png",
+  "itemName" : "groundeddoctrineCodex",
+  "rarity" : "common",
+  "description" : "A Doctrine of the Grounded",
+  "shortdescription" : "Grounded Doctrine"
+}

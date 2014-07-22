@@ -1,0 +1,13 @@
+{
+  "itemName" : "ancientplatform",
+  // "twoHanded" : false,
+  "rarity" : "Common",
+  "inventoryIcon" : "ancientplatform.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "An ancient platform made up of some kind of technological rock.",
+  "shortdescription" : "Ancient Platform",
+  "glitchdescription" : "An ancient platform made up of some kind of technological rock.",
+  "florandescription" : "An ancient platform made up of some kind of technological rock.",
+
+  "materialId" : 189
+}

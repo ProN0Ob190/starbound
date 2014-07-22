@@ -1,0 +1,40 @@
+{
+  "objectName" : "planturn1",
+  "rarity" : "Common",
+  "category" : "pot",
+  "price" : 750,
+  "description" : "An urn. Adorably smashable.",
+  "shortdescription" : "An Urn",
+  "race" : "floran",
+
+  "apexDescription" : "An urn.",
+  "avianDescription" : "An urn.",
+  "floranDescription" : "Sssmash all the urns.",
+  "glitchDescription" : "Philosophical. Is the urn half full, or half empty?",
+  "humanDescription" : "An urn.",
+  "hylotlDescription" : "An urn.",
+
+  "inventoryIcon" : "planturn1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "planturn1.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+
+  "smashSounds" : [ "/sfx/objects/pot_break_medium1.wav", "/sfx/objects/pot_break_medium2.wav" ],
+
+  "smashDropOptions" : [
+    [ [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ] ]
+  ],
+  "breakDropOptions" : [
+    [ [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ] ]
+  ]
+}

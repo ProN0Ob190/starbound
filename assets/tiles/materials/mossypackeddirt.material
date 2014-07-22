@@ -1,15 +1,22 @@
 {
   "materialId" : 135,
   "materialName" : "mossypackeddirt",
-  "frames" : "mossypackeddirt.png",
   "particleColor" : [143, 110, 61, 255],
-  "variants" : 5,
   "itemDrop" : "mossypackeddirt",
   "shortdescription" : "Packed Dirt",
   "glitchDescription" : "Statement. Mossy dirt.",
   "floranDescription" : "Fluffy dirt.",
   "description" : "Packed dirt, covered in moss.",
-  "multicolored" : false,
   "footstepSound" : "/sfx/blocks/footstep_stone2.wav",
-  "health" : 7
+  "health" : 7,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "mossypackeddirt.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
 }

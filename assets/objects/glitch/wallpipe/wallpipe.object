@@ -1,0 +1,27 @@
+{
+  "objectName" : "wallpipe",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 500,
+  "description" : "A sewer pipe. Watch out for clowns.",
+  "shortdescription" : "Wall Pipe",
+  "race" : "glitch",
+
+  "apexDescription" : "A pipe.",
+  "avianDescription" : "A pipe.",
+  "floranDescription" : "A pipe.",
+  "glitchDescription" : "Statement. A pipe.",
+  "humanDescription" : "A pipe.",
+  "hylotlDescription" : "A pipe.",
+
+  "inventoryIcon" : "wallpipeicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "wallpipe.png:default",
+      "imagePosition" : [-12, -14],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

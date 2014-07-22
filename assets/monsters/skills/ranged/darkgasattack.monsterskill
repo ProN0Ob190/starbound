@@ -1,0 +1,17 @@
+{
+  "name" : "darkGasAttack",
+  "label" : "SHADOWY VAPORS",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "darkGasAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "darkgas",
+      "range" : 8,
+      "speed" :16,
+      "power" : 14,
+      "shots" : 8,
+      "fireInterval" : 0.15
+    }
+  }
+}

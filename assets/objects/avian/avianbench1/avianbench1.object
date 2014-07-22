@@ -1,0 +1,47 @@
+{
+  "objectName" : "avianbench1",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 800,
+  "description" : "A beautiful rustic bench.",
+  "shortdescription" : "Avian Bench",
+  "race" : "avian",
+
+  "apexDescription" : "This Avian bench suggests an appreciation of the natural over the grand.",
+  "avianDescription" : "A beautiful little bench. The grounded take great joy in building their furniture themselves.",
+  "floranDescription" : "Bench ssmell of good wood, well grown.",
+  "glitchDescription" : "Charmed. A hand-made bench.",
+  "humanDescription" : "This looks hand-crafted. Very charming.",
+  "hylotlDescription" : "A charming bench, though its creator lacks skill.",
+
+  "inventoryIcon" : "avianbench1icon.png",
+  "orientations" : [
+    {
+      "image" : "avianbench1.png:<color>",
+      "imagePosition" : [-20, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "flipImages" : true,
+	  "direction" : "left",
+      "sitPosition" : [0, 22]
+    },
+	{
+      "image" : "avianbench1.png:<color>",
+      "imagePosition" : [-20, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "direction" : "right",
+      "sitPosition" : [0, 22]
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false
+
+}

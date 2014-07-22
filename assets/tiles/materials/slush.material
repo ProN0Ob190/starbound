@@ -1,9 +1,7 @@
 {
   "materialId" : 31,
   "materialName" : "slush",
-  "frames" : "slush.png",
   "particleColor" : [214, 242, 251, 255],
-  "variants" : 5,
   "itemDrop" : "slush",
   "shortdescription" : "Slush",
   "description" : "Melting ice makes a thick slush.",
@@ -11,5 +9,15 @@
   "floranDescription" : "Ssslushy.",
   "footstepSound" : "/sfx/blocks/footstep_slush.wav",
   "health" : 1.5,
-  "damageTable" : "/tiles/flammableDamage.config"
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "slush.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
 }

@@ -10,5 +10,15 @@
   "glitchDescription" : "Statement. Rock.",
   "floranDescription" : "Rocksss.",
   "footstepSound" : "/sfx/blocks/footstep_stone.wav",
-  "health" : 12
+  "health" : 12,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rock01.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
 }

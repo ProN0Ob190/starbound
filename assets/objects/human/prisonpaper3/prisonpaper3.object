@@ -1,0 +1,31 @@
+{
+  "objectName" : "prisonpaper3",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 100,
+
+  "description" : "'Inmate #2162's Study Group for Criminals Who Can't Read Good'",
+  "shortdescription" : "Event Memo",
+  "race" : "human",
+
+  "apexDescription" : "It appears prisoners were allowed to get an education, something the Miniknog specifically forbid.",
+  "avianDescription" : "It's nice to see prisoners trying to better themselves.",
+  "floranDescription" : "Floran can't read good. Floran not underssstand thisss.",
+  "glitchDescription" : "Optimistic. The concept of prisoners learning skills while locked up feels me with positivity.",
+  "humanDescription" : "If I'd known prison could be educational, I'd have gone to jail instead of school.",
+  "hylotlDescription" : "Encouraging prisoners to learn is something all cultures should be doing.",
+
+  "inventoryIcon" : "prisonpaper3icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "prisonpaper3.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

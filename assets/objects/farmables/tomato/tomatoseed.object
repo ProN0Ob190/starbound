@@ -1,0 +1,83 @@
+{
+  "objectName" : "tomatoseed",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "A ripe, juicy tomato.",
+  "shortdescription" : "Tomato Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 142,
+
+  "apexDescription" : "A tomato. Juicy.",
+  "avianDescription" : "Tomato seeds can improve many a dish.",
+  "floranDescription" : "Blood red and bursssty.",
+  "glitchDescription" : "Mischievous. Rotten tomatoes make for good projectiles.",
+  "humanDescription" : "Tomatoes. Perfect for a healthy salad... or better yet, a pizza.",
+  "hylotlDescription" : "Tomatoes. Acceptable, if unremarkable.",
+
+  "inventoryIcon" : "tomatoseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "tomatoseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "tomato",
+            "count" : 1
+          },
+          {
+            "name" : "tomatoseed",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "tomato",
+            "count" : 1
+          },
+          {
+            "name" : "plantfibre",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "tomato",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [570, 570],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [570, 570],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

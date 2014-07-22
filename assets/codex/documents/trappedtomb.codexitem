@@ -1,0 +1,10 @@
+{
+  "codexId" : "trappedtomb",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "aviantombbook_12.png",
+  "itemName" : "trappedtombCodex",
+  "rarity" : "common",
+  "description" : "Trapped in a Tomb",
+  "shortdescription" : "Trapped in a Tomb"
+}

@@ -1,0 +1,22 @@
+{
+  "materialId" : 41,
+  "materialName" : "hive",
+  "particleColor" : [13, 39, 7, 255],
+  "itemDrop" : "hive",
+  "description" : "A solid material made from the remains of fallen creatures... I think I see an eyeball.",
+  "shortdescription" : "Hivestone",
+  "glitchDescription" : "Analysis. This material is made up of crushed creatures.",
+  "floranDescription" : "Crussshed animals.",
+  "footstepSound" : "/sfx/blocks/footstep_gravel.wav",
+  "health" : 20,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "hive.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

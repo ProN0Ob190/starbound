@@ -1,0 +1,10 @@
+{
+  "codexId" : "huntart03",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "floranhuntinggroundsbook_03.png",
+  "itemName" : "huntart03Codex",
+  "rarity" : "common",
+  "description" : "Excerpt #3 from The Art of Stabbing",
+  "shortdescription" : "Art of Stabbing"
+}

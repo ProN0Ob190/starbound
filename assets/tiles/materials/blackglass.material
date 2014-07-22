@@ -1,15 +1,22 @@
 {
   "materialId" : 110,
   "materialName" : "blackglass",
-  "frames" : "blackglass.png",
   "particleColor" : [25, 25, 25, 255],
-  "variants" : 1,
   "itemDrop" : "blackglass",
   "description" : "A dark-tinted glass material.",
   "shortdescription" : "Black Glass",
   "glitchDescription" : "Statement. Black glass.",
   "floranDescription" : "Floran see Floran in black glass.",
-  "multicolored" : true,
   "footstepSound" : "/sfx/blocks/footstep_glass.wav",
-  "health" : 4
+  "health" : 4,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "blackglass.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
 }

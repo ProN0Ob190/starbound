@@ -1,0 +1,19 @@
+{
+  "itemName" : "fishfingers",
+  "rarity" : "Common",
+  "inventoryIcon" : "fishfingers.png",
+  "description" : "Tasty fried fish in stick form. Where's the custard?",
+  "shortdescription" : "Fish Fingers",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 100
+      },
+      {
+        "kind" : "mollyhealing3" },
+      {
+        "kind" : "energy",
+        "amount" : 15
+      }
+    ] ]
+}

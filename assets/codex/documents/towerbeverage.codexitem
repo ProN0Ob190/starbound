@@ -1,0 +1,10 @@
+{
+  "codexId" : "towerbeverage",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "aviantowerbook_11.png",
+  "itemName" : "towerbeverage",
+  "rarity" : "common",
+  "description" : "A Tasty Beverage",
+  "shortdescription" : "Tasty Beverage"
+}

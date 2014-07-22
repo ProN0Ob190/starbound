@@ -1,0 +1,12 @@
+{
+  "name" : "largeClumps",
+  "size" : 425,
+  "noise" : 4.0,
+  "frequency" : 0.7,
+
+  "magic1" : 200,
+  "magic2" : 30,
+  "magic3" : 15,
+  "magic4" : 40,
+  "magic5" : 80
+}

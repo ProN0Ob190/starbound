@@ -1,15 +1,22 @@
 {
   "materialId" : 54,
   "materialName" : "aztectech",
-  "frames" : "aztectech.png",
   "particleColor" : [218, 199, 130, 255],
-  "variants" : 25,
   "itemDrop" : "aztectech",
   "shortdescription" : "Avian Tech Block",
   "description" : "An advanced synthetic Avian material. Its markings are printed on.",
   "glitchDescription" : "Cryptography. I do not know what these glyphs say.",
   "floranDescription" : "Floran not can read this.",
-  "multicolored" : true,
   "footstepSound" : "/sfx/blocks/footstep_stone.wav",
-  "health" : 30
+  "health" : 30,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "aztechtech.png",
+    "variants" : 25,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
 }

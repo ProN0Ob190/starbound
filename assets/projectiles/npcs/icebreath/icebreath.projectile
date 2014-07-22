@@ -1,0 +1,33 @@
+{
+  "projectileName" : "icebreath",
+  "frames" : "icebreath.png",
+  "physics" : "gas",
+  "animationCycle" : 0.1,
+  "frameNumber" : 8,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "timeToLive" : 0.1,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "icecloud",
+      "inheritDamageFactor" : 0.333,
+      "angleAdjust" : 25
+    },
+    {
+      "action" : "projectile",
+      "type" : "icecloud",
+      "inheritDamageFactor" : 0.333,
+      "angleAdjust" : -25
+    },
+    {
+      "action" : "projectile",
+      "type" : "icecloud",
+      "inheritDamageFactor" : 0.333,
+      "angleAdjust" : 0
+    }
+  ],
+  "power" : 5.0,
+  "damageType" : "hitTest",
+  "damageKind" : "default"
+}

@@ -1,14 +1,22 @@
 {
   "materialId" : 33,
   "materialName" : "goldblock",
-  "frames" : "goldblock.png",
   "particleColor" : [227, 174, 47, 255],
-  "variants" : 1,
   "itemDrop" : "goldblock",
   "description" : "A whole block of solid gold.",
   "shortdescription" : "Gold Block",
   "glitchDescription" : "Statement. A golden block.",
   "floranDescription" : "Ssshiny gold.",
   "footstepSound" : "/sfx/blocks/footstep_stone.wav",
-  "health" : 35
+  "health" : 35,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "goldblock.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
 }

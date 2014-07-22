@@ -1,8 +1,14 @@
 {
   "modId" : 13,
   "modName" : "aridgrass",
-  "frames" : "aridgrass.png",
-  "variants" : 5,
   "Description" : "Dry, crunchy grass.",
-  "health" : 0
+  "health" : 0,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "aridgrass.png",
+    "variants" : 5,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
 }

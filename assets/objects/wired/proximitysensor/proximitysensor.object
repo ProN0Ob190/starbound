@@ -1,0 +1,45 @@
+{
+  "objectName" : "proximitysensor",
+  "rarity" : "Common",
+
+  "category" : "wire",
+  "price" : 800,
+  "description" : "Watch your step!",
+  "shortdescription" : "Proximity Sensor",
+  "race" : "generic",
+
+  "apexDescription" : "-todo-",
+  "avianDescription" : "-todo-",
+  "floranDescription" : "-todo-",
+  "glitchDescription" : "Statement. A proximity sensor.",
+  "humanDescription" : "-todo-",
+  "hylotlDescription" : "-todo-",
+
+  "inventoryIcon" : "proximitysensoricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "proximitysensor.png:<color>.off",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/proximitysensor/proximitysensor.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switchtoggle.animation",
+  "animationParts" : {
+    "switch" : "proximitysensor.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "outboundNodes" : [ [0, 0] ],
+  
+  "interactive" : false,
+
+  "detectDuration" : 0.5,
+  "detectEntityTypes" : [ "creature" ],
+  "detectArea" : [ [-1, 0.5], [1, 0.5] ]
+}

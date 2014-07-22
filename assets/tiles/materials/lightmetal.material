@@ -1,0 +1,22 @@
+{
+  "materialId" : 102,
+  "materialName" : "lightmetal",
+  "particleColor" : [144, 158, 170, 255],
+  "itemDrop" : "lightmetal",
+  "shortdescription" : "Light Metal",
+  "description" : "A light metallic tile, perfect for a research laboratory.",
+  "glitchDescription" : "Statement. A light metal tile.",
+  "floranDescription" : "Not heavy metal.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "health" : 30,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "lightmetal.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

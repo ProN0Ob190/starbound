@@ -1,0 +1,12 @@
+{
+  "itemName" : "plantplatform",
+  "rarity" : "Common",
+  "inventoryIcon" : "plantplatform.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "The platform is slimy with moss and leaves. Best be careful not to slip!",
+  "shortdescription" : "Mossy Platform",
+  "glitchdescription" : "Statement. A slimy, mossy platform.",
+  "florandescription" : "Floran ssslide along ssslimy platform.",
+
+  "materialId" : 126
+}

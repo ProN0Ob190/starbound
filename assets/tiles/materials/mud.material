@@ -1,9 +1,7 @@
 {
   "materialId" : 53,
   "materialName" : "mud",
-  "frames" : "mud.png",
   "particleColor" : [127, 121, 102, 255],
-  "variants" : 5,
   "itemDrop" : "mud",
   "description" : "Thick and sticky mud.",
   "shortdescription" : "Mud",
@@ -12,5 +10,15 @@
   "footstepSound" : "/sfx/blocks/footstep_mud.wav",
   "tillableMod" : 31,
   "soil" : true,
-  "health" : 1
+  "health" : 1,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "mud.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
 }

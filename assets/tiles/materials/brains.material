@@ -1,9 +1,7 @@
 {
   "materialId" : 40,
   "materialName" : "brains",
-  "frames" : "brains.png",
   "particleColor" : [161, 129, 99, 255],
-  "variants" : 4,
   "itemDrop" : "brains",
   "description" : "Pulsating brain matter.. I wonder what it's thinking.",
   "shortdescription" : "Brains",
@@ -12,5 +10,15 @@
   "footstepSound" : "/sfx/blocks/footstep_brains.wav",
   "tillableMod" : 31,
   "soil" : true,
-  "health" : 1
+  "health" : 1,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "brains.png",
+    "variants" : 4,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
 }

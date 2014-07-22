@@ -1,0 +1,12 @@
+{
+  "frameGrid" : {
+    "size" : [57, 41],
+    "dimensions" : [8, 3],
+
+    "names" : [
+      [ "open.1", "open.2", "open.3", "open.4", "open.5", null, null, "idle" ],
+      [ "attack.1", "attack.2", "attack.3", "attack.4", "attack.5", "attack.6", "attack.7", "attack.8" ],
+      [ "move.1", "move.2", "move.3", "move.4", "move.5", "move.6", "move.7", "move.8" ]
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "objectName" : "porthole",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 300,
+
+  "shortdescription" : "Porthole",
+  "description" : "It's a round window.",
+  "race" : "hylotl",
+
+  "apexDescription" : "A porthole.",
+  "avianDescription" : "It's a porthole.",
+  "floranDescription" : "Round window.",
+  "glitchDescription" : "Indifferent. A porthole.",
+  "humanDescription" : "It's a porthole.",
+  "hylotlDescription" : "A round porthole.",
+
+  "inventoryIcon" : "portholeicon.png",
+  "orientations" : [
+    {
+      "image" : "porthole.png:<color>",
+      "imagePosition" : [-16, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

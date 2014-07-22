@@ -1,0 +1,21 @@
+{
+  "itemName" : "snowball",
+  "rarity" : "Common",
+  "inventoryIcon" : "snowballicon.png",
+  "image" : "snowballicon.png",
+  "shortdescription" : "snowball",
+  "description" : "A snowball. Begging to be thrown.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "snowball",
+  "projectileConfig" : {
+    "speed" : 30,
+    "level" : 10
+  }
+}
+

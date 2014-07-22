@@ -1,0 +1,33 @@
+{
+  "objectName" : "floranpodapex",
+  "rarity" : "Common",
+  "objectType" : "noisy",
+  "category" : "decorative",
+  "price" : 750,
+  "description" : "Looks like the Apex and the Agarans aren't compatible.",
+  "shortdescription" : "Trapped Apex Pod",
+  "race" : "floran",
+
+  "apexDescription" : "What in the... what horror befell this Apex?",
+  "avianDescription" : "What a tragic end.",
+  "floranDescription" : "Floran not want to talk about thisss.",
+  "glitchDescription" : "Puzzlement. This Apex is alive and well, and appears to have crawled in here by choice.",
+  "humanDescription" : "I think it's... still alive.",
+  "hylotlDescription" : "What a strange place for an Apex to hide.",
+
+  "inventoryIcon" : "floranpodapexicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "floranpodapex.png:<color>",
+      "imagePosition" : [-6, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "sounds" : [ "/sfx/humanoid/apexhurt_male3.wav" ]
+}

@@ -1,0 +1,21 @@
+{
+  "itemName" : "javelin",
+  "rarity" : "Common",
+  "inventoryIcon" : "javelinicon.png",
+  "image" : "javelin.png",
+  "shortdescription" : "Javelin",
+  "description" : "A sharp javelin.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "javelin",
+  "projectileConfig" : {
+    "speed" : 45,
+    "power" : 20
+  }
+}
+

@@ -1,0 +1,51 @@
+{
+  "objectName" : "apexcooldoor",
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 2000,
+  "description" : "This door is made of some sort of bulletproof material.",
+  "shortdescription" : "Apex Security Door",
+  "race" : "apex",
+
+  "apexDescription" : "This door looks strong enough to keep anything out... or everyone in.",
+  "avianDescription" : "A strong door. Not even the breeze could slip through.",
+  "floranDescription" : "Door of great ssstrength.",
+  "glitchDescription" : "Jealousy. Such strong materials.",
+  "humanDescription" : "A huge, heavy security door.",
+  "hylotlDescription" : "This looks strong enough to hold back the ocean.",
+
+  "inventoryIcon" : "apexcooldooricon.png",
+  "orientations" : [
+    {
+      "image" : "apexcooldoor.png:default",
+      "flipImages" : true,
+      "imagePosition" : [-20, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "direction" : "left"
+    },
+    {
+      "image" : "apexcooldoor.png:default",
+      "imagePosition" : [-20, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "direction" : "right"
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationParts" : {
+    "door" : "apexcooldoor.png"
+  },
+  "animationPosition" : [-20, 0],
+
+  "inboundNodes" : [ [-1, 4] ],
+  "outboundNodes" : [ [0, 0] ],
+
+  "openSounds" : [ "/sfx/objects/apexcooldoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/apexcooldoor_close.wav" ]
+}

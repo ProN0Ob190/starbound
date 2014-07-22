@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "oculemon", "count" : 1 },
+    { "item" : "eggshoot", "count" : 1 }
+  ],
+  "output" : { "item" : "eyebowls", "count" : 1 },
+  "groups" : [ "kitchen", "consumables", "side" ]
+}

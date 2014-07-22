@@ -1,0 +1,22 @@
+{
+  "materialId" : 24,
+  "materialName" : "mirror",
+  "particleColor" : [110, 110, 110, 255],
+  "itemDrop" : "mirror",
+  "description" : "A non-functioning mirror block!",
+  "shortdescription" : "Mirror Block",
+  "glitchDescription" : "Statement. A mirror block.",
+  "floranDescription" : "Ssshiny.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "health" : 4,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "mirror.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

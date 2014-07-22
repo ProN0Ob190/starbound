@@ -1,0 +1,13 @@
+{
+  "itemName" : "avesmingojuice",
+  "rarity" : "Common",
+  "inventoryIcon" : "avesmingojuice.png",
+  "description" : "A juice that can taste like anything!",
+  "shortdescription" : "Avesmingo Juice",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 5
+      }
+    ] ]
+}

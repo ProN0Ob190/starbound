@@ -1,0 +1,17 @@
+{
+  "modId" : 30,
+  "modName" : "solarium",
+  "itemDrop" : "solariumore",
+  "Description" : "Solarium.",
+  "health" : 20,
+  "harvestLevel" : 6,
+  "breaksWithTile" : true,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "solarium.png",
+    "variants" : 8,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

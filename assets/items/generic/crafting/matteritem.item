@@ -1,0 +1,13 @@
+{
+  "itemName" : "matteritem",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "matteritem.png",
+  "description" : "A matter block. A block that matters.",
+  "shortdescription" : "Matter Block",
+  "glitchdescription" : "Statement. A matter block.",
+  "florandescription" : "Matter block!",
+
+  "learnBlueprintsOnPickup" : [
+    "bonusarmorhead", "bonusarmorpants", "bonusarmorchest"
+  ]
+}

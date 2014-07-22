@@ -1,0 +1,21 @@
+{
+  "itemName" : "cornontheblob",
+  "rarity" : "Common",
+  "inventoryIcon" : "cornontheblob.png",
+  "description" : "Your standard ear of sweetcorn, but with dirturchin spread on top. Mmm!",
+  "shortdescription" : "Corn on the Blob",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 70
+      },
+      {
+        "kind" : "health",
+        "amount" : 10
+      },
+      {
+        "kind" : "energy",
+        "amount" : 10
+      }
+    ] ]
+}

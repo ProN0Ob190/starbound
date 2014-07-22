@@ -1,9 +1,7 @@
 {
   "materialId" : 49,
   "materialName" : "wetdirt",
-  "frames" : "wetdirt.png",
   "particleColor" : [225, 191, 150, 255],
-  "variants" : 5,
   "itemDrop" : "wetdirt",
   "description" : "It's not quite mud, it's not quite dirt.. it's wet dirt!",
   "shortdescription" : "Wet Dirt",
@@ -12,5 +10,15 @@
   "footstepSound" : "/sfx/blocks/footstep_wetclay.wav",
   "tillableMod" : 31,
   "soil" : true,
-  "health" : 1.3
+  "health" : 1.3,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "wetdirt.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
 }

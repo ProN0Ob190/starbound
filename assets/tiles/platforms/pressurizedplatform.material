@@ -5,7 +5,7 @@
   "transparent" : true,
   "stairVariants" : 1,
   "stairImage" : "pressurizedstairs.png",
-  "platformVariants" : 3,
+  "platformVariants" : 1,
   "platformImage" : "pressurizedplatform.png",
   "itemDrop" : "pressurizedplatform",
   "shortdescription" : "Pressurized Platform",

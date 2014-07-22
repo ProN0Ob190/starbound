@@ -1,0 +1,10 @@
+{
+  "itemName" : "skyrailTech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/doublejump.png",
+  "description" : "Unlocks ability to ride the skyrail!",
+  "shortdescription" : "Skyrail Rider",
+  "tooltipKind" : "tech",
+
+  "techModule" : "skyrail.tech"
+}

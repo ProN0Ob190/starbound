@@ -1,0 +1,47 @@
+{
+  "objectName" : "outpostgenerator",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 1500,
+  "lightColor" : [46, 66, 77],
+
+  "description" : "-todo-",
+  "shortdescription" : "Power Generator",
+  "race" : "hylotl",
+
+  "apexDescription" : "-todo-",
+  "avianDescription" : "-todo-",
+  "floranDescription" : "-todo-",
+  "glitchDescription" : "-todo-",
+  "humanDescription" : "-todo-",
+  "hylotlDescription" : "-todo-",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "outpostgenerator.png:<color>.<frame>", "fullbright" : true }, { "image" : "outpostgeneratorlit.png:<color>.<frame>" } ],
+	  "flipImages" : true,
+	  "direction" : "left",
+      "lightPosition" : [2, 2],
+      "imagePosition" : [-24, 0],
+      "frames" : 3,
+      "animationCycle" : 0.2,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+	{
+      "imageLayers" : [ { "image" : "outpostgenerator.png:<color>.<frame>", "fullbright" : true }, { "image" : "outpostgeneratorlit.png:<color>.<frame>" } ],
+	  "direction" : "right",
+      "lightPosition" : [-2, 2],
+      "imagePosition" : [-24, 0],
+      "frames" : 3,
+      "animationCycle" : 0.2,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

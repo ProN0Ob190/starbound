@@ -1,0 +1,17 @@
+{
+  "modId" : 22,
+  "modName" : "silverore",
+  "itemDrop" : "silverore",
+  "Description" : "Silver.",
+  "health" : 10,
+  "harvestLevel" : 3,
+  "breaksWithTile" : true,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "silverore.png",
+    "variants" : 8,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

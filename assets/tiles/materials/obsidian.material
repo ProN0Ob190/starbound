@@ -1,14 +1,22 @@
 {
   "materialId" : 36,
   "materialName" : "obsidian",
-  "frames" : "obsidian.png",
   "particleColor" : [92, 90, 87, 255],
-  "variants" : 5,
   "itemDrop" : "obsidian",
   "description" : "Solid obsidian. It reflects the light.",
   "shortdescription" : "Obsidian",
   "glitchDescription" : "Statement. Rock-hard obsidian.",
   "floranDescription" : "Obsssidian. Black like Floran sssoul.",
   "footstepSound" : "/sfx/blocks/footstep_stone3.wav",
-  "health" : 40
+  "health" : 40,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "obsidian.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
 }

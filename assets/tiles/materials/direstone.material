@@ -1,14 +1,22 @@
 {
   "materialId" : 46,
   "materialName" : "direstone",
-  "frames" : "direstone.png",
   "particleColor" : [100, 106, 106, 255],
-  "variants" : 5,
   "itemDrop" : "direstone",
   "description" : "Little wormlike forms wriggle beneath the surface of this glassy stone.",
   "shortdescription" : "Dire Stone",
   "glitchDescription" : "Analysis. The worms in this block appear to be essentially immortal.",
   "floranDescription" : "Wiggly wormssstone!",
   "footstepSound" : "/sfx/blocks/footstep_stone.wav",
-  "health" : 25
+  "health" : 25,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "direstone.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
 }

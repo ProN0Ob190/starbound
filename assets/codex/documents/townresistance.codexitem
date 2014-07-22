@@ -1,0 +1,10 @@
+{
+  "codexId" : "townresistance",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "apexvillagebook_11.png",
+  "itemName" : "townresistanceCodex",
+  "rarity" : "common",
+  "description" : "La Resistance",
+  "shortdescription" : "La Resistance"
+}

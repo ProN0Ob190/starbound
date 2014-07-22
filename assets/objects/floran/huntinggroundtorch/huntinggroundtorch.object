@@ -1,0 +1,89 @@
+{
+  "objectName" : "huntinggroundtorch",
+  "rarity" : "Common",
+  "description" : "A torch. Illuminates the giant beast about to eat you.",
+  "shortdescription" : "A torch.",
+  "race" : "floran",
+
+  "hydrophobic" : true,
+
+  "apexDescription" : "A torch.",
+  "avianDescription" : "A torch.",
+  "floranDescription" : "Torch.",
+  "glitchDescription" : "Statement. Torch.",
+  "humanDescription" : "A torch.",
+  "hylotlDescription" : "A torch.",
+
+  "category" : "light",
+  "price" : 800,
+  "lightColor" : [191, 177, 163],
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.1,
+
+  "statusEffects" : [
+    {
+      "kind" : "Warmth",
+      "amount" : 70,
+      "range" : 8
+    }
+  ],
+
+  "particleEmitter" : {
+    "emissionRate" : 1.0,
+    "emissionVariance" : 0.5,
+
+    "particle" : {
+      "type" : "ember",
+      "size" : 1.0,
+      "color" : [255, 100, 0, 255],
+      "light" : [150, 50, 50],
+      "fade" : 0.9,
+      "initialVelocity" : [0.0, 5.0],
+      "finalVelocity" : [0.0, -50.0],
+      "approach" : [0, 20],
+      "timeToLive" : 0.6,
+      "layer" : "middle"
+    },
+
+    "particleVariance" : {
+      "initialVelocity" : [1.5, 2.0]
+    }
+  },
+
+  "inventoryIcon" : "huntinggroundtorchicon.png",
+  "orientations" : [
+    {
+      "image" : "huntinggroundtorch.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+	  
+	  "direction" : "left",
+	  "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+	{
+      "image" : "huntinggroundtorch.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+	  
+	  "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/torch.wav",
+
+  "animation" : "huntinggroundtorch.animation",
+  "animationParts" : {
+    "bg" : "huntinggroundtorch.png",
+    "fg" : "huntinggroundtorchlit.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inboundNodes" : [ [0, 0] ]
+}

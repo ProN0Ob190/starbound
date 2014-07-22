@@ -1,0 +1,12 @@
+{
+  "itemName" : "girdermaterial",
+  "rarity" : "Common",
+  "inventoryIcon" : "girder.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A strong looking metal girder.",
+  "shortdescription" : "Girder",
+  "glitchdescription" : "Statement. A metal girder.",
+  "florandescription" : "Metal thing.",
+
+  "materialId" : 9
+}

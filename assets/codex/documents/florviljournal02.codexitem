@@ -1,0 +1,10 @@
+{
+  "codexId" : "florviljournal02",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "floranvillagebook_02.png",
+  "itemName" : "florviljournal02Codex",
+  "rarity" : "common",
+  "description" : "Professor Irondome's Journal #2",
+  "shortdescription" : "Irondome's Journal"
+}

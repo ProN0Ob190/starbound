@@ -1,0 +1,30 @@
+{
+  "objectName" : "agaranmushroom",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 750,
+  "description" : "A giant mushroom of Agaran origin.",
+  "shortdescription" : "Giant Agaran Mushroom",
+  "race" : "floran",
+
+  "apexDescription" : "It's cuter than the Agarans.",
+  "avianDescription" : "I wonder what purpose this mushroom serves.",
+  "floranDescription" : "Floran know your sssecret, little ssshroomy. Floran keep quiet.",
+  "glitchDescription" : "Amusement. This is a living Agaran, cleverly disguised.",
+  "humanDescription" : "Needs more caterpillar.",
+  "hylotlDescription" : "A vile mushroom of Agaran origin.",
+
+  "inventoryIcon" : "agaranmushroomicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "agaranmushroom.png:<color>",
+      "imagePosition" : [-6, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

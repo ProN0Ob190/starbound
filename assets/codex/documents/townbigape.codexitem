@@ -1,0 +1,10 @@
+{
+  "codexId" : "townbigape",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "apexvillagebook_02.png",
+  "itemName" : "townbigapeCodex",
+  "rarity" : "common",
+  "description" : "Greenfinger's Notes: Big Ape",
+  "shortdescription" : "Big Ape"
+}

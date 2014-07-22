@@ -1,9 +1,7 @@
 {
   "materialId" : 37,
   "materialName" : "ash",
-  "frames" : "ash.png",
   "particleColor" : [176, 174, 168, 255],
-  "variants" : 5,
   "itemDrop" : "ash",
   "description" : "Ash packed tight into a solid block.",
   "shortdescription" : "Ash Block",
@@ -12,5 +10,15 @@
   "footstepSound" : "/sfx/blocks/footstep_ash.wav",
   "tillableMod" : 31,
   "soil" : true,
-  "health" : 1.0
+  "health" : 1.0,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "ash.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
 }

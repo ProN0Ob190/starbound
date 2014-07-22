@@ -1,9 +1,7 @@
 {
   "materialId" : 30,
   "materialName" : "snow",
-  "frames" : "snow.png",
   "particleColor" : [245, 249, 250, 255],
-  "variants" : 5,
   "itemDrop" : "snow",
   "shortdescription" : "Snow",
   "description" : "Soft and fluffy snow.",
@@ -12,5 +10,15 @@
   "footstepSound" : "/sfx/blocks/footstep_snow.wav",
   "health" : 1.3,
   "soil" : true,
-  "damageTable" : "/tiles/flammableDamage.config"
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "snow.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
 }

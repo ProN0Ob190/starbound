@@ -1,0 +1,22 @@
+{
+  "materialId" : 123,
+  "materialName" : "castlewalls2",
+  "particleColor" : [82, 83, 82, 255],
+  "itemDrop" : "castlewalls2",
+  "description" : "Small stone slabs, perfect for the finer details.",
+  "shortdescription" : "Small Stone Brick",
+  "glitchDescription" : "Statement. Stone slabs.",
+  "floranDescription" : "Ssstone.",
+  "footstepSound" : "/sfx/blocks/footstep_stone2.wav",
+  "health" : 30,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "castlewalls2.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
+}

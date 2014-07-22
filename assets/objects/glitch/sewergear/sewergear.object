@@ -1,0 +1,31 @@
+{
+  "objectName" : "sewergear",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 400,
+  "description" : "A gear. Part of a well-oiled machine. Actually, it's a bit rusty.",
+  "shortdescription" : "Gear",
+  "race" : "glitch",
+
+  "apexDescription" : "A gear.",
+  "avianDescription" : "A gear.",
+  "floranDescription" : "Funny wheel.",
+  "glitchDescription" : "Thoughtful. Many of these gears make up a Glitch.",
+  "humanDescription" : "A gear.",
+  "hylotlDescription" : "A gear.",
+
+  "inventoryIcon" : "sewergearicon.png",
+  "orientations" : [
+    {
+      "leftImage" : "sewergearleftturn.png:<color>.<frame>",
+      "rightImage" : "sewergearrightturn.png:<color>.<frame>",
+      "frames" : 5,
+      "animationCycle" : 0.6,
+      "imagePosition" : [-4, -4],
+
+      "spaces" : [ [0, 0] ],
+      "anchors" : [ "background" ]
+    }
+  ]
+
+}

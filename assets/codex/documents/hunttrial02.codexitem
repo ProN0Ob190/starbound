@@ -1,0 +1,10 @@
+{
+  "codexId" : "hunttrial02",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "floranhuntinggroundsbook_07.png",
+  "itemName" : "hunttrial02Codex",
+  "rarity" : "common",
+  "description" : "The Trial of Saplings #2",
+  "shortdescription" : "Trial of Saplings"
+}

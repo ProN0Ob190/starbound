@@ -1,0 +1,8 @@
+{
+  "name" : "clumsyprotection",
+  "icon" : [ ],
+  "kind" : "statuseffect",
+  "statusEffects" : [
+    { "kind" : "clumsyprotection", "chance" : 80.0 }
+  ]
+}

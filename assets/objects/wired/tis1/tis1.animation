@@ -1,0 +1,51 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "tis1State" : {
+        "default" : "idle",
+        "states" : {
+          "idle" : {
+            "frames" : 1
+          },
+          "active" : {
+            "frames" : 2,
+            "mode" : "loop",
+            "cycle" : 0.2
+          },
+          "expire" : {
+            "frames" : 3,
+            "cycle" : 0.5
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "tis1" : {
+        "properties" : {
+          "centered" : false
+        },
+
+        "partStates" : {
+          "tis1State" : {
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              }
+            },
+            "active" : {
+              "properties" : {
+                "image" : "<partImage>:active.<frame>"
+              }
+            },
+            "expire" : {
+              "properties" : {
+                "image" : "<partImage>:expire.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

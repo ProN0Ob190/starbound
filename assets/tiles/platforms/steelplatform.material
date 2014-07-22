@@ -5,7 +5,7 @@
   "transparent" : true,
   "stairVariants" : 1,
   "stairImage" : "steelstairs.png",
-  "platformVariants" : 3,
+  "platformVariants" : 1,
   "platformImage" : "steelplatform.png",
   "itemDrop" : "steelplatform",
   "shortdescription" : "Steel Platform",

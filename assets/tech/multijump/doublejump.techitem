@@ -1,0 +1,10 @@
+{
+  "itemName" : "doublejumpTech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/doublejump.png",
+  "description" : "Press Jump in the air to use this Pulse Jump tech.",
+  "shortdescription" : "Pulse Jump",
+  "tooltipKind" : "tech",
+
+  "techModule" : "doublejump.tech"
+}

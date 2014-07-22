@@ -1,0 +1,31 @@
+{
+  "objectName" : "floranbonetable1",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 750,
+  "description" : "I wonder what sort of creature this table was made from?",
+  "shortdescription" : "Large Bone Table",
+  "race" : "floran",
+
+  "apexDescription" : "A table of bone. The hygiene here is questionable.",
+  "avianDescription" : "The Floran have peculiar taste.",
+  "floranDescription" : "Sssometimes, if Floran run out of food, Floran eat table.",
+  "glitchDescription" : "Assessment. Hygiene level acceptable. It appears the bones have been heated to kill germs.",
+  "humanDescription" : "The table is smooth and cold.",
+  "hylotlDescription" : "To eat at such a table would turn my stomach.",
+
+  "inventoryIcon" : "floranbonetable1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "floranbonetable1.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

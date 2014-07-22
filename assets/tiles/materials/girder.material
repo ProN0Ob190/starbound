@@ -1,0 +1,166 @@
+{
+  "materialId" : 9,
+  "materialName" : "girder",
+  "frames" : "girder.png",
+  "particleColor" : [171, 74, 40, 255],
+  "variants" : 1,
+  "itemDrop" : "girdermaterial",
+  "description" : "A strong looking metal girder.",
+  "shortdescription" : "Girder",
+  "glitchDescription" : "Statement. A metal girder.",
+  "floranDescription" : "Metal thing.",
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_girder.wav",
+  "health" : 35,
+  "neighborAwareRendering" : {
+    "legend" : { },
+    "filters" : [
+      {
+        "texture" : "girderWE.png",
+        "neighbors" : [
+          [ "X", "0", "X" ],
+          [ "0", "S", "0" ],
+          [ "X", "0", "X" ]
+        ]
+      },
+      {
+        "texture" : "girderWE.png",
+        "neighbors" : [
+          [ "X", "1", "X" ],
+          [ "1", "S", "1" ],
+          [ "X", "1", "X" ]
+        ]
+      },
+      {
+        "texture" : "girderWE.png",
+        "neighbors" : [
+          [ "X", "1", "X" ],
+          [ "0", "S", "1" ],
+          [ "X", "1", "X" ]
+        ]
+      },
+      {
+        "texture" : "girderWE.png",
+        "neighbors" : [
+          [ "X", "1", "X" ],
+          [ "1", "S", "0" ],
+          [ "X", "1", "X" ]
+        ]
+      },
+      {
+        "texture" : "girderWE.png",
+        "neighbors" : [
+          [ "X", "1", "X" ],
+          [ "1", "S", "1" ],
+          [ "X", "0", "X" ]
+        ]
+      },
+      {
+        "texture" : "girderWE.png",
+        "neighbors" : [
+          [ "X", "0", "X" ],
+          [ "1", "S", "1" ],
+          [ "X", "1", "X" ]
+        ]
+      },
+      {
+        "texture" : "girderWE.png",
+        "neighbors" : [
+          [ "1", "X" ],
+          [ "S", "1" ]
+        ]
+      },
+      {
+        "texture" : "girderWE.png",
+        "neighbors" : [
+          [ "X", "1" ],
+          [ "1", "S" ]
+        ]
+      },
+      {
+        "texture" : "girderWE.png",
+        "neighbors" : [
+          [ "1", "S" ],
+          [ "X", "1" ]
+        ]
+      },
+      {
+        "texture" : "girderWE.png",
+        "neighbors" : [
+          [ "S", "1" ],
+          [ "1", "X" ]
+        ]
+      },
+      {
+        "texture" : "girderNS.png",
+        "neighbors" : [
+          [ "0" ],
+          [ "S" ],
+          [ "1" ]
+        ]
+      },
+      {
+        "texture" : "girderNS.png",
+        "neighbors" : [
+          [ "1" ],
+          [ "S" ],
+          [ "0" ]
+        ]
+      },
+      {
+        "texture" : "girderNS.png",
+        "neighbors" : [
+          [ "1" ],
+          [ "S" ],
+          [ "1" ]
+        ]
+      },
+      {
+        "texture" : "girderWE.png",
+        "neighbors" : [
+          [ "1", "S", "0" ]
+        ]
+      },
+      {
+        "texture" : "girderWE.png",
+        "neighbors" : [
+          [ "0", "S", "1" ]
+        ]
+      },
+      {
+        "texture" : "girderWE.png",
+        "neighbors" : [
+          [ "1", "S", "1" ]
+        ]
+      },
+      {
+        "texture" : "girderWE.png",
+        "neighbors" : [
+          [ "s", "1" ],
+          [ "1", "0" ]
+        ]
+      },
+      {
+        "texture" : "girderWE.png",
+        "neighbors" : [
+          [ "0", "1" ],
+          [ "1", "s" ]
+        ]
+      },
+      {
+        "texture" : "girderWE.png",
+        "neighbors" : [
+          [ "1", "s" ],
+          [ "0", "1" ]
+        ]
+      },
+      {
+        "texture" : "girderWE.png",
+        "neighbors" : [
+          [ "1", "0" ],
+          [ "s", "1" ]
+        ]
+      }
+    ]
+  }
+}

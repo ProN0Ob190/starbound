@@ -1,0 +1,10 @@
+{
+  "itemName" : "rocketjump",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/rocketjump.png",
+  "description" : "Hold 'up' and jump for a rocket-boosted leap!",
+  "shortdescription" : "Rocket Jump",
+  "tooltipKind" : "tech",
+
+  "techModule" : "rocketjump.tech"
+}

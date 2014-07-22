@@ -1,16 +1,23 @@
 {
   "materialId" : 106,
   "materialName" : "wicker",
-  "frames" : "wicker.png",
   "particleColor" : [109, 99, 48, 255],
-  "variants" : 5,
   "itemDrop" : "wicker",
   "shortdescription" : "Wicker",
   "description" : "A roughly woven wicker material.",
   "glitchDescription" : "Statement. Wicker.",
   "floranDescription" : "Floran make man of wicker.",
-  "multicolored" : true,
   "footstepSound" : "/sfx/blocks/footstep_lightwood.wav",
   "health" : 6,
-  "damageTable" : "/tiles/flammableDamage.config"
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "wicker.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
 }

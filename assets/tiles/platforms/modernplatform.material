@@ -5,7 +5,7 @@
   "transparent" : true,
   "stairVariants" : 1,
   "stairImage" : "modernstairs.png",
-  "platformVariants" : 3,
+  "platformVariants" : 1,
   "platformImage" : "modernplatform.png",
   "itemDrop" : "modernplatform",
   "shortdescription" : "Modern Platform",

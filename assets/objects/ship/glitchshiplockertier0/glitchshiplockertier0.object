@@ -1,0 +1,32 @@
+{
+  "objectName" : "glitchshiplockerTier0",
+  "rarity" : "Common",
+  "objectType" : "noisy",
+  "category" : "decorative",
+  "description" : "Store some stuff, why don't you?",
+  "shortdescription" : "Shiplocker",
+  "race" : "glitch",
+  "lightColor" : [102, 90, 61],
+
+  "apexDescription" : "A Glitch storage unit.",
+  "avianDescription" : "The ships storage locker.",
+  "floranDescription" : "Glitch sstore goodiess here.",
+  "glitchDescription" : "A Glitch storage unit, pieced together with scrap. It's not functioning.",
+  "humanDescription" : "A good spot to store valuables.",
+  "hylotlDescription" : "My Sensei taught me an important lesson. Never forget to store your valuables.",
+
+  "inventoryIcon" : "shiplockericonTier0.png",
+  "orientations" : [
+    {
+	  "image" : "glitchshiplockerTier0.png:<color>.<frame>",
+      "imagePosition" : [-16, -8],
+      "frames" : 8,
+      "animationCycle" : 1,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  
+  "sounds" : [ "/sfx/interface/ship_error1.wav" ]
+  
+}

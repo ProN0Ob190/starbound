@@ -1,0 +1,31 @@
+{
+  "objectName" : "hylotlmovieposter3",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 300,
+
+  "shortdescription" : "Romantic Movie Poster",
+  "description" : "A framed poster from the controversial romance film '10 Things I Hate About Florans'.",
+  "race" : "hylotl",
+
+  "apexDescription" : "Looks pretty sappy. And...kind of racist?",
+  "avianDescription" : "I can think of a few things I don't like about Florans.",
+  "floranDescription" : "Want to stab this poster.",
+  "glitchDescription" : "Intrigued. I wonder what the protagonist hates so much about Florans?",
+  "humanDescription" : "This movie looks...boring.",
+  "hylotlDescription" : "A very controversial romance film about a forbidden relationship between a Floran and Hylotl.",
+
+  "inventoryIcon" : "hylotlmovieposter3icon.png",
+  "orientations" : [
+    {
+      "image" : "hylotlmovieposter3.png:<color>",
+      "imagePosition" : [-12, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name" : "orb",
+  "friendlyName" : "Orb",
+  "spawnProfiles" : [ "surfacemix1", "surfacemix2", "surfacemix3" ],
+
+  "surfaceParameters" : {
+    "mainBlock" : "snow",
+    "subBlocks" : [ "ice", "slush" ],
+    "ores" : "surfaceOres",
+
+    "statusParameters" : {
+      "temperatureBounds" : [-30, 5],
+      "dayNightTemperatureVariability" : 15,
+      "temperatureVariability" : 5
+    },
+
+    "surfacePlaceables" : {
+      "grassMod" : [ "snow" ],
+      "grassModDensity" : 0.4,
+
+      "items" : [
+        {
+          "mode" : "floor",
+          "priority" : 0.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:minibiomeChests",
+
+          "type" : "treasureBox",
+          "treasureBoxSets" : [ "icesphereChest" ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:denseLarge",
+
+          "type" : "tree",
+          "treeFoliageHueShiftMax" : 0,
+          "treeStemHueShiftMax" : 15,
+          "treeStemList" : [ "icespherestem" ],
+          "treeFoliageList" : [ "icespherefoliage" ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+          "type" : "object",
+          "objectSets" : [
+            {
+              "pool" : [ [0.35, "icesphere1" ], [0.35, "icesphere2" ], [0.35, "icesphere3" ], [0.35, "icesphere4" ] ],
+              "parameters" : { }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
+
+

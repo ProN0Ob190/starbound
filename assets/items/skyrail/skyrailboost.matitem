@@ -1,0 +1,9 @@
+{
+  "itemName" : "skyrailboost",
+  "rarity" : "Common",
+  "inventoryIcon" : "skyrailicon_boost.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A skyrail for speeding things up.",
+  "shortdescription" : "Skyrail Booster",
+  "materialId" : 400180
+}

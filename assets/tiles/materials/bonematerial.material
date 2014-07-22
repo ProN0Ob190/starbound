@@ -1,9 +1,7 @@
 {
   "materialId" : 129,
   "materialName" : "bonematerial",
-  "frames" : "bonematerial.png",
   "particleColor" : [231, 223, 189, 255],
-  "variants" : 5,
   "itemDrop" : "bonematerial",
   "description" : "Polished bone made into a building material.",
   "shortdescription" : "Bone Block",
@@ -13,5 +11,15 @@
   "falling" : true,
   "cascading" : true,
   "health" : 2,
-  "breathable" : "notBreathable"
+  "breathable" : "notBreathable",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "bonematerial.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
 }

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "composite01material", "count" : 20 },
+    { "item" : "steelbar", "count" : 20 }
+  ],
+  "output" : {
+    "item" : "pixelcompressor",
+    "count" : 1
+  },
+  "groups" : [ "roboticcraftingtable", "all", "tools" ]
+}

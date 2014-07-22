@@ -213,6 +213,12 @@
       "rules" : [ [ "allowOverdrawing" ] ],
       "brush" : [ [ "biomeitems" ] ]
     },
+    
+    {
+      "value" : [85, 255, 0, 255],
+      "comment" : "Player Spawn",
+      "brush" : [ [ "playerstart" ] ]
+    },
 
     {
       "value" : [55, 140, 140, 255],
@@ -372,7 +378,6 @@
 	{
       "value" : [152, 166, 65, 255],
       "comment" : "background mirror",
-      "rules" : [ [ "allowOverdrawing" ] ],
       "brush" : [ [ "clear" ], [ "back", "mirror" ] ]
     },
 
@@ -381,11 +386,53 @@
       "comment" : "foreground mirror",
       "brush" : [ [ "clear" ], [ "front", "mirror" ] ]
     },
+    
+    {
+      "value" : [56, 107, 140, 255],
+      "comment" : "background ancientblock",
+      "brush" : [ [ "clear" ], [ "back", "ancientblock" ] ]
+    },
+
+    {
+      "value" : [87, 165, 217, 255],
+      "comment" : "foreground ancientblock",
+      "brush" : [ [ "clear" ], [ "front", "ancientblock" ] ]
+    },
+    
+    {
+      "value" : [63, 56, 140, 255],
+      "comment" : "background ancientbrick",
+      "brush" : [ [ "clear" ], [ "back", "ancientbrick" ] ]
+    },
+
+    {
+      "value" : [98, 87, 217, 255],
+      "comment" : "foreground ancientbrick",
+      "brush" : [ [ "clear" ], [ "front", "ancientbrick" ] ]
+    },
+    
+    {
+      "value" : [119, 56, 140, 255],
+      "comment" : "background meteoriterock",
+      "brush" : [ [ "clear" ], [ "back", "meteoriterock" ] ]
+    },
+
+    {
+      "value" : [184, 87, 217, 255],
+      "comment" : "foreground meteoriterock",
+      "brush" : [ [ "clear" ], [ "front", "meteoriterock" ] ]
+    },
 
     {
       "value" : [155, 171, 179, 255],
       "comment" : "stairs/platform",
       "brush" : [ [ "clear" ], [ "front", "outpostplatform" ] ]
+    },
+    
+    {
+      "value" : [139, 130, 111, 255],
+      "comment" : "ancient stairs/platform",
+      "brush" : [ [ "clear" ], [ "front", "ancientplatform" ] ]
     },
 
     {
@@ -998,6 +1045,54 @@
       "value" : [111, 242, 24, 255],
       "comment" : "terramart facing right",
       "brush" : [ [ "clear" ], [ "object", "terramart", { "direction" : "right" } ] ]
+    },
+    
+    {
+      "value" : [102, 255, 26, 255],
+      "comment" : "treasuredtrophies facing left",
+      "brush" : [ [ "clear" ], [ "object", "treasuredtrophies", { "direction" : "left" } ] ]
+    },
+
+    {
+      "value" : [97, 242, 24, 255],
+      "comment" : "treasuredtrophies facing right",
+      "brush" : [ [ "clear" ], [ "object", "treasuredtrophies", { "direction" : "right" } ] ]
+    },
+    
+    {
+      "value" : [204, 68, 0, 255],
+      "comment" : "ancientgate facing left",
+      "brush" : [ [ "clear" ], [ "object", "ancientgate", { "direction" : "left" } ] ]
+    },
+
+    {
+      "value" : [191, 64, 0, 255],
+      "comment" : "ancientgate facing right",
+      "brush" : [ [ "clear" ], [ "object", "ancientgate", { "direction" : "right" } ] ]
+    },
+	
+	{
+      "value" : [255, 240, 26, 255],
+      "comment" : "ancientpillar facing left",
+      "brush" : [ [ "clear" ], [ "object", "ancientpillar", { "direction" : "left" } ] ]
+    },
+
+    {
+      "value" : [242, 228, 24, 255],
+      "comment" : "ancientpillar facing right",
+      "brush" : [ [ "clear" ], [ "object", "ancientpillar", { "direction" : "right" } ] ]
+    },
+    
+    {
+      "value" : [154, 229, 23, 255],
+      "comment" : "ancientconsole facing left",
+      "brush" : [ [ "clear" ], [ "object", "ancientconsole", { "direction" : "left" } ] ]
+    },
+
+    {
+      "value" : [145, 217, 22, 255],
+      "comment" : "ancientconsole facing right",
+      "brush" : [ [ "clear" ], [ "object", "ancientconsole", { "direction" : "right" } ] ]
     },
 
     // NPC MONSTER SPAWN BRUSHES //

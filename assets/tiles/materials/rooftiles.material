@@ -1,15 +1,22 @@
 {
   "materialId" : 121,
   "materialName" : "rooftiles",
-  "frames" : "rooftiles.png",
   "particleColor" : [110, 71, 60, 255],
-  "variants" : 5,
   "itemDrop" : "rooftiles",
   "description" : "Weathered roof tiles. Their shape makes me feel uneasy.",
   "glitchDescription" : "Statement. Roofing tiles.",
   "floranDescription" : "Roof.",
   "shortdescription" : "Roof Tiles",
-  "multicolored" : true,
   "footstepSound" : "/sfx/blocks/footstep_stone.wav",
-  "health" : 18
+  "health" : 18,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rooftiles.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
 }

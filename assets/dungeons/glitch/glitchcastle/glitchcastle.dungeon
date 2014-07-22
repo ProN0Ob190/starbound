@@ -201,6 +201,12 @@
       "rules" : [ [ "allowOverdrawing" ] ],
       "brush" : [ [ "biomeitems" ] ]
     },
+    
+    {
+      "value" : [85, 255, 0, 255],
+      "comment" : "Player Spawn",
+      "brush" : [ [ "playerstart" ] ]
+    },
 
     {
       "value" : [55, 140, 140, 255],

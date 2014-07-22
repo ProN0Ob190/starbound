@@ -1,0 +1,31 @@
+{
+  "objectName" : "wreckturbines",
+  "rarity" : "Common",
+  "description" : "A couple of wrecked turbines caked in dust.",
+  "shortdescription" : "Wrecked Turbines",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 350,
+
+  "apexDescription" : "A couple of turbines. I think they're falling over.",
+  "avianDescription" : "I don't know what these machines are for but they appear to be barely standing.",
+  "floranDescription" : "Wobbly mysstery machiness.",
+  "glitchDescription" : "Investigate. Two turbines meant to work in tandem. Neither works now.",
+  "humanDescription" : "Two broken turbines. They creek.",
+  "hylotlDescription" : "The Hylotl use underwater turbines like these to generate power.",
+
+  "inventoryIcon" : "wreckturbinesicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "wreckturbines.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "descriptionLabel" : {
+    "type" : "label",
+    "position" : [48, 108],
+    "wrapWidth" : 146,
+    "hAnchor" : "left",
+    "vAnchor" : "top"
+  },
+  "title" : {
+    "type" : "label",
+    "position" : [68, 124],
+    "hAnchor" : "left",
+    "value" : ""
+  },
+  "titleIcon" : {
+    "type" : "itemslot",
+    "position" : [42, 114],
+    "callback" : "null",
+    "iconMode" : true
+  }
+}

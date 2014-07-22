@@ -1,14 +1,22 @@
 {
   "materialId" : 17,
   "materialName" : "rock02",
-  "frames" : "rock02.png",
   "particleColor" : [134, 138, 135, 255],
-  "variants" : 5,
   "itemDrop" : "cobblestonematerial",
   "description" : "Rough, unrefined stone.",
   "shortdescription" : "Rock Block",
   "glitchDescription" : "Statement. Rock.",
   "floranDescription" : "Rocksss.",
   "footstepSound" : "/sfx/blocks/footstep_stone.wav",
-  "health" : 16
+  "health" : 16,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rock02.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
 }

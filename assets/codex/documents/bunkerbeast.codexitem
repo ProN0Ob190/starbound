@@ -1,0 +1,10 @@
+{
+  "codexId" : "bunkerbeast",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "humanbunkerbook_09.png",
+  "itemName" : "bunkerbeastCodex",
+  "rarity" : "common",
+  "description" : "Greenfinger's Notes: The Beast",
+  "shortdescription" : "The Beast"
+}

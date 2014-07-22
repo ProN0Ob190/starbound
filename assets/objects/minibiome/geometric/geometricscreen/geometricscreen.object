@@ -1,0 +1,42 @@
+{
+  "objectName" : "geometricscreen",
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "Numbers dance and scroll on the screen. What do they mean?",
+  "shortdescription" : "Geometric Screen",
+  "race" : "generic",
+
+  "apexDescription" : "A monitor. The information makes no sense to me.",
+  "avianDescription" : "A monitor, filled with arcane data.",
+  "floranDescription" : "Floran read words good. Sssay 'ssstab a meatman'. Huh.",
+  "glitchDescription" : "Analysis. This display appears to read 'stab a meatman' in binary. How unusual.",
+  "humanDescription" : "This reminds me of that one old movie. I can't remember the name of it.",
+  "hylotlDescription" : "Meaningless data.",
+
+  "category" : "decorative",
+  "price" : 200,
+  "lightColor" : [147, 195, 200],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 4,
+
+  "inventoryIcon" : "geometricscreenicon.png",
+  "orientations" : [
+    {
+      "image" : "geometricscreen.png:<frame>",
+      "imagePosition" : [-8, 0],
+      "frames" : 7,
+      "animationCycle" : 1.0,
+
+      "spaces" : [
+        [-1, 0], [0, 0], [1, 0], [2, 0],
+        [-1, 1], [0, 1], [1, 1], [2, 1]
+      ],
+
+      "bgAnchors" : [
+        [-1, 0], [0, 0], [1, 0], [2, 0],
+        [-1, 1], [0, 1], [1, 1], [2, 1]
+      ]
+    }
+  ]
+}

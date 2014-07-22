@@ -1,0 +1,33 @@
+{
+  "objectName" : "zenrock3",
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 400,
+
+
+  "description" : "A stone structure perfect for alien zen gardens.",
+  "shortdescription" : "Zen Rock",
+  "race" : "hylotl",
+
+  "apexDescription" : "A structure of rock.",
+  "avianDescription" : "A rock structure.",
+  "floranDescription" : "Ssstone.",
+  "glitchDescription" : "Philosophical. Can stones envy those who are alive?",
+  "humanDescription" : "A pretty nice mound of stone.",
+  "hylotlDescription" : "Legends tell of Hylotl who buried themselves in caves deep underground to achieve inner peace.",
+
+  "inventoryIcon" : "zenrock3icon.png",
+  "orientations" : [
+    {
+      "image" : "zenrock3.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}
