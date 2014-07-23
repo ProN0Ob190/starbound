@@ -7,12 +7,13 @@
   "category" : "decorative",
   "price" : 400,
 
-  "apexDescription" : "-todo-",
-  "avianDescription" : "-todo-",
-  "floranDescription" : "Sssix.",
+  "apexDescription" : "Six.",
+  "avianDescription" : "Six.",
+  "floranDescription" : "Sssnail.",
   "glitchDescription" : "Statement. Six.",
-  "humanDescription" : "-todo-",
-  "hylotlDescription" : "-todo-",
+  "humanDescription" : "Six.",
+  "hylotlDescription" : "Six.",
+  "novakidDescription" : "A six.",
 
   "inventoryIcon" : "icon.png",
   "orientations" : [

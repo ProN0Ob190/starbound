@@ -145,6 +145,30 @@
         }
       ]
     },
+    "novakid" : {
+      "buttonText" : "Enable Matter Manipulator",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Your matter manipulator is an awesome way of interacting with the world! I can try to enable it for you!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "It worked!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
     "hylotl" : {
       "buttonText" : "Enable Matter Manipulator",
       "selectSpeech" : [

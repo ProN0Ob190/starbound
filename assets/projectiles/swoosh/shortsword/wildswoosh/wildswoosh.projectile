@@ -22,7 +22,6 @@
     {
       "action" : "projectile",
       "type" : "wildorb",
-      "inheritDamageFactor" : 1,
 	  "firePosition" : [-10, 5],
       "fuzzAngle" : 0,
       "angleAdjust" : 0

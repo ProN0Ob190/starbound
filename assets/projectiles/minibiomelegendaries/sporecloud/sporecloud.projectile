@@ -1,0 +1,15 @@
+{
+  "projectileName" : "sporecloud",
+  "frames" : "sporecloud.png",
+  "physics" : "gas",
+  "animationCycle" : 1,
+  "speed" : 5,
+  "frameNumber" : 8,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "timeToLive" : 1,
+  "piercing" : true,
+  "power" : 1.0,
+  "damageKind" : "default",
+  "emitters" : [ "defaultbrown" ]
+}

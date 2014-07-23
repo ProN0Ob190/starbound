@@ -8,12 +8,13 @@
   "shortdescription" : "Ancient Console",
   "race" : "generic",
 
-  "apexDescription" : "-todo-",
-  "avianDescription" : "-todo-",
-  "floranDescription" : "-todo-",
-  "glitchDescription" : "-todo-",
-  "humanDescription" : "-todo-",
-  "hylotlDescription" : "-todo-",
+  "apexDescription" : "A gate control panel.",
+  "avianDescription" : "A gate control panel.",
+  "floranDescription" : "Controlsss.",
+  "glitchDescription" : "Statement. A gate control panel.",
+  "humanDescription" : "A gate control panel.",
+  "hylotlDescription" : "A control panel.",
+  "novakidDescription" : "Let's see if I can't jimmy my way through this.",
 
   "lightColor" : [113, 89, 128],
 

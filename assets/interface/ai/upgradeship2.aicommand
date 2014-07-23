@@ -39,7 +39,7 @@
       "successSpeech" : [
         {
           "animation" : "yell",
-          "text" : "The ship's thrusters have been repaired! Travel within this system is now available. Next we need to fix the ship's FTL drive.",
+          "text" : "The ship's thrusters have been repaired! Travel within this system is now available. We need to fix the ship's FTL drive with 100 moon stone. Our scanners have also picked up the presence of a strange gate in this system, we should check that out first!",
           "speedModifier" : 1.0
         }
       ],
@@ -63,7 +63,7 @@
       "successSpeech" : [
         {
           "animation" : "talk",
-          "text" : "The ship's thrusters have been repaired! Travel within this system is now available. Next we need to fix the ship's FTL drive.",
+          "text" : "The ship's thrusters have been repaired! Travel within this system is now available. We need to fix the ship's FTL drive with 100 moon stone. Our scanners have also picked up the presence of a strange gate in this system, we should check that out first!",
           "speedModifier" : 1.0
         }
       ],
@@ -87,7 +87,7 @@
       "successSpeech" : [
         {
           "animation" : "talk",
-          "text" : "The ship's thrusters have been repaired! Travel within this system is now available. Next we need to fix the ship's FTL drive.",
+          "text" : "The ship's thrusters have been repaired! Travel within this system is now available. We need to fix the ship's FTL drive with 100 moon stone. Our scanners have also picked up the presence of a strange gate in this system, we should check that out first!",
           "speedModifier" : 1.0
         }
       ],
@@ -111,7 +111,7 @@
       "successSpeech" : [
         {
           "animation" : "talk",
-          "text" : "The ship's thrusters have been repaired! Travel within this system is now available. Next we need to fix the ship's FTL drive.",
+          "text" : "The ship's thrusters have been repaired! Travel within this system is now available. We need to fix the ship's FTL drive with 100 moon stone. Our scanners have also picked up the presence of a strange gate in this system, we should check that out first!",
           "speedModifier" : 1.0
         }
       ],
@@ -135,7 +135,31 @@
       "successSpeech" : [
         {
           "animation" : "talk",
-          "text" : "The ship's thrusters have been repaired! Travel within this system is now available. Next we need to fix the ship's FTL drive.",
+          "text" : "The ship's thrusters have been repaired! Travel within this system is now available. We need to fix the ship's FTL drive with 100 moon stone. Our scanners have also picked up the presence of a strange gate in this system, we should check that out first!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "refuse",
+          "text" : "Failure! You've not yet gathered the required materials.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "novakid" : {
+      "buttonText" : "Repair Ship's Thrusters",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "I can repair the thrusters with the ships auto repair module but I'll need 1000 pixels and 20 core fragments from the planet below.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "The ship's thrusters have been repaired! Travel within this system is now available. We need to fix the ship's FTL drive with 100 moon stone. Our scanners have also picked up the presence of a strange gate in this system, we should check that out first!",
           "speedModifier" : 1.0
         }
       ],
@@ -159,7 +183,7 @@
       "successSpeech" : [
         {
           "animation" : "talk",
-          "text" : "The ship's thrusters have been repaired! Travel within this system is now available. Next we need to fix the ship's FTL drive.",
+          "text" : "The ship's thrusters have been repaired! Travel within this system is now available. We need to fix the ship's FTL drive with 100 moon stone. Our scanners have also picked up the presence of a strange gate in this system, we should check that out first!",
           "speedModifier" : 1.0
         }
       ],

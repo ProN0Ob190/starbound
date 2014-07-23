@@ -29,7 +29,6 @@
       "action" : "projectile",
       "type" : "cutterleafX",
       "fuzzAngle" : 5,
-      "inheritDamageFactor" : 0.2,
       "inheritSpeedFactor" : 1.5,
       "delaySteps" : 15
     },
@@ -42,7 +41,6 @@
       "action" : "projectile",
       "type" : "cutterleafX",
       "fuzzAngle" : 10,
-      "inheritDamageFactor" : 0.2,
       "inheritSpeedFactor" : 1.5,
       "delaySteps" : 20
     },
@@ -55,7 +53,6 @@
       "action" : "projectile",
       "type" : "cutterleafX",
       "fuzzAngle" : 15,
-      "inheritDamageFactor" : 0.2,
       "inheritSpeedFactor" : 1.5,
       "delaySteps" : 25
     },
@@ -68,7 +65,6 @@
       "action" : "projectile",
       "type" : "cutterleafX",
       "fuzzAngle" : 20,
-      "inheritDamageFactor" : 0.2,
       "inheritSpeedFactor" : 1.5,
       "delaySteps" : 30
     },
@@ -81,7 +77,6 @@
       "action" : "projectile",
       "type" : "cutterleafX",
       "fuzzAngle" : 25,
-      "inheritDamageFactor" : 0.2,
       "inheritSpeedFactor" : 1.5,
       "delaySteps" : 35
     },
@@ -94,7 +89,6 @@
       "action" : "projectile",
       "type" : "cutterleafX",
       "fuzzAngle" : 30,
-      "inheritDamageFactor" : 0.2,
       "inheritSpeedFactor" : 1.5,
       "delaySteps" : 40
     },
@@ -107,7 +101,6 @@
       "action" : "projectile",
       "type" : "cutterleafX",
       "fuzzAngle" : 35,
-      "inheritDamageFactor" : 0.2,
       "inheritSpeedFactor" : 1.5,
       "delaySteps" : 45
     },
@@ -120,7 +113,6 @@
       "action" : "projectile",
       "type" : "cutterleafX",
       "fuzzAngle" : 40,
-      "inheritDamageFactor" : 0.2,
       "inheritSpeedFactor" : 1.5,
       "delaySteps" : 50
     },
@@ -133,7 +125,6 @@
       "action" : "projectile",
       "type" : "cutterleafX",
       "fuzzAngle" : 45,
-      "inheritDamageFactor" : 0.2,
       "inheritSpeedFactor" : 1.5,
       "delaySteps" : 55
     }

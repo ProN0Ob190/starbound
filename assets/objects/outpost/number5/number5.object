@@ -7,12 +7,13 @@
   "category" : "decorative",
   "price" : 400,
 
-  "apexDescription" : "-todo-",
-  "avianDescription" : "-todo-",
-  "floranDescription" : "-todo-",
+  "apexDescription" : "Five.",
+  "avianDescription" : "Five.",
+  "floranDescription" : "Meat hook.",
   "glitchDescription" : "Statement. Five.",
-  "humanDescription" : "-todo-",
-  "hylotlDescription" : "-todo-",
+  "humanDescription" : "Five.",
+  "hylotlDescription" : "Five.",
+  "novakidDescription" : "A five.",
 
   "inventoryIcon" : "icon.png",
   "orientations" : [

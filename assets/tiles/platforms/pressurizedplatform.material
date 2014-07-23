@@ -3,12 +3,19 @@
   "materialName" : "pressurizedplatform",
   "platform" : true,
   "transparent" : true,
-  "stairVariants" : 1,
-  "stairImage" : "pressurizedstairs.png",
-  "platformVariants" : 1,
-  "platformImage" : "pressurizedplatform.png",
   "itemDrop" : "pressurizedplatform",
   "shortdescription" : "Pressurized Platform",
   "description" : "Tough pressurized platform for potentially pressured environments!",
-  "footstepSound" : "/sfx/blocks/footstep_lightwood.wav"
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.wav",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "pressurizedplatform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multicolored" : true,
+    "zLevel" : 0,
+    "platform" : true
+  }
 }

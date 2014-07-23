@@ -7,12 +7,13 @@
   "category" : "decorative",
   "price" : 400,
 
-  "apexDescription" : "-todo-",
-  "avianDescription" : "-todo-",
-  "floranDescription" : "-todo-",
+  "apexDescription" : "Zero.",
+  "avianDescription" : "Zero.",
+  "floranDescription" : "Circle.",
   "glitchDescription" : "Statement. Zero.",
-  "humanDescription" : "-todo-",
-  "hylotlDescription" : "-todo-",
+  "humanDescription" : "Zero.",
+  "hylotlDescription" : "Nothing.",
+  "novakidDescription" : "A zero.",
 
   "inventoryIcon" : "icon.png",
   "orientations" : [

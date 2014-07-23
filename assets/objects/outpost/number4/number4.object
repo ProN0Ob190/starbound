@@ -6,12 +6,13 @@
   "category" : "decorative",
   "price" : 400,
 
-  "apexDescription" : "-todo-",
-  "avianDescription" : "-todo-",
-  "floranDescription" : "-todo-",
+  "apexDescription" : "Four.",
+  "avianDescription" : "Four.",
+  "floranDescription" : "Bird?",
   "glitchDescription" : "Statement. Four.",
-  "humanDescription" : "-todo-",
-  "hylotlDescription" : "-todo-",
+  "humanDescription" : "Four.",
+  "hylotlDescription" : "Four.",
+  "novakidDescription" : "A four.",
 
   "inventoryIcon" : "icon.png",
   "orientations" : [

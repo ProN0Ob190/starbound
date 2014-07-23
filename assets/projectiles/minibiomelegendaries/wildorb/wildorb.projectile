@@ -29,7 +29,6 @@
       "action" : "projectile",
       "type" : "cutterleaf",
       "fuzzAngle" : 15,
-      "inheritDamageFactor" : 0.5,
       "inheritSpeedFactor" : 1,
       "delaySteps" : 15
     },
@@ -42,7 +41,6 @@
       "action" : "projectile",
       "type" : "cutterleaf",
       "fuzzAngle" : 15,
-      "inheritDamageFactor" : 0.5,
       "inheritSpeedFactor" : 1,
       "delaySteps" : 20
     },
@@ -55,7 +53,6 @@
       "action" : "projectile",
       "type" : "cutterleaf",
       "fuzzAngle" : 15,
-      "inheritDamageFactor" : 0.5,
       "inheritSpeedFactor" : 1,
       "delaySteps" : 25
     }

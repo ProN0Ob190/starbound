@@ -3,12 +3,19 @@
   "materialName" : "ruinsplatform",
   "platform" : true,
   "transparent" : true,
-  "stairVariants" : 1,
-  "stairImage" : "ruinsstairs.png",
-  "platformVariants" : 3,
-  "platformImage" : "ruinsplatform.png",
   "itemDrop" : "ruinsplatform",
   "shortdescription" : "Ruins Platform",
   "description" : "Old dusty wood platform. Looks decrepid.",
-  "footstepSound" : "/sfx/blocks/footstep_girder.wav"
+  "footstepSound" : "/sfx/blocks/footstep_girder.wav",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "ruinsplatform.png",
+    "variants" : 3,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multicolored" : true,
+    "zLevel" : 0,
+    "platform" : true
+  }
 }

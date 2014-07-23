@@ -8,12 +8,13 @@
   "shortdescription" : "Iron Door",
   "race" : "generic",
 
-  "apexDescription" : "-todo-",
-  "avianDescription" : "-todo-",
-  "floranDescription" : "-todo-",
-  "glitchDescription" : "-todo-",
-  "humanDescription" : "-todo-",
-  "hylotlDescription" : "-todo-",
+  "apexDescription" : "A menacing iron door.",
+  "avianDescription" : "This door looks designed to keep something out... or in.",
+  "floranDescription" : "Floran like ssstabby door. Floran ssslam door on fish.",
+  "glitchDescription" : "Statement. This door appears to be of Glitch origin.",
+  "humanDescription" : "This reminds me of my days exploring old castles.",
+  "hylotlDescription" : "What barbarians would make a door out of blades?",
+  "novakidDescription" : "This spiky door ain't nothin' for the likes of me.",
 
   "inventoryIcon" : "irondooricon.png",
   "orientations" : [

@@ -47,7 +47,7 @@
     "projectileType" : "wildswoosh",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 3
+      "power" : 6
     },
     "idle" : {
       "twoHanded" : false,

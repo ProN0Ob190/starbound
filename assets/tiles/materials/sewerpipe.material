@@ -1,78 +1,24 @@
 {
-  "materialId" : 82,
+  "materialId" : 1182,
   "materialName" : "sewerpipe",
-  "frames" : "sewerpipehorizontal.png",
-  "particleColor" : [84, 127, 73, 255],
-  "variants" : 10,
+  "particleColor" : [194, 194, 194, 255],
   "itemDrop" : "sewerpipe",
   "shortdescription" : "Sewer Pipe",
-  "description" : "A pipe.",
+  "description" : "A sewer pipe.",
   "glitchDescription" : "Statement. A pipe.",
-  "floranDescription" : "Ssssmelly pipe.",
+  "floranDescription" : "Pipe!",
   "multicolored" : true,
   "footstepSound" : "/sfx/blocks/footstep_lightmetal.wav",
+  "drawBackground" : true,
   "health" : 10,
-  "neighborAwareRendering" : {
-    "legend" : {
-      "3" : {
-        "type" : "AtLeast",
-        "count" : 3
-      },
-      "A" : {
-        "type" : "Any"
-      }
-    },
-    "filters" : [
-      {
-        "texture" : "sewerpipemiddle.png",
-        "neighbors" : [
-          [ "X", "3", "X" ],
-          [ "3", "S", "3" ],
-          [ "X", "3", "X" ]
-        ]
-      },
-      {
-        "texture" : "sewerpipeNE.png",
-        "neighbors" : [
-          [ "1", "X" ],
-          [ "S", "1" ]
-        ]
-      },
-      {
-        "texture" : "sewerpipeNW.png",
-        "neighbors" : [
-          [ "X", "1" ],
-          [ "1", "S" ]
-        ]
-      },
-      {
-        "texture" : "sewerpipeSW.png",
-        "neighbors" : [
-          [ "1", "S" ],
-          [ "X", "1" ]
-        ]
-      },
-      {
-        "texture" : "sewerpipeSE.png",
-        "neighbors" : [
-          [ "S", "1" ],
-          [ "1", "X" ]
-        ]
-      },
-      {
-        "texture" : "sewerpipevertical.png",
-        "neighbors" : [
-          [ "A" ],
-          [ "S" ],
-          [ "A" ]
-        ]
-      },
-      {
-        "texture" : "sewerpipehorizontal.png",
-        "neighbors" : [
-          [ "A", "S", "A" ]
-        ]
-      }
-    ]
+
+  "renderTemplate" : "/tiles/pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "sewerpipe.png",
+    "variants" : 10,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multicolored" : true,
+    "zLevel" : 10
   }
 }

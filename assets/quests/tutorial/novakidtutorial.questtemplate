@@ -1,0 +1,13 @@
+{
+  "id" : "novakidtutorial.gearup",
+  "title" : "^#9be3d6;Fish Out Of Water",
+  "text" : "I don't remember how I got here.. my ship has been damaged.. I'll need to ^green;repair the ships thrusters and patch up the hull.",
+  "completionText" : "Yeehaw, the old girls got some more in her yet. Next I'll need to repair the FTL drive.",
+  "conditions" : [
+    { "kind" : "trigger", "trigger" : "ai.repairthrusters" }
+  ],
+  "moneyRange" : [500, 500],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "canBeAbandoned" : false
+}

@@ -145,6 +145,30 @@
         }
       ]
     },
+    "novakid" : {
+      "buttonText" : "Enable Teleporter",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "I can turn on the ship's short range teleport, it'll take you down to the planet below. Be careful down there!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "I did it! Now we have access to the planet we can find those materials we need to fix the ship's thrusters!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
     "hylotl" : {
       "buttonText" : "Enable Teleporter",
       "selectSpeech" : [

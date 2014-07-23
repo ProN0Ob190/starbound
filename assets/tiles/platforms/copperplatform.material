@@ -3,12 +3,19 @@
   "materialName" : "copperplatform",
   "platform" : true,
   "transparent" : true,
-  "stairVariants" : 1,
-  "stairImage" : "copperstairs.png",
-  "platformVariants" :1,
-  "platformImage" : "copperplatform.png",
   "itemDrop" : "copperplatform",
   "shortdescription" : "Copper Platform",
   "description" : "A copper platform.",
-  "footstepSound" : "/sfx/blocks/footstep_girder.wav"
+  "footstepSound" : "/sfx/blocks/footstep_girder.wav",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "copperplatform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multicolored" : false,
+    "zLevel" : 0,
+    "platform" : true
+  }
 }

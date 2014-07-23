@@ -8,12 +8,13 @@
   "shortdescription" : "Ancient Pillar",
   "race" : "generic",
 
-  "apexDescription" : "-todo-",
-  "avianDescription" : "-todo-",
-  "floranDescription" : "-todo-",
-  "glitchDescription" : "-todo-",
-  "humanDescription" : "-todo-",
-  "hylotlDescription" : "-todo-",
+  "apexDescription" : "An ancient glowing pillar. I am in awe.",
+  "avianDescription" : "A glowing monolith. The universe is wonderful.",
+  "floranDescription" : "Ssshiny rock! Floran like not hot rock.",
+  "glitchDescription" : "Analysis. This ethereal glow is produced by a substance I do not recognise.",
+  "humanDescription" : "It's like an ancient disco!",
+  "hylotlDescription" : "A garish glowing pillar.",
+  "novakidDescription" : "This glowin' stone reminds me a' home.",
 
   "statusEffects" : [
     {

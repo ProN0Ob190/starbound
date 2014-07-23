@@ -7,12 +7,13 @@
   "category" : "decorative",
   "price" : 400,
 
-  "apexDescription" : "-todo-",
-  "avianDescription" : "-todo-",
-  "floranDescription" : "-todo-",
+  "apexDescription" : "One.",
+  "avianDescription" : "One.",
+  "floranDescription" : "Pointy ssspike.",
   "glitchDescription" : "Statement. One.",
-  "humanDescription" : "-todo-",
-  "hylotlDescription" : "-todo-",
+  "humanDescription" : "One.",
+  "hylotlDescription" : "One.",
+  "novakidDescription" : "A one.",
 
   "inventoryIcon" : "icon.png",
   "orientations" : [

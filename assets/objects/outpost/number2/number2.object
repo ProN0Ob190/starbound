@@ -7,12 +7,13 @@
   "category" : "decorative",
   "price" : 400,
 
-  "apexDescription" : "-todo-",
-  "avianDescription" : "-todo-",
-  "floranDescription" : "-todo-",
+  "apexDescription" : "Two.",
+  "avianDescription" : "Two.",
+  "floranDescription" : "Sssnake thing.",
   "glitchDescription" : "Statement. Two.",
-  "humanDescription" : "-todo-",
-  "hylotlDescription" : "-todo-",
+  "humanDescription" : "A number two. Hehe.",
+  "hylotlDescription" : "Two.",
+  "novakidDescription" : "A two.",
 
   "inventoryIcon" : "icon.png",
   "orientations" : [

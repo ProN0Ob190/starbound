@@ -4,7 +4,7 @@
     "species" : "generic",
     "rules" : [
     ],
-    "anchor" : [ "outpostbase1" ],
+    "anchor" : [ "outpoststatic" ],
     "gravity" : 80,
     "maxRadius" : 1000000,
     "maxParts" : 100
@@ -301,27 +301,27 @@
 	{
       "value" : [98, 166, 65, 255],
       "comment" : "background outpost",
-      "brush" : [ [ "clear" ], [ "back", "outpost" ] ]
+      "brush" : [ [ "clear" ], [ "back", "outpostwall2" ] ]
     },
 
     {
       "value" : [76, 128, 50, 255],
       "comment" : "background outpost overwritable",
       "rules" : [ [ "allowOverdrawing" ] ],
-      "brush" : [ [ "clear" ], [ "back", "outpost" ] ]
+      "brush" : [ [ "clear" ], [ "back", "outpostwall2" ] ]
     },
 
     {
       "value" : [129, 217, 85, 255],
       "comment" : "foreground outpost",
-      "brush" : [ [ "clear" ], [ "back", "outpost" ], [ "front", "outpost" ] ]
+      "brush" : [ [ "clear" ], [ "back", "outpostwall2" ], [ "front", "outpostwall2" ] ]
     },
 
     {
       "value" : [106, 179, 70, 255],
       "comment" : "foreground outpost overwritable",
       "rules" : [ [ "allowOverdrawing" ] ],
-      "brush" : [ [ "clear" ], [ "back", "outpost" ], [ "front", "outpost" ] ]
+      "brush" : [ [ "clear" ], [ "back", "outpostwall2" ], [ "front", "outpostwall2" ] ]
     },
 
     {
@@ -1408,6 +1408,14 @@
         [ "maxSpawnCount", [1] ]
       ],
       "def" : [ "image", [ "outpostbase2.png", "outpostbase2-objects.png" ] ]
+    },
+    
+    {
+      "name" : "outpoststatic",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "image", [ "outpoststatic.png", "outpoststatic-objects.png" ] ]
     },
 	
 	{

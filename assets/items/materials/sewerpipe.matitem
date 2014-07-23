@@ -1,12 +1,12 @@
 {
   "itemName" : "sewerpipe",
   "rarity" : "Common",
-  "inventoryIcon" : "sewerpipehorizontal.png",
+  "inventoryIcon" : "sewerpipe.png",
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "shortdescription" : "Sewer Pipe",
-  "description" : "A pipe.",
+  "description" : "A pipe commonly used for testing.",
   "glitchdescription" : "Statement. A pipe.",
   "florandescription" : "Sssssmelly pipe.",
 
-  "materialId" : 82
+  "materialId" : 1182
 }

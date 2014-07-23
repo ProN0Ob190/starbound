@@ -3,12 +3,19 @@
   "materialName" : "platform",
   "platform" : true,
   "transparent" : true,
-  "stairVariants" : 1,
-  "stairImage" : "woodstairs.png",
-  "platformVariants" : 3,
-  "platformImage" : "woodplatform.png",
   "itemDrop" : "platform",
   "shortdescription" : "Wood Platform",
-  "description" : "A non-descript wood platform.",
-  "footstepSound" : "/sfx/blocks/footstep_lightwood.wav"
+  "description" : "A nondescript wood platform.",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.wav",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "woodplatform.png",
+    "variants" : 3,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multicolored" : true,
+    "zLevel" : 0,
+    "platform" : true
+  }
 }

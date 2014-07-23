@@ -7,12 +7,13 @@
   "category" : "decorative",
   "price" : 400,
   
-  "apexDescription" : "-todo-",
-  "avianDescription" : "-todo-",
-  "floranDescription" : "-todo-",
+  "apexDescription" : "Eight.",
+  "avianDescription" : "Eight.",
+  "floranDescription" : "The crushing futility of existence.",
   "glitchDescription" : "Statement. Eight.",
-  "humanDescription" : "-todo-",
-  "hylotlDescription" : "-todo-",
+  "humanDescription" : "Eight.",
+  "hylotlDescription" : "Eight.",
+  "novakidDescription" : "An eight.",
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
