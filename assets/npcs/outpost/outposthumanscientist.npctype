@@ -1,0 +1,66 @@
+{
+  "type" : "outposthumanscientist",
+  "baseType" : "outpostcivilian",
+
+    "scriptConfig" : {
+        "converse" : {
+            "waitTime" : 0.5,
+            "dialog" : {
+          
+                "default" : [
+                      "The entity that destroyed Earth could strike other worlds. We must devise some means of fighting back!"
+                ],
+            
+                "human" : {
+                    "default" : [
+                      "The entity that destroyed Earth could strike other worlds. We must devise some means of fighting back!"
+                    ],
+
+                    "avian" : [
+                      "The entity that destroyed Earth could strike other worlds. We must devise some means of fighting back!"
+                    ],
+
+                    "apex" : [
+                      "The entity that destroyed Earth could strike other worlds. We must devise some means of fighting back!"
+                    ],
+
+                    "floran" : [
+                      "The entity that destroyed Earth could strike other worlds. We must devise some means of fighting back!"
+                    ],
+
+                    "glitch" : [
+                      "The entity that destroyed Earth could strike other worlds. We must devise some means of fighting back!"
+                    ],
+
+                    "human" : [
+                      "A fellow survivor! You wouldn't happen to know any scientists who could assist me with my research, would you?"
+                    ],
+
+                    "hylotl" : [
+                      "The entity that destroyed Earth could strike other worlds. We must devise some means of fighting back!"
+                    ]
+                }
+            }
+        }
+    },
+
+    "items" : {
+        "default" : [
+            [0, [
+                {
+                    "chest" : [ { "name" : "scientistchest", "data" : { "colorIndex" : 4 } } ],
+                    "legs" : [ { "name" : "scientistlegs", "data" : { "colorIndex" : 11 } } ]
+                }
+            ] ]
+        ]
+    },
+
+      "statusParameters" : {
+        "baseMaxHealth" : 40,
+        "baseMaxEnergy" : 40,
+        "bodyMaterialKind" : "organic",
+        "damageConfig" : "/damage/damageresponse/npcs.config",
+        "invulnerabilityTime" : 0,
+        "energyReplenishmentRate" : 100.0
+      }
+}

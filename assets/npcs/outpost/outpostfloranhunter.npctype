@@ -1,0 +1,66 @@
+{
+  "type" : "outpostfloranhunter",
+  "baseType" : "outpostcivilian",
+
+    "scriptConfig" : {
+        "converse" : {
+            "waitTime" : 0.5,
+            "dialog" : {
+          
+                "default" : [
+                    "Floran tire of hunting without reason. Floran leave clan to find greater purpossse."
+                ],
+            
+                "floran" : {
+                    "default" : [
+                      "Floran tire of hunting without reason. Floran leave clan to find greater purpossse."
+                    ],
+
+                    "avian" : [
+                      "Floran tire of hunting without reason. Floran leave clan to find greater purpossse."
+                    ],
+
+                    "apex" : [
+                      "Floran tire of hunting without reason. Floran leave clan to find greater purpossse."
+                    ],
+
+                    "floran" : [
+                      "Floran happy to meet another Floran."
+                    ],
+
+                    "glitch" : [
+                      "Floran tire of hunting without reason. Floran leave clan to find greater purpossse."
+                    ],
+
+                    "human" : [
+                      "Floran tire of hunting without reason. Floran leave clan to find greater purpossse."
+                    ],
+
+                    "hylotl" : [
+                      "Floran ussssed to hate fish. Floran not hate fish now."
+                    ]
+                }
+            }
+        }
+    },
+
+    "items" : {
+        "default" : [
+            [0, [
+                {
+                    "chest" : [ { "name" : "florantier6chest", "data" : { "colorIndex" : 3 } } ],
+                    "legs" : [ { "name" : "humantier2pants", "data" : { "colorIndex" : 7 } } ]
+                }
+            ] ]
+        ]
+    },
+
+      "statusParameters" : {
+        "baseMaxHealth" : 40,
+        "baseMaxEnergy" : 40,
+        "bodyMaterialKind" : "organic",
+        "damageConfig" : "/damage/damageresponse/npcs.config",
+        "invulnerabilityTime" : 0,
+        "energyReplenishmentRate" : 100.0
+      }
+}

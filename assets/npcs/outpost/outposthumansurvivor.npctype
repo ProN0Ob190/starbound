@@ -1,0 +1,66 @@
+{
+  "type" : "outposthumansurvivor",
+  "baseType" : "outpostcivilian",
+
+    "scriptConfig" : {
+        "converse" : {
+            "waitTime" : 0.5,
+            "dialog" : {
+          
+                "default" : [
+                    "I only just barely escaped from Earth as it was torn apart. I was very lucky to have found this place."
+                ],
+            
+                "human" : {
+                    "default" : [
+                      "I only just barely escaped from Earth as it was torn apart. I was very lucky to have found this place."
+                    ],
+
+                    "avian" : [
+                      "I only just barely escaped from Earth as it was torn apart. I was very lucky to have found this place."
+                    ],
+
+                    "apex" : [
+                      "I only just barely escaped from Earth as it was torn apart. I was very lucky to have found this place."
+                    ],
+
+                    "floran" : [
+                      "I only just barely escaped from Earth as it was torn apart. I was very lucky to have found this place."
+                    ],
+
+                    "glitch" : [
+                      "I only just barely escaped from Earth as it was torn apart. I was very lucky to have found this place."
+                    ],
+
+                    "human" : [
+                      "All of humanity, scattered across the universe. How could the USMC have allowed this to happen to us?"
+                    ],
+
+                    "hylotl" : [
+                      "I only just barely escaped from Earth as it was torn apart. I was very lucky to have found this place."
+                    ]
+                }
+            }
+        }
+    },
+
+    "items" : {
+        "default" : [
+            [0, [
+                {
+                    "chest" : [ { "name" : "apextier5chest", "data" : { "colorIndex" : 8 } } ],
+                    "legs" : [ { "name" : "humantier5pants", "data" : { "colorIndex" : 8 } } ]
+                }
+            ] ]
+        ]
+    },
+
+      "statusParameters" : {
+        "baseMaxHealth" : 40,
+        "baseMaxEnergy" : 40,
+        "bodyMaterialKind" : "organic",
+        "damageConfig" : "/damage/damageresponse/npcs.config",
+        "invulnerabilityTime" : 0,
+        "energyReplenishmentRate" : 100.0
+      }
+}

@@ -1,0 +1,66 @@
+{
+  "type" : "outpostapexmechanic",
+  "baseType" : "outpostcivilian",
+
+    "scriptConfig" : {
+        "converse" : {
+            "waitTime" : 0.5,
+            "dialog" : {
+          
+                "default" : [
+                    "It's not much, but I do what I can to help keep the equipment in this place running."
+                ],
+            
+                "apex" : {
+                    "default" : [
+                      "It's not much, but I do what I can to help keep the equipment in this place running."
+                    ],
+
+                    "avian" : [
+                      "It's not much, but I do what I can to help keep the equipment in this place running."
+                    ],
+
+                    "apex" : [
+                      "It seems we are both fortunate to have escaped Big Ape's tyranny."
+                    ],
+
+                    "floran" : [
+                      "It's not much, but I do what I can to help keep the equipment in this place running."
+                    ],
+
+                    "glitch" : [
+                      "It's not much, but I do what I can to help keep the equipment in this place running."
+                    ],
+
+                    "human" : [
+                      "It's not much, but I do what I can to help keep the equipment in this place running."
+                    ],
+
+                    "hylotl" : [
+                      "It's not much, but I do what I can to help keep the equipment in this place running."
+                    ]
+                }
+            }
+        }
+    },
+
+    "items" : {
+        "default" : [
+            [0, [
+                {
+                    "chest" : [ { "name" : "apextier3chest" } ],
+                    "legs" : [ { "name" : "apextier4pants", "data" : { "colorIndex" : 1 } } ]
+                }
+            ] ]
+        ]
+    },
+
+      "statusParameters" : {
+        "baseMaxHealth" : 40,
+        "baseMaxEnergy" : 40,
+        "bodyMaterialKind" : "organic",
+        "damageConfig" : "/damage/damageresponse/npcs.config",
+        "invulnerabilityTime" : 0,
+        "energyReplenishmentRate" : 100.0
+      }
+}

@@ -1,0 +1,67 @@
+{
+  "type" : "outpostglitchmercenary",
+  "baseType" : "outpostcivilian",
+
+    "scriptConfig" : {
+        "converse" : {
+            "waitTime" : 0.5,
+            "dialog" : {
+          
+                "default" : [
+                    "Apologetic. Please do not be offended if my comrade in black will not speak to you. He's not much of a talker."
+                ],
+            
+                "glitch" : {
+                    "default" : [
+                      "Apologetic. Please do not be offended if my comrade in black will not speak to you. He's not much of a talker."
+                    ],
+
+                    "avian" : [
+                      "Apologetic. Please do not be offended if my comrade in black will not speak to you. He's not much of a talker."
+                    ],
+
+                    "apex" : [
+                      "Apologetic. Please do not be offended if my comrade in black will not speak to you. He's not much of a talker."
+                    ],
+
+                    "floran" : [
+                      "Apologetic. Please do not be offended if my comrade in black will not speak to you. He's not much of a talker."
+                    ],
+
+                    "glitch" : [
+                      "Wistful. Were times not simpler before we learned of all... this?"
+                    ],
+
+                    "human" : [
+                      "Apologetic. Please do not be offended if my comrade in black will not speak to you. He's not much of a talker."
+                    ],
+
+                    "hylotl" : [
+                      "Apologetic. Please do not be offended if my comrade in black will not speak to you. He's not much of a talker."
+                    ]
+                }
+            }
+        }
+    },
+
+    "items" : {
+        "default" : [
+            [0, [
+                {
+                    "chest" : [ { "name" : "glitchtier2chest" } ],
+                    "legs" : [ { "name" : "apextier1pants", "data" : { "colorIndex" : 1 } } ],
+                    "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ]
+                }
+            ] ]
+        ]
+    },
+
+      "statusParameters" : {
+        "baseMaxHealth" : 40,
+        "baseMaxEnergy" : 40,
+        "bodyMaterialKind" : "organic",
+        "damageConfig" : "/damage/damageresponse/npcs.config",
+        "invulnerabilityTime" : 0,
+        "energyReplenishmentRate" : 100.0
+      }
+}

@@ -1,0 +1,68 @@
+{
+  "type" : "outposthylotlwarrior",
+  "baseType" : "outpostcivilian",
+
+    "scriptConfig" : {
+        "converse" : {
+            "waitTime" : 0.5,
+            "dialog" : {
+          
+                "default" : [
+                      "We Hylotl are not widely regarded as warriors, but I never back down from a fight."
+                ],
+            
+                "hylotl" : {
+                    "default" : [
+                      "We Hylotl are not widely regarded as warriors, but I never back down from a fight."
+                    ],
+
+                    "avian" : [
+                      "We Hylotl are not widely regarded as warriors, but I never back down from a fight."
+                    ],
+
+                    "apex" : [
+                      "We Hylotl are not widely regarded as warriors, but I never back down from a fight."
+                    ],
+
+                    "floran" : [
+                      "Many among my people despise your kind, but I think the tenacity of the Floran is worthy of praise."
+                    ],
+
+                    "glitch" : [
+                      "We Hylotl are not widely regarded as warriors, but I never back down from a fight."
+                    ],
+
+                    "human" : [
+                      "We Hylotl are not widely regarded as warriors, but I never back down from a fight."
+                    ],
+
+                    "hylotl" : [
+                      "You honour me with your presence, friend."
+                    ]
+                }
+            }
+        }
+    },
+
+    "items" : {
+        "default" : [
+            [0, [
+                {
+                    "head" : [ { "name" : "apextier7head", "data" : { "colorIndex" : 6 } } ],
+                    "chest" : [ { "name" : "humantier4chest", "data" : { "colorIndex" : 6 } } ],
+                    "legs" : [ { "name" : "hylotltier3pants", "data" : { "colorIndex" : 6 } } ],
+                    "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ]
+                }
+            ] ]
+        ]
+    },
+
+      "statusParameters" : {
+        "baseMaxHealth" : 40,
+        "baseMaxEnergy" : 40,
+        "bodyMaterialKind" : "organic",
+        "damageConfig" : "/damage/damageresponse/npcs.config",
+        "invulnerabilityTime" : 0,
+        "energyReplenishmentRate" : 100.0
+      }
+}

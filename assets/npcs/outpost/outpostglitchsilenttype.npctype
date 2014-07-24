@@ -1,0 +1,68 @@
+{
+  "type" : "outpostglitchsilenttype",
+  "baseType" : "outpostcivilian",
+
+    "scriptConfig" : {
+        "converse" : {
+            "waitTime" : 0.5,
+            "dialog" : {
+          
+                "default" : [
+                    "..."
+                ],
+            
+                "glitch" : {
+                    "default" : [
+                      "..."
+                    ],
+
+                    "avian" : [
+                      "..."
+                    ],
+
+                    "apex" : [
+                      "..."
+                    ],
+
+                    "floran" : [
+                      "..."
+                    ],
+
+                    "glitch" : [
+                      "..."
+                    ],
+
+                    "human" : [
+                      "..."
+                    ],
+
+                    "hylotl" : [
+                      "..."
+                    ]
+                }
+            }
+        }
+    },
+
+    "items" : {
+        "default" : [
+            [0, [
+                {
+                    "head" : [ { "name" : "glitchtier4head", "data" : { "colorIndex" : 1 } } ],
+                    "chest" : [ { "name" : "apextier9chest", "data" : { "colorIndex" : 1 } } ],
+                    "legs" : [ { "name" : "glitchtier4pants", "data" : { "colorIndex" : 1 } } ],
+                    "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ]
+                }
+            ] ]
+        ]
+    },
+
+      "statusParameters" : {
+        "baseMaxHealth" : 40,
+        "baseMaxEnergy" : 40,
+        "bodyMaterialKind" : "organic",
+        "damageConfig" : "/damage/damageresponse/npcs.config",
+        "invulnerabilityTime" : 0,
+        "energyReplenishmentRate" : 100.0
+      }
+}

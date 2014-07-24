@@ -326,7 +326,9 @@ end
 --------------------------------------------------------------------------------
 -- Called from C++
 function interact(args)
-  if self.state.pickState({ interactArgs = args }) then
+  if availableQuest() ~= nil then
+    return { "StartQuest", { questTemplateId = availableQuest() }}
+  elseif self.state.pickState({ interactArgs = args }) then
     if self.tradingConfig ~= nil and self.state.stateDesc() == "merchantState" then
       return { "OpenNpcCraftingInterface", self.tradingConfig }
     end
@@ -636,4 +638,14 @@ function sayToTarget(dialogType, targetId, tags)
   end
 
   return false
+end
+
+--------------------------------------------------------------------------------
+function availableQuest()
+  local availableQuests = entity.configParameter("availableQuests")
+  if type(availableQuests) == "table" and #availableQuests > 0 then
+    return availableQuests[1]
+  else
+    world.logInfo("NO QUESTS AVAILABLE")
+  end
 end

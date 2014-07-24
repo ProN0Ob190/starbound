@@ -1,0 +1,66 @@
+{
+  "type" : "outposthumanexcon",
+  "baseType" : "outpostcivilian",
+
+    "scriptConfig" : {
+        "converse" : {
+            "waitTime" : 0.5,
+            "dialog" : {
+          
+                "default" : [
+                    "Despite knowing I come from one of the USCM prisons, the people here have been very good to me. I owe them a lot."
+                ],
+            
+                "human" : {
+                    "default" : [
+                      "Despite knowing I come from one of the USCM prisons, the people here have been very good to me. I owe them a lot."
+                    ],
+
+                    "avian" : [
+                      "Despite knowing I come from one of the USCM prisons, the people here have been very good to me. I owe them a lot."
+                    ],
+
+                    "apex" : [
+                      "Despite knowing I come from one of the USCM prisons, the people here have been very good to me. I owe them a lot."
+                    ],
+
+                    "floran" : [
+                      "Despite knowing I come from one of the USCM prisons, the people here have been very good to me. I owe them a lot."
+                    ],
+
+                    "glitch" : [
+                      "Despite knowing I come from one of the USCM prisons, the people here have been very good to me. I owe them a lot."
+                    ],
+
+                    "human" : [
+                      "A word of advice. If you want to avoid trouble, don't visit any of the USCM prisons. Most of them have been torn apart."
+                    ],
+
+                    "hylotl" : [
+                      "Despite knowing I come from one of the USCM prisons, the people here have been very good to me. I owe them a lot."
+                    ]
+                }
+            }
+        }
+    },
+
+    "items" : {
+        "default" : [
+            [0, [
+                {
+                    "chest" : [ { "name" : "coolchest", "data" : { "colorIndex" : 3 } } ],
+                    "legs" : [ { "name" : "jumpsuitlegs", "data" : { "colorIndex" : 5 } } ]
+                }
+            ] ]
+        ]
+    },
+
+      "statusParameters" : {
+        "baseMaxHealth" : 40,
+        "baseMaxEnergy" : 40,
+        "bodyMaterialKind" : "organic",
+        "damageConfig" : "/damage/damageresponse/npcs.config",
+        "invulnerabilityTime" : 0,
+        "energyReplenishmentRate" : 100.0
+      }
+}

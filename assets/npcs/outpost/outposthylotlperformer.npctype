@@ -1,0 +1,66 @@
+{
+  "type" : "outposthylotlperformer",
+  "baseType" : "outpostcivilian",
+
+    "scriptConfig" : {
+        "converse" : {
+            "waitTime" : 0.5,
+            "dialog" : {
+          
+                "default" : [
+                      "Nobody appreciates a good joke anymore! My comic genius is wasted on the cretins here."
+                ],
+            
+                "hylotl" : {
+                    "default" : [
+                      "Nobody appreciates a good joke anymore! My comic genius is wasted on the cretins here."
+                    ],
+
+                    "avian" : [
+                      "Out on your own? Guess you really... flew the coop!"
+                    ],
+
+                    "apex" : [
+                      "What did the enamoured Apex say to his wife? You drive me bananas!"
+                    ],
+
+                    "floran" : [
+                      "What do you call a Floran friend? A Flower Bud!"
+                    ],
+
+                    "glitch" : [
+                      "What is a Glitch's favourite dance? The robot!"
+                    ],
+
+                    "human" : [
+                      "What do you get when you shave an Apex? A human!"
+                    ],
+
+                    "hylotl" : [
+                      "Nobody appreciates a good joke anymore! My comic genius is wasted on the cretins here."
+                    ]
+                }
+            }
+        }
+    },
+
+    "items" : {
+        "default" : [
+            [0, [
+                {
+                    "chest" : [ { "name" : "moneybagschest" } ],
+                    "legs" : [ { "name" : "moneybagspants" } ]
+                }
+            ] ]
+        ]
+    },
+
+      "statusParameters" : {
+        "baseMaxHealth" : 40,
+        "baseMaxEnergy" : 40,
+        "bodyMaterialKind" : "organic",
+        "damageConfig" : "/damage/damageresponse/npcs.config",
+        "invulnerabilityTime" : 0,
+        "energyReplenishmentRate" : 100.0
+      }
+}
