@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "Rubiumbar", "count" : 35 }
+    { "item" : "rubiumbar", "count" : 35 }
   ],
   "output" : { "item" : "florantier9chest", "count" : 1 },
   "groups" : [ "craftingtable", "armors", "all" ]

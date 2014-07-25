@@ -1,7 +1,7 @@
 {
   "modId" : 27,
-  "modName" : "Cerulium",
-  "itemDrop" : "Ceruliumore",
+  "modName" : "cerulium",
+  "itemDrop" : "ceruliumore",
   "Description" : "Cerulium.",
   "health" : 18,
   "harvestLevel" : 6,

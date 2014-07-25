@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "Violiumbar", "count" : 1 },
+    { "item" : "violiumbar", "count" : 1 },
     { "item" : "torch", "count" : 1 }
   ],
   "output" : { "item" : "tier8light", "count" : 1 },

@@ -1,0 +1,67 @@
+{
+  "objectName" : "lunarlantern",
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 300,
+
+  "description" : "-todo-",
+  "shortdescription" : "Lunar Lantern",
+  "race" : "generic",
+  "printable" : false,
+  "hydrophobic" : true,
+
+  "apexDescription" : "-todo-",
+  "avianDescription" : "Fuel keeps the flame alight.",
+  "floranDescription" : "Flame eatsss liquid insside.",
+  "glitchDescription" : "Identify. The lantern contains oil.",
+  "humanDescription" : "A beautiful oil lantern.",
+  "hylotlDescription" : "The fuel in this lantern would not burn under the sea.",
+
+  "statusEffects" : [
+    {
+      "kind" : "Warmth",
+      "amount" : 10,
+      "range" : 2
+    } ],
+
+  "lightColor" : [204, 189, 173],
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.1,
+
+  "inventoryIcon" : "lunarlanternicon.png",
+  "orientations" : [
+
+    {
+      "image" : "lunarlantern.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 2,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [0, -1] ]
+    },
+
+    {
+      "image" : "lunarlantern.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 2,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "bgAnchors" : [ [0, 1] ]
+    },
+
+    {
+      "image" : "lunarlantern.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 2,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "bgAnchors" : [ [0, 0] ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/oillantern.wav"
+
+}

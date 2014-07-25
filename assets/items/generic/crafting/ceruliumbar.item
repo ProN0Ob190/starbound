@@ -1,7 +1,7 @@
 {
-  "itemName" : "Ceruliumbar",
+  "itemName" : "ceruliumbar",
   "rarity" : "Common",
-  "inventoryIcon" : "Ceruliumbar.png",
+  "inventoryIcon" : "ceruliumbar.png",
   "description" : "It's a Cerulium bar.",
   "shortdescription" : "Cerulium Bar"
 }

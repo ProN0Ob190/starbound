@@ -1,7 +1,7 @@
 {
-  "itemName" : "Feroziumbar",
+  "itemName" : "feroziumbar",
   "rarity" : "Common",
-  "inventoryIcon" : "Feroziumbar.png",
+  "inventoryIcon" : "feroziumbar.png",
   "description" : "It's a Ferozium bar.",
   "shortdescription" : "Ferozium Bar"
 }

@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "Rubiumbar", "count" : 20 }
+    { "item" : "rubiumbar", "count" : 20 }
   ],
   "output" : { "item" : "glitchtier9head", "count" : 1 },
   "groups" : [ "craftingtable", "armors", "all" ]

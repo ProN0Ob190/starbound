@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "Ceruliumbar", "count" : 1 },
+    { "item" : "ceruliumbar", "count" : 1 },
     { "item" : "torch", "count" : 1 }
   ],
   "output" : { "item" : "tier7light", "count" : 1 },

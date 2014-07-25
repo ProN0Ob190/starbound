@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "Ceruliumbar", "count" : 12 }
+    { "item" : "ceruliumbar", "count" : 12 }
   ],
   "output" : { "item" : "glitchtier7pants", "count" : 1 },
   "groups" : [ "craftingtable", "armors", "all" ]

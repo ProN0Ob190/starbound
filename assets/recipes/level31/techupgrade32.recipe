@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "durasteelbar", "count" : 40 },
-    { "item" : "endomorphicjelly", "count" : 1 }
-  ],
-  "output" : { "item" : "techupgrade32", "count" : 1 },
-  "groups" : [ "roboticcraftingtable", "all" ]
-}

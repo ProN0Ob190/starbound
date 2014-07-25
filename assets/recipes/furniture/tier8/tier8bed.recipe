@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "Violiumbar", "count" : 5 }
+    { "item" : "violiumbar", "count" : 5 }
   ],
   "output" : { "item" : "tier8bed", "count" : 1 },
   "groups" : [ "metalworkstation", "furniture", "objects", "all" ]

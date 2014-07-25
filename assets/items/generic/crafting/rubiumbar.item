@@ -1,7 +1,7 @@
 {
-  "itemName" : "Rubiumbar",
+  "itemName" : "rubiumbar",
   "rarity" : "Uncommon",
-  "inventoryIcon" : "Rubiumbar.png",
+  "inventoryIcon" : "rubiumbar.png",
   "description" : "It's a Rubium bar.",
   "shortdescription" : "Rubium Bar"
 }

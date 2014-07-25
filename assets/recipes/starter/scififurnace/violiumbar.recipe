@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ceruliumbar", "count" : 1 },
+    { "item" : "coalore", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "violiumbar",
+    "count" : 1
+  },
+  "groups" : [ "metalworkstation", "all" ]
+}

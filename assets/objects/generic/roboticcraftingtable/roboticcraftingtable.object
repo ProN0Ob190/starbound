@@ -4,7 +4,7 @@
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
     "config" : "/interface/windowconfig/robotcraftingtable.config",
-    "filter" : [ "craftingtable", "plain", "roboticcraftingtable" ]
+    "filter" : [ "plain", "craftingtable", "ironcraftingtable", "roboticcraftingtable" ]
   },
   "printable" : false,
   "description" : "This table has arms! For precision!",

@@ -25,9 +25,10 @@
       "range" : 2
     } ],
 
-  "lightColor" : [252, 197, 67],
+  "lightColor" : [166, 137, 116],
   "flickerDistance" : 0.5,
   "flickerStrength" : 0.1,
+  "flickerTiming" : 2,
 
   "inventoryIcon" : "tier1lighticon.png",
   "orientations" : [

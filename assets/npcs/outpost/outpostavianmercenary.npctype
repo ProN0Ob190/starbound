@@ -8,20 +8,20 @@
             "dialog" : {
           
                 "default" : [
-                      "We Hylotl are not widely regarded as warriors, but I never back down from a fight."
+                      "I once served the Stargazers, until I came to realize that I no longer agreed with their views."
                 ],
             
                 "avian" : {
                     "default" : [
-                      "We Hylotl are not widely regarded as warriors, but I never back down from a fight."
+                      "I once served the Stargazers, until I came to realize that I no longer agreed with their views."
                     ],
 
                     "avian" : [
-                      "Blarg"
+                      "You need not fear the wrath of the Stargazers in this place, my friend."
                     ],
 
                     "apex" : [
-                      "We Hylotl are not widely regarded as warriors, but I never back down from a fight."
+                      "I once served the Stargazers, until I came to realize that I no longer agreed with their views."
                     ],
 
                     "floran" : [
@@ -29,15 +29,15 @@
                     ],
 
                     "glitch" : [
-                      "We Hylotl are not widely regarded as warriors, but I never back down from a fight."
+                      "I once served the Stargazers, until I came to realize that I no longer agreed with their views."
                     ],
 
                     "human" : [
-                      "We Hylotl are not widely regarded as warriors, but I never back down from a fight."
+                      "I once served the Stargazers, until I came to realize that I no longer agreed with their views."
                     ],
 
                     "hylotl" : [
-                      "You honour me with your presence, friend."
+                      "I once served the Stargazers, until I came to realize that I no longer agreed with their views."
                     ]
                 }
             }

@@ -1,7 +1,7 @@
 {
-  "itemName" : "Ceruliumore",
+  "itemName" : "ceruliumore",
   "rarity" : "Common",
-  "inventoryIcon" : "Ceruliumore.png",
+  "inventoryIcon" : "ceruliumore.png",
   "description" : "Cerulium ore. Can be used for smelting or repairs. Pick up ore and right click mining tool to repair.",
   "shortdescription" : "Cerulium Ore"
 }

@@ -1,7 +1,7 @@
 {
-  "itemName" : "Violiumbar",
+  "itemName" : "violiumbar",
   "rarity" : "Uncommon",
-  "inventoryIcon" : "Violiumbar.png",
+  "inventoryIcon" : "violiumbar.png",
   "description" : "It's a Violium bar.",
   "shortdescription" : "Violium Bar"
 }

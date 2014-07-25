@@ -1095,299 +1095,232 @@
       "brush" : [ [ "clear" ], [ "object", "ancientconsole", { "direction" : "right" } ] ]
     },
 
-    // NPC MONSTER SPAWN BRUSHES //
+    // NPC SPAWN BRUSHES //
 
     {
-      "value" : [0, 150, 0, 255],
-      "comment" : "robotchicken npc",
+      "value" : [255, 191, 191, 255],
+      "comment" : "apex mechanic",
       "brush" : [ [ "npc",
           {
-            "kind" : "monster",
-            "typeName" : "robotchicken"
+            "kind" : "npc",
+            "species" : "apex",
+            "typeName" : "outpostapexmechanic"
           }
         ] ]
     },
-
+    
     {
-      "value" : [0, 175, 0, 255],
-      "comment" : "passive quadruped npc",
+      "value" : [255, 202, 191, 255],
+      "comment" : "apex refugee",
       "brush" : [ [ "npc",
           {
-            "kind" : "monster",
-            "typeName" : "largequadruped",
-            "seed" : "stable",
-            "parameters" : {
-              "aggressive" : false
-            }
+            "kind" : "npc",
+            "species" : "apex",
+            "typeName" : "outpostapexrefugee"
           }
         ] ]
     },
-
+    
     {
-      "value" : [0, 200, 0, 255],
-      "comment" : "glitch villager npc",
+      "value" : [255, 213, 191, 255],
+      "comment" : "apex scientist",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "npc",
+            "species" : "apex",
+            "typeName" : "outpostapexscientist"
+          }
+        ] ]
+    },
+    
+    {
+      "value" : [255, 223, 191, 255],
+      "comment" : "avian explorer",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "npc",
+            "species" : "avian",
+            "typeName" : "outpostavianexplorer"
+          }
+        ] ]
+    },
+    
+    {
+      "value" : [255, 234, 191, 255],
+      "comment" : "avian mercenary",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "npc",
+            "species" : "avian",
+            "typeName" : "outpostavianmercenary"
+          }
+        ] ]
+    },
+    
+    {
+      "value" : [255, 244, 191, 255],
+      "comment" : "avian refugee",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "npc",
+            "species" : "avian",
+            "typeName" : "outpostavianrefugee"
+          }
+        ] ]
+    },
+    
+    {
+      "value" : [255, 255, 191, 255],
+      "comment" : "floran fan",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "npc",
+            "species" : "floran",
+            "typeName" : "outpostfloranfan"
+          }
+        ] ]
+    },
+    
+    {
+      "value" : [244, 255, 191, 255],
+      "comment" : "floran hunter",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "npc",
+            "species" : "floran",
+            "typeName" : "outpostfloranhunter"
+          }
+        ] ]
+    },
+    
+    {
+      "value" : [234, 255, 191, 255],
+      "comment" : "floran scholar",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "npc",
+            "species" : "floran",
+            "typeName" : "outpostfloranscholar"
+          }
+        ] ]
+    },
+    
+    {
+      "value" : [223, 255, 191, 255],
+      "comment" : "glitch mechanic",
       "brush" : [ [ "npc",
           {
             "kind" : "npc",
             "species" : "glitch",
-            "typeName" : "villager"
+            "typeName" : "outpostglitchmechanic"
           }
         ] ]
     },
-
+    
     {
-      "value" : [175, 0, 0, 255],
-      "comment" : "glitch food merchant npc",
+      "value" : [213, 255, 191, 255],
+      "comment" : "glitch mercenary",
       "brush" : [ [ "npc",
           {
             "kind" : "npc",
             "species" : "glitch",
-            "typeName" : "merchant",
-            "parameters" : {
-              "scriptConfig" : {
-                "noticePlayersRadius" : 20.0,
-                "merchant" : {
-                  "storeRadius" : 2,
-                  "categories" : [ "glitchingredients" ],
-                  "priceVarianceRange" : [0.8, 1.2],
-                  "numItems" : 10
-                },
-                "sit" : {
-                  "searchRadius" : 8
-                },
-                "sleep" : {
-                  "searchRadius" : 20
-                }
-              }
-            }
+            "typeName" : "outpostglitchmercenary"
           }
         ] ]
     },
-
+    
     {
-      "value" : [200, 0, 0, 255],
-      "comment" : "glitch weapons merchant npc",
+      "value" : [202, 255, 191, 255],
+      "comment" : "glitch silent type",
       "brush" : [ [ "npc",
           {
             "kind" : "npc",
             "species" : "glitch",
-            "typeName" : "merchant",
-            "parameters" : {
-              "scriptConfig" : {
-                "noticePlayersRadius" : 20.0,
-                "merchant" : {
-                  "storeRadius" : 2,
-                  "categories" : [ "glitchweaponblueprints", "randomswords" ],
-                  "priceVarianceRange" : [0.8, 1.2],
-                  "numItems" : 15
-                },
-                "sit" : {
-                  "searchRadius" : 8
-                },
-                "sleep" : {
-                  "searchRadius" : 20
-                }
-              }
-            }
+            "typeName" : "outpostglitchsilenttype"
           }
         ] ]
     },
-
+    
     {
-      "value" : [225, 0, 0, 255],
-      "comment" : "glitch armor/clothes merchant npc",
+      "value" : [191, 255, 191, 255],
+      "comment" : "human ex-con",
       "brush" : [ [ "npc",
           {
             "kind" : "npc",
-            "species" : "glitch",
-            "typeName" : "merchant",
-            "parameters" : {
-              "scriptConfig" : {
-                "noticePlayersRadius" : 20.0,
-                "merchant" : {
-                  "storeRadius" : 2,
-                  "categories" : [ "glitcharmorblueprints", "glitchclothes" ],
-                  "priceVarianceRange" : [0.8, 1.2],
-                  "numItems" : 25
-                },
-                "sit" : {
-                  "searchRadius" : 8
-                },
-                "sleep" : {
-                  "searchRadius" : 20
-                }
-              }
-            }
+            "species" : "human",
+            "typeName" : "outposthumanexcon"
           }
         ] ]
     },
-
+    
     {
-      "value" : [0, 0, 200, 255],
-      "comment" : "glitch village guard npc",
+      "value" : [191, 255, 202, 255],
+      "comment" : "human scientist",
       "brush" : [ [ "npc",
           {
             "kind" : "npc",
-            "species" : "glitch",
-            "typeName" : "villageguard"
+            "species" : "human",
+            "typeName" : "outposthumanscientist"
           }
         ] ]
     },
-
+    
     {
-      "value" : [0, 0, 225, 255],
-      "comment" : "glitch village guard captain npc",
+      "value" : [191, 255, 212, 255],
+      "comment" : "human survivor",
       "brush" : [ [ "npc",
           {
             "kind" : "npc",
-            "species" : "glitch",
-            "typeName" : "villageguardcaptain"
+            "species" : "human",
+            "typeName" : "outposthumansurvivor"
           }
         ] ]
     },
-
+    
     {
-      "value" : [0, 200, 200, 255],
-      "comment" : "glitch castle guard npc",
+      "value" : [191, 255, 223, 255],
+      "comment" : "hylotl floran-hater",
       "brush" : [ [ "npc",
           {
             "kind" : "npc",
-            "species" : "glitch",
-            "typeName" : "castleguard"
+            "species" : "hylotl",
+            "typeName" : "outposthylotlfloranhater"
           }
         ] ]
     },
-
+    
     {
-      "value" : [0, 215, 215, 255],
-      "comment" : "glitch exterior castle guard npc",
+      "value" : [191, 255, 234, 255],
+      "comment" : "hylotl performer",
       "brush" : [ [ "npc",
           {
             "kind" : "npc",
-            "species" : "glitch",
-            "typeName" : "castleguard",
-            "parameters" : {
-              "scriptConfig" : {
-                "guard" : {
-                  "patrolDistance" : 0,
-                  "noticeDistance" : 30,
-                  "hailDistance" : 20,
-                  "stopDistance" : 10,
-                  "attackDistance" : 5,
-                  "attackSayingPercent" : -1,
-                  "dialog" : {
-                    "hail" : {
-                      "default" : [ "Halt! Who goes there?" ]
-                    },
-                    "stop" : {
-                      "default" : [ "You may go no further." ]
-                    }
-                  }
-                },
-
-                "meleeAttack" : {
-                  "sayAttackStartDistance" : -1
-                }
-              }
-            }
+            "species" : "hylotl",
+            "typeName" : "outposthylotlperformer"
           }
         ] ]
     },
-
+    
     {
-      "value" : [0, 225, 225, 255],
-      "comment" : "glitch castle royal guard npc",
+      "value" : [191, 255, 244, 255],
+      "comment" : "hylotl warrior",
       "brush" : [ [ "npc",
           {
             "kind" : "npc",
-            "species" : "glitch",
-            "typeName" : "castleroyalguard"
+            "species" : "hylotl",
+            "typeName" : "outposthylotlwarrior"
           }
         ] ]
     },
-
+    
     {
-      "value" : [0, 250, 250, 255],
-      "comment" : "glitch castle lord npc",
+      "value" : [191, 255, 255, 255],
+      "comment" : "bounty hunter",
       "brush" : [ [ "npc",
           {
             "kind" : "npc",
-            "species" : "glitch",
-            "typeName" : "castlelord",
-            "parameters" : {
-              "scriptConfig" : {
-                "guard" : {
-                  "patrolDistance" : 5
-                }
-              }
-            }
-          }
-        ] ]
-    },
-
-    {
-      "value" : [250, 200, 0, 255],
-      "comment" : "glitch knight",
-      "brush" : [ [ "npc",
-          {
-            "kind" : "monster",
-            "typeName" : "glitchknight"
-          }
-        ] ]
-    },
-
-    {
-      "value" : [0, 225, 0, 255],
-      "comment" : "glitch servant npc",
-      "brush" : [ [ "npc",
-          {
-            "kind" : "npc",
-            "species" : "glitch",
-            "typeName" : "servant"
-          }
-        ] ]
-    },
-
-    {
-      "value" : [200, 200, 0, 255],
-      "comment" : "megapo npc",
-      "brush" : [ [ "npc",
-          {
-            "kind" : "monster",
-            "typeName" : "megapo"
-          }
-        ] ]
-    },
-
-    {
-      "value" : [225, 225, 0, 255],
-      "comment" : "pogolem npc",
-      "brush" : [ [ "npc",
-          {
-            "kind" : "monster",
-            "typeName" : "pogolem"
-          }
-        ] ]
-    },
-
-    {
-      "value" : [225, 175, 0, 255],
-      "comment" : "glitchspider npc",
-      "brush" : [ [ "npc",
-          {
-            "kind" : "monster",
-            "typeName" : "glitchspider"
-          }
-        ] ]
-    },
-
-    {
-      "value" : [0, 175, 250, 255],
-      "comment" : "sewerfly npc",
-      "brush" : [ [ "npc",
-          {
-            "kind" : "monster",
-            "typeName" : "sewerfly"
+            "species" : "human",
+            "typeName" : "outpostbountyhunter"
           }
         ] ]
     }

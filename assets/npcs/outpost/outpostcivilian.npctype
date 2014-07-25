@@ -274,7 +274,7 @@
     },
 
     "sit" : {
-      "timeOfDayRanges" : [ [0.6, 1.0], [0.0, 0.2] ],
+      "timeOfDayRanges" : [ [0.0, 1.0] ],
       "moveTimeLimit" : 30,
       "searchRadius" : 25,
       "sitRadius" : 3,
@@ -293,7 +293,7 @@
     "wander" : {
       "timeRange" : [2.0, 10.0],
       "chatDistance" : 4,
-      "indoorTimeOfDayRanges" : [ [0.0, 0.2], [0.5, 1.0] ],
+      "indoorTimeOfDayRanges" : [ [0.0, 1.0], [0.5, 1.0] ],
       "indoorSearchRadius" : 60,
       "indoorLookaheadDistance" : 4,
       "moveToTargetTime" : 10.0,

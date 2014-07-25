@@ -4,5 +4,5 @@
     { "item" : "fullwood1", "count" : 10 }
   ],
   "output" : { "item" : "lanternstickback", "count" : 1 },
-  "groups" : [ "craftingtable", "armors", "all" ]
+  "groups" : [ "ironcraftingtable", "armors", "all" ]
 }

@@ -8,6 +8,6 @@
   },
 
   "aliases" : {
-    "default.default" : "default.on"
+    "default.default" : "default.off"
   }
 }

@@ -7,10 +7,10 @@
     [3.5, [ [ "coal", 1.40], [ "uranium", 0.00], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 0.20], [ "silverore", 0.20], [ "gold", 0.20], [ "platinum", 0.20], [ "diamond", 0.20], [ "titanium", 0.20] ] ],
     [4.5, [ [ "coal", 1.40], [ "uranium", 0.20], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 0.20], [ "silverore", 0.20], [ "gold", 0.20], [ "platinum", 0.20], [ "diamond", 0.20], [ "aegisalt", 0.20] ] ],
     [5.5, [ [ "coal", 1.40], [ "uranium", 0.20], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 0.20], [ "silverore", 0.20], [ "gold", 0.20], [ "platinum", 0.20], [ "diamond", 0.20], [ "aegisalt", 0.20] ] ],
-    [6.5, [ [ "coal", 1.40], [ "uranium", 0.20], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 0.20], [ "silverore", 0.20], [ "gold", 0.20], [ "platinum", 0.20], [ "diamond", 0.20], [ "Cerulium", 0.20] ] ],
-    [7.5, [ [ "coal", 1.40], [ "uranium", 0.20], [ "plutonium", 0.20], [ "solarium", 0.00], [ "copper", 0.20], [ "silverore", 0.20], [ "gold", 0.20], [ "platinum", 0.20], [ "diamond", 0.20], [ "Cerulium", 0.20] ] ],
-    [8.5, [ [ "coal", 1.40], [ "uranium", 0.20], [ "plutonium", 0.20], [ "solarium", 0.00], [ "copper", 0.20], [ "silverore", 0.20], [ "gold", 0.20], [ "platinum", 0.20], [ "diamond", 0.20], [ "Rubium", 0.20] ] ],
-    [9.5, [ [ "coal", 1.40], [ "uranium", 0.20], [ "plutonium", 0.20], [ "solarium", 1.00], [ "copper", 0.20], [ "silverore", 0.20], [ "gold", 0.20], [ "platinum", 0.20], [ "diamond", 0.20], [ "Rubium", 0.20] ] ]
+    [6.5, [ [ "coal", 1.40], [ "uranium", 0.20], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 0.20], [ "silverore", 0.20], [ "gold", 0.20], [ "platinum", 0.20], [ "diamond", 0.20], [ "cerulium", 0.20] ] ],
+    [7.5, [ [ "coal", 1.40], [ "uranium", 0.20], [ "plutonium", 0.20], [ "solarium", 0.00], [ "copper", 0.20], [ "silverore", 0.20], [ "gold", 0.20], [ "platinum", 0.20], [ "diamond", 0.20], [ "cerulium", 0.20] ] ],
+    [8.5, [ [ "coal", 1.40], [ "uranium", 0.20], [ "plutonium", 0.20], [ "solarium", 0.00], [ "copper", 0.20], [ "silverore", 0.20], [ "gold", 0.20], [ "platinum", 0.20], [ "diamond", 0.20], [ "rubium", 0.20] ] ],
+    [9.5, [ [ "coal", 1.40], [ "uranium", 0.20], [ "plutonium", 0.20], [ "solarium", 1.00], [ "copper", 0.20], [ "silverore", 0.20], [ "gold", 0.20], [ "platinum", 0.20], [ "diamond", 0.20], [ "rubium", 0.20] ] ]
 
   ],
 
@@ -21,10 +21,10 @@
     [3.5, [ [ "coal", 1.10], [ "uranium", 0.00], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 1.20], [ "silverore", 1.15], [ "gold", 1.10], [ "platinum", 0.95], [ "diamond", 0.90], [ "titanium", 1.20] ] ],
     [4.5, [ [ "coal", 1.10], [ "uranium", 1.10], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 1.20], [ "silverore", 1.20], [ "gold", 1.15], [ "platinum", 1.05], [ "diamond", 0.95], [ "aegisalt", 1.10] ] ],
     [5.5, [ [ "coal", 1.10], [ "uranium", 1.10], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 1.20], [ "silverore", 1.20], [ "gold", 1.20], [ "platinum", 1.10], [ "diamond", 1.05], [ "aegisalt", 1.20] ] ],
-    [6.5, [ [ "coal", 1.10], [ "uranium", 1.10], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 1.20], [ "silverore", 1.20], [ "gold", 1.20], [ "platinum", 1.15], [ "diamond", 1.10], [ "Cerulium", 1.10] ] ],
-    [7.5, [ [ "coal", 1.10], [ "uranium", 1.10], [ "plutonium", 1.10], [ "solarium", 0.00], [ "copper", 1.20], [ "silverore", 1.20], [ "gold", 1.20], [ "platinum", 1.20], [ "diamond", 1.15], [ "Cerulium", 1.20] ] ],
-    [8.5, [ [ "coal", 1.10], [ "uranium", 1.10], [ "plutonium", 1.10], [ "solarium", 0.00], [ "copper", 1.20], [ "silverore", 1.20], [ "gold", 1.20], [ "platinum", 1.20], [ "diamond", 1.20], [ "Rubium", 1.10] ] ],
-    [9.5, [ [ "coal", 1.10], [ "uranium", 1.10], [ "plutonium", 1.10], [ "solarium", 1.02], [ "copper", 1.20], [ "silverore", 1.20], [ "gold", 1.20], [ "platinum", 1.20], [ "diamond", 1.20], [ "Rubium", 1.20] ] ]
+    [6.5, [ [ "coal", 1.10], [ "uranium", 1.10], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 1.20], [ "silverore", 1.20], [ "gold", 1.20], [ "platinum", 1.15], [ "diamond", 1.10], [ "cerulium", 1.10] ] ],
+    [7.5, [ [ "coal", 1.10], [ "uranium", 1.10], [ "plutonium", 1.10], [ "solarium", 0.00], [ "copper", 1.20], [ "silverore", 1.20], [ "gold", 1.20], [ "platinum", 1.20], [ "diamond", 1.15], [ "cerulium", 1.20] ] ],
+    [8.5, [ [ "coal", 1.10], [ "uranium", 1.10], [ "plutonium", 1.10], [ "solarium", 0.00], [ "copper", 1.20], [ "silverore", 1.20], [ "gold", 1.20], [ "platinum", 1.20], [ "diamond", 1.20], [ "rubium", 1.10] ] ],
+    [9.5, [ [ "coal", 1.10], [ "uranium", 1.10], [ "plutonium", 1.10], [ "solarium", 1.02], [ "copper", 1.20], [ "silverore", 1.20], [ "gold", 1.20], [ "platinum", 1.20], [ "diamond", 1.20], [ "rubium", 1.20] ] ]
   ],
 
   "deepsurfaceOres" : [
@@ -34,10 +34,10 @@
     [3.5, [ [ "coal", 1.15], [ "uranium", 0.00], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 1.25], [ "silverore", 1.20], [ "gold", 1.15], [ "platinum", 1.00], [ "diamond", 0.95], [ "titanium", 1.25] ] ],
     [4.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 1.25], [ "silverore", 1.25], [ "gold", 1.20], [ "platinum", 1.10], [ "diamond", 1.00], [ "aegisalt", 1.15] ] ],
     [5.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 1.25], [ "silverore", 1.25], [ "gold", 1.25], [ "platinum", 1.15], [ "diamond", 1.10], [ "aegisalt", 1.25] ] ],
-    [6.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 1.25], [ "silverore", 1.25], [ "gold", 1.25], [ "platinum", 1.20], [ "diamond", 1.15], [ "Cerulium", 1.15] ] ],
-    [7.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 1.15], [ "solarium", 0.00], [ "copper", 1.25], [ "silverore", 1.25], [ "gold", 1.25], [ "platinum", 1.25], [ "diamond", 1.20], [ "Cerulium", 1.25] ] ],
-    [8.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 1.15], [ "solarium", 0.00], [ "copper", 1.25], [ "silverore", 1.25], [ "gold", 1.25], [ "platinum", 1.25], [ "diamond", 1.25], [ "Rubium", 1.15] ] ],
-    [9.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 1.15], [ "solarium", 1.04], [ "copper", 1.25], [ "silverore", 1.25], [ "gold", 1.25], [ "platinum", 1.25], [ "diamond", 1.25], [ "Rubium", 1.25] ] ]
+    [6.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 1.25], [ "silverore", 1.25], [ "gold", 1.25], [ "platinum", 1.20], [ "diamond", 1.15], [ "cerulium", 1.15] ] ],
+    [7.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 1.15], [ "solarium", 0.00], [ "copper", 1.25], [ "silverore", 1.25], [ "gold", 1.25], [ "platinum", 1.25], [ "diamond", 1.20], [ "cerulium", 1.25] ] ],
+    [8.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 1.15], [ "solarium", 0.00], [ "copper", 1.25], [ "silverore", 1.25], [ "gold", 1.25], [ "platinum", 1.25], [ "diamond", 1.25], [ "rubium", 1.15] ] ],
+    [9.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 1.15], [ "solarium", 1.04], [ "copper", 1.25], [ "silverore", 1.25], [ "gold", 1.25], [ "platinum", 1.25], [ "diamond", 1.25], [ "rubium", 1.25] ] ]
   ],
 
   "depth1" : [
@@ -47,10 +47,10 @@
     [3.5, [ [ "coal", 1.15], [ "uranium", 0.00], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 1.30], [ "silverore", 1.25], [ "gold", 1.20], [ "platinum", 1.05], [ "diamond", 1.00], [ "titanium", 1.30] ] ],
     [4.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 1.30], [ "silverore", 1.30], [ "gold", 1.25], [ "platinum", 1.15], [ "diamond", 1.05], [ "aegisalt", 1.20] ] ],
     [5.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 1.30], [ "silverore", 1.30], [ "gold", 1.30], [ "platinum", 1.20], [ "diamond", 1.15], [ "aegisalt", 1.30] ] ],
-    [6.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 1.30], [ "silverore", 1.30], [ "gold", 1.30], [ "platinum", 1.25], [ "diamond", 1.20], [ "Cerulium", 1.20] ] ],
-    [7.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 1.15], [ "solarium", 0.00], [ "copper", 1.30], [ "silverore", 1.30], [ "gold", 1.30], [ "platinum", 1.30], [ "diamond", 1.25], [ "Cerulium", 1.30] ] ],
-    [8.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 1.15], [ "solarium", 0.00], [ "copper", 1.30], [ "silverore", 1.30], [ "gold", 1.30], [ "platinum", 1.30], [ "diamond", 1.30], [ "Rubium", 1.20] ] ],
-    [9.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 1.15], [ "solarium", 1.06], [ "copper", 1.30], [ "silverore", 1.30], [ "gold", 1.30], [ "platinum", 1.30], [ "diamond", 1.30], [ "Rubium", 1.30] ] ]
+    [6.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 1.30], [ "silverore", 1.30], [ "gold", 1.30], [ "platinum", 1.25], [ "diamond", 1.20], [ "cerulium", 1.20] ] ],
+    [7.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 1.15], [ "solarium", 0.00], [ "copper", 1.30], [ "silverore", 1.30], [ "gold", 1.30], [ "platinum", 1.30], [ "diamond", 1.25], [ "cerulium", 1.30] ] ],
+    [8.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 1.15], [ "solarium", 0.00], [ "copper", 1.30], [ "silverore", 1.30], [ "gold", 1.30], [ "platinum", 1.30], [ "diamond", 1.30], [ "rubium", 1.20] ] ],
+    [9.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 1.15], [ "solarium", 1.06], [ "copper", 1.30], [ "silverore", 1.30], [ "gold", 1.30], [ "platinum", 1.30], [ "diamond", 1.30], [ "rubium", 1.30] ] ]
   ],
 
   "depth2" : [
@@ -60,10 +60,10 @@
     [3.5, [ [ "coal", 1.15], [ "uranium", 0.00], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 1.35], [ "silverore", 1.30], [ "gold", 1.25], [ "platinum", 1.10], [ "diamond", 1.05], [ "titanium", 1.35] ] ],
     [4.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 1.35], [ "silverore", 1.35], [ "gold", 1.30], [ "platinum", 1.20], [ "diamond", 1.10], [ "aegisalt", 1.25] ] ],
     [5.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 1.35], [ "silverore", 1.35], [ "gold", 1.35], [ "platinum", 1.25], [ "diamond", 1.20], [ "aegisalt", 1.35] ] ],
-    [6.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 1.35], [ "silverore", 1.35], [ "gold", 1.35], [ "platinum", 1.30], [ "diamond", 1.25], [ "Cerulium", 1.25] ] ],
-    [7.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 1.15], [ "solarium", 0.00], [ "copper", 1.35], [ "silverore", 1.35], [ "gold", 1.35], [ "platinum", 1.35], [ "diamond", 1.30], [ "Cerulium", 1.35] ] ],
-    [8.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 1.15], [ "solarium", 0.00], [ "copper", 1.35], [ "silverore", 1.35], [ "gold", 1.35], [ "platinum", 1.35], [ "diamond", 1.35], [ "Rubium", 1.25] ] ],
-    [9.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 1.15], [ "solarium", 1.08], [ "copper", 1.35], [ "silverore", 1.35], [ "gold", 1.35], [ "platinum", 1.35], [ "diamond", 1.35], [ "Rubium", 1.35] ] ]
+    [6.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 1.35], [ "silverore", 1.35], [ "gold", 1.35], [ "platinum", 1.30], [ "diamond", 1.25], [ "cerulium", 1.25] ] ],
+    [7.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 1.15], [ "solarium", 0.00], [ "copper", 1.35], [ "silverore", 1.35], [ "gold", 1.35], [ "platinum", 1.35], [ "diamond", 1.30], [ "cerulium", 1.35] ] ],
+    [8.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 1.15], [ "solarium", 0.00], [ "copper", 1.35], [ "silverore", 1.35], [ "gold", 1.35], [ "platinum", 1.35], [ "diamond", 1.35], [ "rubium", 1.25] ] ],
+    [9.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 1.15], [ "solarium", 1.08], [ "copper", 1.35], [ "silverore", 1.35], [ "gold", 1.35], [ "platinum", 1.35], [ "diamond", 1.35], [ "rubium", 1.35] ] ]
   ],
 
   "depth3" : [
@@ -73,10 +73,10 @@
     [3.5, [ [ "corefragment", 1.15], [ "coal", 1.15], [ "uranium", 0.00], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 1.40], [ "silverore", 1.35], [ "gold", 1.30], [ "platinum", 1.15], [ "diamond", 1.10], [ "titanium", 1.40] ] ],
     [4.5, [ [ "corefragment", 1.15], [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 1.40], [ "silverore", 1.40], [ "gold", 1.35], [ "platinum", 1.25], [ "diamond", 1.15], [ "aegisalt", 1.30] ] ],
     [5.5, [ [ "corefragment", 1.15], [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 1.40], [ "silverore", 1.40], [ "gold", 1.40], [ "platinum", 1.30], [ "diamond", 1.25], [ "aegisalt", 1.40] ] ],
-    [6.5, [ [ "corefragment", 1.15], [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 1.40], [ "silverore", 1.40], [ "gold", 1.40], [ "platinum", 1.35], [ "diamond", 1.30], [ "Cerulium", 1.30] ] ],
-    [7.5, [ [ "corefragment", 1.15], [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 1.15], [ "solarium", 0.00], [ "copper", 1.40], [ "silverore", 1.40], [ "gold", 1.40], [ "platinum", 1.40], [ "diamond", 1.35], [ "Cerulium", 1.40] ] ],
-    [8.5, [ [ "corefragment", 1.15], [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 1.15], [ "solarium", 0.00], [ "copper", 1.40], [ "silverore", 1.40], [ "gold", 1.40], [ "platinum", 1.40], [ "diamond", 1.40], [ "Rubium", 1.30] ] ],
-    [9.5, [ [ "corefragment", 1.15], [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 1.15], [ "solarium", 1.10], [ "copper", 1.40], [ "silverore", 1.40], [ "gold", 1.40], [ "platinum", 1.40], [ "diamond", 1.40], [ "Rubium", 1.40] ] ]
+    [6.5, [ [ "corefragment", 1.15], [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 1.40], [ "silverore", 1.40], [ "gold", 1.40], [ "platinum", 1.35], [ "diamond", 1.30], [ "cerulium", 1.30] ] ],
+    [7.5, [ [ "corefragment", 1.15], [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 1.15], [ "solarium", 0.00], [ "copper", 1.40], [ "silverore", 1.40], [ "gold", 1.40], [ "platinum", 1.40], [ "diamond", 1.35], [ "cerulium", 1.40] ] ],
+    [8.5, [ [ "corefragment", 1.15], [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 1.15], [ "solarium", 0.00], [ "copper", 1.40], [ "silverore", 1.40], [ "gold", 1.40], [ "platinum", 1.40], [ "diamond", 1.40], [ "rubium", 1.30] ] ],
+    [9.5, [ [ "corefragment", 1.15], [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 1.15], [ "solarium", 1.10], [ "copper", 1.40], [ "silverore", 1.40], [ "gold", 1.40], [ "platinum", 1.40], [ "diamond", 1.40], [ "rubium", 1.40] ] ]
   ],
 
 

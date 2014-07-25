@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "Rubiumbar", "count" : 2 }
+    { "item" : "rubiumbar", "count" : 2 }
   ],
   "output" : { "item" : "florantier9dagger", "count" : 1 },
   "groups" : [ "metalworkstation", "weapons", "all" ]
