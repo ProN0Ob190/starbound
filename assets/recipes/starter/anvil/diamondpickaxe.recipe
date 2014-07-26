@@ -4,5 +4,5 @@
     { "item" : "platinumpickaxe", "count" : 1 }
   ],
   "output" : { "item" : "diamondpickaxe", "count" : 1 },
-  "groups" : [ "anvil", "tools", "all" ]
+  "groups" : [ "metalworkstation", "tools", "all" ]
 }

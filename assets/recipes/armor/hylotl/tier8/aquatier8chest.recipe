@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "violiumbar", "count" : 35 }
+    { "item" : "violiumbar", "count" : 18 }
   ],
   "output" : { "item" : "hylotltier8chest", "count" : 1 },
-  "groups" : [ "craftingtable", "armors", "all" ]
+  "groups" : [ "metalworkstation", "armors", "all" ]
 }

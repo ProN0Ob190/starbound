@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "imperviumbar", "count" : 35 }
+    { "item" : "imperviumbar", "count" : 18 }
   ],
   "output" : { "item" : "humantier10chest", "count" : 1 },
-  "groups" : [ "craftingtable", "armors", "all" ]
+  "groups" : [ "metalworkstation", "armors", "all" ]
 }

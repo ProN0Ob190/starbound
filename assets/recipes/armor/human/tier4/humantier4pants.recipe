@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "durasteelbar", "count" : 12 }
+    { "item" : "durasteelbar", "count" : 6 }
   ],
   "output" : { "item" : "humantier4pants", "count" : 1 },
-  "groups" : [ "craftingtable", "armors", "all" ]
+  "groups" : [ "scifianvil", "armors", "all" ]
 }

@@ -1,0 +1,22 @@
+{
+  "materialId" : 1164,
+  "materialName" : "supermatter",
+  "particleColor" : [104, 225, 241, 255],
+  "itemDrop" : "crystalblock",
+  "description" : "-todo (makes FTL drive possible)",
+  "shortdescription" : "Super Matterk",
+  "glitchDescription" : "-todo-",
+  "floranDescription" : "Ssshiny block.",
+  "footstepSound" : "/sfx/blocks/footstep_glass.wav",
+  "health" : 15,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "supermatter.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 99
+  }
+}

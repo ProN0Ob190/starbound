@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "feroziumbar", "count" : 12 }
+    { "item" : "feroziumbar", "count" : 6 }
   ],
   "output" : { "item" : "humantier6pants", "count" : 1 },
-  "groups" : [ "craftingtable", "armors", "all" ]
+  "groups" : [ "metalworkstation", "armors", "all" ]
 }

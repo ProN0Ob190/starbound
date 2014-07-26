@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "rubiumbar", "count" : 20 }
+    { "item" : "rubiumbar", "count" : 10 }
   ],
   "output" : { "item" : "aviantier9head", "count" : 1 },
-  "groups" : [ "craftingtable", "armors", "all" ]
+  "groups" : [ "metalworkstation", "armors", "all" ]
 }

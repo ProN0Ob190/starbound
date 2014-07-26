@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ceruliumore", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "ceruliumbar",
+    "count" : 1
+  },
+  "groups" : [ "scififurnace", "all" ]
+}

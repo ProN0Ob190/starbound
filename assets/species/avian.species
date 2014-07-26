@@ -30,9 +30,7 @@
       { "item" : "bread" },
       { "item" : "carrotbread" },
       { "item" : "pearlpeapancakes" },
-      { "item" : "flagavian" }
-    ],
-    "tier2" : [
+      { "item" : "flagavian" },
       { "item" : "aviantier2hammer" },
       { "item" : "aviantier2shortsword" },
       { "item" : "aviantier2broadsword" },
@@ -42,9 +40,7 @@
       { "item" : "aviantier2head" },
       { "item" : "aviantier2chest" },
       { "item" : "aviantier2pants" },
-      { "item" : "spawneravian" }
-    ],
-    "tier3" : [
+      { "item" : "spawneravian" },
       { "item" : "aviantier3head" },
       { "item" : "aviantier3chest" },
       { "item" : "aviantier3pants" },
@@ -53,9 +49,7 @@
       { "item" : "aviantier3broadsword" },
       { "item" : "aviantier3spear" },
       { "item" : "aviantier3axe" },
-      { "item" : "aviantier3dagger" }
-    ],
-    "tier4" : [
+      { "item" : "aviantier3dagger" },
       { "item" : "aviantier4head" },
       { "item" : "aviantier4chest" },
       { "item" : "aviantier4pants" },
@@ -64,9 +58,7 @@
       { "item" : "aviantier4broadsword" },
       { "item" : "aviantier4spear" },
       { "item" : "aviantier4axe" },
-      { "item" : "aviantier4dagger" }
-    ],
-    "level32" : [
+      { "item" : "aviantier4dagger" },
       { "item" : "aviantier5head" },
       { "item" : "aviantier5chest" },
       { "item" : "aviantier5pants" },
@@ -75,9 +67,7 @@
       { "item" : "aviantier5broadsword" },
       { "item" : "aviantier5spear" },
       { "item" : "aviantier5axe" },
-      { "item" : "aviantier5dagger" }
-    ],
-    "level33" : [
+      { "item" : "aviantier5dagger" },
       { "item" : "aviantier6head" },
       { "item" : "aviantier6chest" },
       { "item" : "aviantier6pants" },
@@ -86,9 +76,7 @@
       { "item" : "aviantier6broadsword" },
       { "item" : "aviantier6spear" },
       { "item" : "aviantier6axe" },
-      { "item" : "aviantier6dagger" }
-    ],
-    "level34" : [
+      { "item" : "aviantier6dagger" },
       { "item" : "aviantier7head" },
       { "item" : "aviantier7chest" },
       { "item" : "aviantier7pants" },
@@ -97,9 +85,7 @@
       { "item" : "aviantier7broadsword" },
       { "item" : "aviantier7spear" },
       { "item" : "aviantier7axe" },
-      { "item" : "aviantier7dagger" }
-    ],
-    "level35" : [
+      { "item" : "aviantier7dagger" },
       { "item" : "aviantier8head" },
       { "item" : "aviantier8chest" },
       { "item" : "aviantier8pants" },
@@ -108,9 +94,7 @@
       { "item" : "aviantier8broadsword" },
       { "item" : "aviantier8spear" },
       { "item" : "aviantier8axe" },
-      { "item" : "aviantier8dagger" }
-    ],
-    "level36" : [
+      { "item" : "aviantier8dagger" },
       { "item" : "aviantier9head" },
       { "item" : "aviantier9chest" },
       { "item" : "aviantier9pants" },
@@ -119,9 +103,7 @@
       { "item" : "aviantier9broadsword" },
       { "item" : "aviantier9spear" },
       { "item" : "aviantier9axe" },
-      { "item" : "aviantier9dagger" }
-    ],
-    "level37" : [
+      { "item" : "aviantier9dagger" },
       { "item" : "aviantier10head" },
       { "item" : "aviantier10chest" },
       { "item" : "aviantier10pants" },

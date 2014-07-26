@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "rubiumbar", "count" : 35 }
+    { "item" : "rubiumbar", "count" : 18 }
   ],
   "output" : { "item" : "florantier9chest", "count" : 1 },
-  "groups" : [ "craftingtable", "armors", "all" ]
+  "groups" : [ "metalworkstation", "armors", "all" ]
 }

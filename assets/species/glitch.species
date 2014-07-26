@@ -30,9 +30,7 @@
       { "item" : "stuffedautomato" },
       { "item" : "copperkeypie" },
       { "item" : "candyautomato" },
-      { "item" : "flagglitch" }
-    ],
-    "tier2" : [
+      { "item" : "flagglitch" },
       { "item" : "glitchtier2hammer" },
       { "item" : "glitchtier2shortsword" },
       { "item" : "glitchtier2broadsword" },
@@ -42,9 +40,7 @@
       { "item" : "glitchtier2head" },
       { "item" : "glitchtier2chest" },
       { "item" : "glitchtier2pants" },
-      { "item" : "spawnerglitch" }
-    ],
-    "tier3" : [
+      { "item" : "spawnerglitch" },
       { "item" : "glitchtier3head" },
       { "item" : "glitchtier3chest" },
       { "item" : "glitchtier3pants" },
@@ -53,9 +49,7 @@
       { "item" : "glitchtier3broadsword" },
       { "item" : "glitchtier3spear" },
       { "item" : "glitchtier3axe" },
-      { "item" : "glitchtier3dagger" }
-    ],
-    "tier4" : [
+      { "item" : "glitchtier3dagger" },
       { "item" : "glitchtier4head" },
       { "item" : "glitchtier4chest" },
       { "item" : "glitchtier4pants" },
@@ -64,9 +58,7 @@
       { "item" : "glitchtier4broadsword" },
       { "item" : "glitchtier4spear" },
       { "item" : "glitchtier4axe" },
-      { "item" : "glitchtier4dagger" }
-    ],
-    "level32" : [
+      { "item" : "glitchtier4dagger" },
       { "item" : "glitchtier5head" },
       { "item" : "glitchtier5chest" },
       { "item" : "glitchtier5pants" },
@@ -75,9 +67,7 @@
       { "item" : "glitchtier5broadsword" },
       { "item" : "glitchtier5spear" },
       { "item" : "glitchtier5axe" },
-      { "item" : "glitchtier5dagger" }
-    ],
-    "level33" : [
+      { "item" : "glitchtier5dagger" },
       { "item" : "glitchtier6head" },
       { "item" : "glitchtier6chest" },
       { "item" : "glitchtier6pants" },
@@ -86,9 +76,7 @@
       { "item" : "glitchtier6broadsword" },
       { "item" : "glitchtier6spear" },
       { "item" : "glitchtier6axe" },
-      { "item" : "glitchtier6dagger" }
-    ],
-    "level34" : [
+      { "item" : "glitchtier6dagger" },
       { "item" : "glitchtier7head" },
       { "item" : "glitchtier7chest" },
       { "item" : "glitchtier7pants" },
@@ -97,9 +85,7 @@
       { "item" : "glitchtier7broadsword" },
       { "item" : "glitchtier7spear" },
       { "item" : "glitchtier7axe" },
-      { "item" : "glitchtier7dagger" }
-    ],
-    "level35" : [
+      { "item" : "glitchtier7dagger" },
       { "item" : "glitchtier8head" },
       { "item" : "glitchtier8chest" },
       { "item" : "glitchtier8pants" },
@@ -108,9 +94,7 @@
       { "item" : "glitchtier8broadsword" },
       { "item" : "glitchtier8spear" },
       { "item" : "glitchtier8axe" },
-      { "item" : "glitchtier8dagger" }
-    ],
-    "level36" : [
+      { "item" : "glitchtier8dagger" },
       { "item" : "glitchtier9head" },
       { "item" : "glitchtier9chest" },
       { "item" : "glitchtier9pants" },
@@ -119,9 +103,7 @@
       { "item" : "glitchtier9broadsword" },
       { "item" : "glitchtier9spear" },
       { "item" : "glitchtier9axe" },
-      { "item" : "glitchtier9dagger" }
-    ],
-    "level37" : [
+      { "item" : "glitchtier9dagger" },
       { "item" : "glitchtier10head" },
       { "item" : "glitchtier10chest" },
       { "item" : "glitchtier10pants" },

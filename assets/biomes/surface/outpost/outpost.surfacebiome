@@ -55,10 +55,9 @@
     "undergroundParallax" : "moon.undergroundparallax",
 
     "statusParameters" : {
-      "temperatureBounds" : [-30, -30],
-      "dayNightTemperatureVariability" : 20,
-      "temperatureVariability" : 10,
-      "breathable" : false
+      "temperatureBounds" : [5, 10],
+      "dayNightTemperatureVariability" : -12,
+      "temperatureVariability" : 10
     },
 
     "ambientNoises" : {
@@ -102,8 +101,8 @@
 
   "subSurfaceParameters" : {
     "statusParameters" : {
-      "temperatureBounds" : [-100, -100],
-      "dayNightTemperatureVariability" : -50,
+      "temperatureBounds" : [5, 10],
+      "dayNightTemperatureVariability" : -8,
       "temperatureVariability" : 0
     },
 

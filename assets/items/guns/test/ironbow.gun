@@ -3,7 +3,7 @@
   "inventoryIcon" : "ironbowicon.png",
   "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Rare",
+  "rarity" : "Uncommon",
   "description" : "An iron hunting bow, monsters killed with a bow drop tasty meat.",
   "shortdescription" : "Iron Hunting Bow",
   "image" : "ironbowfull.png:<frame>",

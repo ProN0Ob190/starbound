@@ -30,9 +30,7 @@
       { "item" : "sweetcorn" },
       { "item" : "candyapple" },
       { "item" : "icecream" },
-      { "item" : "flaghuman" }
-    ],
-    "tier2" : [
+      { "item" : "flaghuman" },
       { "item" : "humantier2hammer" },
       { "item" : "humantier2shortsword" },
       { "item" : "humantier2broadsword" },
@@ -42,9 +40,7 @@
       { "item" : "humantier2head" },
       { "item" : "humantier2chest" },
       { "item" : "humantier2pants" },
-      { "item" : "spawnerhuman" }
-    ],
-    "tier3" : [
+      { "item" : "spawnerhuman" },
       { "item" : "humantier3head" },
       { "item" : "humantier3chest" },
       { "item" : "humantier3pants" },
@@ -53,9 +49,7 @@
       { "item" : "humantier3broadsword" },
       { "item" : "humantier3spear" },
       { "item" : "humantier3axe" },
-      { "item" : "humantier3dagger" }
-    ],
-    "tier4" : [
+      { "item" : "humantier3dagger" },
       { "item" : "humantier4head" },
       { "item" : "humantier4chest" },
       { "item" : "humantier4pants" },
@@ -64,9 +58,7 @@
       { "item" : "humantier4broadsword" },
       { "item" : "humantier4spear" },
       { "item" : "humantier4axe" },
-      { "item" : "humantier4dagger" }
-    ],
-    "level32" : [
+      { "item" : "humantier4dagger" },
       { "item" : "humantier5head" },
       { "item" : "humantier5chest" },
       { "item" : "humantier5pants" },
@@ -75,9 +67,7 @@
       { "item" : "humantier5broadsword" },
       { "item" : "humantier5spear" },
       { "item" : "humantier5axe" },
-      { "item" : "humantier5dagger" }
-    ],
-    "level33" : [
+      { "item" : "humantier5dagger" },
       { "item" : "humantier6head" },
       { "item" : "humantier6chest" },
       { "item" : "humantier6pants" },
@@ -86,9 +76,7 @@
       { "item" : "humantier6broadsword" },
       { "item" : "humantier6spear" },
       { "item" : "humantier6axe" },
-      { "item" : "humantier6dagger" }
-    ],
-    "level34" : [
+      { "item" : "humantier6dagger" },
       { "item" : "humantier7head" },
       { "item" : "humantier7chest" },
       { "item" : "humantier7pants" },
@@ -97,9 +85,7 @@
       { "item" : "humantier7broadsword" },
       { "item" : "humantier7spear" },
       { "item" : "humantier7axe" },
-      { "item" : "humantier7dagger" }
-    ],
-    "level35" : [
+      { "item" : "humantier7dagger" },
       { "item" : "humantier8head" },
       { "item" : "humantier8chest" },
       { "item" : "humantier8pants" },
@@ -108,9 +94,7 @@
       { "item" : "humantier8broadsword" },
       { "item" : "humantier8spear" },
       { "item" : "humantier8axe" },
-      { "item" : "humantier8dagger" }
-    ],
-    "level36" : [
+      { "item" : "humantier8dagger" },
       { "item" : "humantier9head" },
       { "item" : "humantier9chest" },
       { "item" : "humantier9pants" },
@@ -119,9 +103,7 @@
       { "item" : "humantier9broadsword" },
       { "item" : "humantier9spear" },
       { "item" : "humantier9axe" },
-      { "item" : "humantier9dagger" }
-    ],
-    "level37" : [
+      { "item" : "humantier9dagger" },
       { "item" : "humantier10head" },
       { "item" : "humantier10chest" },
       { "item" : "humantier10pants" },

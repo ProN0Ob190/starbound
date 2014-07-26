@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "ceruliumbar", "count" : 35 }
+    { "item" : "ceruliumbar", "count" : 18 }
   ],
   "output" : { "item" : "aviantier7chest", "count" : 1 },
-  "groups" : [ "craftingtable", "armors", "all" ]
+  "groups" : [ "metalworkstation", "armors", "all" ]
 }

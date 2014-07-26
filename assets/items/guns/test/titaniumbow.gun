@@ -3,7 +3,7 @@
   "inventoryIcon" : "titaniumbowicon.png",
   "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Rare",
+  "rarity" : "Legendary",
   "description" : "A Titanium hunting bow, monsters killed with a bow drop tasty meat.",
   "shortdescription" : "Titanium Hunting Bow",
   "image" : "titaniumbow.png:<frame>",

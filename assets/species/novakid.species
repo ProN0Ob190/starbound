@@ -30,9 +30,7 @@
       { "item" : "bread" },
       { "item" : "candiedpearlpeas" },
       { "item" : "brineapple" },
-      { "item" : "flaghylotl" }
-    ],
-    "tier2" : [
+      { "item" : "flaghylotl" },
       { "item" : "hylotltier2hammer" },
       { "item" : "hylotltier2shortsword" },
       { "item" : "hylotltier2broadsword" },
@@ -42,9 +40,7 @@
       { "item" : "hylotltier2head" },
       { "item" : "hylotltier2chest" },
       { "item" : "hylotltier2pants" },
-      { "item" : "spawnerhylotl" }
-    ],
-    "tier3" : [
+      { "item" : "spawnerhylotl" },
       { "item" : "hylotltier3head" },
       { "item" : "hylotltier3chest" },
       { "item" : "hylotltier3pants" },
@@ -53,9 +49,7 @@
       { "item" : "hylotltier3broadsword" },
       { "item" : "hylotltier3spear" },
       { "item" : "hylotltier3axe" },
-      { "item" : "hylotltier3dagger" }
-    ],
-    "tier4" : [
+      { "item" : "hylotltier3dagger" },
       { "item" : "hylotltier4head" },
       { "item" : "hylotltier4chest" },
       { "item" : "hylotltier4pants" },
@@ -64,9 +58,7 @@
       { "item" : "hylotltier4broadsword" },
       { "item" : "hylotltier4spear" },
       { "item" : "hylotltier4axe" },
-      { "item" : "hylotltier4dagger" }
-    ],
-    "level32" : [
+      { "item" : "hylotltier4dagger" },
       { "item" : "hylotltier5head" },
       { "item" : "hylotltier5chest" },
       { "item" : "hylotltier5pants" },
@@ -75,9 +67,7 @@
       { "item" : "hylotltier5broadsword" },
       { "item" : "hylotltier5spear" },
       { "item" : "hylotltier5axe" },
-      { "item" : "hylotltier5dagger" }
-    ],
-    "level33" : [
+      { "item" : "hylotltier5dagger" },
       { "item" : "hylotltier6head" },
       { "item" : "hylotltier6chest" },
       { "item" : "hylotltier6pants" },
@@ -86,9 +76,7 @@
       { "item" : "hylotltier6broadsword" },
       { "item" : "hylotltier6spear" },
       { "item" : "hylotltier6axe" },
-      { "item" : "hylotltier6dagger" }
-    ],
-    "level34" : [
+      { "item" : "hylotltier6dagger" },
       { "item" : "hylotltier7head" },
       { "item" : "hylotltier7chest" },
       { "item" : "hylotltier7pants" },
@@ -97,9 +85,7 @@
       { "item" : "hylotltier7broadsword" },
       { "item" : "hylotltier7spear" },
       { "item" : "hylotltier7axe" },
-      { "item" : "hylotltier7dagger" }
-    ],
-    "level35" : [
+      { "item" : "hylotltier7dagger" },
       { "item" : "hylotltier8head" },
       { "item" : "hylotltier8chest" },
       { "item" : "hylotltier8pants" },
@@ -108,9 +94,7 @@
       { "item" : "hylotltier8broadsword" },
       { "item" : "hylotltier8spear" },
       { "item" : "hylotltier8axe" },
-      { "item" : "hylotltier8dagger" }
-    ],
-    "level36" : [
+      { "item" : "hylotltier8dagger" },
       { "item" : "hylotltier9head" },
       { "item" : "hylotltier9chest" },
       { "item" : "hylotltier9pants" },
@@ -119,9 +103,7 @@
       { "item" : "hylotltier9broadsword" },
       { "item" : "hylotltier9spear" },
       { "item" : "hylotltier9axe" },
-      { "item" : "hylotltier9dagger" }
-    ],
-    "level37" : [
+      { "item" : "hylotltier9dagger" },
       { "item" : "hylotltier10head" },
       { "item" : "hylotltier10chest" },
       { "item" : "hylotltier10pants" },

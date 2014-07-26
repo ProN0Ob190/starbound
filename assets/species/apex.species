@@ -30,9 +30,7 @@
       { "item" : "bread" },
       { "item" : "bananabread" },
       { "item" : "bananacreampie" },
-      { "item" : "flagapex" }
-    ],
-    "tier2" : [
+      { "item" : "flagapex" },
       { "item" : "apextier2hammer" },
       { "item" : "apextier2shortsword" },
       { "item" : "apextier2broadsword" },
@@ -42,9 +40,7 @@
       { "item" : "apextier2head" },
       { "item" : "apextier2chest" },
       { "item" : "apextier2pants" },
-      { "item" : "spawnerapex" }
-    ],
-    "tier3" : [
+      { "item" : "spawnerapex" },
       { "item" : "apextier3head" },
       { "item" : "apextier3chest" },
       { "item" : "apextier3pants" },
@@ -53,9 +49,7 @@
       { "item" : "apextier3broadsword" },
       { "item" : "apextier3spear" },
       { "item" : "apextier3axe" },
-      { "item" : "apextier3dagger" }
-    ],
-    "tier4" : [
+      { "item" : "apextier3dagger" },
       { "item" : "apextier4head" },
       { "item" : "apextier4chest" },
       { "item" : "apextier4pants" },
@@ -64,9 +58,7 @@
       { "item" : "apextier4broadsword" },
       { "item" : "apextier4spear" },
       { "item" : "apextier4axe" },
-      { "item" : "apextier4dagger" }
-    ],
-    "level32" : [
+      { "item" : "apextier4dagger" },
       { "item" : "apextier5head" },
       { "item" : "apextier5chest" },
       { "item" : "apextier5pants" },
@@ -75,9 +67,7 @@
       { "item" : "apextier5broadsword" },
       { "item" : "apextier5spear" },
       { "item" : "apextier5axe" },
-      { "item" : "apextier5dagger" }
-    ],
-    "level33" : [
+      { "item" : "apextier5dagger" },
       { "item" : "apextier6head" },
       { "item" : "apextier6chest" },
       { "item" : "apextier6pants" },
@@ -86,9 +76,7 @@
       { "item" : "apextier6broadsword" },
       { "item" : "apextier6spear" },
       { "item" : "apextier6axe" },
-      { "item" : "apextier6dagger" }
-    ],
-    "level34" : [
+      { "item" : "apextier6dagger" },
       { "item" : "apextier7head" },
       { "item" : "apextier7chest" },
       { "item" : "apextier7pants" },
@@ -97,9 +85,7 @@
       { "item" : "apextier7broadsword" },
       { "item" : "apextier7spear" },
       { "item" : "apextier7axe" },
-      { "item" : "apextier7dagger" }
-    ],
-    "level35" : [
+      { "item" : "apextier7dagger" },
       { "item" : "apextier8head" },
       { "item" : "apextier8chest" },
       { "item" : "apextier8pants" },
@@ -108,9 +94,7 @@
       { "item" : "apextier8broadsword" },
       { "item" : "apextier8spear" },
       { "item" : "apextier8axe" },
-      { "item" : "apextier8dagger" }
-    ],
-    "level36" : [
+      { "item" : "apextier8dagger" },
       { "item" : "apextier9head" },
       { "item" : "apextier9chest" },
       { "item" : "apextier9pants" },
@@ -119,9 +103,7 @@
       { "item" : "apextier9broadsword" },
       { "item" : "apextier9spear" },
       { "item" : "apextier9axe" },
-      { "item" : "apextier9dagger" }
-    ],
-    "level37" : [
+      { "item" : "apextier9dagger" },
       { "item" : "apextier10head" },
       { "item" : "apextier10chest" },
       { "item" : "apextier10pants" },

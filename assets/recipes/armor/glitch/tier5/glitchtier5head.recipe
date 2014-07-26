@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "aegisaltbar", "count" : 20 }
+    { "item" : "aegisaltbar", "count" : 10 }
   ],
   "output" : { "item" : "glitchtier5head", "count" : 1 },
-  "groups" : [ "craftingtable", "armors", "all" ]
+  "groups" : [ "metalworkstation", "armors", "all" ]
 }

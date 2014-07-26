@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "durasteelbar", "count" : 35 }
+    { "item" : "durasteelbar", "count" : 18 }
   ],
   "output" : { "item" : "apextier4chest", "count" : 1 },
-  "groups" : [ "craftingtable", "armors", "all" ]
+  "groups" : [ "scifianvil", "armors", "all" ]
 }

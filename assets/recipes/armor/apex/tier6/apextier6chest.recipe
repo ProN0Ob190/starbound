@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "feroziumbar", "count" : 35 }
+    { "item" : "feroziumbar", "count" : 18 }
   ],
   "output" : { "item" : "apextier6chest", "count" : 1 },
-  "groups" : [ "craftingtable", "armors", "all" ]
+  "groups" : [ "metalworkstation", "armors", "all" ]
 }

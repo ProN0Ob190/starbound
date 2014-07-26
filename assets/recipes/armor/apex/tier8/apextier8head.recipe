@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "violiumbar", "count" : 20 }
+    { "item" : "violiumbar", "count" : 10 }
   ],
   "output" : { "item" : "apextier8head", "count" : 1 },
-  "groups" : [ "craftingtable", "armors", "all" ]
+  "groups" : [ "metalworkstation", "armors", "all" ]
 }
