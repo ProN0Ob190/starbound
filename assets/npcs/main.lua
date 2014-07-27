@@ -15,6 +15,14 @@ function init(args)
 
   entity.setInteractive(true)
 
+  local offeredQuests = entity.configParameter("offeredQuests")
+  if type(offeredQuests) == "table" and #offeredQuests > 0 then
+    self.offerQuests = true
+    entity.setOfferedQuests(offeredQuests)
+  else
+    self.offerQuests = false
+  end
+
   self.pathing = {}
 
   self.noticePlayersRadius = entity.configParameter("noticePlayersRadius", -1)
@@ -326,8 +334,8 @@ end
 --------------------------------------------------------------------------------
 -- Called from C++
 function interact(args)
-  if availableQuest() ~= nil then
-    return { "StartQuest", { questTemplateId = availableQuest() }}
+  if self.offerQuests then
+    return { "OfferQuests", {}}
   elseif self.state.pickState({ interactArgs = args }) then
     if self.tradingConfig ~= nil and self.state.stateDesc() == "merchantState" then
       return { "OpenNpcCraftingInterface", self.tradingConfig }
@@ -638,14 +646,4 @@ function sayToTarget(dialogType, targetId, tags)
   end
 
   return false
-end
-
---------------------------------------------------------------------------------
-function availableQuest()
-  local availableQuests = entity.configParameter("availableQuests")
-  if type(availableQuests) == "table" and #availableQuests > 0 then
-    return availableQuests[1]
-  else
-    world.logInfo("NO QUESTS AVAILABLE")
-  end
 end
