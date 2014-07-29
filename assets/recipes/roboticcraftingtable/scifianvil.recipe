@@ -3,8 +3,8 @@
     { "item" : "durasteelbar", "count" : 20 }
   ],
   "output" : {
-    "item" : "capturestation",
+    "item" : "scifianvil",
     "count" : 1
   },
-  "groups" : [ "roboticcraftingtable", "objects", "all", "tools" ]
+  "groups" : [ "roboticcraftingtable", "objects", "tools", "all" ]
 }

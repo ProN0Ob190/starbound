@@ -7,7 +7,7 @@
     "filter" : [ "stonefurnace", "alloyfurnace" ]
   },
   "printable" : false,
-  "description" : "An alloy furnace. I can create strong materials with this.",
+  "description" : "With this furnace I can create steel and other strong materials.",
   "shortdescription" : "Alloy Furnace",
   "race" : "generic",
   "category" : "crafting",

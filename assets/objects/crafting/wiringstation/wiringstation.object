@@ -1,6 +1,6 @@
 {
   "objectName" : "wiringstation",
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
     "config" : "/interface/windowconfig/wiringstation.config",

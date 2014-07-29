@@ -3,5 +3,5 @@
     { "item" : "titaniumbar", "count" : 5 }
   ],
   "output" : { "item" : "tier3table", "count" : 1 },
-  "groups" : [ "metalworkstation", "furniture", "objects", "all" ]
+  "groups" : [ "ironcraftingtable", "furniture", "objects", "all" ]
 }

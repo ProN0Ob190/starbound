@@ -1,6 +1,6 @@
 {
   "objectName" : "skyrailtable",
-  "rarity" : "rare",
+  "rarity" : "Uncommon",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
     "config" : "/interface/windowconfig/robotcraftingtable.config",

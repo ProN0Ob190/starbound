@@ -21,9 +21,10 @@
   "humanDescription" : "An atomic blast furnace, hot enough to smelt durasteel and other materials.",
   "hylotlDescription" : "An atomic blast furnace. I can make incredible materials with this.",
 
-  "lightColor" : [179, 165, 152],
+  "lightColor" : [125, 143, 179],
   "flickerDistance" : 0.5,
   "flickerStrength" : 0.1,
+  "flickerTiming" : 2,
 
   "inventoryIcon" : "scififurnaceicon.png",
   "orientations" : [

@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "steelbar", "count" : 2 }
+    { "item" : "steelbar", "count" : 1 }
   ],
   "output" : { "item" : "chain", "count" : 5 },
   "groups" : [ "ironcraftingtable", "materials", "all" ]

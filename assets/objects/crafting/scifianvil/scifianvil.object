@@ -1,20 +1,20 @@
 {
   "objectName" : "scifianvil",
-  "rarity" : "Common",
+  "rarity" : "Rare",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
     "config" : "/interface/windowconfig/scifianvil.config",
     "filter" : [ "scifianvil" ]
   },
   "printable" : false,
-  "description" : "A station for producing and making use of various metals. Can produce steel.",
-  "shortdescription" : "Metalwork Station",
+  "description" : "High tech weapon and armor crafting at your fingertips.",
+  "shortdescription" : "Sci Fi Anvil",
   "race" : "generic",
   "category" : "crafting",
   "price" : 200,
   
-  "lightColor" : [179, 124, 62],
-  "flickerDistance" : 1,
+  "lightColor" : [125, 143, 179],
+  "flickerDistance" : 0.5,
   "flickerStrength" : 0.1,
   "flickerTiming" : 1,
 
@@ -30,29 +30,27 @@
     {
 	  "imageLayers" : [ { "image" : "scifianvil.png:<color>.<frame>", "fullbright" : true }, { "image" : "scifianvillit.png:<color>.<frame>" } ],
 
-      "imagePosition" : [-8, 0],
-      "frames" : 5,
-      "animationCycle" : 1.5,
+      "imagePosition" : [-16, 0],
+      "frames" : 8,
+      "animationCycle" : 1.0,
 	  
 	  "direction" : "left",
 	  "flipImages" : true,
 
       "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ],
-      "collision" : "platform"
+      "anchors" : [ "bottom" ]
     },
 	{
 	  "imageLayers" : [ { "image" : "scifianvil.png:<color>.<frame>", "fullbright" : true }, { "image" : "scifianvillit.png:<color>.<frame>" } ],
 
-      "imagePosition" : [-8, 0],
-      "frames" : 5,
-      "animationCycle" : 1.5,
+      "imagePosition" : [-1, 0],
+      "frames" : 8,
+      "animationCycle" : 1.0,
 	  
 	  "direction" : "right",
 
       "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ],
-      "collision" : "platform"
+      "anchors" : [ "bottom" ]
     }
   ]
 }

@@ -3,5 +3,5 @@
     { "item" : "titaniumbar", "count" : 2 }
   ],
   "output" : { "item" : "tier3switch", "count" : 1 },
-  "groups" : [ "metalworkstation", "wire", "objects", "all" ]
+  "groups" : [ "ironcraftingtable", "wire", "objects", "all" ]
 }

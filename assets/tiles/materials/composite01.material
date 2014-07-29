@@ -8,7 +8,7 @@
   "glitchDescription" : "Statement. Titanium.",
   "floranDescription" : "Sssmooth titanium.",
   "footstepSound" : "/sfx/blocks/footstep_composite.wav",
-  "health" : 30,
+  "health" : 40,
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {

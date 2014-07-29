@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 20 },
+    { "item" : "campfire", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "scififurnace",
+    "count" : 1
+  },
+  "groups" : [ "roboticcraftingtable", "objects", "tools", "all" ]
+}

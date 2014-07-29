@@ -4,5 +4,5 @@
     { "item" : "golddrill", "count" : 1 }
   ],
   "output" : { "item" : "platinumdrill", "count" : 1 },
-  "groups" : [ "roboticcraftingtable", "tools", "all" ]
+  "groups" : [ "metalworkstation", "tools", "all" ]
 }

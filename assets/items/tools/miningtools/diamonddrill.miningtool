@@ -3,7 +3,7 @@
   "inventoryIcon" : "diamonddrillicon.png",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "rare",
+  "rarity" : "Rare",
   "tooltipKind" : "tool",
   "description" : "A diamond drill. Capable of mining rubium and below.",
   "shortdescription" : "Diamond Drill",

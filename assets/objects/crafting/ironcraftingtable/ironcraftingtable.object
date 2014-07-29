@@ -1,10 +1,10 @@
 {
   "objectName" : "ironcraftingtable",
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
     "config" : "/interface/windowconfig/ironcraftingtable.config",
-    "filter" : [ "plain", "craftingtable", "ironcraftingtable" ]
+    "filter" : [ "ironcraftingtable" ]
   },
   "printable" : false,
   "description" : "One could build some very sophisticated equipment on this table.",

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "silverbar", "count" : 20 }
+  ],
+  "output" : {
+    "item" : "skyrailtable",
+    "count" : 1
+  },
+  "groups" : [ "researchtable", "objects", "all", "tools" ]
+}

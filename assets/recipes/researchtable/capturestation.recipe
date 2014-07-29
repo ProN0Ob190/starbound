@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "platinumbar", "count" : 20 }
+  ],
+  "output" : {
+    "item" : "capturestation",
+    "count" : 1
+  },
+  "groups" : [ "researchtable", "objects", "all", "tools" ]
+}

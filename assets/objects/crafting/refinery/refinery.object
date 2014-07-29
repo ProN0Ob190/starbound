@@ -1,6 +1,6 @@
 {
   "objectName" : "refinery",
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
   "description" : "Used to produce raw pixels from ore.",
   "shortdescription" : "Refinery",
   "subtitle" : "Ore into pixels",

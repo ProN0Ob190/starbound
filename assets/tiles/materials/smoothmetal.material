@@ -10,7 +10,7 @@
   "glitchDescription" : "Suave. Smooth as a Glitch.",
   "floranDescription" : "Sssmooth metal.",
   "footstepSound" : "/sfx/blocks/footstep_composite.wav",
-  "health" : 40,
+  "health" : 30,
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {

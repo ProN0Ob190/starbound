@@ -5,12 +5,12 @@
   "category" : "light",
   "price" : 300,
 
-  "description" : "A simple iron lantern.",
-  "shortdescription" : "Iron Lantern",
+  "description" : "A simple steel lamp.",
+  "shortdescription" : "Steel Light",
   "race" : "generic",
 
-  "apexDescription" : "Nothing fancy, but serves its purpose.",
-  "avianDescription" : "This basic lantern will light up even the darkest room.",
+  "apexDescription" : "A well-made light source.",
+  "avianDescription" : "This useful lantern will light up even the darkest room.",
   "floranDescription" : "Lantern sssafe for Floran.",
   "glitchDescription" : "Statement. A robust lantern.",
   "humanDescription" : "A neat, sturdy lantern.",

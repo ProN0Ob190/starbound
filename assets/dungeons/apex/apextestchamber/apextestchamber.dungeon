@@ -517,54 +517,6 @@
     },
 
     {
-      "value" : [255, 64, 175, 255],
-      "comment" : "pipes1 facing left",
-      "brush" : [ [ "clear" ], [ "object", "pipes1", { "direction" : "left" } ] ]
-    },
-
-    {
-      "value" : [229, 57, 158, 255],
-      "comment" : "pipes1 facing right",
-      "brush" : [ [ "clear" ], [ "object", "pipes1", { "direction" : "right" } ] ]
-    },
-
-    {
-      "value" : [255, 64, 159, 255],
-      "comment" : "pipes2 facing left",
-      "brush" : [ [ "clear" ], [ "object", "pipes2", { "direction" : "left" } ] ]
-    },
-
-    {
-      "value" : [229, 57, 143, 255],
-      "comment" : "pipes2 facing right",
-      "brush" : [ [ "clear" ], [ "object", "pipes2", { "direction" : "right" } ] ]
-    },
-
-    {
-      "value" : [255, 84, 143, 255],
-      "comment" : "pipes3",
-      "brush" : [ [ "clear" ], [ "object", "pipes3" ] ]
-    },
-
-    {
-      "value" : [255, 64, 128, 255],
-      "comment" : "pipes4",
-      "brush" : [ [ "clear" ], [ "object", "pipes4" ] ]
-    },
-
-    {
-      "value" : [255, 64, 112, 255],
-      "comment" : "pipes5 facing left",
-      "brush" : [ [ "clear" ], [ "object", "pipes5", { "direction" : "left" } ] ]
-    },
-
-    {
-      "value" : [229, 57, 100, 255],
-      "comment" : "pipes5 facing right",
-      "brush" : [ [ "clear" ], [ "object", "pipes5", { "direction" : "right" } ] ]
-    },
-
-    {
       "value" : [207, 255, 64, 255],
       "comment" : "apexlevel1sign",
       "brush" : [ [ "clear" ], [ "object", "apexlevel1sign" ] ]

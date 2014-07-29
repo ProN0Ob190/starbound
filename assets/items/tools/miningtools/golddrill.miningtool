@@ -3,7 +3,7 @@
   "inventoryIcon" : "golddrillicon.png",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "rare",
+  "rarity" : "Uncommon",
   "tooltipKind" : "tool",
   "description" : "A gold drill. Capable of mining platinum, aegisalt, plutonium and below.",
   "shortdescription" : "Gold Drill",

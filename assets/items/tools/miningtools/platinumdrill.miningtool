@@ -3,7 +3,7 @@
   "inventoryIcon" : "platinumdrillicon.png",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "rare",
+  "rarity" : "Uncommon",
   "tooltipKind" : "tool",
   "description" : "A platinum drill. Capable of mining diamond, cerulium, solarium and below.",
   "shortdescription" : "Platinum Drill",

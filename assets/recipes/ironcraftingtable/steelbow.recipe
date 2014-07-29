@@ -4,5 +4,5 @@
     { "item" : "ironbow", "count" : 1 }
   ],
   "output" : { "item" : "steelbow", "count" : 1 },
-  "groups" : [ "ironcraftingstation", "tools", "all" ]
+  "groups" : [ "ironcraftingtable", "tools", "all" ]
 }

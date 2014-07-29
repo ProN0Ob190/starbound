@@ -1,10 +1,10 @@
 {
   "objectName" : "roboticcraftingtable",
-  "rarity" : "Common",
+  "rarity" : "Rare",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
     "config" : "/interface/windowconfig/robotcraftingtable.config",
-    "filter" : [ "plain", "craftingtable", "ironcraftingtable", "roboticcraftingtable" ]
+    "filter" : [ "roboticcraftingtable" ]
   },
   "printable" : false,
   "description" : "This table has arms! For precision!",
