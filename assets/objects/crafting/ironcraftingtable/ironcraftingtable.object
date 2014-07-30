@@ -4,7 +4,7 @@
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
     "config" : "/interface/windowconfig/ironcraftingtable.config",
-    "filter" : [ "ironcraftingtable" ]
+    "filter" : [ "plain", "craftingtable", "ironcraftingtable" ]
   },
   "printable" : false,
   "description" : "One could build some very sophisticated equipment on this table.",

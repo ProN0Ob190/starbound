@@ -1,0 +1,62 @@
+{
+  "objectName" : "manipulatortable",
+  "rarity" : "Legendary",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/manipulatortable.config",
+    "filter" : [ "manipulatortable" ]
+  },
+  "printable" : false,
+  "description" : "With this I can craft equipment that imbues me with tremendous power at the cost of defence.",
+  "shortdescription" : "Manipulator's Table",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 200,
+  
+  "lightColor" : [125, 143, 179],
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.1,
+  "flickerTiming" : 1,
+
+  "apexDescription" : "Raw destructive power at my fingertips, however I would be markedly more vulnerable to attacks.",
+  "avianDescription" : "A manipulator's crafting table. They are masters of pure destructive power, but tend to be frail themselves.",
+  "floranDescription" : "Ssstaff weapon very powerful, but Floran need lotsss of energy for it.",
+  "glitchDescription" : "Observation. The armors I can make here won't be very strong, but they make up for it with massive energy reserves.",
+  "humanDescription" : "If having deep energy reserves is my highest priority, the gear I can craft on this table would be best.",
+  "hylotlDescription" : "With the equipment I can craft on this table, I could unleash terrible destructive power.",
+
+  "inventoryIcon" : "manipulatortableicon.png",
+  "orientations" : [
+    {
+	  "imageLayers" : [ { "image" : "manipulatortable.png:<color>.<frame>", "fullbright" : true }, { "image" : "manipulatortablelit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-24, 0],
+      "frames" : 3,
+      "animationCycle" : 0.3,
+	  
+	  "direction" : "left",
+	  "flipImages" : true,
+	  
+	  "lightPosition" : [ -1, 2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+	{
+	  "imageLayers" : [ { "image" : "manipulatortable.png:<color>.<frame>", "fullbright" : true }, { "image" : "manipulatortablelit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-24, 0],
+      "frames" : 3,
+      "animationCycle" : 0.3,
+	  
+	  "direction" : "right",
+	  
+	  "lightPosition" : [ 0, 2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

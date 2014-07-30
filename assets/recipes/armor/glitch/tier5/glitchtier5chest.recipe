@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "aegisaltbar", "count" : 18 }
+    { "item" : "rubiumbar", "count" : 18 }
   ],
   "output" : { "item" : "glitchtier5chest", "count" : 1 },
-  "groups" : [ "metalworkstation", "armors", "all" ]
+  "groups" : [ "manipulatortable", "armors", "all" ]
 }

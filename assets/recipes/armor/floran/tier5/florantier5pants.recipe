@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "aegisaltbar", "count" : 6 }
+    { "item" : "rubiumbar", "count" : 6 }
   ],
   "output" : { "item" : "florantier5pants", "count" : 1 },
-  "groups" : [ "metalworkstation", "armors", "all" ]
+  "groups" : [ "manipulatortable", "armors", "all" ]
 }

@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "ceruliumbar", "count" : 18 }
+    { "item" : "violiumbar", "count" : 18 }
   ],
   "output" : { "item" : "glitchtier7chest", "count" : 1 },
-  "groups" : [ "metalworkstation", "armors", "all" ]
+  "groups" : [ "separatortable", "armors", "all" ]
 }

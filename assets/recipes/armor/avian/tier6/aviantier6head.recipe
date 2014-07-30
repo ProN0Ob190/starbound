@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "feroziumbar", "count" : 10 }
+    { "item" : "aegisaltbar", "count" : 10 }
   ],
   "output" : { "item" : "aviantier6head", "count" : 1 },
-  "groups" : [ "metalworkstation", "armors", "all" ]
+  "groups" : [ "acceleratortable", "armors", "all" ]
 }

@@ -1,7 +1,7 @@
 {
   "name" : "moon",
   "friendlyName" : "Moon",
-  "barren" : true,
+  "airless" : true,
   "requiredStatuses" : [ "breathProtection" ],
   "spawnProfiles" : [ "surfaceairless1", "surfaceairless2", "surfaceairless3" ],
 
