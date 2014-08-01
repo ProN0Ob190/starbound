@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "rubiumbar", "count" : 6 }
+    { "item" : "rubiumcompound", "count" : 6 }
   ],
   "output" : { "item" : "humantier9pants", "count" : 1 },
   "groups" : [ "metalworkstation", "armors", "all" ]

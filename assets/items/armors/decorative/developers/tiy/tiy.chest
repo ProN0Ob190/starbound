@@ -32,11 +32,7 @@
       "amount" : 0.5
     }
   ],
-  "augments" : [
-    {
-      "name" : "glide"
-    }
-  ],
+
   "colorOptions" : [
     /* DEFAULT BLUE */
     { "ffca8a" : "e6e6e6", "e0975c" : "91b1bf", "a85636" : "5d808f", "6f2919" : "395661" },

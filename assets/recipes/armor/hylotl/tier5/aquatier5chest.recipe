@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "rubiumbar", "count" : 18 }
+    { "item" : "rubiumcompound", "count" : 18 }
   ],
   "output" : { "item" : "hylotltier5chest", "count" : 1 },
   "groups" : [ "manipulatortable", "armors", "all" ]

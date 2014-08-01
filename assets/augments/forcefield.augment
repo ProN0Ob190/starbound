@@ -1,8 +1,0 @@
-{
-  "name" : "forcefield",
-  "icon" : [ ],
-  "kind" : "statuseffect",
-  "statusEffects" : [
-    { "kind" : "forcefield", "amount" : 0.3 }
-  ]
-}

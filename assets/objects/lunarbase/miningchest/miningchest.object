@@ -1,0 +1,36 @@
+{
+  "objectName" : "miningchest",
+  "rarity" : "Uncommon",
+  "objectType" : "container",
+
+  "category" : "storage",
+  "price" : 1250,
+  "description" : "Perfect for storing tools and equipment in!",
+  "shortdescription" : "Mining Chest",
+  "race" : "generic",
+
+  "apexDescription" : "A chest! Let's look inside.",
+  "avianDescription" : "Often these chests stored valuables. I'm excited!",
+  "floranDescription" : "Chessst! Floran musst sssearch!",
+  "glitchDescription" : "Anticipation. What could be inside?",
+  "humanDescription" : "A chest! Let's open it up.",
+  "hylotlDescription" : "There is little as exciting as an unopened chest.",
+
+  "inventoryIcon" : "miningchesticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "miningchest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaces" : [ [-1, 0], [0, 0], [1, 0], [-1, 1], [0, 1], [1, 1], [-1, 2], [0, 2], [1, 2] ],
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/miningchest_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/miningchest_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 32,
+  "autoCloseCooldown" : 3600
+}

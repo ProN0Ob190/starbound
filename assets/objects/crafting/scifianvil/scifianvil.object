@@ -7,8 +7,8 @@
     "filter" : [ "scifianvil" ]
   },
   "printable" : false,
-  "description" : "High tech weapon and armor crafting at your fingertips.",
-  "shortdescription" : "Sci Fi Anvil",
+  "description" : "This module can turn strong ores and alloys into high quality equipment.",
+  "shortdescription" : "Replicator",
   "race" : "generic",
   "category" : "crafting",
   "price" : 200,
@@ -18,12 +18,12 @@
   "flickerStrength" : 0.1,
   "flickerTiming" : 1,
 
-  "apexDescription" : "A crafting table. I can make steel here.",
-  "avianDescription" : "A crafting table. I can make steel here.",
-  "floranDescription" : "Floran make sssteel on table.",
-  "glitchDescription" : "Statement. I can make steel here.",
-  "humanDescription" : "A crafting table. I can make steel here.",
-  "hylotlDescription" : "A crafting table. I can make steel here.",
+  "apexDescription" : "A replicator. I can create high quality equipment with this.",
+  "avianDescription" : "A replicator. I can create high quality equipment with this.",
+  "floranDescription" : "Floran make ssstrong weapon here.",
+  "glitchDescription" : "Statement. I can make durasteel equipment and more with this.",
+  "humanDescription" : "A replicator. I can create high quality equipment with this.",
+  "hylotlDescription" : "A replicator. I can create high quality equipment with this.",
 
   "inventoryIcon" : "scifianvilicon.png",
   "orientations" : [
@@ -43,7 +43,7 @@
 	{
 	  "imageLayers" : [ { "image" : "scifianvil.png:<color>.<frame>", "fullbright" : true }, { "image" : "scifianvillit.png:<color>.<frame>" } ],
 
-      "imagePosition" : [-1, 0],
+      "imagePosition" : [-16, 0],
       "frames" : 9,
       "animationCycle" : 0.9,
 	  

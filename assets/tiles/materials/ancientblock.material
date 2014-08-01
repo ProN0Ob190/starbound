@@ -7,7 +7,7 @@
   "shortdescription" : "Ancient Block",
   "glitchDescription" : "Statement. An ancient block.",
   "floranDescription" : "Block.",
-  "footstepSound" : "/sfx/blocks/footstep_lightwood.wav",
+  "footstepSound" : "/sfx/blocks/footstep_stone.wav",
   "health" : 30,
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",

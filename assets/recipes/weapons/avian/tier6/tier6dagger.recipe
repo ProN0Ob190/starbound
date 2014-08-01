@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "feroziumbar", "count" : 2 }
+    { "item" : "feroziumcompound", "count" : 2 }
   ],
   "output" : { "item" : "aviantier6dagger", "count" : 1 },
   "groups" : [ "acceleratortable", "weapons", "all" ]

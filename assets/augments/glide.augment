@@ -1,8 +1,0 @@
-{
-  "name" : "glide",
-  "icon" : [ ],
-  "kind" : "statuseffect",
-  "statusEffects" : [
-    { "kind" : "glide", "amount" : 0.8 }
-  ]
-}

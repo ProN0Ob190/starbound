@@ -49,9 +49,13 @@
     }
   ],
 
+  "openSounds" : [ "/sfx/objects/fridge_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/fridge_close.wav" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/chests/chest%slots%.config",
   "frameCooldown" : 67,
-  "autoCloseCooldown" : 3600
+  "autoCloseCooldown" : 3600,
+
+  "soundEffect" : "/sfx/objects/fridge_hum.wav"
 
 }

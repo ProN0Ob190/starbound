@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "ceruliumbar", "count" : 10 }
+    { "item" : "ceruliumcompound", "count" : 10 }
   ],
   "output" : { "item" : "apextier10head", "count" : 1 },
   "groups" : [ "manipulatortable", "armors", "all" ]

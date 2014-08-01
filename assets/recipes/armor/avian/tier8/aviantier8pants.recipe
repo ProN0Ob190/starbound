@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "rubiumbar", "count" : 6 }
+    { "item" : "rubiumcompound", "count" : 6 }
   ],
   "output" : { "item" : "aviantier8pants", "count" : 1 },
   "groups" : [ "manipulatortable", "armors", "all" ]

@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "feroziumbar", "count" : 6 }
+    { "item" : "feroziumcompound", "count" : 6 }
   ],
   "output" : { "item" : "glitchtier9pants", "count" : 1 },
   "groups" : [ "acceleratortable", "armors", "all" ]

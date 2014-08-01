@@ -7,7 +7,7 @@
     "filter" : [ "metalworkstation" ]
   },
   "printable" : false,
-  "description" : "A station for producing and making use of various metals. Can produce steel.",
+  "description" : "This station can forge steel and other materials into useful equipment.",
   "shortdescription" : "Metalwork Station",
   "race" : "generic",
   "category" : "crafting",
@@ -18,12 +18,12 @@
   "flickerStrength" : 0.1,
   "flickerTiming" : 1,
 
-  "apexDescription" : "A crafting table. I can make steel here.",
-  "avianDescription" : "A crafting table. I can make steel here.",
-  "floranDescription" : "Floran make sssteel on table.",
-  "glitchDescription" : "Statement. I can make steel here.",
-  "humanDescription" : "A crafting table. I can make steel here.",
-  "hylotlDescription" : "A crafting table. I can make steel here.",
+  "apexDescription" : "A metalwork station. I can use steel and other materials here.",
+  "avianDescription" : "A metalwork station. I can use steel and other materials here.",
+  "floranDescription" : "Floran make sssteel weapon on sssstation.",
+  "glitchDescription" : "Statement. I can make steel equipment and more here.",
+  "humanDescription" : "A metalwork station. I can use steel and other materials here.",
+  "hylotlDescription" : "A metalwork station. I can use steel and other materials here.",
 
   "inventoryIcon" : "metalworkstationicon.png",
   "orientations" : [

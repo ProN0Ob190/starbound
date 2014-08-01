@@ -19,14 +19,11 @@
   "inventoryIcon" : "locker2icon.png",
   "orientations" : [
     {
-      "dualImage" : "locker2.png:<color>.<frame>",
+      "dualImage" : "locker2.png:<color>.<key>",
       "imagePosition" : [-8, 0],
-      "frames" : 1,
-      "animationCycle" : 1,
 
       "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ],
-      "collision" : "platform"
+      "anchors" : [ "background" ]
     }
 
   ],
@@ -35,6 +32,6 @@
   "closeSounds" : [ "/sfx/objects/locker_close.wav" ],
   "slotCount" : 9,
   "uiConfig" : "/interface/chests/chest%slots%.config",
-  "frameCooldown" : 67,
+  "frameCooldown" : 5,
   "autoCloseCooldown" : 3600
 }

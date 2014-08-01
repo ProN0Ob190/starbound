@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "ceruliumbar", "count" : 18 }
+    { "item" : "ceruliumcompound", "count" : 18 }
   ],
   "output" : { "item" : "hylotltier10chest", "count" : 1 },
   "groups" : [ "manipulatortable", "armors", "all" ]

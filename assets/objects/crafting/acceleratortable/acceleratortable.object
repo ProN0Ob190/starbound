@@ -7,13 +7,13 @@
     "filter" : [ "acceleratortable" ]
   },
   "printable" : false,
-  "description" : "For the marksman that needs dependable energy reserves and defence from their gear!",
+  "description" : "For the marksman that needs both energy and defence from their gear!",
   "shortdescription" : "Accelerator's Table",
   "race" : "generic",
   "category" : "crafting",
   "price" : 200,
   
-  "lightColor" : [35, 51, 51],
+  "lightColor" : [107, 179, 107],
   "flickerDistance" : 1,
   "flickerStrength" : 0.1,
   "flickerTiming" : 4,
@@ -31,7 +31,7 @@
 	  "imageLayers" : [ { "image" : "acceleratortable.png:<color>.<frame>", "fullbright" : true }, { "image" : "acceleratortablelit.png:<color>.<frame>" } ],
 
       "imagePosition" : [-16, 0],
-      "frames" : 22,
+      "frames" : 20,
       "animationCycle" : 2.0,
 	  
 	  "direction" : "left",
@@ -47,7 +47,7 @@
 	  "imageLayers" : [ { "image" : "acceleratortable.png:<color>.<frame>", "fullbright" : true }, { "image" : "acceleratortablelit.png:<color>.<frame>" } ],
 
       "imagePosition" : [-16, 0],
-      "frames" : 22,
+      "frames" : 20,
       "animationCycle" : 2.0,
 	  
 	  "direction" : "right",

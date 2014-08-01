@@ -23,8 +23,7 @@
       "imagePosition" : [0, 0],
 
       "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ],
-      "collision" : "platform"
+      "anchors" : [ "background" ]
     }
   ],
 
@@ -32,6 +31,6 @@
   "closeSounds" : [ "/sfx/objects/locker_close.wav" ],
   "slotCount" : 9,
   "uiConfig" : "/interface/chests/chest%slots%.config",
-  "frameCooldown" : 67,
+  "frameCooldown" : 5,
   "autoCloseCooldown" : 3600
 }

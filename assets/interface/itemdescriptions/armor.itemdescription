@@ -84,25 +84,5 @@
         }
       }
     }
-  },
-  "augmentList" : {
-    "type" : "list",
-    "position" : [40, 40],
-    "schema" : {
-      "spacing" : [0, 1],
-      "memberSize" : [999, 20],
-      "listTemplate" : {
-        "augmentLabel" : {
-          "type" : "label",
-          "position" : [0, 0],
-          "hAnchor" : "left"
-        },
-        "augmentImage" : {
-          "type" : "image",
-          "position" : [0, 10],
-          "file" : ""
-        }
-      }
-    }
   }
 }

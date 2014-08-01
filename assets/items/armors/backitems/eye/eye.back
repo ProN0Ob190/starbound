@@ -6,12 +6,6 @@
   "description" : "A cape that sees all. Hold the ctrl key to see further than ever!",
   "shortdescription" : "All-Seeing Cape",
 
-  "augments" : [
-    {
-      "name" : "hawkeyes"
-    }
-  ],
-
   "maleFrames" : "back.png",
   "femaleFrames" : "back.png",
 

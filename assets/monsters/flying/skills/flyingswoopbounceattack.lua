@@ -13,7 +13,7 @@ function flyingSwoopBounceAttack.update(dt, stateData)
   entity.setFacingDirection(self.toTarget[1])
 
   if self.toTarget[2] > 0 then
-    return true, flyingSwoopBounceAttack.stateCooldown
+    return true
   elseif self.sensors.upSensors.collision.any(true) then
     return true
   elseif self.sensors.downSensors.collision.any(true) then

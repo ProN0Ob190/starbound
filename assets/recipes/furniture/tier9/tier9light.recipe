@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "rubiumbar", "count" : 1 },
+    { "item" : "rubiumcompound", "count" : 1 },
     { "item" : "torch", "count" : 1 }
   ],
   "output" : { "item" : "tier9light", "count" : 1 },
-  "groups" : [ "metalworkstation", "light", "objects", "all" ]
+  "groups" : [ "manipulatortable", "light", "objects", "all" ]
 }

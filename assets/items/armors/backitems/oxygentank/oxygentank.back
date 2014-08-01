@@ -9,12 +9,6 @@
   "maleFrames" : "back.png",
   "femaleFrames" : "back.png",
 
-  "augments" : [
-    {
-      "name" : "breathprotection"
-    }
-  ],
-
   "colorOptions" : [
     { "ffca8a" : "888660", "e0975c" : "4c4e37", "a85636" : "26281c", "6f2919" : "0f100b" },
     { "ffca8a" : "727272", "e0975c" : "414141", "a85636" : "1c1c1c", "6f2919" : "0b0b0b" },

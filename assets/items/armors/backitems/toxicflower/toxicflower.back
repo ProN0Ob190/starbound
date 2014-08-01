@@ -6,12 +6,6 @@
   "description" : "A large toxic flower. Why not wear it? Converts light into energy.",
   "shortdescription" : "Toxic Flower Backpack.",
 
-  "augments" : [
-    {
-      "name" : "lighttoenergy"
-    }
-  ],
-
   "maleFrames" : "back.png",
   "femaleFrames" : "back.png",
 

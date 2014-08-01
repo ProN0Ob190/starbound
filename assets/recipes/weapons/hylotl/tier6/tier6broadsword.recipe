@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "feroziumbar", "count" : 10 }
+    { "item" : "feroziumcompound", "count" : 10 }
   ],
   "output" : { "item" : "hylotltier6broadsword", "count" : 1 },
   "groups" : [ "metalworkstation", "weapons", "all" ]

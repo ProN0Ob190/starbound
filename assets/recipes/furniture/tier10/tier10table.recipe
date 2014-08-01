@@ -3,5 +3,5 @@
     { "item" : "imperviumbar", "count" : 5 }
   ],
   "output" : { "item" : "tier10table", "count" : 1 },
-  "groups" : [ "metalworkstation", "furniture", "objects", "all" ]
+  "groups" : [ "separatortable", "furniture", "objects", "all" ]
 }

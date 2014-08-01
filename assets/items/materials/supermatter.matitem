@@ -4,9 +4,7 @@
   "inventoryIcon" : "supermatter.png",
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "description" : "-todo-.",
-  "shortdescription" : "Super Block",
-  "glitchdescription" : "-todo-",
-  "florandescription" : "Ssshiny block.",
+  "shortdescription" : "Supermatter Crystal",
 
   "materialId" : 1164
 }

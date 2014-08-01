@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "rubiumbar", "count" : 10 }
+    { "item" : "rubiumcompound", "count" : 10 }
   ],
   "output" : { "item" : "florantier5head", "count" : 1 },
   "groups" : [ "manipulatortable", "armors", "all" ]

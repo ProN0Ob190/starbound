@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "ceruliumbar", "count" : 6 }
+    { "item" : "ceruliumcompound", "count" : 6 }
   ],
   "output" : { "item" : "florantier9pants", "count" : 1 },
   "groups" : [ "manipulatortable", "armors", "all" ]

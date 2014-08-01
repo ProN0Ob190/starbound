@@ -542,6 +542,18 @@
       "comment" : "miningdoor facing right",
       "brush" : [ [ "clear" ], [ "object", "miningdoor", { "direction" : "right" } ] ]
     },
+    
+    {
+      "value" : [255, 94, 26, 255],
+      "comment" : "miningchest facing left",
+      "brush" : [ [ "clear" ], [ "object", "miningchest", { "direction" : "left" } ] ]
+    },
+
+    {
+      "value" : [242, 90, 24, 255],
+      "comment" : "miningchest facing right",
+      "brush" : [ [ "clear" ], [ "object", "miningchest", { "direction" : "right" } ] ]
+    },
 
     // NPC MONSTER SPAWN BRUSHES //
 

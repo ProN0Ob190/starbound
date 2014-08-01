@@ -3,7 +3,7 @@
   "materialName" : "outpostwall1",
   "particleColor" : [110, 110, 110, 255],
   "itemDrop" : "outpostwall1",
-  "description" : "A colourful wall panel.",
+  "description" : "A metal wall panel.",
   "shortdescription" : "Wall Panel",
   "glitchDescription" : "Analysis. A wall panel.",
   "floranDescription" : "Wall.",

@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "rubiumbar", "count" : 5 }
+    { "item" : "rubiumcompound", "count" : 5 }
   ],
   "output" : { "item" : "florantier9spear", "count" : 1 },
   "groups" : [ "metalworkstation", "weapons", "all" ]

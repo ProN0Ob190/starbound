@@ -13,7 +13,7 @@
   "category" : "crafting",
   "price" : 200,
   
-  "lightColor" : [35, 51, 51],
+  "lightColor" : [155, 107, 179],
   "flickerDistance" : 1,
   "flickerStrength" : 0.1,
   "flickerTiming" : 4,
@@ -31,13 +31,13 @@
 	  "imageLayers" : [ { "image" : "separatortable.png:<color>.<frame>", "fullbright" : true }, { "image" : "separatortablelit.png:<color>.<frame>" } ],
 
       "imagePosition" : [-16, 0],
-      "frames" : 22,
-      "animationCycle" : 2.0,
+      "frames" : 4,
+      "animationCycle" : 0.4,
 	  
 	  "direction" : "left",
 	  "flipImages" : true,
 	  
-	  "lightPosition" : [ -1, 2],
+	  "lightPosition" : [ -1, 1],
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
@@ -47,12 +47,12 @@
 	  "imageLayers" : [ { "image" : "separatortable.png:<color>.<frame>", "fullbright" : true }, { "image" : "separatortablelit.png:<color>.<frame>" } ],
 
       "imagePosition" : [-16, 0],
-      "frames" : 22,
-      "animationCycle" : 2.0,
+      "frames" : 4,
+      "animationCycle" : 0.4,
 	  
 	  "direction" : "right",
 	  
-	  "lightPosition" : [ 0, 2],
+	  "lightPosition" : [ 0, 1],
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]

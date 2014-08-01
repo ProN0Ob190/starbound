@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "rubiumbar", "count" : 1 },
+    { "item" : "violiumbar", "count" : 2 },
     { "item" : "coalore", "count" : 1 }
   ],
   "output" : {

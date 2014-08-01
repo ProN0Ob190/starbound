@@ -3,7 +3,7 @@
   "materialName" : "outpostwall2",
   "particleColor" : [110, 110, 110, 255],
   "itemDrop" : "outpostwall2",
-  "description" : "A colourful wall panel.",
+  "description" : "A metal wall panel.",
   "shortdescription" : "Wall Panel",
   "glitchDescription" : "Analysis. A wall panel.",
   "floranDescription" : "Wall.",
@@ -17,6 +17,6 @@
     "lightTransparent" : false,
     "occludesBelow" : true,
     "multiColored" : true,
-    "zLevel" : 0
+    "zLevel" : 100
   }
 }
