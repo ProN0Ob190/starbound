@@ -50,7 +50,7 @@
   "openSounds" : [ "/sfx/objects/campfire_use.wav" ],
   "slotCount" : 2,
   "uiConfig" : "/interface/objectcrafting/stonefurnace.config",
-  "frameCooldown" : 67,
+  "frameCooldown" : 5,
   "autoCloseCooldown" : 3600
 
 }

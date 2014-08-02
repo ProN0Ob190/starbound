@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "objectType" : "container",
   "description" : "A locker of unknown ownership.",
-  "shortdescription" : "Outpost Locker",
+  "shortdescription" : "Outpost Lockers",
   "race" : "generic",
   "category" : "storage",
   "price" : 500,
@@ -51,7 +51,7 @@
   "closeSounds" : [ "/sfx/objects/locker_close.wav" ],
   "slotCount" : 64,
   "uiConfig" : "/interface/chests/chest%slots%.config",
-  "frameCooldown" : 67,
+  "frameCooldown" : 5,
   "autoCloseCooldown" : 3600
 
 }

@@ -1,16 +1,16 @@
 {
   "materialId" : 181,
-  "materialName" : "lunarplatform",
+  "materialName" : "lunarbaseplatform",
   "platform" : true,
   "transparent" : true,
-  "itemDrop" : "lunarplatform",
-  "shortdescription" : "Lunar Platform",
-  "description" : "Lunar Platform.",
-  "footstepSound" : "/sfx/blocks/footstep_lightwood.wav",
+  "itemDrop" : "lunarbaseplatform",
+  "shortdescription" : "Lunar Base Platform",
+  "description" : "A well-constructed metal platform.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.wav",
 
   "renderTemplate" : "/tiles/platformtemplate.config",
   "renderParameters" : {
-    "texture" : "lunarplatform.png",
+    "texture" : "lunarbaseplatform.png",
     "variants" : 1,
     "lightTransparent" : true,
     "occludesBelow" : false,

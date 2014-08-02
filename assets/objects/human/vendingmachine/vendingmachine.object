@@ -4,15 +4,12 @@
   "description" : "Ooh, snack time.",
   "shortdescription" : "Vending Machine",
   "race" : "human",
-  "objectType" : "container",
-  "category" : "storage",
+  "category" : "decorative",
   "price" : 800,
   "lightColor" : [153, 115, 116],
   "flickerDistance" : 0.2,
   "flickerStrength" : 0.05,
   "flickerTiming" : 4,
-
-
 
   "apexDescription" : "A vending machine. No banana-flavoured snacks, sadly.",
   "avianDescription" : "Perfect to stave off hunger.",
@@ -22,12 +19,6 @@
   "hylotlDescription" : "A vending machine for processed snacks. They will have to do.",
 
   "inventoryIcon" : "vendingmachineicon.png",
-  "openSounds" : [ "/sfx/objects/chest_medium_open.wav" ],
-  "closeSounds" : [ "/sfx/objects/chest_medium_close.wav" ],
-  "slotCount" : 16,
-  "uiConfig" : "/interface/chests/chest%slots%.config",
-  "frameCooldown" : 67,
-  "autoCloseCooldown" : 3600,
 
   "orientations" : [
     {

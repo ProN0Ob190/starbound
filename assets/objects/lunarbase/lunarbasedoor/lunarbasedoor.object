@@ -1,10 +1,10 @@
 {
-  "objectName" : "lunardoor",
+  "objectName" : "lunarbasedoor",
   "rarity" : "Common",
 
   "category" : "door",
   "price" : 2000,
-  "description" : "This door is made of some sort of bulletproof material.",
+  "description" : "This door is airtight and made with incredibly strong materials.",
   "shortdescription" : "Lunar Base Blastdoor",
   "race" : "apex",
 
@@ -15,24 +15,24 @@
   "humanDescription" : "-todo-",
   "hylotlDescription" : "-todo-",
 
-  "inventoryIcon" : "lunardooricon.png",
+  "inventoryIcon" : "lunarbasedooricon.png",
   "orientations" : [
     {
-      "image" : "lunardoor.png:default",
-      "flipImages" : true,
-      "imagePosition" : [-40, 0],
-      "spaceScan" : 0.1,
-      "fgAnchors" : [ [-5, 6], [-4, 6], [1, -1], [2, -1] ],
+      "image" : "lunarbasedoor.png:default",
       "direction" : "left",
-	  "animationPosition" : [-40, 0]
-    },
-    {
-      "image" : "lunardoor.png:default",
+      "flipImages" : true,
       "imagePosition" : [-16, 0],
       "spaceScan" : 0.1,
       "fgAnchors" : [ [-2, -1], [-1, -1], [4, 6], [5, 6] ],
-      "direction" : "right",
 	  "animationPosition" : [-16, 0]
+    },
+    {
+      "image" : "lunarbasedoor.png:default",
+      "direction" : "right",
+      "imagePosition" : [-40, 0],
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [-5, 6], [-4, 6], [1, -1], [2, -1] ],
+	  "animationPosition" : [-40, 0]
     }
   ],
 
@@ -41,7 +41,7 @@
 
   "animation" : "/objects/wired/door/door.animation",
   "animationParts" : {
-    "door" : "lunardoor.png"
+    "door" : "lunarbasedoor.png"
   },
 
   "inboundNodes" : [ [0, 2] ],

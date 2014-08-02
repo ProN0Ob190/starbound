@@ -1,12 +1,12 @@
 {
   "objectName" : "woodenceilingbookcase1",
   "rarity" : "Common",
-  "category" : "decorative",
-  "price" : 750,
-
+  "objectType" : "container",
+  "category" : "storage",
   "description" : "A sturdy suspended bookshelf.",
   "shortdescription" : "Suspended Bookshelf",
   "race" : "generic",
+  "price" : 750,
 
   "apexDescription" : "This bookcase hangs on the wall.",
   "avianDescription" : "A bookcase for the space conscious.",
@@ -14,13 +14,6 @@
   "glitchDescription" : "Comment. A bookcase for the wall.",
   "humanDescription" : "A nice wooden bookshelf.",
   "hylotlDescription" : "This sits on the wall to save space.",
-
-  "openSounds" : [ "/sfx/objects/chest_medium_open.wav" ],
-  "closeSounds" : [ "/sfx/objects/chest_medium_close.wav" ],
-  "slotCount" : 16,
-  "uiConfig" : "/interface/chests/chest%slots%.config",
-  "frameCooldown" : 67,
-  "autoCloseCooldown" : 3600,
 
   "inventoryIcon" : "woodenceilingbookcase1icon.png",
   "orientations" : [
@@ -35,5 +28,12 @@
       "collision" : "platform"
 
     }
-  ]
+  ],
+  
+  "openSounds" : [ "/sfx/objects/bookcase_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/bookcase_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
 }

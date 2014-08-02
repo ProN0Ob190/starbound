@@ -30,9 +30,11 @@
     }
   ],
 
+  "openSounds" : [ "/sfx/objects/woodendoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/woodendoor_close.wav" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/chests/chest%slots%.config",
-  "frameCooldown" : 67,
+  "frameCooldown" : 5,
   "autoCloseCooldown" : 3600
 
 }

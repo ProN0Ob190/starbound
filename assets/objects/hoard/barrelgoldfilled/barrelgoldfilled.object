@@ -30,9 +30,11 @@
     }
   ],
 
+  "openSounds" : [ "/sfx/objects/coinstack_medium2.wav" ],
+  "closeSounds" : [ "/sfx/objects/coinstack_medium1.wav" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/chests/chest%slots%.config",
-  "frameCooldown" : 67,
+  "frameCooldown" : 5,
   "autoCloseCooldown" : 3600
 
 }

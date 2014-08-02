@@ -4,7 +4,7 @@
   "rarity" : "Common",
   "inventoryIcon" : "lunarbaseblock.png",
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
-  "description" : "An ancient platform made up of some kind of technological rock.",
+  "description" : "This alloy looks incredibly durable.",
   "shortdescription" : "Lunar Base Block",
   "glitchdescription" : "-todo-",
   "florandescription" : "-todo-",

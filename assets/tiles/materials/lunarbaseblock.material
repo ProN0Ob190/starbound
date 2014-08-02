@@ -3,10 +3,8 @@
   "materialName" : "lunarbaseblock",
   "particleColor" : [110, 110, 110, 255],
   "itemDrop" : "lunarbaseblock",
-  "description" : "A little bit of metal.",
-  "shortdescription" : "Metal object",
-  "glitchDescription" : "Statement. A small bit of metal.",
-  "floranDescription" : "Sssteel.",
+  "description" : "This alloy looks incredibly durable.",
+  "shortdescription" : "Lunar Base Block",
   "footstepSound" : "/sfx/blocks/footstep_composite.wav",
   "health" : 20,
 

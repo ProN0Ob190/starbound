@@ -1,0 +1,30 @@
+{
+  "itemName" : "liquidgun",
+  "inventoryIcon" : "liquidgunicon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+
+  "image" : "liquidgun.png",
+
+  "handPosition" : [-5, -3],
+  "firePosition" : [5, 1.5],
+
+  "fireTime" : 1.0,
+  "twoHanded" : true,
+
+  "projectileType" : "rock",
+  "projectile" : {
+    "speed" : 0,
+    "timeToLive" : 0,
+    "power" : 0
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [ ]
+  },
+
+  "scripts" : [
+    "/items/guns/liquidgun/liquidgun.lua"
+  ]
+}

@@ -16,7 +16,7 @@
 
   "objectType" : "loungeable",
   "sitFlipDirection" : true,
-  "sitPosition" : [-8, 14],
+  "sitPosition" : [-8, 13.2],
   "sitOrientation" : "lay",
   "sitAngle" : 90,
   "sitCoverImage" : "/objects/glitch/medievalbed/medievalbedcover.png",

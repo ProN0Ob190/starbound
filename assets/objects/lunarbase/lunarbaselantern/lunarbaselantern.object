@@ -1,0 +1,77 @@
+{
+  "objectName" : "lunarbaselantern",
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 300,
+
+  "description" : "These electric lanterns generate a pleasantly warm light",
+  "shortdescription" : "Lunar Base Lantern",
+  "race" : "generic",
+
+  "apexDescription" : "-todo-",
+  "avianDescription" : "-todo-",
+  "floranDescription" : "-todo-",
+  "glitchDescription" : "-todo-",
+  "humanDescription" : "-todo-",
+  "hylotlDescription" : "-todo-",
+
+  "statusEffects" : [
+    {
+      "kind" : "Warmth",
+      "amount" : 10,
+      "range" : 2
+    } ],
+
+  "lightColor" : [204, 189, 173],
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.1,
+  "flickerTiming" : 2,
+
+  "inventoryIcon" : "lunarbaselanternicon.png",
+  "orientations" : [
+
+    {
+      "image" : "lunarbaselantern.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.8,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [0, -1] ]
+    },
+
+    {
+      "image" : "lunarbaselantern.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.8,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "bgAnchors" : [ [0, 1] ]
+    },
+
+    {
+      "image" : "lunarbaselantern.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.8,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "bgAnchors" : [ [0, 0] ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/fluorescent_light_quiet.wav",
+
+  "animation" : "lunarbaselantern.animation",
+  "animationParts" : {
+    "bg" : "lunarbaselantern.png",
+    "fg" : "lunarbaselanternlit.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inboundNodes" : [ [0, 0] ]
+}

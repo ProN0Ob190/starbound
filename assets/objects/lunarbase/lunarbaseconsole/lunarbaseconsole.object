@@ -1,19 +1,19 @@
 {
   "objectName" : "lunarbaseconsole",
   "rarity" : "Common",
-  "description" : "A control console.",
+  "description" : "A sleek control console.",
   "shortdescription" : "Lunar Base Console",
   "race" : "generic",
   "category" : "wire",
-  "price" : 400,
+  "price" : 750,
   "lightColor" : [61, 88, 102],
 
   "apexDescription" : "-todo-",
-  "avianDescription" : "A control console.",
-  "floranDescription" : "Floran use anonymous console to send abuse to Hylotl military.",
-  "glitchDescription" : "Statement. A control console.",
-  "humanDescription" : "A console.",
-  "hylotlDescription" : "A console.",
+  "avianDescription" : "-todo-",
+  "floranDescription" : "-todo-",
+  "glitchDescription" : "-todo-",
+  "humanDescription" : "-todo-",
+  "hylotlDescription" : "-todo-",
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
@@ -21,7 +21,7 @@
 	  "imageLayers" : [ { "image" : "lunarbaseconsole.png:<color>.<frame>", "fullbright" : true }, { "image" : "lunarbaseconsolelit.png:<color>.<frame>" } ],
 	  "flipImages" : true,
 	  "direction" : "left",
-      "lightPosition" : [-1, 2],
+      "lightPosition" : [0, 2],
 
       "imagePosition" : [-8, 0],
       "frames" : 3,
@@ -29,7 +29,6 @@
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-
     },
 	{
 	  "imageLayers" : [ { "image" : "lunarbaseconsole.png:<color>.<frame>", "fullbright" : true }, { "image" : "lunarbaseconsolelit.png:<color>.<frame>" } ],
@@ -42,7 +41,6 @@
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-
     }
   ]
 }

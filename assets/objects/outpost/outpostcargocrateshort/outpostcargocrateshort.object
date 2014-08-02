@@ -47,9 +47,11 @@
     }
   ],
 
+  "openSounds" : [ "/sfx/objects/metalbox_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/metalbox_close.wav" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/chests/chest%slots%.config",
-  "frameCooldown" : 67,
+  "frameCooldown" : 5,
   "autoCloseCooldown" : 3600
 
 }

@@ -27,10 +27,10 @@
     }
   ],
 
-  "openSounds" : [ "/sfx/objects/chest_small_open.wav" ],
-  "closeSounds" : [ "/sfx/objects/chest_small_close.wav" ],
+  "openSounds" : [ "/sfx/objects/bed_enter.wav" ],
+  "closeSounds" : [ "/sfx/objects/bed_leave.wav" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/chests/chest%slots%.config",
-  "frameCooldown" : 67,
+  "frameCooldown" : 5,
   "autoCloseCooldown" : 3600
 }

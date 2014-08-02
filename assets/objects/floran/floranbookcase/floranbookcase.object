@@ -15,11 +15,11 @@
   "humanDescription" : "The Floran don't appear to be frequent readers.",
   "hylotlDescription" : "The Floran appear to attach death to every surface.",
 
-  "openSounds" : [ "/sfx/objects/chest_medium_open.wav" ],
-  "closeSounds" : [ "/sfx/objects/chest_medium_close.wav" ],
+  "openSounds" : [ "/sfx/objects/bookcase_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/bookcase_close.wav" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/chests/chest%slots%.config",
-  "frameCooldown" : 67,
+  "frameCooldown" : 5,
   "autoCloseCooldown" : 3600,
 
   "inventoryIcon" : "floranbookcaseicon.png",

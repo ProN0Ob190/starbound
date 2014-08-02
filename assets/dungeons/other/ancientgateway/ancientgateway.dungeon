@@ -396,7 +396,7 @@
     {
       "value" : [87, 165, 217, 255],
       "comment" : "foreground ancientblock",
-      "brush" : [ [ "clear" ], [ "front", "ancientblock" ] ]
+      "brush" : [ [ "clear" ], [ "back", "ancientblock" ], [ "front", "ancientblock" ] ]
     },
     
     {
@@ -408,7 +408,7 @@
     {
       "value" : [98, 87, 217, 255],
       "comment" : "foreground ancientbrick",
-      "brush" : [ [ "clear" ], [ "front", "ancientbrick" ] ]
+      "brush" : [ [ "clear" ], [ "back", "ancientbrick" ], [ "front", "ancientbrick" ] ]
     },
     
     {
@@ -420,7 +420,61 @@
     {
       "value" : [184, 87, 217, 255],
       "comment" : "foreground meteoriterock",
-      "brush" : [ [ "clear" ], [ "front", "meteoriterock" ] ]
+      "brush" : [ [ "clear" ], [ "back", "meteoriterock" ], [ "front", "meteoriterock" ] ]
+    },
+    
+    {
+      "value" : [56, 140, 74, 255],
+      "comment" : "background apexshipdetails",
+      "brush" : [ [ "clear" ], [ "back", "apexshipdetails" ] ]
+    },
+
+    {
+      "value" : [87, 217, 115, 255],
+      "comment" : "foreground apexshipdetails",
+      "brush" : [ [ "clear" ], [ "back", "apexshipdetails" ], [ "front", "apexshipdetails" ] ]
+    },
+    
+    {
+      "value" : [70, 56, 140, 255],
+      "comment" : "background apexshipsupport",
+      "brush" : [ [ "clear" ], [ "back", "apexshipsupport" ] ]
+    },
+
+    {
+      "value" : [108, 87, 217, 255],
+      "comment" : "foreground apexshipsupport",
+      "brush" : [ [ "clear" ], [ "back", "apexshipsupport" ], [ "front", "apexshipsupport" ] ]
+    },
+    
+    {
+      "value" : [119, 140, 56, 255],
+      "comment" : "background lunarbaseblock",
+      "brush" : [ [ "clear" ], [ "back", "lunarbaseblock" ] ]
+    },
+
+    {
+      "value" : [185, 217, 87, 255],
+      "comment" : "foreground lunarbaseblock",
+      "brush" : [ [ "clear" ], [ "back", "lunarbaseblock" ], [ "front", "lunarbaseblock" ] ]
+    },
+    
+    {
+      "value" : [140, 72, 56, 255],
+      "comment" : "background girder",
+      "brush" : [ [ "clear" ], [ "back", "girder" ] ]
+    },
+
+    {
+      "value" : [217, 111, 87, 255],
+      "comment" : "foreground girder",
+      "brush" : [ [ "clear" ], [ "back", "girder" ], [ "front", "girder" ] ]
+    },
+    
+    {
+      "value" : [180, 87, 217, 255],
+      "comment" : "foreground only supermatter",
+      "brush" : [ [ "clear" ], [ "front", "supermatter" ] ]
     },
 
     {
@@ -433,6 +487,12 @@
       "value" : [139, 130, 111, 255],
       "comment" : "ancient stairs/platform",
       "brush" : [ [ "clear" ], [ "front", "ancientplatform" ] ]
+    },
+    
+    {
+      "value" : [173, 194, 204, 255],
+      "comment" : "lunar base stairs/platform",
+      "brush" : [ [ "clear" ], [ "front", "lunarbaseplatform" ] ]
     },
 
     {
@@ -1093,6 +1153,210 @@
       "value" : [145, 217, 22, 255],
       "comment" : "ancientconsole facing right",
       "brush" : [ [ "clear" ], [ "object", "ancientconsole", { "direction" : "right" } ] ]
+    },
+    
+    {
+      "value" : [255, 102, 26, 255],
+      "comment" : "antenna facing left",
+      "brush" : [ [ "clear" ], [ "object", "antenna", { "direction" : "left" } ] ]
+    },
+
+    {
+      "value" : [242, 97, 24, 255],
+      "comment" : "antenna facing right",
+      "brush" : [ [ "clear" ], [ "object", "antenna", { "direction" : "right" } ] ]
+    },
+    
+    {
+      "value" : [26, 255, 217, 255],
+      "comment" : "lunarbasebunk facing left",
+      "brush" : [ [ "clear" ], [ "object", "lunarbasebunk", { "direction" : "left" } ] ]
+    },
+
+    {
+      "value" : [24, 242, 206, 255],
+      "comment" : "lunarbasebunk facing right",
+      "brush" : [ [ "clear" ], [ "object", "lunarbasebunk", { "direction" : "right" } ] ]
+    },
+    
+    {
+      "value" : [26, 255, 232, 255],
+      "comment" : "lunarbasechair facing left",
+      "brush" : [ [ "clear" ], [ "object", "lunarbasechair", { "direction" : "left" } ] ]
+    },
+
+    {
+      "value" : [24, 242, 220, 255],
+      "comment" : "lunarbasechair facing right",
+      "brush" : [ [ "clear" ], [ "object", "lunarbasechair", { "direction" : "right" } ] ]
+    },
+	
+	{
+      "value" : [178, 255, 26, 255],
+      "comment" : "lunarbaseconsole facing left",
+      "brush" : [ [ "clear" ], [ "object", "lunarbaseconsole", { "direction" : "left" } ] ]
+    },
+
+    {
+      "value" : [170, 242, 24, 255],
+      "comment" : "lunarbaseconsole facing right",
+      "brush" : [ [ "clear" ], [ "object", "lunarbaseconsole", { "direction" : "right" } ] ]
+    },
+    
+    {
+      "value" : [255, 26, 64, 255],
+      "comment" : "lunarbasecrate facing left",
+      "brush" : [ [ "clear" ], [ "object", "lunarbasecrate", { "direction" : "left" } ] ]
+    },
+
+    {
+      "value" : [242, 24, 61, 255],
+      "comment" : "lunarbasecrate facing right",
+      "brush" : [ [ "clear" ], [ "object", "lunarbasecrate", { "direction" : "right" } ] ]
+    },
+    
+    {
+      "value" : [255, 217, 26, 255],
+      "comment" : "lunarbaselantern",
+      "brush" : [ [ "clear" ], [ "object", "lunarbaselantern" ] ]
+    },
+    
+    {
+      "value" : [102, 26, 255, 255],
+      "comment" : "lunarbaselocker facing left",
+      "brush" : [ [ "clear" ], [ "object", "lunarbaselocker", { "direction" : "left" } ] ]
+    },
+
+    {
+      "value" : [97, 24, 242, 255],
+      "comment" : "lunarbaselocker facing right",
+      "brush" : [ [ "clear" ], [ "object", "lunarbaselocker", { "direction" : "right" } ] ]
+    },
+    
+    {
+      "value" : [179, 141, 89, 255],
+      "comment" : "lunarbasedoor facing left",
+      "brush" : [ [ "clear" ], [ "object", "lunarbasedoor", { "direction" : "left" } ] ]
+    },
+
+    {
+      "value" : [166, 131, 83, 255],
+      "comment" : "lunarbasedoor facing right",
+      "brush" : [ [ "clear" ], [ "object", "lunarbasedoor", { "direction" : "right" } ] ]
+    },
+    
+    {
+      "value" : [255, 110, 26, 255],
+      "comment" : "miningbelt facing left",
+      "brush" : [ [ "clear" ], [ "object", "miningbelt", { "direction" : "left" } ] ]
+    },
+
+    {
+      "value" : [242, 104, 24, 255],
+      "comment" : "miningbelt facing right",
+      "brush" : [ [ "clear" ], [ "object", "miningbelt", { "direction" : "right" } ] ]
+    },
+    
+    {
+      "value" : [255, 26, 48, 255],
+      "comment" : "miningchest facing left",
+      "brush" : [ [ "clear" ], [ "object", "miningchest", { "direction" : "left" } ] ]
+    },
+
+    {
+      "value" : [242, 24, 46, 255],
+      "comment" : "miningchest facing right",
+      "brush" : [ [ "clear" ], [ "object", "miningchest", { "direction" : "right" } ] ]
+    },
+	
+	{
+      "value" : [255, 117, 26, 255],
+      "comment" : "miningcrusher facing left",
+      "brush" : [ [ "clear" ], [ "object", "miningcrusher", { "direction" : "left" } ] ]
+    },
+
+    {
+      "value" : [242, 111, 24, 255],
+      "comment" : "miningcrusher facing right",
+      "brush" : [ [ "clear" ], [ "object", "miningcrusher", { "direction" : "right" } ] ]
+    },
+    
+    {
+      "value" : [255, 125, 26, 255],
+      "comment" : "miningfence facing left",
+      "brush" : [ [ "clear" ], [ "object", "miningfence", { "direction" : "left" } ] ]
+    },
+
+    {
+      "value" : [242, 119, 24, 255],
+      "comment" : "miningfence facing right",
+      "brush" : [ [ "clear" ], [ "object", "miningfence", { "direction" : "right" } ] ]
+    },
+    
+    {
+      "value" : [255, 133, 26, 255],
+      "comment" : "mininghazardsign",
+      "brush" : [ [ "clear" ], [ "object", "mininghazardsign" ] ]
+    },
+    
+    {
+      "value" : [255, 140, 26, 255],
+      "comment" : "miningskip facing left",
+      "brush" : [ [ "clear" ], [ "object", "miningskip", { "direction" : "left" } ] ]
+    },
+
+    {
+      "value" : [242, 133, 24, 255],
+      "comment" : "miningskip facing right",
+      "brush" : [ [ "clear" ], [ "object", "miningskip", { "direction" : "right" } ] ]
+    },
+    
+    {
+      "value" : [179, 149, 89, 255],
+      "comment" : "miningdoor facing left",
+      "brush" : [ [ "clear" ], [ "object", "miningdoor", { "direction" : "left" } ] ]
+    },
+
+    {
+      "value" : [166, 138, 83, 255],
+      "comment" : "miningdoor facing right",
+      "brush" : [ [ "clear" ], [ "object", "miningdoor", { "direction" : "right" } ] ]
+    },
+	
+	{
+      "value" : [255, 228, 26, 255],
+      "comment" : "floodlights facing left",
+      "brush" : [ [ "clear" ], [ "object", "floodlights", { "direction" : "left" } ] ]
+    },
+
+    {
+      "value" : [242, 217, 24, 255],
+      "comment" : "floodlights facing right",
+      "brush" : [ [ "clear" ], [ "object", "floodlights", { "direction" : "right" } ] ]
+    },
+    
+    {
+      "value" : [255, 148, 26, 255],
+      "comment" : "watercooler facing left",
+      "brush" : [ [ "clear" ], [ "object", "watercooler", { "direction" : "left" } ] ]
+    },
+
+    {
+      "value" : [242, 140, 24, 255],
+      "comment" : "watercooler facing right",
+      "brush" : [ [ "clear" ], [ "object", "watercooler", { "direction" : "right" } ] ]
+    },
+    
+    {
+      "value" : [255, 240, 26, 255],
+      "comment" : "prisonfloodlight",
+      "brush" : [ [ "clear" ], [ "object", "prisonfloodlight" ] ]
+    },
+    
+    {
+      "value" : [255, 251, 26, 255],
+      "comment" : "apexshiplight",
+      "brush" : [ [ "clear" ], [ "object", "apexshiplight" ] ]
     },
 
     // NPC MONSTER SPAWN BRUSHES //

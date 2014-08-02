@@ -1,18 +1,18 @@
 {
   "objectName" : "lunarbasebunk",
   "rarity" : "Common",
-  "description" : "-todo-",
+  "description" : "These cosy beds can stack on top of each other.",
   "shortdescription" : "Lunar Base Bunk",
   "race" : "generic",
   "category" : "furniture",
   "price" : 750,
   "lightColor" : [69, 99, 115],
 
-  "apexDescription" : "A simple bed.",
-  "avianDescription" : "This bed looks rather basic.",
+  "apexDescription" : "A bunk bed.",
+  "avianDescription" : "This bunk bed looks rather basic.",
   "floranDescription" : "Floran like to sssleep!",
-  "glitchDescription" : "Statement. A bed.",
-  "humanDescription" : "A pleasant bed.",
+  "glitchDescription" : "Statement. A bunk bed.",
+  "humanDescription" : "A bunk bed. Not terribly spacious, but surprisingly comfortable.",
   "hylotlDescription" : "A crude bed.",
 
   "objectType" : "loungeable",
@@ -20,7 +20,7 @@
   
   "sitOrientation" : "lay",
   "sitAngle" : 90,
-  "sitCoverImage" : "/objects/lunarbase/lunarbunk/lunarbasebunkcover.png",
+  "sitCoverImage" : "/objects/lunarbase/lunarbasebunk/lunarbasebunkcover.png",
   "sitEmote" : "sleep",
   "sitStatusEffects" : [
     { "kind" : "Nude" },
@@ -35,31 +35,31 @@
 	  "flipImages" : true,
       "imagePosition" : [-24, 0],
       "frames" : 1,
-      "collision" : "platform",
       "animationCycle" : 1.0,
 	  
-      "lightPosition" : [0, 0],
+      "lightPosition" : [-3, 1],
 	  
-	  "sitPosition" : [-4, 14],
+	  "sitPosition" : [-4, 14.3],
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
-	  "direction" : "left"
+	  "direction" : "left",
+      "collision" : "platform"
     },
 	{
       "imageLayers" : [ { "image" : "lunarbasebunk.png:<color>", "fullbright" : true }, { "image" : "lunarbasebunklit.png:<color>"} ],
       "imagePosition" : [-24, 0],
       "frames" : 1,
-      "collision" : "platform",
       "animationCycle" : 1.0,
 	  
-      "lightPosition" : [0, 0],
+      "lightPosition" : [3, 1],
 	  
-	  "sitPosition" : [-12, 14],
+	  "sitPosition" : [-12, 14.3],
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
-	  "direction" : "right"
+	  "direction" : "right",
+      "collision" : "platform"
     }
 	
   ]

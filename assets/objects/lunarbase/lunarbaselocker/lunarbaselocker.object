@@ -1,9 +1,9 @@
 {
-  "objectName" : "lunarlocker",
+  "objectName" : "lunarbaselocker",
   "rarity" : "Common",
   "objectType" : "container",
-  "description" : "A locker of unknown ownership.",
-  "shortdescription" : "Lunar Base Locker",
+  "description" : "A set of lockers, perfect for storing things.",
+  "shortdescription" : "Lunar Base Lockers",
   "race" : "generic",
   "category" : "storage",
   "price" : 500,
@@ -11,15 +11,15 @@
 
   "apexDescription" : "-todo-",
   "avianDescription" : "-todo-",
-  "floranDescription" : "Floran not can fit in locker. Floran can fit Hylotl in locker.",
-  "glitchDescription" : "Statement. A locker, for locking up things you want to lock away.",
-  "humanDescription" : "Ah, this reminds me of high school.",
-  "hylotlDescription" : "A basic, ugly locker.",
+  "floranDescription" : "-todo-",
+  "glitchDescription" : "-todo-",
+  "humanDescription" : "-todo-",
+  "hylotlDescription" : "-todo-",
 
-  "inventoryIcon" : "icon.png",
+  "inventoryIcon" : "lunarbaselockericon.png",
   "orientations" : [
     {
-	  "imageLayers" : [ { "image" : "lunarlocker.png:<color>", "fullbright" : true }, { "image" : "lunarlockerlit.png:<color>" } ],
+	  "imageLayers" : [ { "image" : "lunarbaselocker.png:<color>", "fullbright" : true }, { "image" : "lunarbaselockerlit.png:<color>" } ],
 	  "flipImages" : true,
 	  "direction" : "left",
       "lightPosition" : [0, 2],
@@ -33,7 +33,7 @@
       "collision" : "platform"
     },
 	{
-	  "imageLayers" : [ { "image" : "lunarlocker.png:<color>", "fullbright" : true }, { "image" : "lunarlockerlit.png:<color>" } ],
+	  "imageLayers" : [ { "image" : "lunarbaselocker.png:<color>", "fullbright" : true }, { "image" : "lunarbaselockerlit.png:<color>" } ],
 	  "direction" : "right",
       "lightPosition" : [0, 2],
 
@@ -51,7 +51,7 @@
   "closeSounds" : [ "/sfx/objects/locker_close.wav" ],
   "slotCount" : 64,
   "uiConfig" : "/interface/chests/chest%slots%.config",
-  "frameCooldown" : 67,
+  "frameCooldown" : 5,
   "autoCloseCooldown" : 3600
 
 }

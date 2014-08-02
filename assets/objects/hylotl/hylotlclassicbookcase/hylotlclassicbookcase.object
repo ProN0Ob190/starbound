@@ -19,7 +19,7 @@
   "closeSounds" : [ "/sfx/objects/chest_medium_close.wav" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/chests/chest%slots%.config",
-  "frameCooldown" : 67,
+  "frameCooldown" : 5,
   "autoCloseCooldown" : 3600,
 
   "inventoryIcon" : "hylotlclassicbookcaseicon.png",

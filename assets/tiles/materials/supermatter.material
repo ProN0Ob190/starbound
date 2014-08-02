@@ -1,7 +1,7 @@
 {
   "materialId" : 1164,
   "materialName" : "supermatter",
-  "particleColor" : [104, 225, 241, 255],
+  "particleColor" : [225, 156, 244, 255],
   "itemDrop" : "crystalblock",
   "description" : "-todo (makes FTL drive possible)",
   "shortdescription" : "Super Matterk",
