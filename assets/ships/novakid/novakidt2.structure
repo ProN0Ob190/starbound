@@ -9,12 +9,12 @@
   "backgroundOverlays" : [
     {
       "image" : "novakidT2.png",
-      "position" : [8, 14],
+      "position" : [10, 14],
       "fullbright" : true
     },
     {
       "image" : "novakidT2lit.png",
-      "position" : [8, 14]
+      "position" : [10, 14]
     }
   ],
 

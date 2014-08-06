@@ -1,0 +1,25 @@
+{
+  "objectName" : "liquidoil",
+  "rarity" : "Common",
+  "description" : "A splash of oil. How am I managing to hold this??",
+  "shortdescription" : "Oil",
+  "race" : "generic",
+  "printable" : false,
+  "price" : 0,
+
+  "inventoryIcon" : "liquidoilicon.png",
+  "orientations" : [
+    {
+      "image" : "liquidoil.png:<color>",
+      "direction" : "left",
+
+      "imagePosition" : [0, 0],
+
+      "spaces" : [ [0, 0] ],
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/liquid/placeliquid.lua" ],
+  "liquidId" : 7
+}

@@ -38,5 +38,8 @@
   "animationPosition" : [-16, 0],
 
   "inboundNodes" : [ [-1, 4] ],
-  "outboundNodes" : [ [1, 0] ]
+  "outboundNodes" : [ [1, 0] ],
+
+  "openSounds" : [ "/sfx/objects/stonedoor_open_fast.wav" ],
+  "closeSounds" : [ "/sfx/objects/stonedoor_close_fast.wav" ]
 }

@@ -1,0 +1,25 @@
+{
+  "objectName" : "liquidlava",
+  "rarity" : "Common",
+  "description" : "A splash of lava. How am I managing to hold this??",
+  "shortdescription" : "Lava",
+  "race" : "generic",
+  "printable" : false,
+  "price" : 0,
+
+  "inventoryIcon" : "liquidlavaicon.png",
+  "orientations" : [
+    {
+      "image" : "liquidlava.png:<color>",
+      "direction" : "left",
+
+      "imagePosition" : [0, 0],
+
+      "spaces" : [ [0, 0] ],
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/liquid/placeliquid.lua" ],
+  "liquidId" : 3
+}

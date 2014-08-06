@@ -48,5 +48,8 @@
   ],
 
   "inboundNodes" : [ [-2, 1] ],
-  "outboundNodes" : [ [2, -1] ]
+  "outboundNodes" : [ [2, -1] ],
+
+  "openSounds" : [ "/sfx/objects/stonedoor_open_fast.wav" ],
+  "closeSounds" : [ "/sfx/objects/stonedoor_close_fast.wav" ]
 }
