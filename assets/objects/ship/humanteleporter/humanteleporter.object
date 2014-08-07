@@ -2,6 +2,7 @@
   "objectName" : "humanteleporter",
   "rarity" : "Common",
   "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warpmenu/shipwarp.config",
   "description" : "Trusty teleporter, what would I do without you? Of human design.",
   "shortdescription" : "Teleporter",
   "race" : "human",

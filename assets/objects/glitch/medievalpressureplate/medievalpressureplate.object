@@ -40,5 +40,5 @@
 
   "detectDuration" : 0.1,
   "detectEntityTypes" : [ "creature" ],
-  "detectArea" : [ [-1.5, 0.875], [1.5, 0.875] ]
+  "detectArea" : [ [-1.0, 0], [1.0, 0.3] ]
 }

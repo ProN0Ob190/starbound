@@ -18,28 +18,26 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "ancientgate.png:<color>", "fullbright" : true }, { "image" : "ancientgatelit.png:<color>" } ],
-	  "flipImages" : true,
-	  "direction" : "left",
-	  
-      "lightPosition" : [0, 0],
+      "imageLayers" : [ { "image" : "ancientgate.png:<color>.<frame>", "fullbright" : true }, { "image" : "ancientgatelit.png:<color>.<frame>" } ],
+      "direction" : "left",
 
       "imagePosition" : [-40, 0],
-      "frames" : 1,
-      "animationCycle" : 1.0,
+
+      "frames" : 22,
+      "animationCycle" : 4.4,
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     },
-	{
-      "imageLayers" : [ { "image" : "ancientgate.png:<color>", "fullbright" : true }, { "image" : "ancientgatelit.png:<color>" } ],
-	  "direction" : "right",
-	  
-      "lightPosition" : [0, 0],
+  {
+      "imageLayers" : [ { "image" : "ancientgate.png:<color>.<frame>", "fullbright" : true }, { "image" : "ancientgatelit.png:<color>.<frame>" } ],
+      "direction" : "right",
+      "flipImages" : true,
 
       "imagePosition" : [-40, 0],
-      "frames" : 1,
-      "animationCycle" : 1.0,
+
+      "frames" : 22,
+      "animationCycle" : 4.4,
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]

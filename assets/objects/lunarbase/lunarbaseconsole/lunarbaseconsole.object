@@ -47,9 +47,10 @@
   "scripts" : [ "/objects/wired/switch/switch.lua" ],
   "scriptDelta" : 5,
 
-  "animation" : "/objects/wired/switch/switch3.animation",
+  "animation" : "lunarbaseconsole.animation",
   "animationParts" : {
-    "switch" : "lunarbaseconsole.png"
+    "bg" : "lunarbaseconsole.png",
+    "fg" : "lunarbaseconsolelit.png"
   },
   "animationPosition" : [-8, 0],
 

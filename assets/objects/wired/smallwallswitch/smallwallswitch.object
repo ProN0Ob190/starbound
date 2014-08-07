@@ -31,8 +31,7 @@
     "switch" : "smallwallswitch.png"
   },
   "animationPosition" : [-8, -8],
-
-  "inboundNodes" : [ [-1, 0] ],
+  
   "outboundNodes" : [ [0, -1] ],
 
   "onSounds" : [ "/sfx/objects/apexconsole2switch.wav" ],

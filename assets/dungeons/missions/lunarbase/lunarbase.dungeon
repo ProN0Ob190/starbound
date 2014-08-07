@@ -1156,6 +1156,18 @@
     },
     
     {
+      "value" : [119, 229, 23, 255],
+      "comment" : "returnconsole facing left",
+      "brush" : [ [ "clear" ], [ "object", "returnconsole", { "direction" : "left" } ] ]
+    },
+
+    {
+      "value" : [113, 217, 22, 255],
+      "comment" : "returnconsole facing right",
+      "brush" : [ [ "clear" ], [ "object", "returnconsole", { "direction" : "right" } ] ]
+    },
+    
+    {
       "value" : [255, 102, 26, 255],
       "comment" : "antenna facing left",
       "brush" : [ [ "clear" ], [ "object", "antenna", { "direction" : "left" } ] ]
@@ -1336,18 +1348,6 @@
     },
     
     {
-      "value" : [255, 148, 26, 255],
-      "comment" : "watercooler facing left",
-      "brush" : [ [ "clear" ], [ "object", "watercooler", { "direction" : "left" } ] ]
-    },
-
-    {
-      "value" : [242, 140, 24, 255],
-      "comment" : "watercooler facing right",
-      "brush" : [ [ "clear" ], [ "object", "watercooler", { "direction" : "right" } ] ]
-    },
-    
-    {
       "value" : [255, 240, 26, 255],
       "comment" : "prisonfloodlight",
       "brush" : [ [ "clear" ], [ "object", "prisonfloodlight" ] ]
@@ -1357,6 +1357,18 @@
       "value" : [255, 251, 26, 255],
       "comment" : "apexshiplight",
       "brush" : [ [ "clear" ], [ "object", "apexshiplight" ] ]
+    },
+    
+    {
+      "value" : [147, 229, 23, 255],
+      "comment" : "tinywallswitch",
+      "brush" : [ [ "clear" ], [ "object", "tinywallswitch" ] ]
+    },
+    
+    {
+      "value" : [133, 229, 23, 255],
+      "comment" : "smallwallswitch",
+      "brush" : [ [ "clear" ], [ "object", "smallwallswitch" ] ]
     },
 
     // NPC MONSTER SPAWN BRUSHES //

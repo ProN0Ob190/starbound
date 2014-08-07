@@ -1,11 +1,11 @@
 {
-  "objectName" : "ancientconsole",
+  "objectName" : "returnconsole",
   "rarity" : "Rare",
   "category" : "decorative",
   "price" : 10000,
 
   "interactAction" : "OpenTeleportDialog",
-  "interactData" : "/interface/warpmenu/gatewarp.config",
+  "interactData" : "/interface/warpmenu/returnwarp.config",
 
   "description" : "This looks like a control panel for the gate. It still seems to work.",
   "shortdescription" : "Ancient Console",

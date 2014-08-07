@@ -2,6 +2,7 @@
   "objectName" : "glitchteleporter",
   "rarity" : "Common",
   "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warpmenu/shipwarp.config",
   "description" : "Trusty teleporter, what would I do without you? Of Glitch design.",
   "shortdescription" : "Teleporter",
   "race" : "glitch",

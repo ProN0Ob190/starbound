@@ -10,5 +10,6 @@
         "amount" : 25
       }
     ] ],
-  "emote" : ""
+  "emote" : "",
+  "emitters" : [ "bandageuse" ]
 }

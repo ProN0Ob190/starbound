@@ -1,0 +1,23 @@
+{
+  "projectileName" : "reddwarf",
+  "physics" : "hover",
+  "bounces" : -1,
+  "speed" : 25,
+  "timeToLive" : 8,
+  "damageKindImage" : "icon.png",
+  "lightColor" : [255, 85, 10],
+  "frames" : "reddwarf.png",
+  "animationCycle" : 1.0,
+  "frameNumber" : 6,
+  "power" : 50,
+  "damagePoly" : [ [-10, 10], [-10, -10], [10, -10], [10, 10] ],
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bombblockexplosion/bombblockexplosion.config"
+    }
+  ],
+  "damageKind" : "plasma",
+  "emitters" : [ "defaultorange" ]
+}
