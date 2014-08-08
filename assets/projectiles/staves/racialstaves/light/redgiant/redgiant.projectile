@@ -1,13 +1,15 @@
 {
-  "projectileName" : "reddwarf",
+  "projectileName" : "redgiant",
   "physics" : "hover",
   "bounces" : -1,
   "speed" : 25,
   "timeToLive" : 8,
   "damageKindImage" : "icon.png",
   "lightColor" : [255, 85, 10],
-  "frames" : "reddwarf.png",
-  "animationCycle" : 1.0,
+  "pointLight" : true,
+  "piercing" : true, 
+  "frames" : "redgiant.png",
+  "animationCycle" : 0.6,
   "frameNumber" : 6,
   "power" : 50,
   "damagePoly" : [ [-10, 10], [-10, -10], [10, -10], [10, 10] ],
@@ -15,7 +17,7 @@
   "actionOnReap" : [
     {
       "action" : "config",
-      "file" : "/projectiles/explosions/bombblockexplosion/bombblockexplosion.config"
+      "file" : "/projectiles/explosions/lightblockexplosion/lightblockexplosion.config"
     }
   ],
   "damageKind" : "plasma",

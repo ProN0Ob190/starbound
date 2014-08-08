@@ -1,0 +1,10 @@
+{
+  "itemName" : "liquidlava",
+  "rarity" : "Common",
+  "inventoryIcon" : "liquidlavaicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Lava",
+  "description" : "A measure of bubbling, searing lava.",
+
+  "liquidId" : 3
+}

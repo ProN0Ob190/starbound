@@ -1,0 +1,10 @@
+{
+  "itemName" : "liquidendlesslava",
+  "rarity" : "Rare",
+  "inventoryIcon" : "liquidlavaicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Endless Lava",
+  "description" : "The power of the sun, in the palm of my hand!",
+
+  "liquidId" : 5
+}

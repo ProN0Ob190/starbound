@@ -5,6 +5,9 @@
   "maxStack" : 1,
   "rarity" : "Rare",
 
+  "description" : "Creates a miniature sun to light up the area.",
+  "shortdescription" : "Red Giant Staff",
+
   "image" : "novakidlightstaff1.png",
 
   "handPosition" : [-1.5, -7],
@@ -20,9 +23,9 @@
   "swingFinish" : 0,
   "coolingDownAngle" : 0,
 
-  "projectileType" : "reddwarf",
+  "projectileType" : "redgiantspawner",
   "projectile" : {
-    "speed" : 0,
+    "speed" : 0.01,
     "power" : 50,
     "color" : [255, 10, 10]
   },

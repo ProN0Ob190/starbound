@@ -34,5 +34,7 @@
 
   "outboundNodes" : [ [0, -1] ],
 
-  "interval" : 13
+  "interval" : 15,
+
+  "onSounds" : [ "/sfx/objects/tinywallbutton.wav" ]
 }

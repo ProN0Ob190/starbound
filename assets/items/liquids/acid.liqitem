@@ -1,0 +1,10 @@
+{
+  "itemName" : "liquidacid",
+  "rarity" : "Common",
+  "inventoryIcon" : "liquidacidicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Acid",
+  "description" : "A measure of strong corrosive acid.",
+
+  "liquidId" : 4
+}

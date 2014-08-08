@@ -4,7 +4,7 @@
     "species" : "generic",
     "rules" : [
     ],
-    "anchor" : [ "entrance1" ],
+    "anchor" : [ "lunarbase" ],
     // "gravity" : 80,
     "maxRadius" : 1000000,
     "maxParts" : 100
@@ -183,21 +183,249 @@
     },
 
     {
-      "value" : [255, 0, 0, 255],
-      "comment" : "wire #1 Red",
+      "value" : [1, 0, 0, 255],
+      "comment" : "wire #1",
       "brush" : [ [ "wire", { "group" : "group1", "local" : true } ] ]
     },
 
     {
-      "value" : [0, 255, 0, 255],
-      "comment" : "wire #2 Green",
+      "value" : [2, 0, 0, 255],
+      "comment" : "wire #2",
       "brush" : [ [ "wire", { "group" : "group2", "local" : true } ] ]
     },
 
     {
-      "value" : [0, 0, 255, 255],
-      "comment" : "wire #3 Blue",
+      "value" : [3, 0, 0, 255],
+      "comment" : "wire #3",
       "brush" : [ [ "wire", { "group" : "group3", "local" : true } ] ]
+    },
+    
+    {
+      "value" : [4, 0, 0, 255],
+      "comment" : "wire #4",
+      "brush" : [ [ "wire", { "group" : "group4", "local" : true } ] ]
+    },
+
+    {
+      "value" : [5, 0, 0, 255],
+      "comment" : "wire #5",
+      "brush" : [ [ "wire", { "group" : "group5", "local" : true } ] ]
+    },
+
+    {
+      "value" : [6, 0, 0, 255],
+      "comment" : "wire #6",
+      "brush" : [ [ "wire", { "group" : "group6", "local" : true } ] ]
+    },
+    
+    {
+      "value" : [7, 0, 0, 255],
+      "comment" : "wire #7",
+      "brush" : [ [ "wire", { "group" : "group7", "local" : true } ] ]
+    },
+
+    {
+      "value" : [8, 0, 0, 255],
+      "comment" : "wire #8",
+      "brush" : [ [ "wire", { "group" : "group8", "local" : true } ] ]
+    },
+
+    {
+      "value" : [9, 0, 0, 255],
+      "comment" : "wire #9",
+      "brush" : [ [ "wire", { "group" : "group9", "local" : true } ] ]
+    },
+    
+    {
+      "value" : [10, 0, 0, 255],
+      "comment" : "wire #10",
+      "brush" : [ [ "wire", { "group" : "group10", "local" : true } ] ]
+    },
+
+    {
+      "value" : [11, 0, 0, 255],
+      "comment" : "wire #11",
+      "brush" : [ [ "wire", { "group" : "group11", "local" : true } ] ]
+    },
+
+    {
+      "value" : [12, 0, 0, 255],
+      "comment" : "wire #12",
+      "brush" : [ [ "wire", { "group" : "group12", "local" : true } ] ]
+    },
+    
+    {
+      "value" : [13, 0, 0, 255],
+      "comment" : "wire #13",
+      "brush" : [ [ "wire", { "group" : "group13", "local" : true } ] ]
+    },
+
+    {
+      "value" : [14, 0, 0, 255],
+      "comment" : "wire #14",
+      "brush" : [ [ "wire", { "group" : "group14", "local" : true } ] ]
+    },
+
+    {
+      "value" : [15, 0, 0, 255],
+      "comment" : "wire #15",
+      "brush" : [ [ "wire", { "group" : "group15", "local" : true } ] ]
+    },
+    
+    {
+      "value" : [16, 0, 0, 255],
+      "comment" : "wire #16",
+      "brush" : [ [ "wire", { "group" : "group16", "local" : true } ] ]
+    },
+
+    {
+      "value" : [17, 0, 0, 255],
+      "comment" : "wire #17",
+      "brush" : [ [ "wire", { "group" : "group17", "local" : true } ] ]
+    },
+
+    {
+      "value" : [18, 0, 0, 255],
+      "comment" : "wire #18",
+      "brush" : [ [ "wire", { "group" : "group18", "local" : true } ] ]
+    },
+    
+    {
+      "value" : [19, 0, 0, 255],
+      "comment" : "wire #19",
+      "brush" : [ [ "wire", { "group" : "group19", "local" : true } ] ]
+    },
+
+    {
+      "value" : [20, 0, 0, 255],
+      "comment" : "wire #20",
+      "brush" : [ [ "wire", { "group" : "group20", "local" : true } ] ]
+    },
+
+    {
+      "value" : [21, 0, 0, 255],
+      "comment" : "wire #21",
+      "brush" : [ [ "wire", { "group" : "group21", "local" : true } ] ]
+    },
+    
+    {
+      "value" : [22, 0, 0, 255],
+      "comment" : "wire #22",
+      "brush" : [ [ "wire", { "group" : "group22", "local" : true } ] ]
+    },
+
+    {
+      "value" : [23, 0, 0, 255],
+      "comment" : "wire #23",
+      "brush" : [ [ "wire", { "group" : "group23", "local" : true } ] ]
+    },
+
+    {
+      "value" : [24, 0, 0, 255],
+      "comment" : "wire #24",
+      "brush" : [ [ "wire", { "group" : "group24", "local" : true } ] ]
+    },
+
+    {
+      "value" : [25, 0, 0, 255],
+      "comment" : "wire #25",
+      "brush" : [ [ "wire", { "group" : "group25", "local" : true } ] ]
+    },
+    
+    {
+      "value" : [26, 0, 0, 255],
+      "comment" : "wire #26",
+      "brush" : [ [ "wire", { "group" : "group26", "local" : true } ] ]
+    },
+    
+    {
+      "value" : [27, 0, 0, 255],
+      "comment" : "wire #27",
+      "brush" : [ [ "wire", { "group" : "group27", "local" : true } ] ]
+    },
+
+    {
+      "value" : [28, 0, 0, 255],
+      "comment" : "wire #28",
+      "brush" : [ [ "wire", { "group" : "group28", "local" : true } ] ]
+    },
+
+    {
+      "value" : [29, 0, 0, 255],
+      "comment" : "wire #29",
+      "brush" : [ [ "wire", { "group" : "group29", "local" : true } ] ]
+    },
+
+    {
+      "value" : [30, 0, 0, 255],
+      "comment" : "wire #30",
+      "brush" : [ [ "wire", { "group" : "group30", "local" : true } ] ]
+    },
+    
+    {
+      "value" : [0, 1, 0, 255],
+      "comment" : "and",
+      "brush" : [ [ "clear" ], [ "object", "and" ] ]
+    },
+    
+    {
+      "value" : [0, 2, 0, 255],
+      "comment" : "dlatch",
+      "brush" : [ [ "clear" ], [ "object", "dlatch" ] ]
+    },
+    
+    {
+      "value" : [0, 3, 0, 255],
+      "comment" : "not",
+      "brush" : [ [ "clear" ], [ "object", "not" ] ]
+    },
+    
+    {
+      "value" : [0, 4, 0, 255],
+      "comment" : "or",
+      "brush" : [ [ "clear" ], [ "object", "or" ] ]
+    },
+    
+    {
+      "value" : [0, 5, 0, 255],
+      "comment" : "timer",
+      "brush" : [ [ "clear" ], [ "object", "timer" ] ]
+    },
+    
+    {
+      "value" : [0, 6, 0, 255],
+      "comment" : "timer1s",
+      "brush" : [ [ "clear" ], [ "object", "timer1s" ] ]
+    },
+    
+    {
+      "value" : [0, 7, 0, 255],
+      "comment" : "timer2s",
+      "brush" : [ [ "clear" ], [ "object", "timer2s" ] ]
+    },
+    
+    {
+      "value" : [0, 8, 0, 255],
+      "comment" : "timer3s",
+      "brush" : [ [ "clear" ], [ "object", "timer3s" ] ]
+    },
+    
+    {
+      "value" : [0, 9, 0, 255],
+      "comment" : "timer4s",
+      "brush" : [ [ "clear" ], [ "object", "timer4s" ] ]
+    },
+    
+    {
+      "value" : [0, 10, 0, 255],
+      "comment" : "timer5s",
+      "brush" : [ [ "clear" ], [ "object", "timer5s" ] ]
+    },
+
+    {
+      "value" : [0, 11, 0, 255],
+      "comment" : "xor",
+      "brush" : [ [ "clear" ], [ "object", "xor" ] ]
     },
 
     {
@@ -1180,67 +1408,85 @@
     },
     
     {
-      "value" : [26, 255, 217, 255],
+      "value" : [23, 229, 195, 255],
       "comment" : "lunarbasebunk facing left",
       "brush" : [ [ "clear" ], [ "object", "lunarbasebunk", { "direction" : "left" } ] ]
     },
 
     {
-      "value" : [24, 242, 206, 255],
+      "value" : [22, 217, 184, 255],
       "comment" : "lunarbasebunk facing right",
       "brush" : [ [ "clear" ], [ "object", "lunarbasebunk", { "direction" : "right" } ] ]
     },
     
     {
-      "value" : [26, 255, 232, 255],
+      "value" : [23, 229, 209, 255],
       "comment" : "lunarbasechair facing left",
       "brush" : [ [ "clear" ], [ "object", "lunarbasechair", { "direction" : "left" } ] ]
     },
 
     {
-      "value" : [24, 242, 220, 255],
+      "value" : [22, 217, 197, 255],
       "comment" : "lunarbasechair facing right",
       "brush" : [ [ "clear" ], [ "object", "lunarbasechair", { "direction" : "right" } ] ]
     },
 	
 	{
-      "value" : [178, 255, 26, 255],
+      "value" : [106, 229, 23, 255],
       "comment" : "lunarbaseconsole facing left",
       "brush" : [ [ "clear" ], [ "object", "lunarbaseconsole", { "direction" : "left" } ] ]
     },
 
     {
-      "value" : [170, 242, 24, 255],
+      "value" : [100, 217, 22, 255],
       "comment" : "lunarbaseconsole facing right",
       "brush" : [ [ "clear" ], [ "object", "lunarbaseconsole", { "direction" : "right" } ] ]
     },
     
     {
-      "value" : [255, 26, 64, 255],
+      "value" : [35, 77, 8, 255],
+      "comment" : "lunarbaseconsole facing left",
+      "brush" : [ [ "clear" ], [ "object", "lunarbaseconsole", { "direction" : "left", "parameters" : { "defaultSwitchState" : true } } ] ]
+    },
+
+    {
+      "value" : [28, 64, 6, 255],
+      "comment" : "lunarbaseconsole facing right",
+      "brush" : [ [ "clear" ], [ "object", "lunarbaseconsole", { "direction" : "right", "parameters" : { "defaultSwitchState" : true } } ] ]
+    },
+    
+    {
+      "value" : [255, 26, 33, 255],
       "comment" : "lunarbasecrate facing left",
       "brush" : [ [ "clear" ], [ "object", "lunarbasecrate", { "direction" : "left" } ] ]
     },
 
     {
-      "value" : [242, 24, 61, 255],
+      "value" : [242, 24, 31, 255],
       "comment" : "lunarbasecrate facing right",
       "brush" : [ [ "clear" ], [ "object", "lunarbasecrate", { "direction" : "right" } ] ]
     },
     
     {
-      "value" : [255, 217, 26, 255],
+      "value" : [229, 195, 23, 255],
       "comment" : "lunarbaselantern",
       "brush" : [ [ "clear" ], [ "object", "lunarbaselantern" ] ]
     },
     
     {
-      "value" : [102, 26, 255, 255],
+      "value" : [77, 65, 8, 255],
+      "comment" : "lunarbaselantern - off state",
+      "brush" : [ [ "clear" ], [ "object", "lunarbaselantern", { "parameters" : { "defaultLightState" : false } } ] ]
+    },
+    
+    {
+      "value" : [92, 23, 229, 255],
       "comment" : "lunarbaselocker facing left",
       "brush" : [ [ "clear" ], [ "object", "lunarbaselocker", { "direction" : "left" } ] ]
     },
 
     {
-      "value" : [97, 24, 242, 255],
+      "value" : [87, 22, 217, 255],
       "comment" : "lunarbaselocker facing right",
       "brush" : [ [ "clear" ], [ "object", "lunarbaselocker", { "direction" : "right" } ] ]
     },
@@ -1348,6 +1594,18 @@
     },
     
     {
+      "value" : [77, 68, 8, 255],
+      "comment" : "floodlights facing left - off state",
+      "brush" : [ [ "clear" ], [ "object", "floodlights", { "direction" : "left", "parameters" : { "defaultLightState" : false } } ] ]
+    },
+
+    {
+      "value" : [64, 57, 6, 255],
+      "comment" : "floodlights facing right - off state",
+      "brush" : [ [ "clear" ], [ "object", "floodlights", { "direction" : "right", "parameters" : { "defaultLightState" : false } } ] ]
+    },
+    
+    {
       "value" : [255, 240, 26, 255],
       "comment" : "prisonfloodlight",
       "brush" : [ [ "clear" ], [ "object", "prisonfloodlight" ] ]
@@ -1360,6 +1618,24 @@
     },
     
     {
+      "value" : [77, 75, 8, 255],
+      "comment" : "apexshiplight - off state",
+      "brush" : [ [ "clear" ], [ "object", "apexshiplight", { "parameters" : { "defaultLightState" : false } } ] ]
+    },
+    
+    {
+      "value" : [247, 255, 26, 255],
+      "comment" : "apexshiplightBroken",
+      "brush" : [ [ "clear" ], [ "object", "apexshiplightBroken" ] ]
+    },
+    
+    {
+      "value" : [74, 77, 8, 255],
+      "comment" : "apexshiplightBroken - off state",
+      "brush" : [ [ "clear" ], [ "object", "apexshiplightBroken", { "parameters" : { "defaultLightState" : false } } ] ]
+    },
+    
+    {
       "value" : [147, 229, 23, 255],
       "comment" : "tinywallswitch",
       "brush" : [ [ "clear" ], [ "object", "tinywallswitch" ] ]
@@ -1369,6 +1645,18 @@
       "value" : [133, 229, 23, 255],
       "comment" : "smallwallswitch",
       "brush" : [ [ "clear" ], [ "object", "smallwallswitch" ] ]
+    },
+    
+    {
+      "value" : [187, 255, 51, 255],
+      "comment" : "alarm",
+      "brush" : [ [ "clear" ], [ "object", "alarm", { "direction" : "left" } ] ]
+    },
+    
+    {
+      "value" : [178, 242, 48, 255],
+      "comment" : "alarm",
+      "brush" : [ [ "clear" ], [ "object", "alarm", { "direction" : "right" } ] ]
     },
 
     // NPC MONSTER SPAWN BRUSHES //
@@ -1671,11 +1959,11 @@
 
   "parts" : [
     {
-      "name" : "entrance1",
+      "name" : "lunarbase",
       "rules" : [
         [ "maxSpawnCount", [1] ]
       ],
-      "def" : [ "image", [ "entrance1.png", "entrance1-objects.png" ] ]
+      "def" : [ "image", [ "lunarbase.png", "lunarbase-objects.png", "lunarbase-wires1.png" ] ]
     }
   ]
 }

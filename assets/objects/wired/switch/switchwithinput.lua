@@ -3,7 +3,7 @@ function init(virtual)
   
   entity.setInteractive(entity.configParameter("interactive", true))
   if storage.state == nil then
-    output(false)
+    output(entity.configParameter("defaultSwitchState", false))
   else
     output(storage.state)
   end

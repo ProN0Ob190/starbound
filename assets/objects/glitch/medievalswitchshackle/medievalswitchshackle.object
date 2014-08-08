@@ -36,6 +36,6 @@
 
   "outboundNodes" : [ [0, 0] ],
 
-  "onSounds" : [ "/sfx/objects/apexstatue3switchon.wav" ],
-  "offSounds" : [ "/sfx/objects/apexstatue3switchoff.wav" ]
+  "onSounds" : [ "/sfx/objects/apexstatue3_switchon.wav" ],
+  "offSounds" : [ "/sfx/objects/apexstatue3_switchoff.wav" ]
 }

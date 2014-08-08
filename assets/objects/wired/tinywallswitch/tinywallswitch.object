@@ -35,5 +35,6 @@
 
   "outboundNodes" : [ [0, 0] ],
 
-  "interval" : 10
+  "onSounds" : [ "/sfx/objects/tinywallswitch.wav" ],
+  "offSounds" : [ "/sfx/objects/tinywallswitch.wav" ]
 }

@@ -1,0 +1,10 @@
+{
+  "itemName" : "liquidwater",
+  "rarity" : "Common",
+  "inventoryIcon" : "liquidwatericon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Water",
+  "description" : "A measure of cool, clear water.",
+
+  "liquidId" : 1
+}

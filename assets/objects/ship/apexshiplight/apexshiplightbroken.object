@@ -9,7 +9,7 @@
   "fullbright" : true,
   "price" : 500,
   "description" : "A malfunctioning light.",
-  "shortdescription" : "Ship Light",
+  "shortdescription" : "Ship Light (Broken)",
   "race" : "apex",
 
   "apexDescription" : "This light isn't getting enough power.",
@@ -22,7 +22,7 @@
   "inventoryIcon" : "apexshiplightBrokenicon.png",
   "orientations" : [
     {
-      "image" : "apexshiplightBroken.png:<frame>",
+      "image" : "apexshiplight.png:<color>.<frame>",
       "imagePosition" : [-8, 0],
       "animationCycle" : 0.5,
       
@@ -32,5 +32,20 @@
       "anchors" : [ "background" ]
 
     }
-  ]
+  ],
+
+  "soundEffect" : "/sfx/objects/fluorescent_light_quiet.wav",
+  
+  "animation" : "/objects/wired/light/lighttoggle.animation",
+  "animationParts" : {
+    "light" : "apexshiplight.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inboundNodes" : [ [0, 0] ]
 }

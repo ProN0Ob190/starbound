@@ -39,6 +39,9 @@
   },
   "animationPosition" : [-8, 0],
 
-  "outboundNodes" : [ [0, 0] ]
+  "outboundNodes" : [ [0, 0] ],
+
+  "onSounds" : [ "/sfx/objects/console_generic_switchon.wav" ],
+  "offSounds" : [ "/sfx/objects/console_generic_switchoff.wav" ]
 
 }
