@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "imperviumbar", "count" : 18 }
+    { "item" : "imperviumcompound", "count" : 18 }
   ],
   "output" : { "item" : "florantier10chest", "count" : 1 },
   "groups" : [ "separatortable", "armors", "all" ]

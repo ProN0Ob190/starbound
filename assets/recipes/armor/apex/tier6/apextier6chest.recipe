@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "rubiumcompound", "count" : 18 }
+    { "item" : "refinedrubium", "count" : 18 }
   ],
   "output" : { "item" : "apextier6chest", "count" : 1 },
   "groups" : [ "manipulatortable", "armors", "all" ]

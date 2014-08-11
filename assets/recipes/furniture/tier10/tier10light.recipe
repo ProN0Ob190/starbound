@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "imperviumbar", "count" : 1 },
+    { "item" : "imperviumcompound", "count" : 1 },
     { "item" : "torch", "count" : 1 }
   ],
   "output" : { "item" : "tier10light", "count" : 1 },

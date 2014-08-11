@@ -1,0 +1,8 @@
+{
+  "itemName" : "solariumstar",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "solariumstar.png",
+  "description" : "Solarium distilled to its purest form.",
+  "shortdescription" : "Solarium Star",
+  "fuelAmount" : 20
+}

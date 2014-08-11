@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "aegisaltbar", "count" : 10 }
+    { "item" : "refinedaegisalt", "count" : 10 }
   ],
   "output" : { "item" : "hylotltier5broadsword", "count" : 1 },
   "groups" : [ "metalworkstation", "weapons", "all" ]

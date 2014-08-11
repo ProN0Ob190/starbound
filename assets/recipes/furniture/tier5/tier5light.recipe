@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "aegisaltbar", "count" : 1 },
+    { "item" : "refinedaegisalt", "count" : 1 },
     { "item" : "torch", "count" : 1 }
   ],
   "output" : { "item" : "tier5light", "count" : 1 },

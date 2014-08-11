@@ -3,7 +3,7 @@
     { "item" : "violiumore", "count" : 2 }
   ],
   "output" : {
-    "item" : "violiumbar",
+    "item" : "refinedviolium",
     "count" : 1
   },
   "groups" : [ "scififurnace", "all" ]

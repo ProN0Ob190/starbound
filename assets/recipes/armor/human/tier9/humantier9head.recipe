@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "rubiumcompound", "count" : 10 }
+    { "item" : "refinedrubium", "count" : 10 }
   ],
   "output" : { "item" : "humantier9head", "count" : 1 },
   "groups" : [ "metalworkstation", "armors", "all" ]

@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "imperviumbar", "count" : 4 }
+    { "item" : "imperviumcompound", "count" : 4 }
   ],
   "output" : { "item" : "tier10door", "count" : 1 },
   "groups" : [ "separatortable", "door", "objects", "all" ]

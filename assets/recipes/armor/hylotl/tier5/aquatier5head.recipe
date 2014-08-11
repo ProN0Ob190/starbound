@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "rubiumcompound", "count" : 10 }
+    { "item" : "refinedrubium", "count" : 10 }
   ],
   "output" : { "item" : "hylotltier5head", "count" : 1 },
   "groups" : [ "manipulatortable", "armors", "all" ]

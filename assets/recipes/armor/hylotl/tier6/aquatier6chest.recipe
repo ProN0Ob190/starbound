@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "aegisaltbar", "count" : 18 }
+    { "item" : "refinedaegisalt", "count" : 18 }
   ],
   "output" : { "item" : "hylotltier6chest", "count" : 1 },
   "groups" : [ "acceleratortable", "armors", "all" ]

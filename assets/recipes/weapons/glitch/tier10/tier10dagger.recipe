@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "imperviumbar", "count" : 2 }
+    { "item" : "imperviumcompound", "count" : 2 }
   ],
   "output" : { "item" : "glitchtier10dagger", "count" : 1 },
   "groups" : [ "separatortable", "weapons", "all" ]

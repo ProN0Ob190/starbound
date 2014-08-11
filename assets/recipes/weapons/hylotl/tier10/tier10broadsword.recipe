@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "imperviumbar", "count" : 10 }
+    { "item" : "imperviumcompound", "count" : 10 }
   ],
   "output" : { "item" : "hylotltier10broadsword", "count" : 1 },
   "groups" : [ "separatortable", "weapons", "all" ]

@@ -3,7 +3,7 @@
     { "item" : "aegisaltore", "count" : 2 }
   ],
   "output" : {
-    "item" : "aegisaltbar",
+    "item" : "refinedaegisalt",
     "count" : 1
   },
   "groups" : [ "scififurnace", "all" ]
