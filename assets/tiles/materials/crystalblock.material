@@ -7,7 +7,7 @@
   "shortdescription" : "Crystal Block",
   "glitchDescription" : "Analysis. This block is made of crystal.",
   "floranDescription" : "Ssshiny block.",
-  "footstepSound" : "/sfx/blocks/footstep_glass.wav",
+  "footstepSound" : "/sfx/blocks/footstep_crystal.wav",
   "health" : 7,
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",

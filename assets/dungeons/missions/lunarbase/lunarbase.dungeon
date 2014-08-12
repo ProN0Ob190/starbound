@@ -22,7 +22,7 @@
     {
       "value" : [255, 255, 255, 255],
       "rules" : [ [ "worldGenMustContainSolidBackground" ], [ "allowOverdrawing" ] ],
-      "brush" : [ [ "surface" ] ]
+      "brush" : [ [ "clear" ], [ "back", "moondust" ], [ "front", "moondust" ] ]
     },
     {
       "value" : [0, 38, 255, 255],
@@ -106,80 +106,80 @@
 
     {
       "value" : [255, 232, 178, 255],
-      "comment" : "background main biome block",
-      "brush" : [ [ "clear" ], [ "surfacebackground", { "variant" : 0 } ] ]
+      "comment" : "background moondust block",
+      "brush" : [ [ "clear" ], [ "back", "moondust" ] ]
     },
 
     {
       "value" : [255, 222, 178, 255],
-      "comment" : "overwritable background main biome block",
+      "comment" : "overwritable background moondust block",
       "rules" : [ [ "allowOverdrawing" ] ],
-      "brush" : [ [ "clear" ], [ "surfacebackground", { "variant" : 0 } ] ]
+      "brush" : [ [ "clear" ], [ "back", "moondust" ] ]
     },
 
     {
       "value" : [204, 186, 143, 255],
-      "comment" : "foreground main biome block",
-      "brush" : [ [ "surface", { "variant" : 0 } ] ]
+      "comment" : "foreground moondust block",
+      "brush" : [ [ "clear" ], [ "back", "moondust" ], [ "front", "moondust" ] ]
     },
 
     {
       "value" : [204, 176, 143, 255],
-      "comment" : "overwritable foreground main biome block",
+      "comment" : "overwritable foreground moondust block",
       "rules" : [ [ "allowOverdrawing" ] ],
-      "brush" : [ [ "surface", { "variant" : 0 } ] ]
+      "brush" : [ [ "clear" ], [ "back", "moondust" ], [ "front", "moondust" ] ]
     },
 
     {
       "value" : [178, 232, 255, 255],
-      "comment" : "background sub biome block #1",
-      "brush" : [ [ "clear" ], [ "surfacebackground", { "variant" : 1 } ] ]
+      "comment" : "background moonrock block",
+      "brush" : [ [ "clear" ], [ "back", "moonrock" ] ]
     },
 
     {
       "value" : [178, 222, 255, 255],
-      "comment" : "overwritable background sub biome block #1",
+      "comment" : "overwritable background moonrock block",
       "rules" : [ [ "allowOverdrawing" ] ],
-      "brush" : [ [ "clear" ], [ "surfacebackground", { "variant" : 1 } ] ]
+      "brush" : [ [ "clear" ], [ "back", "moonrock" ] ]
     },
 
     {
       "value" : [143, 186, 204, 255],
-      "comment" : "foreground sub biome block #1",
-      "brush" : [ [ "surface", { "variant" : 1 } ] ]
+      "comment" : "foreground moonrock block",
+      "brush" : [ [ "clear" ], [ "back", "moonrock" ], [ "front", "moonrock" ] ]
     },
 
     {
       "value" : [143, 176, 204, 255],
-      "comment" : "overwritable foreground sub biome block #1",
+      "comment" : "overwritable foreground moonrock block",
       "rules" : [ [ "allowOverdrawing" ] ],
-      "brush" : [ [ "surface", { "variant" : 1 } ] ]
+      "brush" : [ [ "clear" ], [ "back", "moonrock" ], [ "front", "moonrock" ] ]
     },
 
     {
       "value" : [222, 255, 178, 255],
-      "comment" : "background sub biome block #2",
-      "brush" : [ [ "clear" ], [ "surfacebackground", { "variant" : 2 } ] ]
+      "comment" : "background moonstone block",
+      "brush" : [ [ "clear" ], [ "back", "moonstone" ] ]
     },
 
     {
       "value" : [222, 245, 178, 255],
-      "comment" : "overwritable background sub biome block #2",
+      "comment" : "overwritable background moonstone block",
       "rules" : [ [ "allowOverdrawing" ] ],
-      "brush" : [ [ "clear" ], [ "surfacebackground", { "variant" : 2 } ] ]
+      "brush" : [ [ "clear" ], [ "back", "moonstone" ] ]
     },
 
     {
       "value" : [177, 204, 143, 255],
-      "comment" : "foreground sub biome block #2",
-      "brush" : [ [ "surface", { "variant" : 2 } ] ]
+      "comment" : "foreground moonstone block",
+      "brush" : [ [ "clear" ], [ "back", "moonstone" ], [ "front", "moonstone" ] ]
     },
 
     {
       "value" : [177, 194, 143, 255],
-      "comment" : "overwritable foreground sub biome block #2",
+      "comment" : "overwritable foreground moonstone block",
       "rules" : [ [ "allowOverdrawing" ] ],
-      "brush" : [ [ "surface", { "variant" : 2 } ] ]
+      "brush" : [ [ "clear" ], [ "back", "moonstone" ], [ "front", "moonstone" ] ]
     },
 
     {
@@ -697,6 +697,12 @@
       "value" : [217, 111, 87, 255],
       "comment" : "foreground girder",
       "brush" : [ [ "clear" ], [ "back", "girder" ], [ "front", "girder" ] ]
+    },
+    
+    {
+      "value" : [116, 56, 140, 255],
+      "comment" : "background supermatter",
+      "brush" : [ [ "clear" ], [ "back", "supermatter" ] ]
     },
     
     {
@@ -1606,7 +1612,7 @@
     },
     
     {
-      "value" : [255, 240, 26, 255],
+      "value" : [236, 255, 26, 255],
       "comment" : "prisonfloodlight",
       "brush" : [ [ "clear" ], [ "object", "prisonfloodlight" ] ]
     },
@@ -1670,7 +1676,8 @@
             "typeName" : "largebiped",
             "seed" : "stable",
             "parameters" : {
-              "aggressive" : true
+              "aggressive" : true,
+              "level" : 1
             }
           }
         ] ]

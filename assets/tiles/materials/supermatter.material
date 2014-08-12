@@ -7,7 +7,7 @@
   "shortdescription" : "Super Matterk",
   "glitchDescription" : "-todo-",
   "floranDescription" : "Ssshiny block.",
-  "footstepSound" : "/sfx/blocks/footstep_glass.wav",
+  "footstepSound" : "/sfx/blocks/footstep_crystal.wav",
   "health" : 15,
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",

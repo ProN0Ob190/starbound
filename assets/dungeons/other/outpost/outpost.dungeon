@@ -361,6 +361,18 @@
       "comment" : "wire #30",
       "brush" : [ [ "wire", { "group" : "group30", "local" : true } ] ]
     },
+
+    {
+      "value" : [31, 0, 0, 255],
+      "comment" : "wire #31",
+      "brush" : [ [ "wire", { "group" : "group31", "local" : true } ] ]
+    },
+
+    {
+      "value" : [32, 0, 0, 255],
+      "comment" : "wire #32",
+      "brush" : [ [ "wire", { "group" : "group32", "local" : true } ] ]
+    },
     
     {
       "value" : [0, 1, 0, 255],
@@ -697,6 +709,12 @@
       "value" : [217, 111, 87, 255],
       "comment" : "foreground girder",
       "brush" : [ [ "clear" ], [ "back", "girder" ], [ "front", "girder" ] ]
+    },
+    
+    {
+      "value" : [116, 56, 140, 255],
+      "comment" : "background supermatter",
+      "brush" : [ [ "clear" ], [ "back", "supermatter" ] ]
     },
     
     {

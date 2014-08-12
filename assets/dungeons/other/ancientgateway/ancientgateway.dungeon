@@ -700,6 +700,12 @@
     },
     
     {
+      "value" : [116, 56, 140, 255],
+      "comment" : "background supermatter",
+      "brush" : [ [ "clear" ], [ "back", "supermatter" ] ]
+    },
+    
+    {
       "value" : [180, 87, 217, 255],
       "comment" : "foreground only supermatter",
       "brush" : [ [ "clear" ], [ "front", "supermatter" ] ]
