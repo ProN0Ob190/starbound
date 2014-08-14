@@ -28,7 +28,7 @@
       "direction" : "left",
       "flipImages" : true,
       "lightPosition" : [1, 2],
-      "pointAngle" : 200
+      "pointAngle" : 205
     },
     {
       "image" : "floodlights1.png:<color>.<frame>",
@@ -37,7 +37,7 @@
       "anchors" : [ "bottom" ],
       "direction" : "right",
       "lightPosition" : [-2, 2],
-      "pointAngle" : 340
+      "pointAngle" : 335
     }
   ],
 
