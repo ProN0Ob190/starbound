@@ -9,9 +9,12 @@
   "timeToLive" : 30,
   "pointLight" : true,
   "light" : [13, 70, 79],
+  "power" : 5.0,
+  "damageKind" : "default",
   "statusEffects" : [
     {
-      "kind" : "slow"
+      "kind" : "slow",
+      "duration" : 1.5
     }
   ],
   "actionOnReap" : [
@@ -19,7 +22,5 @@
       "action" : "config",
       "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
     }
-  ],
-  "power" : 5.0,
-  "damageKind" : "default"
+  ]
 }

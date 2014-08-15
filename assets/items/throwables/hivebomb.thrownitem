@@ -14,7 +14,7 @@
 
   "projectileType" : "hivebomb",
   "projectileConfig" : {
-    "speed" : 45,
+    "speed" : 40,
     "power" : 3
   }
 }

@@ -1,10 +1,10 @@
 {
   "kind" : "slow",
-  "duration" : 2.5,
+  "duration" : 5,
   "primitives" : [
-    { "name" : "groundmovementmodifier", "mode" : "min", "amount" : -0.9 },
-    { "name" : "jumpboost", "mode" : "min", "amount" : -0.4 },
-    { "name" : "glide", "mode" : "min", "amount" : -0.2 }
+    { "name" : "jumpboost", "percentage" : -30, "mode" : "min" },
+    { "name" : "runboost", "percentage" : -40, "mode" : "min" }
   ],
-  "effectSources" : [ "slow" ]
+  "effectSources" : [ "slow" ],
+  "mainInterfaceIcon" : "/interface/statuses/slow.png"
 }

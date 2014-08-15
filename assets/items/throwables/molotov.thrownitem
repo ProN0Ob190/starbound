@@ -14,7 +14,7 @@
 
   "projectileType" : "molotov",
   "projectileConfig" : {
-    "speed" : 55,
+    "speed" : 40,
     "power" : 10
   }
 }
