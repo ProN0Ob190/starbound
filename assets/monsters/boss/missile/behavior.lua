@@ -22,26 +22,30 @@ end
 
 function main()
   if self.target ~= 0 then
-    --get relative target position
-    local tarDelta = world.distance(world.entityPosition(self.target), entity.position())
+    if not world.entityExists(self.target) then
+      self.target = 0
+    else
+      --get relative target position
+      local tarDelta = world.distance(world.entityPosition(self.target), entity.position())
 
-    --calculate angle and angular distance to target
-    local tarAngle = util.wrapAngle(math.atan2(tarDelta[2], tarDelta[1]))
+      --calculate angle and angular distance to target
+      local tarAngle = util.wrapAngle(math.atan2(tarDelta[2], tarDelta[1]))
 
-    local angleDelta = tarAngle - self.angle
-    if angleDelta > math.pi then angleDelta = angleDelta - 2 * math.pi end
-    if angleDelta < -math.pi then angleDelta = angleDelta + 2 * math.pi end
+      local angleDelta = tarAngle - self.angle
+      if angleDelta > math.pi then angleDelta = angleDelta - 2 * math.pi end
+      if angleDelta < -math.pi then angleDelta = angleDelta + 2 * math.pi end
 
-    --rotate toward target as much as rotateSpeed allows
-    local rotateAmount = util.clamp(angleDelta, -self.rotateSpeed, self.rotateSpeed)
-    self.angle = util.wrapAngle(self.angle + rotateAmount)
+      --rotate toward target as much as rotateSpeed allows
+      local rotateAmount = util.clamp(angleDelta, -self.rotateSpeed, self.rotateSpeed)
+      self.angle = util.wrapAngle(self.angle + rotateAmount)
 
-    --match visual rotation to velocity
-    entity.rotateGroup("body", self.angle)
+      --match visual rotation to velocity
+      entity.rotateGroup("body", self.angle)
 
-    --explode in proximity
-    if world.magnitude(tarDelta) <= 2 then
-      detonate()
+      --explode in proximity
+      if world.magnitude(tarDelta) <= 2 then
+        detonate()
+      end
     end
   end
 

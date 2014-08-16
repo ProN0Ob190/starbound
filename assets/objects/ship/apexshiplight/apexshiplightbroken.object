@@ -3,13 +3,17 @@
   "rarity" : "Common",
   "category" : "light",
   "lightColor" : [160, 160, 160],
-  "flickerDistance" : 1.0,
-  "flickerStrength" : 1.0,
-  "flickerTiming" : 2,
+
+  "flickerPeriod" : 0.2,
+  "flickerMinIntensity" : -1,
+  "flickerMaxIntensity" : 0.4,
+  "flickerPeriodVariance" : 0.2,
+  "flickerIntensityVariance" : 0.5,
+
   "fullbright" : true,
   "price" : 500,
   "description" : "A malfunctioning light.",
-  "shortdescription" : "Ship Light (Broken)",
+  "shortdescription" : "Broken Ship Light",
   "race" : "apex",
 
   "apexDescription" : "This light isn't getting enough power.",

@@ -1,198 +1,191 @@
 {
-  "commandName" : "giveBeamaxe",
+  "commandName" : "upgradeBeamaxeSize3",
   "onlyOnce" : true,
   "icon" : "beamaxe.png",
   "actions" : [
      { 
-      "action" : "GivePlayerItems",
-      "items" : [ "beamaxe", 1],
+      "action" : "UpdatePlayerEssentialItem",
+      "itemsRequired" : [ ["refinedrubium", 8] ],
+      "parameters" : {
+        "blockRadius" : 4
+      },
       "essentialSlot" : 1
-    },	   
-    { 
-      "action" : "PlayCinematic",
-      "cinematicConfig" : {
-        "resource" : "/cinematics/beamaxe.cinematic"
-      }
     },
-    { 
+    {
       "action" : "DisableCommand",
-      "command" : "giveBeamaxe"
+      "command" : "upgradeBeamaxeSize3"
     },
-    { 
+    {
       "action" : "EnableCommand",
-      "command" : "enableTeleporter"
-    },
-    { 
-      "action" : "EnableCommand",
-      "command" : "upgradeBeamaxeSize1"
+      "command" : "upgradeBeamaxeSize4"
     }
   ],
 
   "speciesText" : {
     "apex" : {
-      "buttonText" : "Enable Matter Manipulator",
+      "buttonText" : "Upgrade M. M. - Size III",
       "selectSpeech" : [
         {
           "animation" : "talk",
-          "text" : "The matter manipulator is a very powerful tool. Capable of manipulating any kind of matter at a distance.",
+          "text" : "With 8 bars of refined rubium, I can upgrade your matter manipulator to mine in an even larger area.",
           "speedModifier" : 1.0
         }
       ],
       "successSpeech" : [
         {
           "animation" : "talk",
-          "text" : "I have switched on your matter manipulator.",
+          "text" : "Success! Your Matter Manipulator has been upgraded.",
           "speedModifier" : 1.0
         }
       ],
       "failSpeech" : [
         {
           "animation" : "talk",
-          "text" : "Failure",
+          "text" : "Failure. We'll need 8 rubium bars to complete this upgrade.",
           "speedModifier" : 1.0
         }
       ]
     },
     "avian" : {
-      "buttonText" : "Enable Matter Manipulator",
+      "buttonText" : "Upgrade M. M. - Size III",
       "selectSpeech" : [
         {
           "animation" : "talk",
-          "text" : "The matter manipulator channels the very essence of Kluex himself. It can manipulate matter of all kinds.",
+          "text" : "With 8 bars of refined rubium, I can upgrade your matter manipulator to mine in an even larger area.",
           "speedModifier" : 1.0
         }
       ],
       "successSpeech" : [
         {
           "animation" : "talk",
-          "text" : "Your matter manipulator has been enabled.",
+          "text" : "Success! Your Matter Manipulator has been upgraded.",
           "speedModifier" : 1.0
         }
       ],
       "failSpeech" : [
         {
           "animation" : "talk",
-          "text" : "Failure",
+          "text" : "Failure. We'll need 8 rubium bars to complete this upgrade.",
           "speedModifier" : 1.0
         }
       ]
     },
     "floran" : {
-      "buttonText" : "Enable Matter Manipulator",
+      "buttonText" : "Upgrade M. M. - Size III",
       "selectSpeech" : [
         {
           "animation" : "talk",
-          "text" : "The matter manipulator is very powerful!! Hehehe, it will let you dessstroy matter!!",
+          "text" : "With 8 bars of refined rubium, I can upgrade your matter manipulator to mine in an even larger area.",
           "speedModifier" : 1.0
         }
       ],
       "successSpeech" : [
         {
           "animation" : "talk",
-          "text" : "Yes!! The matter manipulator is working!",
+          "text" : "Success! Your Matter Manipulator has been upgraded.",
           "speedModifier" : 1.0
         }
       ],
       "failSpeech" : [
         {
           "animation" : "talk",
-          "text" : "Failure",
+          "text" : "Failure. We'll need 8 rubium bars to complete this upgrade.",
           "speedModifier" : 1.0
         }
       ]
     },
     "glitch" : {
-      "buttonText" : "Enable Matter Manipulator",
+      "buttonText" : "Upgrade M. M. - Size III",
       "selectSpeech" : [
         {
           "animation" : "talk",
-          "text" : "To wield the matter manipulator is to wield magic itself.",
+          "text" : "With 8 bars of refined rubium, I can upgrade your matter manipulator to mine in an even larger area.",
           "speedModifier" : 1.0
         }
       ],
       "successSpeech" : [
         {
           "animation" : "talk",
-          "text" : "Your matter manipulator is enabled your grace!",
+          "text" : "Success! Your Matter Manipulator has been upgraded.",
           "speedModifier" : 1.0
         }
       ],
       "failSpeech" : [
         {
           "animation" : "talk",
-          "text" : "Failure",
+          "text" : "Failure. We'll need 8 rubium bars to complete this upgrade.",
           "speedModifier" : 1.0
         }
       ]
     },
     "human" : {
-      "buttonText" : "Enable Matter Manipulator",
+      "buttonText" : "Upgrade M. M. - Size III",
       "selectSpeech" : [
         {
           "animation" : "talk",
-          "text" : "Your matter manipulator is an awesome way of interacting with the world! I can try to enable it for you!",
+          "text" : "With 8 bars of refined rubium, I can upgrade your matter manipulator to mine in an even larger area.",
           "speedModifier" : 1.0
         }
       ],
       "successSpeech" : [
         {
           "animation" : "talk",
-          "text" : "It worked!",
+          "text" : "Success! Your Matter Manipulator has been upgraded.",
           "speedModifier" : 1.0
         }
       ],
       "failSpeech" : [
         {
           "animation" : "talk",
-          "text" : "Failure",
+          "text" : "Failure. We'll need 8 rubium bars to complete this upgrade.",
           "speedModifier" : 1.0
         }
       ]
     },
     "novakid" : {
-      "buttonText" : "Enable Matter Manipulator",
+      "buttonText" : "Upgrade M. M. - Size III",
       "selectSpeech" : [
         {
           "animation" : "talk",
-          "text" : "Your matter manipulator is an awesome way of interacting with the world! I can try to enable it for you!",
+          "text" : "With 8 bars of refined rubium, I can upgrade your matter manipulator to mine in an even larger area.",
           "speedModifier" : 1.0
         }
       ],
       "successSpeech" : [
         {
           "animation" : "talk",
-          "text" : "It worked!",
+          "text" : "Success! Your Matter Manipulator has been upgraded.",
           "speedModifier" : 1.0
         }
       ],
       "failSpeech" : [
         {
           "animation" : "talk",
-          "text" : "Failure",
+          "text" : "Failure. We'll need 8 rubium bars to complete this upgrade.",
           "speedModifier" : 1.0
         }
       ]
     },
     "hylotl" : {
-      "buttonText" : "Enable Matter Manipulator",
+      "buttonText" : "Upgrade M. M. - Size III",
       "selectSpeech" : [
         {
           "animation" : "talk",
-          "text" : "Remember. He that would perfect his work must first sharpen his tools.",
+          "text" : "With 8 bars of refined rubium, I can upgrade your matter manipulator to mine in an even larger area.",
           "speedModifier" : 1.0
         }
       ],
       "successSpeech" : [
         {
           "animation" : "talk",
-          "text" : "It has been a success. The matter manipulator is ready.",
+          "text" : "Success! Your Matter Manipulator has been upgraded.",
           "speedModifier" : 1.0
         }
       ],
       "failSpeech" : [
         {
           "animation" : "talk",
-          "text" : "Failure",
+          "text" : "Failure. We'll need 8 rubium bars to complete this upgrade.",
           "speedModifier" : 1.0
         }
       ]

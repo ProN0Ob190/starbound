@@ -11,7 +11,7 @@
 
   "baseParameters" : {
     "scripts" : [
-      "/monsters/unique/missile/behavior.lua",
+      "/monsters/boss/missile/behavior.lua",
       "/scripts/util.lua",
       "/scripts/vec2.lua"
     ],

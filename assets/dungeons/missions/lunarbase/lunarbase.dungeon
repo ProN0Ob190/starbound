@@ -181,6 +181,18 @@
       "rules" : [ [ "allowOverdrawing" ] ],
       "brush" : [ [ "clear" ], [ "back", "moonstone" ], [ "front", "moonstone" ] ]
     },
+    
+    {
+      "value" : [217, 206, 180, 255],
+      "comment" : "background gravel block",
+      "brush" : [ [ "clear" ], [ "back", "gravel" ] ]
+    },
+
+    {
+      "value" : [140, 133, 116, 255],
+      "comment" : "foreground gravel block",
+      "brush" : [ [ "clear" ], [ "back", "gravel" ], [ "front", "gravel" ] ]
+    },
 
     {
       "value" : [1, 0, 0, 255],
@@ -1438,26 +1450,26 @@
     },
 	
 	{
-      "value" : [106, 229, 23, 255],
+      "value" : [35, 77, 8, 255],
       "comment" : "lunarbaseconsole facing left",
       "brush" : [ [ "clear" ], [ "object", "lunarbaseconsole", { "direction" : "left" } ] ]
     },
 
     {
-      "value" : [100, 217, 22, 255],
+      "value" : [28, 64, 6, 255],
       "comment" : "lunarbaseconsole facing right",
       "brush" : [ [ "clear" ], [ "object", "lunarbaseconsole", { "direction" : "right" } ] ]
     },
     
     {
-      "value" : [35, 77, 8, 255],
-      "comment" : "lunarbaseconsole facing left",
+      "value" : [106, 229, 23, 255],
+      "comment" : "lunarbaseconsole facing left - on state",
       "brush" : [ [ "clear" ], [ "object", "lunarbaseconsole", { "direction" : "left", "parameters" : { "defaultSwitchState" : true } } ] ]
     },
 
     {
-      "value" : [28, 64, 6, 255],
-      "comment" : "lunarbaseconsole facing right",
+      "value" : [100, 217, 22, 255],
+      "comment" : "lunarbaseconsole facing right - on state",
       "brush" : [ [ "clear" ], [ "object", "lunarbaseconsole", { "direction" : "right", "parameters" : { "defaultSwitchState" : true } } ] ]
     },
     
@@ -1618,6 +1630,12 @@
     },
     
     {
+      "value" : [71, 77, 8, 255],
+      "comment" : "prisonfloodlight - off state",
+      "brush" : [ [ "clear" ], [ "object", "prisonfloodlight", { "parameters" : { "defaultLightState" : false } } ] ]
+    },
+    
+    {
       "value" : [255, 251, 26, 255],
       "comment" : "apexshiplight",
       "brush" : [ [ "clear" ], [ "object", "apexshiplight" ] ]
@@ -1690,7 +1708,7 @@
       "rules" : [
         [ "maxSpawnCount", [1] ]
       ],
-      "def" : [ "image", [ "lunarbase.png", "lunarbase-objects.png", "lunarbase-wires1.png" ] ]
+      "def" : [ "image", [ "lunarbase.png", "lunarbase-objects.png", "lunarbase-wires1.png", "lunarbase-wires2.png" ] ]
     }
   ]
 }
