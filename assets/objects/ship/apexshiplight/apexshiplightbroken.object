@@ -4,13 +4,12 @@
   "category" : "light",
   "lightColor" : [160, 160, 160],
 
-  "flickerPeriod" : 0.2,
+  "flickerPeriod" : 0.25,
   "flickerMinIntensity" : -1,
   "flickerMaxIntensity" : 0.4,
   "flickerPeriodVariance" : 0.2,
-  "flickerIntensityVariance" : 0.5,
+  "flickerIntensityVariance" : 0.3,
 
-  "fullbright" : true,
   "price" : 500,
   "description" : "A malfunctioning light.",
   "shortdescription" : "Broken Ship Light",
