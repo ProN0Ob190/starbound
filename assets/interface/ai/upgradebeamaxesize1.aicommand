@@ -7,9 +7,11 @@
       "action" : "UpdatePlayerEssentialItem",
       "itemsRequired" : [ ["copperbar", 8] ],
       "parameters" : {
-        "blockRadius" : 2
+        "blockRadius" : 2,
+        "minBeamWidth" : 3,
+        "maxBeamWidth" : 5
       },
-      "essentialSlot" : 1
+      "essentialItem" : "beamaxe"
     },
     {
       "action" : "DisableCommand",

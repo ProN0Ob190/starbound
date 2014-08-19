@@ -7,9 +7,11 @@
       "action" : "UpdatePlayerEssentialItem",
       "itemsRequired" : [ ["ceruliumcompound", 8] ],
       "parameters" : {
-        "blockRadius" : 5
+        "blockRadius" : 5,
+        "minBeamWidth" : 9,
+        "maxBeamWidth" : 11
       },
-      "essentialSlot" : 1
+      "essentialItem" : "beamaxe"
     },
     {
       "action" : "DisableCommand",

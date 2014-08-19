@@ -7,9 +7,11 @@
       "action" : "UpdatePlayerEssentialItem",
       "itemsRequired" : [ ["silverbar", 8] ],
       "parameters" : {
-        "tileDamage" : 1.5
+        "tileDamage" : 1.5,
+        "minBeamJitter" : 0.1,
+        "maxBeamJitter" : 0.2
       },
-      "essentialSlot" : 1
+      "essentialItem" : "beamaxe"
     },
     {
       "action" : "DisableCommand",

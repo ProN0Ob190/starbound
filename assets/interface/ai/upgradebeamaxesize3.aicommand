@@ -7,9 +7,11 @@
       "action" : "UpdatePlayerEssentialItem",
       "itemsRequired" : [ ["refinedrubium", 8] ],
       "parameters" : {
-        "blockRadius" : 4
+        "blockRadius" : 4,
+        "minBeamWidth" : 7,
+        "maxBeamWidth" : 9
       },
-      "essentialSlot" : 1
+      "essentialItem" : "beamaxe"
     },
     {
       "action" : "DisableCommand",

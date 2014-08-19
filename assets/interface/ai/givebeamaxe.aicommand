@@ -6,7 +6,7 @@
      { 
       "action" : "GivePlayerItems",
       "items" : [ "beamaxe", 1],
-      "essentialSlot" : 1
+      "essentialItem" : "beamaxe"
     },	   
     { 
       "action" : "PlayCinematic",

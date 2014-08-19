@@ -7,9 +7,11 @@
       "action" : "UpdatePlayerEssentialItem",
       "itemsRequired" : [ ["diamond", 8] ],
       "parameters" : {
-        "tileDamage" : 2.0
+        "tileDamage" : 2.0,
+        "minBeamJitter" : 0.15,
+        "maxBeamJitter" : 0.3
       },
-      "essentialSlot" : 1
+      "essentialItem" : "beamaxe"
     },
     {
       "action" : "DisableCommand",

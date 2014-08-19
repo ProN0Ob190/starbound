@@ -8,8 +8,8 @@
   "pointBeam" : 0.70,
   
   "flickerPeriod" : 0.2,
-  "flickerMinIntensity" : 0.45,
-  "flickerMaxIntensity" : 0.5,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
   "flickerPeriodVariance" : 0.0,
   "flickerIntensityVariance" : 0.05,
   "description" : "A creepy monitor. A face flickers onto the screen, almost faster than the eye can see.",

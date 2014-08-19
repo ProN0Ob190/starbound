@@ -7,9 +7,11 @@
       "action" : "UpdatePlayerEssentialItem",
       "itemsRequired" : [ ["imperviumcompound", 8] ],
       "parameters" : {
-        "tileDamage" : 3.0
+        "tileDamage" : 3.0,
+        "minBeamJitter" : 0.25,
+        "maxBeamJitter" : 0.5
       },
-      "essentialSlot" : 1
+      "essentialItem" : "beamaxe"
     },
     {
       "action" : "DisableCommand",

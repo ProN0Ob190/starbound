@@ -7,9 +7,11 @@
       "action" : "UpdatePlayerEssentialItem",
       "itemsRequired" : [ ["platinumbar", 8] ],
       "parameters" : {
-        "blockRadius" : 3
+        "blockRadius" : 3,
+        "minBeamWidth" : 5,
+        "maxBeamWidth" : 7
       },
-      "essentialSlot" : 1
+      "essentialItem" : "beamaxe"
     },
     {
       "action" : "DisableCommand",
