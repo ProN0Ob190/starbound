@@ -3,11 +3,11 @@
   "rarity" : "Common",
   "category" : "decorative",
   "price" : 1500,
-  "lightColor" : [46, 66, 77],
+  "lightColor" : [16, 23, 26],
 
   "description" : "-todo-",
   "shortdescription" : "Power Generator",
-  "race" : "hylotl",
+  "race" : "generic",
 
   "apexDescription" : "-todo-",
   "avianDescription" : "-todo-",

@@ -8,7 +8,7 @@
   "category" : "crafting",
   "price" : 500,
   "objectType" : "container",
-  "lightColor" : [31, 44, 51],
+  "lightColor" : [16, 23, 26],
 
   // "hydrophobic" : true,
 
@@ -24,7 +24,7 @@
     {
 	  "imageLayers" : [ { "image" : "outpostmicrowaveleft.png:<color>.<frame>", "fullbright" : true }, { "image" : "outpostmicrowaveleftlit.png:<color>.<frame>" } ],
 	  "direction" : "left",
-      "lightPosition" : [0, 1],
+      "lightPosition" : [0, 0],
 
       "imagePosition" : [-8, 0],
       "frames" : 4,
@@ -37,7 +37,7 @@
 	{
 	  "imageLayers" : [ { "image" : "outpostmicrowaveright.png:<color>.<frame>", "fullbright" : true }, { "image" : "outpostmicrowaverightlit.png:<color>.<frame>" } ],
 	  "direction" : "right",
-      "lightPosition" : [-1, 1],
+      "lightPosition" : [0, 0],
 
       "imagePosition" : [-8, 0],
       "frames" : 4,

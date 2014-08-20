@@ -7,7 +7,7 @@
   "race" : "generic",
   "category" : "storage",
   "price" : 500,
-  "lightColor" : [69, 99, 115],
+  "lightColor" : [20, 29, 33],
 
   "apexDescription" : "Whose locker is this, I wonder?",
   "avianDescription" : "I wonder if I could fit in this locker.",

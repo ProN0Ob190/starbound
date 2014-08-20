@@ -6,7 +6,7 @@
   "race" : "generic",
   "category" : "decorative",
   "price" : 400,
-  "lightColor" : [46, 66, 77],
+  "lightColor" : [23, 33, 38],
 
   "apexDescription" : "Some kind of terminal.",
   "avianDescription" : "A terminal.",

@@ -1,0 +1,151 @@
+{
+  "type" : "moontant",
+
+  "categories" : [ "moontant" ],
+  "parts" : [ "body", "head" ],
+  "partParameters" : "moontant.partparams",
+
+
+  "animation" : "moontant.animation",
+  "colors" : "/monsters/colors.config",
+  "reversed" : false,
+
+  "dropPools" : [
+    {
+      "default" : "basicMonsterTreasure",
+      "bow" : "hunting",
+      "brain" : "brain"
+    },
+    {
+      "default" : "basicMonsterTreasure2",
+      "bow" : "hunting",
+      "brain" : "brain"
+    },
+    {
+      "default" : "basicMonsterTreasure3",
+      "bow" : "hunting",
+      "brain" : "brain"
+    },
+    {
+      "default" : "basicMonsterTreasure4",
+      "bow" : "hunting",
+      "brain" : "brain"
+    },
+    {
+      "default" : "basicMonsterTreasure5",
+      "bow" : "hunting",
+      "brain" : "brain"
+    },
+    {
+      "default" : "basicMonsterTreasure6",
+      "bow" : "hunting",
+      "brain" : "brain"
+    }
+  ],
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/ground/groundMonster.lua",
+      "/scripts/stateMachine.lua",
+      "/scripts/util.lua",
+      "/scripts/vec2.lua",
+
+      "/monsters/ground/aggroHopState.lua",
+      "/monsters/ground/approachState.lua",
+      "/monsters/ground/fleeState.lua",
+      "/monsters/ground/stunState.lua",
+      "/monsters/ground/captiveState.lua",
+      "/monsters/ground/knockoutState.lua",
+      "/monsters/ground/socializeState.lua",
+      "/monsters/ground/wanderState.lua",
+
+      "/monsters/ground/skills/createGroundRangedAttack.lua"
+    ],
+
+    "territoryDistance" : 40.0,
+    "territorialTargetRadius" : 20.0,
+    "minimalTargetRadius" : 6.0,
+    "targetSearchTime" : 0.5,
+    "targetHoldTime" : 5.0,
+
+    "closeDistance" : 1.5,
+
+    "wanderTime" : [4.0, 6.0],
+    "wanderMovementTime" : [2.0, 3.0],
+
+    "idleSoundTime" : [45.0, 60.0],
+    "painSoundTimer" : 2.0,
+
+    "jumpTargetDistance" : 4,
+    "jumpTime" : [0.8, 1.4],
+    "jumpNoise" : [ ],
+
+    "knockoutTime" : 0.5,
+    "knockoutEffect" : "blink",
+    "deathParticles" : "deathPoof",
+    "captureParticles" : "captureParticles",
+    "levelUpParticles" : "levelUp",
+    "deathNoise" : [ "/sfx/npc/enemydeathpuff.wav" ],
+
+    "exhaustionTimer" : 3.0,
+    "exhaustionTimeout" : 3.0,
+    "exhaustionDistanceLimit" : 1.0,
+
+    "wanderJumpProbability" : 0.1
+  },
+
+  "familyParameters" : [
+    [
+      {
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [  ]
+      }
+    ]
+  ],
+
+  "variantParameters" : [
+    [
+      [1.0, {
+          "scale" : 1.0,
+
+          "movementSettings" : {
+            "collisionPoly" : [ [-1, -2.6], [1, -2.6], [1, 0], [-1, 0] ],
+            "mass" : 0.6,
+            "walkSpeed" : 5,
+            "runSpeed" : 6
+          },
+
+          "metaBoundBox" : [-2.5, -2.5, 2.5, 2.5],
+
+          "blockedSensors" : [ [1.5, -1.5], [1.5, -1.0], [1.5, -0.2], [1.5, 0.6] ],
+          "fallSensors" : [ [0.5, -2.5], [0.5, -3.5], [0.5, -4.5], [2.0, -2.5], [2.0, -3.5], [2.0, -4.5] ],
+
+          "touchDamage" : {
+            "poly" : [ [-1, -2.6], [1, -2.6], [1, 0], [-1, 0] ],
+            "damage" : 15,
+
+            "teamType" : "enemy",
+            "damageSourceKind" : "default",
+            "statusEffects" : [ ]
+          },
+
+          "innateStatusEffects" : [
+            {
+              "kind" : "Protection",
+              "amount" : 1.0
+            }
+          ],
+
+          "statusParameters" : {
+            "baseMaxHealth" : 16,
+            "baseMaxEnergy" : 100,
+            "damageConfig" : "/damage/damageresponse/groundnpc.config",
+            "bodyMaterialKind" : "organic"
+          },
+
+          "mouthOffset" : [0, 0],
+          "feetOffset" : [0, -21]
+        } ]
+    ]
+  ]
+}

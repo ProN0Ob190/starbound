@@ -3,20 +3,23 @@
   "rarity" : "Common",
   "category" : "light",
   "price" : 400,
-  "lightColors" : {
-    "default" : [255, 255, 245],
-    "red" : [255, 127, 127],
-    "blue" : [71, 134, 255],
-    "green" : [88, 255, 0],
-    "yellow" : [255, 230, 127],
-    "orange" : [255, 179, 127],
-    "pink" : [255, 177, 255],
-    "black" : [100, 100, 100],
-    "white" : [255, 255, 255]
-  },
+  
+  "lightColor" : [255, 255, 245],
+  
+  // "lightColors" : {
+  //   "default" : [255, 255, 245],
+  //   "red" : [255, 127, 127],
+  //   "blue" : [71, 134, 255],
+  //   "green" : [88, 255, 0],
+  //   "yellow" : [255, 230, 127],
+  //   "orange" : [255, 179, 127],
+  //   "pink" : [255, 177, 255],
+  //   "black" : [100, 100, 100],
+  //   "white" : [255, 255, 255]
+  // },
   "pointLight" : true,
   "pointBeam" : 0.2,
-  "description" : "It feels like I'm on stage! Except I'm not, I'm in a prison.",
+  "description" : "It feels like I'm on stage!",
   "shortdescription" : "Small Floodlight",
   "race" : "human",
 

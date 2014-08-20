@@ -7,7 +7,7 @@
   "race" : "generic",
   "category" : "storage",
   "price" : 500,
-  "lightColor" : [46, 66, 77],
+  "lightColor" : [16, 23, 26],
 
   "apexDescription" : "A mysterious cargo crate.",
   "avianDescription" : "I wonder what's in here.",

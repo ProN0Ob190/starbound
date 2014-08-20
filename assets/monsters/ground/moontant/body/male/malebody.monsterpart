@@ -1,0 +1,11 @@
+{
+  "name" : "malebody",
+  "category" : "moontant",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "malebody.png"
+  },
+
+  "parameters" : { }
+}

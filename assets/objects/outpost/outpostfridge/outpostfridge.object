@@ -7,7 +7,7 @@
   "race" : "generic",
   "category" : "storage",
   "price" : 500,
-  "lightColor" : [46, 66, 77],
+  "lightColor" : [19, 27, 31],
 
   "apexDescription" : "A fridge. Let's hope there's food inside.",
   "avianDescription" : "What's in the fridge, I wonder?",

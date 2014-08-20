@@ -6,7 +6,7 @@
   "race" : "generic",
   "category" : "furniture",
   "price" : 750,
-  "lightColor" : [69, 99, 115],
+  "lightColor" : [20, 29, 33],
 
   "apexDescription" : "A bunk bed.",
   "avianDescription" : "This bunk bed looks rather basic.",

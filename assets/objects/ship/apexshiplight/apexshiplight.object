@@ -3,7 +3,6 @@
   "rarity" : "Common",
   "category" : "light",
   "lightColor" : [230, 230, 230],
-  "fullbright" : true,
   "price" : 500,
   "description" : "A light.",
   "shortdescription" : "Ship Light",
@@ -19,7 +18,7 @@
   "inventoryIcon" : "apexshiplighticon.png",
   "orientations" : [
 	{
-      "image" : "apexshiplight.png:<color>.<frame>",
+      "imageLayers" : [ { "image" : "apexshiplight.png:<color>.<frame>", "fullbright" : true }, { "image" : "apexshiplightlit.png:<color>.<frame>" } ],
       "imagePosition" : [-8, 0],
       
 	  "direction" : "right",

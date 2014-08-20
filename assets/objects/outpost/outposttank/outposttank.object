@@ -6,7 +6,7 @@
   "race" : "generic",
   "category" : "decorative",
   "price" : 400,
-  "lightColor" : [46, 66, 77],
+  "lightColor" : [16, 23, 26],
 
   "apexDescription" : "A mysterious tank.",
   "avianDescription" : "I wonder what's in this tank.",

@@ -7,6 +7,7 @@
   "race" : "generic",
   "category" : "storage",
   "price" : 1000,
+  "lightColor" : [46, 66, 77],
 
   "apexDescription" : "-todo-",
   "avianDescription" : "-todo-",
@@ -18,8 +19,10 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-	  "image" : "treasuredtrophiesleft.png:<color>.<frame>",
+	  "imageLayers" : [ { "image" : "treasuredtrophiesleft.png:<color>.<frame>", "fullbright" : true }, { "image" : "treasuredtrophiesleftlit.png:<color>.<frame>" } ],
 	  "direction" : "left",
+	  
+      "lightPosition" : [9, 2],
 
       "imagePosition" : [-88, 0],
       "frames" : 48,
@@ -29,8 +32,10 @@
       "anchors" : [ "bottom" ]
     },
 	{
-	  "image" : "treasuredtrophiesright.png:<color>.<frame>",
+	  "imageLayers" : [ { "image" : "treasuredtrophiesright.png:<color>.<frame>", "fullbright" : true }, { "image" : "treasuredtrophiesrightlit.png:<color>.<frame>" } ],
 	  "direction" : "right",
+	  
+      "lightPosition" : [-8, 2],
 
       "imagePosition" : [-88, 0],
       "frames" : 48,

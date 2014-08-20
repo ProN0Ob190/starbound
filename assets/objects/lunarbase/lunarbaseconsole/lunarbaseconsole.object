@@ -6,7 +6,13 @@
   "race" : "generic",
   "category" : "wire",
   "price" : 750,
-  "lightColor" : [61, 88, 102],
+  "lightColor" : [23, 33, 38],
+  
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.1,
+  "flickerIntensityVariance" : 0.0,
 
   "apexDescription" : "-todo-",
   "avianDescription" : "-todo-",
@@ -18,10 +24,10 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-	  "imageLayers" : [ { "image" : "lunarbaseconsole.png:<color>.<frame>", "fullbright" : true }, { "image" : "lunarbaseconsolelit.png:<color>.<frame>" } ],
+	  "image" : "lunarbaseconsole.png:<color>.<frame>",
 	  "flipImages" : true,
 	  "direction" : "left",
-      "lightPosition" : [0, 2],
+      "lightPosition" : [0, 1],
 
       "imagePosition" : [-8, 0],
       "frames" : 3,
@@ -31,9 +37,9 @@
       "anchors" : [ "bottom" ]
     },
 	{
-	  "imageLayers" : [ { "image" : "lunarbaseconsole.png:<color>.<frame>", "fullbright" : true }, { "image" : "lunarbaseconsolelit.png:<color>.<frame>" } ],
+	  "image" : "lunarbaseconsole.png:<color>.<frame>",
 	  "direction" : "right",
-      "lightPosition" : [0, 2],
+      "lightPosition" : [0, 1],
 
       "imagePosition" : [-8, 0],
       "frames" : 3,

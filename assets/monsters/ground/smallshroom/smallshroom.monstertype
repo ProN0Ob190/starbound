@@ -6,7 +6,7 @@
   "partParameters" : "smallshroom.partparams",
 
 
-  "animation" : "smallbiped.animation",
+  "animation" : "smallshroom.animation",
   "colors" : "/monsters/colors.config",
   "reversed" : true,
 

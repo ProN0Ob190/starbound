@@ -6,7 +6,7 @@
   "race" : "generic",
   "category" : "decorative",
   "price" : 400,
-  "lightColor" : [46, 66, 77],
+  "lightColor" : [22, 31, 36],
 
   "apexDescription" : "A sweet dish.",
   "avianDescription" : "Nice dish.",
@@ -21,7 +21,7 @@
 	  "imageLayers" : [ { "image" : "outpostradardish.png:<color>", "fullbright" : true }, { "image" : "outpostradardishlit.png:<color>" } ],
 	  "flipImages" : true,
 	  "direction" : "left",
-      "lightPosition" : [0, 0],
+      "lightPosition" : [0, 1],
 
       "imagePosition" : [-26, 0],
       "frames" : 1,
@@ -33,7 +33,7 @@
 	{
 	  "imageLayers" : [ { "image" : "outpostradardish.png:<color>", "fullbright" : true }, { "image" : "outpostradardishlit.png:<color>" } ],
 	  "direction" : "right",
-      "lightPosition" : [-1, 0],
+      "lightPosition" : [-1, 1],
 
       "imagePosition" : [-22, 0],
       "frames" : 1,
