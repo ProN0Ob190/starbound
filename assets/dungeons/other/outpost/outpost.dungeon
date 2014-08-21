@@ -1612,9 +1612,39 @@
     },
     
     {
-      "value" : [255, 240, 26, 255],
+      "value" : [77, 68, 8, 255],
+      "comment" : "floodlights facing left - off state",
+      "brush" : [ [ "clear" ], [ "object", "floodlights", { "direction" : "left", "parameters" : { "defaultLightState" : false } } ] ]
+    },
+
+    {
+      "value" : [64, 57, 6, 255],
+      "comment" : "floodlights facing right - off state",
+      "brush" : [ [ "clear" ], [ "object", "floodlights", { "direction" : "right", "parameters" : { "defaultLightState" : false } } ] ]
+    },
+    
+    {
+      "value" : [236, 255, 26, 255],
       "comment" : "prisonfloodlight",
       "brush" : [ [ "clear" ], [ "object", "prisonfloodlight" ] ]
+    },
+    
+    {
+      "value" : [71, 77, 8, 255],
+      "comment" : "prisonfloodlight - off state",
+      "brush" : [ [ "clear" ], [ "object", "prisonfloodlight", { "parameters" : { "defaultLightState" : false } } ] ]
+    },
+    
+    {
+      "value" : [255, 221, 51, 255],
+      "comment" : "prisonfloodlightBroken",
+      "brush" : [ [ "clear" ], [ "object", "prisonfloodlightBroken" ] ]
+    },
+    
+    {
+      "value" : [77, 66, 15, 255],
+      "comment" : "prisonfloodlightBroken - off state",
+      "brush" : [ [ "clear" ], [ "object", "prisonfloodlightBroken", { "parameters" : { "defaultLightState" : false } } ] ]
     },
     
     {

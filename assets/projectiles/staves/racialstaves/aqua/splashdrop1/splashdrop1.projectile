@@ -13,7 +13,7 @@
   "power" : 1.0,
   "damagePoly" : [ [-2, 2], [-2, -2], [2, -2], [2, 2] ],
   "damageKind" : "default",
-  "emitters" : [ "defaultlightblue" ]
+  "emitters" : [ "daggerblue" ]
 }
 
 

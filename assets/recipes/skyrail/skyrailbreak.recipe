@@ -7,5 +7,5 @@
     "item" : "skyrailbreak",
     "count" : 3
   },
-  "groups" : [ "skyrailtable", "all", "mod" ]
+  "groups" : [ "skyrailtable", "all" ]
 }

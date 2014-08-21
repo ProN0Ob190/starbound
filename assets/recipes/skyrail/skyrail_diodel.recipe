@@ -7,5 +7,5 @@
     "item" : "skyrail_diodeL",
     "count" : 1
   },
-  "groups" : [ "skyrailtable", "all", "mod" ]
+  "groups" : [ "skyrailtable", "all" ]
 }

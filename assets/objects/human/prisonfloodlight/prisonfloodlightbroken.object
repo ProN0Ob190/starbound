@@ -11,7 +11,7 @@
 
   "flickerPeriod" : 0.3,
   "flickerMinIntensity" : -1,
-  "flickerMaxIntensity" : 0.4,
+  "flickerMaxIntensity" : 0.5,
   "flickerPeriodVariance" : 0.2,
   "flickerIntensityVariance" : 0.3,
   

@@ -10,7 +10,7 @@
   "avianDescription" : "A distress beacon. Someone must be in trouble.",
   "floranDescription" : "Floran help as well as hunt. Sssometimes.",
   "glitchDescription" : "Analysis. This distress beacon is transmitting at a number of frequencies.",
-  "humanDescription" : "This beacon's sending out a distres call.",
+  "humanDescription" : "This beacon's sending out a distress call.",
   "hylotlDescription" : "Someone needs help. Protecting the weak is a worthwhile pursuit.",
 
   "inventoryIcon" : "ironbeaconicon.png",
