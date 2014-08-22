@@ -1,0 +1,53 @@
+{
+  "itemName" : "aviancrystalstaff1",
+  "inventoryIcon" : "aviancrystalstaff1.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+
+  "description" : "Creates a floating crystal that harms nearby foes.",
+  "shortdescription" : "Cardinal's Chalcedony",
+
+  "image" : "aviancrystalstaff1.png",
+
+  "handPosition" : [-1.5, -7],
+  "firePosition" : [5, 1.5],
+
+  "fireTime" : 0.2,
+  "windupTime" : 1.0,
+  "cooldown" : 0.3,
+  "twoHanded" : true,
+  "fireOnRelease" : true,
+
+  "swingStart" : 10,
+  "swingFinish" : 0,
+  "coolingDownAngle" : 0,
+
+  "projectileType" : "chalcedonyspawner",
+  "projectile" : {
+    "speed" : 0.01,
+    "power" : 30,
+    "color" : [255, 10, 10]
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [
+      { "file" : "/sfx/gun/rocket_shot.wav" },
+      { "file" : "/sfx/gun/rocket_fly.wav" }
+    ]
+  },
+
+  "level1ChargeTime" : 0.5,
+  "level2ChargeTime" : 1.0,
+
+  "staffChargingGlow" : {
+    "file" : "crystalstaffglow.png",
+    "chargingFrames" : 13,
+    "sparkFrames" : 3,
+    "loopFrames" : 4,
+    "fireFrames" : 3,
+    "sparkTime" : 0.5,
+    "loopTime" : 0.5,
+    "offset" : [ 0, 6 ]
+  }
+}

@@ -14,7 +14,7 @@
   "firePosition" : [5, 1.5],
 
   "fireTime" : 0.2,
-  "windupTime" : 1.0,
+  "windupTime" : 1.5,
   "cooldown" : 0.3,
   "twoHanded" : true,
   "fireOnRelease" : true,
@@ -26,7 +26,7 @@
   "projectileType" : "redgiantspawner",
   "projectile" : {
     "speed" : 0.01,
-    "power" : 50,
+    "power" : 25,
     "color" : [255, 10, 10]
   },
 
@@ -38,7 +38,7 @@
   },
 
   "level1ChargeTime" : 0.5,
-  "level2ChargeTime" : 1.0,
+  "level2ChargeTime" : 1.5,
 
   "staffChargingGlow" : {
     "file" : "lightstaffglow.png",

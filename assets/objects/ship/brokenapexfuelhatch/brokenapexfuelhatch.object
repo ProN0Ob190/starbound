@@ -1,6 +1,7 @@
 {
   "objectName" : "brokenapexfuelhatch",
   "rarity" : "Common",
+  "objectType" : "noisy",
   "description" : "A broken fuel hatch. This won't do!",
   "shortdescription" : "Broken Fuel Hatch",
   "race" : "apex",
@@ -18,7 +19,6 @@
   "inventoryIcon" : "fuelhatchicon.png",
   "orientations" : [
     {
-	
 	  "imageLayers" : [ { "image" : "brokenapexfuelhatch.png:<color>.<frame>", "fullbright" : true }, { "image" : "brokenapexfuelhatchlit.png:<color>.<frame>" } ],
 
       "imagePosition" : [-8, -16],
@@ -30,7 +30,6 @@
     }
   ],
   
-  "soundEffect" : "/sfx/objects/brokenfuelhatch.wav",
-  "soundEffectRadius" : 15
+  "sounds" : [ "/sfx/interface/ship_error1.wav" ]
   
 }

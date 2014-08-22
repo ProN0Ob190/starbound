@@ -9,7 +9,14 @@
             "frames" : 1
           },
           "jump" : {
-            "frames" : 2
+            "frames" : 2,
+            "cycle" : 0.3,
+            "mode" : "transition",
+            "transition" : "fall"
+          },
+          "fall" : {
+            "frames" : 2,
+            "cycle" : 0.2
           },
           "walk" : {
             "frames" : 8,
@@ -62,7 +69,8 @@
             "mode" : "end"
           },
           "shooting" : {
-            "frames" : 1
+            "frames" : 6,
+            "cycle" : 0.8
           }
         }
       },
@@ -111,6 +119,11 @@
                 "image" : "<partImage>:jump.<frame>"
               }
             },
+            "fall" : {
+              "properties" : {
+                "image" : "<partImage>:fall.<frame>"
+              }
+            },
             "chargeWindup" : {
               "properties" : {
                 "image" : "<partImage>:idle"
@@ -146,7 +159,7 @@
             },
             "shooting" : {
               "properties" : {
-                "image" : "<partImage>:idle"
+                "image" : "<partImage>:ranged.<frame>"
               }
             }
           },
@@ -193,6 +206,11 @@
                 "image" : "<partImage>:jump.<frame>"
               }
             },
+            "fall" : {
+              "properties" : {
+                "image" : "<partImage>:fall.<frame>"
+              }
+            },
             "chargeWindup" : {
               "properties" : {
                 "image" : "<partImage>:idle"
@@ -228,7 +246,7 @@
             },
             "shooting" : {
               "properties" : {
-                "image" : "<partImage>:idle"
+                "image" : "<partImage>:ranged.<frame>"
               }
             }
           },

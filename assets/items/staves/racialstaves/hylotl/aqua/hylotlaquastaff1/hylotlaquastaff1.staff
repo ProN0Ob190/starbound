@@ -38,7 +38,7 @@
   },
 
   "level1ChargeTime" : 0.5,
-  "level2ChargeTime" : 1.0,
+  "level2ChargeTime" : 0.5,
 
   "staffChargingGlow" : {
     "file" : "aquastaffglow.png",

@@ -1,6 +1,7 @@
 {
   "objectName" : "brokenavianfuelhatch",
   "rarity" : "Common",
+  "objectType" : "noisy",
   "description" : "A broken fuel hatch. This won't do!",
   "shortdescription" : "Broken Fuel Hatch",
   "race" : "avian",
@@ -29,7 +30,6 @@
     }
   ],
   
-  "soundEffect" : "/sfx/objects/brokenfuelhatch.wav",
-  "soundEffectRadius" : 15
+  "sounds" : [ "/sfx/interface/ship_error1.wav" ]
   
 }

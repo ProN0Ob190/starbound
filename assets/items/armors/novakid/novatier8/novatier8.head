@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "description" : "-todo-",
-  "shortdescription" : "Tier 8 Head",
+  "shortdescription" : "Gambler's Hat",
   "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
@@ -30,8 +30,8 @@
     }
   ],
   "colorOptions" : [
-    /* PURPLE */
-    { "ffca8a" : "d29ce7", "e0975c" : "a451c4", "a85636" : "6a2284", "6f2919" : "320c40" },
+    /* TEAL */
+    { "ffca8a" : "a8e6e2", "e0975c" : "4facb2", "a85636" : "30636c", "6f2919" : "233c43" },
     /* BLACK */
     { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
     /* GREY */

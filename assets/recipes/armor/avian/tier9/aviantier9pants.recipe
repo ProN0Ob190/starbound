@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "imperviumcompound", "count" : 6 }
+    { "item" : "refinedviolium", "count" : 6 }
   ],
   "output" : { "item" : "aviantier9pants", "count" : 1 },
   "groups" : [ "separatortable", "armors", "all" ]

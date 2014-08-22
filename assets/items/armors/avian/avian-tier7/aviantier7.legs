@@ -14,23 +14,23 @@
   "statusEffects" : [
     {
       "kind" : "ColdProtection",
-      "amount" : 13
+      "amount" : 9
     },
 
     {
       "kind" : "Protection",
-      "amount" : 48
+      "amount" : 26
     },
 
     {
       "kind" : "energyregenmodifier",
-      "amount" : 2.2
+      "amount" : 1.35
     }
   ],
 
   "colorOptions" : [
-    /* BLUE */
-    { "ffca8a" : "96cbe7", "e0975c" : "5588d4", "a85636" : "344495", "6f2919" : "1a1c51" },
+    /* GREEN */
+    { "ffca8a" : "b2e89d", "e0975c" : "51bd3b", "a85636" : "247824", "6f2919" : "144216" },
     /* BLACK */
     { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
     /* GREY */

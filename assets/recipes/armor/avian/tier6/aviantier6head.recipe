@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "refinedaegisalt", "count" : 10 }
+    { "item" : "feroziumcompound", "count" : 10 }
   ],
   "output" : { "item" : "aviantier6head", "count" : 1 },
   "groups" : [ "acceleratortable", "armors", "all" ]

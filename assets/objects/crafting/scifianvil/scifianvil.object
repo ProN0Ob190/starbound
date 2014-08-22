@@ -27,6 +27,32 @@
 
   "inventoryIcon" : "scifianvilicon.png",
   "orientations" : [
+    
+    {
+	  "imageLayers" : [ { "image" : "scifianvil.png:<color>.<frame>", "fullbright" : true }, { "image" : "scifianvillit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 9,
+      "animationCycle" : 0.9,
+	  
+	  "direction" : "left",
+	  "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+	{
+	  "imageLayers" : [ { "image" : "scifianvil.png:<color>.<frame>", "fullbright" : true }, { "image" : "scifianvillit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 9,
+      "animationCycle" : 0.9,
+	  
+	  "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
     {
 	  "imageLayers" : [ { "image" : "scifianvil.png:<color>.<frame>", "fullbright" : true }, { "image" : "scifianvillit.png:<color>.<frame>" } ],
 

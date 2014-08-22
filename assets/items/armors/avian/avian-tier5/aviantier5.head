@@ -15,24 +15,24 @@
   "statusEffects" : [
     {
       "kind" : "ColdProtection",
-      "amount" : 13.5
+      "amount" : 16.5
     },
 
     {
       "kind" : "Protection",
-      "level" : 31,
-      "amount" : 39
+      "level" : 32,
+      "amount" : 54
     },
 
     {
       "kind" : "energyincrease",
-      "amount" : 270
+      "amount" : 350
     }
   ],
 
   "colorOptions" : [
-    /* LIME GREEN */
-    { "ffca8a" : "d1e160", "e0975c" : "9bba3d", "a85636" : "48832f", "6f2919" : "1b4c2a" },
+    /* BLACK */
+    { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
     /* BLACK */
     { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
     /* GREY */

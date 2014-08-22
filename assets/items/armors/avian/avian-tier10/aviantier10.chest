@@ -23,24 +23,24 @@
   "statusEffects" : [
     {
       "kind" : "ColdProtection",
-      "amount" : 47.5
+      "amount" : 27.5
     },
 
     {
       "kind" : "Protection",
-      "level" : 36,
-      "amount" : 250
+      "level" : 32,
+      "amount" : 90
     },
 
     {
       "kind" : "healthincrease",
-      "amount" : 400
+      "amount" : 175
     }
   ],
 
   "colorOptions" : [
-    /* BLACK */
-    { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
+    /* BLUE */
+    { "ffca8a" : "96cbe7", "e0975c" : "5588d4", "a85636" : "344495", "6f2919" : "1a1c51" },
     /* BLACK */
     { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
     /* GREY */

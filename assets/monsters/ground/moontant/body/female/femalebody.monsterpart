@@ -7,5 +7,8 @@
     "body" : "femalebody.png"
   },
 
-  "parameters" : { }
+  "parameters" : {
+    "meleeProjectile" : "meleeslash",
+    "projectileSourcePosition" : [1, -1]
+  }
 }

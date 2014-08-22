@@ -98,7 +98,7 @@
     [
       {
         "baseSkills" : [ "meleeAttack" ],
-        "specialSkills" : [  ]
+        "specialSkills" : [ "moontantGoopAttack" ]
       }
     ]
   ],
