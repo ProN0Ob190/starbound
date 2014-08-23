@@ -3,7 +3,7 @@
   "inventoryIcon" : "icons.png:pants",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "Rare",
   "description" : "A classy set of pants and boots that are light enough for the wearer to make a quick getaway.",
   "shortdescription" : "Assassin's Pants",
   "tooltipKind" : "armor",
@@ -14,17 +14,17 @@
   "statusEffects" : [
     {
       "kind" : "ColdProtection",
-      "amount" : 13
+      "amount" : 9
     },
 
     {
       "kind" : "Protection",
-      "amount" : 48
+      "amount" : 26
     },
 
     {
       "kind" : "energyregenmodifier",
-      "amount" : 2.2
+      "amount" : 1.35
     }
   ],
 

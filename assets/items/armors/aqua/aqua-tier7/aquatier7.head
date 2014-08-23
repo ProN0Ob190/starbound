@@ -3,8 +3,8 @@
   "inventoryIcon" : "icons.png:head",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
-  "description" : "This Cerulium helm is built for exploration of the deep.",
+  "rarity" : "Rare",
+  "description" : "This violium helm is built for exploration of the deep.",
   "shortdescription" : "Ocean Helm",
   "tooltipKind" : "armor",
 
@@ -15,17 +15,18 @@
   "statusEffects" : [
     {
       "kind" : "ColdProtection",
-      "amount" : 19.5
+      "amount" : 13.5
     },
+
     {
       "kind" : "Protection",
-      "level" : 33,
-      "amount" : 72
+      "level" : 31,
+      "amount" : 39
     },
 
     {
       "kind" : "energyincrease",
-      "amount" : 440
+      "amount" : 270
     }
   ],
 

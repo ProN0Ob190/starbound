@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "A lancers helm is aerodynamic, built from aegisalt it's light and sturdy.",
+  "description" : "A lancers helm is aerodynamic, built from rubium it's light and sturdy.",
   "shortdescription" : "Lancer's Helm",
   "tooltipKind" : "armor",
 
@@ -29,6 +29,7 @@
       "amount" : 270
     }
   ],
+  
   "colorOptions" : [
     /* RED */
     { "ffca8a" : "f4988c", "e0975c" : "d93a3a", "a85636" : "932625", "6f2919" : "601119" },

@@ -3,8 +3,8 @@
   "inventoryIcon" : "icons.png:pants",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
-  "description" : "A set of leg armour with sturdy greaves that few things can pierce.",
+  "rarity" : "Legendary",
+  "description" : "A set of leg armour with sturdy ferozium greaves that few things can pierce.",
   "shortdescription" : "Infiltrator's Greaves",
   "tooltipKind" : "armor",
 
@@ -14,17 +14,17 @@
   "statusEffects" : [
     {
       "kind" : "ColdProtection",
-      "amount" : 17
+      "amount" : 11
     },
 
     {
       "kind" : "Protection",
-      "amount" : 80
+      "amount" : 36
     },
 
     {
       "kind" : "energyregenmodifier",
-      "amount" : 3.3
+      "amount" : 1.75
     }
   ],
 

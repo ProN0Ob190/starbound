@@ -3,8 +3,8 @@
   "inventoryIcon" : "icons.png:head",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
-  "description" : "This hood suits the dark demeanour of those who have overthrown regimes singlehandedly.",
+  "rarity" : "Legendary",
+  "description" : "This hood suits the dark demeanour of those who have overthrown regimes single-handedly.",
   "shortdescription" : "Usurper's Hood",
   "tooltipKind" : "armor",
 
@@ -15,18 +15,18 @@
   "statusEffects" : [
     {
       "kind" : "ColdProtection",
-      "amount" : 28.5
+      "amount" : 16.5
     },
 
     {
       "kind" : "Protection",
-      "level" : 36,
-      "amount" : 150
+      "level" : 32,
+      "amount" : 54
     },
 
     {
       "kind" : "energyincrease",
-      "amount" : 800
+      "amount" : 350
     }
   ],
 

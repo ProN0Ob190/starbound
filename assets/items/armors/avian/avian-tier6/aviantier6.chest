@@ -3,8 +3,8 @@
   "inventoryIcon" : "icons.png:chest",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
-  "description" : "A no-frills Ferozium shirt which emphasizes toughness over flair.",
+  "rarity" : "Legendary",
+  "description" : "A no-frills ferozium shirt which emphasizes toughness over flair.",
   "shortdescription" : "Macaw Shirt",
   "tooltipKind" : "armor",
 

@@ -3,7 +3,7 @@
   "inventoryIcon" : "icons.png:chest",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "Rare",
   "description" : "Armored regal garmets which suit any would-be Assassin.",
   "shortdescription" : "Assassin's Chestguard",
   "tooltipKind" : "armor",
@@ -23,18 +23,18 @@
   "statusEffects" : [
     {
       "kind" : "ColdProtection",
-      "amount" : 32.5
+      "amount" : 22.5
     },
 
     {
       "kind" : "Protection",
-      "level" : 33,
-      "amount" : 120
+      "level" : 31,
+      "amount" : 65
     },
 
     {
       "kind" : "healthincrease",
-      "amount" : 220
+      "amount" : 135
     }
   ],
 

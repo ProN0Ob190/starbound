@@ -3,7 +3,7 @@
   "inventoryIcon" : "icons.png:head",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
   "description" : "Common Avian headwear, adorned with a fancy titanium plume.",
   "shortdescription" : "Quail Crest",
   "tooltipKind" : "armor",

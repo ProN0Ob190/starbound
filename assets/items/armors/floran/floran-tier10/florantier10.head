@@ -3,7 +3,7 @@
   "inventoryIcon" : "icons.png:head",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "Legendary",
   "description" : "The armour of the synthesizer is coated with pure impervium.",
   "shortdescription" : "Synthesizer's Helm",
   "tooltipKind" : "armor",
@@ -15,17 +15,18 @@
   "statusEffects" : [
     {
       "kind" : "ColdProtection",
-      "amount" : 28.5
+      "amount" : 16.5
     },
+
     {
       "kind" : "Protection",
-      "level" : 36,
-      "amount" : 150
+      "level" : 32,
+      "amount" : 54
     },
 
     {
       "kind" : "energyincrease",
-      "amount" : 800
+      "amount" : 350
     }
   ],
 

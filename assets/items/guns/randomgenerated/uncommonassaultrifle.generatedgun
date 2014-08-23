@@ -7,7 +7,7 @@
   "firePosition" : [-2, 10],
   "weaponType" : "Assault Rifle",
   "baseDps" : [6, 6.5],
-  "rateOfFire" : [3, 8],
+  "rateOfFire" : [5, 10],
   "hands" : [2, 2],
   "recoilTime" : 0.1,
   "spread" : [1, 1],

@@ -3,7 +3,7 @@
   "inventoryIcon" : "icons.png:head",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Rare",
+  "rarity" : "Legendary",
   "description" : "-todo-",
   "shortdescription" : "Wrangler's Hat",
   "tooltipKind" : "armor",
@@ -15,20 +15,21 @@
   "statusEffects" : [
     {
       "kind" : "ColdProtection",
-      "amount" : 28.5
+      "amount" : 16.5
     },
 
     {
       "kind" : "Protection",
-      "level" : 36,
-      "amount" : 150
+      "level" : 32,
+      "amount" : 54
     },
 
     {
       "kind" : "energyincrease",
-      "amount" : 800
+      "amount" : 350
     }
   ],
+  
   "colorOptions" : [
     /* BLACK */
     { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },

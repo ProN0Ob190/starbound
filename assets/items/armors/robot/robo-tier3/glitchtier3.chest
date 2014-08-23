@@ -3,7 +3,7 @@
   "inventoryIcon" : "icons.png:chest",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Rare",
+  "rarity" : "Uncommon",
   "description" : "The strength of a knight's breastplate allows a single knight to slay many a soldier on the battlefield.",
   "shortdescription" : "Knight's Breastplate",
   "tooltipKind" : "armor",

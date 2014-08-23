@@ -3,8 +3,8 @@
   "inventoryIcon" : "icons.png:head",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
-  "description" : "Few things are as intimidating as the expressionless stare from this Rubium plated helmet.",
+  "rarity" : "Legendary",
+  "description" : "Few things are as intimidating as the expressionless stare from this ferozium plated helmet.",
   "shortdescription" : "Infiltrator's Helm",
   "tooltipKind" : "armor",
 
@@ -15,18 +15,18 @@
   "statusEffects" : [
     {
       "kind" : "ColdProtection",
-      "amount" : 25.5
+      "amount" : 16.5
     },
 
     {
       "kind" : "Protection",
-      "level" : 35,
-      "amount" : 120
+      "level" : 32,
+      "amount" : 54
     },
 
     {
       "kind" : "energyincrease",
-      "amount" : 660
+      "amount" : 350
     }
   ],
 

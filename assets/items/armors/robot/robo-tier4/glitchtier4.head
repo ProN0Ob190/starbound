@@ -3,7 +3,7 @@
   "inventoryIcon" : "icons.png:head",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Rare",
+  "rarity" : "Uncommon",
   "description" : "The dark knight's durasteel helm clouds the face in mystery.",
   "shortdescription" : "Dark Knight's Helm",
   "tooltipKind" : "armor",

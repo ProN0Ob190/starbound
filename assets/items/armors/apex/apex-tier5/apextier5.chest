@@ -3,8 +3,8 @@
   "inventoryIcon" : "icons.png:chest",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
-  "description" : "A sleek top that is light and form fitting, with Aegisalt woven into the fabric for protection. ",
+  "rarity" : "Rare",
+  "description" : "A sleek top that is light and form fitting, with aegisalt woven into the fabric for protection. ",
   "shortdescription" : "Rogue's Chestguard",
   "tooltipKind" : "armor",
 

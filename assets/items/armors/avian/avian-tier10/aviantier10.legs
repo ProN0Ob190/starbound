@@ -3,8 +3,8 @@
   "inventoryIcon" : "icons.png:pants",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
-  "description" : "The processes used to construct these impervium leg coverings are lost in a piece of long forgotten lore, nevermore...",
+  "rarity" : "Legendary",
+  "description" : "The processes used to construct these cerulium leg coverings are lost in a piece of long forgotten lore, nevermore...",
   "shortdescription" : "Raven's Claws",
   "tooltipKind" : "armor",
 
@@ -19,12 +19,12 @@
 
     {
       "kind" : "Protection",
-      "amount" : 36
+      "amount" : 27
     },
 
     {
       "kind" : "energyregenmodifier",
-      "amount" : 1.75
+      "amount" : 2.15
     }
   ],
 

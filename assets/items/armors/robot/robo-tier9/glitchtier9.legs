@@ -3,8 +3,8 @@
   "inventoryIcon" : "icons.png:pants",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Rare",
-  "description" : "Legionnaire's insist people call their loincloth a toga.",
+  "rarity" : "Legendary",
+  "description" : "Legionnaires insist people call their loincloth a toga.",
   "shortdescription" : "Legionnaire's Greaves",
   "tooltipKind" : "armor",
 
@@ -14,19 +14,20 @@
   "statusEffects" : [
     {
       "kind" : "ColdProtection",
-      "amount" : 17
+      "amount" : 11
     },
 
     {
       "kind" : "Protection",
-      "amount" : 80
+      "amount" : 36
     },
 
     {
       "kind" : "energyregenmodifier",
-      "amount" : 3.3
+      "amount" : 1.75
     }
   ],
+  
   "colorOptions" : [
     /* TEAL */
     { "ffca8a" : "a8e6e2", "e0975c" : "4facb2", "a85636" : "30636c", "6f2919" : "233c43" },

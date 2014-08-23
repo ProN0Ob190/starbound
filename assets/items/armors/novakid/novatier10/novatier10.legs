@@ -3,7 +3,7 @@
   "inventoryIcon" : "icons.png:pants",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Rare",
+  "rarity" : "Legendary",
   "description" : "-todo-",
   "shortdescription" : "Wrangler's Pants",
   "tooltipKind" : "armor",
@@ -14,19 +14,20 @@
   "statusEffects" : [
     {
       "kind" : "ColdProtection",
-      "amount" : 19
+      "amount" : 11
     },
 
     {
       "kind" : "Protection",
-      "amount" : 100
+      "amount" : 36
     },
 
     {
       "kind" : "energyregenmodifier",
-      "amount" : 4
+      "amount" : 1.75
     }
   ],
+  
   "colorOptions" : [
     /* BLACK */
     { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },

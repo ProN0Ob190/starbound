@@ -3,8 +3,8 @@
   "inventoryIcon" : "icons.png:pants",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
-  "description" : "Boots made from Cerulium are said to never take a wrong step. This has not been confirmed.",
+  "rarity" : "Rare",
+  "description" : "Boots made from aegisalt are said to never take a wrong step. This has not been confirmed.",
   "shortdescription" : "Peacock Skirt",
   "tooltipKind" : "armor",
 

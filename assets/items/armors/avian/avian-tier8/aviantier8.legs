@@ -3,8 +3,8 @@
   "inventoryIcon" : "icons.png:pants",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
-  "description" : "A lightweight pair of Violium-laced hotpants - not too tight, not too loose. Juuust right.",
+  "rarity" : "Rare",
+  "description" : "A lightweight pair of rubium-laced hotpants - not too tight, not too loose. Juuust right.",
   "shortdescription" : "Flamingo Skirt",
   "tooltipKind" : "armor",
 
@@ -19,12 +19,12 @@
 
     {
       "kind" : "Protection",
-      "amount" : 26
+      "amount" : 20
     },
 
     {
       "kind" : "energyregenmodifier",
-      "amount" : 1.35
+      "amount" : 1.7
     }
   ],
 

@@ -3,7 +3,7 @@
   "inventoryIcon" : "icons.png:chest",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
   "description" : "The Durasteel inner lining of this jacket make it both fashionable and tough.",
   "shortdescription" : "Revolutionary's Jacket",
   "tooltipKind" : "armor",

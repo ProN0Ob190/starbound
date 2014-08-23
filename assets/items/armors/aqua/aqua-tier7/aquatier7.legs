@@ -3,8 +3,8 @@
   "inventoryIcon" : "icons.png:pants",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
-  "description" : "Cerulium greaves allow an ocean explorer to sink easily and stay sunk.",
+  "rarity" : "Rare",
+  "description" : "Violium greaves allow an ocean explorer to sink easily and stay sunk.",
   "shortdescription" : "Ocean Greaves",
   "tooltipKind" : "armor",
 
@@ -14,17 +14,17 @@
   "statusEffects" : [
     {
       "kind" : "ColdProtection",
-      "amount" : 13
+      "amount" : 9
     },
 
     {
       "kind" : "Protection",
-      "amount" : 48
+      "amount" : 26
     },
 
     {
       "kind" : "energyregenmodifier",
-      "amount" : 2.2
+      "amount" : 1.35
     }
   ],
 

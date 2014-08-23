@@ -7,7 +7,7 @@
   "firePosition" : [-1, 10.5],
   "weaponType" : "Machine Pistol",
   "baseDps" : [6, 6.5],
-  "rateOfFire" : [2, 7],
+  "rateOfFire" : [4, 7],
   "hands" : [1, 1],
   "recoilTime" : 0.1,
   "spread" : [1, 1],

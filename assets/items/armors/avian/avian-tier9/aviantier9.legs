@@ -3,8 +3,8 @@
   "inventoryIcon" : "icons.png:pants",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
-  "description" : "Some say that these Rubium leg-coverings grant their wearer mythical swiftness. Others say that it's all made up.",
+  "rarity" : "Rare",
+  "description" : "Some say that these violium leg-coverings grant their wearer mythical swiftness. Others say that it's all made up.",
   "shortdescription" : "Phoenix Greaves",
   "tooltipKind" : "armor",
 
@@ -19,12 +19,12 @@
 
     {
       "kind" : "Protection",
-      "amount" : 26
+      "amount" : 28
     },
 
     {
       "kind" : "energyregenmodifier",
-      "amount" : 1.35
+      "amount" : 1.0
     }
   ],
 

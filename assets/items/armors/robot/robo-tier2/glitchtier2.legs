@@ -3,7 +3,7 @@
   "inventoryIcon" : "icons.png:pants",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Rare",
+  "rarity" : "Common",
   "description" : "The lifespan of a glitch soldier is as short as these pants.",
   "shortdescription" : "Soldier's Pants",
   "tooltipKind" : "armor",

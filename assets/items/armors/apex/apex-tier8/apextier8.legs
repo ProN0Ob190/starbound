@@ -3,8 +3,8 @@
   "inventoryIcon" : "icons.png:pants",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
-  "description" : "These Violium boots are made for walking - all over the wearer's enemies, that is.",
+  "rarity" : "Legendary",
+  "description" : "These impervium boots are made for walking - all over the wearer's enemies, that is.",
   "shortdescription" : "Frontliner's Greaves",
   "tooltipKind" : "armor",
 
@@ -14,17 +14,17 @@
   "statusEffects" : [
     {
       "kind" : "ColdProtection",
-      "amount" : 15
+      "amount" : 11
     },
 
     {
       "kind" : "Protection",
-      "amount" : 64
+      "amount" : 36
     },
 
     {
       "kind" : "energyregenmodifier",
-      "amount" : 2.7
+      "amount" : 1.75
     }
   ],
 

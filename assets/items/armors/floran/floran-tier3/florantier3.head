@@ -3,7 +3,7 @@
   "inventoryIcon" : "icons.png:head",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
   "description" : "Built from rugged titanium and wrapped in leaves for warmth, this is the armour of choice for the floran nomad.",
   "shortdescription" : "Nomad's Crown",
   "tooltipKind" : "armor",

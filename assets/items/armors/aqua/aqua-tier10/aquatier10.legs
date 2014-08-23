@@ -3,8 +3,8 @@
   "inventoryIcon" : "icons.png:pants",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
-  "description" : "The only thing stronger than the impervium made Aphotic armour is the wisdom of it's wearer.",
+  "rarity" : "Legendary",
+  "description" : "The only thing more important than the power provided by this cerulium Aphotic armour is the wisdom of it's wearer.",
   "shortdescription" : "Aphotic Pants",
   "tooltipKind" : "armor",
 
@@ -14,17 +14,17 @@
   "statusEffects" : [
     {
       "kind" : "ColdProtection",
-      "amount" : 19
+      "amount" : 11
     },
 
     {
       "kind" : "Protection",
-      "amount" : 100
+      "amount" : 36
     },
 
     {
       "kind" : "energyregenmodifier",
-      "amount" : 4
+      "amount" : 1.75
     }
   ],
 

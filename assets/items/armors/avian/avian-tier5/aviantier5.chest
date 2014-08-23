@@ -3,8 +3,8 @@
   "inventoryIcon" : "icons.png:chest",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
-  "description" : "This aegisalt chestplate's shoulders are at the perfect height for whacking Avians in the face as you walk by.",
+  "rarity" : "Legendary",
+  "description" : "This impervium chestplate's shoulders are at the perfect height for whacking Avians in the face as you walk by.",
   "shortdescription" : "Toucan Breastplate",
   "tooltipKind" : "armor",
 
@@ -29,12 +29,12 @@
     {
       "kind" : "Protection",
       "level" : 32,
-      "amount" : 90
+      "amount" : 112
     },
 
     {
       "kind" : "healthincrease",
-      "amount" : 175
+      "amount" : 220
     }
   ],
 

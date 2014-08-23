@@ -3,7 +3,7 @@
   "inventoryIcon" : "icons.png:pants",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "Legendary",
   "description" : "The shaman's skirt is deceptively strong and wonderfully flexible.",
   "shortdescription" : "Shaman's Skirt",
   "tooltipKind" : "armor",
@@ -14,17 +14,17 @@
   "statusEffects" : [
     {
       "kind" : "ColdProtection",
-      "amount" : 17
+      "amount" : 11
     },
 
     {
       "kind" : "Protection",
-      "amount" : 80
+      "amount" : 36
     },
 
     {
       "kind" : "energyregenmodifier",
-      "amount" : 3.3
+      "amount" : 1.75
     }
   ],
 

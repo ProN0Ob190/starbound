@@ -3,8 +3,8 @@
   "inventoryIcon" : "icons.png:chest",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
-  "description" : "The multiple layers of this upper body armour are seperate only with compact layers of Ferozium.",
+  "rarity" : "Rare",
+  "description" : "The multiple layers of this upper body armour are seperate only with compact layers of rubium.",
   "shortdescription" : "Spy's Jacket",
   "tooltipKind" : "armor",
 
@@ -23,18 +23,18 @@
   "statusEffects" : [
     {
       "kind" : "ColdProtection",
-      "amount" : 27.5
+      "amount" : 22.5
     },
 
     {
       "kind" : "Protection",
-      "level" : 32,
-      "amount" : 90
+      "level" : 31,
+      "amount" : 65
     },
 
     {
       "kind" : "healthincrease",
-      "amount" : 175
+      "amount" : 135
     }
   ],
 

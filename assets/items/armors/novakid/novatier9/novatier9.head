@@ -15,20 +15,21 @@
   "statusEffects" : [
     {
       "kind" : "ColdProtection",
-      "amount" : 25.5
+      "amount" : 13.5
     },
 
     {
       "kind" : "Protection",
-      "level" : 35,
-      "amount" : 120
+      "level" : 31,
+      "amount" : 39
     },
 
     {
       "kind" : "energyincrease",
-      "amount" : 660
+      "amount" : 270
     }
   ],
+  
   "colorOptions" : [
     /* PURPLE */
     { "ffca8a" : "d29ce7", "e0975c" : "a451c4", "a85636" : "6a2284", "6f2919" : "320c40" },

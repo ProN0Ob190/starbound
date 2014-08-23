@@ -3,7 +3,7 @@
   "inventoryIcon" : "icons.png:chest",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
   "description" : "A nomads armour is built to turn the elements as well as a blade.",
   "shortdescription" : "Nomad's Chestguard",
   "tooltipKind" : "armor",

@@ -3,7 +3,7 @@
   "inventoryIcon" : "icons.png:head",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "Rare",
   "description" : "A hood that hides the wearer - Perfect for covert operations.",
   "shortdescription" : "Rogue's Hood",
   "tooltipKind" : "armor",

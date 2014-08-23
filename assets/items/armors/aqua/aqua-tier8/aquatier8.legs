@@ -3,7 +3,7 @@
   "inventoryIcon" : "icons.png:pants",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "Legendary",
   "description" : "Euphos pants are the first thing many young hylotl see as they're led down into the depths.",
   "shortdescription" : "Euphotic Pants",
   "tooltipKind" : "armor",
@@ -14,17 +14,17 @@
   "statusEffects" : [
     {
       "kind" : "ColdProtection",
-      "amount" : 15
+      "amount" : 11
     },
 
     {
       "kind" : "Protection",
-      "amount" : 64
+      "amount" : 36
     },
 
     {
       "kind" : "energyregenmodifier",
-      "amount" : 2.7
+      "amount" : 1.75
     }
   ],
 

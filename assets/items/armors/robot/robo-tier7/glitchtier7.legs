@@ -14,19 +14,20 @@
   "statusEffects" : [
     {
       "kind" : "ColdProtection",
-      "amount" : 13
+      "amount" : 9
     },
 
     {
       "kind" : "Protection",
-      "amount" : 48
+      "amount" : 26
     },
 
     {
       "kind" : "energyregenmodifier",
-      "amount" : 2.2
+      "amount" : 1.35
     }
   ],
+  
   "colorOptions" : [
     /* PURPLE */
     { "ffca8a" : "d29ce7", "e0975c" : "a451c4", "a85636" : "6a2284", "6f2919" : "320c40" },

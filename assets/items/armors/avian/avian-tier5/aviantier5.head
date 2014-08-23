@@ -3,8 +3,8 @@
   "inventoryIcon" : "icons.png:head",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
-  "description" : "A comfortable (yet protective) aegisalt helm.",
+  "rarity" : "Legendary",
+  "description" : "A comfortable (yet protective) impervium helm.",
   "shortdescription" : "Toucan Helm",
   "tooltipKind" : "armor",
 
@@ -21,12 +21,12 @@
     {
       "kind" : "Protection",
       "level" : 32,
-      "amount" : 54
+      "amount" : 68
     },
 
     {
       "kind" : "energyincrease",
-      "amount" : 350
+      "amount" : 260
     }
   ],
 

@@ -3,8 +3,8 @@
   "inventoryIcon" : "icons.png:head",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
-  "description" : "A shining battle helm made from bright, pure Rubium.",
+  "rarity" : "Rare",
+  "description" : "A shining battle helm made from bright, pure violium.",
   "shortdescription" : "Phoenix Helm",
   "tooltipKind" : "armor",
 
@@ -21,12 +21,12 @@
     {
       "kind" : "Protection",
       "level" : 31,
-      "amount" : 39
+      "amount" : 50
     },
 
     {
       "kind" : "energyincrease",
-      "amount" : 270
+      "amount" : 200
     }
   ],
 

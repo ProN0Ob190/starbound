@@ -3,8 +3,8 @@
   "inventoryIcon" : "icons.png:head",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
-  "description" : "The cannibal's mask contains razor sharp aegisalt teeth built to tear through floran flesh.",
+  "rarity" : "Rare",
+  "description" : "The cannibal's mask contains razor sharp rubium teeth built to tear through floran flesh.",
   "shortdescription" : "Cannibal's Mask",
   "tooltipKind" : "armor",
 
@@ -17,6 +17,7 @@
       "kind" : "ColdProtection",
       "amount" : 13.5
     },
+
     {
       "kind" : "Protection",
       "level" : 31,

@@ -3,7 +3,7 @@
   "inventoryIcon" : "icons.png:pants",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Rare",
+  "rarity" : "Uncommon",
   "description" : "The knight's greaves sit heavy at it's sides. Only a strong mechanical horse will carry the wearer of these.",
   "shortdescription" : "Knight's Greaves",
   "tooltipKind" : "armor",

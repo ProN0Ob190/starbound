@@ -3,8 +3,8 @@
   "inventoryIcon" : "icons.png:pants",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
-  "description" : "An aegisalt loincloth designed to allow movement while still protecting the legs.",
+  "rarity" : "Legendary",
+  "description" : "An impervium loincloth designed to allow movement while still protecting the legs.",
   "shortdescription" : "Toucan Loincloth",
   "tooltipKind" : "armor",
 
@@ -19,12 +19,12 @@
 
     {
       "kind" : "Protection",
-      "amount" : 36
+      "amount" : 45
     },
 
     {
       "kind" : "energyregenmodifier",
-      "amount" : 1.75
+      "amount" : 1.3
     }
   ],
 

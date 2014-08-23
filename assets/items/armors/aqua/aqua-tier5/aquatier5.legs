@@ -3,7 +3,7 @@
   "inventoryIcon" : "icons.png:pants",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "Rare",
   "description" : "It is said a fully grown reef gatherer could step on a batch of hylotl spawn with these pants without harming it.",
   "shortdescription" : "Reef Pants",
   "tooltipKind" : "armor",

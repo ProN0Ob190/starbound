@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "The crusader's breastplate is forged of pure Ferozium. It contains a third brain for extra long crusades.",
+  "description" : "The crusader's breastplate is forged of pure aegisalt. It contains a third brain for extra long crusades.",
   "shortdescription" : "Crusader's Breastplate",
   "tooltipKind" : "armor",
 
@@ -23,21 +23,21 @@
   "statusEffects" : [
     {
       "kind" : "ColdProtection",
-      "amount" : 27.5
+      "amount" : 22.5
     },
 
     {
       "kind" : "Protection",
-      "level" : 32,
-      "amount" : 90
+      "level" : 31,
+      "amount" : 65
     },
 
     {
       "kind" : "healthincrease",
-      "amount" : 175
+      "amount" : 135
     }
-
   ],
+  
   "colorOptions" : [
     /* LIME GREEN */
     { "ffca8a" : "d1e160", "e0975c" : "9bba3d", "a85636" : "48832f", "6f2919" : "1b4c2a" },

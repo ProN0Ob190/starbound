@@ -3,7 +3,7 @@
   "inventoryIcon" : "icons.png:chest",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "Rare",
   "description" : "Disgraced floran are thrown unarmored into an arena with a hungry floran cannibal.",
   "shortdescription" : "Cannibal's Chestguard",
   "tooltipKind" : "armor",

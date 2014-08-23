@@ -3,8 +3,8 @@
   "inventoryIcon" : "icons.png:head",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
-  "description" : "This Ferozium headpiece is built to protect a floran wiseman's brain at all costs.",
+  "rarity" : "Rare",
+  "description" : "This aegisalt headpiece is built to protect a floran wiseman's brain at all costs.",
   "shortdescription" : "Wiseman's Thinking Hat",
   "tooltipKind" : "armor",
 
@@ -15,17 +15,18 @@
   "statusEffects" : [
     {
       "kind" : "ColdProtection",
-      "amount" : 16.5
+      "amount" : 13.5
     },
+
     {
       "kind" : "Protection",
-      "level" : 32,
-      "amount" : 54
+      "level" : 31,
+      "amount" : 39
     },
 
     {
       "kind" : "energyincrease",
-      "amount" : 350
+      "amount" : 270
     }
   ],
 

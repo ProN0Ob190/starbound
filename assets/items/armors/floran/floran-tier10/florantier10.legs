@@ -3,7 +3,7 @@
   "inventoryIcon" : "icons.png:pants",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "Legendary",
   "description" : "A kick from an armored synthesizer can shatter bone.",
   "shortdescription" : "Synthesizer's Pants",
   "tooltipKind" : "armor",
@@ -14,17 +14,17 @@
   "statusEffects" : [
     {
       "kind" : "ColdProtection",
-      "amount" : 19
+      "amount" : 11
     },
 
     {
       "kind" : "Protection",
-      "amount" : 100
+      "amount" : 36
     },
 
     {
       "kind" : "energyregenmodifier",
-      "amount" : 4
+      "amount" : 1.75
     }
   ],
 

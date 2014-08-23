@@ -3,8 +3,8 @@
   "inventoryIcon" : "icons.png:chest",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Rare",
-  "description" : "the templar's breastplate is forged of Violium, an additional templar brain warns of incoming blows.",
+  "rarity" : "Legendary",
+  "description" : "the templar's breastplate is forged of cerulium, an additional templar brain warns of incoming blows.",
   "shortdescription" : "Templar's Breastplate",
   "tooltipKind" : "armor",
 
@@ -23,21 +23,21 @@
   "statusEffects" : [
     {
       "kind" : "ColdProtection",
-      "amount" : 37.5
+      "amount" : 27.5
     },
 
     {
       "kind" : "Protection",
-      "level" : 34,
-      "amount" : 160
+      "level" : 32,
+      "amount" : 90
     },
 
     {
       "kind" : "healthincrease",
-      "amount" : 270
+      "amount" : 175
     }
-
   ],
+  
   "colorOptions" : [
     /* BLUE */
     { "ffca8a" : "96cbe7", "e0975c" : "5588d4", "a85636" : "344495", "6f2919" : "1a1c51" },

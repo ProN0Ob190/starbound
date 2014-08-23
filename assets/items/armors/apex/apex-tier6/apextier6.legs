@@ -3,8 +3,8 @@
   "inventoryIcon" : "icons.png:pants",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
-  "description" : "This leg armour is reinforced with Ferozium, making it tough despite being fairly flexible.",
+  "rarity" : "Rare",
+  "description" : "This leg armour is reinforced with rubium, making it tough despite being fairly flexible.",
   "shortdescription" : "Spy's Pants",
   "tooltipKind" : "armor",
 
@@ -14,17 +14,17 @@
   "statusEffects" : [
     {
       "kind" : "ColdProtection",
-      "amount" : 11
+      "amount" : 9
     },
 
     {
       "kind" : "Protection",
-      "amount" : 36
+      "amount" : 26
     },
 
     {
       "kind" : "energyregenmodifier",
-      "amount" : 1.75
+      "amount" : 1.35
     }
   ],
 

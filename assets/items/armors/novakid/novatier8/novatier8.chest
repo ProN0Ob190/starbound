@@ -3,7 +3,7 @@
   "inventoryIcon" : "icons.png:chest",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Rare",
+  "rarity" : "Legendary",
   "description" : "-todo-",
   "shortdescription" : "Gambler's Vest",
   "tooltipKind" : "armor",
@@ -23,21 +23,21 @@
   "statusEffects" : [
     {
       "kind" : "ColdProtection",
-      "amount" : 37.5
+      "amount" : 27.5
     },
 
     {
       "kind" : "Protection",
-      "level" : 34,
-      "amount" : 160
+      "level" : 32,
+      "amount" : 90
     },
 
     {
       "kind" : "healthincrease",
-      "amount" : 270
+      "amount" : 175
     }
-
   ],
+  
   "colorOptions" : [
     /* TEAL */
     { "ffca8a" : "a8e6e2", "e0975c" : "4facb2", "a85636" : "30636c", "6f2919" : "233c43" },

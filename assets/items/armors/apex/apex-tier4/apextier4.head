@@ -3,7 +3,7 @@
   "inventoryIcon" : "icons.png:head",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
   "description" : "This bandana and blindfold are perfect for the budding Revolutionary.",
   "shortdescription" : "Revolutionary's Bandana",
   "tooltipKind" : "armor",

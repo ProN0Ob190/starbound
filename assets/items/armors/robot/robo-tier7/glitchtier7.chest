@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "The paladin's breastplate is forged of Cerulium, a metal believed to be holy.",
+  "description" : "The paladin's breastplate is forged of violium, a metal believed to be holy.",
   "shortdescription" : "Paladin's Breastplate",
   "tooltipKind" : "armor",
 
@@ -23,21 +23,21 @@
   "statusEffects" : [
     {
       "kind" : "ColdProtection",
-      "amount" : 32.5
+      "amount" : 22.5
     },
 
     {
       "kind" : "Protection",
-      "level" : 33,
-      "amount" : 120
+      "level" : 31,
+      "amount" : 65
     },
 
     {
       "kind" : "healthincrease",
-      "amount" : 220
+      "amount" : 135
     }
-
   ],
+  
   "colorOptions" : [
     /* PURPLE */
     { "ffca8a" : "d29ce7", "e0975c" : "a451c4", "a85636" : "6a2284", "6f2919" : "320c40" },

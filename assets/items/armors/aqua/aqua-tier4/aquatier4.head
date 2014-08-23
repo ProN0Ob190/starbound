@@ -3,7 +3,7 @@
   "inventoryIcon" : "icons.png:head",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
   "description" : "The durasteel helm of the lake wardens is built for defense.",
   "shortdescription" : "Lake Helm",
   "tooltipKind" : "armor",

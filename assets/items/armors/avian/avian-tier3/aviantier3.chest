@@ -3,7 +3,7 @@
   "inventoryIcon" : "icons.png:chest",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
   "description" : "Slightly-itchy titanium plate, worn by Avian commoners around the galaxy.",
   "shortdescription" : "Quail Breastplate",
   "tooltipKind" : "armor",

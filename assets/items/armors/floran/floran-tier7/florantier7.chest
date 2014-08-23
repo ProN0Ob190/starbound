@@ -3,8 +3,8 @@
   "inventoryIcon" : "icons.png:chest",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
-  "description" : "The floran gatherer's Cerulium chestpiece is the last thing many a scientist sees.",
+  "rarity" : "Rare",
+  "description" : "The floran gatherer's violium chestpiece is the last thing many a scientist sees.",
   "shortdescription" : "Gatherer's Chestpiece",
   "tooltipKind" : "armor",
 
@@ -23,18 +23,18 @@
   "statusEffects" : [
     {
       "kind" : "ColdProtection",
-      "amount" : 32.5
+      "amount" : 22.5
     },
 
     {
       "kind" : "Protection",
-      "level" : 33,
-      "amount" : 120
+      "level" : 31,
+      "amount" : 65
     },
 
     {
       "kind" : "healthincrease",
-      "amount" : 220
+      "amount" : 135
     }
   ],
 

@@ -3,7 +3,7 @@
   "inventoryIcon" : "icons.png:chest",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Rare",
+  "rarity" : "Uncommon",
   "description" : "Dark knights improve their breastplates with durasteel, believing strong armour triumphs over honour.",
   "shortdescription" : "Dark Knight's Breastplate",
   "tooltipKind" : "armor",

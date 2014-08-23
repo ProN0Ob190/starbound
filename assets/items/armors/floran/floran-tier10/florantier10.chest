@@ -3,7 +3,7 @@
   "inventoryIcon" : "icons.png:chest",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "Legendary",
   "description" : "The synthesizers chestguard channels so much power from the sun it can get hot to the touch.",
   "shortdescription" : "Synthesizer's Chestguard",
   "tooltipKind" : "armor",
@@ -23,18 +23,18 @@
   "statusEffects" : [
     {
       "kind" : "ColdProtection",
-      "amount" : 47.5
+      "amount" : 27.5
     },
 
     {
       "kind" : "Protection",
-      "level" : 36,
-      "amount" : 250
+      "level" : 32,
+      "amount" : 90
     },
 
     {
       "kind" : "healthincrease",
-      "amount" : 400
+      "amount" : 175
     }
   ],
 

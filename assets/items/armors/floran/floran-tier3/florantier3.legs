@@ -3,7 +3,7 @@
   "inventoryIcon" : "icons.png:pants",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
   "description" : "Nomad armour is said to smell of dying flowers and rotting leaves.",
   "shortdescription" : "Nomad's Pants",
   "tooltipKind" : "armor",

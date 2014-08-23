@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "The crusader's helm contains an extra brain for paritcularly long crusades.",
+  "description" : "The crusader's helm contains an extra brain for particularly long crusades.",
   "shortdescription" : "Crusader's Helm",
   "tooltipKind" : "armor",
 
@@ -15,20 +15,21 @@
   "statusEffects" : [
     {
       "kind" : "ColdProtection",
-      "amount" : 16.5
+      "amount" : 13.5
     },
 
     {
       "kind" : "Protection",
-      "level" : 32,
-      "amount" : 54
+      "level" : 31,
+      "amount" : 39
     },
 
     {
       "kind" : "energyincrease",
-      "amount" : 350
+      "amount" : 270
     }
   ],
+  
   "colorOptions" : [
     /* LIME GREEN */
     { "ffca8a" : "d1e160", "e0975c" : "9bba3d", "a85636" : "48832f", "6f2919" : "1b4c2a" },

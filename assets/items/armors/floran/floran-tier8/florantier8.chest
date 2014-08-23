@@ -3,8 +3,8 @@
   "inventoryIcon" : "icons.png:chest",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
-  "description" : "As part of the florans organised offensive force, no expense is spared infusing a sentinel's armour with Violium.",
+  "rarity" : "Legendary",
+  "description" : "As part of the florans organised offensive force, no expense is spared infusing a sentinel's armour with ferozium.",
   "shortdescription" : "Sentinel's Breastplate",
   "tooltipKind" : "armor",
 
@@ -23,18 +23,18 @@
   "statusEffects" : [
     {
       "kind" : "ColdProtection",
-      "amount" : 37.5
+      "amount" : 27.5
     },
 
     {
       "kind" : "Protection",
-      "level" : 34,
-      "amount" : 160
+      "level" : 32,
+      "amount" : 90
     },
 
     {
       "kind" : "healthincrease",
-      "amount" : 270
+      "amount" : 175
     }
   ],
 

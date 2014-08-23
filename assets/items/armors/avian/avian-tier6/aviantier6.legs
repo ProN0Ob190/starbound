@@ -3,8 +3,8 @@
   "inventoryIcon" : "icons.png:pants",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
-  "description" : "These slim-cut pants are woven from pure Ferozium thread for added durability.",
+  "rarity" : "Legendary",
+  "description" : "These slim-cut pants are woven from pure ferozium thread for added durability.",
   "shortdescription" : "Macaw Leggings",
   "tooltipKind" : "armor",
 

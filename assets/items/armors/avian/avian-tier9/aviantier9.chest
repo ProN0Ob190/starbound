@@ -3,8 +3,8 @@
   "inventoryIcon" : "icons.png:chest",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
-  "description" : "The Rubium plating on this chestpiece makes it near-impenetrable by conventional weapons.",
+  "rarity" : "Rare",
+  "description" : "The violium plating on this chestpiece makes it near-impenetrable by conventional weapons.",
   "shortdescription" : "Phoenix Breastplate",
   "tooltipKind" : "armor",
 
@@ -29,12 +29,12 @@
     {
       "kind" : "Protection",
       "level" : 31,
-      "amount" : 65
+      "amount" : 82
     },
 
     {
       "kind" : "healthincrease",
-      "amount" : 135
+      "amount" : 170
     }
   ],
 
