@@ -48,9 +48,9 @@
         "default" : [
             [0, [
                 {
-                    "chest" : [ { "name" : "aviantier3chest", "data" : { "colorIndex" : 6 } } ],
-                    "legs" : [ { "name" : "apextier8pants", "data" : { "colorIndex" : 11 } } ],
-                    "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ]
+                    "chest" : [ { "name" : "aviantier3chest", "parameters" : { "colorIndex" : 6 } } ],
+                    "legs" : [ { "name" : "apextier8pants", "parameters" : { "colorIndex" : 11 } } ],
+                    "back" : [ { "name" : "simplecapeback", "parameters" : { "colorIndex" : 1 } } ]
                 }
             ] ]
         ]

@@ -75,18 +75,18 @@
             "chest" : [ { "name" : "florantier5chest" } ],
             "legs" : [ { "name" : "florantier5pants" } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "commonspear" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commonaxe" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commonhammer" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commonbroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "commonspear" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commonaxe" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commonhammer" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commonbroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commonshortsword" } }
             ],
             "sheathedprimary" : [
-              { "name" : "generatedgun", "data" : { "definition" : "floranneedler" } }
+              { "name" : "generatedgun", "parameters" : { "definition" : "floranneedler" } }
             ],
             "alt" : [
-              { "name" : "generatedshield", "data" : { "definition" : "floranbasicshield" } }
+              { "name" : "generatedshield", "parameters" : { "definition" : "floranbasicshield" } }
             ]
           }
         ] ]

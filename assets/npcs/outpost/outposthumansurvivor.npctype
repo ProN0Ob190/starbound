@@ -48,8 +48,8 @@
         "default" : [
             [0, [
                 {
-                    "chest" : [ { "name" : "apextier5chest", "data" : { "colorIndex" : 8 } } ],
-                    "legs" : [ { "name" : "humantier5pants", "data" : { "colorIndex" : 8 } } ]
+                    "chest" : [ { "name" : "apextier5chest", "parameters" : { "colorIndex" : 8 } } ],
+                    "legs" : [ { "name" : "humantier5pants", "parameters" : { "colorIndex" : 8 } } ]
                 }
             ] ]
         ]

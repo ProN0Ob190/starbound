@@ -181,10 +181,10 @@
     "default" : [
       [0, [
           {
-            "chest" : [ { "name" : "scientistchest", "data" : { "colorIndex" : 1 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 4 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 5 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 6 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 7 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 8 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 9 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 10 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 11 } } ],
-            "legs" : [ { "name" : "scientistlegs", "data" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "scientistchest", "parameters" : { "colorIndex" : 1 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 4 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 5 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 6 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 7 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 8 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 9 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 10 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 11 } } ],
+            "legs" : [ { "name" : "scientistlegs", "parameters" : { "colorIndex" : 1 } } ],
             "sheathedprimary" : [
-              { "name" : "generatedgun", "data" : { "definition" : "commonplasmapistol" } }
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonplasmapistol" } }
             ]
           }
         ] ]
@@ -192,10 +192,10 @@
     "human" : [
       [0, [
           {
-            "chest" : [ { "name" : "scientistchest", "data" : { "colorIndex" : 1 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 4 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 5 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 6 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 7 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 8 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 9 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 10 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 11 } } ],
-            "legs" : [ { "name" : "scientistlegs", "data" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "scientistchest", "parameters" : { "colorIndex" : 1 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 4 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 5 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 6 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 7 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 8 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 9 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 10 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 11 } } ],
+            "legs" : [ { "name" : "scientistlegs", "parameters" : { "colorIndex" : 1 } } ],
             "sheathedprimary" : [
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           }
         ] ]
@@ -203,10 +203,10 @@
     "avian" : [
       [0, [
           {
-            "chest" : [ { "name" : "scientistchest", "data" : { "colorIndex" : 1 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 4 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 5 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 6 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 7 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 8 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 9 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 10 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 11 } } ],
-            "legs" : [ { "name" : "scientistlegs", "data" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "scientistchest", "parameters" : { "colorIndex" : 1 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 4 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 5 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 6 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 7 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 8 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 9 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 10 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 11 } } ],
+            "legs" : [ { "name" : "scientistlegs", "parameters" : { "colorIndex" : 1 } } ],
             "sheathedprimary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } }
             ]
           }
         ] ]
@@ -214,10 +214,10 @@
     "apex" : [
       [0, [
           {
-            "chest" : [ { "name" : "scientistchest", "data" : { "colorIndex" : 1 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 4 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 5 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 6 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 7 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 8 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 9 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 10 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 11 } } ],
-            "legs" : [ { "name" : "scientistlegs", "data" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "scientistchest", "parameters" : { "colorIndex" : 1 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 4 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 5 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 6 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 7 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 8 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 9 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 10 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 11 } } ],
+            "legs" : [ { "name" : "scientistlegs", "parameters" : { "colorIndex" : 1 } } ],
             "sheathedprimary" : [
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           }
         ] ]
@@ -225,10 +225,10 @@
     "floran" : [
       [0, [
           {
-            "chest" : [ { "name" : "scientistchest", "data" : { "colorIndex" : 1 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 4 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 5 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 6 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 7 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 8 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 9 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 10 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 11 } } ],
-            "legs" : [ { "name" : "scientistlegs", "data" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "scientistchest", "parameters" : { "colorIndex" : 1 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 4 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 5 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 6 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 7 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 8 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 9 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 10 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 11 } } ],
+            "legs" : [ { "name" : "scientistlegs", "parameters" : { "colorIndex" : 1 } } ],
             "sheathedprimary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } }
             ]
           }
         ] ]
@@ -236,10 +236,10 @@
     "glitch" : [
       [0, [
           {
-            "chest" : [ { "name" : "scientistchest", "data" : { "colorIndex" : 1 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 4 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 5 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 6 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 7 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 8 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 9 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 10 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 11 } } ],
-            "legs" : [ { "name" : "scientistlegs", "data" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "scientistchest", "parameters" : { "colorIndex" : 1 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 4 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 5 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 6 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 7 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 8 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 9 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 10 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 11 } } ],
+            "legs" : [ { "name" : "scientistlegs", "parameters" : { "colorIndex" : 1 } } ],
             "sheathedprimary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } }
             ]
           }
         ] ]
@@ -247,10 +247,10 @@
     "hylotl" : [
       [0, [
           {
-            "chest" : [ { "name" : "scientistchest", "data" : { "colorIndex" : 1 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 4 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 5 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 6 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 7 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 8 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 9 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 10 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 11 } } ],
-            "legs" : [ { "name" : "scientistlegs", "data" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "scientistchest", "parameters" : { "colorIndex" : 1 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 4 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 5 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 6 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 7 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 8 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 9 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 10 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 11 } } ],
+            "legs" : [ { "name" : "scientistlegs", "parameters" : { "colorIndex" : 1 } } ],
             "sheathedprimary" : [
-              { "name" : "generatedgun", "data" : { "definition" : "commonplasmapistol" } }
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonplasmapistol" } }
             ]
           }
         ] ]

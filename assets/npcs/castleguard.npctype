@@ -83,14 +83,14 @@
             "chest" : [ { "name" : "glitchtier3chest" } ],
             "legs" : [ { "name" : "glitchtier3pants" } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "glitchlargemace" } },
-              { "name" : "generatedsword", "data" : { "definition" : "glitchsmallmace" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "glitchlargemace" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "glitchsmallmace" } }
             ],
             "sheathedprimary" : [
-              { "name" : "generatedgun", "data" : { "definition" : "crossbowwood" } }
+              { "name" : "generatedgun", "parameters" : { "definition" : "crossbowwood" } }
             ],
             "alt" : [
-              { "name" : "generatedshield", "data" : { "definition" : "glitchstrongshield" } }
+              { "name" : "generatedshield", "parameters" : { "definition" : "glitchstrongshield" } }
             ]
           }
         ] ]

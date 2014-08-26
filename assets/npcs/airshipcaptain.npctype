@@ -111,10 +111,10 @@
             "chest" : [ { "name" : "buccaneerchest" } ],
             "legs" : [ { "name" : "buccaneerlegs" } ],
             "primary" : [
-              { "name" : "generatedgun", "data" : { "definition" : "legendaryassaultrifle" } }
+              { "name" : "generatedgun", "parameters" : { "definition" : "legendaryassaultrifle" } }
             ],
             "sheathedprimary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "uncommonbroadsword" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "uncommonbroadsword" } }
             ]
           }
         ] ]
@@ -125,12 +125,12 @@
             "head" : [ { "name" : "buccaneerhead" } ],
             "chest" : [ { "name" : "buccaneerchest" } ],
             "legs" : [ { "name" : "buccaneerlegs" } ],
-            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ],
+            "back" : [ { "name" : "simplecapeback", "parameters" : { "colorIndex" : 1 } } ],
             "primary" : [
-              { "name" : "generatedgun", "data" : { "definition" : "legendaryassaultrifle" } }
+              { "name" : "generatedgun", "parameters" : { "definition" : "legendaryassaultrifle" } }
             ],
             "sheathedprimary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "uncommonbroadsword" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "uncommonbroadsword" } }
             ]
           }
         ] ]
@@ -141,12 +141,12 @@
             "head" : [ { "name" : "buccaneerhead" } ],
             "chest" : [ { "name" : "buccaneerchest" } ],
             "legs" : [ { "name" : "buccaneerlegs" } ],
-            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ],
+            "back" : [ { "name" : "simplecapeback", "parameters" : { "colorIndex" : 1 } } ],
             "primary" : [
-              { "name" : "generatedgun", "data" : { "definition" : "legendaryassaultrifle" } }
+              { "name" : "generatedgun", "parameters" : { "definition" : "legendaryassaultrifle" } }
             ],
             "sheathedprimary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "uncommonbroadsword" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "uncommonbroadsword" } }
             ]
           }
         ] ]
@@ -157,12 +157,12 @@
             "head" : [ { "name" : "buccaneerhead" } ],
             "chest" : [ { "name" : "buccaneerchest" } ],
             "legs" : [ { "name" : "buccaneerlegs" } ],
-            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ],
+            "back" : [ { "name" : "simplecapeback", "parameters" : { "colorIndex" : 1 } } ],
             "primary" : [
-              { "name" : "generatedgun", "data" : { "definition" : "legendaryassaultrifle" } }
+              { "name" : "generatedgun", "parameters" : { "definition" : "legendaryassaultrifle" } }
             ],
             "sheathedprimary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "uncommonbroadsword" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "uncommonbroadsword" } }
             ]
           }
         ] ]
@@ -173,12 +173,12 @@
             "head" : [ { "name" : "buccaneerhead" } ],
             "chest" : [ { "name" : "buccaneerchest" } ],
             "legs" : [ { "name" : "buccaneerlegs" } ],
-            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ],
+            "back" : [ { "name" : "simplecapeback", "parameters" : { "colorIndex" : 1 } } ],
             "primary" : [
-              { "name" : "generatedgun", "data" : { "definition" : "legendaryassaultrifle" } }
+              { "name" : "generatedgun", "parameters" : { "definition" : "legendaryassaultrifle" } }
             ],
             "sheathedprimary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "uncommonbroadsword" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "uncommonbroadsword" } }
             ]
           }
         ] ]
@@ -189,12 +189,12 @@
             "head" : [ { "name" : "buccaneerhead" } ],
             "chest" : [ { "name" : "buccaneerchest" } ],
             "legs" : [ { "name" : "buccaneerlegs" } ],
-            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ],
+            "back" : [ { "name" : "simplecapeback", "parameters" : { "colorIndex" : 1 } } ],
             "primary" : [
-              { "name" : "generatedgun", "data" : { "definition" : "legendaryassaultrifle" } }
+              { "name" : "generatedgun", "parameters" : { "definition" : "legendaryassaultrifle" } }
             ],
             "sheathedprimary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "uncommonbroadsword" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "uncommonbroadsword" } }
             ]
           }
         ] ]
@@ -205,12 +205,12 @@
             "head" : [ { "name" : "buccaneerhead" } ],
             "chest" : [ { "name" : "buccaneerchest" } ],
             "legs" : [ { "name" : "buccaneerlegs" } ],
-            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ],
+            "back" : [ { "name" : "simplecapeback", "parameters" : { "colorIndex" : 1 } } ],
             "primary" : [
-              { "name" : "generatedgun", "data" : { "definition" : "legendaryassaultrifle" } }
+              { "name" : "generatedgun", "parameters" : { "definition" : "legendaryassaultrifle" } }
             ],
             "sheathedprimary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "uncommonbroadsword" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "uncommonbroadsword" } }
             ]
           }
         ] ]

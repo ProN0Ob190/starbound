@@ -381,69 +381,69 @@
     "default" : [
       [0, [
           {
-            "head" : [ { "name" : "piratehead", "data" : { "colorIndex" : 4 } }, "", "", "", "", "", "", "", "", "" ],
-            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 4 } } ],
+            "head" : [ { "name" : "piratehead", "parameters" : { "colorIndex" : 4 } }, "", "", "", "", "", "", "", "", "" ],
+            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 4 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "crappybroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "crappybroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           },
           {
-            "head" : [ { "name" : "piratehead", "data" : { "colorIndex" : 5 } }, "", "", "", "", "", "", "", "", "" ],
-            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 5 } } ],
+            "head" : [ { "name" : "piratehead", "parameters" : { "colorIndex" : 5 } }, "", "", "", "", "", "", "", "", "" ],
+            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 5 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "crappybroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "crappybroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           },
           {
-            "head" : [ { "name" : "piratehead", "data" : { "colorIndex" : 6 } }, "", "", "", "", "", "", "", "", "" ],
-            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 6 } } ],
+            "head" : [ { "name" : "piratehead", "parameters" : { "colorIndex" : 6 } }, "", "", "", "", "", "", "", "", "" ],
+            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 6 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "crappybroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "crappybroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           },
           {
-            "head" : [ { "name" : "piratehead", "data" : { "colorIndex" : 7 } }, "", "", "", "", "", "", "", "", "" ],
-            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 7 } } ],
+            "head" : [ { "name" : "piratehead", "parameters" : { "colorIndex" : 7 } }, "", "", "", "", "", "", "", "", "" ],
+            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 7 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "crappybroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "crappybroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           },
           {
-            "head" : [ { "name" : "piratehead", "data" : { "colorIndex" : 8 } }, "", "", "", "", "", "", "", "", "" ],
-            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 8 } } ],
+            "head" : [ { "name" : "piratehead", "parameters" : { "colorIndex" : 8 } }, "", "", "", "", "", "", "", "", "" ],
+            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 8 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "crappybroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "crappybroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           },
           {
-            "head" : [ { "name" : "piratehead", "data" : { "colorIndex" : 9 } }, "", "", "", "", "", "", "", "", "" ],
-            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 9 } } ],
+            "head" : [ { "name" : "piratehead", "parameters" : { "colorIndex" : 9 } }, "", "", "", "", "", "", "", "", "" ],
+            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 9 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "crappybroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "crappybroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           }
         ] ]
@@ -451,69 +451,69 @@
     "apex" : [
       [0, [
           {
-            "head" : [ { "name" : "piratehead", "data" : { "colorIndex" : 4 } }, "", "", "", "", "", "", "", "", "" ],
-            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 4 } } ],
+            "head" : [ { "name" : "piratehead", "parameters" : { "colorIndex" : 4 } }, "", "", "", "", "", "", "", "", "" ],
+            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 4 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "crappybroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "crappybroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           },
           {
-            "head" : [ { "name" : "piratehead", "data" : { "colorIndex" : 5 } }, "", "", "", "", "", "", "", "", "" ],
-            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 5 } } ],
+            "head" : [ { "name" : "piratehead", "parameters" : { "colorIndex" : 5 } }, "", "", "", "", "", "", "", "", "" ],
+            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 5 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "crappybroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "crappybroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           },
           {
-            "head" : [ { "name" : "piratehead", "data" : { "colorIndex" : 6 } }, "", "", "", "", "", "", "", "", "" ],
-            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 6 } } ],
+            "head" : [ { "name" : "piratehead", "parameters" : { "colorIndex" : 6 } }, "", "", "", "", "", "", "", "", "" ],
+            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 6 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "crappybroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "crappybroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           },
           {
-            "head" : [ { "name" : "piratehead", "data" : { "colorIndex" : 7 } }, "", "", "", "", "", "", "", "", "" ],
-            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 7 } } ],
+            "head" : [ { "name" : "piratehead", "parameters" : { "colorIndex" : 7 } }, "", "", "", "", "", "", "", "", "" ],
+            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 7 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "crappybroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "crappybroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           },
           {
-            "head" : [ { "name" : "piratehead", "data" : { "colorIndex" : 8 } }, "", "", "", "", "", "", "", "", "" ],
-            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 8 } } ],
+            "head" : [ { "name" : "piratehead", "parameters" : { "colorIndex" : 8 } }, "", "", "", "", "", "", "", "", "" ],
+            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 8 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "crappybroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "crappybroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           },
           {
-            "head" : [ { "name" : "piratehead", "data" : { "colorIndex" : 9 } }, "", "", "", "", "", "", "", "", "" ],
-            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 9 } } ],
+            "head" : [ { "name" : "piratehead", "parameters" : { "colorIndex" : 9 } }, "", "", "", "", "", "", "", "", "" ],
+            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 9 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "crappybroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "crappybroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           }
         ] ]
@@ -521,69 +521,69 @@
     "avian" : [
       [0, [
           {
-            "head" : [ { "name" : "piratehead", "data" : { "colorIndex" : 4 } }, "", "", "", "", "", "", "", "", "" ],
-            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 4 } } ],
+            "head" : [ { "name" : "piratehead", "parameters" : { "colorIndex" : 4 } }, "", "", "", "", "", "", "", "", "" ],
+            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 4 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "crappybroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "crappybroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           },
           {
-            "head" : [ { "name" : "piratehead", "data" : { "colorIndex" : 5 } }, "", "", "", "", "", "", "", "", "" ],
-            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 5 } } ],
+            "head" : [ { "name" : "piratehead", "parameters" : { "colorIndex" : 5 } }, "", "", "", "", "", "", "", "", "" ],
+            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 5 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "crappybroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "crappybroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           },
           {
-            "head" : [ { "name" : "piratehead", "data" : { "colorIndex" : 6 } }, "", "", "", "", "", "", "", "", "" ],
-            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 6 } } ],
+            "head" : [ { "name" : "piratehead", "parameters" : { "colorIndex" : 6 } }, "", "", "", "", "", "", "", "", "" ],
+            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 6 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "crappybroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "crappybroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           },
           {
-            "head" : [ { "name" : "piratehead", "data" : { "colorIndex" : 7 } }, "", "", "", "", "", "", "", "", "" ],
-            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 7 } } ],
+            "head" : [ { "name" : "piratehead", "parameters" : { "colorIndex" : 7 } }, "", "", "", "", "", "", "", "", "" ],
+            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 7 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "crappybroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "crappybroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           },
           {
-            "head" : [ { "name" : "piratehead", "data" : { "colorIndex" : 8 } }, "", "", "", "", "", "", "", "", "" ],
-            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 8 } } ],
+            "head" : [ { "name" : "piratehead", "parameters" : { "colorIndex" : 8 } }, "", "", "", "", "", "", "", "", "" ],
+            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 8 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "crappybroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "crappybroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           },
           {
-            "head" : [ { "name" : "piratehead", "data" : { "colorIndex" : 9 } }, "", "", "", "", "", "", "", "", "" ],
-            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 9 } } ],
+            "head" : [ { "name" : "piratehead", "parameters" : { "colorIndex" : 9 } }, "", "", "", "", "", "", "", "", "" ],
+            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 9 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "crappybroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "crappybroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           }
         ] ]
@@ -591,69 +591,69 @@
     "floran" : [
       [0, [
           {
-            "head" : [ { "name" : "piratehead", "data" : { "colorIndex" : 4 } }, "", "", "", "", "", "", "", "", "" ],
-            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 4 } } ],
+            "head" : [ { "name" : "piratehead", "parameters" : { "colorIndex" : 4 } }, "", "", "", "", "", "", "", "", "" ],
+            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 4 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "crappybroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "crappybroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           },
           {
-            "head" : [ { "name" : "piratehead", "data" : { "colorIndex" : 5 } }, "", "", "", "", "", "", "", "", "" ],
-            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 5 } } ],
+            "head" : [ { "name" : "piratehead", "parameters" : { "colorIndex" : 5 } }, "", "", "", "", "", "", "", "", "" ],
+            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 5 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "crappybroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "crappybroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           },
           {
-            "head" : [ { "name" : "piratehead", "data" : { "colorIndex" : 6 } }, "", "", "", "", "", "", "", "", "" ],
-            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 6 } } ],
+            "head" : [ { "name" : "piratehead", "parameters" : { "colorIndex" : 6 } }, "", "", "", "", "", "", "", "", "" ],
+            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 6 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "crappybroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "crappybroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           },
           {
-            "head" : [ { "name" : "piratehead", "data" : { "colorIndex" : 7 } }, "", "", "", "", "", "", "", "", "" ],
-            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 7 } } ],
+            "head" : [ { "name" : "piratehead", "parameters" : { "colorIndex" : 7 } }, "", "", "", "", "", "", "", "", "" ],
+            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 7 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "crappybroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "crappybroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           },
           {
-            "head" : [ { "name" : "piratehead", "data" : { "colorIndex" : 8 } }, "", "", "", "", "", "", "", "", "" ],
-            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 8 } } ],
+            "head" : [ { "name" : "piratehead", "parameters" : { "colorIndex" : 8 } }, "", "", "", "", "", "", "", "", "" ],
+            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 8 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "crappybroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "crappybroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           },
           {
-            "head" : [ { "name" : "piratehead", "data" : { "colorIndex" : 9 } }, "", "", "", "", "", "", "", "", "" ],
-            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 9 } } ],
+            "head" : [ { "name" : "piratehead", "parameters" : { "colorIndex" : 9 } }, "", "", "", "", "", "", "", "", "" ],
+            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 9 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "crappybroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "crappybroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           }
         ] ]
@@ -661,69 +661,69 @@
     "glitch" : [
       [0, [
           {
-            "head" : [ { "name" : "piratehead", "data" : { "colorIndex" : 4 } }, "", "", "", "", "", "", "", "", "" ],
-            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 4 } } ],
+            "head" : [ { "name" : "piratehead", "parameters" : { "colorIndex" : 4 } }, "", "", "", "", "", "", "", "", "" ],
+            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 4 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "crappybroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "crappybroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           },
           {
-            "head" : [ { "name" : "piratehead", "data" : { "colorIndex" : 5 } }, "", "", "", "", "", "", "", "", "" ],
-            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 5 } } ],
+            "head" : [ { "name" : "piratehead", "parameters" : { "colorIndex" : 5 } }, "", "", "", "", "", "", "", "", "" ],
+            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 5 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "crappybroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "crappybroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           },
           {
-            "head" : [ { "name" : "piratehead", "data" : { "colorIndex" : 6 } }, "", "", "", "", "", "", "", "", "" ],
-            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 6 } } ],
+            "head" : [ { "name" : "piratehead", "parameters" : { "colorIndex" : 6 } }, "", "", "", "", "", "", "", "", "" ],
+            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 6 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "crappybroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "crappybroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           },
           {
-            "head" : [ { "name" : "piratehead", "data" : { "colorIndex" : 7 } }, "", "", "", "", "", "", "", "", "" ],
-            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 7 } } ],
+            "head" : [ { "name" : "piratehead", "parameters" : { "colorIndex" : 7 } }, "", "", "", "", "", "", "", "", "" ],
+            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 7 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "crappybroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "crappybroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           },
           {
-            "head" : [ { "name" : "piratehead", "data" : { "colorIndex" : 8 } }, "", "", "", "", "", "", "", "", "" ],
-            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 8 } } ],
+            "head" : [ { "name" : "piratehead", "parameters" : { "colorIndex" : 8 } }, "", "", "", "", "", "", "", "", "" ],
+            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 8 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "crappybroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "crappybroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           },
           {
-            "head" : [ { "name" : "piratehead", "data" : { "colorIndex" : 9 } }, "", "", "", "", "", "", "", "", "" ],
-            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 9 } } ],
+            "head" : [ { "name" : "piratehead", "parameters" : { "colorIndex" : 9 } }, "", "", "", "", "", "", "", "", "" ],
+            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 9 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "crappybroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "crappybroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           }
         ] ]
@@ -731,69 +731,69 @@
     "human" : [
       [0, [
           {
-            "head" : [ { "name" : "piratehead", "data" : { "colorIndex" : 4 } }, "", "", "", "", "", "", "", "", "" ],
-            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 4 } } ],
+            "head" : [ { "name" : "piratehead", "parameters" : { "colorIndex" : 4 } }, "", "", "", "", "", "", "", "", "" ],
+            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 4 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "crappybroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "crappybroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           },
           {
-            "head" : [ { "name" : "piratehead", "data" : { "colorIndex" : 5 } }, "", "", "", "", "", "", "", "", "" ],
-            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 5 } } ],
+            "head" : [ { "name" : "piratehead", "parameters" : { "colorIndex" : 5 } }, "", "", "", "", "", "", "", "", "" ],
+            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 5 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "crappybroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "crappybroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           },
           {
-            "head" : [ { "name" : "piratehead", "data" : { "colorIndex" : 6 } }, "", "", "", "", "", "", "", "", "" ],
-            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 6 } } ],
+            "head" : [ { "name" : "piratehead", "parameters" : { "colorIndex" : 6 } }, "", "", "", "", "", "", "", "", "" ],
+            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 6 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "crappybroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "crappybroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           },
           {
-            "head" : [ { "name" : "piratehead", "data" : { "colorIndex" : 7 } }, "", "", "", "", "", "", "", "", "" ],
-            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 7 } } ],
+            "head" : [ { "name" : "piratehead", "parameters" : { "colorIndex" : 7 } }, "", "", "", "", "", "", "", "", "" ],
+            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 7 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "crappybroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "crappybroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           },
           {
-            "head" : [ { "name" : "piratehead", "data" : { "colorIndex" : 8 } }, "", "", "", "", "", "", "", "", "" ],
-            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 8 } } ],
+            "head" : [ { "name" : "piratehead", "parameters" : { "colorIndex" : 8 } }, "", "", "", "", "", "", "", "", "" ],
+            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 8 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "crappybroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "crappybroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           },
           {
-            "head" : [ { "name" : "piratehead", "data" : { "colorIndex" : 9 } }, "", "", "", "", "", "", "", "", "" ],
-            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 9 } } ],
+            "head" : [ { "name" : "piratehead", "parameters" : { "colorIndex" : 9 } }, "", "", "", "", "", "", "", "", "" ],
+            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 9 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "crappybroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "crappybroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           }
         ] ]
@@ -801,69 +801,69 @@
     "hylotl" : [
       [0, [
           {
-            "head" : [ { "name" : "piratehead", "data" : { "colorIndex" : 4 } }, "", "", "", "", "", "", "", "", "" ],
-            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 4 } } ],
+            "head" : [ { "name" : "piratehead", "parameters" : { "colorIndex" : 4 } }, "", "", "", "", "", "", "", "", "" ],
+            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 4 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "crappybroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "crappybroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           },
           {
-            "head" : [ { "name" : "piratehead", "data" : { "colorIndex" : 5 } }, "", "", "", "", "", "", "", "", "" ],
-            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 5 } } ],
+            "head" : [ { "name" : "piratehead", "parameters" : { "colorIndex" : 5 } }, "", "", "", "", "", "", "", "", "" ],
+            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 5 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "crappybroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "crappybroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           },
           {
-            "head" : [ { "name" : "piratehead", "data" : { "colorIndex" : 6 } }, "", "", "", "", "", "", "", "", "" ],
-            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 6 } } ],
+            "head" : [ { "name" : "piratehead", "parameters" : { "colorIndex" : 6 } }, "", "", "", "", "", "", "", "", "" ],
+            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 6 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "crappybroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "crappybroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           },
           {
-            "head" : [ { "name" : "piratehead", "data" : { "colorIndex" : 7 } }, "", "", "", "", "", "", "", "", "" ],
-            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 7 } } ],
+            "head" : [ { "name" : "piratehead", "parameters" : { "colorIndex" : 7 } }, "", "", "", "", "", "", "", "", "" ],
+            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 7 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "crappybroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "crappybroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           },
           {
-            "head" : [ { "name" : "piratehead", "data" : { "colorIndex" : 8 } }, "", "", "", "", "", "", "", "", "" ],
-            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 8 } } ],
+            "head" : [ { "name" : "piratehead", "parameters" : { "colorIndex" : 8 } }, "", "", "", "", "", "", "", "", "" ],
+            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 8 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "crappybroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "crappybroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           },
           {
-            "head" : [ { "name" : "piratehead", "data" : { "colorIndex" : 9 } }, "", "", "", "", "", "", "", "", "" ],
-            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 9 } } ],
+            "head" : [ { "name" : "piratehead", "parameters" : { "colorIndex" : 9 } }, "", "", "", "", "", "", "", "", "" ],
+            "chest" : [ { "name" : "piratechest" }, { "name" : "buccaneerchest" }, { "name" : "aviancommonershirt" }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 9 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "crappybroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "crappybroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
             ]
           }
         ] ]

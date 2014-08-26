@@ -88,10 +88,10 @@
             "chest" : [ { "name" : "apextier3chest" } ],
             "legs" : [ { "name" : "apextier3pants" } ],
             "primary" : [
-              { "name" : "generatedgun", "data" : { "definition" : "lightningcoil" } }
+              { "name" : "generatedgun", "parameters" : { "definition" : "lightningcoil" } }
             ],
             "sheathedprimary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "commondagger" } }
             ]
           }
         ] ]

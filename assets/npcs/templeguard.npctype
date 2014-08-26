@@ -89,10 +89,10 @@
             "chest" : [ { "name" : "aviantier5chest" } ],
             "legs" : [ { "name" : "aviantier5pants" } ],
             "primary" : [
-              { "name" : "generatedgun", "data" : { "definition" : "aviangun" } }
+              { "name" : "generatedgun", "parameters" : { "definition" : "aviangun" } }
             ],
             "sheathedprimary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "aviansword" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "aviansword" } }
             ]
           }
         ] ]

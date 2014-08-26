@@ -70,7 +70,7 @@
           },
           "shooting" : {
             "frames" : 6,
-            "cycle" : 0.8
+            "cycle" : 1.0
           }
         }
       },

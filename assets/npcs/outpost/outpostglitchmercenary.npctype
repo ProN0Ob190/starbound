@@ -49,8 +49,8 @@
             [0, [
                 {
                     "chest" : [ { "name" : "glitchtier2chest" } ],
-                    "legs" : [ { "name" : "apextier1pants", "data" : { "colorIndex" : 1 } } ],
-                    "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ]
+                    "legs" : [ { "name" : "apextier1pants", "parameters" : { "colorIndex" : 1 } } ],
+                    "back" : [ { "name" : "simplecapeback", "parameters" : { "colorIndex" : 1 } } ]
                 }
             ] ]
         ]

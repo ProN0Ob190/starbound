@@ -48,10 +48,10 @@
         "default" : [
             [0, [
                 {
-                    "head" : [ { "name" : "apextier7head", "data" : { "colorIndex" : 6 } } ],
-                    "chest" : [ { "name" : "humantier4chest", "data" : { "colorIndex" : 6 } } ],
-                    "legs" : [ { "name" : "hylotltier3pants", "data" : { "colorIndex" : 6 } } ],
-                    "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ]
+                    "head" : [ { "name" : "apextier7head", "parameters" : { "colorIndex" : 6 } } ],
+                    "chest" : [ { "name" : "humantier4chest", "parameters" : { "colorIndex" : 6 } } ],
+                    "legs" : [ { "name" : "hylotltier3pants", "parameters" : { "colorIndex" : 6 } } ],
+                    "back" : [ { "name" : "simplecapeback", "parameters" : { "colorIndex" : 1 } } ]
                 }
             ] ]
         ]

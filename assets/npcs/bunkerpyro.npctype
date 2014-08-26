@@ -50,11 +50,11 @@
     "human" : [
       [0, [
           {
-            "head" : [ { "name" : "humantier4head", "data" : { "colorIndex" : 4 } } ],
-            "chest" : [ { "name" : "humantier4chest", "data" : { "colorIndex" : 4 } } ],
-            "legs" : [ { "name" : "humantier4pants", "data" : { "colorIndex" : 4 } } ],
+            "head" : [ { "name" : "humantier4head", "parameters" : { "colorIndex" : 4 } } ],
+            "chest" : [ { "name" : "humantier4chest", "parameters" : { "colorIndex" : 4 } } ],
+            "legs" : [ { "name" : "humantier4pants", "parameters" : { "colorIndex" : 4 } } ],
             "primary" : [
-              { "name" : "generatedgun", "data" : { "definition" : "flamethrower" } }
+              { "name" : "generatedgun", "parameters" : { "definition" : "flamethrower" } }
             ]
           }
         ] ]

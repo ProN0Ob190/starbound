@@ -48,18 +48,18 @@
     "glitch" : [
       [0, [
           {
-            "head" : [ { "name" : "glitchtier4head", "data" : { "colorIndex" : 2 } } ],
-            "chest" : [ { "name" : "glitchtier4chest", "data" : { "colorIndex" : 2 } } ],
-            "legs" : [ { "name" : "glitchtier4pants", "data" : { "colorIndex" : 2 } } ],
+            "head" : [ { "name" : "glitchtier4head", "parameters" : { "colorIndex" : 2 } } ],
+            "chest" : [ { "name" : "glitchtier4chest", "parameters" : { "colorIndex" : 2 } } ],
+            "legs" : [ { "name" : "glitchtier4pants", "parameters" : { "colorIndex" : 2 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "glitchlargemace" } },
-              { "name" : "generatedsword", "data" : { "definition" : "glitchsmallmace" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "glitchlargemace" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "glitchsmallmace" } }
             ],
             "sheathedprimary" : [
-              { "name" : "generatedgun", "data" : { "definition" : "crossbowwood" } }
+              { "name" : "generatedgun", "parameters" : { "definition" : "crossbowwood" } }
             ],
             "alt" : [
-              { "name" : "generatedshield", "data" : { "definition" : "glitchstrongshield" } }
+              { "name" : "generatedshield", "parameters" : { "definition" : "glitchstrongshield" } }
             ]
           }
         ] ]

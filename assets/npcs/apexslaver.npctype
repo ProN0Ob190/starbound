@@ -106,13 +106,13 @@
             "chest" : [ { "name" : "apextier5chest" } ],
             "legs" : [ { "name" : "apextier5pants" } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "tier2spear" } },
-              { "name" : "generatedsword", "data" : { "definition" : "tier2broadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "tier2shortsword" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "tier2spear" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "tier2broadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "tier2shortsword" } }
             ],
             "alt" : [
-              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } },
-			  { "name" : "generatedshield", "data" : { "definition" : "tier1woodshield" } }
+              { "name" : "generatedshield", "parameters" : { "definition" : "tier1shield" } },
+			  { "name" : "generatedshield", "parameters" : { "definition" : "tier1woodshield" } }
             ]
           }
         ] ]
@@ -120,19 +120,19 @@
     "avian" : [
       [0, [
           {
-            "chest" : [ { "name" : "aviantier6chest", "data" : { "colorIndex" : 6 } } ],
-            "legs" : [ { "name" : "aviantier6pants", "data" : { "colorIndex" : 6 } } ],
-            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 4 } } ],
+            "chest" : [ { "name" : "aviantier6chest", "parameters" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "aviantier6pants", "parameters" : { "colorIndex" : 6 } } ],
+            "back" : [ { "name" : "simplecapeback", "parameters" : { "colorIndex" : 4 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "commonspear" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commonaxe" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commonhammer" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commonbroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "commonspear" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commonaxe" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commonhammer" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commonbroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commonshortsword" } }
             ],
             "alt" : [
-              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } },
-			  { "name" : "generatedshield", "data" : { "definition" : "tier1woodshield" } }
+              { "name" : "generatedshield", "parameters" : { "definition" : "tier1shield" } },
+			  { "name" : "generatedshield", "parameters" : { "definition" : "tier1woodshield" } }
             ]
           }
         ] ]
@@ -152,22 +152,22 @@
     "human" : [
       [0, [
           {
-            "chest" : [ { "name" : "humantier5chest", "data" : { "colorIndex" : 3 } } ],
-            "legs" : [ { "name" : "humantier5pants", "data" : { "colorIndex" : 3 } } ],
-            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "humantier5chest", "parameters" : { "colorIndex" : 3 } } ],
+            "legs" : [ { "name" : "humantier5pants", "parameters" : { "colorIndex" : 3 } } ],
+            "back" : [ { "name" : "simplecapeback", "parameters" : { "colorIndex" : 1 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "commonspear" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commonaxe" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commonhammer" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commonbroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonassaultrifle" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonshotgun" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonsniperrifle" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "commonspear" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commonaxe" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commonhammer" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commonbroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commonshortsword" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonassaultrifle" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonshotgun" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonsniperrifle" } }
             ],
             "alt" : [
-              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } },
-			  { "name" : "generatedshield", "data" : { "definition" : "tier1woodshield" } }
+              { "name" : "generatedshield", "parameters" : { "definition" : "tier1shield" } },
+			  { "name" : "generatedshield", "parameters" : { "definition" : "tier1woodshield" } }
             ]
           }
         ] ]
@@ -175,18 +175,18 @@
     "glitch" : [
       [0, [
           {
-            "chest" : [ { "name" : "glitchtier5chest", "data" : { "colorIndex" : 3 } } ],
-            "legs" : [ { "name" : "glitchtier4pants", "data" : { "colorIndex" : 3 } } ],
-            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 4 } } ],
+            "chest" : [ { "name" : "glitchtier5chest", "parameters" : { "colorIndex" : 3 } } ],
+            "legs" : [ { "name" : "glitchtier4pants", "parameters" : { "colorIndex" : 3 } } ],
+            "back" : [ { "name" : "simplecapeback", "parameters" : { "colorIndex" : 4 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "commonspear" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commonaxe" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commonhammer" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commonbroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "commonspear" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commonaxe" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commonhammer" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commonbroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commonshortsword" } }
             ],
             "alt" : [
-              { "name" : "generatedshield", "data" : { "definition" : "glitchlordshield" } }
+              { "name" : "generatedshield", "parameters" : { "definition" : "glitchlordshield" } }
             ]
           }
         ] ]
@@ -194,21 +194,21 @@
     "hylotl" : [
       [0, [
           {
-            "chest" : [ { "name" : "hylotltier6chest", "data" : { "colorIndex" : 7 } } ],
-            "legs" : [ { "name" : "hylotltier6pants", "data" : { "colorIndex" : 7 } } ],
-            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "hylotltier6chest", "parameters" : { "colorIndex" : 7 } } ],
+            "legs" : [ { "name" : "hylotltier6pants", "parameters" : { "colorIndex" : 7 } } ],
+            "back" : [ { "name" : "simplecapeback", "parameters" : { "colorIndex" : 1 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "commonspear" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commonaxe" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commonhammer" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commonbroadsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonassaultrifle" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonshotgun" } },
-              { "name" : "generatedgun", "data" : { "definition" : "commonsniperrifle" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "commonspear" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commonaxe" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commonhammer" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commonbroadsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commonshortsword" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonassaultrifle" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonshotgun" } },
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonsniperrifle" } }
             ],
             "alt" : [
-              { "name" : "generatedshield", "data" : { "definition" : "hylotlstrongshield" } }
+              { "name" : "generatedshield", "parameters" : { "definition" : "hylotlstrongshield" } }
             ]
           }
         ] ]

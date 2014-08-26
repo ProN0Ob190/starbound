@@ -48,8 +48,8 @@
         "default" : [
             [0, [
                 {
-                    "chest" : [ { "name" : "coolchest", "data" : { "colorIndex" : 3 } } ],
-                    "legs" : [ { "name" : "jumpsuitlegs", "data" : { "colorIndex" : 5 } } ]
+                    "chest" : [ { "name" : "coolchest", "parameters" : { "colorIndex" : 3 } } ],
+                    "legs" : [ { "name" : "jumpsuitlegs", "parameters" : { "colorIndex" : 5 } } ]
                 }
             ] ]
         ]

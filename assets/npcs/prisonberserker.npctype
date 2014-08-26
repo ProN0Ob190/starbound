@@ -87,10 +87,10 @@
     "human" : [
       [0, [
           {
-            "chest" : [ { "name" : "jumpsuitchest", "data" : { "colorIndex" : 5 } }, { "name" : "workoutchest", "data" : { "colorIndex" : 1 } }, { "name" : "workoutchest", "data" : { "colorIndex" : 3 } } ],
-            "legs" : [ { "name" : "jumpsuitlegs", "data" : { "colorIndex" : 5 } } ],
+            "chest" : [ { "name" : "jumpsuitchest", "parameters" : { "colorIndex" : 5 } }, { "name" : "workoutchest", "parameters" : { "colorIndex" : 1 } }, { "name" : "workoutchest", "parameters" : { "colorIndex" : 3 } } ],
+            "legs" : [ { "name" : "jumpsuitlegs", "parameters" : { "colorIndex" : 5 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "shiv" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "shiv" } }
             ]
           }
         ] ]

@@ -75,16 +75,16 @@
     "glitch" : [
       [0, [
           {
-            "head" : [ { "name" : "glitchroyalhead", "data" : { "colorIndex" : 6 } } ],
-            "chest" : [ { "name" : "glitchtier4chest", "data" : { "colorIndex" : 6 } } ],
-            "legs" : [ { "name" : "glitchtier4pants", "data" : { "colorIndex" : 6 } } ],
-            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 4 } } ],
+            "head" : [ { "name" : "glitchroyalhead", "parameters" : { "colorIndex" : 6 } } ],
+            "chest" : [ { "name" : "glitchtier4chest", "parameters" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "glitchtier4pants", "parameters" : { "colorIndex" : 6 } } ],
+            "back" : [ { "name" : "simplecapeback", "parameters" : { "colorIndex" : 4 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "uncommonshortsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "uncommonbroadsword" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "uncommonshortsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "uncommonbroadsword" } }
             ],
             "alt" : [
-              { "name" : "generatedshield", "data" : { "definition" : "glitchlordshield" } }
+              { "name" : "generatedshield", "parameters" : { "definition" : "glitchlordshield" } }
             ]
           }
         ] ]

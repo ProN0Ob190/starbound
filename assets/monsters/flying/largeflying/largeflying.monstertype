@@ -102,7 +102,7 @@
     },
 
     "statusParameters" : {
-      "baseMaxHealth" : 20,
+      "baseMaxHealth" : 48,
       "bodyMaterialKind" : "organic",
       "damageConfig" : "/damage/damageresponse/flyingnpc.config"
     },

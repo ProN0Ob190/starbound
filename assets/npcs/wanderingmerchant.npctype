@@ -105,38 +105,38 @@
     "glitch" : [
       [0, [
           {
-            "chest" : [ { "name" : "craftsmenchest", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "craftsmenlegs", "data" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "craftsmenchest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "craftsmenlegs", "parameters" : { "colorIndex" : 1 } } ],
             "sheathedprimary" : [ [ "generatedgun", 1, { "definition" : "commonassaultrifle" } ] ]
           },
           {
-            "chest" : [ { "name" : "craftsmenchest", "data" : { "colorIndex" : 4 } } ],
-            "legs" : [ { "name" : "craftsmenlegs", "data" : { "colorIndex" : 4 } } ],
+            "chest" : [ { "name" : "craftsmenchest", "parameters" : { "colorIndex" : 4 } } ],
+            "legs" : [ { "name" : "craftsmenlegs", "parameters" : { "colorIndex" : 4 } } ],
             "sheathedprimary" : [ [ "generatedgun", 1, { "definition" : "commonassaultrifle" } ] ]
           },
           {
-            "chest" : [ { "name" : "craftsmenchest", "data" : { "colorIndex" : 5 } } ],
-            "legs" : [ { "name" : "craftsmenlegs", "data" : { "colorIndex" : 5 } } ],
+            "chest" : [ { "name" : "craftsmenchest", "parameters" : { "colorIndex" : 5 } } ],
+            "legs" : [ { "name" : "craftsmenlegs", "parameters" : { "colorIndex" : 5 } } ],
             "sheathedprimary" : [ [ "generatedgun", 1, { "definition" : "commonassaultrifle" } ] ]
           },
           {
-            "chest" : [ { "name" : "craftsmenchest", "data" : { "colorIndex" : 6 } } ],
-            "legs" : [ { "name" : "craftsmenlegs", "data" : { "colorIndex" : 6 } } ],
+            "chest" : [ { "name" : "craftsmenchest", "parameters" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "craftsmenlegs", "parameters" : { "colorIndex" : 6 } } ],
             "sheathedprimary" : [ [ "generatedgun", 1, { "definition" : "commonassaultrifle" } ] ]
           },
           {
-            "chest" : [ { "name" : "craftsmenchest", "data" : { "colorIndex" : 7 } } ],
-            "legs" : [ { "name" : "craftsmenlegs", "data" : { "colorIndex" : 7 } } ],
+            "chest" : [ { "name" : "craftsmenchest", "parameters" : { "colorIndex" : 7 } } ],
+            "legs" : [ { "name" : "craftsmenlegs", "parameters" : { "colorIndex" : 7 } } ],
             "sheathedprimary" : [ [ "generatedgun", 1, { "definition" : "commonassaultrifle" } ] ]
           },
           {
-            "chest" : [ { "name" : "craftsmenchest", "data" : { "colorIndex" : 8 } } ],
-            "legs" : [ { "name" : "craftsmenlegs", "data" : { "colorIndex" : 8 } } ],
+            "chest" : [ { "name" : "craftsmenchest", "parameters" : { "colorIndex" : 8 } } ],
+            "legs" : [ { "name" : "craftsmenlegs", "parameters" : { "colorIndex" : 8 } } ],
             "sheathedprimary" : [ [ "generatedgun", 1, { "definition" : "commonassaultrifle" } ] ]
           },
           {
-            "chest" : [ { "name" : "craftsmenchest", "data" : { "colorIndex" : 9 } } ],
-            "legs" : [ { "name" : "craftsmenlegs", "data" : { "colorIndex" : 9 } } ],
+            "chest" : [ { "name" : "craftsmenchest", "parameters" : { "colorIndex" : 9 } } ],
+            "legs" : [ { "name" : "craftsmenlegs", "parameters" : { "colorIndex" : 9 } } ],
             "sheathedprimary" : [ [ "generatedgun", 1, { "definition" : "commonassaultrifle" } ] ]
           }
         ] ]

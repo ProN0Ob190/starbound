@@ -48,8 +48,8 @@
         "default" : [
             [0, [
                 {
-                    "chest" : [ { "name" : "aviancommonershirt", "data" : { "colorIndex" : 11 } } ],
-                    "legs" : [ { "name" : "hylotltier4pants", "data" : { "colorIndex" : 11 } } ]
+                    "chest" : [ { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 11 } } ],
+                    "legs" : [ { "name" : "hylotltier4pants", "parameters" : { "colorIndex" : 11 } } ]
                 }
             ] ]
         ]

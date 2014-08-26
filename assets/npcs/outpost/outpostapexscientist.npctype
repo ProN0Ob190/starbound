@@ -49,8 +49,8 @@
             [0, [
                 {
                     "head" : [ { "name" : "glasses2head" } ],
-                    "chest" : [ { "name" : "scientistchest", "data" : { "colorIndex" : 8 } } ],
-                    "legs" : [ { "name" : "scientistlegs", "data" : { "colorIndex" : 6 } } ]
+                    "chest" : [ { "name" : "scientistchest", "parameters" : { "colorIndex" : 8 } } ],
+                    "legs" : [ { "name" : "scientistlegs", "parameters" : { "colorIndex" : 6 } } ]
                 }
             ] ]
         ]

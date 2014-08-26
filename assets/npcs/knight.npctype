@@ -31,15 +31,15 @@
     "glitch" : [
       [0, [
           {
-            "head" : [ { "name" : "glitchtier4head", "data" : { "colorIndex" : 1 } } ],
-            "chest" : [ { "name" : "glitchtier4chest", "data" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "glitchtier4pants", "data" : { "colorIndex" : 1 } } ],
+            "head" : [ { "name" : "glitchtier4head", "parameters" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "glitchtier4chest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "glitchtier4pants", "parameters" : { "colorIndex" : 1 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } },
-              { "name" : "generatedsword", "data" : { "definition" : "commonbroadsword" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "commonshortsword" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "commonbroadsword" } }
             ],
             "alt" : [
-              { "name" : "generatedshield", "data" : { "definition" : "glitchstrongshield" } }
+              { "name" : "generatedshield", "parameters" : { "definition" : "glitchstrongshield" } }
             ]
           }
         ] ]

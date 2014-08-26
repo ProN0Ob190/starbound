@@ -48,8 +48,8 @@
         "default" : [
             [0, [
                 {
-                    "chest" : [ { "name" : "sweatervestchest", "data" : { "colorIndex" : 4 } } ],
-                    "legs" : [ { "name" : "sweatervestlegs", "data" : { "colorIndex" : 1 } } ]
+                    "chest" : [ { "name" : "sweatervestchest", "parameters" : { "colorIndex" : 4 } } ],
+                    "legs" : [ { "name" : "sweatervestlegs", "parameters" : { "colorIndex" : 1 } } ]
                 }
             ] ]
         ]

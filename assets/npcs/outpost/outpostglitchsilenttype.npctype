@@ -48,10 +48,10 @@
         "default" : [
             [0, [
                 {
-                    "head" : [ { "name" : "glitchtier4head", "data" : { "colorIndex" : 1 } } ],
-                    "chest" : [ { "name" : "apextier9chest", "data" : { "colorIndex" : 1 } } ],
-                    "legs" : [ { "name" : "glitchtier4pants", "data" : { "colorIndex" : 1 } } ],
-                    "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ]
+                    "head" : [ { "name" : "glitchtier4head", "parameters" : { "colorIndex" : 1 } } ],
+                    "chest" : [ { "name" : "apextier9chest", "parameters" : { "colorIndex" : 1 } } ],
+                    "legs" : [ { "name" : "glitchtier4pants", "parameters" : { "colorIndex" : 1 } } ],
+                    "back" : [ { "name" : "simplecapeback", "parameters" : { "colorIndex" : 1 } } ]
                 }
             ] ]
         ]

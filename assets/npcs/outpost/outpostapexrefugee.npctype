@@ -49,8 +49,8 @@
         "default" : [
           [0, [
               {
-                "chest" : [ { "name" : "kimonochest", "data" : { "colorIndex" : 4 } } ],
-                "legs" : [ { "name" : "apextier1pants", "data" : { "colorIndex" : 1 } } ]
+                "chest" : [ { "name" : "kimonochest", "parameters" : { "colorIndex" : 4 } } ],
+                "legs" : [ { "name" : "apextier1pants", "parameters" : { "colorIndex" : 1 } } ]
               }
             ] ]
         ]

@@ -140,7 +140,7 @@
       [0, [
           {
             "chest" : [ { "name" : "aviantier2chest" } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 4 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 4 } } ],
             "sheathedprimary" : [ [ "generatedsword", 1, { "definition" : "commondagger" } ] ]
           }
         ] ]
@@ -149,7 +149,7 @@
       [0, [
           {
             "chest" : [ { "name" : "aviantier2chest" } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 4 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 4 } } ],
             "sheathedprimary" : [ [ "generatedsword", 1, { "definition" : "commondagger" } ] ]
           }
         ] ]
@@ -158,7 +158,7 @@
       [0, [
           {
             "chest" : [ { "name" : "aviantier2chest" } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 4 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 4 } } ],
             "sheathedprimary" : [ [ "generatedsword", 1, { "definition" : "commondagger" } ] ]
           }
         ] ]
@@ -167,7 +167,7 @@
       [0, [
           {
             "chest" : [ { "name" : "aviantier2chest" } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 4 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 4 } } ],
             "sheathedprimary" : [ [ "generatedsword", 1, { "definition" : "commondagger" } ] ]
           }
         ] ]
@@ -176,7 +176,7 @@
       [0, [
           {
             "chest" : [ { "name" : "aviantier2chest" } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 4 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 4 } } ],
             "sheathedprimary" : [ [ "generatedsword", 1, { "definition" : "commondagger" } ] ]
           }
         ] ]
@@ -185,7 +185,7 @@
       [0, [
           {
             "chest" : [ { "name" : "aviantier2chest" } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 4 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 4 } } ],
             "sheathedprimary" : [ [ "generatedsword", 1, { "definition" : "commondagger" } ] ]
           }
         ] ]
@@ -194,7 +194,7 @@
       [0, [
           {
             "chest" : [ { "name" : "aviantier2chest" } ],
-            "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 4 } } ],
+            "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 4 } } ],
             "sheathedprimary" : [ [ "generatedsword", 1, { "definition" : "commondagger" } ] ]
           }
         ] ]

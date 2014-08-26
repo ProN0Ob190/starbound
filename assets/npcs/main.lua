@@ -103,6 +103,10 @@ function swapItemSlot(slot)
     newItem = nil
   end
 
+  if newItem then
+    newItem.parameters.level = entity.level()
+  end
+
   entity.setItemSlot(slot, newItem)
   storage["sheathed" .. slot .. "Item"] = oldItem
 

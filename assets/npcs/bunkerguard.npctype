@@ -82,25 +82,25 @@
     "human" : [
       [0, [
           {
-            "head" : [ { "name" : "soldierhead", "data" : { "colorIndex" : 7 } } ],
-            "chest" : [ { "name" : "soldierchest", "data" : { "colorIndex" : 7 } } ],
-            "legs" : [ { "name" : "soldierpants", "data" : { "colorIndex" : 7 } } ],
+            "head" : [ { "name" : "soldierhead", "parameters" : { "colorIndex" : 7 } } ],
+            "chest" : [ { "name" : "soldierchest", "parameters" : { "colorIndex" : 7 } } ],
+            "legs" : [ { "name" : "soldierpants", "parameters" : { "colorIndex" : 7 } } ],
             "primary" : [
-              { "name" : "generatedgun", "data" : { "definition" : "pulserifle" } }
+              { "name" : "generatedgun", "parameters" : { "definition" : "pulserifle" } }
             ],
             "sheathedprimary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "nightstick" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "nightstick" } }
             ]
           },
           {
-            "head" : [ { "name" : "soldierhead", "data" : { "colorIndex" : 8 } } ],
-            "chest" : [ { "name" : "soldierchest", "data" : { "colorIndex" : 8 } } ],
-            "legs" : [ { "name" : "soldierpants", "data" : { "colorIndex" : 8 } } ],
+            "head" : [ { "name" : "soldierhead", "parameters" : { "colorIndex" : 8 } } ],
+            "chest" : [ { "name" : "soldierchest", "parameters" : { "colorIndex" : 8 } } ],
+            "legs" : [ { "name" : "soldierpants", "parameters" : { "colorIndex" : 8 } } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "nightstick" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "nightstick" } }
             ],
             "alt" : [
-              { "name" : "generatedshield", "data" : { "definition" : "riotshield" } }
+              { "name" : "generatedshield", "parameters" : { "definition" : "riotshield" } }
             ]
           }
         ] ]

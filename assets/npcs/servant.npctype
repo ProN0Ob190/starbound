@@ -213,58 +213,58 @@
       [0, [
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 1 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 1 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 1 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 1 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 4 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 4 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 4 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 4 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 5 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 5 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 5 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 5 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 6 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 6 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 6 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 6 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 7 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 7 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 7 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 7 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 8 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 8 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 8 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 8 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 9 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 9 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 9 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 9 } }
             ]
           }
         ] ]
@@ -274,58 +274,58 @@
       [0, [
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 1 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 1 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 1 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 1 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 4 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 4 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 4 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 4 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 5 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 5 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 5 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 5 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 6 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 6 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 6 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 6 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 7 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 7 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 7 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 7 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 8 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 8 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 8 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 8 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 9 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 9 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 9 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 9 } }
             ]
           }
         ] ]
@@ -335,58 +335,58 @@
       [0, [
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 1 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 1 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 1 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 1 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 4 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 4 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 4 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 4 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 5 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 5 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 5 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 5 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 6 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 6 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 6 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 6 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 7 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 7 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 7 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 7 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 8 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 8 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 8 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 8 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 9 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 9 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 9 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 9 } }
             ]
           }
         ] ]
@@ -396,58 +396,58 @@
       [0, [
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 1 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 1 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 1 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 1 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 4 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 4 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 4 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 4 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 5 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 5 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 5 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 5 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 6 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 6 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 6 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 6 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 7 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 7 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 7 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 7 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 8 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 8 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 8 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 8 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 9 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 9 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 9 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 9 } }
             ]
           }
         ] ]
@@ -457,58 +457,58 @@
       [0, [
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 1 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 1 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 1 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 1 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 4 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 4 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 4 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 4 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 5 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 5 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 5 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 5 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 6 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 6 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 6 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 6 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 7 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 7 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 7 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 7 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 8 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 8 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 8 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 8 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 9 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 9 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 9 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 9 } }
             ]
           }
         ] ]
@@ -518,58 +518,58 @@
       [0, [
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 1 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 1 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 1 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 1 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 4 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 4 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 4 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 4 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 5 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 5 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 5 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 5 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 6 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 6 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 6 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 6 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 7 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 7 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 7 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 7 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 8 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 8 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 8 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 8 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 9 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 9 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 9 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 9 } }
             ]
           }
         ] ]
@@ -579,58 +579,58 @@
       [0, [
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 1 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 1 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 1 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 1 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 4 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 4 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 4 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 4 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 5 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 5 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 5 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 5 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 6 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 6 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 6 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 6 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 7 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 7 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 7 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 7 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 8 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 8 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 8 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 8 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "peasantchest", "data" : { "colorIndex" : 9 } }
+              { "name" : "peasantchest", "parameters" : { "colorIndex" : 9 } }
             ],
             "legs" : [
-              { "name" : "peasantlegs", "data" : { "colorIndex" : 9 } }
+              { "name" : "peasantlegs", "parameters" : { "colorIndex" : 9 } }
             ]
           }
         ] ]

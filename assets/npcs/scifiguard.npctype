@@ -86,7 +86,7 @@
             "chest" : [ { "name" : "glitchtier8chest" } ],
             "legs" : [ { "name" : "glitchtier8pants" } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "aviansword" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "aviansword" } }
             ]
           }
         ] ]

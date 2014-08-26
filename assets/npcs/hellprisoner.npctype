@@ -68,10 +68,10 @@
     "floran" : [
       [0, [
           {
-            "chest" : [ { "name" : "floranleafchest", "data" : { "colorIndex" : 11 } } ],
-            "legs" : [ { "name" : "floranleaflegs", "data" : { "colorIndex" : 11 } } ],
+            "chest" : [ { "name" : "floranleafchest", "parameters" : { "colorIndex" : 11 } } ],
+            "legs" : [ { "name" : "floranleaflegs", "parameters" : { "colorIndex" : 11 } } ],
             "sheathedprimary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "shiv" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "shiv" } }
             ]
           }
         ] ]

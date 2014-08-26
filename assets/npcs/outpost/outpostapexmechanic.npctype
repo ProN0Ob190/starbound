@@ -49,7 +49,7 @@
             [0, [
                 {
                     "chest" : [ { "name" : "apextier3chest" } ],
-                    "legs" : [ { "name" : "apextier4pants", "data" : { "colorIndex" : 1 } } ]
+                    "legs" : [ { "name" : "apextier4pants", "parameters" : { "colorIndex" : 1 } } ]
                 }
             ] ]
         ]

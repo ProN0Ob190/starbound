@@ -74,6 +74,7 @@ function merchantState.buildTradingConfig()
 
       if highestLevelSet ~= nil then
         for _, item in pairs(highestLevelSet) do
+          if item.item.parameters then item.item.parameters.level = entity.level() end
           table.insert(items, item)
         end
       end

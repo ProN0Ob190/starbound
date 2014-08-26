@@ -48,8 +48,8 @@
         "default" : [
             [0, [
                 {
-                    "chest" : [ { "name" : "traineechest", "data" : { "colorIndex" : 4 } } ],
-                    "legs" : [ { "name" : "hylotltier6pants", "data" : { "colorIndex" : 4 } } ]
+                    "chest" : [ { "name" : "traineechest", "parameters" : { "colorIndex" : 4 } } ],
+                    "legs" : [ { "name" : "hylotltier6pants", "parameters" : { "colorIndex" : 4 } } ]
                 }
             ] ]
         ]

@@ -79,7 +79,7 @@
             "chest" : [ { "name" : "aviantier4chest" } ],
             "legs" : [ { "name" : "aviantier4pants" } ],
             "primary" : [
-              { "name" : "generatedsword", "data" : { "definition" : "aviansword" } }
+              { "name" : "generatedsword", "parameters" : { "definition" : "aviansword" } }
             ]
           }
         ] ]

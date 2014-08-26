@@ -48,9 +48,9 @@
         "default" : [
             [0, [
                 {
-                    "head" : [ { "name" : "humantier5head", "data" : { "colorIndex" : 1 } } ],
-                    "chest" : [ { "name" : "peasantchest", "data" : { "colorIndex" : 7 } } ],
-                    "legs" : [ { "name" : "apextier5pants", "data" : { "colorIndex" : 1 } } ]
+                    "head" : [ { "name" : "humantier5head", "parameters" : { "colorIndex" : 1 } } ],
+                    "chest" : [ { "name" : "peasantchest", "parameters" : { "colorIndex" : 7 } } ],
+                    "legs" : [ { "name" : "apextier5pants", "parameters" : { "colorIndex" : 1 } } ]
                 }
             ] ]
         ]

@@ -47,6 +47,10 @@ function wanderState.update(dt, stateData)
     end
   end
 
+  if stateData.movement == 0 then
+    stateData.movement = stateData.movement + calculateSeparationMovement()
+  end
+
   if stateData.movement == 1 then
     entity.setFacingDirection(1)
     moveX(stateData.movement)

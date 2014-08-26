@@ -48,8 +48,8 @@
         "default" : [
             [0, [
                 {
-                    "chest" : [ { "name" : "florantier6chest", "data" : { "colorIndex" : 3 } } ],
-                    "legs" : [ { "name" : "humantier2pants", "data" : { "colorIndex" : 7 } } ]
+                    "chest" : [ { "name" : "florantier6chest", "parameters" : { "colorIndex" : 3 } } ],
+                    "legs" : [ { "name" : "humantier2pants", "parameters" : { "colorIndex" : 7 } } ]
                 }
             ] ]
         ]

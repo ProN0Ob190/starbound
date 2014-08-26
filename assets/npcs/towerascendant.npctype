@@ -112,58 +112,58 @@
       [0, [
           {
             "chest" : [
-              { "name" : "avianadventurershirt", "data" : { "colorIndex" : 1 } }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 1 } }, { "name" : "avianfancyshirt", "data" : { "colorIndex" : 1 } }, { "name" : "avianworkershirt", "data" : { "colorIndex" : 1 } }
+              { "name" : "avianadventurershirt", "parameters" : { "colorIndex" : 1 } }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 1 } }, { "name" : "avianfancyshirt", "parameters" : { "colorIndex" : 1 } }, { "name" : "avianworkershirt", "parameters" : { "colorIndex" : 1 } }
             ],
             "legs" : [
-              { "name" : "avianadventurerpants", "data" : { "colorIndex" : 1 } }, { "name" : "aviancommonerlegs", "data" : { "colorIndex" : 1 } }, { "name" : "avianfancyskirt", "data" : { "colorIndex" : 1 } }
+              { "name" : "avianadventurerpants", "parameters" : { "colorIndex" : 1 } }, { "name" : "aviancommonerlegs", "parameters" : { "colorIndex" : 1 } }, { "name" : "avianfancyskirt", "parameters" : { "colorIndex" : 1 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "avianadventurershirt", "data" : { "colorIndex" : 4 } }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 4 } }, { "name" : "avianfancyshirt", "data" : { "colorIndex" : 4 } }, { "name" : "avianworkershirt", "data" : { "colorIndex" : 4 } }
+              { "name" : "avianadventurershirt", "parameters" : { "colorIndex" : 4 } }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 4 } }, { "name" : "avianfancyshirt", "parameters" : { "colorIndex" : 4 } }, { "name" : "avianworkershirt", "parameters" : { "colorIndex" : 4 } }
             ],
             "legs" : [
-              { "name" : "avianadventurerpants", "data" : { "colorIndex" : 4 } }, { "name" : "aviancommonerlegs", "data" : { "colorIndex" : 4 } }, { "name" : "avianfancyskirt", "data" : { "colorIndex" : 4 } }
+              { "name" : "avianadventurerpants", "parameters" : { "colorIndex" : 4 } }, { "name" : "aviancommonerlegs", "parameters" : { "colorIndex" : 4 } }, { "name" : "avianfancyskirt", "parameters" : { "colorIndex" : 4 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "avianadventurershirt", "data" : { "colorIndex" : 5 } }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 5 } }, { "name" : "avianfancyshirt", "data" : { "colorIndex" : 5 } }, { "name" : "avianworkershirt", "data" : { "colorIndex" : 5 } }
+              { "name" : "avianadventurershirt", "parameters" : { "colorIndex" : 5 } }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 5 } }, { "name" : "avianfancyshirt", "parameters" : { "colorIndex" : 5 } }, { "name" : "avianworkershirt", "parameters" : { "colorIndex" : 5 } }
             ],
             "legs" : [
-              { "name" : "avianadventurerpants", "data" : { "colorIndex" : 5 } }, { "name" : "aviancommonerlegs", "data" : { "colorIndex" : 5 } }, { "name" : "avianfancyskirt", "data" : { "colorIndex" : 5 } }
+              { "name" : "avianadventurerpants", "parameters" : { "colorIndex" : 5 } }, { "name" : "aviancommonerlegs", "parameters" : { "colorIndex" : 5 } }, { "name" : "avianfancyskirt", "parameters" : { "colorIndex" : 5 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "avianadventurershirt", "data" : { "colorIndex" : 6 } }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 6 } }, { "name" : "avianfancyshirt", "data" : { "colorIndex" : 6 } }, { "name" : "avianworkershirt", "data" : { "colorIndex" : 6 } }
+              { "name" : "avianadventurershirt", "parameters" : { "colorIndex" : 6 } }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 6 } }, { "name" : "avianfancyshirt", "parameters" : { "colorIndex" : 6 } }, { "name" : "avianworkershirt", "parameters" : { "colorIndex" : 6 } }
             ],
             "legs" : [
-              { "name" : "avianadventurerpants", "data" : { "colorIndex" : 6 } }, { "name" : "aviancommonerlegs", "data" : { "colorIndex" : 6 } }, { "name" : "avianfancyskirt", "data" : { "colorIndex" : 6 } }
+              { "name" : "avianadventurerpants", "parameters" : { "colorIndex" : 6 } }, { "name" : "aviancommonerlegs", "parameters" : { "colorIndex" : 6 } }, { "name" : "avianfancyskirt", "parameters" : { "colorIndex" : 6 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "avianadventurershirt", "data" : { "colorIndex" : 7 } }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 7 } }, { "name" : "avianfancyshirt", "data" : { "colorIndex" : 7 } }, { "name" : "avianworkershirt", "data" : { "colorIndex" : 7 } }
+              { "name" : "avianadventurershirt", "parameters" : { "colorIndex" : 7 } }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 7 } }, { "name" : "avianfancyshirt", "parameters" : { "colorIndex" : 7 } }, { "name" : "avianworkershirt", "parameters" : { "colorIndex" : 7 } }
             ],
             "legs" : [
-              { "name" : "avianadventurerpants", "data" : { "colorIndex" : 7 } }, { "name" : "aviancommonerlegs", "data" : { "colorIndex" : 7 } }, { "name" : "avianfancyskirt", "data" : { "colorIndex" : 7 } }
+              { "name" : "avianadventurerpants", "parameters" : { "colorIndex" : 7 } }, { "name" : "aviancommonerlegs", "parameters" : { "colorIndex" : 7 } }, { "name" : "avianfancyskirt", "parameters" : { "colorIndex" : 7 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "avianadventurershirt", "data" : { "colorIndex" : 8 } }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 8 } }, { "name" : "avianfancyshirt", "data" : { "colorIndex" : 8 } }, { "name" : "avianworkershirt", "data" : { "colorIndex" : 8 } }
+              { "name" : "avianadventurershirt", "parameters" : { "colorIndex" : 8 } }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 8 } }, { "name" : "avianfancyshirt", "parameters" : { "colorIndex" : 8 } }, { "name" : "avianworkershirt", "parameters" : { "colorIndex" : 8 } }
             ],
             "legs" : [
-              { "name" : "avianadventurerpants", "data" : { "colorIndex" : 8 } }, { "name" : "aviancommonerlegs", "data" : { "colorIndex" : 8 } }, { "name" : "avianfancyskirt", "data" : { "colorIndex" : 8 } }
+              { "name" : "avianadventurerpants", "parameters" : { "colorIndex" : 8 } }, { "name" : "aviancommonerlegs", "parameters" : { "colorIndex" : 8 } }, { "name" : "avianfancyskirt", "parameters" : { "colorIndex" : 8 } }
             ]
           },
           {
             "chest" : [
-              { "name" : "avianadventurershirt", "data" : { "colorIndex" : 9 } }, { "name" : "aviancommonershirt", "data" : { "colorIndex" : 9 } }, { "name" : "avianfancyshirt", "data" : { "colorIndex" : 9 } }, { "name" : "avianworkershirt", "data" : { "colorIndex" : 9 } }
+              { "name" : "avianadventurershirt", "parameters" : { "colorIndex" : 9 } }, { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 9 } }, { "name" : "avianfancyshirt", "parameters" : { "colorIndex" : 9 } }, { "name" : "avianworkershirt", "parameters" : { "colorIndex" : 9 } }
             ],
             "legs" : [
-              { "name" : "avianadventurerpants", "data" : { "colorIndex" : 9 } }, { "name" : "aviancommonerlegs", "data" : { "colorIndex" : 9 } }, { "name" : "avianfancyskirt", "data" : { "colorIndex" : 9 } }
+              { "name" : "avianadventurerpants", "parameters" : { "colorIndex" : 9 } }, { "name" : "aviancommonerlegs", "parameters" : { "colorIndex" : 9 } }, { "name" : "avianfancyskirt", "parameters" : { "colorIndex" : 9 } }
             ]
           }
         ] ]

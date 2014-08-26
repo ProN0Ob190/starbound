@@ -49,8 +49,8 @@
             [0, [
                 {
                     "head" : [ { "name" : "pilothead" } ],
-                    "chest" : [ { "name" : "coolchest", "data" : { "colorIndex" : 3 } } ],
-                    "legs" : [ { "name" : "piratelegs", "data" : { "colorIndex" : 8 } } ]
+                    "chest" : [ { "name" : "coolchest", "parameters" : { "colorIndex" : 3 } } ],
+                    "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 8 } } ]
                 }
             ] ]
         ]

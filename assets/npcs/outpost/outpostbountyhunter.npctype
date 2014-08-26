@@ -48,10 +48,10 @@
         "default" : [
             [0, [
                 {
-                    "head" : [ { "name" : "neohead", "data" : { "colorIndex" : 8 } } ],
-                    "chest" : [ { "name" : "neochest", "data" : { "colorIndex" : 4 } } ],
-                    "legs" : [ { "name" : "neolegs", "data" : { "colorIndex" : 4 } } ],
-                    "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 4 } } ]
+                    "head" : [ { "name" : "neohead", "parameters" : { "colorIndex" : 8 } } ],
+                    "chest" : [ { "name" : "neochest", "parameters" : { "colorIndex" : 4 } } ],
+                    "legs" : [ { "name" : "neolegs", "parameters" : { "colorIndex" : 4 } } ],
+                    "back" : [ { "name" : "simplecapeback", "parameters" : { "colorIndex" : 4 } } ]
                 }
             ] ]
         ]
