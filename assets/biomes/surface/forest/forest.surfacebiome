@@ -576,8 +576,6 @@
   },
 
   "allowedDetachedBiomes" : [
-    [0.0, [ "mushroompatch" ]],
-    [1.5, [ "toxicplains", "flowers", "eyepatch", "mushroompatch", "arctic", "arid", "desert", "forest", "grasslands", "jungle", "magma", "ocean", "savannah", "snow", "tentacles", "tundra", "volcanic" ]]
+    [0, [ "toxicplains", "flowers", "eyepatch", "mushroompatch", "grasslands", "jungle", "ocean", "savannah", "tentacles" ]]
   ]
-  // "allowedDetachedBiomes" : [ "toxicplains", "charred", "flowers", "eyepatch", "mushroompatch", "rocky" ]
 }

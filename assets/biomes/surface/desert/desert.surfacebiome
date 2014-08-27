@@ -537,6 +537,6 @@
   },
 
   "allowedDetachedBiomes" : [
-    [0, [ "bones", "sandstone", "tar", "oasis", "colourful", "arctic", "arid", "desert", "forest", "grasslands", "jungle", "magma", "ocean", "savannah", "snow", "tentacles", "tundra", "volcanic" ]]
+    [0, [ "shrubby", "aridbones", "bones", "sandstone", "tar", "oasis", "colourful", "arid", "desert", "grasslands", "magma", "savannah", "volcanic" ]]
   ]
 }

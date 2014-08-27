@@ -1,6 +1,6 @@
 {
   "name" : "toxicplains",
-  "friendlyName" : "Toxicplains",
+  "friendlyName" : "Toxic Plains",
   "spawnProfiles" : [ "surfacemix1", "surfacemix2", "surfacemix3" ],
 
   "surfaceParameters" : {

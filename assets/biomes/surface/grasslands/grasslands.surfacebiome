@@ -308,6 +308,32 @@
 
           "type" : "grass",
           "grasses" : [ "grass" ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 2.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:scatteredLarge",
+
+          "type" : "tree",
+          "treeFoliageHueShiftMax" : 180,
+          "treeStemHueShiftMax" : 15,
+          "treeStemList" : [ "birch", "pine", "wood", "pineytree" ],
+          "treeFoliageList" : [ "greenleaves", "leafy", "lotus", "lushgreen", "pinefoliage", "redleaves", "scraggy" ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+          "type" : "object",
+          "objectSets" : [
+            {
+              "pool" : [ [1, "wildwheatseed" ] ],
+              "parameters" : { "startingStage" : 2 }
+            }
+          ]
         }
       ]
     },
@@ -498,6 +524,6 @@
   },
 
   "allowedDetachedBiomes" : [
-    [0, [ "flowers", "arctic", "arid", "desert", "forest", "grasslands", "jungle", "magma", "ocean", "savannah", "snow", "tentacles", "tundra", "volcanic" ]]
+    [0, [ "forest", "desert" ]]
   ]
 }

@@ -484,7 +484,6 @@
   },
 
   "allowedDetachedBiomes" : [
-    [0, [ "crystalline", "rust", "arctic", "arid", "desert", "forest", "grasslands", "jungle", "magma", "ocean", "savannah", "snow", "tentacles", "tundra", "volcanic" ]]
+    [0, [ "crystalline", "rust", "arid", "desert", "magma", "savannah", "volcanic" ]]
   ]
-  //    "allowedDetachedBiomes" : [ "crystalline" ]
 }

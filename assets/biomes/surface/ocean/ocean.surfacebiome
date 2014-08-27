@@ -461,5 +461,9 @@
         }
       ]
     }
-  }
+  },
+
+  "allowedDetachedBiomes" : [
+    [0, [ "desert", "flowers", "colourful", "grasslands", "jungle", "savannah" ]]
+  ]
 }

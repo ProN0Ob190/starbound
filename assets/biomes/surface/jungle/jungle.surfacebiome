@@ -537,6 +537,6 @@
   },
 
   "allowedDetachedBiomes" : [
-    [0, [ "flesh", "giantflowers", "arctic", "arid", "desert", "forest", "grasslands", "jungle", "magma", "ocean", "savannah", "snow", "tentacles", "tundra", "volcanic" ]]
+    [0, [ "flesh", "giantflowers", "toxicplains", "eyepatch", "desert", "forest", "grasslands", "jungle", "ocean", "tentacles" ]]
   ]
 }
