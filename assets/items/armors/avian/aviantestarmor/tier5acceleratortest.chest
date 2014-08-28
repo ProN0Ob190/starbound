@@ -1,5 +1,5 @@
 {
-  "itemName" : "aviantier10chest",
+  "itemName" : "tier5acceleratortest",
   "inventoryIcon" : "icons.png:chest",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
@@ -23,24 +23,33 @@
   "statusEffects" : [
     {
       "kind" : "ColdProtection",
-      "amount" : 27.5
+      "amount" : 55
     },
 
     {
       "kind" : "Protection",
-      "level" : 32,
-      "amount" : 88
+      "amount" : 170
     },
 
     {
       "kind" : "healthincrease",
-      "amount" : 130
+      "amount" : 135
+    },
+
+    {
+      "kind" : "energyincrease",
+      "amount" : 270
+    },
+
+    {
+      "kind" : "energyregenmodifier",
+      "amount" : 1.35
     }
   ],
 
   "colorOptions" : [
-    /* BLUE */
-    { "ffca8a" : "96cbe7", "e0975c" : "5588d4", "a85636" : "344495", "6f2919" : "1a1c51" },
+    /* GREEN */
+    { "ffca8a" : "b2e89d", "e0975c" : "51bd3b", "a85636" : "247824", "6f2919" : "144216" },
     /* BLACK */
     { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
     /* GREY */

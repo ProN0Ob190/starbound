@@ -1,5 +1,5 @@
 {
-  "itemName" : "aviantier10chest",
+  "itemName" : "tier5manipulatortest",
   "inventoryIcon" : "icons.png:chest",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
@@ -23,24 +23,33 @@
   "statusEffects" : [
     {
       "kind" : "ColdProtection",
-      "amount" : 27.5
+      "amount" : 55
     },
 
     {
       "kind" : "Protection",
-      "level" : 32,
-      "amount" : 88
+      "amount" : 135
     },
 
     {
       "kind" : "healthincrease",
-      "amount" : 130
+      "amount" : 100
+    },
+
+    {
+      "kind" : "energyincrease",
+      "amount" : 340
+    },
+
+    {
+      "kind" : "energyregenmodifier",
+      "amount" : 1.7
     }
   ],
 
   "colorOptions" : [
-    /* BLUE */
-    { "ffca8a" : "96cbe7", "e0975c" : "5588d4", "a85636" : "344495", "6f2919" : "1a1c51" },
+    /* RED */
+    { "ffca8a" : "f4988c", "e0975c" : "d93a3a", "a85636" : "932625", "6f2919" : "601119" },
     /* BLACK */
     { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
     /* GREY */

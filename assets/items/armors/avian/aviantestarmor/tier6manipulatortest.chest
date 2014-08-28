@@ -1,5 +1,5 @@
 {
-  "itemName" : "aviantier10chest",
+  "itemName" : "tier6manipulatortest",
   "inventoryIcon" : "icons.png:chest",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
@@ -23,18 +23,27 @@
   "statusEffects" : [
     {
       "kind" : "ColdProtection",
-      "amount" : 27.5
+      "amount" : 66
     },
 
     {
       "kind" : "Protection",
-      "level" : 32,
-      "amount" : 88
+      "amount" : 185
     },
 
     {
       "kind" : "healthincrease",
       "amount" : 130
+    },
+
+    {
+      "kind" : "energyincrease",
+      "amount" : 440
+    },
+
+    {
+      "kind" : "energyregenmodifier",
+      "amount" : 2.15
     }
   ],
 
