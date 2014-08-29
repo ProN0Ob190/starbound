@@ -393,8 +393,6 @@
           "treeStemHueShiftMax" : 15,
           "treeStemList" : [ "birch", "cocoa", "fleshy", "grumpy", "metal", "pine", "roottree", "slimey", "something", "spikey", "twisted", "wood", "slobby", "pineytree" ],
           "treeFoliageList" : [ "rose", "brains", "bubbles", "cloudy", "frumpy", "greenleaves", "hanging", "leafy", "lotus", "lushgreen", "orangeflower", "pinefoliage", "redleaves", "scraggy", "spikeyfoliage" ]
-
-
         }
       ]
     },
@@ -576,6 +574,6 @@
   },
 
   "allowedDetachedBiomes" : [
-    [0, [ "toxicplains", "flowers", "eyepatch", "mushroompatch", "grasslands", "jungle", "ocean", "savannah", "tentacles" ]]
+    [0, [ "toxicplains", "flowers", "eyepatch", "mushroompatch", "garden", "jungle", "ocean", "savannah", "tentacles" ]]
   ]
 }

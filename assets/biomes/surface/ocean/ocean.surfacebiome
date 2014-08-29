@@ -464,6 +464,6 @@
   },
 
   "allowedDetachedBiomes" : [
-    [0, [ "desert", "flowers", "colourful", "grasslands", "jungle", "savannah" ]]
+    [0, [ "desert", "flowers", "colourful", "garden", "jungle", "savannah" ]]
   ]
 }

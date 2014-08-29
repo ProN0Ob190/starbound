@@ -476,6 +476,6 @@
   },
 
   "allowedDetachedBiomes" : [
-    [0, [ "forest", "arid", "desert", "grasslands", "jungle", "magma", "savannah", "snow", "tundra", "volcanic" ]]
+    [0, [ "forest", "arid", "desert", "garden", "jungle", "magma", "savannah", "snow", "tundra", "volcanic" ]]
   ]
 }

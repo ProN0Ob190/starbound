@@ -1,5 +1,5 @@
 {
-  "image" : "grasslandsunderground.png?brightness=-65",
+  "image" : "gardensunderground.png?brightness=-65",
   "dividerimage" : "rockdivider.png?brightness=-65",
   "parallax" : 1.1,
   "origin" : [0, 395]

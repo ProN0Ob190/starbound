@@ -505,6 +505,6 @@
   },
 
   "allowedDetachedBiomes" : [
-    [0, [ "rust", "shrubby", "aridbones", "desert", "forest", "grasslands" ]]
+    [0, [ "rust", "shrubby", "aridbones", "desert", "forest", "garden" ]]
   ]
 }

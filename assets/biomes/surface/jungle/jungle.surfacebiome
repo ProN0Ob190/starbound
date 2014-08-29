@@ -537,6 +537,6 @@
   },
 
   "allowedDetachedBiomes" : [
-    [0, [ "flesh", "giantflowers", "toxicplains", "eyepatch", "desert", "forest", "grasslands", "jungle", "ocean", "tentacles" ]]
+    [0, [ "flesh", "giantflowers", "toxicplains", "eyepatch", "desert", "forest", "garden", "jungle", "ocean", "tentacles" ]]
   ]
 }

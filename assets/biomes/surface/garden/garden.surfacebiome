@@ -1,6 +1,6 @@
 {
-  "name" : "grasslands",
-  "friendlyName" : "Grasslands",
+  "name" : "garden",
+  "friendlyName" : "Garden",
 
   "caveLiquidType" : [
     [0.0, ["water"]],
@@ -11,11 +11,11 @@
   "requiredStatuses" : [],
   "spawnProfiles" : [ "surfacemix1", "surfacemix2", "surfacemix3" ],
 
-  "hueShiftOptions" : [-180, -135, -90, -45, 0, 45, 90, 135, 180],
+  //"hueShiftOptions" : [-180, -135, -90, -45, 0, 45, 90, 135, 180],
+  "hueShiftOptions" : [-30, -20, -15, -10, -5, 0, 5, 10, 15, 20, 30],
 
   "weather" : [
     [0, [
-      "/weather.config:clear",
       "/weather.config:clear",
       "/weather.config:commonLightRainMixAndGlowingRain",
       "/weather.config:commonLightRainMixAndGlowingRain"
@@ -39,7 +39,6 @@
   ],
 
   "skyOptions" : [
-
     {
       "mainColor" : [255, 255, 255],
 
@@ -165,24 +164,24 @@
     "subBlocks" : [ "rock02" ],
     "ores" : "surfaceOres",
 
-    "parallax" : "grasslands.parallax",
-    "undergroundParallax" : "grasslands.undergroundparallax",
+    "parallax" : "/biomes/surface/garden/garden.parallax",
+    "undergroundParallax" : "/biomes/surface/garden/garden.undergroundparallax",
 
     "ambientNoises" : {
       "day" : {
-        "tracks" : [ "/sfx/environmental/grasslands_day.ogg" ]
+        "tracks" : [ "/sfx/environmental/garden_day.ogg" ]
       },
       "night" : {
-        "tracks" : [ "/sfx/environmental/grasslands_night.ogg" ]
+        "tracks" : [ "/sfx/environmental/garden_night.ogg" ]
       }
     },
 
     "undergroundAmbientNoises" : {
       "day" : {
-        "tracks" : [ "/sfx/environmental/grasslands_underground.ogg" ]
+        "tracks" : [ "/sfx/environmental/garden_underground.ogg" ]
       },
       "night" : {
-        "tracks" : [ "/sfx/environmental/grasslands_underground.ogg" ]
+        "tracks" : [ "/sfx/environmental/garden_underground.ogg" ]
       }
     },
 
@@ -286,24 +285,6 @@
           "mode" : "floor",
           "priority" : 3.0,
           "variants" : 1,
-          "distribution" : "/biomes/distributions.config:randomEncounter",
-
-          "type" : "microdungeon",
-          "microdungeons" : [ "randomencounter", "apexencounter", "avianencounter", "floranencounter", "glitchencounter", "humanencounter" ]
-        },
-        {
-          "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:minibossoverground",
-
-          "type" : "microdungeon",
-          "microdungeons" : [ "minibossoverground" ]
-        },
-        {
-          "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
           "distribution" : "/biomes/distributions.config:denseSmall",
 
           "type" : "grass",
@@ -318,26 +299,83 @@
           "type" : "tree",
           "treeFoliageHueShiftMax" : 180,
           "treeStemHueShiftMax" : 15,
-          "treeStemList" : [ "birch", "pine", "wood", "pineytree" ],
-          "treeFoliageList" : [ "greenleaves", "leafy", "lotus", "lushgreen", "pinefoliage", "redleaves", "scraggy" ]
+          "treeStemList" : [ "pineytree" ],
+          "treeFoliageList" : [ "pinefoliage" ]
+        },
+        {
+          "mode" : "ceiling",
+          "priority" : 2.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:denseMedium",
+
+          "type" : "tree",
+          "treeFoliageHueShiftMax" : 180,
+          "treeStemHueShiftMax" : 180,
+          "treeStemList" : [ "vine", "vine2", "vine3", "vine4" ],
+          "treeFoliageList" : [ "flowery", "starry", "dreamy" ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 3.0,
+          "variants" : 1,
+          "period" : 5,
+          "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+          "type" : "grass",
+          "grasses" : [ "testflower", "testflower2", "testflower3", "testflower4", "testflower5", "testflower6", "testflower7" ]
         },
         {
           "mode" : "floor",
           "priority" : 1.0,
           "variants" : 1,
-          "distribution" : "/biomes/distributions.config:scatteredSmall",
+          "distribution" : "/biomes/distributions.config:potsRare",
 
           "type" : "object",
           "objectSets" : [
             {
-              "pool" : [ [1, "wildwheatseed" ] ],
+              "pool" : [ [1, "wildcarrotseed" ] ],
+              "parameters" : { "startingStage" : 2 }
+            },
+            {
+              "pool" : [ [1, "wildavesmingoseed" ] ],
+              "parameters" : { "startingStage" : 2 }
+            },
+            {
+              "pool" : [ [1, "wildbeakseedseed" ] ],
+              "parameters" : { "startingStage" : 2 }
+            },
+            {
+              "pool" : [ [1, "wildchiliseed" ] ],
+              "parameters" : { "startingStage" : 2 }
+            },
+            {
+              "pool" : [ [1, "wildeggshootseed" ] ],
+              "parameters" : { "startingStage" : 2 }
+            },
+            {
+              "pool" : [ [1, "wildfeathercrownseed" ] ],
+              "parameters" : { "startingStage" : 2 }
+            },
+            {
+              "pool" : [ [1, "wildgrapesseed" ] ],
+              "parameters" : { "startingStage" : 2 }
+            },
+            {
+              "pool" : [ [1, "wildpotatoseed" ] ],
+              "parameters" : { "startingStage" : 2 }
+            },
+            {
+              "pool" : [ [1, "wildriceseed" ] ],
+              "parameters" : { "startingStage" : 2 }
+            },
+            {
+              "pool" : [ [1, "wildtomatoseed" ] ],
               "parameters" : { "startingStage" : 2 }
             }
           ]
         }
       ]
     },
-
 
     "statusParameters" : {
       "temperatureBounds" : [15, 30],
@@ -517,13 +555,13 @@
     },
 
     "statusParameters" : {
-      "temperatureBounds" : [15, 20],
-      "dayNightTemperatureVariability" : 12,
+      "temperatureBounds" : [3, 10],
+      "dayNightTemperatureVariability" : -8,
       "temperatureVariability" : 3
     }
   },
 
   "allowedDetachedBiomes" : [
-    [0, [ "forest", "desert" ]]
+    [0, [ "forest", "garden" ]]
   ]
 }

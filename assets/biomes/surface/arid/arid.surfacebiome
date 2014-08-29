@@ -514,6 +514,6 @@
   },
 
   "allowedDetachedBiomes" : [
-    [0, [ "rust", "aridbones", "bones", "arid", "desert", "grasslands", "magma", "savannah", "volcanic" ]]
+    [0, [ "rust", "aridbones", "bones", "arid", "desert", "garden", "magma", "savannah", "volcanic" ]]
   ]
 }
