@@ -450,6 +450,24 @@ function spawnedBy(args)
 end
 
 --------------------------------------------------------------------------------
+function setFacingDirection(direction)
+  if entity.onGround() then
+    entity.setFacingDirection(direction)
+  end
+end
+
+--------------------------------------------------------------------------------
+function moveX(direction, changeFacing)
+  if changeFacing ~= false then setFacingDirection(direction) end
+
+  if direction < 0 then
+    entity.moveLeft()
+  elseif direction > 0 then
+    entity.moveRight()
+  end
+end
+
+--------------------------------------------------------------------------------
 -- Valid options:
 --   openDoorCallback: function that will be passed a door entity id and should
 --                     return true if the door can be opened
@@ -457,6 +475,7 @@ end
 function moveTo(targetPosition, dt, options)
   if options == nil then options = {} end
   if options.run == nil then options.run = false end
+  entity.setRunning(options.run)
 
   targetPosition = {
     math.floor(targetPosition[1]) + 0.5,
@@ -527,7 +546,7 @@ function moveTo(targetPosition, dt, options)
   end
 
   -- Keep jumping
-  if entity.isJumping() or (not entity.onGround() and self.pathing.jumpHoldTimer ~= nil) then
+  if entity.jumping() or (not entity.onGround() and self.pathing.jumpHoldTimer ~= nil) then
     if self.pathing.jumpHoldTimer ~= nil then
       entity.holdJump()
 
@@ -537,7 +556,7 @@ function moveTo(targetPosition, dt, options)
       end
     end
 
-    entity.move(delta[1], options.run)
+    moveX(delta[1])
 
     return true
   end
@@ -582,7 +601,7 @@ function moveTo(targetPosition, dt, options)
     if world.rectCollision(nextStepRegion, true) then
       entity.jump()
       self.pathing.jumpHoldTimer = 0
-      entity.move(direction, options.run)
+      moveX(direction)
       return true
     end
 
@@ -603,7 +622,7 @@ function moveTo(targetPosition, dt, options)
       for offset = 1, maxJumpDistance, 1 do
         if world.rectCollision(jumpRegion, false) then
           entity.jump()
-          entity.move(delta[1], options.run)
+          moveX(delta[1])
           self.pathing.jumpHoldTimer = offset * 0.5
           return true
         end
@@ -615,7 +634,7 @@ function moveTo(targetPosition, dt, options)
     end
   end
 
-  entity.move(delta[1], options.run)
+  moveX(delta[1])
 
   return true
 end

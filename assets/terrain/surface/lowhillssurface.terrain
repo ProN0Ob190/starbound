@@ -14,7 +14,7 @@
   "yAmp" : 5,
   "yYInfluence" : 0,
   "yBias" : 0.5,
-  "yClamp" : [-1, 1],
+  "yClamp" : [0, 1],
 
   "source" : {
     //low rolling hills

@@ -2,12 +2,12 @@
   "objectName" : "apexshiplightBroken",
   "rarity" : "Common",
   "category" : "light",
-  "lightColor" : [175, 175, 175],
+  "lightColor" : [170, 170, 170],
 
-  "flickerPeriod" : 0.4,
-  "flickerMinIntensity" : -2,
+  "flickerPeriod" : 0,
+  "flickerMinIntensity" : 0.25,
   "flickerMaxIntensity" : 0.75,
-  "flickerPeriodVariance" : 0.4,
+  "flickerPeriodVariance" : 0.8,
   "flickerIntensityVariance" : 0.25,
 
   "price" : 500,

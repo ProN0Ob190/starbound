@@ -19,8 +19,9 @@
   "inventoryIcon" : "bunkercrateicon.png",
   "orientations" : [
     {
-      "leftImage" : "bunkercrateleft.png:default",
-      "rightImage" : "bunkercrateright.png:default",
+      "image" : "bunkercrate.png:<color>",
+      "direction" : "left",
+      "flipImages" : true,
 
       "imagePosition" : [-8, 0],
       "frames" : 1,
@@ -29,7 +30,18 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform"
+    },
+    {
+      "image" : "bunkercrate.png:<color>",
+      "direction" : "right",
 
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
     }
   ],
 

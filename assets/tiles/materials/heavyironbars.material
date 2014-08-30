@@ -15,8 +15,8 @@
   "renderParameters" : {
     "texture" : "heavyironbars.png",
     "variants" : 5,
-    "lightTransparent" : false,
-    "occludesBelow" : true,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
     "multiColored" : false,
     "zLevel" : 0
   }

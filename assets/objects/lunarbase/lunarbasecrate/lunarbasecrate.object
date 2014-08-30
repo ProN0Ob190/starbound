@@ -28,8 +28,8 @@
     }
   ],
 
-  "openSounds" : [ "/sfx/objects/locker_open.wav" ],
-  "closeSounds" : [ "/sfx/objects/locker_close.wav" ],
+  "openSounds" : [ "/sfx/objects/metalbox_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/metalbox_close.wav" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/chests/chest%slots%.config",
   "frameCooldown" : 5,

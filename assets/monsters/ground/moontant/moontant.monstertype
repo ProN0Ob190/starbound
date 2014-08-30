@@ -144,7 +144,7 @@
           ],
 
           "statusParameters" : {
-            "baseMaxHealth" : 64,
+            "baseMaxHealth" : 48,
             "baseMaxEnergy" : 100,
             "damageConfig" : "/damage/damageresponse/groundnpc.config",
             "bodyMaterialKind" : "organic"

@@ -73,5 +73,8 @@
   "scripts" : [ "/objects/wired/light/light.lua" ],
   "scriptDelta" : 60,
 
-  "inboundNodes" : [ [0, 0] ]
+  "inboundNodes" : [ [0, 0] ],
+
+  "onSounds" : [ "/sfx/objects/tinywallswitch.wav" ],
+  "offSounds" : [ "/sfx/objects/tinywallswitch.wav" ]
 }
