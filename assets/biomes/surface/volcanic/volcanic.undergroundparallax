@@ -1,7 +1,0 @@
-{
-  "image" : "magmaunderground.png?brightness=-65",
-  "dividerimage" : "rockdivider.png?brightness=-65",
-  "nohueshift" : true,
-  "parallax" : 1.1,
-  "origin" : [0, 395]
-}

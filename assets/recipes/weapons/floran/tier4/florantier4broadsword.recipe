@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "durasteelbar", "count" : 10 }
-  ],
-  "output" : { "item" : "florantier4broadsword", "count" : 1 },
-  "groups" : [ "scifianvil", "weapons", "all" ]
-}

@@ -1,8 +1,0 @@
-{
-  "frames" : "windstorm2.png",
-  "variants" : 1,
-  "frameNumber" : 14,
-  "loops" : 10,
-  "animationCycle" : 1.0,
-  "offset" : [0, 0]
-}

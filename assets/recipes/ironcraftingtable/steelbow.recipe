@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "steelbar", "count" : 15 },
-    { "item" : "ironbow", "count" : 1 }
-  ],
-  "output" : { "item" : "steelbow", "count" : 1 },
-  "groups" : [ "ironcraftingtable", "tools", "all" ]
-}

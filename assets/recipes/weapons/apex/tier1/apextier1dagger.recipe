@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "ironbar", "count" : 2 }
-  ],
-  "output" : { "item" : "apextier1dagger", "count" : 1 },
-  "groups" : [ "anvil", "weapons", "all" ]
-}

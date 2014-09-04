@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "wheat", "count" : 2 },
-    { "item" : "diodia", "count" : 1 },
-    { "item" : "toxictop", "count" : 1 }
-  ],
-  "output" : { "item" : "piodia", "count" : 1 },
-  "groups" : [ "kitchen", "consumables", "entree" ]
-}

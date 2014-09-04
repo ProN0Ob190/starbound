@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "refinedrubium", "count" : 18 }
-  ],
-  "output" : { "item" : "humantier9chest", "count" : 1 },
-  "groups" : [ "metalworkstation", "armors", "all" ]
-}

@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "money", "count" : 120 }
-  ],
-  "output" : { "item" : "modernchair1", "count" : 1 },
-  "groups" : [ "plain", "objects", "all" ]
-}

@@ -1,7 +1,0 @@
-{
-  "image" : "monstersplosion.png",
-  "frameGrid" : {
-    "size" : [40, 40],
-    "dimensions" : [6, 1]
-  }
-}

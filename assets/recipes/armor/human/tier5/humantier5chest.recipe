@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "refinedaegisalt", "count" : 18 }
-  ],
-  "output" : { "item" : "humantier5chest", "count" : 1 },
-  "groups" : [ "metalworkstation", "armors", "all" ]
-}

@@ -1,9 +1,0 @@
-{
-  "name" : "body",
-  "category" : "repairbot",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "repairbot.png"
-  }
-}

@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "durasteelbar", "count" : 5 }
-  ],
-  "output" : { "item" : "aviantier4axe", "count" : 1 },
-  "groups" : [ "scifianvil", "weapons", "all" ]
-}

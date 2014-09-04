@@ -1,7 +1,0 @@
-{
-  "image" : "bubbleboost.png",
-  "frameGrid" : {
-    "size" : [16, 16],
-    "dimensions" : [16, 1]
-  }
-}

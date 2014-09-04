@@ -1,8 +1,0 @@
-{
-  "itemName" : "fillerup",
-  "rarity" : "Legendary",
-  "inventoryIcon" : "coalore.png",
-  "description" : "Fills up your ship's fuel",
-  "shortdescription" : "Fill 'Er Up",
-  "fuelAmount" : 10000
-}

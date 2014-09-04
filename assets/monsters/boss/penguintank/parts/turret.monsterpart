@@ -1,9 +1,0 @@
-{
-  "name" : "turret",
-  "category" : "penguinTank",
-  "type" : "turret",
-
-  "frames" : {
-    "turret" : "turret.png"
-  }
-}
