@@ -1,0 +1,19 @@
+{
+  "itemName" : "mininglantern",
+  "inventoryIcon" : "mininglanternicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "Uncommon",
+  "maxStack" : 1,
+  "description" : "A flickering lantern. It lights up the area.",
+  "shortdescription" : "Lantern",
+  "largeImage" : "mininglanternbig.png",
+  "tooltipKind" : "tool",
+  "pointable" : false,
+  "image" : "mininglantern.png",
+  "handPosition" : [-2, 0],
+  "lightPosition" : [4, 0],
+  "lightColor" : [90, 90, 90],
+  "beamWidth" : 1,
+  "ambientFactor" : 0
+}
+

@@ -1,0 +1,36 @@
+{
+  "objectName" : "apexcounter2",
+  "rarity" : "Common",
+  "category" : "crafting",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/kitchen.config",
+    "filter" : [ "kitchen" ]
+  },
+  "price" : 800,
+  "description" : "A retro-styled kitchen counter.",
+  "shortdescription" : "Standard Countertop",
+  "race" : "apex",
+
+  "apexDescription" : "We can prepare food here.",
+  "avianDescription" : "A good surface for food preparation.",
+  "floranDescription" : "Mmm let'ss make tasssty food!",
+  "glitchDescription" : "Hungry. We can prepare sustenance here.",
+  "humanDescription" : "Looks like a good spot to make something to eat.",
+  "hylotlDescription" : "Here is a good spot for the art of food preparation.",
+
+  "inventoryIcon" : "apexcounter2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "apexcounter2.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

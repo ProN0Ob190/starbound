@@ -1,0 +1,38 @@
+{
+  "objectName" : "rainbowchest",
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+
+  "category" : "storage",
+  "price" : 300,
+  "description" : "A chest decorated with beautiful rainbow markings.",
+  "shortdescription" : "Rainbow Chest",
+  "race" : "generic",
+
+  "apexDescription" : "A rainbow chest. The contents are surely enjoyable.",
+  "avianDescription" : "A colourful chest. Can't wait to see what's inside.",
+  "floranDescription" : "Floran NEED to sssee inssside pretty chessst.",
+  "glitchDescription" : "Pleased. A beautiful chest no doubt contains beautiful items.",
+  "humanDescription" : "I hope there's a pot of gold inside.",
+  "hylotlDescription" : "Such a beautiful method of storage.",
+
+  "inventoryIcon" : "rainbowchesticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "rainbowchest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

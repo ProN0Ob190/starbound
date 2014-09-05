@@ -1,0 +1,21 @@
+{
+  "materialId" : 69,
+  "materialName" : "tribalplatform",
+  "platform" : true,
+  "transparent" : true,
+  "itemDrop" : "tribalplatform",
+  "shortdescription" : "Temple Platform",
+  "description" : "Platforms built from solid temple bricks.",
+  "footstepSound" : "/sfx/blocks/footstep_stone2.wav",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "tribalplatform.png",
+    "variants" : 3,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multicolored" : true,
+    "zLevel" : 0,
+    "platform" : true
+  }
+}

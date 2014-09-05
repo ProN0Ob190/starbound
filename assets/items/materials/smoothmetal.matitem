@@ -1,0 +1,12 @@
+{
+  "itemName" : "smoothmetal",
+  "rarity" : "Common",
+  "inventoryIcon" : "smoothmetal.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Smooth metal, cold to the touch.",
+  "shortdescription" : "Smooth Metal",
+  "glitchdescription" : "Suave. Smooth as a Glitch.",
+  "florandescription" : "Sssmooth metal.",
+
+  "materialId" : 43
+}

@@ -1,0 +1,28 @@
+{
+  "objectName" : "apexcoolshelf2",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 1200,
+  "description" : "It seems irresponsible to leave a bunch of unlabelled chemicals unattended.",
+  "shortdescription" : "Cool Chemical Shelf",
+  "race" : "apex",
+  "apexDescription" : "A shelf full of experimental concoctions.",
+  "avianDescription" : "An alchemist's potions.",
+  "floranDescription" : "Dangerouss ssticky liquid.",
+  "glitchDescription" : "Morbid curiosity. I would like to drink one.",
+  "humanDescription" : "I don't think anything on this shelf is safe to drink.",
+  "hylotlDescription" : "Many of these liquids could kill in seconds.",
+  "inventoryIcon" : "apexcoolshelf2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "apexcoolshelf2.png:<color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

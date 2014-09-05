@@ -1,0 +1,31 @@
+{
+  "objectName" : "battlestandard",
+  "rarity" : "Common",
+  "description" : "I wonder how many wars this standard has seen.",
+  "shortdescription" : "Battle Standard",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 800,
+
+  "apexDescription" : "A chequered flag bearing an emblem.",
+  "avianDescription" : "A colourful flag.",
+  "floranDescription" : "Floran like colourful flag.",
+  "glitchDescription" : "Educate. A Glitch battle standard. Placed on the field during a battle.",
+  "humanDescription" : "A battlefield flag. These sometimes appear even in modern wars.",
+  "hylotlDescription" : "A flag that looks like it can be carried and planted.",
+
+  "inventoryIcon" : "battlestandardicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "battlestandard.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

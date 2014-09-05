@@ -1,0 +1,31 @@
+{
+  "objectName" : "pillar2",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 1500,
+  "description" : "A stone pillar. Important to the community.",
+  "shortdescription" : "Stone Pillar",
+  "race" : "avian",
+
+  "apexDescription" : "A pillar.",
+  "avianDescription" : "A pillar.",
+  "floranDescription" : "Big tall ssstone.",
+  "glitchDescription" : "Statement. A pillar.",
+  "humanDescription" : "This pillar sure is interesting.",
+  "hylotlDescription" : "A substandard pillar.",
+
+  "inventoryIcon" : "pillar2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "pillar2.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

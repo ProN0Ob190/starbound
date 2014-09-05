@@ -1,0 +1,52 @@
+{
+  "objectName" : "lunarbasedoor",
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 2000,
+  "description" : "This door is airtight and made with incredibly strong materials.",
+  "shortdescription" : "Lunar Base Blastdoor",
+  "race" : "apex",
+
+  "apexDescription" : "-todo-",
+  "avianDescription" : "-todo-",
+  "floranDescription" : "-todo-",
+  "glitchDescription" : "-todo-",
+  "humanDescription" : "-todo-",
+  "hylotlDescription" : "-todo-",
+
+  "inventoryIcon" : "lunarbasedooricon.png",
+  "orientations" : [
+    {
+      "image" : "lunarbasedoor.png:default",
+      "direction" : "left",
+      "flipImages" : true,
+      "imagePosition" : [-16, 0],
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [-2, -1], [-1, -1], [4, 6], [5, 6] ],
+	  "animationPosition" : [-16, 0]
+    },
+    {
+      "image" : "lunarbasedoor.png:default",
+      "direction" : "right",
+      "imagePosition" : [-40, 0],
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [-5, 6], [-4, 6], [1, -1], [2, -1] ],
+	  "animationPosition" : [-40, 0]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationParts" : {
+    "door" : "lunarbasedoor.png"
+  },
+
+  "inboundNodes" : [ [0, 2] ],
+  "outboundNodes" : [ [0, 0] ],
+
+  "openSounds" : [ "/sfx/objects/apexcooldoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/apexcooldoor_close.wav" ]
+}

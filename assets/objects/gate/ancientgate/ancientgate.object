@@ -1,0 +1,46 @@
+{
+  "objectName" : "ancientgate",
+  "rarity" : "Common",
+  "description" : "A mysterious ancient gate.",
+  "shortdescription" : "Ancient Gate",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 100000,
+
+  "apexDescription" : "A mysterious gate to somewhere.",
+  "avianDescription" : "A gate of mysterious origin.",
+  "floranDescription" : "Floran wonder which ssstrange creature make door.",
+  "glitchDescription" : "Confusion. I cannot trace the origins of this gate.",
+  "humanDescription" : "A strange and arcane gate carved in mystery.",
+  "hylotlDescription" : "Looks like something a Hylotl child would make in arts and crafts.",
+  "novakidDescription" : "A strange gate that's jus' beggin' me to walk through it.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "ancientgate.png:<color>.<frame>", "fullbright" : true }, { "image" : "ancientgatelit.png:<color>.<frame>" } ],
+      "direction" : "left",
+
+      "imagePosition" : [-40, 0],
+
+      "frames" : 22,
+      "animationCycle" : 4.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+  {
+      "imageLayers" : [ { "image" : "ancientgate.png:<color>.<frame>", "fullbright" : true }, { "image" : "ancientgatelit.png:<color>.<frame>" } ],
+      "direction" : "right",
+      "flipImages" : true,
+
+      "imagePosition" : [-40, 0],
+
+      "frames" : 22,
+      "animationCycle" : 4.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

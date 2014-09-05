@@ -1,0 +1,32 @@
+{
+  "objectName" : "medievalstock",
+  "rarity" : "Common",
+  "description" : "If you told this stock a funny joke, it'd be... a Laughing Stock. I'm hilarious.",
+  "shortdescription" : "Glitch Stock",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 500,
+
+  "apexDescription" : "A set of stocks. One of the few degrading things the Miniknog has yet to explore.",
+  "avianDescription" : "Some sort of restraint it seems.",
+  "floranDescription" : "Wooden thing sssmell of icky fruit.",
+  "glitchDescription" : "Informative. Glitch guilty of minor crimes would be placed in stocks like this for other Glitch to throw rotten fruit at.",
+  "humanDescription" : "A pair of stocks. A medieval method of punishment.",
+  "hylotlDescription" : "Built to restrain someone whilst they stand.",
+
+
+  "inventoryIcon" : "medievalstockicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "medievalstock.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

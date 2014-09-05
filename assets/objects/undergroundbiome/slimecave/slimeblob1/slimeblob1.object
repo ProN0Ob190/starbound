@@ -1,0 +1,42 @@
+{
+  "objectName" : "slimeblob1",
+  "rarity" : "Common",
+  "category" : "pot",
+  "price" : 400,
+  "objectItem" : "slimeblob",
+
+  "description" : "A vile bubble of slime. Yuk.",
+  "shortdescription" : "Slime Blob",
+  "race" : "apex",
+
+  "fullbright" : true,
+  "lightColor" : [0, 50, 40],
+
+  "apexDescription" : "A putrid mound of slime.",
+  "avianDescription" : "A large blob of slime.",
+  "floranDescription" : "Like sssap.",
+  "glitchDescription" : "Disgusted. This is a vile mound of slime!",
+  "humanDescription" : "A huge glob of jelly. I kind of want to poke it.",
+  "hylotlDescription" : "A thick bubble of slime, not unlike Hylotl spawn.",
+
+  "inventoryIcon" : "capsulebigicon.png",
+  "orientations" : [
+    {
+      "image" : "slimeblob1.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "smashSounds" : [ "/sfx/blocks/water_swim.wav" ],
+  "smashDropOptions" : [
+    [ [ "greenslime", 1, { } ], [ "greenslime", 1, { } ], [ "greenslime", 1, { } ] ]
+  ],
+  "breakDropOptions" : [
+    [ [ "greenslime", 1, { } ], [ "greenslime", 1, { } ], [ "greenslime", 1, { } ] ]
+  ]
+}

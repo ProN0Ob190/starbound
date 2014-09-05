@@ -1,0 +1,13 @@
+{
+  "itemName" : "feathercrown",
+  "rarity" : "Common",
+  "inventoryIcon" : "feathercrown.png",
+  "description" : "Feathercrown, you have to pluck it before consuming.",
+  "shortdescription" : "Feathercrown",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 25
+      }
+    ] ]
+}

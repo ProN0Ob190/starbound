@@ -1,0 +1,22 @@
+{
+  "materialId" : 61,
+  "materialName" : "tombbrick2",
+  "particleColor" : [120, 127, 154, 255],
+  "itemDrop" : "tombbrick2",
+  "shortdescription" : "Unmarked Tomb Brick",
+  "description" : "These old bricks are unmarked.",
+  "glitchDescription" : "Statement. Dusty bricks.",
+  "floranDescription" : "Dusssty bricks.",
+  "footstepSound" : "/sfx/blocks/footstep_stone.wav",
+  "health" : 30,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "tombbrick2.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

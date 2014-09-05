@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "laserdiode", "count" : 1 },
+    { "item" : "circuitboard", "count" : 1 },
+    { "item" : "money", "count" : 500 },
+    { "item" : "platinumbar", "count" : 5 }
+  ],
+  "output" : { "item" : "standingturret", "count" : 1 },
+  "groups" : [ "wiringstation", "all" ]
+}

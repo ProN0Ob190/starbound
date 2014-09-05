@@ -1,0 +1,37 @@
+{
+  "objectName" : "floranbookcase",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "category" : "decorative",
+  "price" : 750,
+  "description" : "Can Floran read?",
+  "shortdescription" : "Primitive Bookcase",
+  "race" : "floran",
+
+  "apexDescription" : "Is there anything the Floran don't decorate with bones?",
+  "avianDescription" : "I can't imagine a Floran writing a book.",
+  "floranDescription" : "Floran no read book. Only Greenfinger use book, grow machines.",
+  "glitchDescription" : "Observation. This bookcase has not been touched in a long time.",
+  "humanDescription" : "The Floran don't appear to be frequent readers.",
+  "hylotlDescription" : "The Floran appear to attach death to every surface.",
+
+  "openSounds" : [ "/sfx/objects/bookcase_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/bookcase_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "inventoryIcon" : "floranbookcaseicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "floranbookcase.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

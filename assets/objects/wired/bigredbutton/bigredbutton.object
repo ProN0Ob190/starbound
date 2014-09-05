@@ -1,0 +1,44 @@
+{
+  "objectName" : "bigredbutton",
+  "rarity" : "Common",
+  "category" : "wire",
+  "price" : 800,
+  "description" : "Urge... to push... rising!",
+  "shortdescription" : "Big Red Button",
+  "race" : "generic",
+
+  "apexDescription" : "Standing on this might activate something.",
+  "avianDescription" : "A large red button.",
+  "floranDescription" : "Mussst push button!",
+  "glitchDescription" : "Desire. Experiencing overwhelming urge to push button.",
+  "humanDescription" : "How can I not push this?",
+  "hylotlDescription" : "I can understand the desire to push a button when one is revealed. But you must practice self control, master your urges.",
+
+  "inventoryIcon" : "bigredbuttonicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bigredbutton.png:<color>.off",
+      "imagePosition" : [-12, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/proximitysensor/proximitysensor.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switchtoggle3fast.animation",
+  "animationParts" : {
+    "switch" : "bigredbutton.png"
+  },
+  "animationPosition" : [-12, 0],
+
+  "outboundNodes" : [ [0, 0] ],
+  
+  "interactive" : false,
+
+  "detectDuration" : 0.1,
+  "detectEntityTypes" : [ "creature" ],
+  "detectArea" : [ [-0.8, 0.0], [0.8, 0.5] ]
+}

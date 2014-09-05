@@ -1,0 +1,61 @@
+{
+  "objectName" : "outpostfridge",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "description" : "A fridge. Hopefully filled with tasty, tasty treats.",
+  "shortdescription" : "Outpost Fridge",
+  "race" : "generic",
+  "category" : "storage",
+  "price" : 500,
+  "lightColor" : [19, 27, 31],
+
+  "apexDescription" : "A fridge. Let's hope there's food inside.",
+  "avianDescription" : "What's in the fridge, I wonder?",
+  "floranDescription" : "Cold!",
+  "glitchDescription" : "Alarm. This fridge smells unsanitary.",
+  "humanDescription" : "A fridge. I wonder if there are eggs in here?",
+  "hylotlDescription" : "A food-chilling device.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "imageLayers" : [ { "image" : "outpostfridge.png:<color>", "fullbright" : true }, { "image" : "outpostfridgelit.png:<color>" } ],
+	  "flipImages" : true,
+	  "direction" : "left",
+	  
+      "lightPosition" : [0, 2],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+	{
+	  "imageLayers" : [ { "image" : "outpostfridge.png:<color>", "fullbright" : true }, { "image" : "outpostfridgelit.png:<color>" } ],
+	  "direction" : "right",
+	  
+      "lightPosition" : [0, 2],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/fridge_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/fridge_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "soundEffect" : "/sfx/objects/fridge_hum.wav"
+
+}

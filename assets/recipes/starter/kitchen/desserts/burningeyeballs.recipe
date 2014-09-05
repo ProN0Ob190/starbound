@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "oculemon", "count" : 1 },
+    { "item" : "toxictop", "count" : 1 },
+    { "item" : "chili", "count" : 2 }
+  ],
+  "output" : { "item" : "burningeyeballs", "count" : 1 },
+  "groups" : [ "kitchen", "consumables", "dessert" ]
+}

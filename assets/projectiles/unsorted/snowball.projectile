@@ -1,0 +1,16 @@
+{
+  "projectileName" : "snowball",
+  "speed" : 180,
+  "physics" : "grenade",
+  "frames" : "snowball.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "damageKind" : "snowball",
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/snowballexplosion/snowballexplosion.config"
+    }
+  ],
+  "emitters" : [ "defaultwhite" ]
+}

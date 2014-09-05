@@ -1,0 +1,33 @@
+{
+  "objectName" : "teleporterTier0",
+  "rarity" : "Common",
+  "objectType" : "noisy",
+  "category" : "decorative",
+  "description" : "Trusty teleporter, what would I do without you?",
+  "shortdescription" : "Teleporter",
+
+  "apexDescription" : "Teleporting feels like riding a rollercoaster at the speed of light. It's off.",
+  "avianDescription" : "Teleporting feels like flying. If only this one was powered up.",
+  "floranDescription" : "Floran feel confusssed during teleport. This one dead.",
+  "glitchDescription" : "Educate. I set myself to sleep during the teleport process. This one is not powered.",
+  "humanDescription" : "Teleporting is a huge rush. Too bad this one isn't powered up.",
+  "hylotlDescription" : "Teleporting feels like diving into the ocean from a mountain top. This teleporter is off.",
+
+  "inventoryIcon" : "teleportericonTier0.png",
+  "orientations" : [
+    {
+	  "image" : "teleporterTier0.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid"
+    }
+  ],
+  
+  "sounds" : [ "/sfx/interface/ship_error1.wav" ]
+  
+}

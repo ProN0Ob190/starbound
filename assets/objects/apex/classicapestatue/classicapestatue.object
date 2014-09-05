@@ -1,0 +1,30 @@
+{
+  "objectName" : "classicapestatue",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 1500,
+  "description" : "An appropriately glorious monument dedicated to a glorious leader.",
+  "shortdescription" : "Big Ape Monument",
+  "race" : "apex",
+
+  "apexDescription" : "Our glorious leader...",
+  "avianDescription" : "A statue built to inspire pride? Or perhaps fear?",
+  "floranDescription" : "Sssuch a big, tasssty monkey.",
+  "glitchDescription" : "Humbled. Is the scale correct?",
+  "humanDescription" : "That's a big statue. He looks stern.",
+  "hylotlDescription" : "A needless display of power.",
+
+  "inventoryIcon" : "classicapestatueicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "classicapestatue.png:<color>",
+      "imagePosition" : [-20, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

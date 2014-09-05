@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "shroom", "count" : 20 },
+    { "item" : "coalore", "count" : 5 },
+    { "item" : "petalyellow", "count" : 10 }
+  ],
+  "output" : { "item" : "shroomlamp", "count" : 1 },
+  "groups" : [ "craftingtable", "light", "objects", "all" ]
+}

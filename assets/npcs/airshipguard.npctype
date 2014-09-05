@@ -1,0 +1,56 @@
+{
+  "type" : "airshipguard",
+  "baseType" : "airshipcrew",
+
+  "damageTeam" : 1,
+
+  "levelVariance" : [3, 4],
+
+  "scripts" : [
+    "/npcs/main.lua",
+    "/npcs/timers.lua",
+    "/scripts/sensors.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua",
+
+    "/npcs/meleeAttackState.lua",
+    "/npcs/rangedAttackState.lua",
+    "/npcs/guard/guardState.lua",
+    "/npcs/guard/returnToPostState.lua"
+  ],
+
+  "scriptConfig" : {
+    "guard" : {
+      "patrolDistance" : 4,
+      "noticeDistance" : 10,
+      "hailDistance" : 10,
+      "hailPercent" : 75,
+      "stopDistance" : -1,
+      "attackDistance" : -1,
+      "loseSightTime" : 10,
+      "loseSightDistance" : 30,
+      "wallCheckDistance" : 5,
+      "changeDirectionTimeRange" : [5, 10],
+
+      "dialog" : {
+        "hail" : {
+          "default" : [
+            "Keep your hands where I can see them!",
+            "I've got my eyes on you.",
+            "Don't go getting any funny ideas now.",
+            "I'm watching you.",
+            "I'd better not catch you taking anything.",
+            "If you want some of our supplies, go speak to the quartermaster.",
+            "You'd best behave yourself while on this ship."
+          ]
+        }
+      }
+    },
+
+    "returnToPost" : {
+      "moveTime" : 20,
+      "minDistance" : 2
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "materialId" : 14,
+  "materialName" : "plate",
+  "particleColor" : [214, 215, 214, 255],
+  "itemDrop" : "platematerial",
+  "description" : "Reminds me of the inside of the medical centre back home.",
+  "shortdescription" : "Smooth Plated Block",
+  "glitchDescription" : "Statement. A metal plate.",
+  "floranDescription" : "Not kind of plate Floran deserves, but kind of plate Floran needs.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "health" : 35,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "plate.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

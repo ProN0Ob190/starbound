@@ -1,0 +1,9 @@
+{
+  "codexId" : "villageprayer",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "itemName" : "villageprayerCodex",
+  "rarity" : "common",
+  "description" : "An Avian Prayer",
+  "shortdescription" : "Avian Prayer"
+}

@@ -1,0 +1,10 @@
+{
+  "codexId" : "bunkerlog06",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "humanbunkerbook_06.png",
+  "itemName" : "bunkerlog06Codex",
+  "rarity" : "common",
+  "description" : "USCM Personnel Log #99999",
+  "shortdescription" : "Personnel Log"
+}

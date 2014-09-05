@@ -1,0 +1,31 @@
+{
+  "objectName" : "medievalcodex",
+  "rarity" : "Common",
+  "description" : "This book is full of pictures...",
+  "shortdescription" : "Glitch Codex",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 750,
+
+  "apexDescription" : "A book. It's entirely full of Glitch portraits.",
+  "avianDescription" : "There are pictures of many different Glitch in this book.",
+  "floranDescription" : "It'ss full of picturess. Picturess of metalmen.",
+  "glitchDescription" : "Examine. A list of Glitch guilty of various crimes. In truth the majority had simply become self-aware.",
+  "humanDescription" : "It appears to be some kind of register. There are pictures here of lots of different Glitch.",
+  "hylotlDescription" : "An important book. Each page contains a portrait of a different Glitch.",
+
+  "inventoryIcon" : "medievalcodexicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "medievalcodex.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

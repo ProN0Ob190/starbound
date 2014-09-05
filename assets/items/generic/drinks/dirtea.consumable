@@ -1,0 +1,14 @@
+{
+  "itemName" : "dirtea",
+  "rarity" : "Common",
+  "inventoryIcon" : "dirtea.png",
+  "description" : "Tea made by steeping dried dirturchin leaves in boiling water. A traditional drink.",
+  "shortdescription" : "Dirtea",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 5
+      }
+    ] ]
+}

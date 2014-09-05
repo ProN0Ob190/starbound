@@ -1,0 +1,13 @@
+{
+  "id" : "hylotltutorial.gearup",
+  "title" : "^#9be3d6;Fish Out Of Water",
+  "text" : "I have been drifting in space for some time, my ship damaged during my travels. To keep moving I'll need to ^green;repair the ships thrusters and patch up the hull.",
+  "completionText" : "The ship has rumbled to life! There's still work to do and I need to fix the FTL drive. But it's a start!",
+  "conditions" : [
+    { "kind" : "trigger", "trigger" : "ai.repairthrusters" }
+  ],
+  "moneyRange" : [500, 500],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "canBeAbandoned" : false
+}

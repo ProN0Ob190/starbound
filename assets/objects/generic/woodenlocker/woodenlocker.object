@@ -1,0 +1,40 @@
+{
+  "objectName" : "woodenlocker",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "description" : "An item locker built from wood.",
+  "shortdescription" : "Wooden Locker",
+  "race" : "generic",
+  "category" : "storage",
+  "price" : 500,
+
+
+  "apexDescription" : "A storage locker built from wood.",
+  "avianDescription" : "I don't think wood is a good material for a storage locker.",
+  "floranDescription" : "Wooden ssstorage.",
+  "glitchDescription" : "Doubtful. A storage locker made of wood?",
+  "humanDescription" : "Hmmm, a locker made of wood. I don't know about that.",
+  "hylotlDescription" : "A strange choice of materials. A wooden locker.",
+
+  "inventoryIcon" : "woodenlockericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "woodenlocker.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+  "openSounds" : [ "/sfx/objects/chest_medium_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/chest_medium_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

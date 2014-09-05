@@ -1,0 +1,15 @@
+{
+  "projectileName" : "moontantgoop",
+  "frames" : "moontantgoop.png",
+  "physics" : "grenadenobounce",
+  "animationCycle" : 0.6,
+  "damageKindImage" : "icon.png",
+  "frameNumber" : 10,
+  "power" : 30,
+  "speed" : 30,
+  "timeToLive" : 0.6,
+  "bounces" : 0,
+  "piercing" : true,
+  "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],
+  "damageKind" : "default"
+}

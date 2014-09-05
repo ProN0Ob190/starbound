@@ -1,0 +1,37 @@
+{
+  "objectName" : "basicmetalchair",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 500,
+  "description" : "A sturdy metal chair.",
+  "shortdescription" : "Basic Metal Chair",
+  "race" : "generic",
+
+  "apexDescription" : "A metal chair with few discerning features.",
+  "avianDescription" : "A simple metal chair.",
+  "floranDescription" : "Metal chair.",
+  "glitchDescription" : "Pointlessly blabbering. Metal chair.",
+  "humanDescription" : "A metal chair. Not much to say.",
+  "hylotlDescription" : "A chair lacking in inspiration.",
+
+  "inventoryIcon" : "basicmetalchairicon.png",
+  "orientations" : [
+    {
+      "leftImage" : "basicmetalchairleft.png:default",
+      "rightImage" : "basicmetalchairright.png:default",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [1, 0], [0, 1], [1, 1] ],
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [9, 22]
+
+}

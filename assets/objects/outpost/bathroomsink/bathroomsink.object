@@ -1,0 +1,31 @@
+{
+  "objectName" : "bathroomsink",
+  "rarity" : "Common",
+  "description" : "A bathroom sink. Wash your hands!",
+  "shortdescription" : "Bathroom Sink",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 400,
+
+  "apexDescription" : "A basic sink.",
+  "avianDescription" : "A sink.",
+  "floranDescription" : "Sssink.",
+  "glitchDescription" : "Statement. A sink.",
+  "humanDescription" : "A sink.",
+  "hylotlDescription" : "Too small to swim in.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bathroomsink.png:<color>",
+
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

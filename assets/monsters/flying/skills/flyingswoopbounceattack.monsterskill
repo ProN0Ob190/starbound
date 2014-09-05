@@ -1,0 +1,15 @@
+{
+  "name" : "flyingSwoopBounceAttack",
+  "label" : "DIVE",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "scripts" : [
+      "/monsters/flying/skills/flyingSwoopBounceAttack.lua"
+    ],
+
+    "swoopBounceLimit" : 2.0,
+    "swoopBounceTime" : 0.75,
+    "swoopBounceAngle" : 45
+  }
+}

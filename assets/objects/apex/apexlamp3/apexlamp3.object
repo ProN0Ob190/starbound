@@ -1,0 +1,46 @@
+{
+  "objectName" : "apexlamp3",
+  "rarity" : "Common",
+  "description" : "A paper ceiling lamp.",
+  "shortdescription" : "Standard Ceiling Lamp",
+  "race" : "apex",
+
+  "category" : "light",
+  "price" : 400,
+  "lightColor" : [217, 217, 190],
+
+  "apexDescription" : "These ceiling lamps have been known to catch fire. Their owners aren't permitted to replace them, however.",
+  "avianDescription" : "This light is covered in paper. It doesn't seem safe.",
+  "floranDescription" : "Floran think lamp burnss like sssun.",
+  "glitchDescription" : "Cautious. Paper temperature too high.",
+  "humanDescription" : "A paper lamp. I hope it's safe.",
+  "hylotlDescription" : "The Hylotl make similar lamps from paper and flame.",
+
+  "inventoryIcon" : "apexlamp3icon.png",
+  "orientations" : [
+    {
+      "image" : "apexlamp3.png:<color>.<frame>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+	  "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "apexlamp3.png",
+    "fg" : "apexlamp3lit.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inboundNodes" : [ [0, 0] ]
+}

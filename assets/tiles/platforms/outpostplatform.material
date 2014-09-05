@@ -1,0 +1,21 @@
+{
+  "materialId" : 195,
+  "materialName" : "outpostplatform",
+  "platform" : true,
+  "transparent" : true,
+  "itemDrop" : "outpostplatform",
+  "shortdescription" : "Outpost Platform",
+  "description" : "Standard platform designed for outposts.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.wav",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "outpostplatform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multicolored" : true,
+    "zLevel" : 0,
+    "platform" : true
+  }
+}

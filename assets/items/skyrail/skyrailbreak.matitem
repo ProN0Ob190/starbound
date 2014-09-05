@@ -1,0 +1,9 @@
+{
+  "itemName" : "skyrailbreak",
+  "rarity" : "Common",
+  "inventoryIcon" : "skyrailicon_break.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A skyrail for slowing things down.",
+  "shortdescription" : "Skyrail Breaker",
+  "materialId" : 400181
+}

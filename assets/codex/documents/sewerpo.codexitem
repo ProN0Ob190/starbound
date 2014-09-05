@@ -1,0 +1,10 @@
+{
+  "codexId" : "sewerpo",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "glitchsewerbook_09.png",
+  "itemName" : "sewerpoCodex",
+  "rarity" : "common",
+  "description" : "The Compiled Bestiary: Po",
+  "shortdescription" : "Po"
+}

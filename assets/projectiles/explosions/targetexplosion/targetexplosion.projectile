@@ -1,0 +1,15 @@
+{
+  "projectileName" : "targetexplosion",
+  "frames" : "targetexplosion.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "timeToLive" : 3,
+  "speed" : 0,
+  "fallSpeed" : 0,
+  "damagePoly" : [ [0, 0] ],
+  "animationLoops" : true,
+  "piercing" : true,
+  "flippable" : true,
+  "universalDamage" : true,
+  "damageKind" : "default"
+}

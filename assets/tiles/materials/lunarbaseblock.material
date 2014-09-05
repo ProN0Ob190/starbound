@@ -1,0 +1,20 @@
+{
+  "materialId" : 179,
+  "materialName" : "lunarbaseblock",
+  "particleColor" : [110, 110, 110, 255],
+  "itemDrop" : "lunarbaseblock",
+  "description" : "This alloy looks incredibly durable.",
+  "shortdescription" : "Lunar Base Block",
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "health" : 20,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "lunarbaseblock.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
+}

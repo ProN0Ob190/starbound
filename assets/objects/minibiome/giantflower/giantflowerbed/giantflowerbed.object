@@ -1,0 +1,45 @@
+{
+  "objectName" : "giantflowerbed",
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A flower bed. Hope you don't have hayfever.",
+  "shortdescription" : "Giant Flower Bed",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 1500,
+
+  "apexDescription" : "This bed is amusing and bouncy.",
+  "avianDescription" : "Sleeping here makes my feathers itch.",
+  "floranDescription" : "Floran fall asssleep easssily in plant.",
+  "glitchDescription" : "Detection. The bed is made out of a carnivorous plant. Worrying.",
+  "humanDescription" : "The sickly-sweet smell of the plant doesn't help me sleep.",
+  "hylotlDescription" : "Nature being adapted for other uses. Remarkable.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-10, 13],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/minibiome/giantflower/giantflowerbed/giantflowerbedcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    { "kind" : "Nude" },
+    { "kind" : "Health", "amount" : 0.06 }
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "giantflowerbedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "giantflowerbed.png:<color>",
+
+      "imagePosition" : [-28, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

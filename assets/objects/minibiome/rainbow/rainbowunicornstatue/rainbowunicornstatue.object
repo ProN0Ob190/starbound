@@ -1,0 +1,33 @@
+{
+  "objectName" : "rainbowunicornstatue",
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A stunning unicorn statue. Watch out for the horn!",
+  "shortdescription" : "Rainbow Unicorn Statue",
+  "race" : "generic",
+  "category" : "wire",
+  "price" : 500,
+
+  "apexDescription" : "This majestic beast takes my breath away.",
+  "avianDescription" : "A stunning white steed with a glorious pearl horn.",
+  "floranDescription" : "Even Floran not ssstab this horsie.",
+  "glitchDescription" : "Admiration. A unicorn statue. How I'd love to see this creature in the flesh.",
+  "humanDescription" : "A unicorn statue. I always wanted a pet unicorn.",
+  "hylotlDescription" : "This remarkable creature reminds me of the horned whales you see under the ocean.",
+
+  "inventoryIcon" : "rainbowunicornstatueicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "rainbowunicornstatue.png:<color>",
+
+      "imagePosition" : [-20, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

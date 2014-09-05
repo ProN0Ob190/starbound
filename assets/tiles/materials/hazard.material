@@ -1,0 +1,23 @@
+{
+  "materialId" : 350,
+  "materialName" : "hazard",
+  "particleColor" : [110, 110, 110, 255],
+  "itemDrop" : "hazard",
+  "description" : "A wall panel marking a potential hazard. Keep clear.",
+  "shortdescription" : "Hazard Block",
+  "glitchDescription" : "Statement. A hazard.",
+  "floranDescription" : "Danger!",
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "health" : 3,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "hazard.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

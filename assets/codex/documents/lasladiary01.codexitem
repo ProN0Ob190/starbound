@@ -1,0 +1,10 @@
+{
+  "codexId" : "lasladiary01",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "avianvillagebook_09.png",
+  "itemName" : "lasladiary01Codex",
+  "rarity" : "common",
+  "description" : "Las'la Crimsongwing's Diary #1",
+  "shortdescription" : "Crimsonwing's Diary"
+}

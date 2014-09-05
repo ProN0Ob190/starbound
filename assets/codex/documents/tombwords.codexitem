@@ -1,0 +1,10 @@
+{
+  "codexId" : "tombwords",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "aviantombbook_07.png",
+  "itemName" : "tombwordsCodex",
+  "rarity" : "common",
+  "description" : "Words Scrawled in a Tomb",
+  "shortdescription" : "Tomb Words"
+}

@@ -1,0 +1,10 @@
+{
+  "codexId" : "stamppamphlet",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "glitchvillagebook_03.png",
+  "itemName" : "stamppamphletCodex",
+  "rarity" : "common",
+  "description" : "A stamped-on pamphlet.",
+  "shortdescription" : "Stamped-on pamphlet"
+}

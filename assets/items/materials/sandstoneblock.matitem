@@ -1,0 +1,12 @@
+{
+  "itemName" : "sandstoneblock",
+  "rarity" : "Common",
+  "inventoryIcon" : "sandstoneblock.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Bricks made from smooth sandstone.",
+  "shortdescription" : "Sandstone Bricks",
+  "glitchdescription" : "Statement. Sandstone bricks.",
+  "florandescription" : "Sssandstone bricks.",
+
+  "materialId" : 128
+}

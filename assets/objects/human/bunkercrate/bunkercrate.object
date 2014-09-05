@@ -1,0 +1,54 @@
+{
+  "objectName" : "bunkercrate",
+  "rarity" : "Common",
+  "objectType" : "container",
+
+  "category" : "storage",
+  "price" : 300,
+  "description" : "A metal crate.",
+  "shortdescription" : "Metal Crate",
+  "race" : "human",
+
+  "apexDescription" : "A metal crate.",
+  "avianDescription" : "A crate made of metal.",
+  "floranDescription" : "Metal boxxx.",
+  "glitchDescription" : "Statement. A metal box.",
+  "humanDescription" : "A large metal crate.",
+  "hylotlDescription" : "A heavy-looking metal crate.",
+
+  "inventoryIcon" : "bunkercrateicon.png",
+  "orientations" : [
+    {
+      "image" : "bunkercrate.png:<color>",
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "image" : "bunkercrate.png:<color>",
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/metalbox_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/metalbox_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 20 }
+  ],
+  "output" : {
+    "item" : "wiringstation",
+    "count" : 1
+  },
+  "groups" : [ "roboticcraftingtable", "all", "tools" ]
+}

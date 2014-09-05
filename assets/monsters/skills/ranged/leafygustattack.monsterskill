@@ -1,0 +1,19 @@
+{
+  "name" : "leafyGustAttack",
+  "label" : "LEAFY GUST",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "leafyGustAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "leafgust",
+      "range" : 16,
+      "speed" : 30,
+      "power" : 13,
+      "shots" : 1,
+      "fireInterval" : 0.15,
+      "windupTime" : 0.2,
+      "winddownTime" : 0.2
+    }
+  }
+}

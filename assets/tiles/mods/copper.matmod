@@ -1,0 +1,17 @@
+{
+  "modId" : 10,
+  "modName" : "copper",
+  "itemDrop" : "copperore",
+  "Description" : "Copper ore.",
+  "breaksWithTile" : true,
+  "health" : 6,
+  "harvestLevel" : 2,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "copper.png",
+    "variants" : 8,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

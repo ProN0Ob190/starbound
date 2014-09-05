@@ -1,0 +1,21 @@
+{
+  "materialId" : 118,
+  "materialName" : "bambooplatform",
+  "platform" : true,
+  "transparent" : true,
+  "itemDrop" : "bambooplatform",
+  "shortdescription" : "Bamboo Platform",
+  "description" : "Charmingly constructed bamboo platforms.",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.wav",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "bambooplatform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multicolored" : true,
+    "zLevel" : 0,
+    "platform" : true
+  }
+}

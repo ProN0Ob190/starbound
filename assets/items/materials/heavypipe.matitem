@@ -1,0 +1,12 @@
+{
+  "itemName" : "heavypipe",
+  "rarity" : "Common",
+  "inventoryIcon" : "heavypipe.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Heavy Pipe",
+  "description" : "A pipe commonly used in outposts.",
+  "glitchdescription" : "Statement. A pipe.",
+  "florandescription" : "Sssssmelly pipe.",
+
+  "materialId" : 1185
+}

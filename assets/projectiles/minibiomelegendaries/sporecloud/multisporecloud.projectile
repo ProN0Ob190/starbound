@@ -1,0 +1,44 @@
+{
+  "projectileName" : "multisporecloud",
+  "frames" : "multisporecloud.png",
+  "animationCycle" : 1,
+  "frameNumber" : 1,
+  "timeToLive" : 0.01,
+  "speed" : 100,
+  "physics" : "laser",
+  "flippable" : true,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "sporecloud",
+	  "firePosition" : [-10, 5],
+      "fuzzAngle" : 360,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "sporecloud",
+      "inheritSpeedFactor" : 0.08,
+	  "firePosition" : [-10, 5],
+      "fuzzAngle" : 180,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "sporecloud",
+      "inheritSpeedFactor" : 0.1,
+	  "firePosition" : [-10, 5],
+      "fuzzAngle" : 30,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/npc/enemydeathpuff.wav" ]
+    }
+  ],
+  "damagePoly" : [ ],
+  "power" : 0.0,
+  "damageKind" : "default"
+}

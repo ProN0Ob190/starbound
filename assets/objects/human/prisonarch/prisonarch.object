@@ -1,0 +1,37 @@
+{
+  "objectName" : "prisonarch",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 800,
+  "description" : "Such pretty architecture seems out of place in a prison.",
+  "shortdescription" : "Gothic Arch",
+  "race" : "human",
+
+  "apexDescription" : "Human prisoners at least have pleasant architecture to look at.",
+  "avianDescription" : "I can't decide if this is pretty or foreboding.",
+  "floranDescription" : "Ssspiky arch. Floran like design.",
+  "glitchDescription" : "Pleased. Human and Glitch architecture seem to share certain similarities.",
+  "humanDescription" : "The penal comfort code of twenty twenty decreed that all prisons have to be elaborately decorated, to keep prisoners happy.",
+  "hylotlDescription" : "Humans seem to treat their prisoners with respect. The Hylotl do the same.",
+
+  "inventoryIcon" : "prisonarchicon.png",
+  "orientations" : [
+    {
+      "image" : "prisonarchceiling.png:<color>",
+
+      "imagePosition" : [-24, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+
+    {
+      "image" : "prisonarchground.png:<color>",
+
+      "imagePosition" : [-24, 0],
+
+      "spaceScan" : 0.01,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

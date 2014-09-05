@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 200 },
+    { "item" : "ironbar", "count" : 5 },
+    { "item" : "silverbar", "count" : 5 },
+    { "item" : "goldbar", "count" : 5 }
+  ],
+  "output" : { "item" : "portable3dprinter", "count" : 1 },
+  "groups" : [ "roboticcraftingtable", "tools" ]
+}

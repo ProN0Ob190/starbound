@@ -1,0 +1,33 @@
+{
+  "objectName" : "arcadedance",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 2000,
+  "lightColor" : [245, 210, 235],
+
+  "description" : "Let's play some Dance-Dance!",
+  "shortdescription" : "Dance-Dance Machine",
+  "race" : "hylotl",
+
+  "apexDescription" : "The arrows move so fast! This game is bananas!",
+  "avianDescription" : "This game isn't very talon-friendly.",
+  "floranDescription" : "Stupid arrows move too fast!! Frustrate Floran!",
+  "glitchDescription" : "Pleased. It is an easy game, once you get the hang of it. 9/10.",
+  "humanDescription" : "It's good to see that Dance-Dance made it into space. Makes me nostalgic.",
+  "hylotlDescription" : "Mastering the art of Dance-Dance can prove very challenging indeed.",
+
+  "inventoryIcon" : "arcadedanceicon.png",
+  "orientations" : [
+    {
+      "leftImage" : "arcadedanceleft.png:<color>.<frame>",
+      "rightImage" : "arcadedanceright.png:<color>.<frame>",
+      "imagePosition" : [-24, 0],
+      "frames" : 8,
+      "animationCycle" : 0.8,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

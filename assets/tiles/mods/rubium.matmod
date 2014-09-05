@@ -1,0 +1,17 @@
+{
+  "modId" : 28,
+  "modName" : "rubium",
+  "itemDrop" : "rubiumore",
+  "Description" : "Rubium.",
+  "health" : 22,
+  "harvestLevel" : 7,
+  "breaksWithTile" : true,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rubium.png",
+    "variants" : 8,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

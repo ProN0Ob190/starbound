@@ -1,0 +1,11 @@
+{
+  "itemName" : "corruptdirtmaterial",
+  "rarity" : "Common",
+  "inventoryIcon" : "corruptdirt.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Ick. Corrupted dirt.",
+  "shortdescription" : "Corrupt Dirt Block",
+  "glitchdescription" : "Statement. Corrupted dirt.",
+  "florandescription" : "Sssick dirt.",
+  "materialId" : 145
+}

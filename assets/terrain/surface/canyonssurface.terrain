@@ -1,0 +1,89 @@
+{
+  "name" : "canyonsSurface",
+
+  //surface roughness
+  "type" : "displacement",
+  "xType" : "perlin",
+  "xOctaves" : 2,
+  "xFreq" : 0.2,
+  "xAmp" : 0,
+  "xXInfluence" : 0,
+  "yType" : "perlin",
+  "yOctaves" : 3,
+  "yFreq" : 0.05,
+  "yAmp" : 1,
+  "yYInfluence" : 0,
+  "yBias" : 0.5,
+  "yClamp" : [0, 1],
+
+  // "source" : {
+  //   "type" : "displacement",
+  //   "xType" : "perlin",
+  //   "xOctaves" : 2,
+  //   "xFreq" : 0.02,
+  //   "xAmp" : 0,
+  //   "yType" : "perlin",
+  //   "yOctaves" : 2,
+  //   "yFreq" : 0.01,
+  //   "yAmp" : 200,
+  //   "yClamp" : [-100, 0],
+  //   "yClampSmoothing" : 0,
+
+  //   "source" : {
+  //     "type" : "flatSurface",
+  //     "adjustment" : 0
+  //   }
+  // }
+
+  "source" : {
+    "type" : "mix",
+
+    "mixSource" : {
+      "type" : "perlin",
+      "function" : "perlin",
+      "octaves" : 1,
+      "freq" : 0.01,
+      "amp" : 4,
+      "bias" : 1.0,
+      "xInfluence" : 1,
+      "yInfluence" : 0
+    },
+
+    // canyon bottoms
+    "aSource" : {
+      "type" : "displacement",
+      "xType" : "perlin",
+      "xOctaves" : 2,
+      "xFreq" : 0.02,
+      "xAmp" : 0,
+      "yType" : "perlin",
+      "yOctaves" : 2,
+      "yFreq" : 0.05,
+      "yAmp" : 20,
+
+      "source" : {
+        "type" : "flatSurface",
+        "adjustment" : 0
+      }
+    },
+
+    // primary surface
+    "bSource" : {
+      //base terrain height variation
+      "type" : "displacement",
+      "xType" : "perlin",
+      "xOctaves" : 2,
+      "xFreq" : 0.02,
+      "xAmp" : 0,
+      "yType" : "perlin",
+      "yOctaves" : 2,
+      "yFreq" : 0.005,
+      "yAmp" : 40,
+
+      "source" : {
+        "type" : "flatSurface",
+        "adjustment" : 140
+      }
+    }
+  }
+}

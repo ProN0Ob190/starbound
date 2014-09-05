@@ -1,0 +1,22 @@
+{
+  "materialId" : 153,
+  "materialName" : "pressurizedgirder",
+  "particleColor" : [89, 127, 52, 255],
+  "itemDrop" : "pressurizedgirder",
+  "description" : "A pressurised girder.",
+  "shortdescription" : "Pressurised Girder",
+  "glitchDescription" : "Statement. A pressurised girder.",
+  "floranDescription" : "Girder.",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.wav",
+  "health" : 20,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "pressurizedgirder.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

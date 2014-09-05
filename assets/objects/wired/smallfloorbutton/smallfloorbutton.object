@@ -1,0 +1,43 @@
+{
+  "objectName" : "smallfloorbutton",
+  "rarity" : "Common",
+
+  "category" : "wire",
+  "price" : 400,
+  "description" : "Pushing it might be fun, at least for a moment.",
+  "shortdescription" : "Small Floor Button",
+  "race" : "generic",
+
+  "floranDescription" : "Floran push button!",
+  "glitchDescription" : "Temptation. A button, begging to be pressed.",
+
+  "inventoryIcon" : "smallfloorbuttonicon.png",
+  "orientations" : [
+    {
+      "image" : "smallfloorbutton.png:<color>.off",
+      "imagePosition" : [-6, 0],
+	  
+	  "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/proximitysensor/proximitysensor.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switchtoggle3fast.animation",
+  "animationParts" : {
+    "switch" : "smallfloorbutton.png"
+  },
+  "animationPosition" : [-6, 0],
+
+  "outboundNodes" : [ [0, 0] ],
+  
+  "interactive" : false,
+
+  "detectDuration" : 0.1,
+  "detectEntityTypes" : [ "creature" ],
+  "detectArea" : [ [-0.3, 0], [0.3, 0.5] ]
+}

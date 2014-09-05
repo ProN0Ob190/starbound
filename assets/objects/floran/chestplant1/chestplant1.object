@@ -1,0 +1,35 @@
+{
+  "objectName" : "chestplant1",
+  "rarity" : "Common",
+  "objectType" : "container",
+
+  "category" : "storage",
+  "price" : 500,
+  "description" : "Oh gross, this chest is all slimy. Hopefully its contents aren't ruined...",
+  "shortdescription" : "Small Overgrown Chest",
+  "race" : "floran",
+
+  "apexDescription" : "The chest itself appears to be organic.",
+  "avianDescription" : "Was this chest built, or grown?",
+  "floranDescription" : "Very ssspecial Floran, Floran Greenfinger, grow chessst from sssoil.",
+  "glitchDescription" : "Impressed. It appears this plant was grown with the express purpose of being a chest.",
+  "humanDescription" : "Was this chest grown?",
+  "hylotlDescription" : "It appears the Floran have learned to harness nature to grow the things they require.",
+
+  "orientations" : [
+    {
+      "dualImage" : "chestplant1.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "inventoryIcon" : "chestplant1icon.png",
+  "openSounds" : [ "/sfx/objects/chest_small_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

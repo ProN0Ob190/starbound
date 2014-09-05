@@ -1,0 +1,41 @@
+{
+  "objectName" : "screenplanet",
+  "rarity" : "Common",
+  "description" : "I wish I'd paid attention in astrogeography class.",
+  "shortdescription" : "Planet Monitor",
+  "race" : "generic",
+
+  "apexDescription" : "The screen displays a planetary reading.",
+  "avianDescription" : "Which planet is this?",
+  "floranDescription" : "Lotss of boring letterss.",
+  "glitchDescription" : "Smug. My internal sensors make the information on this screen obsolete.",
+  "humanDescription" : "It appears to be this planet... There are a bunch of readings.",
+  "hylotlDescription" : "Detailed information concerning the geography of the planet.",
+
+  "category" : "decorative",
+  "price" : 200,
+  "lightColor" : [0, 40, 100],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 4,
+
+  "inventoryIcon" : "screenicon.png",
+  "orientations" : [
+    {
+      "image" : "screenplanet.png:<frame>",
+      "imagePosition" : [-8, 0],
+      "frames" : 8,
+      "animationCycle" : 1.0,
+
+      "spaces" : [
+        [-1, 0], [0, 0], [1, 0], [2, 0],
+        [-1, 1], [0, 1], [1, 1], [2, 1]
+      ],
+
+      "bgAnchors" : [
+        [-1, 0], [0, 0], [1, 0], [2, 0],
+        [-1, 1], [0, 1], [1, 1], [2, 1]
+      ]
+    }
+  ]
+}

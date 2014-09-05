@@ -1,0 +1,31 @@
+{
+  "objectName" : "hylotlbowl",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 500,
+
+  "description" : "A simple striped bowl.",
+  "shortdescription" : "Traditional Bowl",
+  "race" : "hylotl",
+
+  "apexDescription" : "A striped bowl.",
+  "avianDescription" : "A basic striped bowl.",
+  "floranDescription" : "Bowl.",
+  "glitchDescription" : "Unremarkable. A bowl.",
+  "humanDescription" : "It's a bowl.",
+  "hylotlDescription" : "A pretty hand-painted bowl.",
+
+  "inventoryIcon" : "hylotlbowlicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "hylotlbowl.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

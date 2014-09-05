@@ -1,0 +1,50 @@
+{
+  "type" : "wildhunterveteran",
+  "baseType" : "wildhunter",
+
+  "levelVariance" : [0.5, 0.75],
+
+  "scriptConfig" : {
+    "meleeAttack" : {
+      "swingDistance" : 6
+    }
+  },
+
+  "items" : {
+    "floran" : [
+      [0, [
+          {
+            "head" : [ { "name" : "florantier6head", "parameters" : { "colorIndex" : 4 } } ],
+            "chest" : [ { "name" : "florantier5chest", "parameters" : { "colorIndex" : 4 } } ],
+            "legs" : [ { "name" : "florantier5pants", "parameters" : { "colorIndex" : 4 } } ],
+            "back" : [ { "name" : "simplecapeback", "parameters" : { "colorIndex" : 7 } } ],
+            "primary" : [
+              { "name" : "generatedsword", "parameters" : { "definition" : "floranmace" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedgun", "parameters" : { "definition" : "floranneedler" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "parameters" : { "definition" : "floranstrongshield" } }
+            ]
+          }
+        ] ]
+    ]
+  },
+
+  "movementControllerSettings" : {
+    "runSpeed" : 15
+  },
+
+  "dropPools" : [ "floranwildhunterveterantreasure" ],
+
+  "statusParameters" : {
+    "baseMaxHealth" : 40,
+    "baseMaxEnergy" : 40,
+    "bodyMaterialKind" : "organic",
+    "damageConfig" : "/damage/damageresponse/npcs.config",
+    "invulnerabilityTime" : 0,
+    "energyReplenishmentRate" : 10.0
+  }
+}
+

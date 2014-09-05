@@ -1,0 +1,24 @@
+{
+  "projectileName" : "healingstatusprojectile",
+  "physics" : "grenade",
+  "bounces" : -1,
+  "timeToLive" : 0.001,
+  "damageKindImage" : "icon.png",
+  "frames" : "healingstatusprojectile.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+
+  "power" : 0,
+  "piercing" : true,
+  "damageKind" : "default",
+  "damageType" : "ignoresdef",
+  "damagePoly" : [ [-36, 0], [-24, -24], [0, -36], [24, -24], [36, 0], [24, 24], [0, 36], [-24, 24] ],
+  "flippable" : true,
+  "universalDamage" : true,
+  "statusEffects" : [
+    {
+      "kind" : "health",
+      "amount" : 100
+    }
+  ]
+}

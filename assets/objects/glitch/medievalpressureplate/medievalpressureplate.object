@@ -1,0 +1,44 @@
+{
+  "objectName" : "medievalpressureplate",
+  "rarity" : "Common",
+  "category" : "wire",
+  "price" : 400,
+  "description" : "Use this pressure plate wisely.",
+  "shortdescription" : "Pressure Plate",
+  "race" : "glitch",
+
+  "apexDescription" : "Some kind of pressure plate.",
+  "avianDescription" : "What happens if I stand on this?",
+  "floranDescription" : "Button in floor. Ssshould Floran jump on?",
+  "glitchDescription" : "Confused. I don't think this was built by Glitch.",
+  "humanDescription" : "A giant pressure pad.",
+  "hylotlDescription" : "What does this activate?",
+
+  "inventoryIcon" : "medievalpressureplateicon.png",
+  "orientations" : [
+    {
+      "image" : "medievalpressureplate.png:<color>.off",
+      "imagePosition" : [-12, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/proximitysensor/proximitysensor.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switchtoggle2.animation",
+  "animationParts" : {
+    "switch" : "medievalpressureplate.png"
+  },
+  "animationPosition" : [-12, 0],
+
+  "outboundNodes" : [ [0, 0] ],
+  
+  "interactive" : false,
+
+  "detectDuration" : 0.1,
+  "detectEntityTypes" : [ "creature" ],
+  "detectArea" : [ [-1.0, 0], [1.0, 0.3] ]
+}

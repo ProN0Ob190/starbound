@@ -1,0 +1,14 @@
+{
+  "itemName" : "banana",
+  "rarity" : "Common",
+  "inventoryIcon" : "banana.png",
+  "description" : "A genetically enhanced banana, could make anyone but an Apex sick.",
+  "shortdescription" : "Banana",
+  "handPosition" : [-2, -2],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 25
+      }
+    ] ]
+}

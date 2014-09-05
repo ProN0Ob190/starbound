@@ -1,0 +1,21 @@
+{
+  "itemName" : "toast",
+  "rarity" : "Common",
+  "inventoryIcon" : "toast.png",
+  "description" : "A slice of warm, toasted bread.",
+  "shortdescription" : "Toast",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 35
+      },
+      {
+        "kind" : "health",
+        "amount" : 20
+      },
+      {
+        "kind" : "energy",
+        "amount" : 10
+      }
+    ] ]
+}

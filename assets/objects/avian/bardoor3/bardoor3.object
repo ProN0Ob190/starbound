@@ -1,0 +1,44 @@
+{
+  "objectName" : "bardoor3",
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 1200,
+  "description" : "This heavy iron portcullis closes with a thud.",
+  "shortdescription" : "Large Portcullis",
+  "race" : "generic",
+
+  "apexDescription" : "-todo-",
+  "avianDescription" : "-todo-",
+  "floranDescription" : "-todo-",
+  "glitchDescription" : "-todo-",
+  "humanDescription" : "-todo-",
+  "hylotlDescription" : "-todo-",
+
+  "inventoryIcon" : "bardoor3icon.png",
+  "orientations" : [
+    {
+      "image" : "bardoor3.png:<key>",
+      "imagePosition" : [-24, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationParts" : {
+    "door" : "bardoor3.png"
+  },
+  "animationPosition" : [-24, 0],
+
+  "inboundNodes" : [ [-2, 9] ],
+  "outboundNodes" : [ [1, 0] ],
+
+  "openSounds" : [ "/sfx/objects/bardoor2_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/bardoor2_close.wav" ]
+}

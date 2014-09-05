@@ -1,0 +1,31 @@
+{
+  "objectName" : "tombstone6",
+  "rarity" : "Common",
+  "description" : "This tombstone belongs to a priest, fallen in battle.",
+  "shortdescription" : "Priest's Tombstone",
+  "race" : "avian",
+  "category" : "decorative",
+  "price" : 350,
+
+  "apexDescription" : "A faded tombstone. Very old.",
+  "avianDescription" : "A standard Avian tombstone. These are old and numerous.",
+  "floranDescription" : "Floran mark dead with growth of flower.",
+  "glitchDescription" : "Observation. This tombstone is starting to crumble.",
+  "humanDescription" : "A very old tombstone. The words are largely faded.",
+  "hylotlDescription" : "The dead deserve more honour than this.",
+
+  "inventoryIcon" : "tombstone6icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "tombstone6.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

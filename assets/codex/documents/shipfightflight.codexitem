@@ -1,0 +1,10 @@
+{
+  "codexId" : "shipfightflight",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "avianairshipbook_08.png",
+  "itemName" : "shipfightflightCodex",
+  "rarity" : "common",
+  "description" : "Fight or Flight",
+  "shortdescription" : "Fight or Flight"
+}

@@ -1,0 +1,44 @@
+{
+  "objectName" : "bonedoor",
+  "printable" : false,
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 800,
+  "description" : "A door made of bone. Where does it lead? Hell? Or the bathroom?",
+  "shortdescription" : "Bone Door",
+  "race" : "generic",
+
+  "apexDescription" : "A foreboding door made of bone. I'm scared to go through.",
+  "avianDescription" : "Surely, beyond a door like this must lie something worthy of respect.",
+  "floranDescription" : "Floran feel kinssship with door. Kick open.",
+  "glitchDescription" : "Quipping. I guess the death of this creature really... opened doors. Yeahhh.",
+  "humanDescription" : "It's cold to the touch. A chill creeps down my spine. Somewhere in the distance, a dog barks. Wait, that was just an Apex singing.",
+  "hylotlDescription" : "A vile door of death. Such horror. Remarkably smooth hinges, though.",
+
+  "inventoryIcon" : "bonedooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bonedoor.png:default",
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationParts" : {
+    "door" : "bonedoor.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "inboundNodes" : [ [0, 4] ],
+  "outboundNodes" : [ [0, 0] ],
+
+  "openSounds" : [ "/sfx/objects/wooddoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/wooddoor_close.wav" ]
+}

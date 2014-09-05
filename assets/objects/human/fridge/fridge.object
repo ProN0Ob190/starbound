@@ -1,0 +1,44 @@
+{
+  "objectName" : "fridge",
+  "rarity" : "Common",
+  "objectType" : "container",
+
+  "category" : "storage",
+  "price" : 600,
+  "description" : "Ooh, snack time.",
+  "shortdescription" : "Fridge",
+  "race" : "human",
+
+  "apexDescription" : "A fridge. Hopefully it contains banana milkshake.",
+  "avianDescription" : "A fridge. Ideally filled with drinks and snacks.",
+  "floranDescription" : "Floran sssmell meat.",
+  "glitchDescription" : "Analysis. This fridge is operating at the optimal temperature.",
+  "humanDescription" : "I'm practically vibrating with excitement thinking about the possible contents.",
+  "hylotlDescription" : "Underwater, refrigeration is easier. These devices are a clever substitute.",
+
+  "inventoryIcon" : "fridgeicon.png",
+  "orientations" : [
+    {
+      "leftImage" : "fridgeleft.png:default",
+      "rightImage" : "fridgeright.png:default",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/fridge_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/fridge_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "soundEffect" : "/sfx/objects/fridge_hum.wav"
+}

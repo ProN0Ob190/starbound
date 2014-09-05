@@ -1,0 +1,7 @@
+{
+  "itemName" : "goldbar",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "goldbar.png",
+  "description" : "It's a gold bar that must be worth a lot!",
+  "shortdescription" : "Gold Bar"
+}

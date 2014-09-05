@@ -1,0 +1,52 @@
+{
+  "objectName" : "tier10light",
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 300,
+
+  "description" : "A dazzling impervium light.",
+  "shortdescription" : "Impervium Light",
+  "race" : "generic",
+
+  "apexDescription" : "A well-made light source.",
+  "avianDescription" : "This useful lantern will light up even the darkest room.",
+  "floranDescription" : "Lantern sssafe for Floran.",
+  "glitchDescription" : "Statement. A robust lantern.",
+  "humanDescription" : "A neat, sturdy lantern.",
+  "hylotlDescription" : "A useful light source.",
+
+  "statusEffects" : [
+    {
+      "kind" : "Warmth",
+      "amount" : 10,
+      "range" : 2
+    } ],
+
+  "lightColor" : [155, 255, 255],
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.01,
+
+  "inventoryIcon" : "tier10lighticon.png",
+  "orientations" : [
+
+    {
+      "dualImage" : "tier10light.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttoggle.animation",
+  "animationParts" : {
+    "light" : "tier10light.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inboundNodes" : [ [0, 0] ]
+}

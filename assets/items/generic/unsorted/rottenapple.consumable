@@ -1,0 +1,14 @@
+{
+  "itemName" : "rottenapple",
+  "rarity" : "Common",
+  "inventoryIcon" : "rottenapple.png",
+  "description" : "This apple is clearly rotten. It's even got a worm writhing around in it...do I dare?",
+  "shortdescription" : "Rotten Apple",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 5
+      }
+    ] ]
+}

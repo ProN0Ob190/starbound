@@ -1,0 +1,30 @@
+{
+  "projectileName" : "molotovflame",
+  "physics" : "grenadenobounce",
+  "bounces" : -1,
+  "timeToLive" : 10,
+  "speed" : 15,
+  "frames" : "molotovflame.png",
+  "animationCycle" : 0.55,
+  "lightColor" : [235, 126, 2],
+  "frameNumber" : 4,
+  "emitters" : [ "flames" ],
+  "piercing" : true,
+  "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/smoke/smoke.config"
+    }
+  ],
+  "damageKind" : "fire",
+  "statusEffects" : [
+    {
+      "kind" : "glow",
+      "amount" : 100.0,
+      "color" : "orange",
+      "duration" : 5.0
+    },
+    { "kind" : "testburning" }
+  ]
+}

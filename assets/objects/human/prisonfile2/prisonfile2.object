@@ -1,0 +1,39 @@
+{
+  "objectName" : "prisonfile2",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "description" : "There were some office supplies and inmate files in this filing cabinet.",
+  "shortdescription" : "Wide Rusty Filing Cabinet",
+  "race" : "human",
+  "category" : "storage",
+  "price" : 350,
+  "openSounds" : [ "/sfx/objects/bunkercabinet_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/bunkercabinet_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "apexDescription" : "Apparently public nudity is illegal for humans. Who knew?",
+  "avianDescription" : "A woman was arrested for wearing overly large glasses. Apparently they were a fire hazard.",
+  "floranDescription" : "Words sssay 'axe mur-' 'mured-' 'murdee-'... Floran not know.",
+  "glitchDescription" : "Subdued. A large number of humans go to prison for punching each other in the face.",
+  "humanDescription" : "Oh hey, this woman's a pretty famous smuggler. Says here she broke out.",
+  "hylotlDescription" : "This man has 'criminal' written all over his face. Quite literally. He seems proud of his accomplishments.",
+
+  "inventoryIcon" : "prisonfile2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "prisonfile2.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "objectName" : "florancrate",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "category" : "storage",
+  "price" : 650,
+  "description" : "A storage crate made of unrefined wood and bone.",
+  "shortdescription" : "Primitive Crate",
+  "race" : "floran",
+
+  "apexDescription" : "A simple crate of wood and bone.",
+  "avianDescription" : "Wood and bone make for a simple crate.",
+  "floranDescription" : "Floran use sspare bone and sspare wood for sstorage.",
+  "glitchDescription" : "Evaluate. Chance of valuable item inside: low.",
+  "humanDescription" : "The bone corners allow it to move easily over the ground.",
+  "hylotlDescription" : "I dread to think of what the Floran store inside.",
+
+  "state" : {
+    "kind" : "storage",
+    "openSounds" : [ "/sfx/objects/florancrate_open.wav" ],
+    "closeSounds" : [ "/sfx/objects/florancrate_close.wav" ],
+    "slotCount" : 16,
+    "uiconfig" : "/interface/chests/chest%slots%.config"
+  },
+
+  "inventoryIcon" : "florancrateicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "florancrate.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/florancrate_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/florancrate_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

@@ -1,0 +1,31 @@
+{
+  "objectName" : "outpostcrane",
+  "rarity" : "Common",
+  "description" : "A crane. Used for lifting, or swinging from.",
+  "shortdescription" : "Outpost Crane",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 400,
+
+  "apexDescription" : "A powerful crane.",
+  "avianDescription" : "A crane, and not of the Avian variety.",
+  "floranDescription" : "Floran ssswing from metal arm!",
+  "glitchDescription" : "Statement. A crane.",
+  "humanDescription" : "Do you think they use bigger cranes to build cranes?",
+  "hylotlDescription" : "A crude crane.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "outpostcrane.png:<color>",
+
+      "imagePosition" : [-24, -32],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+
+    }
+  ]
+}

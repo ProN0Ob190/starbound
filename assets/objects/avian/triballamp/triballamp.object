@@ -1,0 +1,57 @@
+{
+  "objectName" : "triballamp",
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 300,
+  "description" : "A beautiful lamp built from Avian crystal tech.",
+  "shortdescription" : "Avian Lamp",
+  "race" : "avian",
+
+  "apexDescription" : "This lamp glows brightly without power.",
+  "avianDescription" : "Crystal lamps never run out of light.",
+  "floranDescription" : "Light remind Floran of red ssssunsset.",
+  "glitchDescription" : "Observation. This lamp is its own powersource.",
+  "humanDescription" : "The glow from these lamps is ominous.",
+  "hylotlDescription" : "The Hylotl could make great use of this crystal technology beneath the waves.",
+
+  "statusEffects" : [
+    {
+      "kind" : "Warmth",
+      "amount" : 15,
+      "range" : 2
+    } ],
+
+  "lightColor" : [217, 65, 54],
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.1,
+  "flickerTiming" : 3,
+
+  "inventoryIcon" : "triballampicon.png",
+  "orientations" : [
+    {
+      "image" : "triballamp.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+	{
+      "image" : "triballamp.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "triballamp.animation",
+  "animationParts" : {
+    "bg" : "triballamp.png",
+    "fg" : "triballamplit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inboundNodes" : [ [0, 0] ]
+}

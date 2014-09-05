@@ -1,0 +1,83 @@
+{
+  "projectileName" : "chalcedonyspawner",
+  "frames" : "chalcedonyspawner.png",
+  "physics" : "gas",
+  "animationCycle" : 0.1,
+  "frameNumber" : 8,
+  "speed" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "timeToLive" : 0.1,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "cardinalschalcedony",
+      "inheritDamageFactor" : 1.5,
+      "inheritSpeedFactor" : 0,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/melee/sword_parry.wav" ]
+    },
+    {
+      "action" : "projectile",
+      "type" : "regularexplosion",
+      "fuzzAngle" : 180,
+      "inheritSpeedFactor" : 0.1,
+      "inheritDamageFactor" : 1.0,
+      "delaySteps" : 30
+    },
+    {
+      "action" : "projectile",
+      "type" : "regularexplosion",
+      "fuzzAngle" : 180,
+      "inheritSpeedFactor" : 0.1,
+      "inheritDamageFactor" : 1.0,
+      "delaySteps" : 60
+    },
+    {
+      "action" : "projectile",
+      "type" : "regularexplosion",
+      "fuzzAngle" : 180,
+      "inheritSpeedFactor" : 0.1,
+      "inheritDamageFactor" : 1.0,
+      "delaySteps" : 90
+    },
+    {
+      "action" : "projectile",
+      "type" : "regularexplosion",
+      "fuzzAngle" : 180,
+      "inheritSpeedFactor" : 0.1,
+      "inheritDamageFactor" : 1.0,
+      "delaySteps" : 120
+    },
+    {
+      "action" : "projectile",
+      "type" : "regularexplosion",
+      "fuzzAngle" : 180,
+      "inheritSpeedFactor" : 0.1,
+      "inheritDamageFactor" : 1.0,
+      "delaySteps" : 150
+    },
+    {
+      "action" : "projectile",
+      "type" : "regularexplosion",
+      "fuzzAngle" : 180,
+      "inheritSpeedFactor" : 0.1,
+      "inheritDamageFactor" : 1.0,
+      "delaySteps" : 180
+    },
+    {
+      "action" : "projectile",
+      "type" : "regularexplosion",
+      "fuzzAngle" : 180,
+      "inheritSpeedFactor" : 0.1,
+      "inheritDamageFactor" : 1.0,
+      "delaySteps" : 210
+    }
+  ],
+  "power" : 0,
+  "damageType" : "hitTest",
+  "damageKind" : "default"
+}

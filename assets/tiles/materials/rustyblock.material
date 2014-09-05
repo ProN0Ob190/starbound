@@ -1,0 +1,22 @@
+{
+  "materialId" : 166,
+  "materialName" : "rustyblock",
+  "particleColor" : [111, 98, 90, 255],
+  "itemDrop" : "rustymetal",
+  "description" : "A rusty old block.",
+  "shortdescription" : "Rusty Block",
+  "glitchDescription" : "Statement. A rusty block.",
+  "floranDescription" : "Russsty.",
+  "footstepSound" : "/sfx/blocks/footstep_girder.wav",
+  "health" : 35,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rustyblock.png",
+    "variants" : 3,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

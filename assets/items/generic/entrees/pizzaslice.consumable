@@ -1,0 +1,19 @@
+{
+  "itemName" : "pizzaslice",
+  "rarity" : "Common",
+  "inventoryIcon" : "pizzaslice.png",
+  "description" : "A hot slice of pepperoni pizza.",
+  "shortdescription" : "Pizza Slice",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 100
+      },
+      {
+        "kind" : "mollyhealing3" },
+      {
+        "kind" : "energy",
+        "amount" : 15
+      }
+    ] ]
+}

@@ -1,0 +1,21 @@
+{
+  "materialId" : 51,
+  "materialName" : "wreckplatform",
+  "platform" : true,
+  "transparent" : true,
+  "itemDrop" : "wreckplatform",
+  "shortdescription" : "Wrecked Platform",
+  "description" : "Rusty scaffolding, it doesn't look safe.",
+  "footstepSound" : "/sfx/blocks/footstep_girder.wav",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "wreckplatform.png",
+    "variants" : 3,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multicolored" : true,
+    "zLevel" : 0,
+    "platform" : true
+  }
+}

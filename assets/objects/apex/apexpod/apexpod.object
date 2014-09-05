@@ -1,0 +1,67 @@
+{
+  "objectName" : "apexpod",
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 2500,
+  "lightColor" : [115, 179, 89],
+  "flickerDistance" : 1.0,
+  "flickerStrength" : 0.1,
+  "flickerTiming" : 1,
+  "description" : "There's an Apex in there, connected to a bunch of wires and tubes.",
+  "shortdescription" : "Apex Life Support Pod",
+  "race" : "apex",
+
+  "apexDescription" : "Good god... what have they done? I would free him but he appears to be on life support.",
+  "avianDescription" : "What monstrous process is this?",
+  "floranDescription" : "Ssssoup!",
+  "glitchDescription" : "Shock. What is going on here!?",
+  "humanDescription" : "What the hell is going on here?",
+  "hylotlDescription" : "Poor soul...",
+
+  "inventoryIcon" : "apexpodicon.png",
+  "orientations" : [
+    {
+      "image" : "apexpod.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+	  
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "animationPosition" : [-16, 0],
+	  "lightPosition" : [0, 3],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+	{
+      "image" : "apexpod.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+	  
+	  "direction" : "right",
+	  "animationPosition" : [-16, 0],
+	  "lightPosition" : [0, 3],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/apexpod.wav",
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "apexpod.png",
+    "fg" : "apexpodlit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inboundNodes" : [ [0, 0] ]
+
+}

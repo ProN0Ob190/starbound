@@ -1,0 +1,32 @@
+{
+  "objectName" : "nowayout",
+  "rarity" : "Common",
+  "description" : "-todo-",
+  "shortdescription" : "nowayout",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 400,
+
+  "apexDescription" : "-todo-",
+  "avianDescription" : "-todo-",
+  "floranDescription" : "-todo-",
+  "glitchDescription" : "-todo-",
+  "humanDescription" : "-todo-",
+  "hylotlDescription" : "-todo-",
+  "novakidDescription" : "-todo-",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "nowayout.png:<color>",
+      "direction" : "right",
+
+      "imagePosition" : [-16, -8],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

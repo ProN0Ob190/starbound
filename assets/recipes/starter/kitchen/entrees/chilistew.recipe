@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "tomato", "count" : 1 },
+    { "item" : "chili", "count" : 1 },
+    { "item" : "meatchunks", "count" : 2 }
+  ],
+  "output" : { "item" : "chilistew", "count" : 1 },
+  "groups" : [ "kitchen", "consumables", "entree" ]
+}

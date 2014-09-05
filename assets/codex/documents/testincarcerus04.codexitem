@@ -1,0 +1,10 @@
+{
+  "codexId" : "testincarcerus04",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "apextestchamberbook_04.png",
+  "itemName" : "testincarcerus04Codex",
+  "rarity" : "common",
+  "description" : "Project Incarcerus Notes #4",
+  "shortdescription" : "Incarcerus Notes"
+}

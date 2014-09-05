@@ -1,0 +1,17 @@
+{
+  "name" : "miniDragonBreathAttack",
+  "label" : "WYRMLING BREATH",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "miniDragonBreathAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "minidragon",
+      "range" : 15,
+      "speed" : 25,
+      "power" : 8,
+      "shots" : 6,
+      "fireInterval" : 0.066
+    }
+  }
+}

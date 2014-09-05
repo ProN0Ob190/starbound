@@ -1,0 +1,32 @@
+{
+  "objectName" : "root8",
+  "rarity" : "Common",
+  "description" : "There are long roots protruding from the ceiling.",
+  "shortdescription" : "Long Roots",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 400,
+
+  "apexDescription" : "-todo-",
+  "avianDescription" : "-todo-",
+  "floranDescription" : "-todo-",
+  "glitchDescription" : "-todo-.",
+  "humanDescription" : "-todo-",
+  "hylotlDescription" : "-todo-",
+  "novakidDescription" : "-todo-",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "root8.png:<color>",
+
+      "imagePosition" : [0, -8],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+
+    }
+  ]
+}

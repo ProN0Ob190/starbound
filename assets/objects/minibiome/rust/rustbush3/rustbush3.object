@@ -1,0 +1,40 @@
+{
+  "objectName" : "rustbush3",
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "pot",
+  "price" : 400,
+  "objectItem" : "metallic",
+
+  "description" : "A rusty bush. Watch out for sharp edges.",
+  "shortdescription" : "Rust Bush",
+  "race" : "apex",
+
+  "apexDescription" : "This bush is flaking and covered in rust.",
+  "avianDescription" : "A corroded, rusty bush.",
+  "floranDescription" : "Floran not like ssstinky rusting bush.",
+  "glitchDescription" : "Nervous. The sight of rust makes me feel faint.",
+  "humanDescription" : "A rusty bush. Now I've seen everything.",
+  "hylotlDescription" : "This bush is rusty, and unpleasant to observe.",
+
+  "inventoryIcon" : "capsulebigicon.png",
+  "orientations" : [
+    {
+      "image" : "rustbush3.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "smashSounds" : [ "/sfx/objects/capsule_break1.wav", "/sfx/objects/capsule_break2.wav", "/sfx/objects/capsule_break3.wav" ],
+  "smashDropOptions" : [
+    [ [ "metallic", 1, { } ], [ "metallic", 1, { } ], [ "metallic", 1, { } ] ]
+  ],
+  "breakDropOptions" : [
+    [ [ "metallic", 1, { } ], [ "metallic", 1, { } ], [ "metallic", 1, { } ] ]
+  ]
+}

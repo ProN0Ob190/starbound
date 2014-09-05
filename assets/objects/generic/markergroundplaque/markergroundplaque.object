@@ -1,0 +1,30 @@
+{
+  "objectName" : "markergroundplaque",
+  "rarity" : "Common",
+  "description" : "A beautifully crafted marker with a plaque embedded into it.",
+  "shortdescription" : "Commemorative Marker",
+  "race" : "generic",
+  "printable" : false,
+  "price" : 500,
+
+  "apexDescription" : "I can use this marker to finally identify something as my own.",
+  "avianDescription" : "A handy marker to tell people this is mine.",
+  "floranDescription" : "Floran plant marker to sssay keep out!",
+  "glitchDescription" : "Statement. A handy plaque to signify ownership.",
+  "humanDescription" : "With this, my house can become a home.",
+  "hylotlDescription" : "Hylotl dwellings are unique as it is, but this plaque will seal the deal.",
+
+  "inventoryIcon" : "markergroundplaqueicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "markergroundplaque.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

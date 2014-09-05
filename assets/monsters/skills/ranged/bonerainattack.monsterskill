@@ -1,0 +1,19 @@
+{
+  "name" : "boneRainAttack",
+  "label" : "BONE RAIN",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "boneRainAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "multibone",
+      "arc" : "high",
+      "range" : 16,
+      "speed" : 30,
+      "power" : 15,
+      "shots" : 1,
+      "windupTime" : 0.5,
+      "winddownTime" : 0.7
+    }
+  }
+}

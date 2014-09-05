@@ -1,0 +1,49 @@
+{
+  "objectName" : "signweaponshop",
+  "rarity" : "Common",
+  "description" : "Oooh, this shop up ahead sells weapons!",
+  "shortdescription" : "Weapon Shop Sign",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 300,
+
+  "apexDescription" : "A wooden sign. Looks like it belongs to a Glitch weapon store.",
+  "avianDescription" : "A wooden sign. It depicts a sword.",
+  "floranDescription" : "Sword ssshop nearby?",
+  "glitchDescription" : "Identify. A sign that marks a Glitch weapon store. Weapon stores are often unsuccessful, as Glitch prefer to make their own weapons.",
+  "humanDescription" : "Looks like a sign that sits outside a weapon store.",
+  "hylotlDescription" : "This sign suggests a weapon store.",
+
+  "inventoryIcon" : "signweaponshopicon.png",
+  "orientations" : [
+    {
+      "image" : "signweaponshop.png:<color>",
+
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaces" : [ [-1, 0], [0, 0], [1, 0], [-1, -1], [0, -1], [1, -1] ],
+      "fgAnchors" : [ [-2, 0], [2, 0] ]
+    },
+    {
+      "image" : "signweaponshopleft.png:<color>",
+
+      "imagePosition" : [0, -8],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaces" : [ [0, 0], [1, 0], [2, 0], [0, -1], [1, -1], [2, -1] ],
+      "fgAnchors" : [ [-1, 0] ]
+    },
+    {
+      "image" : "signweaponshopright.png:<color>",
+      "imagePosition" : [-16, -8],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+
+      "spaces" : [ [-2, 0], [-1, 0], [0, 0], [-2, -1], [-1, -1], [0, -1] ],
+      "fgAnchors" : [ [1, 0] ]
+    }
+  ]
+}

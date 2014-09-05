@@ -1,0 +1,25 @@
+{
+  "materialId" : 180,
+  "materialName" : "treasurehoard",
+  "particleColor" : [242, 236, 8, 255],
+  "itemDrop" : "treasurehoard",
+  "shortdescription" : "Tresaure Hoard Block",
+  "description" : "A block made up of treasure!",
+  "glitchDescription" : "Observation. I want this.",
+  "floranDescription" : "Floran not can at this.",
+  "falling" : true,
+  "cascading" : true,
+  "footstepSound" : "/sfx/blocks/footstep_stone.wav",
+  "health" : 2,
+  "breathable" : "notBreathable",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "treasurehoard.png",
+    "variants" : 25,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

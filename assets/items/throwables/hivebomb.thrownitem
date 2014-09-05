@@ -1,0 +1,21 @@
+{
+  "itemName" : "hivebomb",
+  "rarity" : "Common",
+  "inventoryIcon" : "hivebombicon.png",
+  "image" : "hivebomb.png",
+  "shortdescription" : "Bug Hive",
+  "description" : "Mind your aim! These creepy critters can eat through just about anything.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "hivebomb",
+  "projectileConfig" : {
+    "speed" : 40,
+    "power" : 3
+  }
+}
+

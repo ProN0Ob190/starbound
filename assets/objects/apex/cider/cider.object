@@ -1,0 +1,30 @@
+{
+  "objectName" : "cider",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 600,
+  "description" : "Acceptable whether you're wearing sweatpants and a beanie or pantaloons.",
+  "shortdescription" : "Apex Drink",
+  "race" : "apex",
+
+  "apexDescription" : "All alcohol is banned by the Miniknog, but that doesn't seem to stop them.",
+  "avianDescription" : "An Apex drink? Avians do not react well to alcohol.",
+  "floranDescription" : "Hsss disgusting Apex liquidss.",
+  "glitchDescription" : "Adventurous. I am waterproof inside and out.",
+  "humanDescription" : "A drink... I could do with one.",
+  "hylotlDescription" : "The Hylotl drink tea, and little else.",
+
+  "inventoryIcon" : "cidericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "cider.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

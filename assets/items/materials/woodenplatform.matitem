@@ -1,0 +1,13 @@
+{
+  "itemName" : "woodenplatform",
+  // "twoHanded" : false,
+  "rarity" : "Common",
+  "inventoryIcon" : "woodenplatformicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Nicely carved wooden platforms.",
+  "shortdescription" : "Wooden Platform",
+  "glitchdescription" : "Statement. An immaculately carved wooden platform.",
+  "florandescription" : "Platformsss.",
+
+  "materialId" : 70
+}

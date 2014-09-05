@@ -1,0 +1,14 @@
+{
+  "itemName" : "orange",
+  "rarity" : "Common",
+  "inventoryIcon" : "orange.png",
+  "description" : "Various raw chunks of meat. I'm not even sure where they came from.",
+  "shortdescription" : "Orange",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 25
+      }
+    ] ]
+}

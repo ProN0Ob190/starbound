@@ -1,0 +1,83 @@
+{
+  "objectName" : "diodiaseed",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Diodia, it has a coppery taste.",
+  "shortdescription" : "Diodia Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 1402,
+
+  "apexDescription" : "Diodia aren't the most pleasant-tasting things, but they're easy to grow.",
+  "avianDescription" : "There's an old urban legend about Avians eating beakseeds at a banquet...",
+  "floranDescription" : "Tassste like blood, Floran find Diodia acceptable sssubstitute.",
+  "glitchDescription" : "Alarm. These vegetables taste unusually familiar.",
+  "humanDescription" : "Looks like a potato, tastes like a penny. Not a great trade-off.",
+  "hylotlDescription" : "A bitter root vegetable. Good for adding flavour.",
+
+  "inventoryIcon" : "diodiaseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "diodiaseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "diodia",
+            "count" : 1
+          },
+          {
+            "name" : "diodiaseed",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "diodia",
+            "count" : 1
+          },
+          {
+            "name" : "plantfibre",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "diodia",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [1560, 1560],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [1560, 1560],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

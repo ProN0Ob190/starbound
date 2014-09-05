@@ -1,0 +1,16 @@
+{
+  "itemName" : "redstim",
+  "rarity" : "Common",
+  "inventoryIcon" : "redstim.png",
+  "description" : "A stimpack full of red liquid",
+  "shortdescription" : "Red Stim Pack",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      {
+        "kind" : "redstim",
+        "amount" : 0.5
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ]
+}

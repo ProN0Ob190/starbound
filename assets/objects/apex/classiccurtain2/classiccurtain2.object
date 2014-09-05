@@ -1,0 +1,31 @@
+{
+  "objectName" : "classiccurtain2",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 800,
+
+  "description" : "The classiest drape.",
+  "shortdescription" : "Classic Drape",
+  "race" : "apex",
+
+  "apexDescription" : "Rich, heavy curtains.",
+  "avianDescription" : "Soft to the touch.",
+  "floranDescription" : "Apex make curtain from heavy velvet, Floran make curtain from ssskin.",
+  "glitchDescription" : "Tactile. Few objects are as pleasurable to caress.",
+  "humanDescription" : "These curtains belong in a mansion.",
+  "hylotlDescription" : "These curtains almost stick to Hylotl skin.",
+
+  "inventoryIcon" : "classiccurtain2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "classiccurtain2.png:<color>",
+      "imagePosition" : [-16, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

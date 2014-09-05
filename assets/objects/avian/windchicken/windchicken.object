@@ -1,0 +1,31 @@
+{
+  "objectName" : "windchicken",
+  "rarity" : "Common",
+  "description" : "Is that an Avian... or a chicken?",
+  "shortdescription" : "Weathervane",
+  "race" : "avian",
+  "category" : "decorative",
+  "price" : 2500,
+
+  "apexDescription" : "I think it indicates the direction the wind is blowing.",
+  "avianDescription" : "Avians have always paid close attention to the wind.",
+  "floranDescription" : "Wind chicken!",
+  "glitchDescription" : "Observation. A crude device built to measure wind direction.",
+  "humanDescription" : "It's a weather vane!",
+  "hylotlDescription" : "The Hylotl similarly measure water currents.",
+
+  "inventoryIcon" : "windchickenicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "windchicken.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

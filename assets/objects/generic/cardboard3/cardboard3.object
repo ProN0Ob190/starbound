@@ -1,0 +1,41 @@
+{
+  "objectName" : "cardboard3",
+  "rarity" : "Common",
+  "objectType" : "container",
+
+  "category" : "storage",
+  "price" : 250,
+  "description" : "An open cardboard box.",
+  "shortdescription" : "Open Cardboard Box",
+  "race" : "generic",
+
+  "apexDescription" : "A cardboard box.",
+  "avianDescription" : "A cardboard box.",
+  "floranDescription" : "Cardboard box.",
+  "glitchDescription" : "Identify. A cardboard box.",
+  "humanDescription" : "A cardboard box.",
+  "hylotlDescription" : "A cardboard box.",
+
+  "inventoryIcon" : "cardboard3icon.png",
+  "orientations" : [
+    {
+      "leftImage" : "cardboard3left.png:default",
+      "rightImage" : "cardboard3right.png:default",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/cardboardbox_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/cardboardbox_close.wav" ],
+  "slotCount" : 9,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

@@ -1,0 +1,30 @@
+{
+  "objectName" : "glasspanel",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 350,
+  "description" : "A shiny glass panel.",
+  "shortdescription" : "Glass Panel",
+  "race" : "human",
+
+  "apexDescription" : "Coloured glass. Very pretty.",
+  "avianDescription" : "This glass sparkles like jewels.",
+  "floranDescription" : "Pretty glassss ssstill make big sssmash.",
+  "glitchDescription" : "Impressed. Human craftsmanship can be somewhat remarkable.",
+  "humanDescription" : "Coloured glass like this can be used to make stylish sunglasses.",
+  "hylotlDescription" : "This glass sparkles like colourful sea shells.",
+
+  "inventoryIcon" : "glasspanelicon.png",
+  "orientations" : [
+    {
+      "image" : "glasspanel.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

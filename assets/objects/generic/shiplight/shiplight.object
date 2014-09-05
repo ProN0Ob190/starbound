@@ -1,0 +1,30 @@
+{
+  "objectName" : "shiplight",
+  "rarity" : "Common",
+  "description" : "Strip lighting, for use on a spaceship.",
+  "shortdescription" : "Ship Light",
+  "race" : "floran",
+
+  "category" : "light",
+  "price" : 500,
+  "lightColor" : [220, 220, 220],
+
+  "apexDescription" : "Lights.",
+  "avianDescription" : "Lights.",
+  "floranDescription" : "Bright lights.",
+  "glitchDescription" : "Statement. Lights.",
+  "humanDescription" : "Lights.",
+  "hylotlDescription" : "Lights.",
+
+  "inventoryIcon" : "shiplight.png",
+  "orientations" : [
+    {
+      "image" : "shiplight.png:<color>.<frame>",
+      "imagePosition" : [-0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

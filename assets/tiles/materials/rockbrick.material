@@ -1,0 +1,22 @@
+{
+  "materialId" : 20,
+  "materialName" : "rockbrick",
+  "particleColor" : [114, 112, 110, 255],
+  "itemDrop" : "rockbrickmaterial",
+  "description" : "A crudely produced set of rock bricks.",
+  "shortdescription" : "Rock Bricks",
+  "glitchDescription" : "Statement. Rock bricks.",
+  "floranDescription" : "Rock bricksss.",
+  "footstepSound" : "/sfx/blocks/footstep_stone3.wav",
+  "health" : 30,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rockbrick.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

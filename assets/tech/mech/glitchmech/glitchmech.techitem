@@ -1,0 +1,10 @@
+{
+  "itemName" : "glitchMechTech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/glitchmech.png",
+  "description" : "Use this tech, spawn a mech. Then destroy things.",
+  "shortdescription" : "Glitch Mech",
+  "tooltipKind" : "tech",
+
+  "techModule" : "glitchmech.tech"
+}

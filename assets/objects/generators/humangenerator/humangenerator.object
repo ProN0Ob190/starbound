@@ -1,0 +1,30 @@
+{
+  "objectName" : "humangenerator",
+  "rarity" : "Legendary",
+  "description" : "-todo-",
+  "shortdescription" : "Human Shield Generator",
+  "race" : "human",
+  "price" : 2000,
+
+  "apexDescription" : "-todo-",
+  "avianDescription" : "A stone human. Her arms are missing.",
+  "floranDescription" : "Floran like ssstone meatman. Ssstoneman?",
+  "glitchDescription" : "Statement. A work of art.",
+  "humanDescription" : "Ah, a blast from the past.",
+  "hylotlDescription" : "A crude rock sculpture. It appears to be humanoid.",
+
+  "inventoryIcon" : "humangeneratoricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "humangenerator.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "objectName" : "apexwardrobe",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "description" : "The same wardrobe sits in every Apex bedroom.",
+  "shortdescription" : "Standard Issue Wardrobe",
+  "race" : "apex",
+  "category" : "storage",
+  "price" : 800,
+
+  "apexDescription" : "The resistance once stored their disguises in these wardrobes... somehow the Miniknog knew. There were raids... executions...",
+  "avianDescription" : "No markings, no decoration.",
+  "floranDescription" : "Wardrobe? Sssuch things bore Floran.",
+  "glitchDescription" : "Bored. Plain Apex furniture. Each appears to contain a hidden camera.",
+  "humanDescription" : "It's as if someone went to great trouble to ensure this wardrobe was dull.",
+  "hylotlDescription" : "Perhaps something interesting sits within. Looks can be deceiving.",
+
+  "state" : {
+    "kind" : "storage",
+    "openSounds" : [ "/sfx/objects/woodenbox_open.wav" ],
+    "closeSounds" : [ "/sfx/objects/woodenbox_close.wav" ],
+    "slotCount" : 16,
+    "uiconfig" : "/interface/chests/chest%slots%.config"
+  },
+
+  "inventoryIcon" : "apexwardrobeicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "apexwardrobe.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+  "openSounds" : [ "/sfx/objects/woodendoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/woodendoor_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

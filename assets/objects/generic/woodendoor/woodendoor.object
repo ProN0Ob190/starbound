@@ -1,0 +1,44 @@
+{
+  "objectName" : "woodendoor",
+  "printable" : false,
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 600,
+  "description" : "A crude wooden door. Not very secure.",
+  "shortdescription" : "Wooden Door",
+  "race" : "generic",
+
+  "apexDescription" : "A basic wooden door.",
+  "avianDescription" : "A hand made wooden door.",
+  "floranDescription" : "Floran alsso make wooden door.",
+  "glitchDescription" : "Observe. Appears to be a hand-made door.",
+  "humanDescription" : "The kind of door you'd expect to see on a cottage.",
+  "hylotlDescription" : "This door provides little in the way of security.",
+
+  "inventoryIcon" : "woodendooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "woodendoor.png:default",
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationParts" : {
+    "door" : "woodendoor.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "inboundNodes" : [ [0, 4] ],
+  "outboundNodes" : [ [0, 0] ],
+
+  "openSounds" : [ "/sfx/objects/woodendoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/woodendoor_close.wav" ]
+}

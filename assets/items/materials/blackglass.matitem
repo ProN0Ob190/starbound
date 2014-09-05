@@ -1,0 +1,12 @@
+{
+  "itemName" : "blackglass",
+  "rarity" : "Common",
+  "inventoryIcon" : "blackglassicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A dark-tinted glass material.",
+  "shortdescription" : "Black Glass",
+  "glitchdescription" : "Statement. Black glass.",
+  "florandescription" : "Floran see Floran in black glass.",
+
+  "materialId" : 110
+}

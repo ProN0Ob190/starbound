@@ -1,0 +1,40 @@
+{
+  "objectName" : "snowdrift1",
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "pot",
+  "price" : 300,
+  "objectItem" : "snowball",
+
+  "description" : "A snow drift.",
+  "shortdescription" : "Snowdrift",
+  "race" : "generic",
+
+  "apexDescription" : "A pile of snow. Snowball fight!",
+  "avianDescription" : "A pile of cold snow.",
+  "floranDescription" : "Floran hide in sssnow. Pop out. Ssstab sssnowman.",
+  "glitchDescription" : "Longing. Lying in this snow pile and making snow angels might be bad for my internal circuitry.",
+  "humanDescription" : "This snow is just begging to be kicked.",
+  "hylotlDescription" : "Cold, beautiful snow. Perhaps I shall gather it.",
+
+  "inventoryIcon" : "capsulemedicon.png",
+  "orientations" : [
+    {
+      "image" : "snowdrift1.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "smashSounds" : [ "/sfx/objects/bed_leave.wav" ],
+  "smashDropOptions" : [
+    [ [ "snowball", 1, { } ], [ "snowball", 1, { } ], [ "snowball", 1, { } ], [ "snowball", 1, { } ], [ "snowball", 1, { } ], [ "snowball", 1, { } ] ]
+  ],
+  "breakDropOptions" : [
+    [ [ "snowball", 1, { } ], [ "snowball", 1, { } ], [ "snowball", 1, { } ], [ "snowball", 1, { } ], [ "snowball", 1, { } ], [ "snowball", 1, { } ] ]
+  ]
+}

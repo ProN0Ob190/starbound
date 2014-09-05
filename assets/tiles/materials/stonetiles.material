@@ -1,0 +1,22 @@
+{
+  "materialId" : 97,
+  "materialName" : "stonetiles",
+  "particleColor" : [225, 191, 150, 255],
+  "itemDrop" : "stonetiles",
+  "description" : "Fancy stone tiles for the fancy person in us all.",
+  "shortdescription" : "Stone Tiles",
+  "glitchDescription" : "Statement. Some stone tiles.",
+  "floranDescription" : "Ssstones.",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.wav",
+  "health" : 25,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "stonetiles.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

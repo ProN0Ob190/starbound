@@ -1,0 +1,32 @@
+{
+  "itemName" : "climbingrope",
+  "inventoryIcon" : "ropeicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "Common",
+  "maxStack" : 1000,
+  "description" : "One use, but what a useful use it is. Use it.",
+  "shortdescription" : "Climbing Rope",
+  "category" : "Tool",
+  "fireTime" : 0.3,
+  "twoHanded" : true,
+  "handPosition" : [-2.5, -2.0],
+
+  "minLength" : 0.25,
+  "maxLength" : 35,
+  "hardMaxLength" : 38,
+  "baseLineSegLength" : 4,
+  "launchSpeed" : 1.5,
+  "windRate" : 0.5,
+  "energyConsumeRateAnchored" : 0.0,
+  "energyConsumeRateWinding" : 1.0,
+  "hookImage" : "/items/tools/grapplegunhook.png",
+  "handleImage" : "/items/tools/rope.png",
+  "hookOffset" : [-0.5, -1],
+  "primaryLineColors" : [ [118, 77, 45, 255],
+    [118, 77, 45, 255] ],
+  "altLineColors" : [ [118, 77, 45, 255],
+    [118, 77, 45, 255] ],
+
+  "ammoUsage" : 1,
+  "stretchable" : false
+}

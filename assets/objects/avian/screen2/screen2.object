@@ -1,0 +1,53 @@
+{
+  "objectName" : "screen2",
+  "rarity" : "Common",
+  "description" : "I'm not even going to tell you what that looks like.",
+  "shortdescription" : "Medical Screen",
+  "race" : "avian",
+
+  "category" : "decorative",
+  "price" : 500,
+  "lightColor" : [27, 68, 89],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 4,
+
+  "apexDescription" : "Some long-tailed creature?",
+  "avianDescription" : "The Avians were investigating the reproduction of other species.",
+  "floranDescription" : "Ssssnack not yet ripe.",
+  "glitchDescription" : "Frustration. I do not understand what the screen shows.",
+  "humanDescription" : "Why were the Avians investigating this?",
+  "hylotlDescription" : "It looks like a Hylotl child.",
+
+  "inventoryIcon" : "screen2icon.png",
+  "orientations" : [
+    {
+      "image" : "screen2.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+	  
+	  "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "screen.animation",
+  "animationParts" : {
+    "bg" : "screen2.png",
+    "fg" : "screen2lit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inboundNodes" : [ [0, 0] ],
+  
+  "interactive" : false,
+  
+  "animationPosition" : [0, 0],
+
+  "soundEffect" : "/sfx/objects/screen2.wav",
+  "soundEffectRadius" : 15
+
+}

@@ -1,0 +1,19 @@
+{
+  "itemName" : "spicyfeathercrown",
+  "rarity" : "Common",
+  "inventoryIcon" : "spicyfeathercrown.png",
+  "description" : "Feathercrown sauteed in spicy chili peppers. Hot hot hot!",
+  "shortdescription" : "Spicy Feathercrown",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 85
+      },
+      {
+        "kind" : "mollyhealing2" },
+      {
+        "kind" : "energy",
+        "amount" : 10
+      }
+    ] ]
+}

@@ -1,0 +1,41 @@
+{
+  "objectName" : "medievalbookcase",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "description" : "A bookcase for storing tales of witches and dragons...",
+  "shortdescription" : "Glitch Bookcase",
+  "race" : "glitch",
+  "category" : "storage",
+  "price" : 750,
+
+  "apexDescription" : "A nicely decorated book case.",
+  "avianDescription" : "A home for Glitch books.",
+  "floranDescription" : "Metalmen read many books?",
+  "glitchDescription" : "Inspection. The Glitch have not produced many books. I wonder if there are any here.",
+  "humanDescription" : "I wonder how a Glitch book reads.",
+  "hylotlDescription" : "Perhaps producing more books will allow the Glitch to develop as a people.",
+
+  "inventoryIcon" : "medievalbookcaseicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "medievalbookcase.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/bookshelf_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/bookshelf_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+
+}

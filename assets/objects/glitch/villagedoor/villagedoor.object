@@ -1,0 +1,43 @@
+{
+  "objectName" : "villagedoor",
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 500,
+  "description" : "A cheaply made wooden door",
+  "shortdescription" : "Glitch Village Door",
+  "race" : "glitch",
+
+  "apexDescription" : "A humble wooden door.",
+  "avianDescription" : "A simple door with an iron handle.",
+  "floranDescription" : "Sssimple metalman door.",
+  "glitchDescription" : "Identify. A simple door you would expect to see a hundred times in a Glitch village.",
+  "humanDescription" : "A basic wooden door.",
+  "hylotlDescription" : "A humble Glitch door.",
+
+  "inventoryIcon" : "villagedooricon.png",
+  "orientations" : [
+    {
+      "image" : "villagedoor.png:default",
+      "imagePosition" : [-16, 0],
+
+      "spaces" : [ [0, 0], [0, 1], [0, 2], [0, 3], [0, 4] ],
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationParts" : {
+    "door" : "villagedoor.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "inboundNodes" : [ [0, 4] ],
+  "outboundNodes" : [ [0, 0] ],
+
+  "openSounds" : [ "/sfx/objects/woodendoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/woodendoor_close.wav" ]
+}

@@ -1,0 +1,30 @@
+{
+  "objectName" : "bunkerconsole3",
+  "rarity" : "Common",
+
+  "category" : "wire",
+  "price" : 500,
+  "description" : "It looks like a screen full of personnel memos.",
+  "shortdescription" : "Small Console",
+  "race" : "human",
+
+  "apexDescription" : "'Dear Marjory. Please remember to put the cat out. Love David.' Interesting.",
+  "avianDescription" : "'The results of yesterday's toxicity tests were inconclusive. Please schedule more. Doctor Kleiner.' Okay.",
+  "floranDescription" : "Humansss send funny picturesss of furballsss. Menu?",
+  "glitchDescription" : "Reading. 'Let me explain to you why you are wrong...' The rest of the post descends into unintelligible ranting.",
+  "humanDescription" : "Someone's fallen victim to the well-known 'reply-all' faux pas. Poor guy.",
+  "hylotlDescription" : "Judging from these posts, humans simply bash their faces against the keyboard when arguing via computer.",
+
+  "inventoryIcon" : "bunkerconsole3icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bunkerconsole3.png:<color>.off",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/bunkerconsole.wav"
+}

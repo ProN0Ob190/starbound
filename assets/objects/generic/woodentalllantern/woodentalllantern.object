@@ -1,0 +1,46 @@
+{
+  "objectName" : "woodentalllantern",
+  "rarity" : "Common",
+  "description" : "A large flickering torch warms the air around it.",
+  "shortdescription" : "Tall Wooden Torch",
+  "race" : "generic",
+  "category" : "light",
+  "price" : 150,
+
+  "hydrophobic" : true,
+
+  "apexDescription" : "A long wooden torch.",
+  "avianDescription" : "A long flickering torch.",
+  "floranDescription" : "Long torch holdss fire.",
+  "glitchDescription" : "Identify. A tall torch.",
+  "humanDescription" : "A long torch.",
+  "hylotlDescription" : "A crackling torch.",
+
+  "statusEffects" : [
+    {
+      "kind" : "Warmth",
+      "amount" : 35,
+      "range" : 5
+    } ],
+
+  "lightColor" : [191, 177, 163],
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.1,
+
+  "inventoryIcon" : "woodentalllanternicon.png",
+  "orientations" : [
+    {
+      "image" : "woodentalllantern.png:<color>.<frame>",
+
+      "imagePosition" : [2, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/torch.wav"
+}

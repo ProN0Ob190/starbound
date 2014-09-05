@@ -1,0 +1,32 @@
+{
+  "objectName" : "root4",
+  "rarity" : "Common",
+  "description" : "There are small roots protruding from the ceiling.",
+  "shortdescription" : "Roots",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 400,
+
+  "apexDescription" : "-todo-",
+  "avianDescription" : "-todo-",
+  "floranDescription" : "-todo-",
+  "glitchDescription" : "-todo-.",
+  "humanDescription" : "-todo-",
+  "hylotlDescription" : "-todo-",
+  "novakidDescription" : "-todo-",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "root4.png:<color>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+
+    }
+  ]
+}

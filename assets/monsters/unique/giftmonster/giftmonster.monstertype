@@ -1,0 +1,75 @@
+{
+  "type" : "giftmonster",
+
+  "categories" : [ "giftmonster" ],
+  "parts" : [ "body" ],
+
+  "animation" : "giftmonster.animation",
+  "colors" : "/monsters/colors.config",
+  "reversed" : true,
+
+  "dropPools" : [ "giftMonsterBoxTreasure" ],
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/unique/giftmonster/behavior.lua",
+
+      "/scripts/stateMachine.lua",
+      "/scripts/util.lua",
+      "/scripts/vec2.lua"
+    ],
+
+    "metaBoundBox" : [-1.5, -1.875, 1.5, 1.0],
+    "scale" : 1.0,
+
+    "movementSettings" : {
+      "collisionPoly" : [ [-1.5, -1.875], [1.5, -1.875], [1.5, 1.0], [-1.5, 1.0] ],
+
+      "mass" : 1.0,
+      "walkSpeed" : 1,
+      "runSpeed" : 6,
+      "jumpSpeed" : 2,
+      "flySpeed" : 15,
+      "airFriction" : 0.5,
+      "airForce" : 5.0,
+      "jumpControlForce" : 5
+    },
+
+    "knockoutTime" : 1,
+    "knockoutEffect" : "blink",
+    "deathParticles" : "deathPoof",
+    "deathNoise" : [ ],
+    "turnHostileNoise" : [ ],
+
+    "touchDamage" : {
+      "poly" : [ [-1.5, -1.875], [1.5, -1.875], [1.5, 1.0], [-1.5, 1.0] ],
+      "damage" : 20,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "hammer",
+      "statusEffects" : [ ]
+    },
+
+    "statusParameters" : {
+      "baseMaxHealth" : 9,
+      "bodyMaterialKind" : "robotic",
+      "damageConfig" : "/damage/damageresponse/groundnpc.config"
+    },
+
+    "innateStatusEffects" : [
+      {
+        "kind" : "Protection",
+        "amount" : 1.0
+      }
+    ],
+
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -8],
+
+    "noticeDistance" : 5,
+
+    "idleTimeRange" : [2, 4],
+    "moveTimeRange" : [2, 4],
+    "moveChangeDirectionCooldown" : 2
+  }
+}

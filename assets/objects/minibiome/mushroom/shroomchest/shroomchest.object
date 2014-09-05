@@ -1,0 +1,38 @@
+{
+  "objectName" : "shroomchest",
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+
+  "category" : "storage",
+  "price" : 800,
+  "description" : "A mushroom fashioned into a chest.",
+  "shortdescription" : "Shroom Chest",
+  "race" : "generic",
+
+  "apexDescription" : "You could easily pick up this chest and walk off with it.",
+  "avianDescription" : "A mushroom chest. Easy to open.",
+  "floranDescription" : "Floran loot chest. Floran find goodsss.",
+  "glitchDescription" : "Analysis. Opening this chest releases invisible spores. Long term effects are unknown.",
+  "humanDescription" : "A cute, squishy mushroom chest.",
+  "hylotlDescription" : "A ludicrous idea for a chest.",
+
+  "inventoryIcon" : "shroomchesticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "shroomchest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

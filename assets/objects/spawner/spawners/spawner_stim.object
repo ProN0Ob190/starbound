@@ -1,0 +1,54 @@
+{
+  "objectName" : "spawnerstim",
+  "rarity" : "Common",
+  "description" : "Stim Merchant Spawner - for when you really need a pick-me-up.",
+  "shortdescription" : "Stim Spawner",
+  "race" : "human",
+  "printable" : false,
+  "category" : "spawner",
+  "price" : 300,
+
+  "apexDescription" : "Ahhh, finally I have access to clean medical supplies.",
+  "avianDescription" : "A stim merchant is always handy to have around.",
+  "floranDescription" : "Floran buy medicine and get ssstrong!",
+  "glitchDescription" : "Conflicted. Just... one... more... dose.",
+  "humanDescription" : "This sure beats monthly health insurance.",
+  "hylotlDescription" : "I hope the stims they sell are regulation-checked.",
+
+  "inventoryIcon" : "defaulticon.png",
+  "orientations" : [
+    {
+      "image" : "spawner_stim.png",
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/spawner/spawners/spawner.lua" ],
+  "scriptDelta" : 1,
+  //6000,
+
+  "animation" : "/objects/spawner/spawners/stim.animation",
+
+  "animationParts" : {
+    "switch" : "spawner_stim.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "inboundNodes" : [ ],
+  "outboundNodes" : [ ],
+
+  "spawner" : {
+    "searchRadius" : 32.0,
+    "npcSpeciesOptions" : [ "apex", "avian", "floran", "glitch", "human", "hylotl" ],
+    "npcTypeOptions" : [ "stimmerchant" ],
+    "npcParameterOptions" : [
+      {
+        "dropPools" : [ ]
+      }
+    ]
+  }
+
+}

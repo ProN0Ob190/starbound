@@ -1,0 +1,17 @@
+{
+  "modId" : 27,
+  "modName" : "violium",
+  "itemDrop" : "violiumore",
+  "Description" : "Violium.",
+  "health" : 18,
+  "harvestLevel" : 6,
+  "breaksWithTile" : true,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "violium.png",
+    "variants" : 8,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

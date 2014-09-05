@@ -1,0 +1,10 @@
+{
+  "codexId" : "shipseasick",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "avianairshipbook_13.png",
+  "itemName" : "shipseasickCodex",
+  "rarity" : "common",
+  "description" : "Seasick",
+  "shortdescription" : "Seasick"
+}

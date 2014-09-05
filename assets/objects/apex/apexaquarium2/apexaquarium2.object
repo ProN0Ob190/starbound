@@ -1,0 +1,34 @@
+{
+  "objectName" : "apexaquarium2",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 2000,
+
+  "description" : "An empty aquarium. How lonely.",
+  "shortdescription" : "Empty Wooden Aquarium",
+  "race" : "apex",
+  "apexDescription" : "An Apex may only replace his fish once every 3 years.",
+  "avianDescription" : "This fish has flown the nest.",
+  "floranDescription" : "Ssssomeone got here firsst.",
+  "glitchDescription" : "Indifference. An empty tank.",
+  "humanDescription" : "I wonder what happened to the fish...",
+  "hylotlDescription" : "Memories of home wash over me.",
+
+  "inventoryIcon" : "apexaquarium2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "apexaquarium2.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "frames" : 8,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/aquarium1.wav"
+
+}

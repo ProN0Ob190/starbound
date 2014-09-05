@@ -1,0 +1,36 @@
+{
+  "objectName" : "medievalchest",
+  "rarity" : "Common",
+  "objectType" : "container",
+
+  "category" : "storage",
+  "price" : 500,
+  "description" : "A sturdy wooden chest.",
+  "shortdescription" : "Glitch Chest",
+  "race" : "glitch",
+
+  "apexDescription" : "A Glitch chest. It looks strong.",
+  "avianDescription" : "A hard wooden lockbox. What could be inside?",
+  "floranDescription" : "Floran sssearch sstrong chesst.",
+  "glitchDescription" : "Anticipation. The Glitch often store weapons in chests like these. Is there one in here?",
+  "humanDescription" : "The kind of chest you'd expect to find in a castle.",
+  "hylotlDescription" : "A strong chest. Good for storing sharp items.",
+
+  "inventoryIcon" : "medievalchesticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "medievalchest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

@@ -1,0 +1,41 @@
+{
+  "objectName" : "hylotlsupportbeam",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 300,
+
+  "description" : "A beam meant for structural support.",
+  "shortdescription" : "Hylotl Support Beam",
+  "race" : "hylotl",
+
+  "apexDescription" : "It's a support beam.",
+  "avianDescription" : "A support beam.",
+  "floranDescription" : "Keeps building up.",
+  "glitchDescription" : "Bored. A support beam.",
+  "humanDescription" : "A support beam.",
+  "hylotlDescription" : "Structural support beams like these are an integral part of beautiful Hylotl architecture.",
+
+  "inventoryIcon" : "hylotlsupportbeamicon.png",
+  "orientations" : [
+    {
+      "image" : "hylotlsupportbeamleft.png:<color>",
+      "imagePosition" : [0, -16],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top", "left" ]
+
+    },
+    {
+      "image" : "hylotlsupportbeamright.png:<color>",
+      "imagePosition" : [-16, -16],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top", "right" ]
+
+    }
+  ]
+}

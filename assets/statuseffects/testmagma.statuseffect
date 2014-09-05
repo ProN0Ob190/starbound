@@ -1,0 +1,21 @@
+{
+  "kind" : "testmagma",
+  "duration" : 1,
+  "initialTick" : false,
+  "interval" : 0.9,
+  "primitives" : [
+    { "name" : "periodic" }
+  ],
+  "effectSources" : [ "melting" ],
+  "tick" : {
+    "statusEffects" : [
+      {
+        "kind" : "directDamage",
+        "damageKind" : "testburning",
+        "amount" : 100
+      },
+      { "kind" : "glow" }
+    ]
+  },
+  "mainInterfaceIcon" : "/interface/statuses/fire.png"
+}

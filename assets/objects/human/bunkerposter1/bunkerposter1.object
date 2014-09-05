@@ -1,0 +1,32 @@
+{
+  "objectName" : "bunkerposter1",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 200,
+
+  "description" : "That's not very encouraging.",
+  "shortdescription" : "Motivational Poster",
+  "race" : "human",
+
+  "apexDescription" : "If this was a Miniknog poster, the missing text would read 'you won't be terminated'.",
+  "avianDescription" : "The Avians pray to Kluex for calm. We have no need of silly motivational posters.",
+  "floranDescription" : "Floran ssslice sssilly word sssheet.",
+  "glitchDescription" : "Frustration. Trying to guess the missing text will irritate me for days.",
+  "humanDescription" : "I'm not surprised someone defaced this. One of humanity's greatest sins.",
+  "hylotlDescription" : "We Hylotl do not need posters to help us achieve Zen.",
+
+
+  "inventoryIcon" : "bunkerposter1icon.png",
+  "orientations" : [
+    {
+      "image" : "bunkerposter1.png:<color>",
+      "imagePosition" : [-16, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

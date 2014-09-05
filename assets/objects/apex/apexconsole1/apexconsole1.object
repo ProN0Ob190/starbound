@@ -1,0 +1,41 @@
+{
+  "objectName" : "apexconsole1",
+  "rarity" : "Common",
+
+  "category" : "wire",
+  "price" : 800,
+  "description" : "Lots of tempting levers that should probably be left alone.",
+  "shortdescription" : "Big Ape Terminal",
+  "race" : "apex",
+
+  "apexDescription" : "I wonder what this switch does...",
+  "avianDescription" : "Does something happen if I pull the lever?",
+  "floranDescription" : "A sssingle lever.",
+  "glitchDescription" : "Curiosity. A lever. ",
+  "humanDescription" : "A big red lever. What could possibly go wrong?",
+  "hylotlDescription" : "Look before you leap.",
+
+  "inventoryIcon" : "apexconsole1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "apexconsole1.png:<color>.off",
+      "imagePosition" : [-16, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/switch/switch.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switchtoggle3.animation",
+  "animationParts" : {
+    "switch" : "apexconsole1.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "outboundNodes" : [ [0, 0] ],
+
+  "onSounds" : [ "/sfx/objects/apexconsole2switch.wav" ],
+  "offSounds" : [ "/sfx/objects/apexconsole2switch.wav" ]
+}

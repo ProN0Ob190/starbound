@@ -1,0 +1,39 @@
+{
+  "objectName" : "classicbookcase",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "category" : "decorative",
+  "price" : 2000,
+  "description" : "A bookcase built to be filled with classic literature.",
+  "shortdescription" : "Classic Bookcase",
+  "race" : "apex",
+
+  "apexDescription" : "The Miniknog restricted our access to books, and we believed them all to be burned.",
+  "avianDescription" : "Ah, the makings of a glorious library. Books are revered by Avians, though many can not read.",
+  "floranDescription" : "The Floran share knowledge in blood and bone. A scent speaks more than any Apex book.",
+  "glitchDescription" : "Downloading. Perhaps there is knowledge here I could use.",
+  "humanDescription" : "Is the bookcase decorated with gold?",
+  "hylotlDescription" : "Knowledge should be free.",
+
+  "openSounds" : [ "/sfx/objects/bookcase_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/bookcase_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "inventoryIcon" : "classicbookcaseicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "classicbookcase.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

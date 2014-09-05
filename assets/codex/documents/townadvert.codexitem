@@ -1,0 +1,10 @@
+{
+  "codexId" : "townadvert",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "apexvillagebook_01.png",
+  "itemName" : "townadvertCodex",
+  "rarity" : "common",
+  "description" : "An Apex Advert",
+  "shortdescription" : "Apex Advert"
+}

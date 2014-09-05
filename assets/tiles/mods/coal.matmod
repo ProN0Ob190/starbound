@@ -1,0 +1,17 @@
+{
+  "modId" : 11,
+  "modName" : "coal",
+  "itemDrop" : "coalore",
+  "Description" : "Coal ore.",
+  "health" : 5,
+  "harvestLevel" : 1,
+  "breaksWithTile" : true,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "coal.png",
+    "variants" : 8,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

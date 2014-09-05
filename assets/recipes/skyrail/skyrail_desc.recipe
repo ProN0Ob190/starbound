@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "skyrailplatform", "count" : 3 },
+    { "item" : "goldbar", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "skyrail_desc",
+    "count" : 3
+  },
+  "groups" : [ "skyrailtable", "all" ]
+}

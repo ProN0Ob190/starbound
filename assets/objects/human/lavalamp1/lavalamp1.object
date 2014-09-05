@@ -1,0 +1,32 @@
+{
+  "objectName" : "lavalamp1",
+  "rarity" : "Common",
+  "description" : "It's entrancing. I can't look away.",
+  "shortdescription" : "Lava Lamp",
+  "race" : "human",
+
+  "category" : "light",
+  "price" : 1000,
+  "lightColor" : [128, 47, 0],
+  "fullbright" : true,
+
+  "apexDescription" : "A hypnotising lamp.",
+  "avianDescription" : "This lamp demands to be stared at.",
+  "floranDescription" : "Floran find lamp funny, then sssmash.",
+  "glitchDescription" : "Analysis. The liquid inside this lamp is highly toxic.",
+  "humanDescription" : "Reminds me of my teenage years.",
+  "hylotlDescription" : "The way the liquid ebbs and flows makes me nostalgic.",
+
+  "inventoryIcon" : "lavalamp1icon.png",
+  "orientations" : [
+    {
+      "image" : "lavalamp1.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 15,
+      "animationCycle" : 3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

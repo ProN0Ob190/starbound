@@ -1,0 +1,17 @@
+{
+  "itemName" : "cake",
+  "rarity" : "Common",
+  "inventoryIcon" : "cake.png",
+  "description" : "It's a delicious cake!",
+  "shortdescription" : "Cake",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 100
+      },
+      {
+        "kind" : "mollyhealing3" },
+      {
+        "kind" : "doping" }
+    ] ]
+}

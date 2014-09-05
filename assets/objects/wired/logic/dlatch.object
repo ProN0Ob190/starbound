@@ -1,0 +1,36 @@
+{
+  "objectName" : "dlatch",
+  "rarity" : "Common",
+  "description" : "<A Latch. You'll only need to use this if you already know what it is.>",
+  "shortdescription" : "Latch",
+  "race" : "human",
+
+  "category" : "wire",
+  "price" : 300,
+
+  "inventoryIcon" : "dlatch.png:default.1",
+  "orientations" : [
+    {
+      "image" : "dlatch.png:<color>.off",
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+
+      "direction" : "right"
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/logic/dlatch.lua" ],
+  "scriptDelta" : 1,
+
+  "animation" : "/objects/wired/logic/logic.animation",
+
+  "animationParts" : {
+    "switch" : "dlatch.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "inboundNodes" : [ [-1, -1], [-1, 0] ],
+  "outboundNodes" : [ [0, -1] ]
+}

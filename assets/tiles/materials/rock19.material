@@ -1,0 +1,21 @@
+{
+  "materialId" : 74,
+  "materialName" : "rock19",
+  "particleColor" : [123, 102, 91, 255],
+  "itemDrop" : "cobblestonematerial",
+  "description" : "Rough, unrefined stone.",
+  "shortdescription" : "Rock Block",
+  "glitchDescription" : "Statement. Rock.",
+  "floranDescription" : "Rocksss.",
+  "health" : 9,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rock19.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

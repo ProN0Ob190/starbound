@@ -1,0 +1,43 @@
+{
+  "objectName" : "prisonexitsign",
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 400,
+  "lightColors" : {
+    "default" : [153, 134, 76],
+    "red" : [153, 91, 76],
+    "blue" : [76, 96, 153],
+    "green" : [121, 153, 76],
+    "yellow" : [153, 134, 76],
+    "orange" : [153, 113, 76],
+    "pink" : [153, 76, 147],
+    "black" : [100, 100, 100],
+    "white" : [153, 153, 153]
+  },
+  "fullbright" : true,
+  "description" : "If you go this way, you're sure to be exiting... something.",
+  "shortdescription" : "Exit Sign",
+  "race" : "human",
+
+  "apexDescription" : "An exit sign.",
+  "avianDescription" : "A sign pointing to the way out.",
+  "floranDescription" : "Floran think this sssay 'ssstab'. Floran becoming educated.",
+  "glitchDescription" : "Stating the obvious. This sign points the way to the exit.",
+  "humanDescription" : "A welcome sight for any prisoner. Unless you just happen to see it on the way to somewhere else, I suppose.",
+  "hylotlDescription" : "The way out of here.",
+
+  "inventoryIcon" : "prisonexitsignicon.png",
+  "orientations" : [
+    {
+      "leftImage" : "prisonexitsignleft.png:<color>",
+      "rightImage" : "prisonexitsignright.png:<color>",
+      "imagePosition" : [-8, -2],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+
+    }
+  ]
+}

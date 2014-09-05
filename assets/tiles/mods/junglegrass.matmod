@@ -1,0 +1,15 @@
+{
+  "modId" : 9,
+  "modName" : "junglegrass",
+  "Description" : "Dense grass.",
+  "footstepSound" : "/sfx/blocks/footstep_grass.wav",
+  "health" : 0,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "junglegrass.png",
+    "variants" : 5,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

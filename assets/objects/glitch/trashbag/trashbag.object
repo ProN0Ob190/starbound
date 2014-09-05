@@ -1,0 +1,36 @@
+{
+  "objectName" : "trashbag",
+  "rarity" : "Common",
+  "objectType" : "container",
+
+  "category" : "storage",
+  "price" : 150,
+  "description" : "A trash bag. What a load of rubbish.",
+  "shortdescription" : "Trash Bag",
+  "race" : "glitch",
+
+  "apexDescription" : "A bag of trash.",
+  "avianDescription" : "A bag of trash.",
+  "floranDescription" : "Gaaaarbage day!",
+  "glitchDescription" : "Statement. A bag of trash.",
+  "humanDescription" : "A bag of trash.",
+  "hylotlDescription" : "A bag of trash.",
+
+  "inventoryIcon" : "trashbagicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "trashbag.png:default",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/bed_enter.wav" ],
+  "closeSounds" : [ "/sfx/objects/bed_leave.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

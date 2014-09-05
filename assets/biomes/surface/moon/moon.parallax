@@ -1,0 +1,224 @@
+{
+  "settings" : {
+    "verticalOrigin" : 10,
+    "definitions" : {
+      "glitters" : {
+        "baseCount" : 7,
+        "mod1Count" : 0,
+        "mod2Count" : 0
+      },
+      "moon1" : {
+        "baseCount" : 1,
+        "mod1Count" : 0,
+        "mod2Count" : 0
+      },
+      "moon2" : {
+        "baseCount" : 1,
+        "mod1Count" : 0,
+        "mod2Count" : 0
+      },
+      "moon3" : {
+        "baseCount" : 1,
+        "mod1Count" : 0,
+        "mod2Count" : 0
+      },
+      "moon4" : {
+        "baseCount" : 1,
+        "mod1Count" : 0,
+        "mod2Count" : 0
+      },
+      "moon5" : {
+        "baseCount" : 1,
+        "mod1Count" : 0,
+        "mod2Count" : 0
+      },
+      "moon6" : {
+        "baseCount" : 1,
+        "mod1Count" : 0,
+        "mod2Count" : 0
+      },
+      "moon7" : {
+        "baseCount" : 1,
+        "mod1Count" : 0,
+        "mod2Count" : 0
+      },
+      "moon8" : {
+        "baseCount" : 1,
+        "mod1Count" : 0,
+        "mod2Count" : 0
+      },
+      "moon9" : {
+        "baseCount" : 1,
+        "mod1Count" : 0,
+        "mod2Count" : 0
+      },
+      "moonglow" : {
+        "baseCount" : 1,
+        "mod1Count" : 0,
+        "mod2Count" : 0
+      },
+      "moonbelow1" : {
+        "baseCount" : 1,
+        "mod1Count" : 0,
+        "mod2Count" : 0
+      },
+      "moonbelow2" : {
+        "baseCount" : 1,
+        "mod1Count" : 0,
+        "mod2Count" : 0
+      },
+      "moonbelow3" : {
+        "baseCount" : 1,
+        "mod1Count" : 0,
+        "mod2Count" : 0
+      }
+    }
+  },
+  "layers" : [
+
+    {
+      "kind" : "moonbelow1",
+      "offset" : [0, 190],
+      "parallax" : [1.8, 2],
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : ""
+    },
+    {
+      "kind" : "moonbelow2",
+      "offset" : [0, 190],
+      "parallax" : [1.8001, 2],
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : ""
+    },
+    {
+      "kind" : "moonbelow3",
+      "offset" : [0, 190],
+      "parallax" : [1.8002, 2],
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : ""
+    },
+    {
+      "kind" : "moonbelow3",
+      "offset" : [0, 330],
+      "parallax" : [1.8, 2],
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : ""
+    },
+    {
+      "kind" : "moon1",
+      "offset" : [0, 50],
+      "parallax" : [1.8, 2],
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : ""
+    },
+    {
+      "kind" : "moon1",
+      "offset" : [0, 50],
+      "parallax" : [1.8, 2],
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : ""
+    },
+    {
+      "kind" : "moon2",
+      "offset" : [0, 50],
+      "parallax" : [2, 2],
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : ""
+    },
+    {
+      "kind" : "moon3",
+      "offset" : [0, 50],
+      "parallax" : [3, 2],
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : ""
+    },
+    {
+      "kind" : "moon4",
+      "offset" : [0, 50],
+      "parallax" : [4, 2],
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : ""
+    },
+    {
+      "kind" : "moon5",
+      "offset" : [0, 50],
+      "parallax" : [5, 2],
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : ""
+    },
+    {
+      "kind" : "moon6",
+      "offset" : [0, 50],
+      "parallax" : [6, 2],
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : ""
+    },
+    {
+      "kind" : "moon7",
+      "offset" : [0, 50],
+      "parallax" : [7, 2],
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : ""
+    },
+    {
+      "kind" : "moon8",
+      "offset" : [0, 50],
+      "parallax" : [8, 2],
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : ""
+    },
+    {
+      "kind" : "moon9",
+      "offset" : [0, 50],
+      "parallax" : [8, 2],
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : ""
+    },
+    {
+      "kind" : "moonglow",
+      "offset" : [0, 15],
+      "parallax" : [8.01, 2],
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : ""
+    },
+    {
+      "kind" : "glitters",
+      "offset" : [0, 35],
+      "parallax" : [20, 20],
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : ""
+    }
+  ]
+}

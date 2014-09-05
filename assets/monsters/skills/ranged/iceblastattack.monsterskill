@@ -1,0 +1,17 @@
+{
+  "name" : "iceBlastAttack",
+  "label" : "ICE BLAST",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "iceBlastAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "icebreath",
+      "range" : 8,
+      "speed" :20,
+      "power" : 15,
+      "shots" : 8,
+      "fireInterval" : 0.15
+    }
+  }
+}

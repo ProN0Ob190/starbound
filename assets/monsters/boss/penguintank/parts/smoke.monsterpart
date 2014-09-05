@@ -1,0 +1,9 @@
+{
+  "name" : "smoke",
+  "category" : "penguinTank",
+  "type" : "smoke",
+
+  "frames" : {
+    "smoke" : "smoke.png"
+  }
+}

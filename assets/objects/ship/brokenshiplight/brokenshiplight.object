@@ -1,0 +1,34 @@
+{
+  "objectName" : "brokenshiplight",
+  "rarity" : "Common",
+  "category" : "light",
+  "lightColor" : [230, 230, 230],
+  "flickerDistance" : 1,
+  "flickerStrength" : 1,
+  "flickerTiming" : 7,
+  "fullbright" : true,
+  "price" : 500,
+  "description" : "A light.",
+  "shortdescription" : "Ship Light",
+  "race" : "generic",
+
+  "apexDescription" : "These lights are commonly used on ships. It's flickering.",
+  "avianDescription" : "A light. It's flickering.",
+  "floranDescription" : "Cold light! It's flickering.",
+  "glitchDescription" : "Analysis. This light generates more light than heat. It's flickering.",
+  "humanDescription" : "Cool light. It's flickering.",
+  "hylotlDescription" : "A passable light. It's flickering.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "brokenshiplight.png:<frame>",
+      "imagePosition" : [-8, 0],
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

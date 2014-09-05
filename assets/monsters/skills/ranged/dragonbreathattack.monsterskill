@@ -1,0 +1,17 @@
+{
+  "name" : "dragonBreathAttack",
+  "label" : "DRAGONBREATH",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "dragonBreathAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "dragonprojectile",
+      "range" : 15,
+      "speed" : 30,
+      "power" : 10,
+      "shots" : 10,
+      "fireInterval" : 0.066
+    }
+  }
+}

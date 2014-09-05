@@ -1,0 +1,7 @@
+{
+  "itemName" : "goldore",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "goldore.png",
+  "description" : "It's some gold ore. Can be used for smelting or repairs. Pick up ore and right click mining tool to repair.",
+  "shortdescription" : "Gold Ore"
+}

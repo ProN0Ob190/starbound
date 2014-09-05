@@ -1,0 +1,10 @@
+{
+  "codexId" : "townminutes",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "apexvillagebook_07.png",
+  "itemName" : "townminutesCodex",
+  "rarity" : "common",
+  "description" : "Minutes of a Meeting",
+  "shortdescription" : "Meeting Minutes"
+}

@@ -1,0 +1,39 @@
+{
+  "objectName" : "medievalbookcaseswitch",
+  "rarity" : "Common",
+  "description" : "One of these books looks out of place... I wonder...",
+  "shortdescription" : "Glitch Bookcase Switch",
+  "race" : "glitch",
+  "category" : "wire",
+  "price" : 1000,
+
+  "apexDescription" : "A nicely decorated book case. One of the books doesn't look quite right.",
+  "avianDescription" : "A home for Glitch books. One of the books doesn't look real.",
+  "floranDescription" : "Metalmen read many books? One book look strange.",
+  "glitchDescription" : "Inspection. The Glitch have not produced many books. I wonder if there are any here. One appears to be stuck in there.",
+  "humanDescription" : "I wonder how a Glitch book reads. One of these books isn't the right size.",
+  "hylotlDescription" : "Perhaps producing more books will allow the Glitch to develop as a people. But, hmmm, there's something strange about this bookcase.",
+
+  "inventoryIcon" : "medievalbookcaseswitchicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "medievalbookcaseswitch.png:<color>.off",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/switch/switch.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switchtoggle2.animation",
+  "animationParts" : {
+    "switch" : "medievalbookcaseswitch.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "outboundNodes" : [ [0, 0] ]
+}

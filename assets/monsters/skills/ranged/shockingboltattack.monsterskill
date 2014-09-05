@@ -1,0 +1,19 @@
+{
+  "name" : "shockingBoltAttack",
+  "label" : "SHOCKING BOLT",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "shockingBoltAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "lightning",
+      "range" : 12,
+      "speed" : 45,
+      "power" : 13,
+      "shots" : 20,
+      "fireInterval" : 0.05,
+      "windupTime" : 0.2,
+      "lockAim" : true
+    }
+  }
+}

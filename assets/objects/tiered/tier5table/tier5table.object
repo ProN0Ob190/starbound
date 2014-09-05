@@ -1,0 +1,33 @@
+{
+  "objectName" : "tier5table",
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A hardy aegisalt table.",
+  "shortdescription" : "Aegisalt Table",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 500,
+
+  "apexDescription" : "This aegisalt table is very sleek.",
+  "avianDescription" : "An immensely sturdy aegisalt table.",
+  "floranDescription" : "Table good enough for Floran to ssslice meatsss.",
+  "glitchDescription" : "Approving. A very well-made aegisalt table.",
+  "humanDescription" : "A cool aegisalt table.",
+  "hylotlDescription" : "Not usually my kind of table, but this is rather impressive.",
+
+  "inventoryIcon" : "tier5tableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "tier5table.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

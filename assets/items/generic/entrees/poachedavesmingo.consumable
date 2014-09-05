@@ -1,0 +1,22 @@
+{
+  "itemName" : "poachedavesmingo",
+  "rarity" : "Rare",
+  "inventoryIcon" : "poachedavesmingo.png",
+  "description" : "A sweet Avesmingo poached in potent Wartwine. A pretty expensive dish.",
+  "shortdescription" : "Poached Avesmingo",
+  "handPosition" : [6, 4],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 100
+      },
+      {
+        "kind" : "mollyhealing3" },
+      {
+        "kind" : "energy",
+        "amount" : 25
+      },
+      {
+        "kind" : "doping" }
+    ] ]
+}

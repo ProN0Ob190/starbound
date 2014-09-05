@@ -1,0 +1,10 @@
+{
+  "codexId" : "sewergrowfly",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "glitchsewerbook_05.png",
+  "itemName" : "sewergrowflyCodex",
+  "rarity" : "common",
+  "description" : "The Compiled Bestiary: Growfly",
+  "shortdescription" : "Growfly"
+}

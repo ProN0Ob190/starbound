@@ -1,0 +1,22 @@
+{
+  "materialId" : 81,
+  "materialName" : "magmarock",
+  "particleColor" : [84, 49, 49, 255],
+  "itemDrop" : "magmarock",
+  "description" : "Magmarock. Hot stuff.",
+  "shortdescription" : "Magmarock",
+  "glitchDescription" : "Statement. Magmarock.",
+  "floranDescription" : "Burny rock. Hisssss.",
+  "footstepSound" : "/sfx/blocks/footstep_stone3.wav",
+  "health" : 35,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "magmarock.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

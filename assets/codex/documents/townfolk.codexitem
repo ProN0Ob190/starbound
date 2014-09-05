@@ -1,0 +1,10 @@
+{
+  "codexId" : "townfolkapex",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "apexvillagebook_04.png",
+  "itemName" : "townfolkCodex",
+  "rarity" : "common",
+  "description" : "A Folk Tale",
+  "shortdescription" : "Folk Tale"
+}

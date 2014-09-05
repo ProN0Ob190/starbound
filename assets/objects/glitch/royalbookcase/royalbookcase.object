@@ -1,0 +1,40 @@
+{
+  "objectName" : "royalbookcase",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "description" : "A monarchs bookcase... let's find out what royalty reads.",
+  "shortdescription" : "Royal Bookcase",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 1500,
+
+  "apexDescription" : "A bookcase decorated with sheets of gold.",
+  "avianDescription" : "A golden bookcase. The Avians believe only Kluex to be worthy of such splendor.",
+  "floranDescription" : "Ssshiny bookcasse. Floran would like to learn to read.",
+  "glitchDescription" : "Inspect. Unlike most Glitch, Glitch royalty are capable of reading and writing.",
+  "humanDescription" : "A golden bookcase. Perhaps Glitch kings are avid readers.",
+  "hylotlDescription" : "What kind of King surrounds themselves with such riches while Glitch peasants hunger for food?",
+
+  "inventoryIcon" : "royalbookcaseicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "royalbookcase.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/bookcase_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/bookcase_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+
+}

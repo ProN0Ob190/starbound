@@ -1,0 +1,10 @@
+{
+  "codexId" : "castleguest",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "glitchcastlebook_09.png",
+  "itemName" : "castleguestCodex",
+  "rarity" : "common",
+  "description" : "Guest in the Castle",
+  "shortdescription" : "Guest in the Castle"
+}

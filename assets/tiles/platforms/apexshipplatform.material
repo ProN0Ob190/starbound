@@ -1,0 +1,21 @@
+{
+  "materialId" : 176,
+  "materialName" : "apexshipplatformplatform",
+  "platform" : true,
+  "transparent" : true,
+  "itemDrop" : "apexshipplatform",
+  "shortdescription" : "Ship Platform",
+  "description" : "A tough, sturdy and spaceworthy platform.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.wav",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "apexshipplatform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multicolored" : true,
+    "zLevel" : 0,
+    "platform" : true
+  }
+}

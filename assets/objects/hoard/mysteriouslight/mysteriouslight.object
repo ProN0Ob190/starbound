@@ -1,0 +1,80 @@
+{
+  "objectName" : "mysteriouslight",
+  "rarity" : "Rare",
+  "category" : "light",
+  "price" : 600,
+  "lightColors" : {
+    "default" : [255, 244, 65],
+    "red" : [255, 127, 127],
+    "blue" : [71, 134, 255],
+    "green" : [88, 255, 0],
+    "yellow" : [255, 230, 127],
+    "orange" : [255, 179, 127],
+    "pink" : [255, 177, 255],
+    "black" : [100, 100, 100],
+    "white" : [255, 255, 255]
+  },
+  "pointLight" : true,
+  "pointBeam" : 0.05,
+  "description" : "A mysterious light with a mysterious source.",
+  "shortdescription" : "Mysterious Light",
+  "race" : "human",
+
+  "apexDescription" : "Such spotlights are used by the Miniknog to force people to talk. Spotlights, and worse...",
+  "avianDescription" : "An annoying, blinding light.",
+  "floranDescription" : "Floran feel like centre of attention.",
+  "glitchDescription" : "Stealthy. By analysing this floodlight's patterns, it would be easy to sneak around it.",
+  "humanDescription" : "I've always wanted to be in the spotlight.",
+  "hylotlDescription" : "A bright, piercing floodlight.",
+
+  "inventoryIcon" : "mysteriouslighticon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "mysteriouslightceiling1.png:<color>.<frame>", "fullbright" : true }, { "image" : "mysteriouslightceiling2.png:<color>.<frame>" } ],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.01,
+      "anchors" : [ "top" ],
+      "lightPosition" : [0, 0],
+      "pointAngle" : 270
+    },
+
+    {
+      "imageLayers" : [ { "image" : "mysteriouslightground1.png:<color>.<frame>", "fullbright" : true }, { "image" : "mysteriouslightground2.png:<color>.<frame>" } ],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.01,
+      "anchors" : [ "bottom" ],
+      "lightPosition" : [0, 0],
+      "pointAngle" : 90
+    },
+
+    {
+      "imageLayers" : [ { "image" : "mysteriouslightleft1.png:<color>.<frame>", "fullbright" : true }, { "image" : "mysteriouslightleft2.png:<color>.<frame>" } ],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ],
+      "lightPosition" : [0, 0],
+      "pointAngle" : 0
+    },
+
+    {
+      "imageLayers" : [ { "image" : "mysteriouslightright1.png:<color>.<frame>", "fullbright" : true }, { "image" : "mysteriouslightright2.png:<color>.<frame>" } ],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.01,
+      "anchors" : [ "right" ],
+      "lightPosition" : [0, 0],
+      "pointAngle" : 180
+    }
+  ]
+}

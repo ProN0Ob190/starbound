@@ -1,0 +1,7 @@
+{
+  "itemName" : "greenslime",
+  "rarity" : "Common",
+  "inventoryIcon" : "greenslime.png",
+  "description" : "A blob of green slime.",
+  "shortdescription" : "Slime Blob"
+}

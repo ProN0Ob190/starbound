@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 20 },
+    { "item" : "processor", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "roboticcraftingtable",
+    "count" : 1
+  },
+  "groups" : [ "ironcraftingtable", "objects", "tools", "all" ]
+}

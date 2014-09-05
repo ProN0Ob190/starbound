@@ -1,0 +1,12 @@
+{
+  "itemName" : "tombbrick5",
+  "rarity" : "Common",
+  "inventoryIcon" : "tombbrick5.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Smooth Tomb Brick",
+  "description" : "Old bricks polished to perfection.",
+  "glitchdescription" : "Statement. Dusty bricks.",
+  "florandescription" : "Dusssty bricks.",
+
+  "materialId" : 64
+}

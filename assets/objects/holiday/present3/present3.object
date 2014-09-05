@@ -1,0 +1,58 @@
+{
+  "objectName" : "present3",
+  "rarity" : "Uncommon",
+  "description" : "A present! It's wrapped in blue paper with a gold ribbon!",
+  "shortdescription" : "Blue Present",
+  "race" : "generic",
+  "objectType" : "container",
+  "category" : "storage",
+  "printable" : false,
+  "price" : 300,
+
+  "apexDescription" : "A present! Is it for me?",
+  "avianDescription" : "I wonder who this present is for.",
+  "floranDescription" : "Floran want present! Ssstab everything!",
+  "glitchDescription" : "Analysis. The contents of this present elude me.",
+  "humanDescription" : "Presents! Gifts! Wrapping! Yeah!",
+  "hylotlDescription" : "A delightfully-wrapped gift.",
+
+  "state" : {
+    "kind" : "storage",
+    "openSounds" : [ "/sfx/objects/florancrate_open.wav" ],
+    "closeSounds" : [ "/sfx/objects/florancrate_close.wav" ],
+    "slotCount" : 16,
+    "uiconfig" : "/interface/chests/chest%slots%.config"
+  },
+
+  "inventoryIcon" : "present3.png",
+  "orientations" : [
+    {
+      "image" : "present3.png:<color>",
+      "flipImages" : true,
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "direction" : "left",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "present3.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/florancrate_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/florancrate_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

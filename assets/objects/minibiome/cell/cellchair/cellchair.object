@@ -1,0 +1,37 @@
+{
+  "objectName" : "cellchair",
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A clean, modern looking chair.",
+  "shortdescription" : "Cell Chair",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 350,
+
+  "apexDescription" : "A chair made up of enlarged cells.",
+  "avianDescription" : "Looks a little uncomfortable...",
+  "floranDescription" : "Ugh! Too bright and clean!",
+  "glitchDescription" : "Statement. A clinical looking chair.",
+  "humanDescription" : "A chair made up of sciencey nonsense.",
+  "hylotlDescription" : "True modern art. It isn't too comfy, but who cares about that?",
+
+  "inventoryIcon" : "cellchairicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "cellchair.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 22]
+
+}

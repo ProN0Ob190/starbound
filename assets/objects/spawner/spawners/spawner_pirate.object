@@ -1,0 +1,54 @@
+{
+  "objectName" : "spawnerpirate",
+  "rarity" : "Common",
+  "description" : "Spawn your very own pirate!",
+  "shortdescription" : "Pirate Spawner",
+  "race" : "human",
+  "printable" : false,
+  "category" : "spawner",
+  "price" : 300,
+
+  "apexDescription" : "I could spawn a crew!",
+  "avianDescription" : "Hanging out with pirates might be fun.",
+  "floranDescription" : "Floran am a pirate! Want pirate crew!",
+  "glitchDescription" : "Amusement. I would like to summon a pirate to teach me sea shanties.",
+  "humanDescription" : "Pirates! Pirates! Pirates! Press all the buttons!",
+  "hylotlDescription" : "Rough, seafaring types. Decent.",
+
+  "inventoryIcon" : "defaulticon.png",
+  "orientations" : [
+    {
+      "image" : "spawner_pirate.png",
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/spawner/spawners/spawner.lua" ],
+  "scriptDelta" : 1,
+  //6000,
+
+  "animation" : "/objects/spawner/spawners/pirate.animation",
+
+  "animationParts" : {
+    "switch" : "spawner_pirate.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "inboundNodes" : [ ],
+  "outboundNodes" : [ ],
+
+  "spawner" : {
+    "searchRadius" : 32.0,
+    "npcSpeciesOptions" : [ "avian" ],
+    "npcTypeOptions" : [ "friendlypirateguard" ],
+    "npcParameterOptions" : [
+      {
+        "dropPools" : [ ]
+      }
+    ]
+  }
+
+}

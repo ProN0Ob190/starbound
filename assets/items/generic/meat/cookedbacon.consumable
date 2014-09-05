@@ -1,0 +1,13 @@
+{
+  "itemName" : "cookedbacon",
+  "rarity" : "Common",
+  "inventoryIcon" : "cookedbacon.png",
+  "description" : "Bacon strips & bacon strips & bacon strips & bacon strips!",
+  "shortdescription" : "Cooked Bacon",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 35
+      }
+    ] ]
+}

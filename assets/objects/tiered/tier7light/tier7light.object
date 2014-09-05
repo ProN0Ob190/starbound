@@ -1,0 +1,52 @@
+{
+  "objectName" : "tier7light",
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 300,
+
+  "description" : "A glowing Cerulium light.",
+  "shortdescription" : "Cerulium Light",
+  "race" : "generic",
+
+  "apexDescription" : "A well-made light source.",
+  "avianDescription" : "This useful lantern will light up even the darkest room.",
+  "floranDescription" : "Lantern sssafe for Floran.",
+  "glitchDescription" : "Statement. A robust lantern.",
+  "humanDescription" : "A neat, sturdy lantern.",
+  "hylotlDescription" : "A useful light source.",
+
+  "statusEffects" : [
+    {
+      "kind" : "Warmth",
+      "amount" : 10,
+      "range" : 2
+    } ],
+
+  "lightColor" : [247, 231, 178],
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.01,
+
+  "inventoryIcon" : "tier7lighticon.png",
+  "orientations" : [
+
+    {
+      "dualImage" : "tier7light.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttoggle.animation",
+  "animationParts" : {
+    "light" : "tier7light.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inboundNodes" : [ [0, 0] ]
+}

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 20 },
+    { "item" : "refinedviolium", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "separatortable",
+    "count" : 1
+  },
+  "groups" : [ "roboticcraftingtable", "objects", "tools", "all" ]
+}

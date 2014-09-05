@@ -1,0 +1,29 @@
+{
+  "objectName" : "bunkercomputer",
+  "rarity" : "Common",
+
+  "category" : "wire",
+  "price" : 650,
+  "description" : "Looks like it's mainly used for data entry. Nothing too interesting.",
+  "shortdescription" : "Small Computer",
+  "race" : "human",
+
+  "apexDescription" : "A computer. The keyboard is too small for Apex fingers.",
+  "avianDescription" : "What does this operate, I wonder?",
+  "floranDescription" : "Floran press button, make accidental in-app purchasesss.",
+  "glitchDescription" : "Wistful. I feel a kinship with this human computer.",
+  "humanDescription" : "A computer. It's running a program that requires you to enter a code at regular intervals.",
+  "hylotlDescription" : "A human computer. Technologically, this is quite impressive.",
+
+  "inventoryIcon" : "bunkercomputericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bunkercomputer.png:default",
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

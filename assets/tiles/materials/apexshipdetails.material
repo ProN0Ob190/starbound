@@ -1,0 +1,22 @@
+{
+  "materialId" : 167,
+  "materialName" : "apexshipdetails",
+  "particleColor" : [110, 110, 110, 255],
+  "itemDrop" : "apexshipdetails",
+  "description" : "A little bit of metal.",
+  "shortdescription" : "Metal object",
+  "glitchDescription" : "Statement. A small bit of metal.",
+  "floranDescription" : "Sssteel.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "health" : 20,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "apexshipdetails.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 50
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name" : "crossbow",
+  "maxStack" : 1,
+  "rarity" : "common",
+  "tooltipKind" : "gun",
+  "handPosition" : [3, 0],
+  "firePosition" : [-2, 9],
+  "weaponType" : "Crossbow",
+  "baseDps" : [5, 5.5],
+  "rateOfFire" : [0.6, 1.6],
+  "hands" : [2, 2],
+  "recoilTime" : 0.1,
+  "spread" : [1, 1],
+  "multiplier" : 1.0,
+  "accuracy" : 100,
+  "muzzleFlashes" : [
+    "/animations/muzzleflash/blankmuzzle/blankmuzzle.animation"
+  ],
+  "projectileTypes" : [ "woodenbolt" ],
+  "directories" : [ "/items/guns/randomgenerated/crossbow/" ],
+  "fireSound" : [ "/sfx/gun/crossbow1.wav" ],
+  "palette" : [
+    { "e35f5d" : "769664", "b22042" : "506544", "871132" : "232c1e", "a9a9a9" : "cccccc", "6a6a6a" : "9e9e9e", "3b3b3b" : "616161", "222222" : "383838" }, //green body w silver mechanism//
+    { "e35f5d" : "d39855", "b22042" : "9e5f29", "871132" : "65371a", "a9a9a9" : "a9a9a9", "6a6a6a" : "6a6a6a", "3b3b3b" : "3b3b3b", "222222" : "222222" }, //wood body w metal mechanism//
+    { "e35f5d" : "d39855", "b22042" : "9e5f29", "871132" : "65371a", "a9a9a9" : "cccccc", "6a6a6a" : "9e9e9e", "3b3b3b" : "616161", "222222" : "383838" }, //wood body w silver mechanism//
+    { "e35f5d" : "5d5d5d", "b22042" : "3c3c3c", "871132" : "2b2b2b", "a9a9a9" : "cccccc", "6a6a6a" : "9e9e9e", "3b3b3b" : "616161", "222222" : "383838" }, //black body w silver mechanism//
+    { "e35f5d" : "a9703e", "b22042" : "75451e", "871132" : "4a2813", "a9a9a9" : "eac169", "6a6a6a" : "ba881b", "3b3b3b" : "674b0f", "222222" : "3c2b09" }, //dark wood body w gold mechanism//
+    { "e35f5d" : "a9703e", "b22042" : "75451e", "871132" : "4a2813", "a9a9a9" : "cccccc", "6a6a6a" : "9e9e9e", "3b3b3b" : "616161", "222222" : "383838" }, //dark wood w silver mechanism//
+    { "e35f5d" : "ca7a5f", "b22042" : "954b32", "871132" : "5f3020", "a9a9a9" : "cccccc", "6a6a6a" : "9e9e9e", "3b3b3b" : "616161", "222222" : "383838" }, //red wood w silver mechanism//
+    { "e35f5d" : "ca7a5f", "b22042" : "954b32", "871132" : "5f3020", "a9a9a9" : "c1d4db", "6a6a6a" : "849aa4", "3b3b3b" : "4c5960", "222222" : "232c1e" } //red wood w pale blue mechanism//
+  ],
+  "nameGenerator" : "crossbownames.config:nameGen"
+}

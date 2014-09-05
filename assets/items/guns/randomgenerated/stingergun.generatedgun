@@ -1,0 +1,26 @@
+{
+  "name" : "stingergun",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "tooltipKind" : "gun",
+  "handPosition" : [3, 3],
+  "firePosition" : [-2, 8],
+  "weaponType" : "Stinger Gun",
+  "baseDps" : [4, 5],
+  "rateOfFire" : [4, 12],
+  "hands" : [2, 2],
+  "recoilTime" : 0.1,
+  "spread" : [1, 1],
+  "multiplier" : 0.8,
+  "accuracy" : 100,
+  "muzzleFlashes" : [
+    "/animations/muzzleflash/blankmuzzle/blankmuzzle.animation"
+  ],
+  "projectileTypes" : [ "stingergunsting" ],
+  "directories" : [ "/items/guns/randomgenerated/stingergun/" ],
+  "fireSound" : [ "/sfx/gun/floranneedler1.wav" ],
+  "palette" : [
+    { "e35f5d" : "d39855", "b22042" : "9e5f29", "871132" : "65371a", "a9a9a9" : "a9a9a9", "6a6a6a" : "6a6a6a", "3b3b3b" : "3b3b3b", "222222" : "222222" } //wood stock//
+  ],
+  "nameGenerator" : "floranneedlernames.config:nameGen"
+}

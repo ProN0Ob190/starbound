@@ -1,0 +1,12 @@
+{
+  "itemName" : "ornatewall",
+  "rarity" : "Common",
+  "inventoryIcon" : "ornatewallicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A remarkably ornate wall.",
+  "shortdescription" : "Ornate Wall",
+  "glitchdescription" : "Statement. An ornate wall.",
+  "florandescription" : "Wall too pretty to sssmash.",
+
+  "materialId" : 156
+}

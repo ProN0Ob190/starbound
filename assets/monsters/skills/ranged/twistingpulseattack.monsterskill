@@ -1,0 +1,17 @@
+{
+  "name" : "twistingPulseAttack",
+  "label" : "TWISTING PULSE",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "twistingPulseAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "boomerang",
+      "range" : 20,
+      "speed" :10,
+      "power" : 11,
+      "shots" : 3,
+      "fireInterval" : 0.15
+    }
+  }
+}

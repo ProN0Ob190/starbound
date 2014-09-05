@@ -1,0 +1,83 @@
+{
+  "objectName" : "wildfeathercrownseed",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Feathercrown! Feathers sprout from the top and catch the wind.",
+  "shortdescription" : "Feathercrown Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "objectItem" : "feathercrownseed",
+
+  "apexDescription" : "Looks like a carrot crossed with an Avian. Unusual.",
+  "avianDescription" : "An Avian delicacy. Only the finest of dishes contain feathercrown.",
+  "floranDescription" : "Looksss like a birdman, tassstes like dirt. Birdmen tassstier.",
+  "glitchDescription" : "Scientific. Perhaps one day this vegetable will evolve, and take to the skies.",
+  "humanDescription" : "A carrot with a feature. Good for eating AND tickling.",
+  "hylotlDescription" : "Feathers do not flourish underwater. Neither do feathercrowns.",
+
+  "inventoryIcon" : "feathercrownseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "feathercrownseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "feathercrown",
+            "count" : 1
+          },
+          {
+            "name" : "feathercrownseed",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "feathercrown",
+            "count" : 1
+          },
+          {
+            "name" : "plantfibre",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "feathercrown",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [660, 780],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [660, 780],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

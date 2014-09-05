@@ -1,0 +1,45 @@
+{
+  "objectName" : "florancabinet1",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "category" : "storage",
+  "price" : 750,
+  "description" : "The cabinet is adorned with huge, sharp fangs.",
+  "shortdescription" : "Large Primitive Cabinet",
+  "race" : "floran",
+
+  "apexDescription" : "What sits inside a Floran cabinet? I'm afraid to find out.",
+  "avianDescription" : "Those are either large teeth or sharp bones.",
+  "floranDescription" : "Floran decorate furniture with fangss. Sssharper housse better Floran.",
+  "glitchDescription" : "Engrossed. The fangs on this cabinet are razor sharp.",
+  "humanDescription" : "The cabinet appears to be decorated with large fangs.",
+  "hylotlDescription" : "The fangs of some poor creature.",
+
+  "state" : {
+    "kind" : "storage",
+    "openSounds" : [ "/sfx/objects/woodenbox_open.wav" ],
+    "closeSounds" : [ "/sfx/objects/woodenbox_close.wav" ],
+    "slotCount" : 16,
+    "uiconfig" : "/interface/chests/chest%slots%.config"
+  },
+
+  "inventoryIcon" : "florancabinet1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "florancabinet1.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_medium_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/chest_medium_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

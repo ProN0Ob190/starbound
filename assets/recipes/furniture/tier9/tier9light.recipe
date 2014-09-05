@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "refinedrubium", "count" : 1 },
+    { "item" : "torch", "count" : 1 }
+  ],
+  "output" : { "item" : "tier9light", "count" : 1 },
+  "groups" : [ "manipulatortable", "light", "objects", "all" ]
+}

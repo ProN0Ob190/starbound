@@ -1,0 +1,7 @@
+{
+  "itemName" : "diamondore",
+  "rarity" : "Rare",
+  "inventoryIcon" : "diamondore.png",
+  "description" : "Diamond ore. Can be used for smelting or repairs. Pick up ore and right click mining tool to repair.",
+  "shortdescription" : "Diamond Ore"
+}

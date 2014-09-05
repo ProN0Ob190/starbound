@@ -1,0 +1,21 @@
+{
+  "itemName" : "wartweedstew",
+  "rarity" : "Common",
+  "inventoryIcon" : "wartweedstew.png",
+  "description" : "A hearty, thick stew of wartweed and vegetables.",
+  "shortdescription" : "Wartweed Stew",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 100
+      },
+      {
+        "kind" : "mollyhealing3"
+      },
+      {
+        "kind" : "energy",
+        "amount" : 15
+      }
+    ] ]
+}

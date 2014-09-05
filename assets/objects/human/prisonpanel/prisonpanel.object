@@ -1,0 +1,31 @@
+{
+  "objectName" : "prisonpanel",
+  "rarity" : "Common",
+  "description" : "The panel displays information about interacting with prisoners...",
+  "shortdescription" : "USCM Penal Colony Panel",
+  "race" : "human",
+  "category" : "wire",
+  "price" : 450,
+
+  "apexDescription" : "According to this, prisoners should not be poked with sticks.",
+  "avianDescription" : "Apparently requests for 'a nice cup of tea' are to be denied.",
+  "floranDescription" : "Too many boring wordsss.",
+  "glitchDescription" : "Sceptical. Seems guards have to perform checks to ensure prisoners are actually human. Surely this mistake isn't common?",
+  "humanDescription" : "Prisoners are only allowed a maximum of thirty video games at one time. Talk about oppressive.",
+  "hylotlDescription" : "This talks about something called 'waterboarding'. Perhaps some kind of treat.",
+
+  "inventoryIcon" : "prisonpanelicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "prisonpanel.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

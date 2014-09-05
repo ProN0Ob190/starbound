@@ -1,0 +1,30 @@
+{
+  "objectName" : "floranbonedisplay2",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 1500,
+  "description" : "There are barbaric stories etched into the bone.",
+  "shortdescription" : "Bone Carving",
+  "race" : "floran",
+
+  "apexDescription" : "According to my translator, this bone is decorated with hunting tales.",
+  "avianDescription" : "My translator suggests the markings here speak of hunting.",
+  "floranDescription" : "When Floran die in hunt, Floran presssent dead Floran'ss mother with bone of prey. On bone Floran tell tale of hunt.",
+  "glitchDescription" : "Scrutinize. The markings on this bone tell the story of a hunt. It appears a Floran was killed.",
+  "humanDescription" : "The translator says the markings tell a story of a great hunt. Did this bone come from the creature they were hunting?",
+  "hylotlDescription" : "The markings suggest at least one Floran was killed during the hunt of this creature from which this bone was obtained. Karma.",
+
+  "inventoryIcon" : "floranbonedisplay2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "floranbonedisplay2.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

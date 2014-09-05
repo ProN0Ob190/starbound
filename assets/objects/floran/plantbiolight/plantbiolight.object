@@ -1,0 +1,53 @@
+{
+  "objectName" : "plantbiolight",
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 500,
+  "lightColor" : [120, 179, 89],
+
+  "description" : "This biolight flickers softly.",
+  "shortdescription" : "Plant Biolight",
+  "race" : "generic",
+
+  "apexDescription" : "Little glowing plants.",
+  "avianDescription" : "Delightfully soft glowing plants.",
+  "floranDescription" : "Floran like cold light.",
+  "glitchDescription" : "Wonder. These glowing plants are stunning.",
+  "humanDescription" : "Glowing plants. Always cool.",
+  "hylotlDescription" : "Nature can bring about such reverence.",
+
+  "inventoryIcon" : "plantbiolighticon.png",
+  "orientations" : [
+    {
+      "image" : "plantbiolight.png:<frame>", "fullbright" : true,
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ]
+    },
+
+    {
+      "image" : "plantbiolightleft.png:<frame>", "fullbright" : true,
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ]
+    },
+
+    {
+      "image" : "plantbiolightright.png:<frame>", "fullbright" : true,
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ]
+    },
+
+    {
+      "image" : "plantbiolight.png:<frame>", "fullbright" : true,
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

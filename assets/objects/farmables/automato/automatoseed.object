@@ -1,0 +1,83 @@
+{
+  "objectName" : "automatoseed",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Automatos! Be sure to spit out the screws.",
+  "shortdescription" : "Automato Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 258,
+
+  "apexDescription" : "Automatos... pretty standard, if you don't break your teeth on the screws.",
+  "avianDescription" : "Automatos. The seeds are pretty tasty by themselves.",
+  "floranDescription" : "Flesshy, juicy and red, with crunchy bitsss. Like humansss.",
+  "glitchDescription" : "Critical. Others remove the screws. The Glitch feel they enhance the flavour.",
+  "humanDescription" : "A tomato filled with screws. Tasty AND dangerous.",
+  "hylotlDescription" : "A sweet-tasting fruit. Fine for common, unremarkable dishes.",
+
+  "inventoryIcon" : "automatoseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "automatoseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "automato",
+            "count" : 1
+          },
+          {
+            "name" : "automatoseed",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "automato",
+            "count" : 1
+          },
+          {
+            "name" : "plantfibre",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "automato",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [1140, 1140],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [1140, 1140],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

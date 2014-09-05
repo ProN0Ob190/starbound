@@ -1,0 +1,39 @@
+{
+  "objectName" : "tribalcabinet1",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "description" : "Carved patterns surround this Avian cabinet.",
+  "shortdescription" : "Avian Cabinet",
+  "race" : "avian",
+  "category" : "storage",
+  "price" : 600,
+
+  "apexDescription" : "A cabinet. It looks as if the owners decorated it themselves.",
+  "avianDescription" : "Furniture decoration is the most practised of hobbies amongst the grounded. This cabinet appears to have suffered for it.",
+  "floranDescription" : "Floran sssee many missstakess in decoration.",
+  "glitchDescription" : "Observation. The decoration appears to be the work of more than one person.",
+  "humanDescription" : "It looks like some people had a lot of fun decorating this cabinet.",
+  "hylotlDescription" : "Decorating this cabinet appears to have been the source of much entertainment.",
+
+  "inventoryIcon" : "tribalcabinet1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "tribalcabinet1.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+  "openSounds" : [ "/sfx/objects/chest_medium_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/chest_medium_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

@@ -1,0 +1,17 @@
+{
+  "modId" : 16,
+  "modName" : "diamond",
+  "itemDrop" : "diamondore",
+  "Description" : "Diamonde.",
+  "health" : 22,
+  "harvestLevel" : 6,
+  "breaksWithTile" : true,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "diamond.png",
+    "variants" : 8,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

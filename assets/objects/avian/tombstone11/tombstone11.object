@@ -1,0 +1,31 @@
+{
+  "objectName" : "tombstone11",
+  "rarity" : "Common",
+  "description" : "These symbols signify a mass grave.",
+  "shortdescription" : "Mass Tombstone",
+  "race" : "avian",
+  "category" : "decorative",
+  "price" : 350,
+
+  "apexDescription" : "A faded tombstone. Very old.",
+  "avianDescription" : "An Avian tombstone marking a mass grave. There aren't many of these about.",
+  "floranDescription" : "Floran mark dead with growth of flower.",
+  "glitchDescription" : "Observation. Scans detect many bodies buried here.",
+  "humanDescription" : "A very old tombstone. The words are largely faded.",
+  "hylotlDescription" : "The dead deserve more honour than this.",
+
+  "inventoryIcon" : "tombstone11icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "tombstone11.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

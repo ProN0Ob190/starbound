@@ -1,0 +1,56 @@
+{
+  "name" : "geometric",
+  "friendlyName" : "Geometric",
+  "spawnProfiles" : [ "surfacemix1", "surfacemix2", "surfacemix3" ],
+
+  "surfaceParameters" : {
+    "mainBlock" : "snow",
+    "subBlocks" : [ "ice", "slush" ],
+    "ores" : "surfaceOres",
+    "statusParameters" : {
+      "temperatureBounds" : [-30, 5],
+      "dayNightTemperatureVariability" : 15,
+      "temperatureVariability" : 5
+    },
+
+    "surfacePlaceables" : {
+      "grassMod" : [ "snow" ],
+      "grassModDensity" : 0.5,
+
+      "items" : [
+        {
+          "mode" : "floor",
+          "priority" : 3.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+          "type" : "grass",
+          "grasses" : [ "geometricflower" ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 0.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:minibiomeChests",
+
+          "type" : "treasureBox",
+          "treasureBoxSets" : [ "geometricChest" ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:denseLarge",
+
+          "type" : "tree",
+          "treeFoliageHueShiftMax" : 0,
+          "treeStemHueShiftMax" : 15,
+          "treeStemList" : [ "geometricstem" ],
+          "treeFoliageList" : [ "geometricfoliage" ]
+        }
+      ]
+    }
+  }
+}
+
+

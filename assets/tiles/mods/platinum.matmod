@@ -1,0 +1,17 @@
+{
+  "modId" : 20,
+  "modName" : "platinum",
+  "itemDrop" : "platinumore",
+  "Description" : "Platinum.",
+  "health" : 18,
+  "harvestLevel" : 5,
+  "breaksWithTile" : true,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "platinum.png",
+    "variants" : 8,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "objectName" : "sewerwallgrate",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 750,
+  "description" : "A wall grate. Great.",
+  "shortdescription" : "Sewer Wall Grate",
+  "race" : "glitch",
+
+  "apexDescription" : "A wall grate.",
+  "avianDescription" : "A grate.",
+  "floranDescription" : "Bars.",
+  "glitchDescription" : "Statement. A grate.",
+  "humanDescription" : "Just grate.",
+  "hylotlDescription" : "A grate.",
+
+  "inventoryIcon" : "sewerwallgrateicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "sewerwallgrate.png:default",
+      "imagePosition" : [-24, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

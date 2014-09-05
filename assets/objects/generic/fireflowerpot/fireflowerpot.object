@@ -1,0 +1,29 @@
+{
+  "objectName" : "fireflowerpot",
+  "rarity" : "Common",
+  "description" : "Flowers!",
+  "price" : 300,
+  "shortdescription" : "Fireflower.",
+  "race" : "generic",
+  "category" : "decorative",
+
+  "apexDescription" : "The petals of this flower look like tongues of flame.",
+  "avianDescription" : "The flower dances in the breeze, like fire.",
+  "floranDescription" : "Pretty flower. Look like flamesss.",
+  "glitchDescription" : "Appreciative. Nature is the Mistress of beauty.",
+  "humanDescription" : "A beautiful soft flower. I wonder if eating this will let me throw fireballs?",
+  "hylotlDescription" : "Flowers of the surface are so vibrant.",
+
+  "inventoryIcon" : "fireflowericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "fireflowerpot.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

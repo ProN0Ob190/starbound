@@ -1,0 +1,34 @@
+{
+  "objectName" : "number7",
+  "rarity" : "Common",
+  "description" : "Seven marker.",
+  "shortdescription" : "Seven.",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 400,
+
+  "apexDescription" : "Seven.",
+  "avianDescription" : "Seven.",
+  "floranDescription" : "Ssscythe.",
+  "glitchDescription" : "Statement. Seven.",
+  "humanDescription" : "Seven. The best score.",
+  "hylotlDescription" : "Seven.",
+  "novakidDescription" : "A seven.",
+  
+  
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "number7.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

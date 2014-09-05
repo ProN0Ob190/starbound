@@ -1,0 +1,10 @@
+{
+  "codexId" : "florvilpeace",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "floranvillagebook_10.png",
+  "itemName" : "florvilpeaceCodex",
+  "rarity" : "common",
+  "description" : "An excerpt from Floran Peace",
+  "shortdescription" : "Floran Peace"
+}

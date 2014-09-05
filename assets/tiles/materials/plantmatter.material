@@ -1,0 +1,23 @@
+{
+  "materialId" : 134,
+  "materialName" : "plantmatter",
+  "particleColor" : [13, 39, 7, 255],
+  "itemDrop" : "plantmatter",
+  "description" : "A block made of plant matter.",
+  "shortdescription" : "plantmatterstone",
+  "glitchDescription" : "Statement. Plant matter.",
+  "floranDescription" : "Floran feel kinship with plant block.",
+  "footstepSound" : "/sfx/blocks/footstep_tallgrass.wav",
+  "health" : 1.3,
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "plantmatter.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 10500
+  }
+}

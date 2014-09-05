@@ -1,0 +1,31 @@
+{
+  "objectName" : "medievalglobe",
+  "rarity" : "Common",
+  "description" : "A model of a world inhabited by the Glitch.",
+  "shortdescription" : "Glitch Globe",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 500,
+
+  "apexDescription" : "A globe. It doesn't match up with my ship's readings.",
+  "avianDescription" : "It appears to map out landmasses.",
+  "floranDescription" : "Metalman world very large.",
+  "glitchDescription" : "Identify. A Glitch globe. Mostly inaccurate. The Glitch are poor cartographers.",
+  "humanDescription" : "A globe of a world that's nothing like this one.",
+  "hylotlDescription" : "According to my ship, this globe is completely inaccurate.",
+
+  "inventoryIcon" : "medievalglobeicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "medievalglobe.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

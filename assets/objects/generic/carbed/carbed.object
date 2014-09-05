@@ -1,0 +1,44 @@
+{
+  "objectName" : "carbed",
+  "rarity" : "Common",
+  "description" : "A comfy wooden bed.",
+  "shortdescription" : "Wooden Bed",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 1500,
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-10, 15],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/generic/carbed/carbedcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    { "kind" : "Nude" },
+    { "kind" : "Health", "amount" : 0.06 }
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "apexDescription" : "A comfortable bed.",
+  "avianDescription" : "It looks like some kind of vehicle.",
+  "floranDescription" : "Floran not sssure what is. Bed?",
+  "glitchDescription" : "Confused. This bed looks mechanical in design, yet analysis suggests it's made of wood.",
+  "humanDescription" : "A bed in the shape of a car! I've wanted one of these since I was a kid.",
+  "hylotlDescription" : "A childish, decorative bed.",
+
+  "inventoryIcon" : "carbedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "carbed.png:<color>",
+
+      "imagePosition" : [-28, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

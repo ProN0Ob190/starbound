@@ -1,0 +1,13 @@
+{
+  "itemName" : "copperplatform",
+  // "twoHanded" : false,
+  "rarity" : "Common",
+  "inventoryIcon" : "copperplatform.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A copper platform",
+  "shortdescription" : "Copper Platform",
+  "glitchdescription" : "Statement. A copper platform.",
+  "florandescription" : "Platformsss.",
+
+  "materialId" : 139
+}

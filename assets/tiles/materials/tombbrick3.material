@@ -1,0 +1,22 @@
+{
+  "materialId" : 62,
+  "materialName" : "tombbrick3",
+  "particleColor" : [120, 127, 154, 255],
+  "itemDrop" : "tombbrick3",
+  "shortdescription" : "Small Tomb Brick",
+  "description" : "Small dusty bricks packed with dirt.",
+  "glitchDescription" : "Statement. Dusty bricks.",
+  "floranDescription" : "Dusssty bricks.",
+  "footstepSound" : "/sfx/blocks/footstep_stone.wav",
+  "health" : 30,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "tombbrick3.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

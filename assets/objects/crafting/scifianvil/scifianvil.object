@@ -1,0 +1,82 @@
+{
+  "objectName" : "scifianvil",
+  "rarity" : "Rare",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/scifianvil.config",
+    "filter" : [ "scifianvil" ]
+  },
+  "printable" : false,
+  "description" : "This module can turn strong ores and alloys into high quality equipment.",
+  "shortdescription" : "Replicator",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 200,
+  
+  "lightColor" : [125, 143, 179],
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.1,
+  "flickerTiming" : 1,
+
+  "apexDescription" : "A replicator. I can create high quality equipment with this.",
+  "avianDescription" : "A replicator. I can create high quality equipment with this.",
+  "floranDescription" : "Floran make ssstrong weapon here.",
+  "glitchDescription" : "Statement. I can make durasteel equipment and more with this.",
+  "humanDescription" : "A replicator. I can create high quality equipment with this.",
+  "hylotlDescription" : "A replicator. I can create high quality equipment with this.",
+
+  "inventoryIcon" : "scifianvilicon.png",
+  "orientations" : [
+    
+    {
+	  "imageLayers" : [ { "image" : "scifianvil.png:<color>.<frame>", "fullbright" : true }, { "image" : "scifianvillit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 9,
+      "animationCycle" : 0.9,
+	  
+	  "direction" : "left",
+	  "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+	{
+	  "imageLayers" : [ { "image" : "scifianvil.png:<color>.<frame>", "fullbright" : true }, { "image" : "scifianvillit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 9,
+      "animationCycle" : 0.9,
+	  
+	  "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+	  "imageLayers" : [ { "image" : "scifianvil.png:<color>.<frame>", "fullbright" : true }, { "image" : "scifianvillit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 9,
+      "animationCycle" : 0.9,
+	  
+	  "direction" : "left",
+	  "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+	{
+	  "imageLayers" : [ { "image" : "scifianvil.png:<color>.<frame>", "fullbright" : true }, { "image" : "scifianvillit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 9,
+      "animationCycle" : 0.9,
+	  
+	  "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

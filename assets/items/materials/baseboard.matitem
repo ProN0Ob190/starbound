@@ -1,0 +1,12 @@
+{
+  "itemName" : "baseboard",
+  "rarity" : "Common",
+  "inventoryIcon" : "baseboard.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A classy baseboard for the bottom of all your walls!",
+  "shortdescription" : "Classic Baseboard",
+  "glitchdescription" : "Statement. A baseboard.",
+  "florandescription" : "Colourful boardsss.",
+
+  "materialId" : 98
+}

@@ -1,0 +1,50 @@
+{
+  "projectileName" : "plasmacrystal",
+  "physics" : "bullet",
+  "bounces" : 0,
+  "speed" : 100,
+  "timeToLive" : 0.5,
+  "lightColor" : [105, 0, 90],
+  "frames" : "plasmacrystal.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 1,
+  "actionOnReap" : [
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/melee/sword_parry.wav" ]
+    },
+    {
+      "action" : "projectile",
+      "type" : "crystalshard",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 120
+    },
+    {
+      "action" : "projectile",
+      "type" : "crystalshard",
+      "fuzzAngle" : 10,
+      "angleAdjust" : -120
+    },
+    {
+      "action" : "projectile",
+      "type" : "crystalshard",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 1
+    },
+    {
+      "action" : "projectile",
+      "type" : "crystalshard",
+      "fuzzAngle" : 10,
+      "angleAdjust" : -55
+    },
+    {
+      "action" : "projectile",
+      "type" : "crystalshard",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 55
+    }
+
+  ],
+  "power" : 700,
+  "damageKind" : "default"
+}

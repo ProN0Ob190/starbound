@@ -1,0 +1,38 @@
+{
+  "objectName" : "toxicchest",
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+
+  "category" : "storage",
+  "price" : 700,
+  "description" : "A chest with a tongue. Probably takes a licking.",
+  "shortdescription" : "Toxic Chest",
+  "race" : "generic",
+
+  "apexDescription" : "A tongue pokes out of this chest. Bizarre.",
+  "avianDescription" : "Is this a chest or a creature? I'm hoping for the former.",
+  "floranDescription" : "Chest ssstick tongue out at Floran. Floran ssstick ssspear out at chest.",
+  "glitchDescription" : "Biology. This chest's tongue is actually constructed from the flesh of a few different plants.",
+  "humanDescription" : "Imagine being caught making out with this chest. You'd never live it down. If you were caught. Oh boy.",
+  "hylotlDescription" : "A grotesque chest. It looks like some kind of long-tongued amphibian.",
+
+  "inventoryIcon" : "toxicchesticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "toxicchest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

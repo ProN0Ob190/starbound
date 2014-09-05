@@ -1,0 +1,32 @@
+{
+  "objectName" : "hylotldrinks",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 1500,
+  "lightColor" : [200, 225, 205],
+
+  "shortdescription" : "Hylotl Vending Machine",
+  "description" : "A vending machine filled with popular Hylotl beverages.",
+  "race" : "hylotl",
+
+  "apexDescription" : "It's full of all sorts of Hylotl soft drinks.",
+  "avianDescription" : "The drinks in here look a little sweet for my taste...",
+  "floranDescription" : "Boring over-sweet frogman drinks.",
+  "glitchDescription" : "Intrigued. I wouldn't mind trying some of these foreign beverages.",
+  "humanDescription" : "The machine is selling soft drinks. I wonder what Reef-Cola tastes like? ",
+  "hylotlDescription" : "Personally, I'm quite partial to Reef-Cola.",
+
+  "inventoryIcon" : "hylotldrinksicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "hylotldrinks.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

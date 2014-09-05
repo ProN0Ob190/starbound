@@ -1,0 +1,14 @@
+{
+  "itemName" : "cookedtentacle",
+  "rarity" : "Common",
+  "inventoryIcon" : "cookedtentacle.png",
+  "description" : "It's a roasted tentacle. Chewy...but still pretty good?",
+  "shortdescription" : "Cooked Tentacle",
+  "handPosition" : [4, -2],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 30
+      }
+    ] ]
+}

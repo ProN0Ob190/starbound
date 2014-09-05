@@ -1,0 +1,116 @@
+{
+  "type" : "labscientist",
+  "baseType" : "guard",
+
+  "disableWornArmor" : true,
+  "innateStatusEffects" : [
+    {
+      "kind" : "Protection",
+      "amount" : 1.0
+    }
+  ],
+
+  "damageTeam" : 1,
+
+  "levelVariance" : [0, 0.25],
+
+  "scripts" : [
+    "/npcs/main.lua",
+    "/npcs/timers.lua",
+    "/scripts/sensors.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua",
+
+    "/npcs/meleeAttackState.lua",
+    "/npcs/rangedAttackState.lua",
+
+    "/npcs/sitState.lua",
+
+    "/npcs/guard/guardState.lua",
+    "/npcs/guard/returnToPostState.lua"
+  ],
+
+  "scriptConfig" : {
+    "attackerLimit" : 6,
+    "attackerLimitCooldown" : 3,
+    "noticePlayersRadius" : 30,
+
+    "sit" : {
+      "timeOfDayRanges" : [ [0.0, 1.0] ],
+      "moveTimeLimit" : 30,
+      "searchRadius" : 10,
+      "sitRadius" : 3,
+      "cooldown" : 60,
+      "timeRange" : [30, 60]
+    },
+
+    "guard" : {
+
+      "patrolDistance" : 5,
+      "noticeDistance" : 30,
+      "hailDistance" : -1,
+      "stopDistance" : -1,
+      "attackDistance" : 20,
+
+      "attackSayingPercent" : 25,
+
+      "dialog" : {
+        "attack" : {
+          "default" : [ "Intruder!"
+          ],
+          "apex" : {
+            "default" : [
+              "Guards! We have an intruder!",
+              "Looks like we've got ourselves a new test subject!",
+              "Intruder!",
+              "Guards!",
+              "You'll make a fine specimen!",
+              "For science!",
+              "I hope you're not too attached to your brain!",
+              "Stay away!"
+            ]
+          }
+        }
+      }
+    },
+
+    "returnToPost" : {
+      "moveTime" : 20,
+      "minDistance" : 2
+    },
+
+    "meleeAttack" : {
+      "runThreshold" : 0
+    }
+  },
+
+  "items" : {
+    "apex" : [
+      [0, [
+          {
+            "head" : [ { "name" : "scientisthead" }, "", "", "" ],
+            "chest" : [ { "name" : "scientistchest", "parameters" : { "colorIndex" : 1 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 4 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 5 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 6 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 7 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 8 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 9 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 10 } }, { "name" : "scientistchest", "parameters" : { "colorIndex" : 11 } } ],
+            "legs" : [ { "name" : "scientistlegs", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              { "name" : "generatedgun", "parameters" : { "definition" : "commonplasmapistol" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedsword", "parameters" : { "definition" : "bonesaw" } }
+            ]
+          }
+        ] ]
+    ]
+  },
+
+  "dropPools" : [ "labscientisttreasure" ],
+
+  "statusParameters" : {
+    "baseMaxHealth" : 40,
+    "baseMaxEnergy" : 40,
+    "bodyMaterialKind" : "organic",
+    "damageConfig" : "/damage/damageresponse/npcs.config",
+    "invulnerabilityTime" : 0,
+    "energyReplenishmentRate" : 10.0
+  }
+}

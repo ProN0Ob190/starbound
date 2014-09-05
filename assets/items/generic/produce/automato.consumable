@@ -1,0 +1,13 @@
+{
+  "itemName" : "automato",
+  "rarity" : "Common",
+  "inventoryIcon" : "automato.png",
+  "description" : "Automatos! Be sure to spit out the screws.",
+  "shortdescription" : "Automato",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 25
+      }
+    ] ]
+}

@@ -1,0 +1,75 @@
+{
+  "background" : {
+    "type" : "background",
+    "fileHeader" : "/interface/tooltips/header.png",
+    "fileBody" : "/interface/tooltips/armorbody.png",
+    "fileFooter" : "/interface/tooltips/footer.png"
+  },
+  "rarityLabel" : {
+    "type" : "label",
+    "position" : [7, 23],
+    "hAnchor" : "left",
+    "centered" : true,
+    "wrapWidth" : 126
+  },
+  "armorProtection" : {
+    "type" : "label",
+    "position" : [125, 152],
+    "hAnchor" : "left",
+    "centered" : true,
+    "wrapWidth" : 126
+  },
+  "moneyIcon" : {
+    "type" : "image",
+    "position" : [98, 23],
+    "file" : "/interface/money.png"
+  },
+  "priceLabel" : {
+    "type" : "label",
+    "position" : [110, 23],
+    "hAnchor" : "left",
+    "value" : "0"
+  },
+  "objectImage" : {
+    "type" : "image",
+    "position" : [35, 140],
+    "file" : "",
+    "centered" : true,
+    "maxSize" : [38, 38],
+    "minSize" : [38, 38]
+  },
+  "descriptionLabel" : {
+    "type" : "label",
+    "position" : [10, 111],
+    "wrapWidth" : 122,
+    "hAnchor" : "left",
+    "vAnchor" : "top"
+  },
+  "statusList" : {
+    "scissoring" : false,
+    "type" : "list",
+    "position" : [0, 115],
+    "schema" : {
+      "spacing" : [0, 0],
+      "memberSize" : [999, 17],
+      "listTemplate" : {
+        "statusLabel" : {
+          "type" : "label",
+          "position" : [70, 0],
+          "hAnchor" : "left"
+        },
+        "statusAmount" : {
+          "type" : "label",
+          "position" : [130, 4],
+          "hAnchor" : "right"
+        },
+        "statusImage" : {
+          "scissoring" : false,
+          "type" : "image",
+          "position" : [82, 8],
+          "file" : ""
+        }
+      }
+    }
+  }
+}

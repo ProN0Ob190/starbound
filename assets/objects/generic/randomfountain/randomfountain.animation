@@ -1,0 +1,43 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "tis1State" : {
+        "default" : "active",
+        "states" : {
+
+          "active" : {
+            "frames" : 3,
+            "mode" : "loop",
+            "cycle" : 0.3
+          },
+          "expire" : {
+            "frames" : 1
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "tis1" : {
+        "properties" : {
+          "centered" : false
+        },
+
+        "partStates" : {
+          "tis1State" : {
+            "active" : {
+              "properties" : {
+                "image" : "<partImage>:active.<frame>"
+              }
+            },
+            "expire" : {
+              "properties" : {
+                "image" : "<partImage>:expire.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

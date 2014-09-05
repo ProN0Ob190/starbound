@@ -1,0 +1,10 @@
+{
+  "codexId" : "flightlessmandate",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "aviantemplebook_05.png",
+  "itemName" : "flightlessmandateCodex",
+  "rarity" : "common",
+  "description" : "Mandate of the Flightless",
+  "shortdescription" : "Flightless Mandate"
+}

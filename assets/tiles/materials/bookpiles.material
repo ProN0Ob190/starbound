@@ -1,0 +1,27 @@
+{
+  "materialId" : 120,
+  "materialName" : "bookpiles",
+  "particleColor" : [103, 103, 103, 255],
+  "transparent" : true,
+  "itemDrop" : "bookpiles",
+  "shortdescription" : "Pile of Books",
+  "description" : "A pile of dusty old books, they're full of tales of dragons and knights.",
+  "glitchDescription" : "Studying. A pile of very interesting tomes.",
+  "floranDescription" : "Floran will try to read all books.",
+  "footstepSound" : "/sfx/blocks/footstep_wood.wav",
+  "falling" : true,
+  "cascading" : true,
+  "health" : 1,
+  "breathable" : "notBreathable",
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "bookpiles.png",
+    "variants" : 25,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
+}

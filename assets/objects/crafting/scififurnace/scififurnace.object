@@ -1,0 +1,71 @@
+{
+  "objectName" : "scififurnace",
+  "rarity" : "Rare",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/scififurnace.config",
+    "filter" : [ "stonefurnace", "alloyfurnace", "scififurnace" ]
+  },
+  "printable" : false,
+  "description" : "A high tech furnace. I can create incredibly strong alloys with this.",
+  "shortdescription" : "Atomic Blast Furnace",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 250,
+  "hydrophobic" : true,
+
+  "apexDescription" : "An atomic blast furnace. I can smelt incredibly strong alloys with this.",
+  "avianDescription" : "A furnace perfect for crafting even stronger alloys.",
+  "floranDescription" : "Furnace hisss, ssspit, burn. Floran brave it.",
+  "glitchDescription" : "Craftsmanship. The furnace is the perfect temperature for creating durasteel and other alloys.",
+  "humanDescription" : "An atomic blast furnace, hot enough to smelt durasteel and other materials.",
+  "hylotlDescription" : "An atomic blast furnace. I can make incredible materials with this.",
+
+  "lightColor" : [125, 143, 179],
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.1,
+  "flickerTiming" : 2,
+
+  "inventoryIcon" : "scififurnaceicon.png",
+  "orientations" : [
+    {
+	  "imageLayers" : [ { "image" : "scififurnace.png:<color>.<frame>", "fullbright" : true }, { "image" : "scififurnacelit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+	  
+	  "direction" : "left",
+	  "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+	{
+	  "imageLayers" : [ { "image" : "scififurnace.png:<color>.<frame>", "fullbright" : true }, { "image" : "scififurnacelit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+	  
+	  "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/campfire.wav",
+
+  "statusEffects" : [
+    {
+      "kind" : "Warmth",
+      "amount" : 70,
+      "range" : 8
+    }
+  ],
+  
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+
+}

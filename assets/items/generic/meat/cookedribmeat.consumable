@@ -1,0 +1,13 @@
+{
+  "itemName" : "cookedribmeat",
+  "rarity" : "Common",
+  "inventoryIcon" : "cookedribmeat.png",
+  "description" : "Pass the barbecue sauce!",
+  "shortdescription" : "Cooked Rib Meat",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 30
+      }
+    ] ]
+}

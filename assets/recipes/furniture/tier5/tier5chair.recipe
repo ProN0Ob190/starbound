@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 2 }
+  ],
+  "output" : { "item" : "tier5chair", "count" : 1 },
+  "groups" : [ "acceleratortable", "furniture", "objects", "all" ]
+}

@@ -1,0 +1,17 @@
+{
+  "modId" : 21,
+  "modName" : "plutonium",
+  "itemDrop" : "plutoniumore",
+  "Description" : "Plutonium.",
+  "health" : 15,
+  "harvestLevel" : 5,
+  "breaksWithTile" : true,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "plutonium.png",
+    "variants" : 8,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "objectName" : "prisongraffiti4",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 200,
+
+  "description" : "A crudely-drawn skull. It looks cheerful.",
+  "shortdescription" : "Graffiti",
+  "race" : "human",
+
+  "apexDescription" : "It looks like a human skull.",
+  "avianDescription" : "If this is a warning, it's quite a cheerful one.",
+  "floranDescription" : "Floran feel kinship with artist. Understand meaning.",
+  "glitchDescription" : "Statement. A crudely-drawn skull.",
+  "humanDescription" : "Another striking Banksy piece.",
+  "hylotlDescription" : "The artist was clearly inept.",
+
+  "inventoryIcon" : "prisongraffiti4icon.png",
+  "orientations" : [
+    {
+      "image" : "prisongraffiti4.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

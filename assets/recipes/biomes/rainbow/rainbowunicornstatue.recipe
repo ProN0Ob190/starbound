@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "rainbowwood", "count" : 500 },
+    { "item" : "crystal", "count" : 3 }
+  ],
+  "output" : { "item" : "rainbowunicornstatue", "count" : 1 },
+  "groups" : [ "craftingtable", "decorative", "objects", "all" ]
+}

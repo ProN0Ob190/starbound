@@ -1,0 +1,67 @@
+{
+  "objectName" : "lunarbaseconsole",
+  "rarity" : "Common",
+  "description" : "A sleek control console.",
+  "shortdescription" : "Lunar Base Console",
+  "race" : "generic",
+  "category" : "wire",
+  "price" : 750,
+  "lightColor" : [23, 33, 38],
+  
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.1,
+  "flickerIntensityVariance" : 0.0,
+
+  "apexDescription" : "-todo-",
+  "avianDescription" : "-todo-",
+  "floranDescription" : "-todo-",
+  "glitchDescription" : "-todo-",
+  "humanDescription" : "-todo-",
+  "hylotlDescription" : "-todo-",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "lunarbaseconsole.png:<color>.<frame>",
+	  "flipImages" : true,
+	  "direction" : "left",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 3,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+	{
+	  "image" : "lunarbaseconsole.png:<color>.<frame>",
+	  "direction" : "right",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 3,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/switch/switch.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "lunarbaseconsole.animation",
+  "animationParts" : {
+    "bg" : "lunarbaseconsole.png",
+    "fg" : "lunarbaseconsolelit.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "outboundNodes" : [ [0, 0] ],
+
+  "onSounds" : [ "/sfx/objects/console_generic_switchon.wav" ],
+  "offSounds" : [ "/sfx/objects/console_generic_switchoff.wav" ]
+}

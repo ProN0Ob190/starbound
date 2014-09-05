@@ -1,0 +1,36 @@
+{
+  "objectName" : "chestfloran2",
+  "rarity" : "Uncommon",
+  "objectType" : "container",
+
+  "category" : "storage",
+  "price" : 750,
+  "description" : "What would a race of sentient carnivorous plants consider important enough to lock away?",
+  "shortdescription" : "Large Primitive Chest",
+  "race" : "floran",
+
+  "apexDescription" : "This chest appears to be made from bound sticks.",
+  "avianDescription" : "This chest appears to be more for storage than security. I could practically pull it apart.",
+  "floranDescription" : "Floran ssstore many exciting thingss in chesst.",
+  "glitchDescription" : "Sarcasm. It may be quicker to pull this chest apart than to open it.",
+  "humanDescription" : "Human children used to learn how to make things like this at camp.",
+  "hylotlDescription" : "This chest may rot over time, exposing its contents.",
+
+  "inventoryIcon" : "chestfloran2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "chestfloran2.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_medium_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/chest_medium_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

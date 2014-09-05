@@ -1,0 +1,32 @@
+{
+  "objectName" : "bunkerbigpanel",
+  "rarity" : "Common",
+  "category" : "wire",
+  "price" : 1000,
+  "lightColor" : [89, 129, 179],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 4,
+  "description" : "The amount of data on this screen is overwhelming.",
+  "shortdescription" : "Large Monitor",
+  "race" : "human",
+
+  "apexDescription" : "A set of monitors. I keep expecting to see Big Ape's face.",
+  "avianDescription" : "A monitor, for... data readings, perhaps.",
+  "floranDescription" : "Buzzy moving picturesss.",
+  "glitchDescription" : "Investigate. The readouts suggest this area is inhabitable for humans.",
+  "humanDescription" : "A bunch of arcane readouts flicker on the monitor. I'm sure someone could understand them... but not me.",
+  "hylotlDescription" : "According to these monitors, the water in this area is fresh.",
+
+  "inventoryIcon" : "bunkerbigpanelicon.png",
+  "orientations" : [
+    {
+	  "imageLayers" : [ { "image" : "bunkerbigpanel.png:<color>", "fullbright" : true }, { "image" : "bunkerbigpanellit.png:<color>" } ],
+      "imagePosition" : [-40, -16],
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/bunkerdisplay.wav"
+}

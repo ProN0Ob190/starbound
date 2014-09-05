@@ -1,0 +1,44 @@
+{
+  "objectName" : "fleshdoor",
+  "printable" : false,
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 800,
+  "description" : "A squishy, fleshy door.",
+  "shortdescription" : "Flesh Door",
+  "race" : "generic",
+
+  "apexDescription" : "This is nightmarish.",
+  "avianDescription" : "A grotesque door.",
+  "floranDescription" : "Floran ssstab door open.",
+  "glitchDescription" : "Statement. The most disgusting door ever.",
+  "humanDescription" : "I guess I'd better open it.",
+  "hylotlDescription" : "What a sickening door.",
+
+  "inventoryIcon" : "fleshdooricon.png",
+  "orientations" : [
+    {
+      "image" : "fleshdoor.png:default",
+      "imagePosition" : [-20, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationParts" : {
+    "door" : "fleshdoor.png"
+  },
+  "animationPosition" : [-20, 0],
+
+  "inboundNodes" : [ [-1, 4] ],
+  "outboundNodes" : [ [1, 0] ],
+
+  "openSounds" : [ "/sfx/objects/fleshdoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/fleshdoor_close.wav" ]
+}

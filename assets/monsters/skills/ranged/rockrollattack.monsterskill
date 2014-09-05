@@ -1,0 +1,19 @@
+{
+  "name" : "rockRollAttack",
+  "label" : "ROCKROLL",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "rockRollAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "rockroll",
+      "range" : 18,
+      "speed" :20,
+      "power" : 20,
+      "shots" : 1,
+      "windupTime" : 0.5,
+      "fireAnimation" : "melee",
+      "fireAnimationTiming" : 0.2
+    }
+  }
+}

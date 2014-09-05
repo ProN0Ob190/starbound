@@ -1,0 +1,33 @@
+{
+  "objectName" : "tier10table",
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A beautiful impervium table.",
+  "shortdescription" : "Impervium Table",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 500,
+
+  "apexDescription" : "This impervium table is exceptionally sleek.",
+  "avianDescription" : "An immensely sturdy impervium table.",
+  "floranDescription" : "Table good enough for Floran to ssslice meatsss.",
+  "glitchDescription" : "Approving. A flawless impervium table.",
+  "humanDescription" : "A cool impervium table.",
+  "hylotlDescription" : "A table that outdoes even Hylotl craftsmanship.",
+
+  "inventoryIcon" : "tier10tableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "tier10table.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

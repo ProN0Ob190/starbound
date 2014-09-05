@@ -1,0 +1,12 @@
+{
+  "itemName" : "metallicmaterial",
+  "rarity" : "Common",
+  "inventoryIcon" : "metallic.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "This looks hi-tech!",
+  "shortdescription" : "Hi-tech Block",
+  "glitchdescription" : "Analysis. This block's technology is unknown to me.",
+  "florandescription" : "Magic computer block.",
+
+  "materialId" : 13
+}

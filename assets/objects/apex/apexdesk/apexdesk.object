@@ -1,0 +1,29 @@
+{
+  "objectName" : "apexdesk",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 800,
+  "description" : "Each of these desks has a coffee mug and lamp fused to its surface.",
+  "shortdescription" : "Standard Issue Desk",
+  "race" : "apex",
+
+  "apexDescription" : "The coffee mug and the lamp are just for show. They're stuck to the surface.",
+  "avianDescription" : "A strange table... the objects on top are stuck to it.",
+  "floranDescription" : "Why Apex ssstick object to desk?",
+  "glitchDescription" : "Amused confusion. Objects fused to desk surface. Can not remove.",
+  "humanDescription" : "What the... the mug and lamp are stuck to the desk. Is this just for show?",
+  "hylotlDescription" : "A fake set of objects are fused to this desk. What mischief is this?",
+
+  "inventoryIcon" : "apexdeskicon.png",
+  "orientations" : [
+    {
+      "leftImage" : "apexdeskleft.png:<color>",
+      "rightImage" : "apexdeskright.png:<color>",
+
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.01,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

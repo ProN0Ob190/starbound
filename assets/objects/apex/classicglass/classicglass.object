@@ -1,0 +1,30 @@
+{
+  "objectName" : "classicglass",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 200,
+  "description" : "A soft scent of banana juice lingers.",
+  "shortdescription" : "Crystal Glass",
+  "race" : "apex",
+
+  "apexDescription" : "A glass for banana juice. Such juices were banned in the prohibition.",
+  "avianDescription" : "The Avian do not have a method for shaping crystal in this way.",
+  "floranDescription" : "Disssgusting sscent of Apex fruit insside.",
+  "glitchDescription" : "Study. The glass appears to have contained an Apex fruit juice.",
+  "humanDescription" : "The smell reminds me of banana milkshakes.",
+  "hylotlDescription" : "Crystal requires deft fingers to shape thusly.",
+
+  "inventoryIcon" : "classicglassicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "classicglass.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

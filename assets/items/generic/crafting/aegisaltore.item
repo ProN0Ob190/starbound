@@ -1,0 +1,11 @@
+{
+  "itemName" : "aegisaltore",
+  "rarity" : "Rare",
+  "inventoryIcon" : "aegisaltore.png",
+  "description" : "It's aegisalt. Can be used for smelting or repairs. Pick up ore and right click mining tool to repair.",
+  "shortdescription" : "Aegisalt Ore",
+
+  "learnBlueprintsOnPickup" : [
+    "acceleratortable"
+  ]
+}

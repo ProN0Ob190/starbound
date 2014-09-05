@@ -1,0 +1,38 @@
+{
+  "objectName" : "bathroomtrash",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "description" : "Trash. Just trash. Or is it? Answer: yes.",
+  "shortdescription" : "Bathroom Trash",
+  "race" : "generic",
+  "category" : "storage",
+  "price" : 500,
+
+  "apexDescription" : "Garbage day!",
+  "avianDescription" : "Trash.",
+  "floranDescription" : "Pretty rubbish.",
+  "glitchDescription" : "Statement. Garbage.",
+  "humanDescription" : "Time to take out the trash!",
+  "hylotlDescription" : "Vile garbage.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bathroomtrash.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+
+}

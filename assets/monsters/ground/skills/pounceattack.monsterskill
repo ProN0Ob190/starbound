@@ -1,0 +1,22 @@
+{
+  "name" : "pounceAttack",
+  "label" : "BODY SLAM",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "scripts" : [ "/monsters/ground/skills/pounceAttack.lua" ],
+    "pounceAttack" : {
+      "skillTimeLimit" : 4.0,
+      "cooldownTime" : 0.5,
+      "jumpHoldTime" : 1.5,
+      "windupTime" : 0.5,
+      "winddownTime" : 0.5,
+
+      "jumpSpeedMultiplier" : 1.8,
+      "jumpSpeedMax" : 50,
+
+      "approachPoints" : [ [-9.0, 0], [9.0, 0] ],
+      "startRects" : [ [-10.0, 2.5, -4.0, -2.0], [10.0, 2.5, 4.0, -2.0] ]
+    }
+  }
+}

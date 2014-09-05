@@ -1,0 +1,31 @@
+{
+  "objectName" : "floranpelt5",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 600,
+
+  "description" : "This pelt closely resembles a white tiger from Earth...",
+  "shortdescription" : "Full Striped Pelt",
+  "race" : "floran",
+
+  "apexDescription" : "A beautiful patterned fur. I bet the creature was a sight to behold. This looks like it belonged to a cub.",
+  "avianDescription" : "The fur of some black and white striped beast. Quite small.",
+  "floranDescription" : "Fur of rare patternss and colour. Valuable to Floran.",
+  "glitchDescription" : "Observation. The fur suggests a cold environment. Nothing seems to curb Floran bloodlust.",
+  "humanDescription" : "Reminds me of white tigers. They went extinct some centuries ago. This looks like a cub.",
+  "hylotlDescription" : "To hunt such a beautiful creature. An infant, too.. It is barbaric.",
+
+  "inventoryIcon" : "floranpelt5icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "floranpelt5.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

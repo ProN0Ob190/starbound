@@ -1,0 +1,10 @@
+{
+  "codexId" : "florvilteaching",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "floranvillagebook_03.png",
+  "itemName" : "florvilteachingCodex",
+  "rarity" : "common",
+  "description" : "Greenfinger's Notes: On Teaching",
+  "shortdescription" : "On Teaching"
+}

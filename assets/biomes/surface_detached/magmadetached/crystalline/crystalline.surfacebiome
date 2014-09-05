@@ -1,0 +1,94 @@
+{
+  "name" : "crystalline",
+  "friendlyName" : "Crystalline",
+  "spawnProfiles" : [ "surfacemix1", "surfacemix2", "surfacemix3" ],
+
+  "surfaceParameters" : {
+    "mainBlock" : "obsidian",
+    "subBlocks" : [ "ash", "blaststone" ],
+    "ores" : "surfaceOres",
+
+    "statusParameters" : {
+      "temperatureBounds" : [50, 60],
+      "dayNightTemperatureVariability" : 70,
+      "temperatureVariability" : 5
+    },
+
+    "surfacePlaceables" : {
+      "grassMod" : [ "blackash" ],
+      "grassModDensity" : 0.3,
+
+      "items" : [
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:denseLarge",
+
+          "type" : "tree",
+          "treeFoliageHueShiftMax" : 0,
+          "treeStemHueShiftMax" : 0,
+          "treeStemList" : [ "crystalline" ],
+          "treeFoliageList" : [ "crystallinenofoliage" ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 2.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:potsRare",
+
+          "type" : "object",
+          "objectSets" : [
+            {
+              "pool" : [ [1, "wildcrystalplantseed" ] ],
+              "parameters" : { "startingStage" : 2 }
+            }
+          ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 0.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:minibiomeChests",
+
+          "type" : "treasureBox",
+          "treasureBoxSets" : [ "crystalChest" ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 4.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+          "type" : "grass",
+          "grasses" : [ "crystalflower" ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 3.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+          "type" : "object",
+          "objectSets" : [
+            {
+              "pool" : [ [0.35, "crystallinebush1" ], [0.35, "crystallinebush2" ], [0.35, "crystallinebush3" ], [0.35, "crystallinebush4" ] ],
+              "parameters" : { }
+            }
+          ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:denseLarge",
+
+          "type" : "microdungeon",
+          "microdungeons" : [ "oasis" ]
+        }
+      ]
+    }
+  }
+}
+
+

@@ -1,0 +1,13 @@
+{
+  "id" : "apextutorial.gearup",
+  "title" : "^#9be3d6;On The Run.",
+  "text" : "The Miniknog has crushed the Apex rebellion. I have escaped with my life intact by hijacking a Miniknog ship. The ship was damaged on escape. To keep moving I'll need to ^green;repair the ships thrusters and patch up the hull. ",
+  "completionText" : "The ship has rumbled to life! There's still work to do and I need to fix the FTL drive. But it's a start!",
+  "conditions" : [
+    { "kind" : "trigger", "trigger" : "ai.repairthrusters" }
+  ],
+  "moneyRange" : [500, 500],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "canBeAbandoned" : false
+}

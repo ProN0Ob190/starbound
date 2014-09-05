@@ -1,0 +1,13 @@
+{
+  "id" : "tutorial4.gearup",
+  "title" : "^#9be3d6;Prepare Yourself",
+  "text" : "Plant fibres can be used to fashion bandages in case I get hurt. I should ^green;chop down some vines to obtain plant fibres and turn them into a ^orange;bandage^green;. ^white;Better safe than sorry.",
+  "completionText" : "That wasn't too bad. I could make all sorts of things from plant fibres, from ropes to cloth.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "bandage", 1], "consume" : false }
+  ],
+  "moneyRange" : [10, 10],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "tutorial5.gearup"
+}

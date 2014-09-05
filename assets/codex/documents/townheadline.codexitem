@@ -1,0 +1,10 @@
+{
+  "codexId" : "townheadline",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "apexvillagebook_06.png",
+  "itemName" : "townheadlineCodex",
+  "rarity" : "common",
+  "description" : "An Apex Headline",
+  "shortdescription" : "Apex Headline"
+}

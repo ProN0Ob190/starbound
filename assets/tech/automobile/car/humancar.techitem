@@ -1,0 +1,10 @@
+{
+  "itemName" : "humancar",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/humancar.png",
+  "description" : "Press F to use this. Traverses rough terrain quicker. It can also jump!",
+  "shortdescription" : "Human Car",
+  "tooltipKind" : "tech",
+
+  "techModule" : "humancar.tech"
+}

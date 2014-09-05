@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "iceblock", "count" : 100 }
+  ],
+  "output" : { "item" : "icedoor", "count" : 1 },
+  "groups" : [ "craftingtable", "door", "objects", "all" ]
+}

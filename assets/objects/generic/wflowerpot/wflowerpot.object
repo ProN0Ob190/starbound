@@ -1,0 +1,28 @@
+{
+  "objectName" : "wflowerpot",
+  "rarity" : "Common",
+  "price" : 500,
+  "description" : "Flowers!",
+  "shortdescription" : "White Flower",
+  "race" : "generic",
+
+  "apexDescription" : "A pretty white flower.",
+  "avianDescription" : "This flower has a nice scent.",
+  "floranDescription" : "Flower sssmells nicce.",
+  "glitchDescription" : "Observation. Petals of pure white.",
+  "humanDescription" : "It looks like an overgrown daisy.",
+  "hylotlDescription" : "White is the Hylotl colour of peace.",
+
+  "inventoryIcon" : "wflowericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "wflowerpot.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "feroziumcompound", "count" : 2 }
+  ],
+  "output" : { "item" : "glitchtier6dagger", "count" : 1 },
+  "groups" : [ "acceleratortable", "weapons", "all" ]
+}

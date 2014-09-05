@@ -1,0 +1,39 @@
+{
+  "objectName" : "giantflower3",
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "pot",
+  "price" : 300,
+
+  "description" : "A giant red flower. Pretty AND intimidating!",
+  "shortdescription" : "Giant Flower",
+  "race" : "generic",
+
+  "apexDescription" : "A huge flower. It makes me feel relaxed.",
+  "avianDescription" : "A giant flower. Beautiful.",
+  "floranDescription" : "Flower ssso big, Floran could dance on it.",
+  "glitchDescription" : "Botany. This flower's DNA has mutated over the years, hence the large size.",
+  "humanDescription" : "Imagine turning up at someone's door with a bouquet of these!",
+  "hylotlDescription" : "A large, beautiful flower.",
+
+  "inventoryIcon" : "capsulemedicon.png",
+  "orientations" : [
+    {
+      "image" : "giantflower3.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "smashSounds" : [ "/sfx/environmental/tree_hitground2.wav" ],
+  "smashDropOptions" : [
+    [ [ "giantflowerpetal", 1, { } ], [ "giantflowerpetal", 1, { } ], [ "giantflowerpetal", 1, { } ], [ "giantflowerpetal", 1, { } ], [ "giantflowerpetal", 1, { } ], [ "giantflowerpetal", 1, { } ] ]
+  ],
+  "breakDropOptions" : [
+    [ [ "giantflowerpetal", 1, { } ], [ "giantflowerpetal", 1, { } ], [ "giantflowerpetal", 1, { } ], [ "giantflowerpetal", 1, { } ], [ "giantflowerpetal", 1, { } ], [ "giantflowerpetal", 1, { } ] ]
+  ]
+}

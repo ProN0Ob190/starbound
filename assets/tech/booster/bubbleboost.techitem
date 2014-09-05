@@ -1,0 +1,10 @@
+{
+  "itemName" : "bubbleboost",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/bubbleboost.png",
+  "description" : "Press and hold Jump in the air to float around with this Bubble Boost tech.",
+  "shortdescription" : "Bubble Boost",
+  "tooltipKind" : "tech",
+
+  "techModule" : "bubbleboost.tech"
+}

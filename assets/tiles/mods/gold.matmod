@@ -1,0 +1,17 @@
+{
+  "modId" : 17,
+  "modName" : "gold",
+  "itemDrop" : "goldore",
+  "Description" : "Gold.",
+  "health" : 14,
+  "harvestLevel" : 4,
+  "breaksWithTile" : true,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "gold.png",
+    "variants" : 8,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

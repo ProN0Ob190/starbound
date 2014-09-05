@@ -1,0 +1,35 @@
+{
+  "objectName" : "bunkerceilinglight2",
+  "rarity" : "Common",
+  "description" : "A metallic ceiling lamp.",
+  "shortdescription" : "Metal Ceiling Lamp",
+  "race" : "human",
+
+  "category" : "light",
+  "price" : 500,
+  "lightColor" : [229, 229, 210],
+  "pointLight" : true,
+  "pointBeam" : 0.3,
+
+  "apexDescription" : "A metallic ceiling light.",
+  "avianDescription" : "A colourful ceiling light.",
+  "floranDescription" : "Safe light, not fire. Floran like.",
+  "glitchDescription" : "Bored. A light fixture.",
+  "humanDescription" : "A device you attach to your head, and... wait, no, it's just a light.",
+  "hylotlDescription" : "An uninteresting ceiling light.",
+
+  "inventoryIcon" : "bunkerceilinglight2icon.png",
+  "orientations" : [
+    {
+      "image" : "bunkerceilinglight2.png:<color>.<frame>",
+      "imagePosition" : [-4, -24],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ],
+      "lightPosition" : [0, -2],
+      "pointAngle" : 270
+    }
+  ]
+}

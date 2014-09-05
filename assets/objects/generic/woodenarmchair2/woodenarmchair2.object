@@ -1,0 +1,36 @@
+{
+  "objectName" : "woodenarmchair2",
+  "rarity" : "Common",
+  "description" : "A luxurious wooden armchair.",
+  "shortdescription" : "Soft Wooden Armchair",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 2500,
+
+  "apexDescription" : "A wooden armchair covered in soft cushions.",
+  "avianDescription" : "It is possible to sink into this chair. Most relaxing.",
+  "floranDescription" : "Floran sssink into chair like quick ssand.",
+  "glitchDescription" : "Calm. This chair is a powerful relaxant.",
+  "humanDescription" : "The kind of chair someone has for life.",
+  "hylotlDescription" : "An attractive blue.",
+
+  "inventoryIcon" : "woodenarmchair2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "woodenarmchair2.png:<color>",
+
+      "imagePosition" : [-10, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [6, 21]
+
+}

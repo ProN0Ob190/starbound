@@ -1,0 +1,37 @@
+{
+  "objectName" : "fountain1",
+  "rarity" : "Common",
+  "price" : 2500,
+  "description" : "A beautiful stone fountain. The water looks refreshing.",
+  "shortdescription" : "Stone Fountain",
+  "race" : "generic",
+  "category" : "decorative",
+
+  "apexDescription" : "A pretty fountain. The sound is soothing.",
+  "avianDescription" : "A large birdbath.",
+  "floranDescription" : "Water bring life to Floran.",
+  "glitchDescription" : "Relaxed. The water calms me.",
+  "humanDescription" : "If I had a penny I'd throw it in.",
+  "hylotlDescription" : "Sometimes I miss the ocean.",
+
+  "inventoryIcon" : "fountainicon.png",
+  "orientations" : [
+    {
+      "image" : "fountain1.png:<color>.<frame>",
+      "imagePosition" : [-32, 0],
+      "frames" : 3,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/fountain1.wav",
+
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [14, 24]
+
+}

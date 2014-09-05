@@ -1,0 +1,36 @@
+{
+  "objectName" : "prisonlocker2",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "category" : "storage",
+  "price" : 300,
+  "description" : "A good place to stash contraband.",
+  "shortdescription" : "Tall Prison Locker",
+  "race" : "human",
+
+  "apexDescription" : "A locker. I wonder what's inside.",
+  "avianDescription" : "A locker. Possibly filled with prisoner belongings.",
+  "floranDescription" : "Floran open locker, sssteal from ssstealers.",
+  "glitchDescription" : "Contemplating. Is it a crime to steal stolen goods?",
+  "humanDescription" : "I've always wanted to raid a prison locker, and now my dreams can come true!",
+  "hylotlDescription" : "The prisoners are long-gone. It's fair to take what's inside.",
+
+  "inventoryIcon" : "prisonlocker2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "prisonlocker2.png:<color>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+
+  ],
+  "openSounds" : [ "/sfx/objects/locker_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/locker_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

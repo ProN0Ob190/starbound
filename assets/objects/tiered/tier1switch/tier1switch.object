@@ -1,0 +1,42 @@
+{
+  "objectName" : "tier1switch",
+  "printable" : false,
+  "rarity" : "Common",
+  "price" : 100,
+
+  "description" : "A sturdy iron lever. Perfect for pulling.",
+  "shortdescription" : "Iron Lever",
+  "race" : "generic",
+
+  "apexDescription" : "This lever can be used for many things.",
+  "avianDescription" : "A useful lever.",
+  "floranDescription" : "Floran pull lever. Make thingsss happen!",
+  "glitchDescription" : "Impressed. A simple lever can control so many different mechanisms.",
+  "humanDescription" : "A lever. It's just gotta be pulled.",
+  "hylotlDescription" : "A lever.",
+
+  "inventoryIcon" : "tier1switchicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "tier1switch.png:<color>.off",
+      "imagePosition" : [-8, 0],
+
+      "spaces" : [ [-1, 0], [0, 0], [-1, 1], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/switch/switch.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switchtoggle2.animation",
+  "animationParts" : {
+    "switch" : "tier1switch.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "outboundNodes" : [ [0, 0] ],
+
+  "onSounds" : [ "/sfx/objects/apexconsole2switch.wav" ],
+  "offSounds" : [ "/sfx/objects/apexconsole2switch.wav" ]
+}

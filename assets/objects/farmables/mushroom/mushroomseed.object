@@ -1,0 +1,63 @@
+{
+  "objectName" : "mushroomseed",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "A mushroom seed. The farmer who plants these is a fungi.",
+  "shortdescription" : "Mushroom Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "objectItem" : "shroom",
+
+  "apexDescription" : "Mushrooms.",
+  "avianDescription" : "Toadstools.",
+  "floranDescription" : "Floran hatsss.",
+  "glitchDescription" : "Analysis. This fungus is not poisonous.",
+  "humanDescription" : "The perfect pizza topping.",
+  "hylotlDescription" : "Mushrooms.",
+
+  "inventoryIcon" : "mushroomseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "mushroomseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "shroom",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [2820, 2940],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [2820, 2940],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "materialId" : 68,
+  "materialName" : "steelplatform",
+  "platform" : true,
+  "transparent" : true,
+  "itemDrop" : "steelplatform",
+  "shortdescription" : "Steel Platform",
+  "description" : "Strong steel platforms.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.wav",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "steelplatform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multicolored" : true,
+    "zLevel" : 0,
+    "platform" : true
+  }
+}

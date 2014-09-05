@@ -1,0 +1,14 @@
+{
+  "materialId" : 6965,
+  "materialName" : "skyrailbreak",
+  "platform" : true,
+  "transparent" : true,
+  "stairVariants" : 1,
+  "stairImage" : "skyrail_breakdiag.png",
+  "platformVariants" : 5,
+  "platformImage" : "skyrail_break.png",
+  "itemDrop" : "skyrailbreak",
+  "shortdescription" : "Skyrail Breaker",
+  "description" : "A skyrail for slowing things down.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.wav"
+}

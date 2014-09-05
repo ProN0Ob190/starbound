@@ -1,0 +1,30 @@
+{
+  "objectName" : "plantgeyser1",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 1500,
+  "description" : "A geyser. Keep your distance.",
+  "shortdescription" : "Geyser",
+  "race" : "floran",
+
+  "apexDescription" : "Pretty but deadly.",
+  "avianDescription" : "A natural spout.",
+  "floranDescription" : "Floran use plants for dangerousness.",
+  "glitchDescription" : "Statement. A geyser.",
+  "humanDescription" : "It looks like a tiny, adorable volcano.",
+  "hylotlDescription" : "I'm staying away from this.",
+
+  "inventoryIcon" : "plantgeyser1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "plantgeyser1.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

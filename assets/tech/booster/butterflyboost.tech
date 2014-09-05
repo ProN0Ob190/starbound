@@ -1,0 +1,9 @@
+{
+  "scripts" : ["booster.lua"],
+  "actions" : [ "boostRightUp", "boostRightDown", "boostLeftUp", "boostLeftDown", "boostRight", "boostDown", "boostLeft", "boostUp" ],
+  "animator" : "butterflyboost.animation",
+
+  "boostControlForce" : 300,
+  "boostSpeed" : 30,
+  "energyUsagePerSecond" : 115
+}

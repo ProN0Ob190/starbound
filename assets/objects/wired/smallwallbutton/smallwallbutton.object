@@ -1,0 +1,40 @@
+{
+  "objectName" : "smallwallbutton",
+  "rarity" : "Common",
+  "description" : "Who knows what it might activate... just press it!",
+  "shortdescription" : "Small Wall Button",
+  "race" : "generic",
+
+  "floranDescription" : "Floran just push button!",
+  "glitchDescription" : "Temptation. A button, begging to be pressed.",
+
+  "category" : "wire",
+  "price" : 300,
+
+  "inventoryIcon" : "smallwallbuttonicon.png",
+  "orientations" : [
+    {
+      "image" : "smallwallbutton.png:<color>.off",
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/momentaryswitch/momentaryswitch.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switchtoggle.animation",
+
+  "animationParts" : {
+    "switch" : "smallwallbutton.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "outboundNodes" : [ [0, -1] ],
+
+  "interval" : 15,
+
+  "onSounds" : [ "/sfx/objects/tinywallbutton.wav" ]
+}

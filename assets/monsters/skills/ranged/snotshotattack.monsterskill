@@ -1,0 +1,21 @@
+{
+  "name" : "snotShotAttack",
+  "label" : "SNOT SHOT",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "snotShotAttack" : {
+      "cooldownTime" : 3,
+
+      "factory" : "createRangedAttack",
+      "projectile" : "snotblock",
+      "arc" : "low",
+      "range" : 20,
+      "speed" : 35,
+      "power" : 16,
+      "shots" : 1,
+      "fireAnimation" : "melee",
+      "fireAnimationTiming" : 0.2
+    }
+  }
+}

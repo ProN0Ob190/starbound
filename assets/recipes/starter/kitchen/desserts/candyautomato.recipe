@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "automato", "count" : 1 },
+    { "item" : "candy", "count" : 1 }
+  ],
+  "output" : { "item" : "candyautomato", "count" : 1 },
+  "groups" : [ "kitchen", "consumables", "dessert" ]
+}

@@ -1,0 +1,83 @@
+{
+  "objectName" : "toxictopseed",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "A Toxic Top. Toxic, but also top!",
+  "shortdescription" : "Toxic Top Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 150,
+
+  "apexDescription" : "This plant could make me sick.",
+  "avianDescription" : "Toxic and delicious.",
+  "floranDescription" : "Floran feed Toxic Tops to friends as joke.",
+  "glitchDescription" : "Analysis. This plant is toxic to every known species bar penguins.",
+  "humanDescription" : "A toxic radish. My favourite dish.",
+  "hylotlDescription" : "A poisonous root vegetable.",
+
+  "inventoryIcon" : "toxictopseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "toxictopseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "toxictop",
+            "count" : 1
+          },
+          {
+            "name" : "toxictopseed",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "toxictop",
+            "count" : 1
+          },
+          {
+            "name" : "plantfibre",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "toxictop",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [600, 600],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [600, 600],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

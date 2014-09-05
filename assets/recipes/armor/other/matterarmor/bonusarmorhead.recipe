@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "matteritem", "count" : 5 },
+    { "item" : "steelbar", "count" : 3 }
+  ],
+  "output" : { "item" : "bonusarmorhead", "count" : 1 },
+  "groups" : [ "metalworkstation", "armors", "all" ]
+}

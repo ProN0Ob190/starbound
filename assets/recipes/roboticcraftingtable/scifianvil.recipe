@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 20 }
+  ],
+  "output" : {
+    "item" : "scifianvil",
+    "count" : 1
+  },
+  "groups" : [ "roboticcraftingtable", "objects", "tools", "all" ]
+}

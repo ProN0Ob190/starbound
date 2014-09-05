@@ -1,0 +1,22 @@
+{
+  "name" : "rockShotAttack",
+  "label" : "ROCK SHOT",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "rockShotAttack" : {
+      "cooldownTime" : 3,
+
+      "factory" : "createRangedAttack",
+      "projectile" : "rock",
+      "arc" : "high",
+      "range" : 13,
+      "speed" : 25,
+      "power" : 12,
+      "shots" : 2,
+      "fireInterval" : 0.3,
+      "fireAnimation" : "melee",
+      "fireAnimationTiming" : 0.2
+    }
+  }
+}

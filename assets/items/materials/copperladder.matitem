@@ -1,0 +1,13 @@
+{
+  "itemName" : "copperladder",
+  // "twoHanded" : false,
+  "rarity" : "Common",
+  "inventoryIcon" : "copperladder.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A copper ladder",
+  "shortdescription" : "Copper Ladder",
+  "glitchdescription" : "Statement. A copper ladder.",
+  "florandescription" : "Laddersss.",
+
+  "materialId" : 140
+}

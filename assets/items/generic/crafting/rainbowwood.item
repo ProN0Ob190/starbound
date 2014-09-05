@@ -1,0 +1,10 @@
+{
+  "itemName" : "rainbowwood",
+  "rarity" : "Common",
+  "inventoryIcon" : "rainbowwood.png",
+  "description" : "Rainbow Wood.",
+  "shortdescription" : "Rainbow Wood",
+  "learnBlueprintsOnPickup" : [
+    "rainbowwoodblock"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "objectName" : "birdjar1",
+  "rarity" : "Common",
+
+  "description" : "This jar has seen better days. It looks smashable...",
+  "shortdescription" : "Fancy Avian Jar",
+  "race" : "avian",
+  "category" : "pot",
+  "price" : 600,
+
+  "apexDescription" : "The carvings are worn here. The pot looks ready to smash.",
+  "avianDescription" : "This jar would have been decorated with images of Kluex. It may contain items made as an offering.",
+  "floranDescription" : "Jar all worn out, ready to be sssmashed.",
+  "glitchDescription" : "Scan. The material is brittle. Easy to break.",
+  "humanDescription" : "This thing looks like it might fall apart at the slightest touch. I wonder if there's anything inside.",
+  "hylotlDescription" : "The markings on this jar are no longer discernible. It may contain something of use, however.",
+
+  "inventoryIcon" : "birdjar1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "birdjar1.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "smashSounds" : [ "/sfx/objects/pot_break_medium1.wav", "/sfx/objects/pot_break_medium2.wav" ],
+  "smashDropOptions" : [
+    [ [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ] ]
+  ],
+  "breakDropOptions" : [
+    [ [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ] ]
+  ]
+}

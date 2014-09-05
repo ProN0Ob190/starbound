@@ -1,0 +1,12 @@
+{
+  "projectileName" : "zotsorb",
+  "frames" : "zotsorb.png",
+  "animationCycle" : 0.4,
+  "frameNumber" : 4,
+  "power" : 50,
+  "physics" : "gas",
+  "piercing" : true,
+
+  "lightColor" : [255, 180, 0],
+  "damageKind" : "electroshock"
+}

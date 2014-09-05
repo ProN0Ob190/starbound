@@ -1,0 +1,33 @@
+{
+  "objectName" : "floranopenpod1",
+  "rarity" : "Common",
+  "objectType" : "noisy",
+  "category" : "decorative",
+  "price" : 750,
+  "description" : "Some kind of bizarre pod. Looks like it's hatched.",
+  "shortdescription" : "Open Fungal Pod",
+  "race" : "floran",
+
+  "apexDescription" : "What grew in here?",
+  "avianDescription" : "Something seems to have hatched from this pod.",
+  "floranDescription" : "Floran sssniff odd pod. Sssmells familiar. Floran ssscared.",
+  "glitchDescription" : "Analyse. This pod is of Floran origin, and there's nothing inside.",
+  "humanDescription" : "I don't want to meet what crawled out of here.",
+  "hylotlDescription" : "I'm ready for you, foul beast.",
+
+  "inventoryIcon" : "floranopenpod1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "floranopenpod1.png:<color>",
+      "imagePosition" : [-6, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "sounds" : [ "/sfx/blocks/footstep_wetclay.wav" ]
+}

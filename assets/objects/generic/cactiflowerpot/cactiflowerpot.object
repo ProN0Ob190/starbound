@@ -1,0 +1,30 @@
+{
+  "objectName" : "cactiflowerpot",
+  "rarity" : "Common",
+  "description" : "Cactus!",
+  "price" : 300,
+  "shortdescription" : "Decorative Cactus",
+  "race" : "generic",
+  "category" : "decorative",
+
+  "apexDescription" : "A cactus. I don't see the appeal.",
+  "avianDescription" : "A thorny plant.",
+  "floranDescription" : "Good plant. Ssstrong sself defensse.",
+  "glitchDescription" : "Interrogate. The cactus is not an enemy.",
+  "humanDescription" : "A cactus! Easy to grow, easy to look after.",
+  "hylotlDescription" : "A painful-looking plant.",
+
+
+  "inventoryIcon" : "cactiicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "cactiflowerpot.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

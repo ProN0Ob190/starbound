@@ -1,0 +1,25 @@
+{
+  "projectileName" : "swordblank",
+  "frames" : "swordblank.png",
+  "animationCycle" : 0.2,
+  "timeToLive" : 0.001,
+  "frameNumber" : 1,
+  "speed" : 0,
+  "fallSpeed" : 0,
+  "damagePoly" : [ [0, 0], [0, 0], [0, 0], [0, 0] ],
+  "animationLoops" : true,
+  "piercing" : true,
+  "flippable" : true,
+  "universalDamage" : false,
+  "damageKind" : "retro",
+
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "swordshot",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 1,
+      "angleAdjust" : 0
+    }
+  ]
+}

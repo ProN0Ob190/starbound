@@ -1,0 +1,15 @@
+{
+  "modId" : 35,
+  "modName" : "hivegrass",
+  "Description" : "Gross, hivey grass.",
+  "footstepSound" : "/sfx/blocks/footstep_mud.wav",
+  "health" : 0,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "hivegrass.png",
+    "variants" : 5,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

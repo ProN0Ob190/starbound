@@ -1,0 +1,43 @@
+{
+  "objectName" : "apexconsolekeyboard",
+  "rarity" : "Common",
+
+  "category" : "wire",
+  "price" : 600,
+  "description" : "I wonder what all these buttons are for...",
+  "shortdescription" : "Console Keyboard",
+  "race" : "apex",
+
+  "apexDescription" : "An Apex keyboard contains each of the 26 keys in the Apex alphabet.",
+  "avianDescription" : "A device with many buttons, an alien symbol on each one.",
+  "floranDescription" : "SSSssilly yumyum technology.",
+  "glitchDescription" : "Aloofness. Only 26 symbols?",
+  "humanDescription" : "It's not QWERTY.. but I recognise a lot of the letters here.",
+  "hylotlDescription" : "Hylotl lettering flows like water. Apex lettering flows like stone.",
+
+  "inventoryIcon" : "apexconsolekeyboardicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "apexconsolekeyboard.png:<color>.off",
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/switch/switch.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switchtoggle4.animation",
+  "animationParts" : {
+    "switch" : "apexconsolekeyboard.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "outboundNodes" : [ [0, 0] ],
+
+  "onSounds" : [ "/sfx/objects/apexconsole1on.wav" ],
+  "offSounds" : [ "/sfx/objects/apexconsole1off.wav" ]
+}

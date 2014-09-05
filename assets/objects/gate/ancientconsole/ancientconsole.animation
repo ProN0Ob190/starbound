@@ -1,0 +1,102 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "console" : {
+        "default" : "off",
+        "states" : {
+          "off" : {},
+          "on" : {
+            "frames" : 22,
+            "cycle" : 4.4,
+            "mode" : "loop"
+          },
+          "turnon" : {
+            "frames" : 5,
+            "cycle" : 0.16,
+            "mode" : "transition",
+            "transition" : "on"
+          },
+          "turnoff" : {
+            "frames" : 5,
+            "cycle" : 0.16,
+            "mode" : "transition",
+            "transition" : "off"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "bg" : {
+        "properties" : {
+          "centered" : false
+        },
+
+        "partStates" : {
+          "console" : {
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.off"
+              }
+            },
+
+            "on" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.on.<frame>",
+                "fullbright" : true
+              }
+            },
+
+            "turnon" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.turnon.<frame>",
+                "fullbright" : true
+              }
+            },
+
+            "turnoff" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.turnoff.<frame>",
+                "fullbright" : true
+              }
+            }
+          }
+        }
+      },
+      "fg" : {
+        "properties" : {
+          "centered" : false,
+          "zLevel" : 1
+        },
+
+        "partStates" : {
+          "console" : {
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.off"
+              }
+            },
+
+            "on" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.on.<frame>"
+              }
+            },
+
+            "turnon" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.turnon.<frame>"
+              }
+            },
+
+            "turnoff" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.turnoff.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

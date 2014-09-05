@@ -1,0 +1,17 @@
+{
+  "modId" : 50,
+  "modName" : "corefragment",
+  "itemDrop" : "corefragmentore",
+  "Description" : "Core Fragment.",
+  "health" : 10,
+  "harvestLevel" : 3,
+  "breaksWithTile" : true,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "corefragment.png",
+    "variants" : 8,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

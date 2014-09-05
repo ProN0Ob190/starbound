@@ -1,0 +1,22 @@
+{
+  "itemName" : "cornpeckers",
+  "rarity" : "Common",
+  "inventoryIcon" : "cornpeckers.png",
+  "description" : "Beakseed and dried corn makes for a common Avian trail mix.",
+  "shortdescription" : "Corn Peckers",
+  "handPosition" : [0, 12],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 70
+      },
+      {
+        "kind" : "health",
+        "amount" : 10
+      },
+      {
+        "kind" : "energy",
+        "amount" : 10
+      }
+    ] ]
+}

@@ -1,0 +1,31 @@
+{
+  "objectName" : "wreckvat1",
+  "rarity" : "Common",
+  "description" : "A smashed vat, the inside is covered in dried slime... Did something break out?",
+  "shortdescription" : "Wrecked Vat",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 450,
+
+  "apexDescription" : "Did something... break free?",
+  "avianDescription" : "This is ominous.",
+  "floranDescription" : "Ssmash ssmash ssmash... uh oh.",
+  "glitchDescription" : "Scanning. Signs point to a life-form having recently vacated this machine.",
+  "humanDescription" : "Oh god, this reminds me of a film I saw once.",
+  "hylotlDescription" : "There's a sticky green substance on the broken glass...",
+
+  "inventoryIcon" : "wreckvat1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "wreckvat1.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

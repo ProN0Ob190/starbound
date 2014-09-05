@@ -1,0 +1,10 @@
+{
+  "itemName" : "liquidendlesswater",
+  "rarity" : "Rare",
+  "inventoryIcon" : "liquidwatericon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Endless Water",
+  "description" : "Decanter not included.",
+
+  "liquidId" : 2
+}

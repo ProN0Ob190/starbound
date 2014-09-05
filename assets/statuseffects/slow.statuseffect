@@ -1,0 +1,10 @@
+{
+  "kind" : "slow",
+  "duration" : 5,
+  "primitives" : [
+    { "name" : "jumpboost", "percentage" : -30, "mode" : "min" },
+    { "name" : "runboost", "percentage" : -40, "mode" : "min" }
+  ],
+  "effectSources" : [ "slow" ],
+  "mainInterfaceIcon" : "/interface/statuses/slow.png"
+}

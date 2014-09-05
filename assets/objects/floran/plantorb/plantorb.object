@@ -1,0 +1,51 @@
+{
+  "objectName" : "plantorb",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "category" : "storage",
+  "price" : 750,
+  "description" : "A glowing orb. It looks radioactive, but it isn't. That's nice.",
+  "shortdescription" : "Glowing Orb",
+  "race" : "floran",
+  "lightColor" : [120, 179, 89],
+  "apexDescription" : "This plant emits a sickly green glow.",
+  "avianDescription" : "A glowing plant.",
+  "floranDescription" : "No ssstabby, no lightey.",
+  "glitchDescription" : "Admiration. An astonishing natural light source.",
+  "humanDescription" : "I wonder if it would stay lit if I kicked it.",
+  "hylotlDescription" : "Begrudging admiration, I suppose.",
+
+  "state" : {
+    "kind" : "storage",
+    "openSounds" : [ "/sfx/objects/woodenbox_open.wav" ],
+    "closeSounds" : [ "/sfx/objects/woodenbox_close.wav" ],
+    "slotCount" : 16,
+    "uiconfig" : "/interface/chests/chest%slots%.config"
+  },
+
+  "inventoryIcon" : "plantorbicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "plantorb1.png:<color>", "fullbright" : true }, { "image" : "plantorb2.png:<color>" } ],
+      "flipImages" : true,
+      "imagePosition" : [-16, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left"
+    },
+    {
+      "imageLayers" : [ { "image" : "plantorb1.png:<color>", "fullbright" : true }, { "image" : "plantorb2.png:<color>" } ],
+      "imagePosition" : [-16, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/stonedoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/stonedoor_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

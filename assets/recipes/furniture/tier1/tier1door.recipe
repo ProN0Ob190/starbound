@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 4 }
+  ],
+  "output" : { "item" : "tier1door", "count" : 1 },
+  "groups" : [ "craftingtable", "door", "objects", "all" ]
+}

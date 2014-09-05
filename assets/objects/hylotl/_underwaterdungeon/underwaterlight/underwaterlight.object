@@ -1,0 +1,62 @@
+{
+  "objectName" : "underwaterlight",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 350,
+  "lightColor" : [180, 200, 180],
+
+  "shortdescription" : "Waterproof Light",
+  "description" : "A light protected by a glass cage.",
+  "race" : "hylotl",
+
+  "apexDescription" : "A normal lightbulb, protected so it can function underwater.",
+  "avianDescription" : "This light appears to be waterproof so it can work in open water.",
+  "floranDescription" : "Lightbulb.",
+  "glitchDescription" : "Unremarkable. A waterproof light.",
+  "humanDescription" : "It's a light designed to function when exposed to water.",
+  "hylotlDescription" : "It's just a waterproof lightbulb.",
+
+  "inventoryIcon" : "underwaterlighticon.png",
+  "orientations" : [
+    {
+      "image" : "underwaterlightceiling.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+
+    },
+    {
+      "image" : "underwaterlightground.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+    {
+      "image" : "underwaterlightleft.png:<color>",
+      "imagePosition" : [0, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ]
+
+    },
+    {
+      "image" : "underwaterlightright.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ]
+
+    }
+  ]
+}

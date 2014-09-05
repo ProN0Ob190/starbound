@@ -1,0 +1,62 @@
+{
+  "objectName" : "menorah",
+  "rarity" : "Uncommon",
+  "category" : "light",
+  "printable" : false,
+  "price" : 1000,
+
+  "description" : "A warm holiday glow.",
+  "shortdescription" : "Menorah",
+  "race" : "generic",
+
+  "hydrophobic" : true,
+
+  "apexDescription" : "A warm, glowing set of candlesticks.",
+  "avianDescription" : "The warm glow reminds me of Avian temples.",
+  "floranDescription" : "Burny candles! Floran like anyway.",
+  "glitchDescription" : "Statement. A menorah.",
+  "humanDescription" : "A delightful menorah.",
+  "hylotlDescription" : "These candles give off a warm, cheerful glow.",
+
+  "statusEffects" : [
+    {
+      "kind" : "Warmth",
+      "amount" : 10,
+      "range" : 2
+    } ],
+
+  "lightColor" : [204, 189, 173],
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.1,
+
+  "inventoryIcon" : "menorahicon.png",
+  "orientations" : [
+
+    {
+      "image" : "menorah.png:<color>.<frame>",
+      "flipImages" : true,
+      "imagePosition" : [-6, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+      "direction" : "left",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "lightPosition" : [0, 3]
+    },
+    {
+      "image" : "menorah.png:<color>.<frame>",
+      "imagePosition" : [-6, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "lightPosition" : [0, 3]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/oillantern.wav"
+
+}

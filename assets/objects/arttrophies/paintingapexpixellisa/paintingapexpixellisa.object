@@ -1,0 +1,31 @@
+{
+  "objectName" : "paintingapexpixellisa",
+  "rarity" : "Rare",
+  "category" : "decorative",
+  "price" : 2500,
+
+  "description" : "A very famous portrait of a mysterious lady.",
+  "shortdescription" : "Classic Painting",
+  "race" : "apex",
+
+  "apexDescription" : "-todo-",
+  "avianDescription" : "-todo-.",
+  "floranDescription" : "-todo-",
+  "glitchDescription" : "-todo-",
+  "humanDescription" : "-todo-",
+  "hylotlDescription" : "-todo-",
+
+  "inventoryIcon" : "paintingapexpixellisaicon.png",
+  "orientations" : [
+    {
+      "image" : "paintingapexpixellisa.png:<color>",
+      "imagePosition" : [-12, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

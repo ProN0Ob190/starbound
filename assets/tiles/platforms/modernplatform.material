@@ -1,0 +1,21 @@
+{
+  "materialId" : 47,
+  "materialName" : "modernplatform",
+  "platform" : true,
+  "transparent" : true,
+  "itemDrop" : "modernplatform",
+  "shortdescription" : "Modern Platform",
+  "description" : "Made from a modern material, these are smooth to the touch.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.wav",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "modernplatform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multicolored" : true,
+    "zLevel" : 0,
+    "platform" : true
+  }
+}

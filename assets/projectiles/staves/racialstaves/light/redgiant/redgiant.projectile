@@ -1,0 +1,25 @@
+{
+  "projectileName" : "redgiant",
+  "physics" : "hover",
+  "bounces" : -1,
+  "speed" : 25,
+  "timeToLive" : 8,
+  "damageKindImage" : "icon.png",
+  "lightColor" : [255, 85, 10],
+  "pointLight" : true,
+  "piercing" : true, 
+  "frames" : "redgiant.png",
+  "animationCycle" : 0.6,
+  "frameNumber" : 6,
+  "power" : 50,
+  "damagePoly" : [ [-10, 10], [-10, -10], [10, -10], [10, 10] ],
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/lightblockexplosion/lightblockexplosion.config"
+    }
+  ],
+  "damageKind" : "plasma",
+  "emitters" : [ "defaultorange" ]
+}

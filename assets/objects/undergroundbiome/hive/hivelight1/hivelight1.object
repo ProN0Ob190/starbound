@@ -1,0 +1,79 @@
+{
+  "objectName" : "hivelight1",
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "pot",
+  "price" : 400,
+  "description" : "A pulsating, fleshy light. A light made of flesh. A-",
+  "shortdescription" : "hive Light",
+  "race" : "apex",
+
+  "apexDescription" : "This repulsive light gives off a sickly glow.",
+  "avianDescription" : "What a disgusting light.",
+  "floranDescription" : "Floran think light look tasty.",
+  "glitchDescription" : "Repulsion. A vile, fleshy light.",
+  "humanDescription" : "What a gross light.",
+  "hylotlDescription" : "This is unnatural in its naturalness.",
+  "lightColor" : [158, 151, 118],
+
+  "inventoryIcon" : "hivelight1icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "hivelight1.png:<color>.<frame>", "fullbright" : true }, { "image" : "hivelight1lit.png:<color>.<frame>" } ],
+      "flipImages" : true,
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left",
+      "lightPosition" : [-1, 0]
+    },
+    {
+      "imageLayers" : [ { "image" : "hivelight1.png:<color>.<frame>", "fullbright" : true }, { "image" : "hivelight1lit.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+      "lightPosition" : [-1, 0]
+    },
+    {
+      "imageLayers" : [ { "image" : "hivelight1top.png:<color>.<frame>", "fullbright" : true }, { "image" : "hivelight1toplit.png:<color>.<frame>" } ],
+      "flipImages" : true,
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ],
+      "direction" : "left",
+      "lightPosition" : [1, 1]
+    },
+    {
+      "imageLayers" : [ { "image" : "hivelight1top.png:<color>.<frame>", "fullbright" : true }, { "image" : "hivelight1toplit.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ],
+      "direction" : "right",
+      "lightPosition" : [1, 1]
+    },
+    {
+      "imageLayers" : [ { "image" : "hivelight1left.png:<color>.<frame>", "fullbright" : true }, { "image" : "hivelight1leftlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ],
+      "direction" : "left",
+      "lightPosition" : [-1, 1]
+    },
+    {
+      "imageLayers" : [ { "image" : "hivelight1right.png:<color>.<frame>", "fullbright" : true }, { "image" : "hivelight1rightlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ],
+      "direction" : "left",
+      "lightPosition" : [-1, 1]
+    }
+  ],
+  "smashSounds" : [ "/sfx/objects/capsule_break1.wav", "/sfx/objects/capsule_break2.wav", "/sfx/objects/capsule_break3.wav" ],
+  "smashDropOptions" : [
+    [ [ "hive", 1, { } ], [ "hive", 1, { } ], [ "hive", 1, { } ] ]
+  ],
+  "breakDropOptions" : [
+    [ [ "hive", 1, { } ], [ "hive", 1, { } ], [ "hive", 1, { } ] ]
+  ]
+}

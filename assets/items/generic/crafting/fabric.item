@@ -1,0 +1,7 @@
+{
+  "itemName" : "fabric",
+  "rarity" : "common",
+  "inventoryIcon" : "fabric.png",
+  "description" : "A small square of fabric.",
+  "shortdescription" : "Fabric"
+}

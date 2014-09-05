@@ -1,0 +1,43 @@
+{
+  "objectName" : "classicdoor",
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 1000,
+  "description" : "For some reason I almost expect to find some extra powerful creature behind such a door.",
+  "shortdescription" : "Classic Door",
+  "race" : "apex",
+
+  "apexDescription" : "The handle is solid gold and the wood is banana-scented.",
+  "avianDescription" : "Such a door is open to very few.",
+  "floranDescription" : "The ssscent of Apex yellow fruit come from wood.",
+  "glitchDescription" : "Irritation. Sensors suggest a unique odour. Glitch are not capable of experiencing such things.",
+  "humanDescription" : "Does this door... smell of bananas?",
+  "hylotlDescription" : "Scented wood, a practice common in Hylotl craft.",
+
+  "inventoryIcon" : "classicdooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "classicdoor.png:default",
+      "imagePosition" : [-20, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationParts" : {
+    "door" : "classicdoor.png"
+  },
+  "animationPosition" : [-20, 0],
+
+  "inboundNodes" : [ [-1, 4] ],
+  "outboundNodes" : [ [0, 0] ],
+
+  "openSounds" : [ "/sfx/objects/woodendoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/woodendoor_close.wav" ]
+}

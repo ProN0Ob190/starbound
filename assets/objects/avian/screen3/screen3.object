@@ -1,0 +1,53 @@
+{
+  "objectName" : "screen3",
+  "rarity" : "Common",
+  "description" : "A star map! It's a little primitive.",
+  "shortdescription" : "Star Map Screen",
+  "race" : "avian",
+
+  "category" : "decorative",
+  "price" : 500,
+  "lightColor" : [27, 68, 89],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 4,
+
+  "apexDescription" : "A map of the surrounding star system.",
+  "avianDescription" : "Crystal resonance was used to map starsystems.",
+  "floranDescription" : "Thesse are the sssurrounding sstars.",
+  "glitchDescription" : "Recognition. Current starsystem.",
+  "humanDescription" : "A model of this very starsystem.",
+  "hylotlDescription" : "The stars are an ocean of their own.",
+
+  "inventoryIcon" : "screen3icon.png",
+  "orientations" : [
+    {
+      "image" : "screen3.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+	  
+	  "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "screen.animation",
+  "animationParts" : {
+    "bg" : "screen3.png",
+    "fg" : "screen3lit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inboundNodes" : [ [0, 0] ],
+  
+  "interactive" : false,
+  
+  "animationPosition" : [0, 0],
+
+  "soundEffect" : "/sfx/objects/screen3.wav",
+  "soundEffectRadius" : 15
+
+}

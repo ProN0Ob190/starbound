@@ -1,0 +1,7 @@
+{
+  "itemName" : "paper",
+  "rarity" : "Common",
+  "inventoryIcon" : "paper.png",
+  "description" : "It's a sheet of paper.",
+  "shortdescription" : "Paper"
+}

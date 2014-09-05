@@ -1,0 +1,40 @@
+{
+  "objectName" : "bunkerheater1",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 500,
+  "description" : "A space heater!",
+  "shortdescription" : "Space Heater",
+  "race" : "human",
+
+  "hydrophobic" : true,
+
+  "apexDescription" : "A warm, cosy portable heater.",
+  "avianDescription" : "Perfect for warming the feathers.",
+  "floranDescription" : "Nice heat, no fire. Good for Floran.",
+  "glitchDescription" : "Disinterest. A small heater.",
+  "humanDescription" : "A space heater. The name makes it sound futuristic and cool.",
+  "hylotlDescription" : "A clever way to achieve portable warmth.",
+
+  "statusEffects" : [
+    {
+      "kind" : "Warmth",
+      "amount" : 100,
+      "range" : 20
+    } ],
+
+  "inventoryIcon" : "bunkerheater1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bunkerheater1.png:default",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

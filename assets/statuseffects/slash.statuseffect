@@ -1,0 +1,11 @@
+{
+  "kind" : "slash",
+  "tooltipLabel" : "SlashDamage(%)",
+  "tooltipAmountLabel" : "%amount%",
+  "mainInterfaceIcon" : "/interface/statuses/electric.png",
+  "primitives" : [
+    { "name" : "directdamage", "value" : 1 }
+  ],
+  "damageKind" : "slash",
+  "effectSources" : [ ]
+}

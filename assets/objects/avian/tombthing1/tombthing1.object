@@ -1,0 +1,42 @@
+{
+  "objectName" : "tombthing1",
+  "rarity" : "Common",
+  "description" : "A plain Avian stone tomb caked in dust.",
+  "shortdescription" : "Avian Stone Tomb",
+  "race" : "avian",
+  "objectType" : "container",
+  "category" : "storage",
+  "price" : 600,
+
+
+  "apexDescription" : "A tomb without decoration.",
+  "avianDescription" : "A tomb for those who could not afford a sarcophagus.",
+  "floranDescription" : "Floran believe dead sshould return to ssoil.",
+  "glitchDescription" : "Informative. The Glitch harvest the dead for spare parts.",
+  "humanDescription" : "A depressing place to spend eternity.",
+  "hylotlDescription" : "A body deserves better.",
+
+  "inventoryIcon" : "tombthing1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "tombthing1.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/stonedoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/stonedoor_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+
+}

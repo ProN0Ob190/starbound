@@ -1,0 +1,12 @@
+{
+  "itemName" : "treasurehoard",
+  "rarity" : "Rare",
+  "inventoryIcon" : "treasurehoard.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Treasure Hoard Block",
+  "description" : "A block made up of treasure!",
+  "glitchdescription" : "Desiring. I want this.",
+  "florandescription" : "Floran like ssshiny block!",
+
+  "materialId" : 180
+}

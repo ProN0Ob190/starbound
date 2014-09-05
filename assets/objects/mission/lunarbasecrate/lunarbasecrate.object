@@ -1,0 +1,37 @@
+{
+  "objectName" : "lunarbasecrate",
+  "rarity" : "Common",
+  "description" : "A storage crate, typically used for stashing equipment and ores.",
+  "shortdescription" : "Lunar Base Crate",
+  "category" : "storage",
+  "objectType" : "container",
+  "price" : 600,
+  "race" : "human",
+
+  "apexDescription" : "-todo-",
+  "avianDescription" : "-todo-",
+  "floranDescription" : "-todo-",
+  "glitchDescription" : "-todo-",
+  "humanDescription" : "-todo-",
+  "hylotlDescription" : "-todo-",
+
+  "inventoryIcon" : "lunarbasecrateicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "lunarbasecrate.png:<color>",
+
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/metalbox_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/metalbox_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

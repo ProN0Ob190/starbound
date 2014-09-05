@@ -1,0 +1,39 @@
+{
+  "objectName" : "hylotlclassicbookcase",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "objectType" : "container",
+  "price" : 800,
+  "description" : "A masterwork of craftsmanship. Beautiful.",
+  "shortdescription" : "Traditional Bookcase",
+  "race" : "hylotl",
+
+  "apexDescription" : "A number of Hylotl books. I'll, uh, read them later.",
+  "avianDescription" : "There are a lot of books on Hylotl history here.",
+  "floranDescription" : "Frogmen like to read. Floran like to ssstab reading frogmen.",
+  "glitchDescription" : "Critical. Every single book is about how wonderful the Hylotl are. How tedious.",
+  "humanDescription" : "I fell asleep just reading the titles.",
+  "hylotlDescription" : "A bookshelf rich in Hylotl history. Other species flock to our grand libraries.",
+
+  "openSounds" : [ "/sfx/objects/chest_medium_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/chest_medium_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "inventoryIcon" : "hylotlclassicbookcaseicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "hylotlclassicbookcase.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

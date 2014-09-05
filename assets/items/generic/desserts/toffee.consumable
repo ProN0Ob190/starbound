@@ -1,0 +1,19 @@
+{
+  "itemName" : "toffee",
+  "rarity" : "Common",
+  "inventoryIcon" : "toffee.png",
+  "description" : "Toffee! A common ingredient in sweets.",
+  "shortdescription" : "Toffee",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 30
+      },
+      {
+        "kind" : "mollyhealing1"
+      },
+      {
+        "kind" : "sugarrush"
+      }
+    ] ]
+}

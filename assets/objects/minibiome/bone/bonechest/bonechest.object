@@ -1,0 +1,38 @@
+{
+  "objectName" : "bonechest",
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+
+  "category" : "storage",
+  "price" : 700,
+  "description" : "A chest made of bone. Hopefully it's not filled with marrow.",
+  "shortdescription" : "Bone Chest",
+  "race" : "generic",
+
+  "apexDescription" : "This chest seems to be made entirely of bone.",
+  "avianDescription" : "A chest fashioned out of bone.",
+  "floranDescription" : "Floran impressed with chessst. Ssstill break in though.",
+  "glitchDescription" : "Frowning. This chest is carved from a single piece of bone. How big must the creature have been?",
+  "humanDescription" : "I could use this to store all my pentagram jewellery and black candles!",
+  "hylotlDescription" : "Whatever died to make this chest deserved a better ending.",
+
+  "inventoryIcon" : "bonechesticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bonechest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

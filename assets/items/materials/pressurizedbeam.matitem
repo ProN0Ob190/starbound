@@ -1,0 +1,12 @@
+{
+  "itemName" : "pressurizedbeam",
+  "rarity" : "Common",
+  "inventoryIcon" : "pressurizedbeamicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A pressurised beam.",
+  "shortdescription" : "Pressurised Beam",
+  "glitchdescription" : "Statement. A pressurised beam.",
+  "florandescription" : "Beam.",
+
+  "materialId" : 152
+}

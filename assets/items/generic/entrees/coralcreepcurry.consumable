@@ -1,0 +1,20 @@
+{
+  "itemName" : "coralcreepcurry",
+  "rarity" : "Common",
+  "inventoryIcon" : "coralcreepcurry.png",
+  "description" : "A mildly spicy curry made with the coralcreep plant.",
+  "shortdescription" : "Coralcreep Curry",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 100
+      },
+      {
+        "kind" : "mollyhealing3" },
+      {
+        "kind" : "energy",
+        "amount" : 15
+      }
+    ] ]
+}

@@ -1,0 +1,36 @@
+{
+  "objectName" : "trashcan",
+  "rarity" : "Common",
+  "objectType" : "container",
+
+  "category" : "storage",
+  "price" : 150,
+  "description" : "A trash can. What a load of rubbish.",
+  "shortdescription" : "Trash Can",
+  "race" : "glitch",
+
+  "apexDescription" : "A trash can.",
+  "avianDescription" : "A trash can.",
+  "floranDescription" : "Gaaaarbage day!",
+  "glitchDescription" : "Statement. A fellow Glitch... or a trash can.",
+  "humanDescription" : "A trash can.",
+  "hylotlDescription" : "A trash can.",
+
+  "inventoryIcon" : "trashcanicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "trashcan.png:default",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/locker_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/locker_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

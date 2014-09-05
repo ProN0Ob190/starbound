@@ -1,0 +1,19 @@
+{
+  "name" : "fishBreathAttack",
+  "label" : "FISH BREATH",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "fishBreathAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "randomfish",
+      "range" : 15,
+      "arc" : "low",
+      "speed" : 30,
+      "power" : 13,
+      "shots" : 3,
+      "fireInterval" : 0.15,
+      "windupTime" : 0.5
+    }
+  }
+}

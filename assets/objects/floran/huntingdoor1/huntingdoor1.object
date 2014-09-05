@@ -1,0 +1,43 @@
+{
+  "objectName" : "huntingdoor1",
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 1000,
+  "description" : "This door is hardly suitable for keeping the weather out.",
+  "shortdescription" : "Bamboo Door",
+  "race" : "floran",
+
+  "apexDescription" : "Bamboo woven into a door. It's harder than it looks.",
+  "avianDescription" : "The plant used to make this door feels as solid as stone.",
+  "floranDescription" : "Floran grow bamboo extra sstrong. Sstrong as metal and can grow replacement.",
+  "glitchDescription" : "Surprised. This door is built from organic material, but stands as strong as steel.",
+  "humanDescription" : "This door has small gaps in it where the sticks of bamboo meet.",
+  "hylotlDescription" : "The Floran appear to be able to bend nature to their will. No small feat.",
+
+  "inventoryIcon" : "huntingdoor1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "huntingdoor1.png:default",
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationParts" : {
+    "door" : "huntingdoor1.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "inboundNodes" : [ [0, 4] ],
+  "outboundNodes" : [ [0, 0] ],
+
+  "openSounds" : [ "/sfx/objects/woodendoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/woodendoor_close.wav" ]
+}

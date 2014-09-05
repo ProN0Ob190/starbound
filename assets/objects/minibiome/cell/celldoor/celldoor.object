@@ -1,0 +1,45 @@
+{
+  "objectName" : "celldoor",
+  "printable" : false,
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 1500,
+  "description" : "A barrier composed of two coiling bars.",
+  "shortdescription" : "Cell Door",
+  "race" : "generic",
+
+  "apexDescription" : "Certainly not a secure door. If I were thinner I could just squeeze around the side.",
+  "avianDescription" : "It looks a little flimsy.",
+  "floranDescription" : "Ssspinny ssswirly ssstupid door.",
+  "glitchDescription" : "Critical. It looks wonderful, but it's so weak I could snap it in half if I tried.",
+  "humanDescription" : "Looking at this thing makes me kinda dizzy.",
+  "hylotlDescription" : "The door twists as it opens and closes. Very innovative.",
+
+  "inventoryIcon" : "celldooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "celldoor.png:<key>",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationParts" : {
+    "door" : "celldoor.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "inboundNodes" : [ [0, 4] ],
+  "outboundNodes" : [ [0, 0] ],
+
+  "openSounds" : [ "/sfx/objects/fleshdoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/fleshdoor_close.wav" ]
+}

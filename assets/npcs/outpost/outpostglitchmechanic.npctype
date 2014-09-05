@@ -1,0 +1,67 @@
+{
+  "type" : "outpostglitchmechanic",
+  "baseType" : "outpostcivilian",
+
+    "scriptConfig" : {
+        "converse" : {
+            "waitTime" : 0.5,
+            "dialog" : {
+          
+                "default" : [
+                    "Boastful. We Glitch are used to fixing machinery far more complex than the stuff you see here."
+                ],
+            
+                "glitch" : {
+                    "default" : [
+                      "Boastful. We Glitch are used to fixing machinery far more complex than the stuff you see here."
+                    ],
+
+                    "avian" : [
+                      "Boastful. We Glitch are used to fixing machinery far more complex than the stuff you see here."
+                    ],
+
+                    "apex" : [
+                      "Boastful. We Glitch are used to fixing machinery far more complex than the stuff you see here."
+                    ],
+
+                    "floran" : [
+                      "Boastful. We Glitch are used to fixing machinery far more complex than the stuff you see here."
+                    ],
+
+                    "glitch" : [
+                      "Friendly. You should come grab some oil with me later."
+                    ],
+
+                    "human" : [
+                      "Boastful. We Glitch are used to fixing machinery far more complex than the stuff you see here."
+                    ],
+
+                    "hylotl" : [
+                      "Boastful. We Glitch are used to fixing machinery far more complex than the stuff you see here."
+                    ]
+                }
+            }
+        }
+    },
+
+    "items" : {
+        "default" : [
+            [0, [
+                {
+                    "head" : [ { "name" : "humantier5head", "parameters" : { "colorIndex" : 1 } } ],
+                    "chest" : [ { "name" : "peasantchest", "parameters" : { "colorIndex" : 7 } } ],
+                    "legs" : [ { "name" : "apextier5pants", "parameters" : { "colorIndex" : 1 } } ]
+                }
+            ] ]
+        ]
+    },
+
+      "statusParameters" : {
+        "baseMaxHealth" : 40,
+        "baseMaxEnergy" : 40,
+        "bodyMaterialKind" : "organic",
+        "damageConfig" : "/damage/damageresponse/npcs.config",
+        "invulnerabilityTime" : 0,
+        "energyReplenishmentRate" : 100.0
+      }
+}

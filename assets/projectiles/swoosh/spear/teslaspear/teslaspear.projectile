@@ -1,0 +1,23 @@
+{
+  "projectileName" : "teslaspear",
+  "frames" : "teslaspear.png",
+  "animationCycle" : 0.05,
+  "frameNumber" : 3,
+  "speed" : 0,
+  "orientationLocked" : true,
+  "damagePoly" : [ [-40, 5.5], [22.5, 5.5], [22.5, -5.5], [-40, -5.5] ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "damageKind" : "electroshock",
+  "lightColor" : [28, 181, 238],
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "teslabolt",
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 0
+    }
+  ]
+}

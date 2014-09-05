@@ -1,0 +1,6 @@
+{
+  "image" : "arcticunderground.png?brightness=-75",
+  "dividerimage" : "rockdivider.png?brightness=-75",
+  "parallax" : 1.1,
+  "origin" : [0, 395]
+}

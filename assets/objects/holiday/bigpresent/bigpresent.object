@@ -1,0 +1,41 @@
+{
+  "objectName" : "bigpresent",
+
+  "rarity" : "Uncommon",
+  "objectType" : "container",
+  "printable" : false,
+  "category" : "storage",
+  "price" : 300,
+  "description" : "A festive pink box with a bow on top.",
+  "shortdescription" : "Big Present",
+  "race" : "generic",
+
+  "apexDescription" : "It's a big gift box.",
+  "avianDescription" : "A pretty pink gift box.",
+  "floranDescription" : "Box!",
+  "glitchDescription" : "Curiosity. Is there anything inside?",
+  "humanDescription" : "A gift box. It's pretty big!",
+  "hylotlDescription" : "An impeccably wrapped box.",
+
+  "inventoryIcon" : "bigpresenticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bigpresent.png:<color>",
+
+      "imagePosition" : [-12, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/woodenbox_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/woodenbox_close.wav" ],
+  "slotCount" : 9,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

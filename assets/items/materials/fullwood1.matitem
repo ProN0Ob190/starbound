@@ -1,0 +1,11 @@
+{
+  "itemName" : "fullwood1",
+  "rarity" : "Common",
+  "inventoryIcon" : "fullwood1.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Rough and unrefined, this wood looks freshly chopped.",
+  "shortdescription" : "Unrefined Wood",
+  "glitchdescription" : "Statement. Unrefined wood.",
+  "florandescription" : "Unssstabbed wood.",
+  "materialId" : 57
+}

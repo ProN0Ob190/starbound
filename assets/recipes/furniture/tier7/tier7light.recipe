@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "ceruliumcompound", "count" : 1 },
+    { "item" : "torch", "count" : 1 }
+  ],
+  "output" : { "item" : "tier7light", "count" : 1 },
+  "groups" : [ "manipulatortable", "light", "objects", "all" ]
+}

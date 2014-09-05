@@ -1,0 +1,4 @@
+{
+  "kind" : "health",
+  "effectSources" : [ "health" ]
+}

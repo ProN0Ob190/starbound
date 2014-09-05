@@ -1,0 +1,17 @@
+{
+  "itemName" : "greenflashlight",
+  "inventoryIcon" : "greenflashlighticon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "Uncommon",
+  "maxStack" : 1,
+  "description" : "A green flashlight! A mighty glow.",
+  "shortdescription" : "Flashlight",
+  "largeImage" : "greenflashlightlarge.png",
+  "tooltipKind" : "tool",
+  "image" : "greenflashlight.png",
+  "handPosition" : [-2, 0],
+  "lightPosition" : [4, 0],
+  "lightColor" : [0, 255, 0],
+  "beamWidth" : 0.1,
+  "ambientFactor" : 0.5
+}

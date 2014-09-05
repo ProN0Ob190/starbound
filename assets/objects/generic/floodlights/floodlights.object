@@ -1,0 +1,58 @@
+{
+  "objectName" : "floodlights",
+  "rarity" : "Common",
+  "description" : "If I look at these lights any longer, I'll probably go blind.",
+  "shortdescription" : "Floodlights",
+  "race" : "generic",
+
+  "apexDescription" : "Blazingly bright lights.",
+  "avianDescription" : "A light such as this could turn night into day!",
+  "floranDescription" : "Bright light hurt Floran eyess.",
+  "glitchDescription" : "Showoff. Bright lights do not bother Glitch. Glitch eyes can process any amount of light.",
+  "humanDescription" : "Floodlights that live up to their name.",
+  "hylotlDescription" : "The Hylotl use similar lights to illuminate the ocean.",
+
+  "category" : "light",
+  "price" : 600,
+  "lightColor" : [255, 255, 230],
+  "pointLight" : true,
+  "pointBeam" : 0.25,
+
+  "inventoryIcon" : "floodlightsicon.png",
+  "orientations" : [
+    {
+      "image" : "floodlights1.png:<color>.<frame>",
+      "imagePosition" : [-12, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left",
+      "flipImages" : true,
+      "lightPosition" : [1, 2],
+      "pointAngle" : 205
+    },
+    {
+      "image" : "floodlights1.png:<color>.<frame>",
+      "imagePosition" : [-12, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+      "lightPosition" : [-2, 2],
+      "pointAngle" : 335
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "floodlights1.png",
+    "fg" : "floodlights2.png"
+  },
+  "animationPosition" : [-12, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inboundNodes" : [ [0, 3] ],
+
+  "onSounds" : [ "/sfx/objects/floodlights_on.wav" ],
+  "offSounds" : [ "/sfx/objects/floodlights_off.wav" ]
+}

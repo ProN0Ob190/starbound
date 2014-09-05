@@ -1,0 +1,67 @@
+{
+  "type" : "outpostavianexplorer",
+  "baseType" : "outpostcivilian",
+
+    "scriptConfig" : {
+        "converse" : {
+            "waitTime" : 0.5,
+            "dialog" : {
+          
+                "default" : [
+                      "I've learned there's much more to life than flying. There's a whole universe to explore!"
+                ],
+            
+                "avian" : {
+                    "default" : [
+                      "I've learned there's much more to life than flying. There's a whole universe to explore!"
+                    ],
+
+                    "avian" : [
+                      "We Avians should go explore the stars together! There's so many wonderful things to see out there."
+                    ],
+
+                    "apex" : [
+                      "I've learned there's much more to life than flying. There's a whole universe to explore!"
+                    ],
+
+                    "floran" : [
+                      "I've learned there's much more to life than flying. There's a whole universe to explore!"
+                    ],
+
+                    "glitch" : [
+                      "I've learned there's much more to life than flying. There's a whole universe to explore!"
+                    ],
+
+                    "human" : [
+                      "I've learned there's much more to life than flying. There's a whole universe to explore!"
+                    ],
+
+                    "hylotl" : [
+                      "I've learned there's much more to life than flying. There's a whole universe to explore!"
+                    ]
+                }
+            }
+        }
+    },
+
+    "items" : {
+        "default" : [
+            [0, [
+                {
+                    "head" : [ { "name" : "pilothead" } ],
+                    "chest" : [ { "name" : "coolchest", "parameters" : { "colorIndex" : 3 } } ],
+                    "legs" : [ { "name" : "piratelegs", "parameters" : { "colorIndex" : 8 } } ]
+                }
+            ] ]
+        ]
+    },
+
+      "statusParameters" : {
+        "baseMaxHealth" : 40,
+        "baseMaxEnergy" : 40,
+        "bodyMaterialKind" : "organic",
+        "damageConfig" : "/damage/damageresponse/npcs.config",
+        "invulnerabilityTime" : 0,
+        "energyReplenishmentRate" : 100.0
+      }
+}

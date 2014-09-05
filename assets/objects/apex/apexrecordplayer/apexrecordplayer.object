@@ -1,0 +1,35 @@
+{
+  "objectName" : "apexrecordplayer",
+  "rarity" : "Common",
+  "objectType" : "noisy",
+
+  "category" : "decorative",
+  "price" : 2500,
+
+  "description" : "It's churning out sultry tunes from Big Ape's #1 album, 'Jungle Love'.",
+  "shortdescription" : "Standard Record Player",
+  "race" : "apex",
+
+  "apexDescription" : "This record is rumoured to contain subliminal messaging.",
+  "avianDescription" : "This machine emits many high pitched, barely audible sounds.",
+  "floranDescription" : "Floran masters of drum and rhythm, but Apex second best.",
+  "glitchDescription" : "Analysing. Music demonstrates a lack of musical theory. Contains messages.",
+  "humanDescription" : "Is this what passes for music here?",
+  "hylotlDescription" : "The sound of oppression.",
+
+  "inventoryIcon" : "apexrecordplayericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "apexrecordplayer.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "sounds" : [ "/sfx/objects/jungleloveall.ogg" ]
+}

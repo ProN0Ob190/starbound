@@ -1,0 +1,31 @@
+{
+  "objectName" : "prisongraffiti5",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 200,
+
+  "description" : "Graffiti. The writer seems somewhat peeved.",
+  "shortdescription" : "Graffiti",
+  "race" : "human",
+
+  "apexDescription" : "I wonder who this graffiti refers to.",
+  "avianDescription" : "The poor writer.",
+  "floranDescription" : "Floran think this sssay; I'm off, bye.",
+  "glitchDescription" : "Pondering. Perhaps the writer should have been careful what they wished for.",
+  "humanDescription" : "This is like something out of a horror movie.",
+  "hylotlDescription" : "You can never count on anyone in this world.",
+
+  "inventoryIcon" : "prisongraffiti5icon.png",
+  "orientations" : [
+    {
+      "image" : "prisongraffiti5.png:<color>",
+      "imagePosition" : [-32, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

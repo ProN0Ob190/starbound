@@ -1,0 +1,29 @@
+{
+  "projectileName" : "flamebolt",
+  "physics" : "arrow",
+  "frames" : "flamebolt.png",
+  "animationCycle" : 0.25,
+  "lightColor" : [235, 126, 2],
+  "frameNumber" : 3,
+  "emitters" : [ "flames" ],
+  "damageKindImage" : "icon.png",
+  "timeToLive" : 30,
+  "pointLight" : true,
+  "statusEffects" : [
+    {
+      "kind" : "glow",
+      "amount" : 100.0,
+      "color" : "orange",
+      "duration" : 5.0
+    },
+    { "kind" : "testburning" }
+  ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "power" : 5.0,
+  "damageKind" : "default"
+}

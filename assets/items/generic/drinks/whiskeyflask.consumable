@@ -1,0 +1,14 @@
+{
+  "itemName" : "whiskeyflask",
+  "rarity" : "Common",
+  "inventoryIcon" : "whiskeyflask.png",
+  "description" : "A flask of whiskey.",
+  "shortdescription" : "Whiskey Flask",
+  "handPosition" : [0, -4],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 15
+      }
+    ] ]
+}

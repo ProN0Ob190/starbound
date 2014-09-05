@@ -1,0 +1,22 @@
+{
+  "itemName" : "sweettime",
+  "rarity" : "Common",
+  "inventoryIcon" : "sweettime.png",
+  "description" : "A sweet oculemon tart topped with diodia shavings. It's...unconventional.",
+  "shortdescription" : "Sweet Time",
+  "handPosition" : [0, -8],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 100
+      },
+      {
+        "kind" : "mollyhealing3" },
+      {
+        "kind" : "sugarrush" },
+      {
+        "kind" : "electroshock",
+        "amount" : 5
+      }
+    ] ]
+}

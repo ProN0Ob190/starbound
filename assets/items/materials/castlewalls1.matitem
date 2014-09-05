@@ -1,0 +1,12 @@
+{
+  "itemName" : "castlewalls1",
+  "rarity" : "Common",
+  "inventoryIcon" : "castlewalls1.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Strong stone slabs, perfect for building a castle.",
+  "shortdescription" : "Heavy Stone Brick",
+  "glitchdescription" : "Statement. Stone slabs.",
+  "florandescription" : "Ssstone.",
+
+  "materialId" : 122
+}

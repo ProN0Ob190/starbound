@@ -1,0 +1,83 @@
+{
+  "objectName" : "wildsugarcaneseed",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "sugarcane! Good for diabetes.",
+  "shortdescription" : "sugarcane Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "objectItem" : "sugarcaneseed",
+
+  "apexDescription" : "Gnawing on sugarcane is good for Apex teeth, so they say.",
+  "avianDescription" : "Sweet. Can be used to add flavour.",
+  "floranDescription" : "Sssweet ssstick.",
+  "glitchDescription" : "Ponderous. This plant is sharp, and potentially deadly in the right hands.",
+  "humanDescription" : "Sugarcane. Don't eat too much, it's bad for your teeth.",
+  "hylotlDescription" : "Can be used to create sweetener, although why one would want to is beyond the Hylotl.",
+
+  "inventoryIcon" : "sugarcaneseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "sugarcaneseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "sugar",
+            "count" : 1
+          },
+          {
+            "name" : "sugarcaneseed",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "sugar",
+            "count" : 1
+          },
+          {
+            "name" : "plantfibre",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "sugar",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [300, 420],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [300, 420],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

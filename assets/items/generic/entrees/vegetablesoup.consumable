@@ -1,0 +1,20 @@
+{
+  "itemName" : "vegetablesoup",
+  "rarity" : "Common",
+  "inventoryIcon" : "vegetablesoup.png",
+  "description" : "A hearty, healthy veggie soup.",
+  "shortdescription" : "Veggie Soup",
+  "handPosition" : [0, 8],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 100
+      },
+      {
+        "kind" : "mollyhealing3" },
+      {
+        "kind" : "energy",
+        "amount" : 15
+      }
+    ] ]
+}

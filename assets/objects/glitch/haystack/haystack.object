@@ -1,0 +1,31 @@
+{
+  "objectName" : "haystack",
+  "rarity" : "Common",
+  "description" : "Hay is for horses! ... Where are the horses?",
+  "shortdescription" : "Hay Stack",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 400,
+
+  "apexDescription" : "A bale of hay. What do the Glitch do with these?",
+  "avianDescription" : "Hay made into a cube.",
+  "floranDescription" : "Floran could make big cassstle from big hay building block.",
+  "glitchDescription" : "Observation. Hay made into bales for storage.",
+  "humanDescription" : "I believe these are called bales of hay.",
+  "hylotlDescription" : "A dried surface plant, made into a cube.",
+
+  "inventoryIcon" : "haystackicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "haystack.png:<color>",
+
+      "imagePosition" : [-8, -0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "objectName" : "opensign",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 800,
+  "lightColor" : [175, 65, 230],
+
+  "description" : "A neon 'open' sign.",
+  "shortdescription" : "Open Sign",
+  "race" : "hylotl",
+
+  "apexDescription" : "A bright neon 'open' sign.",
+  "avianDescription" : "An 'open' sign.",
+  "floranDescription" : "Place is open?",
+  "glitchDescription" : "Unremarkable. An 'open' sign.",
+  "humanDescription" : "A neon 'open' sign.",
+  "hylotlDescription" : "A sign indicating whether or not this place is open.",
+
+  "inventoryIcon" : "opensignicon.png",
+  "orientations" : [
+    {
+      "image" : "opensign.png:<color>.<frame>",
+      "imagePosition" : [-16, -8],
+      "frames" : 2,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

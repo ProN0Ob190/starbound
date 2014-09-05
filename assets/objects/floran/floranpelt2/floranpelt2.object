@@ -1,0 +1,31 @@
+{
+  "objectName" : "floranpelt2",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 600,
+
+  "description" : "This pelt serves as a Floran hunter's trophy. Shiny!",
+  "shortdescription" : "Black Fur Pelt",
+  "race" : "floran",
+
+  "apexDescription" : "A smaller pelt, perhaps decoration or a trophy.",
+  "avianDescription" : "The reminder of some hunt I would assume.",
+  "floranDescription" : "Floran ssshow other Floran hunt trophy. Earn ressspect.",
+  "glitchDescription" : "Tactile. The fur is soft. The Floran must carefully skin their conquests.",
+  "humanDescription" : "Poor animal.",
+  "hylotlDescription" : "Floran brutality.",
+
+  "inventoryIcon" : "floranpelt2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "floranpelt2.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

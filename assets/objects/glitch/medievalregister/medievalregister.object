@@ -1,0 +1,36 @@
+{
+  "objectName" : "medievalregister",
+  "rarity" : "Common",
+  "objectType" : "container",
+
+  "category" : "decorative",
+  "price" : 300,
+  "description" : "Ka-ching!",
+  "shortdescription" : "Cash Register",
+  "race" : "glitch",
+
+  "apexDescription" : "A cute little cash register.",
+  "avianDescription" : "There are numbers on this little device.",
+  "floranDescription" : "Little machine confusse Floran.",
+  "glitchDescription" : "Confused. The Glitch do not have a currency. Have the Glitch started to accept pixels?",
+  "humanDescription" : "An old-fashioned cash register.",
+  "hylotlDescription" : "A machine for counting and storing something.",
+
+  "inventoryIcon" : "medievalregistericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "medievalregister.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

@@ -1,0 +1,20 @@
+{
+  "itemName" : "stuffeddirturchin",
+  "rarity" : "Common",
+  "inventoryIcon" : "stuffeddirturchin.png",
+  "description" : "A dirturchin stuffed with pearlpeas. The taste is kind of bland...",
+  "shortdescription" : "Stuffed Dirturchin",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 85
+      },
+      {
+        "kind" : "mollyhealing2" },
+      {
+        "kind" : "energy",
+        "amount" : 10
+      }
+    ] ]
+}

@@ -1,0 +1,33 @@
+{
+  "objectName" : "arcadeorange",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 2000,
+  "lightColor" : [150, 215, 235],
+
+  "description" : "This machine runs a game called 'Sleazy Burger Heroes'.",
+  "shortdescription" : "Orange Arcade Machine",
+  "race" : "hylotl",
+
+  "apexDescription" : "Sleazy Burger Heroes is a game about flipping burgers. Yawn.",
+  "avianDescription" : "I think Sleazy Burger Heroes is all about honing your reflexes.",
+  "floranDescription" : "Game about flipping meat. Makesss Floran hungry.",
+  "glitchDescription" : "Entertained. Something about the tedious task of flipping burgers in order to achieve a higher score is quite addictive. 8.5/10 for Sleazy Burger Heroes.",
+  "humanDescription" : "Sleazy Burger Heroes. A game about flipping burgers, really? Nothing else?",
+  "hylotlDescription" : "Sleazy Burger Heroes is a good game for keeping young children busy and entertained.",
+
+  "inventoryIcon" : "arcadeorangeicon.png",
+  "orientations" : [
+    {
+      "leftImage" : "arcadeorangeleft.png:<color>.<frame>",
+      "rightImage" : "arcadeorangeright.png:<color>.<frame>",
+      "imagePosition" : [-12, 0],
+      "frames" : 2,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "itemName" : "humanplasmastaff1",
+  "inventoryIcon" : "humanplasmastaff1.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+
+  "description" : "Channels the energy of human spirit.",
+  "shortdescription" : "Plasma Pulse Staff",
+
+  "image" : "humanplasmastaff1.png",
+
+  "handPosition" : [-1.5, -7],
+  "firePosition" : [5, 1.5],
+
+  "fireTime" : 0.2,
+  "windupTime" : 0.8,
+  "cooldown" : 0.3,
+  "twoHanded" : true,
+  "fireOnRelease" : true,
+
+  "swingStart" : 10,
+  "swingFinish" : 0,
+  "coolingDownAngle" : 0,
+
+  "projectileType" : "plasmapulse",
+  "projectile" : {
+    "speed" : 70.0,
+    "power" : 25,
+    "color" : [255, 10, 10]
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [
+      { "file" : "/sfx/gun/rocket_shot.wav" },
+      { "file" : "/sfx/gun/rocket_fly.wav" }
+    ]
+  },
+
+  "level1ChargeTime" : 0.5,
+  "level2ChargeTime" : 0.8,
+
+  "staffChargingGlow" : {
+    "file" : "plasmastaffglow.png",
+    "chargingFrames" : 13,
+    "sparkFrames" : 3,
+    "loopFrames" : 4,
+    "fireFrames" : 3,
+    "sparkTime" : 0.5,
+    "loopTime" : 0.5,
+    "offset" : [ 0, 6 ]
+  }
+}

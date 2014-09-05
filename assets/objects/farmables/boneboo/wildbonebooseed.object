@@ -1,0 +1,83 @@
+{
+  "objectName" : "wildbonebooseed",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Boneboo, a good source of calcium.",
+  "shortdescription" : "Boneboo Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "objectItem" : "bone",
+
+  "apexDescription" : "A particularly unusual plant. Crunchy and bony.",
+  "avianDescription" : "Boneboos are not to Avian tastes.",
+  "floranDescription" : "Crunchy, chewy, flessshy foodsss.",
+  "glitchDescription" : "Disinterested. This plant apparently looks like internal anatomy. The Glitch have no such parts.",
+  "humanDescription" : "This plant might not be suitable for vegetarians.",
+  "hylotlDescription" : "Many vegetarian Hylotl meals are made with the boneboo plant.",
+
+  "inventoryIcon" : "bonebooseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bonebooseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "boneboo",
+            "count" : 1
+          },
+          {
+            "name" : "bonebooseed",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "boneboo",
+            "count" : 1
+          },
+          {
+            "name" : "plantfibre",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "boneboo",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [1380, 1500],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [1380, 1500],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

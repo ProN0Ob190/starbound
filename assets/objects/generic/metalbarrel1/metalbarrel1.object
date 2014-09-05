@@ -1,0 +1,33 @@
+{
+  "objectName" : "metalbarrel1",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 300,
+  "description" : "A generic metal barrel. It's sealed.",
+  "shortdescription" : "Metal Barrel",
+  "race" : "generic",
+
+  "apexDescription" : "A metal barrel. It's sealed.",
+  "avianDescription" : "Metal container. I can't get into it.",
+  "floranDescription" : "Round metal cube. No door.",
+  "glitchDescription" : "Pointless. A metal barrel I can't open.",
+  "humanDescription" : "A metal drum. I can't get inside.",
+  "hylotlDescription" : "Metal container. It's closed.",
+
+  "inventoryIcon" : "metalbarrel1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "metalbarrel1.png:<color>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+
+}

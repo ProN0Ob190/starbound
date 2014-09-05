@@ -1,0 +1,43 @@
+{
+  "objectName" : "tribaldoor",
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 900,
+  "description" : "A beautifully carved Avian door.",
+  "shortdescription" : "Avian Door",
+  "race" : "avian",
+
+  "apexDescription" : "A bird above a round-faced creature.",
+  "avianDescription" : "The images on this door extend friendship to those from other worlds. My home is your home.",
+  "floranDescription" : "Bird lay egg with faccce.",
+  "glitchDescription" : "Deduction. This door symbolises who may and may not enter.",
+  "humanDescription" : "That's a spooky face on the bottom.",
+  "hylotlDescription" : "What creature is this depicted here?",
+
+  "inventoryIcon" : "tribaldooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "tribaldoor.png:default",
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationParts" : {
+    "door" : "tribaldoor.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "inboundNodes" : [ [0, 4] ],
+  "outboundNodes" : [ [0, 0] ],
+
+  "openSounds" : [ "/sfx/objects/woodendoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/woodendoor_close.wav" ]
+}

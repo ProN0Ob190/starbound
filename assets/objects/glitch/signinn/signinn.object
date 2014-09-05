@@ -1,0 +1,49 @@
+{
+  "objectName" : "signinn",
+  "rarity" : "Common",
+  "description" : "A sign advertising a place to rest my head.",
+  "shortdescription" : "Inn Sign",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 300,
+
+  "apexDescription" : "A wooden sign. Looks like it belongs to an inn.",
+  "avianDescription" : "A wooden sign. It says 'Inn'.",
+  "floranDescription" : "Drink ssshop nearby?",
+  "glitchDescription" : "Identify. A sign that marks a Glitch inn.",
+  "humanDescription" : "Looks like a sign that sits outside an inn.",
+  "hylotlDescription" : "This sign suggests an inn.",
+
+  "inventoryIcon" : "signinnicon.png",
+  "orientations" : [
+    {
+      "image" : "signinn.png:<color>",
+
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaces" : [ [-1, 0], [0, 0], [1, 0], [-1, -1], [0, -1], [1, -1] ],
+      "fgAnchors" : [ [-2, 0], [2, 0] ]
+    },
+    {
+      "image" : "signinnleft.png:<color>",
+
+      "imagePosition" : [0, -8],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaces" : [ [0, 0], [1, 0], [2, 0], [0, -1], [1, -1], [2, -1] ],
+      "fgAnchors" : [ [-1, 0] ]
+    },
+    {
+      "image" : "signinnright.png:<color>",
+      "imagePosition" : [-16, -8],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+
+      "spaces" : [ [-2, 0], [-1, 0], [0, 0], [-2, -1], [-1, -1], [0, -1] ],
+      "fgAnchors" : [ [1, 0] ]
+    }
+  ]
+}

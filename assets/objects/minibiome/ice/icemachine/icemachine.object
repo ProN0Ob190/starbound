@@ -1,0 +1,33 @@
+{
+  "objectName" : "icemachine",
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "An ice dispenser made of ice. That's ice ice, baby.",
+  "shortdescription" : "Ice Machine",
+  "race" : "generic",
+  "category" : "wire",
+  "price" : 500,
+
+  "apexDescription" : "An ice machine in more ways than one.",
+  "avianDescription" : "The ice keeps the other ice cold. Smart.",
+  "floranDescription" : "Floran climb in ice box, ssshiver, climb out.",
+  "glitchDescription" : "Counting. There are exactly six thousand, four hundred and eighty four ice cubes in this ice dispenser.",
+  "humanDescription" : "An ice dispenser, one of humanity's greatest inventions.",
+  "hylotlDescription" : "A box for ice, made of ice. Interesting.",
+
+  "inventoryIcon" : "icemachineicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "icemachine.png:<color>",
+
+      "imagePosition" : [-20, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

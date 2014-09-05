@@ -1,0 +1,34 @@
+{
+  "objectName" : "apexpiano",
+  "rarity" : "Common",
+  "objectType" : "noisy",
+  "category" : "decorative",
+  "price" : 2000,
+  "description" : "There's some sheet music here.",
+  "shortdescription" : "Standard Issue Piano",
+  "race" : "apex",
+
+  "apexDescription" : "All Apex must learn to play. However, only permitted music can be performed. There's a microphone hidden in every piano.",
+  "avianDescription" : "The buttons produce pleasant sounds.",
+  "floranDescription" : "Floran make music from skin and bone, master of drum. Not ssssilly sound machine.",
+  "glitchDescription" : "Discovery. The mathematics behind this machine are relatively simple.",
+  "humanDescription" : "A piano... I can play Chopsticks.",
+  "hylotlDescription" : "Ah music. It has the power to light up even our darkest hours.",
+
+  "inventoryIcon" : "apexpianoicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "apexpiano.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "sounds" : [ "/sfx/objects/piano_riff1.wav", "/sfx/objects/piano_riff2.wav", "/sfx/objects/piano_riff3.wav", "/sfx/objects/piano_riff4.wav", "/sfx/objects/piano_riff5.wav" ]
+}

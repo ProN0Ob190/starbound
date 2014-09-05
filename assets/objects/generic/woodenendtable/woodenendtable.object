@@ -1,0 +1,40 @@
+{
+  "objectName" : "woodenendtable",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "description" : "A cute wooden endtable.",
+  "shortdescription" : "Wooden Endtable",
+  "race" : "generic",
+  "category" : "storage",
+  "price" : 500,
+
+  "apexDescription" : "A small end table.",
+  "avianDescription" : "A small amount of storage.",
+  "floranDescription" : "Sssmall drawers.",
+  "glitchDescription" : "Deduction. A piece of furniture that might sit next to a bed.",
+  "humanDescription" : "A wooden end table with a couple of drawers.",
+  "hylotlDescription" : "A table built to sit beside a sleeping area, perhaps?",
+
+  "inventoryIcon" : "woodenendtableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "woodenendtable.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/woodenbox_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/woodenbox_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

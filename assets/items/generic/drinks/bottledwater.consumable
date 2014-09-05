@@ -1,0 +1,13 @@
+{
+  "itemName" : "bottledwater",
+  "rarity" : "Common",
+  "inventoryIcon" : "bottledwater.png",
+  "description" : "Fresh, clean water.",
+  "shortdescription" : "Bottled Water",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 15
+      }
+    ] ]
+}

@@ -1,0 +1,43 @@
+{
+  "objectName" : "bardoor2",
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 1200,
+  "description" : "This heavy iron portcullis closes with a thud.",
+  "shortdescription" : "Portcullis",
+  "race" : "avian",
+
+  "apexDescription" : "It looks like this iron door opens upwards",
+  "avianDescription" : "Avians use these to protect their sacred tombs. They believe desecration of a tomb can pluck its inhabitants from the afterlife.",
+  "floranDescription" : "Door iss heavy, sharp metal sspikes make door.",
+  "glitchDescription" : "Smug. The Glitch create their portcullis at a much larger scale.",
+  "humanDescription" : "I'd hate to get stuck under this as it closes.",
+  "hylotlDescription" : "Solid iron. Function over form.",
+
+  "inventoryIcon" : "bardoor2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bardoor2.png:<key>",
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationParts" : {
+    "door" : "bardoor2.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "inboundNodes" : [ [0, 4] ],
+  "outboundNodes" : [ [0, 0] ],
+
+  "openSounds" : [ "/sfx/objects/bardoor2_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/bardoor2_close.wav" ]
+}

@@ -1,0 +1,40 @@
+{
+  "objectName" : "bunkerbookcase",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "description" : "There's a book in here titled, 'How to Travel Backwards in Time for Dummies'.",
+  "shortdescription" : "Metal Bookcase",
+  "race" : "human",
+  "category" : "decorative",
+  "price" : 750,
+
+  "apexDescription" : "A bookcase, filled with interesting books. The Miniknog would burn all of these.",
+  "avianDescription" : "A lot of scientific books. There doesn't seem to be many religious texts.",
+  "floranDescription" : "Floran like booksss with picturesss. Punch himmm.",
+  "glitchDescription" : "Identify. Some of these books are hundreds of years old. They may fall apart at the slightest touch.",
+  "humanDescription" : "A bunch of familiar books. There's even a copy of War and Peace. Naturally, it's never been read.",
+  "hylotlDescription" : "Tomes rich with human history. This one chronicles the life of a man who dressed like a bat and fought crime.",
+
+  "inventoryIcon" : "bunkerbookcaseicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bunkerbookcase.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/bookcase_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/bookcase_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

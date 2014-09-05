@@ -1,0 +1,80 @@
+{
+  "name" : "toxicplains",
+  "friendlyName" : "Toxic Plains",
+  "spawnProfiles" : [ "surfacemix1", "surfacemix2", "surfacemix3" ],
+
+  "surfaceParameters" : {
+    "mainBlock" : "dirt",
+    "subBlocks" : [ "rock02" ],
+    "ores" : "surfaceOres",
+
+    "statusParameters" : {
+      "temperatureBounds" : [50, 60],
+      "dayNightTemperatureVariability" : 70,
+      "temperatureVariability" : 5
+    },
+
+    "surfacePlaceables" : {
+      "grassMod" : [ "junglegrass" ],
+      "grassModDensity" : 0.9,
+
+      "items" : [
+        {
+          "mode" : "floor",
+          "priority" : 3.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+          "type" : "grass",
+          "grasses" : [ "toxicplains" ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 0.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:minibiomeChests",
+
+          "type" : "treasureBox",
+          "treasureBoxSets" : [ "toxicChest" ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+          "type" : "object",
+          "objectSets" : [
+            {
+              "pool" : [ [1, "wildtoxictopseed" ] ],
+              "parameters" : { "startingStage" : 2 }
+            }
+          ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:denseLarge",
+
+          "type" : "tree",
+          "treeFoliageHueShiftMax" : 0,
+          "treeStemHueShiftMax" : 15,
+          "treeStemList" : [ "grasstree" ],
+          "treeFoliageList" : [ "bluebell" ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:denseLarge",
+
+          "type" : "microdungeon",
+          "microdungeons" : [ "toxicplains" ]
+        }
+      ]
+    }
+  }
+}
+
+

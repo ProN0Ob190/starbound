@@ -1,0 +1,21 @@
+{
+  "materialId" : 125,
+  "materialName" : "stoneplatform",
+  "platform" : true,
+  "transparent" : true,
+  "itemDrop" : "stoneplatform",
+  "shortdescription" : "Stone Platform",
+  "description" : "A natural stone platform.",
+  "footstepSound" : "/sfx/blocks/footstep_stone.wav",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "stoneplatform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multicolored" : false,
+    "zLevel" : 0,
+    "platform" : true
+  }
+}

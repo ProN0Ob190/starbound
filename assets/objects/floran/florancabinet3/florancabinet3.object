@@ -1,0 +1,45 @@
+{
+  "objectName" : "florancabinet3",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "category" : "storage",
+  "price" : 1200,
+  "description" : "The cabinet made of leather stretched between four large bones.",
+  "shortdescription" : "Huge Primitive Cabinet",
+  "race" : "floran",
+
+  "apexDescription" : "A cabinet made of leather?",
+  "avianDescription" : "This cabinet is made of stretched leather. It flexes when pressure is applied.",
+  "floranDescription" : "Floran leather cabinet. Cabinet ssstretch when full.",
+  "glitchDescription" : "Influenced. An innovative design.",
+  "humanDescription" : "The cupboard itself is made of leather. A cool idea.",
+  "hylotlDescription" : "Innovative design spoiled by butchery.",
+
+  "state" : {
+    "kind" : "storage",
+    "openSounds" : [ "/sfx/objects/woodenbox_open.wav" ],
+    "closeSounds" : [ "/sfx/objects/woodenbox_close.wav" ],
+    "slotCount" : 16,
+    "uiconfig" : "/interface/chests/chest%slots%.config"
+  },
+
+  "inventoryIcon" : "florancabinet3icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "florancabinet3.png:<color>",
+      "imagePosition" : [-32, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_medium_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/chest_medium_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

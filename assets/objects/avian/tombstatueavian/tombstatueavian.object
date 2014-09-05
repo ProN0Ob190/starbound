@@ -1,0 +1,31 @@
+{
+  "objectName" : "tombstatueavian",
+  "rarity" : "Common",
+  "description" : "A statue of a great Avian hero.",
+  "shortdescription" : "Avian Hero Statue",
+  "race" : "avian",
+  "category" : "decorative",
+  "price" : 1500,
+
+  "apexDescription" : "To mark the grave of an Avian warrior, perhaps.",
+  "avianDescription" : "An Avian guardian that gave his life defending a temple.",
+  "floranDescription" : "Ssso many dead birdmen. What a wassste.",
+  "glitchDescription" : "Observation. This Avian has wings. They don't look real.",
+  "humanDescription" : "An Avian warrior. He looks fearsome.",
+  "hylotlDescription" : "Perhaps this Avian warrior died with glory.",
+
+  "inventoryIcon" : "tombstatueavianicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "tombstatueavian.png:<color>",
+
+      "imagePosition" : [-12, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

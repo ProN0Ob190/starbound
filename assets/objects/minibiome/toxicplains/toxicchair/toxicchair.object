@@ -1,0 +1,37 @@
+{
+  "objectName" : "toxicchair",
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A chair made of vines. Those spikes look poisonous.",
+  "shortdescription" : "Toxic Chair",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 800,
+
+  "apexDescription" : "This chair has an uncomfortably squidgy feel.",
+  "avianDescription" : "Sitting here makes my feathers prickle.",
+  "floranDescription" : "Chair remind Floran of home. Floran sssit.",
+  "glitchDescription" : "Detection. The thorns on this chair are poisonous to at least forty three different species.",
+  "humanDescription" : "That which we call a chair by any other name would- ow. It's spiky.",
+  "hylotlDescription" : "A wondrous manipulation of nature. Also, quite spiky.",
+
+  "inventoryIcon" : "toxicchairicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "toxicchair.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 22]
+
+}

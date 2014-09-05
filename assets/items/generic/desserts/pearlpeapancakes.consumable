@@ -1,0 +1,17 @@
+{
+  "itemName" : "pearlpeapancakes",
+  "rarity" : "Common",
+  "inventoryIcon" : "pearlpeapancakes.png",
+  "description" : "They look like pancakes, but they've got an aftertaste of mushy peas.",
+  "shortdescription" : "Pearlpea Pancakes",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 100
+      },
+      {
+        "kind" : "mollyhealing3" },
+      {
+        "kind" : "sugarrush" }
+    ] ]
+}

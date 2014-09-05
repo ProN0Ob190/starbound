@@ -1,0 +1,19 @@
+{
+  "itemName" : "cannedfood",
+  "rarity" : "Common",
+  "inventoryIcon" : "cannedfood.png",
+  "description" : "Canned food. Not the best, but it'll do in a pinch.",
+  "shortdescription" : "Canned Food",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 100
+      },
+      {
+        "kind" : "mollyhealing1" },
+      {
+        "kind" : "energy",
+        "amount" : 10
+      }
+    ] ]
+}

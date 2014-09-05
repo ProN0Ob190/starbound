@@ -1,0 +1,44 @@
+{
+  "objectName" : "irondoor",
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 1000,
+  "description" : "A door of crossed blades. It looks like they can be withdrawn.",
+  "shortdescription" : "Iron Door",
+  "race" : "generic",
+
+  "apexDescription" : "A menacing iron door.",
+  "avianDescription" : "This door looks designed to keep something out... or in.",
+  "floranDescription" : "Floran like ssstabby door. Floran ssslam door on fish.",
+  "glitchDescription" : "Statement. This door appears to be of Glitch origin.",
+  "humanDescription" : "This reminds me of my days exploring old castles.",
+  "hylotlDescription" : "What barbarians would make a door out of blades?",
+  "novakidDescription" : "This spiky door ain't nothin' for the likes of me.",
+
+  "inventoryIcon" : "irondooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "irondoor.png:default",
+      "imagePosition" : [-16, -32],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationParts" : {
+    "door" : "irondoor.png"
+  },
+  "animationPosition" : [-16, -32],
+
+  "inboundNodes" : [ [0, 0] ],
+  "outboundNodes" : [ [0, -4] ],
+
+  "openSounds" : [ "/sfx/objects/bardoor2_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/bardoor2_close.wav" ]
+}

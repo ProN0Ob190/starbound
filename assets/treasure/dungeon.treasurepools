@@ -1,0 +1,303 @@
+{
+
+  "aviantempletreasure" : [
+    [1, {
+        "pool" : [
+          [0.02, [ "money", 85] ],
+          [0.15, [ "money", 15] ],
+          [0.12, [ "money", 3] ],
+          [0.08, [ "money", 1] ],
+          [0.05, [ "grapes", 2] ],
+          [0.05, [ "banana", 2] ],
+          [0.05, [ "kiwi", 2] ],
+          [0.05, [ "grapes", 2] ],
+          [0.05, [ "pineapple", 3] ],
+          [0.05, [ "burger", 1] ],
+          [0.03, [ "redstim", 1] ],
+          [0.03, [ "bluestim", 1] ],
+          [0.02, [ "yellowstim", 1] ]
+        ],
+        "poolRounds" : [
+          [0.20, 0],
+          [0.80, 1]
+
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+  "aviantombtreasure" : [
+    [1, {
+        "pool" : [
+          [0.02, [ "money", 85] ],
+          [0.15, [ "money", 15] ],
+          [0.12, [ "money", 3] ],
+          [0.08, [ "money", 1] ],
+          [0.05, [ "grapes", 2] ],
+          [0.05, [ "banana", 2] ],
+          [0.05, [ "kiwi", 2] ],
+          [0.05, [ "grapes", 2] ],
+          [0.05, [ "pineapple", 3] ],
+          [0.05, [ "burger", 1] ],
+          [0.03, [ "redstim", 1] ],
+          [0.03, [ "bluestim", 1] ],
+          [0.02, [ "yellowstim", 1] ]
+        ],
+        "poolRounds" : [
+          [0.20, 0],
+          [0.80, 1]
+
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+  "apextreasure" : [
+    [1, {
+        "pool" : [
+          [0.15, [ "money", 15] ],
+          [0.12, [ "money", 3] ],
+          [0.08, [ "money", 1] ],
+          [0.05, [ "grapes", 2] ],
+          [0.05, [ "banana", 2] ],
+          [0.05, [ "kiwi", 2] ],
+          [0.05, [ "grapes", 2] ],
+          [0.05, [ "pineapple", 3] ],
+          [0.05, [ "burger", 1] ],
+          [0.03, [ "redstim", 1] ],
+          [0.03, [ "bluestim", 1] ],
+          [0.02, [ "yellowstim", 1] ]
+        ],
+        "poolRounds" : [
+          [0.20, 3],
+          [0.60, 4],
+          [0.20, 5]
+
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+  "floranhelltreasure" : [
+    [1, {
+        "pool" : [
+          [0.02, [ "money", 85] ],
+          [0.15, [ "money", 15] ],
+          [0.12, [ "money", 3] ],
+          [0.08, [ "money", 1] ],
+          [0.05, [ "grapes", 2] ],
+          [0.05, [ "banana", 2] ],
+          [0.05, [ "kiwi", 2] ],
+          [0.05, [ "grapes", 2] ],
+          [0.05, [ "pineapple", 3] ],
+          [0.05, [ "burger", 1] ],
+          [0.03, [ "redstim", 1] ],
+          [0.03, [ "bluestim", 1] ],
+          [0.02, [ "yellowstim", 1] ]
+        ],
+        "poolRounds" : [
+          [0.20, 0],
+          [0.80, 1]
+
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+  "floranhuntingtreasure" : [
+    [1, {
+        "pool" : [
+          [0.02, [ "money", 85] ],
+          [0.15, [ "money", 15] ],
+          [0.12, [ "money", 3] ],
+          [0.08, [ "money", 1] ],
+          [0.05, [ "grapes", 2] ],
+          [0.05, [ "banana", 2] ],
+          [0.05, [ "kiwi", 2] ],
+          [0.05, [ "grapes", 2] ],
+          [0.05, [ "pineapple", 3] ],
+          [0.05, [ "burger", 1] ],
+          [0.03, [ "redstim", 1] ],
+          [0.03, [ "bluestim", 1] ],
+          [0.02, [ "yellowstim", 1] ]
+        ],
+        "poolRounds" : [
+          [0.20, 0],
+          [0.80, 1]
+
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+  "glitchsewertreasure" : [
+    [1, {
+        "pool" : [
+          [0.02, [ "money", 85] ],
+          [0.15, [ "money", 15] ],
+          [0.12, [ "money", 3] ],
+          [0.08, [ "money", 1] ],
+          [0.05, [ "grapes", 2] ],
+          [0.05, [ "banana", 2] ],
+          [0.05, [ "kiwi", 2] ],
+          [0.05, [ "grapes", 2] ],
+          [0.05, [ "pineapple", 3] ],
+          [0.05, [ "burger", 1] ],
+          [0.03, [ "redstim", 1] ],
+          [0.03, [ "bluestim", 1] ],
+          [0.02, [ "yellowstim", 1] ]
+        ],
+        "poolRounds" : [
+          [0.20, 0],
+          [0.80, 1]
+
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+  "humanbunkertreasure" : [
+    [1, {
+        "pool" : [
+          [0.02, [ "money", 85] ],
+          [0.20, [ "money", 40] ],
+          [0.15, [ "money", 15] ],
+          [0.12, [ "money", 3] ],
+          [0.08, [ "money", 1] ],
+          [0.05, [ "grapes", 2] ],
+          [0.05, [ "banana", 2] ],
+          [0.05, [ "kiwi", 2] ],
+          [0.05, [ "grapes", 2] ],
+          [0.05, [ "pineapple", 3] ],
+          [0.05, [ "burger", 1] ],
+          [0.03, [ "redstim", 1] ],
+          [0.03, [ "bluestim", 1] ],
+          [0.02, [ "yellowstim", 1] ],
+          [0.02, [ "handgrenade", 4] ],
+          [0.00010, [ "generatedgun", 1, { "definition" : "revolver" } ] ],
+          [0.00010, [ "generatedgun", 1, { "definition" : "flamethrower" } ] ],
+          [0.0002, [ "generatedsword", 1, { "definition" : "fryingpan" } ] ]
+        ],
+        "poolRounds" : [
+          [0.20, 3],
+          [0.60, 4],
+          [0.20, 6]
+
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+  "naturalcaveTreasure" : [
+    [1, {
+        "pool" : [
+          [0.4, [ "money", 1] ],
+          [0.03, [ "rope", 1] ],
+          [0.04, [ "bomb", 1] ],
+          [0.02, "flashlight" ],
+          [0.005, "redflashlight" ],
+          [0.005, "greenflashlight" ],
+          [0.005, "yellowflashlight" ],
+          [0.05, [ "flare", 2] ],
+          [0.03, "medkit" ],
+          [0.03, [ "torch", 2] ],
+          //  --------------------------------- level specific stuff starts here
+          [0.01, [ "generatedsword", 1, { "definition" : "crappybroadsword" } ] ],
+          [0.005, "harmonica" ],
+          [0.01, "stonepickaxe" ],
+          [0.03, "whiskeyflask" ],
+          [0.04, [ "copperbar", 5] ],
+          [0.02, [ "copperbar", 10] ],
+          [0.04, [ "ironbar", 2] ],
+          [0.02, [ "ironbar", 5] ],
+          [0.03, [ "coalore", 5] ],
+          [0.05, [ "fullwood1", 5] ],
+          [0.025, [ "fullwood1", 10] ],
+          [0.04, [ "darkwoodmaterial", 10] ],
+          [0.045, [ "cobblestonematerial", 10] ],
+          [0.02, [ "cobblestonematerial", 25] ]
+        ],
+        "poolRounds" : [
+          [0.5, 0],
+          [0.3, 1],
+          [0.2, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "naturalcaveTreasureLarge" : [
+    [1, {
+        "pool" : [
+          [0.45, [ "money", 1] ],
+          [0.03, [ "rope", 1] ],
+          [0.04, [ "bomb", 1] ],
+          [0.02, "flashlight" ],
+          [0.005, "redflashlight" ],
+          [0.005, "greenflashlight" ],
+          [0.005, "yellowflashlight" ],
+          [0.05, [ "flare", 2] ],
+          [0.03, "medkit" ],
+          [0.03, [ "torch", 2] ],
+          //  --------------------------------- level specific stuff starts here
+          [0.01, [ "generatedsword", 1, { "definition" : "crappybroadsword" } ] ],
+          [0.005, "harmonica" ],
+          [0.01, "stonepickaxe" ],
+          [0.03, "whiskeyflask" ],
+          [0.04, [ "copperbar", 5] ],
+          [0.02, [ "copperbar", 10] ],
+          [0.04, [ "ironbar", 2] ],
+          [0.02, [ "ironbar", 5] ],
+          [0.03, [ "coalore", 5] ],
+          [0.05, [ "fullwood1", 5] ],
+          [0.025, [ "fullwood1", 10] ],
+          [0.04, [ "darkwoodmaterial", 10] ],
+          [0.045, [ "cobblestonematerial", 10] ],
+          [0.02, [ "cobblestonematerial", 25] ]
+        ],
+        "poolRounds" : [
+          [0.2, 0],
+          [0.5, 1],
+          [0.2, 2],
+          [0.1, 3]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "scifitreasure" : [
+    [1, {
+        "pool" : [
+          [0.02, [ "money", 85] ],
+          [0.15, [ "money", 15] ],
+          [0.12, [ "money", 3] ],
+          [0.08, [ "money", 1] ],
+          [0.05, [ "grapes", 2] ],
+          [0.05, [ "banana", 2] ],
+          [0.05, [ "kiwi", 2] ],
+          [0.05, [ "grapes", 2] ],
+          [0.05, [ "pineapple", 3] ],
+          [0.05, [ "burger", 1] ],
+          [0.03, [ "redstim", 1] ],
+          [0.03, [ "bluestim", 1] ],
+          [0.02, [ "yellowstim", 1] ]
+        ],
+        "poolRounds" : [
+          [0.20, 3],
+          [0.80, 4]
+
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ]
+}

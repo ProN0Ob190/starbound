@@ -1,0 +1,32 @@
+{
+  "objectName" : "number5",
+  "rarity" : "Common",
+  "description" : "Five marker.",
+  "shortdescription" : "Five.",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 400,
+
+  "apexDescription" : "Five.",
+  "avianDescription" : "Five.",
+  "floranDescription" : "Meat hook.",
+  "glitchDescription" : "Statement. Five.",
+  "humanDescription" : "Five.",
+  "hylotlDescription" : "Five.",
+  "novakidDescription" : "A five.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "number5.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

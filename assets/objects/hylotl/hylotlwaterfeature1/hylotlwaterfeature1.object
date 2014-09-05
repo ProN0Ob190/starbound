@@ -1,0 +1,31 @@
+{
+  "objectName" : "hylotlwaterfeature1",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 1500,
+
+  "description" : "This Hylotl water feature is perfect for the home, garden, or interstellar dojo.",
+  "shortdescription" : "Hylotl Water Feature",
+  "race" : "hylotl",
+
+  "apexDescription" : "A cute little fountain.",
+  "avianDescription" : "Why do the Hylotl bother with fountains when they're surrounded by water?",
+  "floranDescription" : "Floran take bath in fountain.",
+  "glitchDescription" : "Critical. This fountain is too small to be impressive.",
+  "humanDescription" : "A water feature. Cool.",
+  "hylotlDescription" : "The tinkling of running water is music to my ears.",
+
+  "inventoryIcon" : "hylotlwaterfeature1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "hylotlwaterfeature1.png:<color>.<frame>",
+      "imagePosition" : [-20, 0],
+      "frames" : 3,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

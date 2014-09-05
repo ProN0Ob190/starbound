@@ -1,0 +1,12 @@
+{
+  "itemName" : "platinumblock",
+  "rarity" : "Rare",
+  "inventoryIcon" : "platinumblock.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A whole block of solid platinum.",
+  "shortdescription" : "Platinum Block",
+  "glitchdescription" : "Statement. Platinum.",
+  "florandescription" : "Ssshiny platinum.",
+
+  "materialId" : 35
+}

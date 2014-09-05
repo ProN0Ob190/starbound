@@ -1,0 +1,32 @@
+{
+  "objectName" : "medievalscaffolding",
+  "rarity" : "Common",
+  "description" : "Some shoddy wooden scaffolding.",
+  "shortdescription" : "Glitch Scaffolding",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 1000,
+
+  "apexDescription" : "A wooden scaffold.",
+  "avianDescription" : "A collection of platforms.",
+  "floranDescription" : "Floran climb up high!",
+  "glitchDescription" : "Identify. A Glitch scaffold. The Glitch build these temporary structures when they build tall buildings.",
+  "humanDescription" : "Looks like wooden scaffolding. Not sure how safe it is.",
+  "hylotlDescription" : "A wooden structure. Probably temporary.",
+
+  "inventoryIcon" : "medievalscaffoldingicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "medievalscaffolding.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

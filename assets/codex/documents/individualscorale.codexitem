@@ -1,0 +1,10 @@
+{
+  "codexId" : "individualscorale",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "glitchvillagebook_06.png",
+  "itemName" : "individualscoraleCodex",
+  "rarity" : "common",
+  "description" : "Glitch Individuals.",
+  "shortdescription" : "Glitch Individuals"
+}

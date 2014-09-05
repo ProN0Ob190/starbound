@@ -1,0 +1,22 @@
+{
+  "materialId" : 78,
+  "materialName" : "moonrock",
+  "particleColor" : [112, 72, 39, 255],
+  "itemDrop" : "moonrock",
+  "description" : "Tough, gritty moon rock.",
+  "shortdescription" : "Moonrock",
+  "glitchDescription" : "Analysis. This rock comes from a moon.",
+  "floranDescription" : "Floran thought moons made of cheese, not rock.",
+  "footstepSound" : "/sfx/blocks/footstep_rock.wav",
+  "health" : 7,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "moonrock.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

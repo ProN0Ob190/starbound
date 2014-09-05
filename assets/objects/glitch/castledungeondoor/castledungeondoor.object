@@ -1,0 +1,45 @@
+{
+  "objectName" : "castledungeondoor",
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 800,
+  "description" : "Made to hold even the strongest prisoner.",
+  "shortdescription" : "Glitch Cell Door",
+  "race" : "glitch",
+
+  "apexDescription" : "An incredibly strong cell door.",
+  "avianDescription" : "A door of great strength.",
+  "floranDescription" : "Door ssso sstrong!",
+  "glitchDescription" : "Educate. The Glitch lock prisoners behind doors like these. Often their prisoners are other Glitch that have gained self awareness.",
+  "humanDescription" : "No one is escaping a cell which has a door like this.",
+  "hylotlDescription" : "The Hylotl treat their prisoners like honoured guests.",
+
+  //Not sure how to get animation working properly.
+
+  "inventoryIcon" : "castledungeondooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "castledungeondoor.png:default",
+      "imagePosition" : [-16, 0],
+
+      "spaces" : [ [0, 0], [0, 1], [0, 2], [0, 3], [0, 4] ],
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationParts" : {
+    "door" : "castledungeondoor.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "inboundNodes" : [ [0, 4] ],
+  "outboundNodes" : [ [0, 0] ],
+
+  "openSounds" : [ "/sfx/objects/bardoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/bardoor_close.wav" ]
+}

@@ -1,0 +1,10 @@
+{
+  "codexId" : "outcastscorale",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "glitchvillagebook_02.png",
+  "itemName" : "outcastscoraleCodex",
+  "rarity" : "common",
+  "description" : "Glitch Outcasts.",
+  "shortdescription" : "Glitch Outcasts"
+}

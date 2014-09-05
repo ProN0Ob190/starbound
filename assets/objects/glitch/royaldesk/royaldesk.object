@@ -1,0 +1,40 @@
+{
+  "objectName" : "royaldesk",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "description" : "A fancy royal desk.",
+  "shortdescription" : "Royal Desk",
+  "race" : "glitch",
+  "category" : "furniture",
+  "price" : 1000,
+
+  "apexDescription" : "Perhaps this desk contains something of note.",
+  "avianDescription" : "A desk from which a King governs his kingdom.",
+  "floranDescription" : "Sshiny desk for important metalman.",
+  "glitchDescription" : "Observe. A writing desk. Usually manned by the King's page.",
+  "humanDescription" : "It looks like a writing desk, but there's not a spot of ink on its surface.",
+  "hylotlDescription" : "The gold is a superfluous addition to this desk.",
+
+  "inventoryIcon" : "royaldeskicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "royaldesk.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/woodenbox_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/woodenbox_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+
+}

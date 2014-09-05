@@ -1,0 +1,83 @@
+{
+  "objectName" : "wildkiwiseed",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Kiwi, soft texture and sweet flavour, yum.",
+  "shortdescription" : "kiwi Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "objectItem" : "kiwiseed",
+
+  "apexDescription" : "The kiwi's fur feels similar to that of an Apex.",
+  "avianDescription" : "A weird fuzzy fruit, filled with delicious seeds.",
+  "floranDescription" : "Furry squassshy creature-fruit.",
+  "glitchDescription" : "Observation. It is remarkable how many foods resemble those who eat them.",
+  "humanDescription" : "Kiwis. Delicious and messy.",
+  "hylotlDescription" : "Another overly-sweet fruit. The surface is unpleasant to touch.",
+
+  "inventoryIcon" : "kiwiseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "kiwiseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "kiwi",
+            "count" : 1
+          },
+          {
+            "name" : "kiwiseed",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "kiwi",
+            "count" : 1
+          },
+          {
+            "name" : "plantfibre",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "kiwi",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [300, 420],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [300, 420],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

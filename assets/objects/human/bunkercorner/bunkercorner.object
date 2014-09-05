@@ -1,0 +1,37 @@
+{
+  "objectName" : "bunkercorner",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 250,
+  "description" : "It's just a support beam.",
+  "shortdescription" : "Metallic Support Beam",
+  "race" : "human",
+
+  "apexDescription" : "A support beam.",
+  "avianDescription" : "A metal support.",
+  "floranDescription" : "Sssupport.",
+  "glitchDescription" : "Undisguised apathy. A support beam.",
+  "humanDescription" : "A metal beam.",
+  "hylotlDescription" : "Metal support beam.",
+
+  "inventoryIcon" : "bunkercornericon.png",
+  "orientations" : [
+    {
+      "image" : "bunkercornerleft.png:<color>",
+
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "top" ]
+    },
+
+    {
+      "image" : "bunkercornerright.png:<color>",
+
+      "imagePosition" : [-24, 0],
+
+      "spaceScan" : 0.01,
+      "anchors" : [ "right", "top" ]
+    }
+  ]
+}

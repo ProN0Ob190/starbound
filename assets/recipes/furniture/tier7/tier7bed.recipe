@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "ceruliumcompound", "count" : 5 }
+  ],
+  "output" : { "item" : "tier7bed", "count" : 1 },
+  "groups" : [ "manipulatortable", "furniture", "objects", "all" ]
+}

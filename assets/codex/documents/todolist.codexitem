@@ -1,0 +1,9 @@
+{
+  "codexId" : "todolist",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "itemName" : "todolistCodex",
+  "rarity" : "common",
+  "description" : "A Glitch To-Do List.",
+  "shortdescription" : "Glitch To-Do List"
+}

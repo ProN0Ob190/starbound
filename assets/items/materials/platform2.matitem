@@ -1,0 +1,13 @@
+{
+  "itemName" : "platform2",
+  // "twoHanded" : false,
+  "rarity" : "Common",
+  "inventoryIcon" : "platform2.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A nondescript wood platform.",
+  "shortdescription" : "Wood Platform",
+  "glitchdescription" : "Statement. A wooden platform.",
+  "florandescription" : "Platformsss.",
+
+  "materialId" : 109
+}

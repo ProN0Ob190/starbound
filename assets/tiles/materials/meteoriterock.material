@@ -1,0 +1,23 @@
+{
+  "materialId" : 161,
+  "materialName" : "meteoriterock",
+  "particleColor" : [111, 94, 74, 255],
+  "itemDrop" : "meteoriterock",
+  "description" : "An extremely hard rock found just outside the atmosphere.",
+  "shortdescription" : "Meteorite Rock",
+  "glitchDescription" : "Analysis. This rock is of extraterrestrial origin.",
+  "floranDescription" : "Floran like falling rocks.",
+  "footstepSound" : "/sfx/blocks/footstep_rock.wav",
+  "health" : 18.0,
+  "breathable" : "notBreathable",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "meteoriterock.png",
+    "variants" : 15,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 15 },
+    { "item" : "bow", "count" : 1 }
+  ],
+  "output" : { "item" : "ironbow", "count" : 1 },
+  "groups" : [ "craftingtable", "tools", "all" ]
+}

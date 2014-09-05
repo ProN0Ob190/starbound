@@ -1,0 +1,31 @@
+{
+  "objectName" : "floranpelt3",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 600,
+
+  "description" : "Tempting to wear this as a cloak and declare myself King of the North.",
+  "shortdescription" : "Long Black Fur Pelt",
+  "race" : "floran",
+
+  "apexDescription" : "The pelt is hung by two sharp pieces of bone.",
+  "avianDescription" : "The Floran could use this as a curtain.",
+  "floranDescription" : "Floran hang up furss with boness from kill.",
+  "glitchDescription" : "Analyse. The bones and fur seem to belong to the same creature.",
+  "humanDescription" : "Hunting for the sake of a trophy. I can't agree with that.",
+  "hylotlDescription" : "Karma will take care of the Floran that did this.",
+
+  "inventoryIcon" : "floranpelt3icon.png",
+  "orientations" : [
+    {
+      "image" : "floranpelt3.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

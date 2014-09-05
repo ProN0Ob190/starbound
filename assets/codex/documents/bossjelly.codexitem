@@ -1,0 +1,10 @@
+{
+  "codexId" : "bossjelly",
+  "title" : "Reading material",
+  "inventoryIcon" : "bossbook.png",
+  "codexkind" : "codex",
+  "itemName" : "bossjellyCodex",
+  "rarity" : "common",
+  "description" : "Information on the Jelly, a vile, gelatinous blob of malevolence and raspberry.",
+  "shortdescription" : "Jelly"
+}

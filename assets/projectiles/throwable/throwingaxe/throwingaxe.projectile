@@ -1,0 +1,20 @@
+{
+  "projectileName" : "throwingaxe",
+  "frames" : "throwingaxe.png",
+  "animationCycle" : 0.25,
+  "physics" : "grenadezbomb",
+  "frameNumber" : 4,
+  "pointLight" : false,
+  "speed" : 120,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "power" : 200.0,
+  "damageKind" : "default",
+  "emitters" : [ "daggerblue" ]
+}
+
+

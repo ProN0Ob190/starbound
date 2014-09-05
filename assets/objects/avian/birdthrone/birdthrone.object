@@ -1,0 +1,49 @@
+{
+  "objectName" : "birdthrone",
+  "rarity" : "Common",
+  "description" : "A masterfully crafted throne, fit for Kluex himself.",
+  "shortdescription" : "Avian Throne",
+  "race" : "avian",
+  "category" : "furniture",
+  "price" : 1800,
+
+  "apexDescription" : "A throne covered in carvings. It's quite a sight.",
+  "avianDescription" : "A stargazer's throne. Each stargazer would be assigned a temple to protect.",
+  "floranDescription" : "Birdman throne make good Floran trophy.",
+  "glitchDescription" : "Comparative. The Glitch lords also sit upon thrones.",
+  "humanDescription" : "A stone throne. That rhymes.",
+  "hylotlDescription" : "This throne looks uncomfortable. It also looks barely used. Perhaps just a show of power.",
+
+  "inventoryIcon" : "birdthroneicon.png",
+  "orientations" : [
+    {
+      "image" : "birdthrone.png:<color>",
+	  "sitCoverImage" : "/objects/avian/birdthrone/birdthronecover.png",
+      "imagePosition" : [-6, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "flipImages" : true,
+	  "direction" : "left",
+      "sitPosition" : [0.6, 19.5]
+    },
+	{
+      "image" : "birdthrone.png:<color>",
+	  "sitCoverImage" : "/objects/avian/birdthrone/birdthronecover.png",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "direction" : "right",
+      "sitPosition" : [0.6, 19.5]
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false
+
+}

@@ -1,0 +1,7 @@
+{
+  "itemName" : "robotchest",
+  "rarity" : "Common",
+  "inventoryIcon" : "robotchest.png",
+  "description" : "A robot chest, strong as steel.",
+  "shortdescription" : "Robot Chest"
+}

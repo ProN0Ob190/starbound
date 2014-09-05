@@ -1,0 +1,39 @@
+{
+  "objectName" : "tribalwallcabinet",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "category" : "storage",
+  "price" : 500,
+
+  "description" : "Looks like a place you might store an eggcup... Do Avians eat eggs?",
+  "shortdescription" : "Avian Wall Cabinet",
+  "race" : "avian",
+
+  "apexDescription" : "A cabinet that sits on the wall. Space-saving!",
+  "avianDescription" : "Many grounded homes are very small. Storage is often placed on the walls.",
+  "floranDescription" : "Sstorage unit on wall.",
+  "glitchDescription" : "Observation. A space-saving storage unit.",
+  "humanDescription" : "A wall cabinet.",
+  "hylotlDescription" : "What's inside, I wonder.",
+
+  "inventoryIcon" : "tribalwallcabineticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "tribalwallcabinet.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "collision" : "platform"
+
+    }
+  ],
+  "openSounds" : [ "/sfx/objects/chest_medium_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/chest_medium_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

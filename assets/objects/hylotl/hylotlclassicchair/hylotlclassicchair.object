@@ -1,0 +1,35 @@
+{
+  "objectName" : "hylotlclassicchair",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 750,
+  "description" : "A high-class wooden chair meant for important Hylotl.",
+  "shortdescription" : "Traditional Fancy Chair",
+  "race" : "hylotl",
+
+  "apexDescription" : "A decent chair. Not bad!",
+  "avianDescription" : "This chair's pretty good for your average Hylotl piece.",
+  "floranDescription" : "Not even care.",
+  "glitchDescription" : "Critical. It appears these chairs are for important Hylotl. I guess they have low standards.",
+  "humanDescription" : "Okay to sit on for a little while.",
+  "hylotlDescription" : "Such astonishing chairs are reserved only for the most regal of our species.",
+
+  "inventoryIcon" : "hylotlclassicchairicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "hylotlclassicchair.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 22]
+
+}

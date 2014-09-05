@@ -1,0 +1,26 @@
+{
+  "projectileName" : "ash",
+  "frames" : "ash.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+
+      "action" : "option",
+      "options" : [
+        {
+          "action" : "tile",
+          "materials" : [ { "quantity" : 1, "kind" : "ash" } ]
+        }
+      ]
+
+
+    }
+
+  ],
+
+  "power" : 0.0,
+  "damageKind" : "default"
+}

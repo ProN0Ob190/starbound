@@ -1,0 +1,31 @@
+{
+  "objectName" : "tombstone8",
+  "rarity" : "Common",
+  "description" : "This tombstone belonged to one of the grounded. It's been desecrated.",
+  "shortdescription" : "Desecrated Tombstone",
+  "race" : "avian",
+  "category" : "decorative",
+  "price" : 350,
+
+  "apexDescription" : "A faded tombstone. Very old. Someone has partially destroyed it.",
+  "avianDescription" : "A standard Avian tombstone. These are old and numerous. This one's been defiled.",
+  "floranDescription" : "Floran mark dead with growth of flower.",
+  "glitchDescription" : "Observation. This tombstone has been violently demolished.",
+  "humanDescription" : "A very old tombstone. It's been smashed to pieces.",
+  "hylotlDescription" : "The dead deserve more honour than this.",
+
+  "inventoryIcon" : "tombstone8icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "tombstone8.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

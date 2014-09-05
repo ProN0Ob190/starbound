@@ -1,0 +1,22 @@
+{
+  "itemName" : "ricecake",
+  "rarity" : "Common",
+  "inventoryIcon" : "ricecake.png",
+  "description" : "A delicious little ball of rice.",
+  "shortdescription" : "Ricecake",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 50
+      },
+      {
+        "kind" : "health",
+        "amount" : 5
+      },
+      {
+        "kind" : "energy",
+        "amount" : 10
+      }
+    ] ]
+}

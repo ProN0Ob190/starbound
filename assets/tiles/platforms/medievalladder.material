@@ -1,0 +1,14 @@
+{
+  "materialId" : 124,
+  "materialName" : "medievalladder",
+  "platform" : true,
+  "transparent" : true,
+  "stairVariants" : 1,
+  "stairImage" : "medievalladder.png",
+  "platformVariants" : 3,
+  "platformImage" : "medievalladder.png",
+  "itemDrop" : "platform",
+  "shortdescription" : "Wooden Ladder",
+  "description" : "A shoddy wooden ladder. What a thrill!",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.wav"
+}

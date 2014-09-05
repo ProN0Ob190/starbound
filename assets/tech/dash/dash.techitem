@@ -1,0 +1,10 @@
+{
+  "itemName" : "dashTech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/dash.png",
+  "description" : "Double tap Left or Right to use this Energy Dash tech.",
+  "shortdescription" : "Energy Dash",
+  "tooltipKind" : "tech",
+
+  "techModule" : "dash.tech"
+}

@@ -1,0 +1,53 @@
+{
+  "itemName" : "novakidlightstaff1",
+  "inventoryIcon" : "novakidlightstaff1.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+
+  "description" : "Creates a miniature sun to light up the area.",
+  "shortdescription" : "Red Giant Orb",
+
+  "image" : "novakidlightstaff1.png",
+
+  "handPosition" : [-1.5, -7],
+  "firePosition" : [5, 1.5],
+
+  "fireTime" : 0.2,
+  "windupTime" : 1.5,
+  "cooldown" : 0.3,
+  "twoHanded" : true,
+  "fireOnRelease" : true,
+
+  "swingStart" : 10,
+  "swingFinish" : 0,
+  "coolingDownAngle" : 0,
+
+  "projectileType" : "redgiantspawner",
+  "projectile" : {
+    "speed" : 0.01,
+    "power" : 25,
+    "color" : [255, 10, 10]
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [
+      { "file" : "/sfx/gun/rocket_shot.wav" },
+      { "file" : "/sfx/gun/rocket_fly.wav" }
+    ]
+  },
+
+  "level1ChargeTime" : 0.5,
+  "level2ChargeTime" : 1.5,
+
+  "staffChargingGlow" : {
+    "file" : "lightstaffglow.png",
+    "chargingFrames" : 13,
+    "sparkFrames" : 3,
+    "loopFrames" : 4,
+    "fireFrames" : 3,
+    "sparkTime" : 0.5,
+    "loopTime" : 0.5,
+    "offset" : [ 0, 6 ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "objectName" : "locker1",
+  "rarity" : "Common",
+  "objectType" : "container",
+
+  "category" : "storage",
+  "price" : 300,
+  "description" : "Fond memories of being trapped inside after class.",
+  "shortdescription" : "Tall Locker",
+  "race" : "generic",
+
+  "apexDescription" : "A storage locker.",
+  "avianDescription" : "A metal box, probably built for storage.",
+  "floranDescription" : "Ssstorage.",
+  "glitchDescription" : "Measure. A small amount of storage.",
+  "humanDescription" : "There's no lock on this locker...",
+  "hylotlDescription" : "Useful storage.",
+
+  "inventoryIcon" : "locker1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "locker1.png:<color>.<key>",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/locker_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/locker_close.wav" ],
+  "slotCount" : 9,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

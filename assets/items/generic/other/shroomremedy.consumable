@@ -1,0 +1,16 @@
+{
+  "itemName" : "shroomremedy",
+  "rarity" : "Common",
+  "inventoryIcon" : "shroomremedy.png",
+  "description" : "A concoction that provides -TODO-.",
+  "shortdescription" : "Shroom Remedy",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      {
+        "kind" : "redstim",
+        "amount" : 0.5
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ]
+}

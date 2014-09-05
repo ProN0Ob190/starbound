@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "refinedrubium", "count" : 2 }
+  ],
+  "output" : { "item" : "tier9chair", "count" : 1 },
+  "groups" : [ "manipulatortable", "furniture", "objects", "all" ]
+}

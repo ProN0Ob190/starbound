@@ -1,0 +1,10 @@
+{
+  "itemName" : "supermatter",
+  "rarity" : "Common",
+  "inventoryIcon" : "supermatter.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "-todo-.",
+  "shortdescription" : "Supermatter Crystal",
+
+  "materialId" : 1164
+}

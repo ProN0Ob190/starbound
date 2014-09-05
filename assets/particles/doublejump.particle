@@ -1,0 +1,16 @@
+{
+  "kind" : "doublejump",
+  "definition" : {
+    "type" : "animated",
+    "animation" : "/animations/statuseffects/doublejump/doublejump.animation",
+    "position" : [0, 0],
+    "finalVelocity" : [0, 0],
+    "approach" : [0, 50],
+    "size" : 1.0,
+    "timeToLive" : 0.85,
+    "layer" : "back",
+    "variance" : {
+      "initialVelocity" : [0.0, 0.0]
+    }
+  }
+}

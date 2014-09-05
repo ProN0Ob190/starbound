@@ -1,0 +1,24 @@
+{
+  "materialId" : 1185,
+  "materialName" : "heavypipe",
+  "particleColor" : [194, 194, 194, 255],
+  "itemDrop" : "heavypipe",
+  "shortdescription" : "Heavy Pipe",
+  "description" : "A heavy pipe.",
+  "glitchDescription" : "Statement. A pipe.",
+  "floranDescription" : "Pipe!",
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.wav",
+  "drawBackground" : true,
+  "health" : 10,
+
+  "renderTemplate" : "/tiles/pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "heavypipe.png",
+    "variants" : 5,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multicolored" : true,
+    "zLevel" : 10
+  }
+}

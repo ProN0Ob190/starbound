@@ -1,0 +1,8 @@
+{
+  "itemName" : "uraniumore",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "uraniumore.png",
+  "description" : "It's uranium. A good source of fuel.",
+  "shortdescription" : "Uranium Ore",
+  "fuelAmount" : 4
+}

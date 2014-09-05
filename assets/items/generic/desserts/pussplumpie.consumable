@@ -1,0 +1,17 @@
+{
+  "itemName" : "pussplumpie",
+  "rarity" : "Common",
+  "inventoryIcon" : "pussplumpie.png",
+  "description" : "A slice of pussplum pie. The smell is a little off-putting.",
+  "shortdescription" : "Pussplum Pie",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 100
+      },
+      {
+        "kind" : "mollyhealing3" },
+      {
+        "kind" : "sugarrush" }
+    ] ]
+}

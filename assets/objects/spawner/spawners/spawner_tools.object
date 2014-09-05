@@ -1,0 +1,54 @@
+{
+  "objectName" : "spawnertools",
+  "rarity" : "Common",
+  "description" : "Tool Merchant Spawner - for when you need to dig a hole.",
+  "shortdescription" : "Tool Spawner",
+  "race" : "human",
+  "printable" : false,
+  "category" : "spawner",
+  "price" : 300,
+
+  "apexDescription" : "A tool seller is just what I need.",
+  "avianDescription" : "Buying tools is a necessity.",
+  "floranDescription" : "Floran buy tools to sssmash rivals!",
+  "glitchDescription" : "Statement. I would like to buy some tools.",
+  "humanDescription" : "This is even easier than ordering online.",
+  "hylotlDescription" : "The tools they sell better not be rusted.",
+
+  "inventoryIcon" : "defaulticon.png",
+  "orientations" : [
+    {
+      "image" : "spawner_tools.png",
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/spawner/spawners/spawner.lua" ],
+  "scriptDelta" : 1,
+  //6000,
+
+  "animation" : "/objects/spawner/spawners/tools.animation",
+
+  "animationParts" : {
+    "switch" : "spawner_tools.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "inboundNodes" : [ ],
+  "outboundNodes" : [ ],
+
+  "spawner" : {
+    "searchRadius" : 32.0,
+    "npcSpeciesOptions" : [ "apex", "avian", "floran", "glitch", "human", "hylotl" ],
+    "npcTypeOptions" : [ "toolmerchant" ],
+    "npcParameterOptions" : [
+      {
+        "dropPools" : [ ]
+      }
+    ]
+  }
+
+}

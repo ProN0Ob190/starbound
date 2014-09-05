@@ -1,0 +1,21 @@
+{
+  "itemName" : "offal",
+  "rarity" : "Common",
+  "inventoryIcon" : "offal.png",
+  "description" : "All the scraps that most people won't touch. Good, if you can get past the texture.",
+  "shortdescription" : "Offal",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 75
+      },
+      {
+        "kind" : "health",
+        "amount" : 10
+      },
+      {
+        "kind" : "energy",
+        "amount" : 10
+      }
+    ] ]
+}

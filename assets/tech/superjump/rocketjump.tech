@@ -1,0 +1,11 @@
+{
+  "scripts" : ["superjump.lua"],
+  "actions" : [ "superjump" ],
+  "animator" : "rocketjump.animation",
+
+  "energyUsage" : 80.0,
+  "superjumpSpeed" : 250,
+  "superjumpControlForce" : 400,
+  "superjumpTime" : 0.1,
+  "superjumpSound" : "/sfx/tech/tech_superjump.wav"
+}

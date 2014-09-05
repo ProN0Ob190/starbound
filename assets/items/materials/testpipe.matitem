@@ -1,0 +1,12 @@
+{
+  "itemName" : "testpipe",
+  "rarity" : "Common",
+  "inventoryIcon" : "testpipe.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Test Pipe",
+  "description" : "A pipe commonly used for testing.",
+  "glitchdescription" : "Statement. A pipe.",
+  "florandescription" : "Sssssmelly pipe.",
+
+  "materialId" : 1113
+}

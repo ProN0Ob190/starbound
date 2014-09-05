@@ -1,0 +1,37 @@
+{
+  "objectName" : "holidaycraftingtable",
+  "rarity" : "Uncommon",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/holidaycraftingtable.config",
+    "filter" : [ "holidaycraftingtable" ]
+  },
+  "description" : "For all your holiday crafting needs!",
+  "shortdescription" : "Toymaker's Table",
+  "race" : "generic",
+  "category" : "crafting",
+  "printable" : false,
+  "price" : 500,
+
+  "apexDescription" : "A table with tools for crafting festive decorations.",
+  "avianDescription" : "This festive table will allow me to spread holiday cheer.",
+  "floranDescription" : "Floran make pretty red bowsss.",
+  "glitchDescription" : "Festive. I shall craft the most delicious gumdrop.",
+  "humanDescription" : "I can craft loads of holiday decorations with this table!",
+  "hylotlDescription" : "With this table, I can create the tackiest of holiday decorations.",
+
+  "inventoryIcon" : "holidaycraftingtableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "holidaycraftingtable.png:<color>.<frame>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 6,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "codexId" : "florannotes",
+  "title" : "A Floran's Ambition",
+  "codexkind" : "codex",
+  "itemName" : "florannotesCodex",
+  "rarity" : "common",
+  "description" : "A Floran begins their life's work.",
+  "shortdescription" : "Floran's Ambition"
+}

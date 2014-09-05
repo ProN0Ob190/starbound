@@ -1,0 +1,24 @@
+{
+  "itemName" : "superfishaxedrop",
+  "inventoryIcon" : "fishicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "One step below a sharknado.",
+  "shortdescription" : "Fishaxe (Drops)",
+  "tooltipKind" : "tool",
+  "largeImage" : "stonepickaxebig.png",
+
+  "image" : "fish.png",
+  "handPosition" : [-4, -4],
+  "fireTime" : 0.01,
+  "swingStart" : -40,
+  "swingFinish" : 60,
+  "blockRadius" : 7,
+  "altBlockRadius" : 1,
+  "tileDamage" : 10.0,
+  "tileDamageBlunted" : 1.0,
+  "twoHanded" : true,
+  "strikeSound" : "/sfx/tools/pickaxe_hit.wav",
+  "durability" : 10000000000000
+}

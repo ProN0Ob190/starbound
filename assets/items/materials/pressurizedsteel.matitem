@@ -1,0 +1,12 @@
+{
+  "itemName" : "pressurizedsteel",
+  "rarity" : "Common",
+  "inventoryIcon" : "pressurizedsteelicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Pressurised steel.",
+  "shortdescription" : "Pressurised Steel",
+  "glitchdescription" : "Statement. Pressurised steel.",
+  "florandescription" : "Sssteel.",
+
+  "materialId" : 154
+}

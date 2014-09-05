@@ -1,0 +1,10 @@
+{
+  "itemName" : "candyblock",
+  "rarity" : "Common",
+  "inventoryIcon" : "candyblockicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Sweet-smelling rock candy!",
+  "shortdescription" : "Candy Block",
+
+  "materialId" : 175
+}

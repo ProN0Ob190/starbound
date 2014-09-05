@@ -1,0 +1,10 @@
+{
+  "codexId" : "sewersevering",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "glitchsewerbook_11.png",
+  "itemName" : "sewerseveringCodex",
+  "rarity" : "common",
+  "description" : "The Severing",
+  "shortdescription" : "Severing"
+}

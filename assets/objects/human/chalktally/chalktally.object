@@ -1,0 +1,31 @@
+{
+  "objectName" : "chalktally",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 200,
+
+  "description" : "Someone couldn't count to 25.",
+  "shortdescription" : "Tally Marks",
+  "race" : "human",
+
+  "apexDescription" : "Similar markings are often found on the walls of Miniknog cells.",
+  "avianDescription" : "Someone was counting something, but what?",
+  "floranDescription" : "Floran make marksss for huntsss.",
+  "glitchDescription" : "Deduction. This signifies twenty five occurrences of... something. We shall never know what.",
+  "humanDescription" : "A series of tally marks, or some drawings of picket fences? Impossible to tell, really.",
+  "hylotlDescription" : "A simple, yet effective method of counting.",
+
+  "inventoryIcon" : "chalktallyicon.png",
+  "orientations" : [
+    {
+      "image" : "chalktally.png:<color>",
+      "imagePosition" : [-16, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "name" : "glitchsmallmace",
+  "baseDps" : [3, 3.5],
+  "rateOfSwing" : [0.8, 1.5],
+  "multiplier" : 0.4,
+  "firePosition" : [26, -4],
+  "fireAfterWindup" : true,
+  "muzzleFlashes" : [ ],
+  "soundEffect" : [ "/sfx/melee/swing_onehanded.wav" ],
+  "kind" : "glitchsmallmace",
+  "tooltipKind" : "sword",
+
+  "primaryStances" : {
+    "directional" : true,
+    "projectileTypes" : [ "bluntonehandedswoosh" ],
+    "projectile" : {
+      "speed" : 0.1
+    },
+    "idle" : {
+      "twoHanded" : false,
+      "armAngle" : -90,
+      "swordAngle" : -90,
+      "handPosition" : [-2.7, -14.5],
+      "armFrameOverride" : "idleMelee",
+      "duration" : 0.1
+    },
+    "windup" : {
+      "twoHanded" : false,
+      "armAngle" : 0,
+      "swordAngle" : -60,
+      "handPosition" : [0.2, -25],
+      "duration" : 0.07,
+      "statusEffects" : [ ]
+    },
+    "cooldown" : {
+      "twoHanded" : false,
+      "armAngle" : -140,
+      "swordAngle" : -90,
+      "handPosition" : [2.2, -9],
+      "duration" : 0.4,
+      "statusEffects" : [ ]
+    }
+  },
+  "palette" : [
+
+    { "b6b6b6" : "b6b6b6", "7b7b7b" : "7b7b7b", "373737" : "373737" }
+
+  ],
+  "nameGenerator" : "glitchmacenames.config:nameGen"
+}

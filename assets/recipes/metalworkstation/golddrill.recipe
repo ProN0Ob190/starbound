@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "goldbar", "count" : 20 }
+  ],
+  "output" : { "item" : "golddrill", "count" : 1 },
+  "groups" : [ "metalworkstation", "tools", "all" ]
+}

@@ -1,0 +1,13 @@
+{
+  "itemName" : "egg",
+  "rarity" : "Common",
+  "inventoryIcon" : "egg.png",
+  "description" : "It's an egg!",
+  "shortdescription" : "Egg",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 30
+      }
+    ] ]
+}

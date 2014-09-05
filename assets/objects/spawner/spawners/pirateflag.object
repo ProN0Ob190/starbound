@@ -1,0 +1,54 @@
+{
+  "objectName" : "pirateflag",
+  "rarity" : "Common",
+  "description" : "Pirate a pirate! Sort of!",
+  "shortdescription" : "Pirate Spawner",
+  "race" : "human",
+
+  "category" : "spawner",
+  "price" : 300,
+
+  "apexDescription" : "I've always wanted my own pirate.",
+  "avianDescription" : "This device lets me spawn a pirate. But why?",
+  "floranDescription" : "Floran sssail high seas with pirate!",
+  "glitchDescription" : "Amusement. With this, I can summon a pirate.",
+  "humanDescription" : "A pirate summoner. Awesome.",
+  "hylotlDescription" : "Ah, this lets me call upon my sea-faring chums.",
+
+  "inventoryIcon" : "spawner_hylotl.png",
+  "orientations" : [
+    {
+      "image" : "spawner_hylotl.png",
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/spawner/spawners/spawner.lua" ],
+  "scriptDelta" : 1,
+  //6000,
+
+  "animation" : "/objects/spawner/spawners/pirateflag.animation",
+
+  "animationParts" : {
+    "switch" : "pirateflag.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "inboundNodes" : [ ],
+  "outboundNodes" : [ ],
+
+  "spawner" : {
+    "searchRadius" : 32.0,
+    "npcSpeciesOptions" : [ "avian" ],
+    "npcTypeOptions" : [ "villager" ],
+    "npcParameterOptions" : [
+      {
+        "dropPools" : [ ]
+      }
+    ]
+  }
+
+}

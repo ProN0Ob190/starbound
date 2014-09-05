@@ -1,0 +1,17 @@
+{
+  "itemName" : "applepie",
+  "rarity" : "Common",
+  "inventoryIcon" : "applepie.png",
+  "description" : "Apple pie! It's as American as itself!",
+  "shortdescription" : "Apple Pie",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 100
+      },
+      {
+        "kind" : "mollyhealing3" },
+      {
+        "kind" : "sugarrush" }
+    ] ]
+}

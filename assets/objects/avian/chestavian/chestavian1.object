@@ -1,0 +1,36 @@
+{
+  "objectName" : "chestavian1",
+  "rarity" : "Common",
+  "objectType" : "container",
+
+  "category" : "storage",
+  "price" : 500,
+  "description" : "A chest adorned with ancient Avian art.",
+  "shortdescription" : "Avian Chest",
+  "race" : "avian",
+
+  "apexDescription" : "A chest! Let's look inside.",
+  "avianDescription" : "Often these chests stored valuables. I'm excited!",
+  "floranDescription" : "Chessst! Floran musst sssearch!",
+  "glitchDescription" : "Anticipation. What could be inside?",
+  "humanDescription" : "A chest! Let's open it up.",
+  "hylotlDescription" : "There is little as exciting as an unopened chest.",
+
+  "inventoryIcon" : "chestavian1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "chestavian1.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

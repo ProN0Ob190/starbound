@@ -1,0 +1,66 @@
+{
+  "objectName" : "lunarbasebunk",
+  "rarity" : "Common",
+  "description" : "These cosy beds can stack on top of each other.",
+  "shortdescription" : "Lunar Base Bunk",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 750,
+  "lightColor" : [20, 29, 33],
+
+  "apexDescription" : "A bunk bed.",
+  "avianDescription" : "This bunk bed looks rather basic.",
+  "floranDescription" : "Floran like to sssleep!",
+  "glitchDescription" : "Statement. A bunk bed.",
+  "humanDescription" : "A bunk bed. Not terribly spacious, but surprisingly comfortable.",
+  "hylotlDescription" : "A crude bed.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/lunarbase/lunarbasebunk/lunarbasebunkcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    { "kind" : "Nude" },
+    { "kind" : "Health", "amount" : 0.06 }
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "lunarbasebunkicon.png",
+  "orientations" : [
+    {
+	  "imageLayers" : [ { "image" : "lunarbasebunk.png:<color>", "fullbright" : true }, { "image" : "lunarbasebunklit.png:<color>" } ],
+	  "flipImages" : true,
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+	  
+      "lightPosition" : [-3, 1],
+	  
+	  "sitPosition" : [-4, 14.3],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "direction" : "left",
+      "collision" : "platform"
+    },
+	{
+      "imageLayers" : [ { "image" : "lunarbasebunk.png:<color>", "fullbright" : true }, { "image" : "lunarbasebunklit.png:<color>"} ],
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+	  
+      "lightPosition" : [3, 1],
+	  
+	  "sitPosition" : [-12, 14.3],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "direction" : "right",
+      "collision" : "platform"
+    }
+	
+  ]
+}

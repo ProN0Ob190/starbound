@@ -1,0 +1,397 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "movement" : {
+        "default" : "idle",
+        "states" : {
+          "idle" : { },
+
+          "jump" : {
+            "frames" : 2,
+            "cycle" : 0.5,
+            "mode" : "end",
+            "properties" : {
+              "immediateSound" : "/sfx/tech/mech_jump3.wav"
+            },
+            "frameProperties" : {
+              "stateNudge" : [ [0, 0.5], [0, 0.5], [0, 0.375], [0, 0.375] ]
+            }
+          },
+
+          "fall" : {
+            "frames" : 2,
+            "cycle" : 0.5,
+            "mode" : "end",
+            "frameProperties" : {
+              "stateNudge" : [ [0, 0.25], [0, 0.25], [0, 0.125], [0, 0] ]
+            }
+          },
+
+          "walk" : {
+            "frames" : 4,
+            "cycle" : 0.5,
+            "mode" : "loop",
+            "frameProperties" : {
+              "immediateSound" : [ "/sfx/tech/mech_step.wav", "", "", "", "", "/sfx/tech/mech_step2.wav", "", "", "", "" ],
+              "stateNudge" : [ [0, 0.375], [0, 0.125], [0, 0], [0, 0.125] ]
+            }
+          },
+
+          "backWalk" : {
+            "frames" : 4,
+            "cycle" : 0.5,
+            "mode" : "loop",
+            "frameProperties" : {
+              "immediateSound" : [ "/sfx/tech/mech_step.wav", "", "", "", "", "/sfx/tech/mech_step2.wav", "", "", "", "" ],
+              "stateNudge" : [ [0, 0.375], [0, 0.125], [0, 0], [0, 0.125] ]
+            }
+          }
+        }
+      },
+
+      "frontFiring" : {
+        "states" : {
+          "fire" : {
+            "frames" : 1,
+            "cycle" : 0.5,
+            "mode" : "transition",
+            "transition" : "off"
+          },
+
+          "off" : { }
+        }
+      },
+
+      "backFiring" : {
+        "states" : {
+          "fire" : {
+            "frames" : 1,
+            "cycle" : 0.5,
+            "mode" : "transition",
+            "transition" : "off"
+          },
+
+          "off" : { }
+        }
+      }
+    },
+
+    "parts" : {
+      "backLeg" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 0,
+          "back" : true
+        },
+
+        "partStates" : {
+          "movement" : {
+            "idle" : {
+              "properties" : {
+                "image" : "humanjeepbleg.png:idle.<frame>"
+              }
+            },
+            "jump" : {
+              "properties" : {
+                "image" : "humanjeepbleg.png:jump.<frame>"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, -0.5], [0, -0.5], [0, -0.375], [0, -0.375] ]
+              }
+            },
+            "fall" : {
+              "properties" : {
+                "image" : "humanjeepbleg.png:fall.<frame>"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, -0.25], [0, -0.25], [0, -0.125], [0, 0] ]
+              }
+            },
+            "walk" : {
+              "properties" : {
+                "image" : "humanjeepbleg.png:move.<frame>"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, -0.375], [0, -0.125], [0, 0], [0, -0.125] ]
+              }
+            },
+            "backWalk" : {
+              "properties" : {
+                "image" : "humanjeepbleg.png:bmove.<frame>"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, -0.375], [0, -0.125], [0, 0], [0, -0.125] ]
+              }
+            }
+          }
+        }
+      },
+
+      "background" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 1,
+          "back" : true
+        },
+
+        "partStates" : {
+          "movement" : {
+            "idle" : {
+              "properties" : {
+                "image" : "humanjeepbackground.png:idle.<frame>"
+              }
+            },
+            "jump" : {
+              "properties" : {
+                "image" : "humanjeepbackground.png:idle.<frame>"
+              }
+            },
+            "fall" : {
+              "properties" : {
+                "image" : "humanjeepbackground.png:idle.<frame>"
+              }
+            },
+            "walk" : {
+              "properties" : {
+                "image" : "humanjeepbackground.png:idle.<frame>"
+              }
+            },
+            "backWalk" : {
+              "properties" : {
+                "image" : "humanjeepbackground.png:idle.<frame>"
+              }
+            }
+          }
+        }
+      },
+
+      "backGunFire" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 1.5,
+          "offset" : [6, -0.35],
+          "rotationGroup" : "guns",
+          "rotationCenter" : [2.4, -0.2]
+        },
+
+        "partStates" : {
+          "backFiring" : {
+            "fire" : {
+              "properties" : {
+                "image" : "bulletmuzzle1.png:<frameIndex>"
+              }
+            }
+          }
+        }
+      },
+
+      "backGun" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 2,
+          "rotationGroup" : "guns",
+          "offset" : [2, 0],
+          "rotationCenter" : [2.4, 0],
+          "relativeAnchors" : {
+            "backGunFirePoint" : [6.5, -0.35]
+          }
+        },
+
+        "partStates" : {
+          "movement" : {
+            "idle" : {
+              "properties" : {
+                "image" : "humanjeepgun.png:rotation",
+                "rotationCenter" : [2.4, -0.25]
+              }
+            },
+            "jump" : {
+              "properties" : {
+                "image" : "humanjeepgun.png:rotation"
+              }
+            },
+            "fall" : {
+              "properties" : {
+                "image" : "humanjeepgun.png:rotation"
+              }
+            },
+            "walk" : {
+              "properties" : {
+                "image" : "humanjeepgun.png:rotation"
+              }
+            },
+            "backWalk" : {
+              "properties" : {
+                "image" : "humanjeepgun.png:rotation"
+              }
+            }
+          }
+        }
+      },
+
+      "body" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 3
+        },
+
+        "partStates" : {
+          "movement" : {
+            "idle" : {
+              "properties" : {
+                "image" : "humanjeepbody.png:idle.<frame>"
+              }
+            },
+            "jump" : {
+              "properties" : {
+                "image" : "humanjeepbody.png:idle.<frame>"
+              }
+            },
+            "fall" : {
+              "properties" : {
+                "image" : "humanjeepbody.png:idle.<frame>"
+              }
+            },
+            "walk" : {
+              "properties" : {
+                "image" : "humanjeepbody.png:idle.<frame>"
+              }
+            },
+            "backWalk" : {
+              "properties" : {
+                "image" : "humanjeepbody.png:idle.<frame>"
+              }
+            }
+          }
+        }
+      },
+
+      "frontGunFire" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 3.5,
+          "offset" : [4, -0.35],
+          "rotationGroup" : "guns",
+          "rotationCenter" : [0.4, -0.2]
+        },
+
+        "partStates" : {
+          "frontFiring" : {
+            "fire" : {
+              "properties" : {
+                "image" : "bulletmuzzle1.png:<frameIndex>"
+              }
+            }
+          }
+        }
+      },
+
+      "frontGun" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 4,
+          "rotationGroup" : "guns",
+          "rotationCenter" : [0.4, -0.25],
+          "relativeAnchors" : {
+            "frontGunFirePoint" : [4.5, -0.35]
+          }
+        },
+
+        "partStates" : {
+          "movement" : {
+            "idle" : {
+              "properties" : {
+                "image" : "humanjeepgun.png:rotation",
+                "rotationCenter" : [0.4, -0.25]
+              }
+            },
+            "jump" : {
+              "properties" : {
+                "image" : "humanjeepgun.png:rotation"
+              }
+            },
+            "fall" : {
+              "properties" : {
+                "image" : "humanjeepgun.png:rotation"
+              }
+            },
+            "walk" : {
+              "properties" : {
+                "image" : "humanjeepgun.png:rotation"
+              }
+            },
+            "backWalk" : {
+              "properties" : {
+                "image" : "humanjeepgun.png:rotation"
+              }
+            }
+          }
+        }
+      },
+
+      "frontLeg" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 5
+        },
+
+        "partStates" : {
+          "movement" : {
+            "idle" : {
+              "properties" : {
+                "image" : "humanjeepfleg.png:idle.<frame>"
+              }
+            },
+            "jump" : {
+              "properties" : {
+                "image" : "humanjeepfleg.png:jump.<frame>"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, -0.5], [0, -0.5], [0, -0.375], [0, -0.375] ]
+              }
+            },
+            "fall" : {
+              "properties" : {
+                "image" : "humanjeepfleg.png:fall.<frame>"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, -0.25], [0, -0.25], [0, -0.125], [0, 0] ]
+              }
+            },
+            "walk" : {
+              "properties" : {
+                "image" : "humanjeepfleg.png:move.<frame>"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, -0.375], [0, -0.125], [0, 0], [0, -0.125] ]
+              }
+            },
+            "backWalk" : {
+              "properties" : {
+                "image" : "humanjeepfleg.png:bmove.<frame>"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, -0.375], [0, -0.125], [0, 0], [0, -0.125] ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "rotationGroups" : {
+    "guns" : {
+      "angularVelocity" : 10.0
+    }
+  },
+
+  "particleEmitters" : {
+    "mechActivateParticles" : {
+      "particles" : [ ]
+    },
+    "mechDeactivateParticles" : {
+      "particles" : [ ]
+    }
+  }
+}

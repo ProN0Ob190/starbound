@@ -1,0 +1,39 @@
+{
+  "objectName" : "filingcabinet",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "description" : "A filing cabinet. Sorted.",
+  "shortdescription" : "Filing Cabinet",
+  "race" : "generic",
+  "category" : "storage",
+  "price" : 500,
+
+  "apexDescription" : "A cabinet.",
+  "avianDescription" : "A cabinet for files.",
+  "floranDescription" : "Firing cabinet! Ssso Floran hear.",
+  "glitchDescription" : "Interested. A filing cabinet with possibly classified documents inside.",
+  "humanDescription" : "A filing cabinet. Maybe I'll take a peek.",
+  "hylotlDescription" : "A simple yet useful storage solution.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "filingcabinet.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+
+}

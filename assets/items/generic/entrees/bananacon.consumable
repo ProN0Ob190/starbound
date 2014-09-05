@@ -1,0 +1,19 @@
+{
+  "itemName" : "bananacon",
+  "rarity" : "Common",
+  "inventoryIcon" : "bananacon.png",
+  "description" : "With bacon, a banana and some wizardry, you get...bananacon.",
+  "shortdescription" : "Bananacon",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 100
+      },
+      {
+        "kind" : "mollyhealing2" },
+      {
+        "kind" : "energy",
+        "amount" : 15
+      }
+    ] ]
+}

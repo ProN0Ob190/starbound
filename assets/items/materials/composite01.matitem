@@ -1,0 +1,12 @@
+{
+  "itemName" : "composite01material",
+  "rarity" : "Common",
+  "inventoryIcon" : "composite01.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A smooth panel made of titanium.",
+  "shortdescription" : "Titanium Panel",
+  "glitchdescription" : "Statement. Titanium.",
+  "florandescription" : "Sssmooth titanium.",
+
+  "materialId" : 4
+}

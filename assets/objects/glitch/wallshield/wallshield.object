@@ -1,0 +1,31 @@
+{
+  "objectName" : "wallshield",
+  "rarity" : "Common",
+  "description" : "Just a ceremonial shield. It wouldn't do much good in a fight.",
+  "shortdescription" : "Glitch Shield Display",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 350,
+
+  "apexDescription" : "An attractive shield. Purely decorative, however.",
+  "avianDescription" : "A brightly coloured shield.",
+  "floranDescription" : "Blood red sshield!",
+  "glitchDescription" : "Evaluate. A purely decorative shield. A single heavy blow would shatter it completely.",
+  "humanDescription" : "A attractive but weak-looking shield.",
+  "hylotlDescription" : "A nice piece of craftsmanship, but made entirely from decorative materials.",
+
+  "inventoryIcon" : "wallshieldicon.png",
+  "orientations" : [
+    {
+      "image" : "wallshield.png:<color>",
+
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

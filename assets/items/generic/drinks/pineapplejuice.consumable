@@ -1,0 +1,14 @@
+{
+  "itemName" : "pineapplejuice",
+  "rarity" : "Common",
+  "inventoryIcon" : "pineapplejuice.png",
+  "description" : "Sweet, tasty pineapple juice.",
+  "shortdescription" : "Pineapple Juice",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 5
+      }
+    ] ]
+}

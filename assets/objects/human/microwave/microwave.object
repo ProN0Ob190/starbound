@@ -1,0 +1,40 @@
+{
+  "objectName" : "microwave",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "category" : "light",
+  "price" : 800,
+  "lightColor" : [204, 202, 155],
+
+  "description" : "Nuke all the foods!",
+  "shortdescription" : "Microwave",
+  "race" : "human",
+
+  "apexDescription" : "A device for quickly cooking food.",
+  "avianDescription" : "A bit like an oven, but quicker.",
+  "floranDescription" : "Floran put creature in here. Creature pop. Floran eat. Tasssty.",
+  "glitchDescription" : "Edgy. Microwaves can be somewhat damaging to Glitch circuitry.",
+  "humanDescription" : "I once microwaved a salad. It wasn't too bad, actually!",
+  "hylotlDescription" : "A method of cooking for those who do not care about the quality of their preparation.",
+
+  "inventoryIcon" : "microwaveicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "microwave.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+  "recipeGroup" : "cooking",
+  "openSounds" : [ "/sfx/objects/campfire_use.wav" ],
+  "slotCount" : 2,
+  "uiConfig" : "/interface/objectcrafting/campfire.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

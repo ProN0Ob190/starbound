@@ -1,0 +1,31 @@
+{
+  "objectName" : "hylotlpainting2",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 1200,
+
+  "shortdescription" : "Traditional Mountain Painting",
+  "description" : "It's a copy of an old, famous painting.",
+  "race" : "hylotl",
+
+  "apexDescription" : "This painting is quite nice.",
+  "avianDescription" : "Not bad! Brushwork's a bit sloppy, though.",
+  "floranDescription" : "Floran not care for silly frogman painting.",
+  "glitchDescription" : "Critical. Scans indicate a numbered grid below the paint. It's a paint-by-numbers kit.",
+  "humanDescription" : "I'm pretty sure we had this exact same painting on earth.",
+  "hylotlDescription" : "A stunning cavalcade of colour and emotion.",
+
+  "inventoryIcon" : "hylotlpainting2icon.png",
+  "orientations" : [
+    {
+      "image" : "hylotlpainting2.png:<color>",
+      "imagePosition" : [-20, -12],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

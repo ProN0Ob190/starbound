@@ -1,0 +1,34 @@
+{
+  "objectName" : "bunkerwires",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 200,
+  "description" : "This is just an electrical fire waiting to happen.",
+  "shortdescription" : "Wires",
+  "race" : "human",
+
+  "apexDescription" : "Wires.",
+  "avianDescription" : "Haphazard wires.",
+  "floranDescription" : "Floran tug wiresss, cause sssparks. Not like.",
+  "glitchDescription" : "Caution. Scans indicate a ninety eight percent chance of electrical failure.",
+  "humanDescription" : "Cable ties are in short supply these days.",
+  "hylotlDescription" : "A messy heap of wires. Unsafe.",
+
+  "inventoryIcon" : "bunkerwiresicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bunkerwires.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/bunkerwires.wav",
+  "soundEffectRadius" : 15
+
+}

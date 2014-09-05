@@ -1,0 +1,30 @@
+{
+  "objectName" : "floranceilingbones",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 300,
+  "description" : "A string of bones hang from the ceiling like sort of morbid wind chime.",
+  "shortdescription" : "Bone Chimes",
+  "race" : "floran",
+
+  "apexDescription" : "The bones click and clack in the wind.",
+  "avianDescription" : "The clicking sound these bones make is unnerving.",
+  "floranDescription" : "Floran enjoy ssound of wind boness.",
+  "glitchDescription" : "Recording. The waveform of the sound these bones make is similar to that of clicking insects.",
+  "humanDescription" : "Eerie bone wind chimes. Though they don't so much chime as they do click.",
+  "hylotlDescription" : "The sound makes my skin crawl.",
+
+  "inventoryIcon" : "floranceilingbonesicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "floranceilingbones.png:<color>",
+      "imagePosition" : [-20, -13],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+
+    }
+  ]
+}

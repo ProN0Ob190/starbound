@@ -1,0 +1,7 @@
+{
+  "itemName" : "ironbar",
+  "rarity" : "Common",
+  "inventoryIcon" : "ironbar.png",
+  "description" : "It's an iron bar. Useful for crafting a bunch of stuff.",
+  "shortdescription" : "Iron Bar"
+}

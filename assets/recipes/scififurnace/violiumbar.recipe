@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "violiumore", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "refinedviolium",
+    "count" : 1
+  },
+  "groups" : [ "scififurnace", "all" ]
+}

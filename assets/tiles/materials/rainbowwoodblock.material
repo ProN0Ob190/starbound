@@ -1,0 +1,23 @@
+{
+  "materialId" : 163,
+  "materialName" : "rainbowwoodblock",
+  "particleColor" : [137, 124, 76, 255],
+  "itemDrop" : "rainbowwoodblock",
+  "description" : "Simply fabulous.",
+  "shortdescription" : "Rainbow Wood Planks",
+  "glitchDescription" : "Admiration. Rainbow wood.",
+  "floranDescription" : "Colourful woodsss.",
+  "footstepSound" : "/sfx/blocks/footstep_wood.wav",
+  "health" : 7,
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rainbowwoodblock.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

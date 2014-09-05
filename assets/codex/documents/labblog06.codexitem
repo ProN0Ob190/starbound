@@ -1,0 +1,10 @@
+{
+  "codexId" : "labblog06",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "apexlabbook_06.png",
+  "itemName" : "labblog06Codex",
+  "rarity" : "common",
+  "description" : "Blog of a Lab Assistant #6",
+  "shortdescription" : "Assistant's Blog"
+}

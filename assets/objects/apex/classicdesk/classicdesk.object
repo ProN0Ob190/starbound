@@ -1,0 +1,31 @@
+{
+  "objectName" : "classicdesk",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 1000,
+  "description" : "The sort of desk that's used exclusively for making important decisions.",
+  "shortdescription" : "Classic Desk",
+  "race" : "apex",
+
+  "apexDescription" : "What ghastly decisions were made at this desk?",
+  "avianDescription" : "Though the Avians do not value gold as highly as some, I am amazed by the craftsmanship on display here.",
+  "floranDescription" : "Sssuch a shhiny desk. Perhaps monkeymen blind when decisions made.",
+  "glitchDescription" : "Opulence. The Glitch value gold highly; one could purchase a keep with such a desk.",
+  "humanDescription" : "I don't feel important enough to sit at a desk like this.",
+  "hylotlDescription" : "Sometimes the humble make the best decisions.",
+
+  "inventoryIcon" : "classicdeskicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "classicdesk.png:<color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

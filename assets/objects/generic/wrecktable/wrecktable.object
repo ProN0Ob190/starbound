@@ -1,0 +1,31 @@
+{
+  "objectName" : "wrecktable",
+  "rarity" : "Common",
+  "description" : "A battered old table. Still operational as far as tables go!",
+  "shortdescription" : "Wrecked Table",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 300,
+
+  "apexDescription" : "I guess it still functions... it's a table after all.",
+  "avianDescription" : "It appears to be hollow.",
+  "floranDescription" : "Floran hear sssound from insside.",
+  "glitchDescription" : "Scanning. Life readings from inside table.",
+  "humanDescription" : "A strange smell is coming from the table.",
+  "hylotlDescription" : "I sense something inside the table.",
+
+  "inventoryIcon" : "wrecktableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "wrecktable.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

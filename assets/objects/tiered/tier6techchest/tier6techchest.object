@@ -1,0 +1,38 @@
+{
+  "objectName" : "tier6techchest",
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+
+  "category" : "storage",
+  "price" : 500,
+  "description" : "A chest with bright glowing markings throughout.",
+  "shortdescription" : "Ferozium Tech Chest",
+  "race" : "generic",
+
+  "apexDescription" : "A chest! I wonder what's inside?",
+  "avianDescription" : "A chest. Exciting.",
+  "floranDescription" : "Floran like treasuresss.",
+  "glitchDescription" : "Statement. A chest.",
+  "humanDescription" : "Cool chest!",
+  "hylotlDescription" : "A chest. Joy.",
+
+  "inventoryIcon" : "tier6techchesticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "tier6techchest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

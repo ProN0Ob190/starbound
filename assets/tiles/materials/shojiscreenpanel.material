@@ -1,0 +1,24 @@
+{
+  "materialId" : 115,
+  "materialName" : "shojiscreenpanel",
+  "frames" : "shojiscreenpanel.png",
+  "particleColor" : [122, 95, 65, 255],
+  "itemDrop" : "shojiscreenpanel",
+  "description" : "A traditional screen panel.",
+  "shortdescription" : "Shoji Screen Panel",
+  "glitchDescription" : "Statement. A panel.",
+  "floranDescription" : "Panel.",
+  "footstepSound" : "/sfx/blocks/footstep_wood.wav",
+  "health" : 4,
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "shojiscreenpanel.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

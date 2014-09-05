@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 100 }
+  ],
+  "output" : {
+    "item" : "yarnspinner",
+    "count" : 1
+  },
+  "groups" : [ "craftingtable", "objects", "tools", "all" ]
+}

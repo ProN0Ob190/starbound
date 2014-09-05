@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "feroziumcompound", "count" : 1 },
+    { "item" : "torch", "count" : 1 }
+  ],
+  "output" : { "item" : "tier6light", "count" : 1 },
+  "groups" : [ "acceleratortable", "light", "objects", "all" ]
+}

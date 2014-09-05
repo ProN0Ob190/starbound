@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "refinedviolium", "count" : 5 }
+  ],
+  "output" : { "item" : "tier8bed", "count" : 1 },
+  "groups" : [ "separatortable", "furniture", "objects", "all" ]
+}

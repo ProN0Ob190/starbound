@@ -1,0 +1,10 @@
+{
+  "itemName" : "randblinktech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/blink.png",
+  "description" : "Press F to teleport to random places with this Random Blink tech! Are you brave enough?",
+  "shortdescription" : "Random Blink",
+  "tooltipKind" : "tech",
+
+  "techModule" : "randblink.tech"
+}

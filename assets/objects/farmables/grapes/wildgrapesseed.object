@@ -1,0 +1,83 @@
+{
+  "objectName" : "wildgrapesseed",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Grapes, natures snackfood.",
+  "shortdescription" : "Grape Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "objectItem" : "grapesseed",
+
+  "apexDescription" : "A luxury fruit. Grapes and bananas make a wonderful fruit salad. Sadly most Apex never get to taste them.",
+  "avianDescription" : "Small, simple, peckable grapes.",
+  "floranDescription" : "Bursssty and juicccy, green eyeballsss.",
+  "glitchDescription" : "Statement. Grapes make for good projectiles as well as good snacks.",
+  "humanDescription" : "Grapes. A traditional gift for those in the medical bay.",
+  "hylotlDescription" : "Sea grapes taste so much better, these are too sweet.",
+
+  "inventoryIcon" : "grapesseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "grapesseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "grapes",
+            "count" : 1
+          },
+          {
+            "name" : "grapesseed",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "grapes",
+            "count" : 1
+          },
+          {
+            "name" : "plantfibre",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "grapes",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [660, 780],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [660, 780],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

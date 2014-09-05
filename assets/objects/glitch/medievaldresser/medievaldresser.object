@@ -1,0 +1,41 @@
+{
+  "objectName" : "medievaldresser",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "description" : "This dresser has a dusty smell. It doesn't look very strong.",
+  "shortdescription" : "Glitch Dresser",
+  "race" : "glitch",
+  "category" : "storage",
+  "price" : 600,
+
+  "apexDescription" : "A simple dresser. I wonder why the Glitch wear clothes.",
+  "avianDescription" : "A storage unit and table in one.",
+  "floranDescription" : "Floran ssniff metalman furniture and Floran get nosse full of dusst.",
+  "glitchDescription" : "Observation. A Glitch dresser. Glitch hardware is built to function poorly at low temperature. The Glitch wear clothing for optimal operation.",
+  "humanDescription" : "A wooden dresser. You'd think Glitch wouldn't need clothes.",
+  "hylotlDescription" : "A storage unit, possibly for clothes. Is clothing a mandatory part of Glitch culture, I wonder?",
+
+  "inventoryIcon" : "medievaldressericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "medievaldresser.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/woodenbox_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/woodenbox_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+
+}

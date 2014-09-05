@@ -1,0 +1,13 @@
+{
+  "itemName" : "cookedalienmeat",
+  "rarity" : "Common",
+  "inventoryIcon" : "cookedalienmeat.png",
+  "description" : "A slab of delicious cooked alien meat.",
+  "shortdescription" : "Cooked Alien Meat",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 30
+      }
+    ] ]
+}

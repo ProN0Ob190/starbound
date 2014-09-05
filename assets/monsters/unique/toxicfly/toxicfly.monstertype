@@ -1,0 +1,80 @@
+{
+  "type" : "toxicfly",
+
+  "categories" : [ "toxicfly" ],
+  "parts" : [ "body", "head" ],
+
+  "animation" : "toxicfly.animation",
+  "colors" : "/monsters/colors.config",
+  "reversed" : true,
+
+  "dropPools" : [ "basicMonsterTreasure" ],
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/unique/toxicfly/behavior.lua",
+      "/scripts/sensors.lua",
+      "/scripts/stateMachine.lua",
+      "/scripts/util.lua",
+      "/scripts/vec2.lua"
+    ],
+
+    "metaBoundBox" : [-1.625, -1.25, 1.875, 1.625],
+    "scale" : 1.0,
+
+    "movementSettings" : {
+      "collisionPoly" : [ [-1.625, -1.25], [1.875, -1.25], [1.875, 1.625], [-1.0, 1.625] ],
+
+      "mass" : 0.1,
+      "walkSpeed" : 3,
+      "runSpeed" : 6,
+      "jumpSpeed" : 5,
+      "flySpeed" : 10,
+      "airFriction" : 0.1,
+      "airForce" : 50.0
+    },
+
+    "bodyMaterialKind" : "organic",
+
+    "knockoutTime" : 1,
+    "knockoutEffect" : "blink",
+    "deathParticles" : "deathPoof",
+    "deathNoise" : [ ],
+    "turnHostileNoise" : [ ],
+
+    "touchDamage" : {
+      "poly" : [ [-1.625, -1.25], [1.875, -1.25], [1.875, 1.625], [-1.0, 1.625] ],
+      "damage" : 30,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "bite",
+      "statusEffects" : [ ]
+    },
+
+    "statusParameters" : {
+      "baseMaxHealth" : 14,
+      "bodyMaterialKind" : "organic",
+      "damageConfig" : "/damage/damageresponse/groundnpc.config"
+    },
+
+    "innateStatusEffects" : [
+      {
+        "kind" : "Protection",
+        "amount" : 1.0
+      }
+    ],
+
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -8],
+
+    "blockedSensors" : [ [2.0, 0.0], [2.0, 1.0], [2.0, -1.0] ],
+
+    "idleTimeRange" : [10, 25.0],
+    "idleLandSensor" : [ [0, -5] ],
+    "idleCooldown" : 10,
+
+    "moveTimeRange" : [5.0, 15.0],
+    "moveGroundSensor" : [ [0, -6] ],
+    "moveCeilingSensor" : [ [0, 4] ]
+  }
+}

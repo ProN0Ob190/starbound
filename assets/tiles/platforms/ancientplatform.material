@@ -1,0 +1,21 @@
+{
+  "materialId" : 189,
+  "materialName" : "ancientplatform",
+  "platform" : true,
+  "transparent" : true,
+  "itemDrop" : "ancientplatform",
+  "shortdescription" : "Ancient Platform",
+  "description" : "Ancient platform... It's some kind of stone tech.",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.wav",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "ancientplatform.png",
+    "variants" : 3,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multicolored" : true,
+    "zLevel" : 0,
+    "platform" : true
+  }
+}

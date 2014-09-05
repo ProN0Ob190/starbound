@@ -1,0 +1,12 @@
+{
+  "itemName" : "rustyblock",
+  "rarity" : "Common",
+  "inventoryIcon" : "rustyblock.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A rusty old block.",
+  "shortdescription" : "Rusty Block",
+  "glitchdescription" : "Statement. A rusty block.",
+  "florandescription" : "Russsty.",
+
+  "materialId" : 166
+}

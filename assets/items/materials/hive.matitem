@@ -1,0 +1,12 @@
+{
+  "itemName" : "hive",
+  "rarity" : "Common",
+  "inventoryIcon" : "hive.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A solid material made from the remains of fallen creatures... I think I see an eyeball.",
+  "shortdescription" : "Hivestone",
+  "glitchdescription" : "Analysis. This material is made up of crushed creatures.",
+  "florandescription" : "Crussshed animals.",
+
+  "materialId" : 41
+}

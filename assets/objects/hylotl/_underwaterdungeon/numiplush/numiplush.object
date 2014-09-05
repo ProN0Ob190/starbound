@@ -1,0 +1,31 @@
+{
+  "objectName" : "numiplush",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 500,
+
+  "description" : "A plushie of Numi, the mascot from a Hylotl children's cartoon of the same name.",
+  "shortdescription" : "Numi Plushie",
+  "race" : "hylotl",
+
+  "apexDescription" : "A Hylotl plushie. It's cute, but I think I'll pass.",
+  "avianDescription" : "I don't know that I want a plushie of a Hylotl.",
+  "floranDescription" : "Yuck, frogman plushie.",
+  "glitchDescription" : "Tempted. It's very cute...",
+  "humanDescription" : "It's a plushie of Numi, a character from a children's cartoon. I'll pass, I think.",
+  "hylotlDescription" : "It's a cute plush toy, but I'm admittedly tired of seeing Numi everywhere.",
+
+  "inventoryIcon" : "numiplushicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "numiplush.png:<color>",
+      "imagePosition" : [-12, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

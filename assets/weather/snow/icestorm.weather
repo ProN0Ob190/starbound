@@ -1,0 +1,61 @@
+{
+  "name" : "icestorm",
+  "icon" : "/interface/cockpit/weather/blizzard.png",
+
+  "particles" : [
+    {
+      "density" : 0.15,
+      "particle" : {
+        "type" : "textured",
+        "image" : "/particles/snow/1.png",
+        "velocity" : [0, -1.5],
+        "angularVelocity" : 180,
+        "timeToLive" : 100,
+        "collidesForeground" : true,
+        "collidesLiquid" : true
+      }
+    },
+    {
+      "density" : 0.15,
+      "particle" : {
+        "type" : "textured",
+        "image" : "/particles/snow/2.png",
+        "velocity" : [0, -3.75],
+        "angularVelocity" : 180,
+        "timeToLive" : 100,
+        "collidesForeground" : true,
+        "collidesLiquid" : true
+      }
+    },
+    {
+      "density" : 0.15,
+      "particle" : {
+        "type" : "textured",
+        "image" : "/particles/snow/3.png",
+        "velocity" : [0, -2],
+        "angularVelocity" : 180,
+        "timeToLive" : 100,
+        "collidesForeground" : true,
+        "collidesLiquid" : true
+      }
+    }
+  ],
+
+  "projectiles" : [
+    {
+      "projectile" : "icestorm",
+      "parameters" : {
+        "power" : 10
+      },
+      "velocity" : [10, -30],
+      "ratePerX" : 0.01,
+      "spawnAboveRegion" : 30,
+      "spawnHorizontalPad" : 30,
+      "windAffectAmount" : 1.0
+    }
+  ],
+
+  "duration" : [50, 400],
+  "lightningFrequency" : 0,
+  "weatherNoises" : [ ]
+}

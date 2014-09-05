@@ -1,0 +1,66 @@
+{
+  "type" : "outpostavianrefugee",
+  "baseType" : "outpostcivilian",
+
+    "scriptConfig" : {
+        "converse" : {
+            "waitTime" : 0.5,
+            "dialog" : {
+          
+                "default" : [
+                      "I almost became a ritual sacrifice to Kluex, but was rescued and brought here. What do I do now?"
+                ],
+            
+                "avian" : {
+                    "default" : [
+                      "I almost became a ritual sacrifice to Kluex, but was rescued and brought here. What do I do now?"
+                    ],
+
+                    "avian" : [
+                      "Another who no longer follows Kluex? Your presence brings me comfort, friend."
+                    ],
+
+                    "apex" : [
+                      "I almost became a ritual sacrifice to Kluex, but was rescued and brought here. What do I do now?"
+                    ],
+
+                    "floran" : [
+                      "I almost became a ritual sacrifice to Kluex, but was rescued and brought here. What do I do now?"
+                    ],
+
+                    "glitch" : [
+                      "I almost became a ritual sacrifice to Kluex, but was rescued and brought here. What do I do now?"
+                    ],
+
+                    "human" : [
+                      "I almost became a ritual sacrifice to Kluex, but was rescued and brought here. What do I do now?"
+                    ],
+
+                    "hylotl" : [
+                      "I almost became a ritual sacrifice to Kluex, but was rescued and brought here. What do I do now?"
+                    ]
+                }
+            }
+        }
+    },
+
+    "items" : {
+        "default" : [
+            [0, [
+                {
+                    "chest" : [ { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 11 } } ],
+                    "legs" : [ { "name" : "hylotltier4pants", "parameters" : { "colorIndex" : 11 } } ]
+                }
+            ] ]
+        ]
+    },
+
+      "statusParameters" : {
+        "baseMaxHealth" : 40,
+        "baseMaxEnergy" : 40,
+        "bodyMaterialKind" : "organic",
+        "damageConfig" : "/damage/damageresponse/npcs.config",
+        "invulnerabilityTime" : 0,
+        "energyReplenishmentRate" : 100.0
+      }
+}

@@ -1,0 +1,10 @@
+{
+  "codexId" : "sewerdayout",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "glitchsewerbook_03.png",
+  "itemName" : "sewerdayoutCodex",
+  "rarity" : "common",
+  "description" : "A Nice Day Out",
+  "shortdescription" : "Nice Day Out"
+}

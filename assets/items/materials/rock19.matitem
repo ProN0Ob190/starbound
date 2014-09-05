@@ -1,0 +1,12 @@
+{
+  "itemName" : "rock19",
+  "rarity" : "Common",
+  "inventoryIcon" : "rock19.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Sharp rocks produced by blasts of enormous heat.",
+  "shortdescription" : "rock19",
+  "glitchdescription" : "Analysis. Blaststone.",
+  "florandescription" : "Floran make ssstone go boom.",
+
+  "materialId" : 74
+}

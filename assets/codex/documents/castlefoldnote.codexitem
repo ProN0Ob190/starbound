@@ -1,0 +1,10 @@
+{
+  "codexId" : "castlefoldnote",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "glitchcastlebook_08.png",
+  "itemName" : "castlefoldnoteCodex",
+  "rarity" : "common",
+  "description" : "A Well-Folded Note",
+  "shortdescription" : "Folded Note"
+}

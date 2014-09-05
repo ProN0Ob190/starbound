@@ -1,0 +1,22 @@
+{
+  "itemName" : "eyebowls",
+  "rarity" : "Common",
+  "inventoryIcon" : "eyebowls.png",
+  "description" : "Oculemon stuffed inside half an eggshoot-- a popular hors d'oeuvres at Floran gatherings.",
+  "shortdescription" : "eyebowls",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 60
+      },
+      {
+        "kind" : "health",
+        "amount" : 10
+      },
+      {
+        "kind" : "energy",
+        "amount" : 10
+      }
+    ] ]
+}

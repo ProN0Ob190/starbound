@@ -1,0 +1,10 @@
+{
+  "codexId" : "florvilarchitect",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "floranvillagebook_05.png",
+  "itemName" : "florvilarchitectCodex",
+  "rarity" : "common",
+  "description" : "Floran Architecture",
+  "shortdescription" : "Floran Architecture"
+}

@@ -1,0 +1,22 @@
+{
+  "materialId" : 174,
+  "materialName" : "matterblock",
+  "particleColor" : [75, 23, 93, 255],
+  "itemDrop" : "matteritem",
+  "description" : "A block of matter.",
+  "shortdescription" : "Matter Block",
+  "glitchDescription" : "Statement. Matter.",
+  "floranDescription" : "Matter block!",
+  "footstepSound" : "/sfx/blocks/footstep_glass.wav",
+  "health" : 10,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "matterblock.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

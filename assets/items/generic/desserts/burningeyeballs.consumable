@@ -1,0 +1,22 @@
+{
+  "itemName" : "burningeyeballs",
+  "rarity" : "Common",
+  "inventoryIcon" : "burningeyeballs.png",
+  "description" : "Watch out, they're super spicy!",
+  "shortdescription" : "Burning Eyeballs",
+  "handPosition" : [3, -4],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 100
+      },
+      {
+        "kind" : "mollyhealing2" },
+      {
+        "kind" : "fire",
+        "amount" : 15
+      },
+      {
+        "kind" : "sugarrush" }
+    ] ]
+}

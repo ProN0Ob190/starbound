@@ -1,0 +1,10 @@
+{
+  "projectileName" : "waterballoon",
+  "physics" : "grenade",
+  "frames" : "waterballoon.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 2,
+
+  "actionOnReap" : [ { "action" : "liquid", "liquidId" : 1, "quantity" : 1000 } ],
+  "damageKind" : "default"
+}

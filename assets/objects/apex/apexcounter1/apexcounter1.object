@@ -1,0 +1,41 @@
+{
+  "objectName" : "apexcounter1",
+  "rarity" : "Common",
+  "category" : "storage",
+  "objectType" : "container",
+  "price" : 1000,
+  "description" : "A pair of retro-styled kitchen cabinets.",
+  "shortdescription" : "Standard Issue Cabinet",
+  "race" : "apex",
+
+  "apexDescription" : "Old-fashioned but functional.",
+  "avianDescription" : "A good place to store food.",
+  "floranDescription" : "Ssstorage for food. Mmmmmm.",
+  "glitchDescription" : "Hunger. The possibility of food excites even the Glitch.",
+  "humanDescription" : "Looks like a kitchen counter.",
+  "hylotlDescription" : "What dishes might dwell within, I wonder?",
+
+
+  "inventoryIcon" : "apexcounter1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "apexcounter1.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/woodendoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/woodendoor_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+
+}

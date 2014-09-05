@@ -1,0 +1,41 @@
+{
+  "objectName" : "medievaldesk",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "description" : "A nicely made wooden desk.",
+  "shortdescription" : "Glitch Desk",
+  "race" : "glitch",
+  "category" : "furniture",
+  "price" : 600,
+
+  "apexDescription" : "A desk for paperwork. It's covered in ink stains.",
+  "avianDescription" : "A desk built for an academic.",
+  "floranDescription" : "Metalman put ink on paper here.",
+  "glitchDescription" : "Reflect. The majority of Glitch are unable to read or write. This is a desk used almost exclusively by scholars.",
+  "humanDescription" : "A writing desk. The surface is covered in splattered ink.",
+  "hylotlDescription" : "The Hylotl practice calligraphy on desks like these.",
+
+  "inventoryIcon" : "medievaldeskicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "medievaldesk.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/woodenbox_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/woodenbox_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+
+}

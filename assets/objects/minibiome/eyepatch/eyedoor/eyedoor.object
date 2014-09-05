@@ -1,0 +1,44 @@
+{
+  "objectName" : "eyedoor",
+  "printable" : false,
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 800,
+  "description" : "A door covered in eyes. Don't blink.",
+  "shortdescription" : "Eye Door",
+  "race" : "generic",
+
+  "apexDescription" : "The door's piercing gaze is just daring me to enter.",
+  "avianDescription" : "These eyes emanate malevolence. What horrors lie beyond?",
+  "floranDescription" : "Floran think door look at Floran funny. Floran feel territorial.",
+  "glitchDescription" : "Puzzlement. Does a door need this many eyes? What's wrong with just two?",
+  "humanDescription" : "This door doesn't look very welcoming. I think that was sort of a pun.",
+  "hylotlDescription" : "An overly dramatic door covered in eyes. Hylotl prefer stark beauty to convey importance.",
+
+  "inventoryIcon" : "eyedooricon.png",
+  "orientations" : [
+    {
+      "image" : "eyedoor.png:default",
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationParts" : {
+    "door" : "eyedoor.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "inboundNodes" : [ [0, 4] ],
+  "outboundNodes" : [ [0, 0] ],
+
+  "openSounds" : [ "/sfx/objects/fleshdoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/fleshdoor_close.wav" ]
+}

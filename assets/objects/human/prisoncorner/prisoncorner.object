@@ -1,0 +1,37 @@
+{
+  "objectName" : "prisoncorner",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 300,
+  "description" : "Such pretty architecture seems out of place in a prison.",
+  "shortdescription" : "Decorative Support Beam",
+  "race" : "human",
+
+  "apexDescription" : "Human prisoners at least have pleasant architecture to look at.",
+  "avianDescription" : "I can't decide if this is pretty or foreboding.",
+  "floranDescription" : "Ssspiky corner. Floran like design.",
+  "glitchDescription" : "Pleased. Human and Glitch architecture seem to share certain similarities.",
+  "humanDescription" : "The penal comfort code of twenty twenty decreed that all prisons have to be elaborately decorated, to keep prisoners happy.",
+  "hylotlDescription" : "Humans seem to treat their prisoners with respect. The Hylotl do the same.",
+
+  "inventoryIcon" : "prisoncornericon.png",
+  "orientations" : [
+    {
+      "image" : "prisoncornerleft.png:<color>",
+
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "top" ]
+    },
+
+    {
+      "image" : "prisoncornerright.png:<color>",
+
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.01,
+      "anchors" : [ "right", "top" ]
+    }
+  ]
+}

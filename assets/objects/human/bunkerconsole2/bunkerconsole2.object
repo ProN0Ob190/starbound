@@ -1,0 +1,31 @@
+{
+  "objectName" : "bunkerconsole2",
+  "rarity" : "Common",
+
+  "category" : "wire",
+  "price" : 750,
+  "description" : "Two keyboards and one monitor?",
+  "shortdescription" : "Large Console",
+  "race" : "human",
+
+  "apexDescription" : "A command console. Not sure what it does.",
+  "avianDescription" : "This looks dangerous to fiddle with.",
+  "floranDescription" : "Floran sssmash keyboard, hear dissstant explosssion. Unrelated.",
+  "glitchDescription" : "Observation. The more keyboards a console has, the more... nope. Stumped.",
+  "humanDescription" : "Ah, the infamous 'dual keyboard' design. It never really caught on.",
+  "hylotlDescription" : "Why would one ever need two keyboards?",
+
+  "inventoryIcon" : "bunkerconsole2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bunkerconsole2.png:<color>.off",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/bunkerconsole.wav"
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "humanjeep",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/humanjeep.png",
+  "description" : "Press F to use this. Traverses rough terrain quicker. It can also jump!",
+  "shortdescription" : "Human Jeep",
+  "tooltipKind" : "tech",
+
+  "techModule" : "humanjeep.tech"
+}

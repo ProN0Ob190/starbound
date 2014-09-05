@@ -1,0 +1,17 @@
+{
+  "modId" : 29,
+  "modName" : "uranium",
+  "itemDrop" : "uraniumore",
+  "Description" : "Uranium.",
+  "health" : 10,
+  "harvestLevel" : 4,
+  "breaksWithTile" : true,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "uranium.png",
+    "variants" : 8,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

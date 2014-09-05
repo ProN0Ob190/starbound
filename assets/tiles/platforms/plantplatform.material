@@ -1,0 +1,21 @@
+{
+  "materialId" : 126,
+  "materialName" : "plantplatform",
+  "platform" : true,
+  "transparent" : true,
+  "itemDrop" : "plantplatform",
+  "shortdescription" : "Mossy Platform",
+  "description" : "The platform is slimy with moss and leaves. Best be careful not to slip!",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.wav",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "plantplatform.png",
+    "variants" : 5,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multicolored" : false,
+    "zLevel" : 0,
+    "platform" : true
+  }
+}

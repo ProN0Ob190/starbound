@@ -1,0 +1,23 @@
+{
+  "materialId" : 119,
+  "materialName" : "fence",
+  "particleColor" : [137, 124, 76, 255],
+  "itemDrop" : "fence",
+  "description" : "A sturdy wooden fence.",
+  "shortdescription" : "Wooden Fence",
+  "glitchDescription" : "Statement. A sturdy fence.",
+  "floranDescription" : "Sssturdy fence.",
+  "footstepSound" : "/sfx/blocks/footstep_wood.wav",
+  "health" : 6,
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "fence.png",
+    "variants" : 5,
+    "lightTransparent" : true,
+    "multiColored" : true,
+    "occludesBelow" : false,
+    "zLevel" : 0
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "objectName" : "bonespike",
+  "rarity" : "Common",
+  "category" : "other",
+  "price" : 300,
+
+  "description" : "Don't wanna fall on one of these...",
+  "shortdescription" : "Bone Spike.",
+  "race" : "generic",
+
+  "apexDescription" : "A sharp spike, made of bone.",
+  "avianDescription" : "The bone looks razor sharp.",
+  "floranDescription" : "Sssharp and pointy.",
+  "glitchDescription" : "Cautious. Sharp bone could penetrate Glitch shell.",
+  "humanDescription" : "I'd better not touch these.",
+  "hylotlDescription" : "I will gracefully avoid these.",
+
+  "particleEmitter" : {
+    "emissionRate" : 0.1,
+    "emissionVariance" : 0.05,
+    "pixelOrigin" : [0, 0],
+
+    "particle" : {
+      "type" : "textured",
+      "image" : "/particles/hazard/hazardstat.png",
+      "size" : 1.0,
+      "color" : [73, 179, 253, 255],
+      "fade" : 0,
+      "destructionAction" : "shrink",
+      "destructionTime" : 7,
+      "initialVelocity" : [3, 4],
+      "finalVelocity" : [-3, 2],
+      "approach" : [4, 1],
+      "timeToLive" : 1,
+      "layer" : "middle"
+    }
+
+  },
+
+  "inventoryIcon" : "bonespikeicon.png",
+  "orientations" : [
+    
+    {
+      "image" : "bonespiketop.png:<color>",
+      "flipImages" : true,
+      "direction" : "left",
+      "imagePosition" : [0, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ],
+
+          "touchDamage" : {
+            "poly" : [ [0.5, -1.0], [0.8, 1.0], [0.2, 1.0] ],
+            "damage" : 10,
+
+            "damageType" : "IgnoresDef",
+            "damageSourceKind" : "spear"
+          }
+    },
+    {
+      "image" : "bonespiketop.png:<color>",
+      "direction" : "right",
+      "imagePosition" : [0, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ],
+
+          "touchDamage" : {
+            "poly" : [ [0.5, -1.0], [0.8, 1.0], [0.2, 1.0] ],
+            "damage" : 10,
+
+            "damageType" : "IgnoresDef",
+            "damageSourceKind" : "spear"
+          }
+    },
+    {
+      "image" : "bonespikebottom.png:<color>",
+      "flipImages" : true,
+      "direction" : "left",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+
+          "touchDamage" : {
+            "poly" : [ [0.2, 0.0], [0.5, 2.0], [0.8, 0.0] ],
+            "damage" : 10,
+
+            "damageType" : "IgnoresDef",
+            "damageSourceKind" : "spear"
+          }
+    },
+    {
+      "image" : "bonespikebottom.png:<color>",
+      "direction" : "right",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+
+          "touchDamage" : {
+            "poly" : [ [0.2, 0.0], [0.5, 2.0], [0.8, 0.0] ],
+            "damage" : 10,
+
+            "damageType" : "IgnoresDef",
+            "damageSourceKind" : "spear"
+          }
+    },
+    {
+      "image" : "bonespikeleft.png:<color>",
+      "direction" : "right",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ],
+
+          "touchDamage" : {
+            "poly" : [ [0.0, 0.2], [2.0, 0.5], [0.0, 0.8] ],
+            "damage" : 10,
+
+            "damageType" : "IgnoresDef",
+            "damageSourceKind" : "spear"
+          }
+    },
+    {
+      "image" : "bonespikeright.png:<color>",
+      "direction" : "right",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ],
+
+          "touchDamage" : {
+            "poly" : [ [1.0, 0.2], [-1.0, 0.5], [1.0, 0.8] ],
+            "damage" : 10,
+
+            "damageType" : "IgnoresDef",
+            "damageSourceKind" : "spear"
+          }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "objectName" : "alertlight",
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 500,
+  "description" : "The flashing light is meant to signal that there's been some sort of emergency...",
+  "shortdescription" : "Alert Light",
+  "race" : "generic",
+
+  "apexDescription" : "These alarms were common in Apex housing, signalling unacceptable behaviour.",
+  "avianDescription" : "The machine, it squawks like a bird.",
+  "floranDescription" : "Ssswirling light. Like firefly in a jar.",
+  "glitchDescription" : "Dismissal. A coloured light.",
+  "humanDescription" : "These things scream danger.",
+  "hylotlDescription" : "A clumsy dancing light.",
+
+  "lightColors" : {
+    "default" : [247, 123, 123],
+    "red" : [247, 123, 123],
+    "pink" : [247, 123, 123],
+    "blue" : [155, 200, 255],
+    "green" : [190, 247, 124],
+    "yellow" : [255, 182, 128],
+    "orange" : [248, 125, 222],
+    "black" : [228, 255, 255],
+    "white" : [228, 255, 255]
+  },
+
+  "inventoryIcon" : "alertlighticon.png",
+  "orientations" : [
+    {
+      "image" : "alertlightceiling.png:<color>.<frame>",
+      "frames" : 10,
+      "imagePosition" : [1, 0],
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+
+    {
+      "image" : "alertlightground.png:<color>.<frame>",
+      "frames" : 10,
+      "imagePosition" : [1, 0],
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+
+    {
+      "image" : "alertlightleft.png:<color>.<frame>",
+      "frames" : 10,
+      "imagePosition" : [0, 0],
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ]
+    },
+
+    {
+      "image" : "alertlightright.png:<color>.<frame>",
+      "frames" : 10,
+      "imagePosition" : [0, 0],
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ]
+    }
+  ]
+}

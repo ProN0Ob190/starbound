@@ -1,0 +1,32 @@
+{
+  "objectName" : "apexwoodenshelves",
+  "rarity" : "Common",
+  "description" : "The shelves are empty.",
+  "shortdescription" : "Standard Issue Shelves",
+  "race" : "apex",
+  "category" : "decorative",
+  "price" : 800,
+
+  "apexDescription" : "Empty shelves. Ornaments and keepsakes are not permitted by the Miniknog.",
+  "avianDescription" : "An Avian home is decorated with objects that aid in evoking pleasant memories. Perhaps the Apex have no such memories to evoke.",
+  "floranDescription" : "Nothing here for Floran, musst look elsssewhere.",
+  "glitchDescription" : "Bored. There is nothing of interest here.",
+  "humanDescription" : "Empty... that's sad.",
+  "hylotlDescription" : "Such lonely souls.",
+
+  "inventoryIcon" : "apexwoodenshelvesicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "apexwoodenshelves.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

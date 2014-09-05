@@ -1,0 +1,30 @@
+{
+  "objectName" : "bunkerconsole1",
+  "rarity" : "Common",
+
+  "category" : "wire",
+  "price" : 600,
+  "description" : "It's full of really tempting levers but I should probably leave it alone.",
+  "shortdescription" : "Standard Console",
+  "race" : "human",
+
+  "apexDescription" : "A command console. Not sure what it does.",
+  "avianDescription" : "This looks dangerous to fiddle with.",
+  "floranDescription" : "Floran pull lever, hear dissstant explosssion. Unrelated.",
+  "glitchDescription" : "Observation. The more levers a console as, the more dangerous it is to fiddle with.",
+  "humanDescription" : "I think this opens the pod bay doors. Or blows something up. It does something, anyway.",
+  "hylotlDescription" : "Must... not... pull... levers...",
+
+  "inventoryIcon" : "bunkerconsole1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bunkerconsole1.png:<color>.off",
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/bunkerconsole.wav"
+}

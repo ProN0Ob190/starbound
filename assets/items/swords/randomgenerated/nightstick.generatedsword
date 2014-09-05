@@ -1,0 +1,64 @@
+{
+  "name" : "nightstick",
+  "baseDps" : [2.5, 3.5],
+  "rateOfSwing" : [1.0, 2],
+  "multiplier" : 0.4,
+  "firePosition" : [22, -2],
+  "fireAfterWindup" : true,
+  "muzzleFlashes" : [ ],
+  "soundEffect" : [ "/sfx/melee/swing_onehanded.wav" ],
+  "kind" : "nightstick",
+  "tooltipKind" : "sword",
+
+  "primaryStances" : {
+    "directional" : true,
+    "projectileTypes" : [ "bluntonehandedswoosh" ],
+    "projectile" : {
+      "speed" : 0.1
+    },
+    "idle" : {
+      "twoHanded" : false,
+      "armAngle" : -90,
+      "swordAngle" : -90,
+      "handPosition" : [-2.7, -14.5],
+      "armFrameOverride" : "idleMelee",
+      "duration" : 0.1
+    },
+    "windup" : {
+      "twoHanded" : false,
+      "armAngle" : 0,
+      "swordAngle" : -60,
+      "handPosition" : [0.2, -25],
+      "duration" : 0.07,
+      "statusEffects" : [ ]
+    },
+    "cooldown" : {
+      "twoHanded" : false,
+      "armAngle" : -140,
+      "swordAngle" : -90,
+      "handPosition" : [2.2, -9],
+      "duration" : 0.4,
+      "statusEffects" : [ ]
+    }
+  },
+  "palette" : [
+
+    { "510011" : "510011", "a80014" : "a80014", "d4003c" : "d4003c", "ff063f" : "ff063f", //crystal
+      "5d3a1f" : "5d3a1f", "be9f55" : "be9f55", "dac782" : "dac782" //main colour
+    },
+
+    { "510011" : "2b3c0e", "a80014" : "5a7728", "d4003c" : "86a74d", "ff063f" : "c2e18b", //crystal
+      "5d3a1f" : "5d3a1f", "be9f55" : "be9f55", "dac782" : "dac782" //main colour
+    },
+
+    { "510011" : "001e51", "a80014" : "255f9a", "d4003c" : "6196cc", "ff063f" : "a2d9ef", //crystal
+      "5d3a1f" : "5d3a1f", "be9f55" : "be9f55", "dac782" : "dac782" //main colour
+    },
+
+    { "5d3a1f" : "712c57", "be9f55" : "9a477a", "dac782" : "c472a3", //main colour
+      "510011" : "2b3c0e", "a80014" : "5a7728", "d4003c" : "86a74d", "ff063f" : "c2e18b" //crystals
+    }
+
+  ],
+  "nameGenerator" : "nightsticknames.config:nameGen"
+}

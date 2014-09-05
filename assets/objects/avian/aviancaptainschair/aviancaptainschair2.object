@@ -1,0 +1,50 @@
+{
+  "objectName" : "aviancaptainschair2",
+  "rarity" : "Common",
+  "objectType" : "loungeable",
+
+  "description" : "ENGAGE!",
+  "shortdescription" : "Captain's Chair 2",
+  "race" : "avian",
+  "category" : "furniture",
+
+  "apexDescription" : "Is that straw?",
+  "avianDescription" : "Let us fly!",
+  "floranDescription" : "Sstraw make bad cushion.",
+  "glitchDescription" : "Judgemental. A messy stone cockpit.",
+  "humanDescription" : "I'm not sure the straw makes it any more comfortable.",
+  "hylotlDescription" : "What is the straw for?",
+
+  "inventoryIcon" : "captainschairicon.png",
+  "orientations" : [
+	{
+      "image" : "aviancaptainschair2.png:<color>",
+      "imagePosition" : [-12, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "flipImages" : true,
+	  "direction" : "left",
+      "sitPosition" : [1.5, 22.5]
+    },
+	{
+      "image" : "aviancaptainschair2.png:<color>",
+      "imagePosition" : [-12, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "direction" : "right",
+      "sitPosition" : [1.5, 22.5]
+    }
+  ],
+
+  "interactAction" : "openCockpitInterface",
+
+  "sitFlipDirection" : false,
+  "soundEffect" : "/sfx/objects/shipengine.wav",
+  "soundEffectRadius" : 1000
+}

@@ -1,0 +1,26 @@
+
+{
+  "materialId" : 168,
+  "materialName" : "apexshipsupport",
+  "frames" : "apexshipsupport.png",
+  "particleColor" : [110, 110, 110, 255],
+  "variants" : 1,
+  "itemDrop" : "apexshipsupport",
+  "description" : "A colourful support block.",
+  "shortdescription" : "Support Block",
+  "glitchDescription" : "Analysis. A support block.",
+  "floranDescription" : "Sssupporty.",
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "health" : 35,
+
+  "renderTemplate" : "/tiles/girdertemplate.config",
+  "renderParameters" : {
+    "texture" : "apexshipsupport.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : false,
+    "multicolored" : true,
+    "zLevel" : 100
+  }
+}

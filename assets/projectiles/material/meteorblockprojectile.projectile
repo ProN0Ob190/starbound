@@ -1,0 +1,26 @@
+{
+  "projectileName" : "meteorblockprojectile",
+  "materialBlock" : 161,
+  "physics" : "grenade",
+
+  // uses alternate animation path
+  "frames" : "",
+  "animationCycle" : 0,
+  "frameNumber" : 0,
+  "power" : 20,
+
+  "speed" : 45,
+  "fallSpeed" : 30, // this should be somekind of planet gravity scaled thing.
+
+  "actionOnReap" : [
+    {
+      "action" : "placeMaterial"
+    },
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/regularexplosionnospark/regularexplosionnospark.config"
+    }
+  ],
+  "damageKind" : "slash",
+  "emitters" : [ "javelinred" ]
+}

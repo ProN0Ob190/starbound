@@ -1,0 +1,31 @@
+{
+  "objectName" : "floranpelt1",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 750,
+
+  "description" : "This pelt must have come off of something pretty big!",
+  "shortdescription" : "Brown Fur Pelt",
+  "race" : "floran",
+
+  "apexDescription" : "A thick pelt, perhaps used as insulation.",
+  "avianDescription" : "A pelt this thick could make a fine cape. The Floran seem to hang them on the walls.",
+  "floranDescription" : "Floran village often cold. Floran warm houssse with pelt. Block gap in wall.",
+  "glitchDescription" : "Analyse. It appears the creature this came from was over 200 years old.",
+  "humanDescription" : "Such a large pelt. Do the Floran hunt creatures so big?",
+  "hylotlDescription" : "This pelt should be warming the animal it belonged to.",
+
+  "inventoryIcon" : "floranpelt1icon.png",
+  "orientations" : [
+    {
+      "image" : "floranpelt1.png:<color>",
+      "imagePosition" : [-32, -24],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

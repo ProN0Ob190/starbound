@@ -1,0 +1,30 @@
+{
+  "objectName" : "huntingbigstatue",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 1500,
+  "description" : "A statue of a Floran. It looks like a great hunter.",
+  "shortdescription" : "Floran Statue",
+  "race" : "floran",
+
+  "apexDescription" : "A majestic, imposing Floran.",
+  "avianDescription" : "No doubt this Floran was a true hunting master.",
+  "floranDescription" : "Just sssome guy. Florans buy own ssstatues.",
+  "glitchDescription" : "Hypothesis. The Floran depicted here was hugely important as a hunter.",
+  "humanDescription" : "I bet the history books have a lot to say about this Floran.",
+  "hylotlDescription" : "A hideous, mocking Floran. Immortalised in stone.",
+
+  "inventoryIcon" : "huntingbigstatueicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "huntingbigstatue.png:<color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

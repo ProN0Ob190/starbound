@@ -1,0 +1,13 @@
+{
+  "itemName" : "redapple",
+  "rarity" : "Common",
+  "inventoryIcon" : "redapple.png",
+  "description" : "A ripe red apple.",
+  "shortdescription" : "Red Apple",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 25
+      }
+    ] ]
+}

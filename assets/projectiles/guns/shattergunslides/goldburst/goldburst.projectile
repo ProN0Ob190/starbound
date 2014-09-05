@@ -1,0 +1,27 @@
+{
+  "projectileName" : "goldburst",
+  "physics" : "bullet",
+  "bounces" : 0,
+  "speed" : 1,
+  "timeToLive" : 0.01,
+  "damageKindImage" : "icon.png",
+  "frames" : "goldburst.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 1,
+  "actionOnReap" : [
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/melee/sword_hit_robotic.wav" ]
+    },
+    {
+      "action" : "projectile",
+      "type" : "goldslide",
+      "fuzzAngle" : 25,
+      "inheritDamageFactor" : 1.0,
+      "angleAdjust" : 0
+    }
+
+  ],
+  "power" : 6.5,
+  "damageKind" : "default"
+}

@@ -1,0 +1,21 @@
+{
+  "itemName" : "glowbomb",
+  "rarity" : "Common",
+  "inventoryIcon" : "glowbombicon.png",
+  "image" : "glowbombicon.png",
+  "shortdescription" : "The Night Light",
+  "description" : "The Night Light. For when only another sentient being will do as a light source.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "glowbomb",
+  "projectileConfig" : {
+    "speed" : 55,
+    "level" : 7
+  }
+}
+

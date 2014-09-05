@@ -1,0 +1,38 @@
+{
+  "objectName" : "yarnspinner",
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A device for spinning yarn from wool.",
+  "shortdescription" : "Yarn Spinner",
+  "race" : "generic",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/spinningwheel.config",
+    "filter" : [ "spinningwheel" ]
+  },
+  "category" : "crafting",
+  "price" : 500,
+
+  "apexDescription" : "A spinning wheel. A tool for tailors.",
+  "avianDescription" : "A tool for working threads.",
+  "floranDescription" : "Floran ssspin wheel, work thread.",
+  "glitchDescription" : "Observe. A tailoring tool.",
+  "humanDescription" : "A wooden spinning wheel. Old-fashioned.",
+  "hylotlDescription" : "The Hylotl consider spinning yarn an art-form.",
+
+  "inventoryIcon" : "yarnspinnericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "yarnspinner.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+
+}

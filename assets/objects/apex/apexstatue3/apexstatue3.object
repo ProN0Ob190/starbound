@@ -1,0 +1,42 @@
+{
+  "objectName" : "apexstatue3",
+  "rarity" : "Common",
+  "category" : "wire",
+  "price" : 1000,
+  "description" : "All Hail the Great Banana! The sacred fruit!",
+  "shortdescription" : "Great Banana Lock Statue",
+  "race" : "apex",
+
+  "apexDescription" : "There's a mark on the statue. It looks as if it can be pressed in.",
+  "avianDescription" : "Something something strange about this statue.",
+  "floranDescription" : "Ssssneaky Apex technology.",
+  "glitchDescription" : "Investigate. There is a device of some kind hidden in this statue.",
+  "humanDescription" : "The button in this statue isn't very well hidden.",
+  "hylotlDescription" : "A poor attempt at subterfuge. ",
+
+  "inventoryIcon" : "apexstatue3icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "apexstatue3.png:<color>.off",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/switch/switch.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switchtoggle2slow.animation",
+  "animationParts" : {
+    "switch" : "apexstatue3.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "outboundNodes" : [ [0, 0] ],
+
+  "onSounds" : [ "/sfx/objects/apexstatue3_switchon.wav" ],
+  "offSounds" : [ "/sfx/objects/apexstatue3_switchoff.wav" ]
+}

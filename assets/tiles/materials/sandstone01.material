@@ -1,0 +1,22 @@
+{
+  "materialId" : 23,
+  "materialName" : "sandstone01",
+  "particleColor" : [215, 204, 137, 255],
+  "itemDrop" : "sandstonematerial",
+  "description" : "Tough sandstone.",
+  "shortdescription" : "Sandstone Block",
+  "glitchDescription" : "Statement. Sandstone.",
+  "floranDescription" : "Sssandstone.",
+  "footstepSound" : "/sfx/blocks/footstep_stone.wav",
+  "health" : 4,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "sandstone01.png",
+    "variants" : 4,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

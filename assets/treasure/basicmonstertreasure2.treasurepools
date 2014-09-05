@@ -1,0 +1,153 @@
+{
+  "basicMonsterTreasure2" : [
+    [1, {
+        "pool" : [
+          [0.36, [ "money", 10] ],
+          [0.36, [ "money", 10] ],
+          [0.18, [ "money", 25] ],
+          [0.10, [ "alienmeat" ] ]
+        ],
+        "poolRounds" : [
+          [0.20, 0],
+          [0.80, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ],
+    [2, {
+        "pool" : [
+          [0.36, [ "money", 10] ],
+          [0.36, [ "money", 60] ],
+          [0.18, [ "money", 75] ],
+          [0.10, [ "cellmateria", 1] ],
+          [0.10, [ "monsterplating", 1] ]
+        ],
+        "poolRounds" : [
+          [0.20, 0],
+          [0.80, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ],
+    [3, {
+        "pool" : [
+          [0.36, [ "money", 10] ],
+          [0.36, [ "money", 110] ],
+          [0.18, [ "money", 125] ],
+          [0.10, [ "cellmateria", 1] ],
+          [0.10, [ "monsterplating", 1] ]
+        ],
+        "poolRounds" : [
+          [0.20, 0],
+          [0.80, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ],
+    [4, {
+        "pool" : [
+          [0.36, [ "money", 10] ],
+          [0.36, [ "money", 160] ],
+          [0.18, [ "money", 175] ],
+          [0.10, [ "cellmateria", 1] ],
+          [0.10, [ "monsterplating", 1] ]
+        ],
+        "poolRounds" : [
+          [0.20, 0],
+          [0.80, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ],
+    [5, {
+        "pool" : [
+          [0.36, [ "money", 10] ],
+          [0.36, [ "money", 165] ],
+          [0.18, [ "money", 180] ],
+          [0.10, [ "cellmateria", 1] ],
+          [0.10, [ "monsterplating", 1] ]
+        ],
+        "poolRounds" : [
+          [0.20, 0],
+          [0.80, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ],
+    [6, {
+        "pool" : [
+          [0.36, [ "money", 10] ],
+          [0.36, [ "money", 170] ],
+          [0.18, [ "money", 185] ],
+          [0.10, [ "cellmateria", 1] ],
+          [0.10, [ "monsterplating", 1] ]
+        ],
+        "poolRounds" : [
+          [0.20, 0],
+          [0.80, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ],
+    [7, {
+        "pool" : [
+          [0.36, [ "money", 10] ],
+          [0.36, [ "money", 175] ],
+          [0.18, [ "money", 185] ],
+          [0.10, [ "cellmateria", 1] ],
+          [0.10, [ "monsterplating", 1] ]
+        ],
+        "poolRounds" : [
+          [0.20, 0],
+          [0.80, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ],
+    [8, {
+        "pool" : [
+          [0.36, [ "money", 10] ],
+          [0.36, [ "money", 180] ],
+          [0.18, [ "money", 190] ],
+          [0.10, [ "cellmateria", 1] ],
+          [0.10, [ "monsterplating", 1] ]
+        ],
+        "poolRounds" : [
+          [0.20, 0],
+          [0.80, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ],
+    [9, {
+        "pool" : [
+          [0.36, [ "money", 10] ],
+          [0.36, [ "money", 185] ],
+          [0.18, [ "money", 195] ],
+          [0.10, [ "cellmateria", 1] ],
+          [0.10, [ "monsterplating", 1] ]
+        ],
+        "poolRounds" : [
+          [0.20, 0],
+          [0.80, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ],
+    [10, {
+        "pool" : [
+          [0.36, [ "money", 10] ],
+          [0.36, [ "money", 190] ],
+          [0.18, [ "money", 200] ],
+          [0.10, [ "cellmateria", 1] ],
+          [0.10, [ "monsterplating", 1] ]
+        ],
+        "poolRounds" : [
+          [0.20, 0],
+          [0.80, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ]
+}

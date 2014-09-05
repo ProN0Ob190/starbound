@@ -1,0 +1,36 @@
+{
+  "objectName" : "outhouse",
+  "rarity" : "Common",
+  "objectType" : "container",
+
+  "category" : "storage",
+  "price" : 750,
+  "description" : "A rickety-looking outhouse.",
+  "shortdescription" : "Outhouse",
+  "race" : "glitch",
+
+  "apexDescription" : "An outhouse. I guess I do need to go.",
+  "avianDescription" : "A run-down outhouse.",
+  "floranDescription" : "Floran like little sssmelly house.",
+  "glitchDescription" : "Repulsed. This building contains an incalculable number of germs.",
+  "humanDescription" : "You used to find toilets like these at music festivals.",
+  "hylotlDescription" : "A grotesque outhouse.",
+
+  "inventoryIcon" : "outhouseicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "outhouse.png:default",
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

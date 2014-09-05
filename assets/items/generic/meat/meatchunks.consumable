@@ -1,0 +1,14 @@
+{
+  "itemName" : "meatchunks",
+  "rarity" : "Common",
+  "inventoryIcon" : "meatchunks.png",
+  "description" : "Chunks of pulverized meat. A little overcooked.",
+  "shortdescription" : "Meat Chunks",
+  "handPosition" : [0, 2],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 30
+      }
+    ] ]
+}

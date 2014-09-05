@@ -1,0 +1,24 @@
+{
+  "materialId" : 40,
+  "materialName" : "brains",
+  "particleColor" : [161, 129, 99, 255],
+  "itemDrop" : "brains",
+  "description" : "Pulsating brain matter.. I wonder what it's thinking.",
+  "shortdescription" : "Brains",
+  "glitchDescription" : "Analysis. Brain patterns suggest this brain belonged to a genius.",
+  "floranDescription" : "Floran want to ssstab sssquishy brain.",
+  "footstepSound" : "/sfx/blocks/footstep_brains.wav",
+  "tillableMod" : 31,
+  "soil" : true,
+  "health" : 1,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "brains.png",
+    "variants" : 4,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name" : "mudBallAttack",
+  "label" : "MUD SHOT",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "mudBallAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "mudball",
+      "arc" : "low",
+      "range" : 18,
+      "speed" : 30,
+      "power" : 8,
+      "shots" : 1,
+      "cooldownTime" : 3
+    }
+  }
+}

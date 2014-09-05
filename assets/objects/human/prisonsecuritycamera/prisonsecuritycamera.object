@@ -1,0 +1,64 @@
+{
+  "objectName" : "prisonsecuritycamera",
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 400,
+  "lightColors" : {
+    "default" : [1, 51, 13],
+    "red" : [51, 1, 13],
+    "blue" : [8, 29, 51],
+    "green" : [1, 51, 13],
+    "yellow" : [51, 41, 2],
+    "orange" : [51, 25, 8],
+    "pink" : [51, 8, 51],
+    "black" : [1, 51, 13],
+    "white" : [51, 1, 13]
+  },
+  "description" : "A security camera. An all-seeing eye.",
+  "shortdescription" : "Security Camera",
+  "race" : "human",
+
+  "apexDescription" : "A security camera. Big Ape is watching?",
+  "avianDescription" : "A security camera.",
+  "floranDescription" : "Ssstaring little box.",
+  "glitchDescription" : "Uncomfortable. I feel like I am being watched.",
+  "humanDescription" : "I'm going to be a star!",
+  "hylotlDescription" : "Such an invasion of privacy.",
+
+  "inventoryIcon" : "prisonsecuritycameraicon.png",
+  "orientations" : [
+    {
+      "image" : "prisonsecuritycameraceilingleft.png:<color>.<frame>",
+      "frames" : 24,
+      "animationCycle" : 3,
+      "imagePosition" : [0, -8],
+
+      "spaceScan" : 0.01,
+      "anchors" : [ "top", "left" ]
+    },
+
+    {
+      "image" : "prisonsecuritycameraceilingright.png:<color>.<frame>",
+      "frames" : 24,
+      "animationCycle" : 3,
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.01,
+      "anchors" : [ "top", "right" ]
+    },
+
+    {
+      "dualImage" : "prisonsecuritycameraceiling.png:<color>.<frame>",
+      "imagePosition" : [-4, -8],
+      "frames" : 24,
+      "animationCycle" : 3,
+      "spaceScan" : 0.01,
+      "fgAnchors" : [
+        [-1, 1], [0, 1], [1, 1]
+      ]
+    }
+  ],
+
+  "frameCooldown" : 5
+
+}

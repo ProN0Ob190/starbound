@@ -1,0 +1,21 @@
+{
+  "itemName" : "cutterleaf",
+  "rarity" : "Common",
+  "inventoryIcon" : "cutterleaficon.png",
+  "image" : "cutterleaficon.png",
+  "shortdescription" : "Cutter Leaf.",
+  "description" : "A sharp-edged leaf that can be thrown for low damage.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.2,
+
+  "projectileType" : "cutterleaf",
+  "projectileConfig" : {
+    "speed" : 35,
+    "power" : 1
+  }
+}
+

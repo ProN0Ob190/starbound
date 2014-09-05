@@ -1,0 +1,10 @@
+{
+  "codexId" : "florvilwords",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "floranvillagebook_04.png",
+  "itemName" : "florvilwordsCodex",
+  "rarity" : "common",
+  "description" : "Words written in charcoal",
+  "shortdescription" : "Charcoal Words"
+}

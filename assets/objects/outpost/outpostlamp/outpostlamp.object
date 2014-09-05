@@ -1,0 +1,33 @@
+{
+  "objectName" : "outpostlamp",
+  "rarity" : "Common",
+  "description" : "A wall light.",
+  "shortdescription" : "Outpost Wall Light",
+  "race" : "generic",
+
+  "category" : "light",
+  "price" : 500,
+  "lightColor" : [122, 177, 204],
+
+  "floranDescription" : "Ssshiny.",
+  "glitchDescription" : "Statement. A light fixture.",
+
+  "inventoryIcon" : "outpostlampicon.png",
+  "orientations" : [
+	{
+	  "imageLayers" : [ { "image" : "outpostlamp.png:<color>.<frame>", "fullbright" : true }, { "image" : "outpostlamplit.png:<color>.<frame>" } ],
+      "imagePosition" : [0, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+	{
+	  "imageLayers" : [ { "image" : "outpostlamp.png:<color>.<frame>", "fullbright" : true }, { "image" : "outpostlamplit.png:<color>.<frame>" } ],
+      "imagePosition" : [0, 0],
+	  "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

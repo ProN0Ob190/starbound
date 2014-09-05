@@ -1,0 +1,35 @@
+{
+  "objectName" : "prisontoilet",
+  "rarity" : "Common",
+  "objectType" : "noisy",
+
+  "description" : "Looks like someone had a rough night.",
+  "shortdescription" : "Dirty Toilet",
+  "race" : "human",
+  "category" : "furniture",
+  "price" : 2,
+
+  "apexDescription" : "We Apex are used to horrific conditions such as this.",
+  "avianDescription" : "I think I'll go elsewhere.",
+  "floranDescription" : "Brain bowl too dirty even for Floran.",
+  "glitchDescription" : "Analysis. Th- Analyse mode disabled, urgent override needed. Never again.",
+  "humanDescription" : "Nothing a bit of bleach and napalm won't sort.",
+  "hylotlDescription" : "Never in my life have I seen such a grotesque disregard for basic hygiene.",
+
+  "inventoryIcon" : "prisontoileticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "prisontoilet.png:<color>",
+
+      "imagePosition" : [-6, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "sounds" : [ "/sfx/objects/toilet_flush.wav" ]
+}

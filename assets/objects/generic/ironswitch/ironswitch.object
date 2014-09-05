@@ -1,0 +1,39 @@
+{
+  "objectName" : "ironswitch",
+  "rarity" : "Common",
+  "category" : "wire",
+  "price" : 100,
+
+  "description" : "The sword in the... console?",
+  "shortdescription" : "Iron Console",
+  "race" : "generic",
+  "inventoryIcon" : "ironswitchicon.png",
+
+  "apexDescription" : "These swords function as levers. I wonder what they activate?",
+  "avianDescription" : "An intelligent use of worn-out weapons.",
+  "floranDescription" : "Floran tug sword. Sword make lights buzz.",
+  "glitchDescription" : "Impressed. A good blade has many uses, even after it dulls. Here, it serves as a lever.",
+  "humanDescription" : "I'm torn between pulling the lever and worrying about cutting myself.",
+  "hylotlDescription" : "Could devices like this be a step towards peace? Or are they a threat of violence?",
+
+  "orientations" : [
+    {
+      "dualImage" : "ironswitch.png:<color>.off",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/switch/switch.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switch3.animation",
+  "animationParts" : {
+    "switch" : "ironswitch.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "outboundNodes" : [ [0, 0] ]
+}

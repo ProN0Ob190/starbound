@@ -1,0 +1,33 @@
+{
+  "objectName" : "arcadeyellow",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 2000,
+  "lightColor" : [150, 215, 235],
+
+  "description" : "This machine runs a game called 'Zombie Banana Mansion'.",
+  "shortdescription" : "Yellow Arcade Machine",
+  "race" : "hylotl",
+
+  "apexDescription" : "Zombie Banana Mansion is a classic Apex game! It terrified me when I was young.",
+  "avianDescription" : "Zombie Banana Mansion-- you must shoot all the zombies to preserve your mansion's stock of bananas. Interesting concept.",
+  "floranDescription" : "Why ssave icky bananas? Just eat zombies!",
+  "glitchDescription" : "Disturbed. Do the creatures in Zombie Banana Mansion exist in reality?",
+  "humanDescription" : "Zombie Banana Mansion. Leave it to the Apex to make the preservation of bananas their highest priority.",
+  "hylotlDescription" : "I understand the urge to protect one's home, but I find Zombie Banana Mansion barbaric.",
+
+  "inventoryIcon" : "arcadeyellowicon.png",
+  "orientations" : [
+    {
+      "leftImage" : "arcadeyellowleft.png:<color>.<frame>",
+      "rightImage" : "arcadeyellowright.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "frames" : 2,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

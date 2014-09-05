@@ -1,0 +1,13 @@
+{
+  "id" : "tutorial2.gearup",
+  "title" : "^#9be3d6;Shop Class",
+  "text" : "It's time to search the planet for the materials I'll need to fix the ship's thrusters. To survive down there I'll need tools. To produce tools I'll need to ^green;Make myself a ^orange;crafting table. ^green;I can use the ship's teleportation platform to beam down once I check the locker.",
+  "completionText" : "Using the crafting table will give me access to a wide range of new recipes.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "woodencraftingtable1", 1], "consume" : false }
+  ],
+  "moneyRange" : [10, 10],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "tutorial3.gearup"
+}

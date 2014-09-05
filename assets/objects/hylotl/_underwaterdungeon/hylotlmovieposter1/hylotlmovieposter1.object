@@ -1,0 +1,31 @@
+{
+  "objectName" : "hylotlmovieposter1",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 300,
+
+  "shortdescription" : "Action Movie Poster",
+  "description" : "A framed poster from the movie 'Cybernetic Apocalypse'.",
+  "race" : "hylotl",
+
+  "apexDescription" : "Looks like another unrealistic giant robot movie.",
+  "avianDescription" : "It appears to be a movie about giant walking mechs.",
+  "floranDescription" : "No need big clunky metal robots, just knife.",
+  "glitchDescription" : "Interested. The robots in this film look powerful indeed.",
+  "humanDescription" : "It's a giant robot movie! Those are fun.",
+  "hylotlDescription" : "Another mindless action movie about giant robots.",
+
+  "inventoryIcon" : "hylotlmovieposter1icon.png",
+  "orientations" : [
+    {
+      "image" : "hylotlmovieposter1.png:<color>",
+      "imagePosition" : [-8, -12],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "objectName" : "paintingstarrynight",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 2500,
+
+  "description" : "A beautiful painting of the night sky.",
+  "shortdescription" : "Abstract Painting",
+  "race" : "apex",
+
+  "apexDescription" : "Are the Apex still capable of such beauty?",
+  "avianDescription" : "Is this the aether? The eternal sky.",
+  "floranDescription" : "Floran longss to ssee the jungle ssky again.",
+  "glitchDescription" : "Wonder. Such expression alludes the Glitch, we are creatures of reason.",
+  "humanDescription" : "What a beautiful piece.",
+  "hylotlDescription" : "Such artistry. The creator of such a piece would be revered by the Hylotl.",
+
+  "inventoryIcon" : "paintingstarrynighticon.png",
+  "orientations" : [
+    {
+      "image" : "paintingstarrynight.png:<color>",
+      "imagePosition" : [-20, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "gun",
+  "category" : "penguinTank",
+  "type" : "gun",
+
+  "frames" : {
+    "gun" : "gun.png"
+  }
+}

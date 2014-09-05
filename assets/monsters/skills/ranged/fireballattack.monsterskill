@@ -1,0 +1,17 @@
+{
+  "name" : "fireballAttack",
+  "label" : "FIREBALL",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "fireballAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "fireball",
+      "arc" : "low",
+      "range" : 15,
+      "speed" : 25,
+      "power" : 14,
+      "shots" : 1
+    }
+  }
+}

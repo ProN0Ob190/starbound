@@ -1,0 +1,14 @@
+{
+  "itemName" : "avesmingo",
+  "rarity" : "Common",
+  "inventoryIcon" : "avesmingo.png",
+  "description" : "Avesmingo, the plant of a 100 different flavours.",
+  "shortdescription" : "Avesmingo",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 40
+      }
+    ] ]
+}

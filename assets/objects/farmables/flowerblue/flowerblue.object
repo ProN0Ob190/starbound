@@ -1,0 +1,63 @@
+{
+  "objectName" : "flowerblue",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "A flower with bright blue petals. Useful for making dye.",
+  "shortdescription" : "Blue Flower",
+  "objectType" : "farmable",
+  "printable" : false,
+  "objectItem" : "petalblue",
+
+  "apexDescription" : "A blue flower.",
+  "avianDescription" : "A pretty blue flower.",
+  "floranDescription" : "Pretty.",
+  "glitchDescription" : "Statement. A blue flower.",
+  "humanDescription" : "A green flower. Wait, no, it's blue.",
+  "hylotlDescription" : "A delightful blue flower.",
+
+  "inventoryIcon" : "grapesseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "flowerblue.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "petalblue",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [660, 780],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [660, 780],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

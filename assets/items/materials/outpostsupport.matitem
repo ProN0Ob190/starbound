@@ -1,0 +1,12 @@
+{
+  "itemName" : "outpostsupport",
+  "rarity" : "Common",
+  "inventoryIcon" : "outpostsupport.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A colourful wall panel.",
+  "shortdescription" : "Outpost Support Beam",
+  "glitchdescription" : "Statement. A support panel.",
+  "florandescription" : "Sssupport panel!",
+
+  "materialId" : 188
+}

@@ -1,0 +1,21 @@
+{
+  "itemName" : "jumpbomb",
+  "rarity" : "Common",
+  "inventoryIcon" : "jumpbombicon.png",
+  "image" : "jumpbombicon.png",
+  "shortdescription" : "The Bouncer",
+  "description" : "The Bouncer. A bomb to put a spring in your step.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "jumpbomb",
+  "projectileConfig" : {
+    "speed" : 55,
+    "level" : 10
+  }
+}
+

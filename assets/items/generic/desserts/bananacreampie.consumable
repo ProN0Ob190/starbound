@@ -1,0 +1,17 @@
+{
+  "itemName" : "bananacreampie",
+  "rarity" : "Common",
+  "inventoryIcon" : "bananacreampie.png",
+  "description" : "Better for eating, or for throwing in people's faces?",
+  "shortdescription" : "Banana Cream Pie",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 100
+      },
+      {
+        "kind" : "mollyhealing3" },
+      {
+        "kind" : "sugarrush" }
+    ] ]
+}

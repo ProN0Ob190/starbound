@@ -1,0 +1,43 @@
+{
+  "objectName" : "apexslidingdoor2",
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 1500,
+  "description" : "The ApeDoor 4: Slimmer, faster, more expensive.",
+  "shortdescription" : "Black Sliding Door",
+  "race" : "apex",
+
+  "apexDescription" : "As with most things Apex, these doors were built to hide secrets.",
+  "avianDescription" : "Such novel architecture.",
+  "floranDescription" : "Apex door hisssss like sserpent.",
+  "glitchDescription" : "Playful. The sliding noise sends a spark through my circuits.",
+  "humanDescription" : "These sliding doors make a satisfying noise.",
+  "hylotlDescription" : "This door seems to have no lock or handle.",
+
+  "inventoryIcon" : "apexslidingdoor2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "apexslidingdoor2.png:<key>",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationParts" : {
+    "door" : "apexslidingdoor2.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "inboundNodes" : [ [0, 4] ],
+  "outboundNodes" : [ [0, 0] ],
+
+  "openSounds" : [ "/sfx/objects/bunkerslidingdoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/bunkerslidingdoor_close.wav" ]
+}

@@ -1,0 +1,39 @@
+{
+  "objectName" : "or",
+  "rarity" : "Common",
+  "description" : "<An /'Or'/ switch. Allows you to have multiple individual inputs.>",
+  "shortdescription" : "Or Switch",
+  "race" : "human",
+
+  "category" : "wire",
+  "price" : 300,
+
+  "inventoryIcon" : "or.png:default.1",
+  "orientations" : [
+    {
+      "image" : "or.png:<color>.off",
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+
+      "direction" : "right"
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/logic/logic.lua" ],
+  "scriptDelta" : 1,
+
+  "animation" : "/objects/wired/logic/logic.animation",
+
+  "animationParts" : {
+    "switch" : "or.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "inboundNodes" : [ [-1, -1], [-1, 0] ],
+  "outboundNodes" : [ [0, -1] ],
+
+  "gates" : 2,
+  "truthtable" : [ [ false, true ], [ true, true ] ]
+}

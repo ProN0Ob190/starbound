@@ -1,0 +1,21 @@
+{
+  "materialId" : 39,
+  "materialName" : "platform",
+  "platform" : true,
+  "transparent" : true,
+  "itemDrop" : "platform",
+  "shortdescription" : "Wood Platform",
+  "description" : "A nondescript wood platform.",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.wav",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "woodplatform.png",
+    "variants" : 3,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multicolored" : true,
+    "zLevel" : 0,
+    "platform" : true
+  }
+}

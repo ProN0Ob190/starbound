@@ -1,0 +1,44 @@
+{
+  "objectName" : "tier6door",
+  "printable" : false,
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 500,
+  "description" : "A Ferozium door. Sturdy!",
+  "shortdescription" : "Ferozium Door",
+  "race" : "generic",
+
+  "apexDescription" : "A sturdy door.",
+  "avianDescription" : "A sturdy door.",
+  "floranDescription" : "Door!",
+  "glitchDescription" : "Statement. A very strong door.",
+  "humanDescription" : "A strong, awesome door.",
+  "hylotlDescription" : "A crude yet strong door.",
+
+  "inventoryIcon" : "tier6dooricon.png",
+  "orientations" : [
+    {
+      "image" : "tier6door.png:default",
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationParts" : {
+    "door" : "tier6door.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "inboundNodes" : [ [0, 4] ],
+  "outboundNodes" : [ [0, 0] ],
+
+  "openSounds" : [ "/sfx/objects/wooddoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/wooddoor_close.wav" ]
+}

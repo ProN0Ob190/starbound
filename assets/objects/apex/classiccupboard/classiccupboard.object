@@ -1,0 +1,39 @@
+{
+  "objectName" : "classiccupboard",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "category" : "storage",
+  "price" : 1200,
+  "description" : "That sure is one classy storage cabinet.",
+  "shortdescription" : "Classic Cupboard",
+  "race" : "apex",
+
+  "apexDescription" : "An expensive-looking cupboard, perhaps used to store Miniknog secrets.",
+  "avianDescription" : "A cupboard of such magnificence may perhaps hold something equally valuable within.",
+  "floranDescription" : "Let'sss peek inssside.",
+  "glitchDescription" : "Hopeful. Perhaps there is something useful within.",
+  "humanDescription" : "Let's see what's stored inside here.",
+  "hylotlDescription" : "What lies behind such lavish doors?",
+
+  "inventoryIcon" : "classiccupboardicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "classiccupboard.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/woodendoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/woodendoor_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

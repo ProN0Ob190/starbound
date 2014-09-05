@@ -1,0 +1,46 @@
+{
+  "objectName" : "outpostsecurityconsole",
+  "rarity" : "Common",
+  "description" : "A security console. For keeping things secure.",
+  "shortdescription" : "Outpost Security Console",
+  "race" : "generic",
+  "category" : "wire",
+  "price" : 400,
+  "lightColor" : [22, 31, 36],
+
+  "apexDescription" : "A security console for some unknown thing.",
+  "avianDescription" : "A security console.",
+  "floranDescription" : "Floran use anonymous console to send abuse to Hylotl military.",
+  "glitchDescription" : "Statement. A security console.",
+  "humanDescription" : "A console.",
+  "hylotlDescription" : "A console.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "imageLayers" : [ { "image" : "outpostsecurityconsole.png:<color>.<frame>", "fullbright" : true }, { "image" : "outpostsecurityconsolelit.png:<color>.<frame>" } ],
+	  "flipImages" : true,
+	  "direction" : "left",
+      "lightPosition" : [0, 1],
+	  
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+	{
+	  "imageLayers" : [ { "image" : "outpostsecurityconsole.png:<color>.<frame>", "fullbright" : true }, { "image" : "outpostsecurityconsolelit.png:<color>.<frame>" } ],
+	  "direction" : "right",
+      "lightPosition" : [0, 1],
+	  
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

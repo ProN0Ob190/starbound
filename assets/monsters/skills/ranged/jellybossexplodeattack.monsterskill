@@ -1,0 +1,16 @@
+{
+  "name" : "jellyBossExplodeAttack",
+  "label" : "EXPEND JELLY",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "jellyBossExplodeAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "jellybossexplode",
+      "range" : 15,
+      "speed" : 4,
+      "power" : 12,
+      "shots" : 1
+    }
+  }
+}

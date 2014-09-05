@@ -1,0 +1,214 @@
+{
+  "objectName" : "butterflybush",
+  "rarity" : "Common",
+  "category" : "pot",
+  "price" : 300,
+
+  "description" : "Little flapping bugs appear to be living in this bush.",
+  "shortdescription" : "Butterfly Bush",
+  "race" : "generic",
+
+  "apexDescription" : "A bug-filled bush.",
+  "avianDescription" : "I found a bug.",
+  "floranDescription" : "Floran love all living things too sssmall to ssstab.",
+  "glitchDescription" : "Scientific. When threatened, these cute bugs can kill a fully-grown Apex.",
+  "humanDescription" : "I should catch some in a jar.",
+  "hylotlDescription" : "Delightful little bugs.",
+
+  "inventoryIcon" : "butterflybushicon.png",
+  "orientations" : [
+    {
+      "image" : "butterflybush.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.6,
+
+      "spaces" : [
+
+        [0, 0], [-1, 0], [-2, 0], [-3, 0], [-4, 0], [-5, 0], [-6, 0], [-7, 0], [-8, 0], [-9, 0], [-10, 0], [1, 0], [2, 0], [3, 0], [4, 0], [5, 0], [6, 0], [7, 0], [8, 0], [9, 0], [10, 0],
+        [0, 1], [-1, 1], [-2, 1], [-3, 1], [-4, 1], [-5, 1], [-6, 1], [-7, 1], [-8, 1], [-9, 1], [-10, 1], [1, 1], [2, 1], [3, 1], [4, 1], [5, 1], [6, 1], [7, 1], [8, 1], [9, 1], [10, 1],
+        [0, 2], [-1, 2], [-2, 2], [-3, 2], [-4, 2], [-5, 2], [-6, 2], [-7, 2], [-8, 2], [-9, 2], [-10, 2], [1, 2], [2, 2], [3, 2], [4, 2], [5, 2], [6, 2], [7, 2], [8, 2], [9, 2], [10, 2],
+        [0, 3], [-1, 3], [-2, 3], [-3, 3], [-4, 3], [-5, 3], [-6, 3], [-7, 3], [-8, 3], [-9, 3], [-10, 3], [1, 3], [2, 3], [3, 3], [4, 3], [5, 3], [6, 3], [7, 3], [8, 3], [9, 3], [10, 3],
+        [0, 4], [-1, 4], [-2, 4], [-3, 4], [-4, 4], [-5, 4], [-6, 4], [-7, 4], [-8, 4], [-9, 4], [-10, 4], [1, 4], [2, 4], [3, 4], [4, 4], [5, 4], [6, 4], [7, 4], [8, 4], [9, 4], [10, 4],
+        [0, 5], [-1, 5], [-2, 5], [-3, 5], [-4, 5], [-5, 5], [-6, 5], [-7, 5], [-8, 5], [-9, 5], [-10, 5], [1, 5], [2, 5], [3, 5], [4, 5], [5, 5], [6, 5], [7, 5], [8, 5], [9, 5], [10, 5],
+        [0, 6], [-1, 6], [-2, 6], [-3, 6], [-4, 6], [-5, 6], [-6, 6], [-7, 6], [-8, 6], [-9, 6], [-10, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6],
+        [0, 7], [-1, 7], [-2, 7], [-3, 7], [-4, 7], [-5, 7], [-6, 7], [-7, 7], [-8, 7], [-9, 7], [-10, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [7, 7], [8, 7], [9, 7], [10, 7],
+        [0, 8], [-1, 8], [-2, 8], [-3, 8], [-4, 8], [-5, 8], [-6, 8], [-7, 8], [-8, 8], [-9, 8], [-10, 8], [1, 8], [2, 8], [3, 8], [4, 8], [5, 8], [6, 8], [7, 8], [8, 8], [9, 8], [10, 8],
+        [0, 9], [-1, 9], [-2, 9], [-3, 9], [-4, 9], [-5, 9], [-6, 9], [-7, 9], [-8, 9], [-9, 9], [-10, 9], [1, 9], [2, 9], [3, 9], [4, 9], [5, 9], [6, 9], [7, 9], [8, 9], [9, 9], [10, 9],
+        [0, 10], [-1, 10], [-2, 10], [-3, 10], [-4, 10], [-5, 10], [-6, 10], [-7, 10], [-8, 10], [-9, 10], [-10, 10], [1, 10], [2, 10], [3, 10], [4, 10], [5, 10], [6, 10], [7, 10], [8, 10], [9, 10], [10, 10]
+
+      ],
+      "fgAnchors" : [ [0, -1] ]
+
+    }
+  ],
+
+  "particleEmitters" : [
+    {
+      "emissionRate" : 0.07,
+      "emissionVariance" : 0.05,
+      "pixelOrigin" : [0, 5],
+
+      "particle" : {
+        "type" : "animated",
+        "animation" : "/animations/butterflies/butterfly1.animation",
+        "looping" : true,
+        "size" : 1.0,
+        "length" : 20,
+        "destructionAction" : "shrink",
+        "destructionTime" : 2,
+        "initialVelocity" : [-0.25, -0.25],
+        "finalVelocity" : [-0.25, -0.25],
+        "approach" : [0.65, 0.65],
+        "timeToLive" : 20,
+        "layer" : "back"
+      },
+
+      "particleVariance" : {
+        "initialVelocity" : [2.0, 2.0],
+        "finalVelocity" : [2.0, 2.0],
+        "position" : [5, 5]
+      }
+    },
+    {
+      "emissionRate" : 0.07,
+      "emissionVariance" : 0.05,
+      "pixelOrigin" : [0, 5],
+
+      "particle" : {
+        "type" : "animated",
+        "animation" : "/animations/butterflies/butterfly2.animation",
+        "looping" : true,
+        "size" : 1.0,
+        "length" : 20,
+        "destructionAction" : "shrink",
+        "destructionTime" : 2,
+        "initialVelocity" : [-0.25, -0.25],
+        "finalVelocity" : [-0.25, -0.25],
+        "approach" : [0.65, 0.65],
+        "timeToLive" : 20,
+        "layer" : "back"
+      },
+
+      "particleVariance" : {
+        "initialVelocity" : [2.0, 2.0],
+        "finalVelocity" : [2.0, 2.0],
+        "position" : [5, 5]
+      }
+    },
+    {
+      "emissionRate" : 0.07,
+      "emissionVariance" : 0.05,
+      "pixelOrigin" : [0, 5],
+
+      "particle" : {
+        "type" : "animated",
+        "animation" : "/animations/butterflies/butterfly3.animation",
+        "looping" : true,
+        "size" : 1.0,
+        "length" : 20,
+        "destructionAction" : "shrink",
+        "destructionTime" : 2,
+        "initialVelocity" : [-0.25, -0.25],
+        "finalVelocity" : [-0.25, -0.25],
+        "approach" : [0.65, 0.65],
+        "timeToLive" : 20,
+        "layer" : "back"
+      },
+
+      "particleVariance" : {
+        "initialVelocity" : [2.0, 2.0],
+        "finalVelocity" : [2.0, 2.0],
+        "position" : [5, 5]
+      }
+    },
+    {
+      "emissionRate" : 0.07,
+      "emissionVariance" : 0.05,
+      "pixelOrigin" : [0, 5],
+
+      "particle" : {
+        "type" : "animated",
+        "animation" : "/animations/butterflies/butterfly4.animation",
+        "looping" : true,
+        "size" : 1.0,
+        "length" : 20,
+        "destructionAction" : "shrink",
+        "destructionTime" : 2,
+        "initialVelocity" : [-0.25, -0.25],
+        "finalVelocity" : [-0.25, -0.25],
+        "approach" : [0.65, 0.65],
+        "timeToLive" : 20,
+        "layer" : "back"
+      },
+
+      "particleVariance" : {
+        "initialVelocity" : [2.0, 2.0],
+        "finalVelocity" : [2.0, 2.0],
+        "position" : [5, 5]
+      }
+    },
+    {
+      "emissionRate" : 0.07,
+      "emissionVariance" : 0.05,
+      "pixelOrigin" : [0, 5],
+
+      "particle" : {
+        "type" : "animated",
+        "animation" : "/animations/butterflies/butterfly5.animation",
+        "looping" : true,
+        "size" : 1.0,
+        "length" : 20,
+        "destructionAction" : "shrink",
+        "destructionTime" : 2,
+        "initialVelocity" : [-0.25, -0.25],
+        "finalVelocity" : [-0.25, -0.25],
+        "approach" : [0.65, 0.65],
+        "timeToLive" : 20,
+        "layer" : "back"
+      },
+
+      "particleVariance" : {
+        "initialVelocity" : [2.0, 2.0],
+        "finalVelocity" : [2.0, 2.0],
+        "position" : [5, 5]
+      }
+    },
+    {
+      "emissionRate" : 0.07,
+      "emissionVariance" : 0.05,
+      "pixelOrigin" : [0, 5],
+
+      "particle" : {
+        "type" : "animated",
+        "animation" : "/animations/butterflies/butterfly6.animation",
+        "looping" : true,
+        "size" : 1.0,
+        "length" : 20,
+        "destructionAction" : "shrink",
+        "destructionTime" : 2,
+        "initialVelocity" : [-0.25, -0.25],
+        "finalVelocity" : [-0.25, -0.25],
+        "approach" : [0.65, 0.65],
+        "timeToLive" : 20,
+        "layer" : "back"
+      },
+
+      "particleVariance" : {
+        "initialVelocity" : [2.0, 2.0],
+        "finalVelocity" : [2.0, 2.0],
+        "position" : [5, 5]
+      }
+    }
+  ],
+
+
+  "smashSounds" : [ "/sfx/objects/capsule_break1.wav", "/sfx/objects/capsule_break2.wav", "/sfx/objects/capsule_break3.wav" ],
+  "smashDropOptions" : [
+    [ [ "plantfibre", 1, { } ] ]
+  ],
+
+  "breakDropOptions" : [
+    [ [ "plantfibre", 1, { } ] ]
+  ]
+}

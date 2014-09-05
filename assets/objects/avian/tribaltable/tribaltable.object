@@ -1,0 +1,32 @@
+{
+  "objectName" : "tribaltable",
+  "rarity" : "Common",
+  "description" : "A table decorated in typical Avian style.",
+  "shortdescription" : "Avian Table",
+  "race" : "avian",
+  "category" : "furniture",
+  "price" : 1000,
+
+  "apexDescription" : "A nicely decorated dining table.",
+  "avianDescription" : "After eating, it is common for knives and forks to be put to work adding new etchings to a table.",
+  "floranDescription" : "Floran bessst timess sspent at dinner table.",
+  "glitchDescription" : "Reflection. The decoration on this table is complex. I must learn artistic appreciation.",
+  "humanDescription" : "It looks like an entire family may have helped to decorate this table.",
+  "hylotlDescription" : "The Avians seem to have decorated this table as a group.",
+
+  "inventoryIcon" : "tribaltableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "tribaltable.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

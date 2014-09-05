@@ -1,0 +1,43 @@
+{
+  "objectName" : "prisoncamerastation",
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 500,
+  "lightColors" : {
+    "default" : [100, 100, 100],
+    "red" : [100, 100, 100],
+    "blue" : [100, 100, 100],
+    "green" : [100, 100, 100],
+    "yellow" : [100, 100, 100],
+    "orange" : [100, 100, 100],
+    "pink" : [100, 100, 100],
+    "black" : [100, 100, 100],
+    "white" : [100, 100, 100]
+  },
+  "description" : "A set of monitors displaying the feeds from security cameras. Watch out for paranormal activity.",
+  "shortdescription" : "Security Camera Station",
+  "race" : "human",
+
+  "apexDescription" : "I'm sure I saw someone disappearing around a corner on one of the screens.",
+  "avianDescription" : "I feel like a voyeur.",
+  "floranDescription" : "Floran like this television ssshow.",
+  "glitchDescription" : "Inspecting. I am certain one of these cameras is on a loop.",
+  "humanDescription" : "One of these screens is displaying a feed of me watching the screens.",
+  "hylotlDescription" : "What an intrusive set-up.",
+
+
+  "inventoryIcon" : "prisoncamerastationicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "prisoncamerastation.png:<color>.<frame>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

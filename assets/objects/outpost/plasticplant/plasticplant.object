@@ -1,0 +1,48 @@
+{
+  "objectName" : "plasticplant",
+  "rarity" : "Common",
+  "description" : "A fake plastic plant. Not a tree.",
+  "shortdescription" : "Plastic Plant",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 400,
+  "lightColor" : [18, 27, 31],
+
+  "apexDescription" : "This plant isn't real!",
+  "avianDescription" : "A fake plant. Nice.",
+  "floranDescription" : "Floran ssstab imposter plant!",
+  "glitchDescription" : "Amused. This fake plastic plant has a real plant inside it.",
+  "humanDescription" : "Reminds me of waiting rooms.",
+  "hylotlDescription" : "A disgusting fake plastic plant.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "plasticplant.png:<color>", "fullbright" : true }, { "image" : "plasticplantlit.png:<color>" } ],
+	  "flipImages" : true,
+	  "direction" : "left",
+	  
+      "lightPosition" : [-1, 1],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+	{
+      "imageLayers" : [ { "image" : "plasticplant.png:<color>", "fullbright" : true }, { "image" : "plasticplantlit.png:<color>" } ],
+	  "direction" : "right",
+	  
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

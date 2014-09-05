@@ -1,0 +1,42 @@
+{
+  "objectName" : "castleswitch",
+  "rarity" : "Common",
+  "description" : "I'd hit that.",
+  "shortdescription" : "Gem Switch",
+  "race" : "glitch",
+  "category" : "wwire",
+  "price" : 1200,
+
+  "apexDescription" : "A crystal. It looks as if it has some purpose.",
+  "avianDescription" : "Is this crystal resonance tech? No... it's something else.",
+  "floranDescription" : "Sshiny crysstal, what do you do?",
+  "glitchDescription" : "Educate. The Glitch hide switches in crystals like these.",
+  "humanDescription" : "A large crystal. It appears to have some purpose.",
+  "hylotlDescription" : "This crystal must do something.",
+
+  "inventoryIcon" : "castleswitchicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "castleswitch.png:<color>.off",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/switch/switch.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switchtoggle4.animation",
+  "animationParts" : {
+    "switch" : "castleswitch.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "outboundNodes" : [ [0, 0] ],
+
+  "onSounds" : [ "/sfx/objects/castleswitchon.wav" ],
+  "offSounds" : [ "/sfx/objects/castleswitchoff.wav" ]
+}

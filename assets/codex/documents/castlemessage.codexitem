@@ -1,0 +1,10 @@
+{
+  "codexId" : "castlemessage",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "glitchcastlebook_10.png",
+  "itemName" : "castlemessageCodex",
+  "rarity" : "common",
+  "description" : "A Message to all Glitch Guards",
+  "shortdescription" : "Message to Guards"
+}

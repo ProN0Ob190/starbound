@@ -1,0 +1,10 @@
+{
+  "itemName" : "hoverTech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/hover.png",
+  "description" : "Press Jump while in the air to use this Gravity Neutraliser tech.",
+  "shortdescription" : "Gravity Neutraliser",
+  "tooltipKind" : "tech",
+
+  "techModule" : "hover.tech"
+}

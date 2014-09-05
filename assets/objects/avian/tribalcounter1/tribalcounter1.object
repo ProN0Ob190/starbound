@@ -1,0 +1,39 @@
+{
+  "objectName" : "tribalcounter1",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "description" : "A smooth cooking surface.",
+  "shortdescription" : "Avian Counter",
+  "race" : "avian",
+  "category" : "storage",
+  "price" : 600,
+
+  "apexDescription" : "A cupboard and cooking surface.",
+  "avianDescription" : "Cooking is a pursuit the grounded enjoy a great deal.",
+  "floranDescription" : "Iss there any food in here.",
+  "glitchDescription" : "Identify. Both a cupboard and a cooking surface.",
+  "humanDescription" : "This belongs in a kitchen.",
+  "hylotlDescription" : "The surface is perfect for preparing food.",
+
+  "inventoryIcon" : "tribalcounter1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "tribalcounter1.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+  "openSounds" : [ "/sfx/objects/chest_medium_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/chest_medium_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

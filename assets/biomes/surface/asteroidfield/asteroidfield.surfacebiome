@@ -1,0 +1,121 @@
+{
+  "name" : "asteroidfield",
+  "friendlyName" : "Asteroid Field",
+  "airless" : true,
+  "requiredStatuses" : [ "breathProtection" ],
+  "spawnProfiles" : [ "surfaceairless1", "surfaceairless2", "surfaceairless3" ],
+
+  "hueShiftOptions" : [-180, -25, 25],
+
+  "weather" : [
+    [0, [
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:clear",
+      "/weather.config:uncommonGlowingRain",
+      "/weather.config:rareLargeMeteorShower",
+      "/weather.config:uncommonMeteorShower"
+    ]]
+  ],
+
+  "skyOptions" : [
+
+    {
+      "mainColor" : [255, 255, 255],
+
+      "morningColors" : [ [255, 224, 129], [252, 230, 164] ],
+      "dayColors" : [ [255, 152, 107], [255, 183, 152] ],
+      "eveningColors" : [ [254, 121, 69], [254, 165, 129] ],
+      "nightColors" : [ [60, 0, 0], [20, 0, 0] ],
+
+      "morningLightColor" : [202, 177, 100],
+      "dayLightColor" : [202, 138, 100],
+      "eveningLightColor" : [202, 100, 100],
+      "nightLightColor" : [40, 17, 17]
+    }
+  ],
+
+  "surfaceParameters" : {
+    "mainBlock" : "meteoriterock",
+    "subBlocks" : [ "magmarock", "rock19" ],
+    "ores" : "depth3",
+
+    "parallax" : "asteroidfield.parallax",
+    "undergroundParallax" : "moon.undergroundparallax",
+
+    "statusParameters" : {
+      "temperatureBounds" : [-30, -30],
+      "dayNightTemperatureVariability" : 20,
+      "temperatureVariability" : 10,
+      "breathable" : false
+    },
+
+    "ambientNoises" : {
+      "day" : {
+        "tracks" : [ "/sfx/environmental/moon_surface.ogg" ]
+      },
+      "night" : {
+        "tracks" : [ "/sfx/environmental/moon_surface.ogg" ]
+      }
+    },
+
+    "undergroundAmbientNoises" : {
+      "day" : {
+        "tracks" : [ "/sfx/environmental/moon_underground.ogg" ]
+      },
+      "night" : {
+        "tracks" : [ "/sfx/environmental/moon_underground.ogg" ]
+      }
+    },
+
+    "musicTrack" : {
+      "day" : {
+        "tracks" : [ "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-Disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/M54.ogg", "/music/Nomads.ogg", "/music/on-the-beach-at-night.ogg" ]
+      },
+      "night" : {
+        "tracks" : [ "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-Disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/M54.ogg", "/music/Nomads.ogg", "/music/on-the-beach-at-night.ogg" ]
+      }
+    },
+
+    "undergroundMusicTrack" : {
+      "day" : {
+        "tracks" : [ "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-Disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/M54.ogg", "/music/Nomads.ogg", "/music/on-the-beach-at-night.ogg" ]
+      },
+      "night" : {
+        "tracks" : [ "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-Disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/M54.ogg", "/music/Nomads.ogg", "/music/on-the-beach-at-night.ogg" ]
+      }
+    },
+
+    "surfacePlaceables" : {
+      "grassMod" : [ "sand" ],
+      "grassModDensity" : 0.0,
+      "items" : [ {
+          "mode" : "floor",
+          "priority" : 3.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:randomEncounter",
+
+          "type" : "microdungeon",
+          "microdungeons" : [ "asteroidencounter" ]
+        } ]
+    },
+
+    "undergroundPlaceables" : { }
+  },
+
+  "subSurfaceParameters" : {
+    "statusParameters" : {
+      "temperatureBounds" : [-100, -100],
+      "dayNightTemperatureVariability" : -50,
+      "temperatureVariability" : 0
+    },
+
+    "undergroundPlaceables" : {
+
+      "items" : [ ]
+    }
+  }
+}

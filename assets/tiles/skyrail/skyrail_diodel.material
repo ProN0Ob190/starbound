@@ -1,0 +1,14 @@
+{
+  "materialId" : 6962,
+  "materialName" : "skyrail_diodeL",
+  "platform" : true,
+  "transparent" : true,
+  "stairVariants" : 1,
+  "stairImage" : "skyrail_diodeLdiag.png",
+  "platformVariants" : 1,
+  "platformImage" : "skyrail_diodeLflat.png",
+  "itemDrop" : "skyrail_diodeL",
+  "shortdescription" : "Skyrail Diode (Left)",
+  "description" : "Grooved metal platform. Enforces single direction of motion.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.wav"
+}

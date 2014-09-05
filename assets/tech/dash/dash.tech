@@ -1,0 +1,11 @@
+{
+  "scripts" : ["dash.lua"],
+  "actions" : [ "dashRight", "dashLeft" ],
+  "animator" : "dash.animation",
+
+  "maximumDoubleTapTime" : 0.2,
+  "dashControlForce" : 600,
+  "dashSpeed" : 40,
+  "dashDuration" : 0.17,
+  "energyUsage" : 35.0
+}

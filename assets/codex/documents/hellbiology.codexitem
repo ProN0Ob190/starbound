@@ -1,0 +1,10 @@
+{
+  "codexId" : "hellbiology",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "floranhellbook_13.png",
+  "itemName" : "hellbiologyCodex",
+  "rarity" : "common",
+  "description" : "A Note on Floran Biology",
+  "shortdescription" : "Floran Biology"
+}

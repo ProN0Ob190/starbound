@@ -1,0 +1,22 @@
+{
+  "materialId" : 63,
+  "materialName" : "tombbrick4",
+  "particleColor" : [120, 127, 154, 255],
+  "itemDrop" : "tombbrick4",
+  "shortdescription" : "Dark Tomb Brick",
+  "description" : "Dark and cold to the touch, these bricks seem to suck the heat from the room.",
+  "glitchDescription" : "Statement. Dusty bricks.",
+  "floranDescription" : "Dusssty bricks.",
+  "footstepSound" : "/sfx/blocks/footstep_stone.wav",
+  "health" : 30,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "tombbrick4.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "codexId" : "townproblems",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "apexvillagebook_10.png",
+  "itemName" : "townproblemsCodex",
+  "rarity" : "common",
+  "description" : "Miniknog Problems: A Report",
+  "shortdescription" : "Miniknog Problems"
+}

@@ -1,0 +1,30 @@
+{
+  "objectName" : "floranpainting2",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 400,
+  "description" : "It looks like someone has painted hieroglyphs onto a piece of leather.",
+  "shortdescription" : "Primitive Hieroglyph Painting",
+  "race" : "floran",
+
+  "apexDescription" : "Floran written language appears to be primitive at best.",
+  "avianDescription" : "This... looks a lot like an Avian glyph. Are the Floran attempting to adapt written Avian?",
+  "floranDescription" : "Floran begin to wound paper with wordsss. Become sssmart like Hylotl.",
+  "glitchDescription" : "Translation. My translation module is struggling with this glyph. The closest match is an Avian word, but it is incorrect.",
+  "humanDescription" : "This isn't how I imagined a Floran language to look.",
+  "hylotlDescription" : "Are the Floran taking up the pen? Perhaps this could be the start of change.",
+
+  "inventoryIcon" : "floranpainting2icon.png",
+  "orientations" : [
+    {
+      "image" : "floranpainting2.png:<color>",
+      "imagePosition" : [-16, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

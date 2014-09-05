@@ -1,0 +1,12 @@
+{
+  "itemName" : "techhull1",
+  "rarity" : "Common",
+  "inventoryIcon" : "techhull1.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Wiring hides beneath this reinforced hi-tech plated material.",
+  "shortdescription" : "Reinforced Tech Block",
+  "glitchdescription" : "Statement. Plating which hides wires.",
+  "florandescription" : "Rip plating off, ssslash wires.",
+
+  "materialId" : 59
+}

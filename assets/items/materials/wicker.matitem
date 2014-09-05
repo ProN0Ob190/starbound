@@ -1,0 +1,12 @@
+{
+  "itemName" : "wicker",
+  "rarity" : "Common",
+  "inventoryIcon" : "wickericon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Wicker",
+  "description" : "A roughly woven wicker material.",
+  "glitchdescription" : "Statement. Wicker.",
+  "florandescription" : "Floran make man of wicker.",
+
+  "materialId" : 106
+}

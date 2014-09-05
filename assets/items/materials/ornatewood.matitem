@@ -1,0 +1,12 @@
+{
+  "itemName" : "ornatewood",
+  "rarity" : "Common",
+  "inventoryIcon" : "ornatewoodicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Sumptuous ornate wood.",
+  "shortdescription" : "Ornate Wood",
+  "glitchdescription" : "Statement. Fancy wood.",
+  "florandescription" : "Floran like posh wood.",
+
+  "materialId" : 155
+}

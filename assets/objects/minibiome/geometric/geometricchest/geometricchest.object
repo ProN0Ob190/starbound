@@ -1,0 +1,38 @@
+{
+  "objectName" : "geometricchest",
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+
+  "category" : "storage",
+  "price" : 800,
+  "description" : "An extremely solid Rubium chest.",
+  "shortdescription" : "Geometric Chest",
+  "race" : "generic",
+
+  "apexDescription" : "A very sturdy chest.",
+  "avianDescription" : "This chest seems almost unbreakable.",
+  "floranDescription" : "Floran want inssside chessst.",
+  "glitchDescription" : "Analysis. This chest would be exceptionally hard to breach, if it wasn't unlocked.",
+  "humanDescription" : "A shiny chest. I bet something cool is inside!",
+  "hylotlDescription" : "A shiny, angular chest. Decent enough.",
+
+  "inventoryIcon" : "geometricchesticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "geometricchest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

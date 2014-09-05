@@ -1,0 +1,62 @@
+{
+  "name" : "ash",
+  "icon" : "/interface/cockpit/weather/ash.png",
+
+  "particles" : [
+    {
+      "density" : 0.035,
+      "particle" : {
+        "type" : "textured",
+        "image" : "/particles/ash/1.png",
+        "velocity" : [0, -8],
+        "angularVelocity" : 180,
+        "timeToLive" : 100,
+        "collidesForeground" : true,
+        "collidesLiquid" : true
+      }
+    },
+    {
+      "density" : 0.035,
+      "particle" : {
+        "type" : "textured",
+        "image" : "/particles/ash/2.png",
+        "velocity" : [0, -9],
+        "angularVelocity" : 180,
+        "timeToLive" : 100,
+        "collidesForeground" : true,
+        "collidesLiquid" : true
+      }
+    },
+    {
+      "density" : 0.035,
+      "particle" : {
+        "type" : "textured",
+        "image" : "/particles/ash/3.png",
+        "velocity" : [0, -10],
+        "angularVelocity" : 180,
+        "timeToLive" : 100,
+        "collidesForeground" : true,
+        "collidesLiquid" : true
+      }
+    }
+  ],
+  "projectiles" : [
+    {
+      "projectile" : "ash",
+      "parameters" : {
+        "power" : 0
+      },
+      "velocity" : [0, -10],
+      "ratePerX" : 0.01,
+      "spawnAboveRegion" : 30,
+      "spawnHorizontalPad" : 30,
+      "windAffectAmount" : 1.0
+    }
+  ],
+
+
+
+  "duration" : [40, 100],
+  "lightningFrequency" : 0.07,
+  "maximumWind" : 0.0
+}

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 2 },
+    { "item" : "coalore", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "feroziumcompound",
+    "count" : 1
+  },
+  "groups" : [ "scififurnace", "all" ]
+}

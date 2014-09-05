@@ -1,0 +1,23 @@
+{
+  "materialId" : 55,
+  "materialName" : "bars",
+  "particleColor" : [148, 148, 148, 255],
+  "transparent" : true,
+  "itemDrop" : "bars",
+  "description" : "Thick metal bars. Still strong, though decaying with rust.",
+  "shortdescription" : "Metal Bars",
+  "glitchDescription" : "Analysis. These bars are strong.",
+  "floranDescription" : "Barsss.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.wav",
+  "health" : 50,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "bars.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "multiColored" : false,
+    "occludesBelow" : false,
+    "zLevel" : 0
+  }
+}

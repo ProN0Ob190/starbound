@@ -1,0 +1,21 @@
+{
+  "materialId" : 70,
+  "materialName" : "woodenplatform",
+  "platform" : true,
+  "transparent" : true,
+  "itemDrop" : "woodenplatform",
+  "shortdescription" : "Wooden Platform",
+  "description" : "Nicely carved wooden platforms.",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.wav",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "woodenplatform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multicolored" : true,
+    "zLevel" : 0,
+    "platform" : true
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "itemName" : "wartweed",
+  "rarity" : "Common",
+  "inventoryIcon" : "wartweed.png",
+  "description" : "Wartweed! It has a tough skin, regrows easily.",
+  "shortdescription" : "Wartweed",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 25
+      }
+    ] ]
+}

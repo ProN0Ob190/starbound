@@ -1,0 +1,31 @@
+{
+  "objectName" : "wreckturbine2",
+  "rarity" : "Common",
+  "description" : "A wrecked turbine, completely non-operational.",
+  "shortdescription" : "Wrecked Turbine",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 400,
+
+  "apexDescription" : "A broken turbine.",
+  "avianDescription" : "What does this machine do?",
+  "floranDescription" : "Ssstrange machine.",
+  "glitchDescription" : "Investigation. This turbine no longer generates power.",
+  "humanDescription" : "A long-dead turbine.",
+  "hylotlDescription" : "A turbine that's rusted still.",
+
+  "inventoryIcon" : "wreckturbine2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "wreckturbine2.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

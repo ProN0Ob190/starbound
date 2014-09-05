@@ -1,0 +1,31 @@
+{
+  "objectName" : "fireplacetools",
+  "rarity" : "Common",
+  "description" : "Tools used for poking at burning sticks.",
+  "shortdescription" : "Fireplace Tools",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 450,
+
+  "apexDescription" : "Tools used to tend to a fire.",
+  "avianDescription" : "Sharp sticks .What are they for?",
+  "floranDescription" : "Are thesse weaponss?",
+  "glitchDescription" : "Observation. A set of iron tools for taking care of a fire.",
+  "humanDescription" : "I think these are tools you use in a fireplace.",
+  "hylotlDescription" : "What are these tools for?",
+
+  "inventoryIcon" : "fireplacetoolsicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "fireplacetools.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

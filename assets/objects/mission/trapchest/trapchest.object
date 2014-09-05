@@ -1,0 +1,41 @@
+{
+  "objectName" : "trapchest",
+  "rarity" : "Common",
+  "description" : "This chest is rigged with a sensor that sends a signal when its opened.",
+  "shortdescription" : "Trap Chest",
+  "race" : "glitch",
+  "category" : "wire",
+  "price" : 500,
+
+  "apexDescription" : "-todo-",
+  "avianDescription" : "-todo-",
+  "floranDescription" : "-todo-",
+  "glitchDescription" : "-todo-",
+  "humanDescription" : "-todo-",
+  "hylotlDescription" : "-todo-",
+
+  "inventoryIcon" : "trapchesticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "trapchest.png:<color>.off",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/switch/switch.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switchtoggle2.animation",
+  "animationParts" : {
+    "switch" : "trapchest.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "outboundNodes" : [ [0, 0] ],
+
+  "onSounds" : [ "/sfx/objects/chest_large_open.wav" ],
+  "offSounds" : [ "/sfx/objects/chest_large_close.wav" ]
+}

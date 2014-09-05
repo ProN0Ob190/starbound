@@ -1,0 +1,73 @@
+{
+  "objectName" : "stonefurnace",
+  "rarity" : "Common",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/stonefurnace.config",
+    "filter" : [ "stonefurnace" ]
+  },
+  "description" : "A stone furnace, useful for crafting.",
+  "shortdescription" : "Stone Furnace",
+  "race" : "generic",
+  "subtitle" : "Old fashioned smelting.",
+  "category" : "crafting",
+  "price" : 200,
+  "printable" : false,
+  "hydrophobic" : true,
+
+  "apexDescription" : "A stone furnace. I can smelt things here.",
+  "avianDescription" : "A furnace perfect for crafting.",
+  "floranDescription" : "Furnace hisss, ssspit, burn. Floran brave it.",
+  "glitchDescription" : "Craftsmanship. The furnace is the perfect temperature for smelting ores",
+  "humanDescription" : "A smelting furnace. Hot.",
+  "hylotlDescription" : "A hot, imposing furnace.",
+
+  "lightColor" : [179, 165, 152],
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.1,
+
+  "inventoryIcon" : "stonefurnaceicon.png",
+  "orientations" : [
+	{
+	  "imageLayers" : [ { "image" : "stonefurnace.png:<color>.<frame>", "fullbright" : true }, { "image" : "stonefurnacelit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+	  
+	  "direction" : "left",
+	  "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+	{
+	  "imageLayers" : [ { "image" : "stonefurnace.png:<color>.<frame>", "fullbright" : true }, { "image" : "stonefurnacelit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+	  
+	  "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/campfire.wav",
+
+  "statusEffects" : [
+    {
+      "kind" : "Warmth",
+      "amount" : 70,
+      "range" : 8
+    }
+  ],
+  
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+
+}

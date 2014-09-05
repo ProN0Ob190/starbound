@@ -1,0 +1,33 @@
+{
+  "objectName" : "bunkerconsole4",
+  "rarity" : "Common",
+
+  "category" : "wire",
+  "price" : 600,
+  "description" : "It's a screen full of super top secret mission data... Boring.",
+  "shortdescription" : "Wide Console",
+  "race" : "human",
+
+  "apexDescription" : "Apparently this planet was going to explode. I think it was a false alarm.",
+  "avianDescription" : "A team was sent out to recover a cursed artefact. They never returned. Maybe they just got sidetracked?",
+  "floranDescription" : "Hunting... partiesss.... Floran have parties on hunt too.",
+  "glitchDescription" : "Concern. It appears as if the previous user of this console went insane. There are a number of alarming messages.",
+  "humanDescription" : "Ooh, secret data. Turns out the government were spying on us! Who knew?",
+  "hylotlDescription" : "Detailed here is an alarming plan to drain this world's oceans. Thankfully, it was vetoed.",
+
+  "inventoryIcon" : "bunkerconsole4icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bunkerconsole4.png:<color>.off",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/bunkerconsole.wav"
+}

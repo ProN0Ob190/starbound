@@ -1,0 +1,29 @@
+{
+  "kind" : "fire",
+  "effects" : {
+    "organic" : {
+      "hit" : {
+        "sounds" : [ "/sfx/projectiles/flame_burn.wav" ],
+        "particles" : [
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/projectiles/fireball_spit.wav" ],
+        "particles" : [
+        ]
+      }
+    },
+    "robotic" : {
+      "hit" : {
+        "sounds" : [ "/sfx/projectiles/flame_burn.wav" ],
+        "particles" : [
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/melee/kill_robotic1.wav", "/sfx/melee/kill_robotic2.wav" ],
+        "particles" : [
+        ]
+      }
+    }
+  }
+}

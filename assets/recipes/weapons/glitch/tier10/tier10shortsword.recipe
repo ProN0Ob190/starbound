@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "imperviumcompound", "count" : 5 }
+  ],
+  "output" : { "item" : "glitchtier10shortsword", "count" : 1 },
+  "groups" : [ "separatortable", "weapons", "all" ]
+}

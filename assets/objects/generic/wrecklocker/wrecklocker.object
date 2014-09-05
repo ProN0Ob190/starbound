@@ -1,0 +1,32 @@
+{
+  "objectName" : "wrecklocker",
+  "rarity" : "Common",
+  "description" : "An old locker. Hey! There's a photo taped to the inside... eww, tentacles",
+  "shortdescription" : "Wrecked Locker",
+  "race" : "generic",
+  "category" : "storage",
+  "price" : 300,
+
+  "apexDescription" : "Could there still be anything inside this thing?",
+  "avianDescription" : "Not a very secure storage unit now.",
+  "floranDescription" : "Sssmelly broken ssstorage.",
+  "glitchDescription" : "Observation. This locker is not at all secure.",
+  "humanDescription" : "An old and rusted locker.",
+  "hylotlDescription" : "I wouldn't want to store valuables here.",
+
+  "inventoryIcon" : "wrecklockericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "wrecklocker.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

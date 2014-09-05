@@ -1,0 +1,65 @@
+{
+  "objectName" : "crystaltorch",
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 200,
+
+  "description" : "A crystal levitates above its frame, emitting an eerie light.",
+  "shortdescription" : "Crystal Torch",
+  "race" : "avian",
+
+  "apexDescription" : "The crystal is floating in place. It appears to be generating the light.",
+  "avianDescription" : "Where more permanent light is required, the Avians use crystals in place of torches. They last many thousands of years.",
+  "floranDescription" : "Eeerrie glow. Colour of blood.",
+  "glitchDescription" : "Wonder. This crystal appears to float, generating its own gravitational field. It also produces its own light.",
+  "humanDescription" : "The crystal glows but is entirely cold to the touch.",
+  "hylotlDescription" : "Such beautiful technology. How did the Avians learn to harness it?",
+
+  "statusEffects" : [
+    {
+      "kind" : "Warmth",
+      "amount" : 15,
+      "range" : 4
+    } ],
+
+  "lightColor" : [217, 65, 54],
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.1,
+  "flickerTiming" : 3,
+
+  "inventoryIcon" : "crystaltorchicon.png",
+  "orientations" : [
+	{
+      "image" : "crystaltorch.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+	  
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "animationPosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "background" ]
+    },
+    {
+      "image" : "crystaltorch.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+	  
+	  "direction" : "right",
+	  "animationPosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "crystaltorch.animation",
+  "animationParts" : {
+    "bg" : "crystaltorch.png",
+    "fg" : "crystaltorchlit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inboundNodes" : [ [0, 0] ]
+}

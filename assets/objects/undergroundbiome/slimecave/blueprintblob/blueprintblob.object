@@ -1,0 +1,42 @@
+{
+  "objectName" : "blueprintblob",
+  "rarity" : "Common",
+  "category" : "pot",
+  "price" : 400,
+  "objectItem" : "blueprintblob",
+
+  "description" : "A blueprint encased in a vile bubble of slime.",
+  "shortdescription" : "Blueprint Blob",
+  "race" : "apex",
+
+  "fullbright" : true,
+  "lightColor" : [0, 250, 150],
+
+  "apexDescription" : "A blueprint encased in vile slime.",
+  "avianDescription" : "Some kind of blueprint is encased within.",
+  "floranDescription" : "Blueprint inssside?",
+  "glitchDescription" : "Curious. Is that a blueprint encased within?",
+  "humanDescription" : "Some sort of blueprint is inside this!",
+  "hylotlDescription" : "I see the Florans have found a worthy container for their designs.",
+
+  "inventoryIcon" : "capsulebigicon.png",
+  "orientations" : [
+    {
+      "image" : "blueprintblob.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "smashSounds" : [ "/sfx/blocks/water_swim.wav" ],
+  "smashDropOptions" : [
+    [ [ "cutarrh-recipe", 1, { } ] ]
+  ],
+  "breakDropOptions" : [
+    [ [ "cutarrh-recipe", 1, { } ] ]
+  ]
+}

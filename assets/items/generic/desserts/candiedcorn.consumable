@@ -1,0 +1,17 @@
+{
+  "itemName" : "candiedcorn",
+  "rarity" : "Common",
+  "inventoryIcon" : "candiedcorn.png",
+  "description" : "It looks like the old Earthling Halloween treat, but...there's actual corn in the center of each morsel.",
+  "shortdescription" : "Candied Corn",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 50
+      },
+      {
+        "kind" : "mollyhealing1" },
+      {
+        "kind" : "sugarrush" }
+    ] ]
+}

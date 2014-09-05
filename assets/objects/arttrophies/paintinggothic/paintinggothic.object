@@ -1,0 +1,31 @@
+{
+  "objectName" : "paintinggothic",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 2500,
+
+  "description" : "A portrait of a human couple.",
+  "shortdescription" : "Gothic Painting",
+  "race" : "apex",
+
+  "apexDescription" : "They appear to be... human?",
+  "avianDescription" : "A curious painting.",
+  "floranDescription" : "Sssuch ssolemn humans. ",
+  "glitchDescription" : "Deduction. Perhaps this is humanity before they were known to the rest of the universe.",
+  "humanDescription" : "A very old human painting.",
+  "hylotlDescription" : "A masterwork of captured emotion.",
+
+  "inventoryIcon" : "paintinggothicicon.png",
+  "orientations" : [
+    {
+      "image" : "paintinggothic.png:<color>",
+      "imagePosition" : [-16, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

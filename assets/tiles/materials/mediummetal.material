@@ -1,0 +1,22 @@
+{
+  "materialId" : 103,
+  "materialName" : "mediummetal",
+  "particleColor" : [124, 124, 124, 255],
+  "itemDrop" : "mediummetal",
+  "shortdescription" : "Steel Block",
+  "description" : "A solid steel block.",
+  "glitchDescription" : "Statement. A block of steel.",
+  "floranDescription" : "Sssteel.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.wav",
+  "health" : 35,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "mediummetal.png",
+    "variants" : 10,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

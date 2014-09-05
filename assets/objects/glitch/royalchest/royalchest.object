@@ -1,0 +1,36 @@
+{
+  "objectName" : "royalchest",
+  "rarity" : "Common",
+  "objectType" : "container",
+
+  "category" : "storage",
+  "price" : 800,
+  "description" : "This chest itself is a treasure, let alone the contents.",
+  "shortdescription" : "Royal Chest",
+  "race" : "glitch",
+
+  "apexDescription" : "The chest itself is likely very valuable.",
+  "avianDescription" : "An exquisite chest of wood and gold.",
+  "floranDescription" : "Floran want to look inside ssshiny chesst.",
+  "glitchDescription" : "Observation. Though royal rooms are well guarded, it appears Glitch nobility take every precaution with their valuables.",
+  "humanDescription" : "A gold-trimmed chest.",
+  "hylotlDescription" : "The gold does not make the chest more secure.",
+
+  "inventoryIcon" : "royalchesticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "royalchest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

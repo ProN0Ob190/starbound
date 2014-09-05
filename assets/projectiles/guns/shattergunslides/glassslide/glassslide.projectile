@@ -1,0 +1,14 @@
+{
+  "projectileName" : "glassslide",
+  "physics" : "highgravgrenade",
+  "bounces" : 1,
+  "timeToLive" : 0.5,
+  "damageKindImage" : "icon.png",
+  "frames" : "glassslide.png",
+  "animationLoops" : false,
+  "animationCycle" : 0.45,
+  "frameNumber" : 5,
+  "speed" : 75,
+  "power" : 1.0,
+  "damageKind" : "default"
+}

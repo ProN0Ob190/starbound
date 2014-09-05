@@ -1,0 +1,18 @@
+{
+  "itemName" : "titaniumore",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "titaniumore.png",
+  "description" : "It's titanium. Can be used for smelting or repairs. Pick up ore and right click mining tool to repair.",
+  "shortdescription" : "Titanium Ore",
+
+  "learnBlueprintsOnPickup" : [
+    "roboticcraftingtable",
+    "composite01material",
+    "tier3chair",
+    "tier3door",
+    "tier3light",
+    "tier3switch",
+    "tier3bed",
+    "tier3table"
+  ]
+}

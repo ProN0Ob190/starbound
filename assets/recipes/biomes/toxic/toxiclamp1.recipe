@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "toxictop", "count" : 20 },
+    { "item" : "coalore", "count" : 5 }
+  ],
+  "output" : { "item" : "toxiclamp1", "count" : 1 },
+  "groups" : [ "craftingtable", "light", "objects", "all" ]
+}

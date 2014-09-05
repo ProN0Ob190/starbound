@@ -1,0 +1,10 @@
+{
+  "codexId" : "townsilly",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "apexvillagebook_13.png",
+  "itemName" : "townsillyCodex",
+  "rarity" : "common",
+  "description" : "The Silly Miniknog",
+  "shortdescription" : "Silly Miniknog"
+}

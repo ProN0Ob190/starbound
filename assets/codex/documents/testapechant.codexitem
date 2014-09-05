@@ -1,0 +1,10 @@
+{
+  "codexId" : "testapechant",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "apextestchamberbook_12.png",
+  "itemName" : "testapechantCodex",
+  "rarity" : "common",
+  "description" : "Glory to Big Ape: A Chant",
+  "shortdescription" : "A Chant"
+}

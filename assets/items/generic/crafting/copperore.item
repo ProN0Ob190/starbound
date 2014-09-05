@@ -1,0 +1,7 @@
+{
+  "itemName" : "copperore",
+  "rarity" : "Common",
+  "inventoryIcon" : "copperore.png",
+  "description" : "Copper ore. Can be used for smelting or repairs. Pick up ore and right click mining tool to repair.",
+  "shortdescription" : "Copper Ore"
+}

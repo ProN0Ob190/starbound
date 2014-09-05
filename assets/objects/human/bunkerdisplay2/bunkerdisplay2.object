@@ -1,0 +1,33 @@
+{
+  "objectName" : "bunkerdisplay2",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 1000,
+  "description" : "A screen with a pie chart representing budget statistics.",
+  "shortdescription" : "Statistical Display",
+  "race" : "human",
+
+  "apexDescription" : "A pie chart. Doesn't look very tasty.",
+  "avianDescription" : "This chart sort of looks like a beak.",
+  "floranDescription" : "Floran know thisss creature. Creature eat fruit, become ssstrong. Floran kill.",
+  "glitchDescription" : "Sarcasm. A fascinating pie chart detailing stationary expenditure.",
+  "humanDescription" : "Ooh, an infographic. Sadly not one of those funny internet ones.",
+  "hylotlDescription" : "It makes sense for humans to keep a careful eye on their expenditure.",
+
+  "inventoryIcon" : "bunkerdisplay2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bunkerdisplay2.png:<color>",
+      "imagePosition" : [-32, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/bunkerdisplay.wav"
+
+}

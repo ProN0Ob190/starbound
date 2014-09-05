@@ -1,0 +1,49 @@
+{
+  "objectName" : "toxiclamp2",
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 600,
+
+  "hydrophobic" : true,
+
+  "description" : "A flower that functions as a lamp. Like a sunflower, but not.",
+  "shortdescription" : "Toxic Lamp",
+  "race" : "generic",
+
+  "apexDescription" : "This is a delightful idea for a lamp.",
+  "avianDescription" : "When switched on, this flower emits an ethereal glow.",
+  "floranDescription" : "Floran like plant. Plant make sssafe fire.",
+  "glitchDescription" : "Observation. This light appears to be entirely solar powered.",
+  "humanDescription" : "A powered flower. Heh.",
+  "hylotlDescription" : "An interesting idea for a lamp.",
+
+  "statusEffects" : [
+    {
+      "kind" : "Warmth",
+      "amount" : 10,
+      "range" : 2
+    } ],
+
+  "lightColor" : [0, 255, 87],
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.1,
+
+  "inventoryIcon" : "toxiclamp2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "toxiclamp2.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/oillantern.wav"
+
+}

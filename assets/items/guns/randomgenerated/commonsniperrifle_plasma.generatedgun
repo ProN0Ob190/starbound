@@ -1,0 +1,34 @@
+{
+  "name" : "commonplasmasniperrifle",
+  "maxStack" : 1,
+  "rarity" : "common",
+  "tooltipKind" : "gun",
+  "handPosition" : [5, 2],
+  "firePosition" : [-1, 8],
+  "baseDps" : [6, 6.5],
+  "rateOfFire" : [0.5, 2],
+  "hands" : [2, 2],
+  "weaponType" : "Plasma S.Rifle",
+  "recoilTime" : 0.1,
+  "spread" : [1, 1],
+  "multiplier" : 1.0,
+  "accuracy" : 100,
+  "muzzleFlashes" : [
+    "/animations/muzzleflash/plasmamuzzle1/plasmamuzzle1.animation",
+    "/animations/muzzleflash/plasmamuzzle2/plasmamuzzle2.animation",
+    "/animations/muzzleflash/plasmamuzzle3/plasmamuzzle3.animation",
+    "/animations/muzzleflash/plasmamuzzle4/plasmamuzzle4.animation",
+    "/animations/muzzleflash/plasmamuzzle5/plasmamuzzle5.animation"
+  ],
+  "projectileTypes" : [ "plasmabullet", "greenplasmabullet", "blueplasmabullet", "yellowplasmabullet" ],
+  "directories" : [ "/items/guns/randomgenerated/sniperrifle/" ],
+  "fireSound" : [ "/sfx/gun/plasma_sniper1.wav" ],
+  "palette" : [
+    { "e35f5d" : "aa1d1b", "b22042" : "8b1311", "871132" : "5d0100", "808080" : "808080", "606060" : "606060", "404040" : "404040" },
+    { "e35f5d" : "64967f", "b22042" : "446556", "871132" : "1e2c26", "808080" : "787784", "606060" : "4f545a", "404040" : "33343c" },
+    { "e35f5d" : "ff9d1e", "b22042" : "bb6a0b", "871132" : "6b3501", "808080" : "787784", "606060" : "4f545a", "404040" : "33343c" },
+    { "e35f5d" : "787784", "b22042" : "4f545a", "871132" : "404040", "808080" : "808080", "606060" : "606060", "404040" : "404040" },
+    { "e35f5d" : "cb13ff", "b22042" : "9b1dcf", "871132" : "580682", "808080" : "787784", "606060" : "4f545a", "404040" : "33343c" }
+  ],
+  "nameGenerator" : "snipernames.config:nameGen"
+}

@@ -1,0 +1,16 @@
+{
+  "name" : "flyingRangedSwoopAttack",
+  "label" : "RANGED SWOOP",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "scripts" : [
+      "/monsters/flying/skills/flyingRangedSwoopAttack.lua"
+    ],
+
+    "rangedSwoopTime" : 1.5,
+    "rangedSwoopRadius" : 6.0,
+    "rangedSwoopDistance" : 12.0,
+    "rangedSwoopProjectile" : [ "flameBurst", "singleShotTest", "fireball", "acidspit", "bubbles", "shock", "thorns", "gas", "explosivegoo", "sonic", "icebreath", "boomerang", "clustergoo", "lightning" ]
+  }
+}

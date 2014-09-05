@@ -1,0 +1,23 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel", "systemTravel"],
+      "maxFuel" : 1000
+    }
+  },
+
+  "backgroundOverlays" : [
+    {
+      "image" : "novakidT3.png",
+      "position" : [10, 14],
+	  "fullbright" : true
+    },
+    {
+      "image" : "novakidT3lit.png",
+      "position" : [10, 14]
+    }
+  ],
+
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "novakidT3blocks.png"
+}

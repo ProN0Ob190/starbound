@@ -1,0 +1,17 @@
+{
+  "name" : "darkPlasmaAttack",
+  "label" : "DARK PLASMA",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "darkPlasmaAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "darkplasma",
+      "arc" : "low",
+      "range" : 17,
+      "speed" : 25,
+      "power" : 16,
+      "shots" : 1
+    }
+  }
+}

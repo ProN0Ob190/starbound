@@ -1,0 +1,14 @@
+{
+  "itemName" : "meatwine",
+  "rarity" : "Common",
+  "inventoryIcon" : "meatwine.png",
+  "description" : "A wine of fermented grapes and meat juices. Popular among Florans.",
+  "shortdescription" : "Meatwine",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 10
+      }
+    ] ]
+}

@@ -1,0 +1,51 @@
+{
+  "type" : "missile",
+
+  "categories" : [ "smallmissile" ],
+  "parts" : [ "body" ],
+
+  "animation" : "missile.animation",
+  "colors" : "/monsters/colors.config",
+
+  "dropPools" : [ ],
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/boss/missile/behavior.lua",
+      "/scripts/util.lua",
+      "/scripts/vec2.lua"
+    ],
+
+    "metaBoundBox" : [-1.0, -0.5, 1.0, 0.5],
+    "scale" : 1.0,
+
+    "movementSettings" : {
+      "collisionPoly" : [ [-1.0, -0.5], [1.0, -0.5], [1.0, 0.5], [-1.0, 0.5] ],
+
+      "mass" : 0.1,
+      "walkSpeed" : 3,
+      "runSpeed" : 6,
+      "jumpSpeed" : 5,
+      "flySpeed" : 10,
+      "airFriction" : 0.1,
+      "airForce" : 50.0
+    },
+
+    "bodyMaterialKind" : "robotic",
+
+    "knockoutTime" : 1,
+    "knockoutEffect" : "blink",
+    "deathParticles" : "deathPoof",
+    "deathNoise" : [ ],
+    "turnHostileNoise" : [ ],
+
+    "statusParameters" : {
+      "baseMaxHealth" : 3,
+      "bodyMaterialKind" : "robotic",
+      "damageConfig" : "/damage/damageresponse/groundnpc.config"
+    },
+
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -8]
+  }
+}

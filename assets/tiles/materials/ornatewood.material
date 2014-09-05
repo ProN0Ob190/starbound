@@ -1,0 +1,23 @@
+{
+  "materialId" : 155,
+  "materialName" : "ornatewood",
+  "particleColor" : [89, 127, 52, 255],
+  "itemDrop" : "ornatewood",
+  "description" : "Sumptuous ornate wood.",
+  "shortdescription" : "Ornate Wood",
+  "glitchDescription" : "Statement. Fancy wood.",
+  "floranDescription" : "Floran like posh wood.",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.wav",
+  "health" : 20,
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "ornatewood.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "feroziumcompound", "count" : 5 }
+  ],
+  "output" : { "item" : "tier6bed", "count" : 1 },
+  "groups" : [ "acceleratortable", "furniture", "objects", "all" ]
+}

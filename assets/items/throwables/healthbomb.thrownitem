@@ -1,0 +1,21 @@
+{
+  "itemName" : "healthbomb",
+  "rarity" : "Common",
+  "inventoryIcon" : "healthbombicon.png",
+  "image" : "healthbombicon.png",
+  "shortdescription" : "Burst of Energy",
+  "description" : "Burst of Energy. A healing bomb.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "healbomb",
+  "projectileConfig" : {
+    "speed" : 55,
+    "level" : 10
+  }
+}
+

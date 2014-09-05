@@ -1,0 +1,17 @@
+{
+  "itemName" : "carrotbread",
+  "rarity" : "Common",
+  "inventoryIcon" : "carrotbread.png",
+  "description" : "A loaf of carrot bread. Let's be honest, it's just bread-shaped cake.",
+  "shortdescription" : "Carrot Bread",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 100
+      },
+      {
+        "kind" : "mollyhealing3" },
+      {
+        "kind" : "sugarrush" }
+    ] ]
+}

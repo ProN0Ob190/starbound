@@ -1,0 +1,22 @@
+{
+  "materialId" : 190,
+  "materialName" : "outpostwall1",
+  "particleColor" : [110, 110, 110, 255],
+  "itemDrop" : "outpostwall1",
+  "description" : "A metal wall panel.",
+  "shortdescription" : "Wall Panel",
+  "glitchDescription" : "Analysis. A wall panel.",
+  "floranDescription" : "Wall.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "health" : 20,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "outpostwall1.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

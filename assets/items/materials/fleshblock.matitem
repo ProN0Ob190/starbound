@@ -1,0 +1,12 @@
+{
+  "itemName" : "fleshblock",
+  "rarity" : "Common",
+  "inventoryIcon" : "fleshblock.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A hideous, foul-smelling block made of some kind of flesh.",
+  "shortdescription" : "Flesh Block",
+  "glitchdescription" : "Disgust. A block made of flesh.",
+  "florandescription" : "Sssquishy meat block.",
+
+  "materialId" : 165
+}

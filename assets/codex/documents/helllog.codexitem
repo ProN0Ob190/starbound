@@ -1,0 +1,10 @@
+{
+  "codexId" : "helllog",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "floranhellbook_09.png",
+  "itemName" : "helllogCodex",
+  "rarity" : "common",
+  "description" : "Guard log #4731842",
+  "shortdescription" : "Guard Log"
+}

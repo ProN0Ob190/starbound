@@ -1,0 +1,40 @@
+{
+  "objectName" : "smallwallswitch",
+  "rarity" : "Common",
+  "description" : "Flippin' awesome.",
+  "shortdescription" : "Small Wall Switch",
+  "race" : "generic",
+
+  "floranDescription" : "Ssswitch!",
+  "glitchDescription" : "Statement. A small switch.",
+
+  "category" : "wire",
+  "price" : 300,
+
+  "inventoryIcon" : "smallwallswitchicon.png",
+  "orientations" : [
+    {
+      "image" : "smallwallswitch.png:<color>.off",
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/switch/switchwithinput.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switchtoggle2.animation",
+
+  "animationParts" : {
+    "switch" : "smallwallswitch.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "inboundNodes" : [ [-1, 0] ],
+  "outboundNodes" : [ [0, -1] ],
+
+  "onSounds" : [ "/sfx/objects/apexconsole2switch.wav" ],
+  "offSounds" : [ "/sfx/objects/apexconsole2switch.wav" ]
+}

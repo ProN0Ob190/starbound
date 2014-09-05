@@ -1,0 +1,62 @@
+{
+  "name" : "ice",
+  "friendlyName" : "Ice",
+  "requiredStatuses" : [],
+  "spawnProfiles" : [ "surfacemix1", "surfacemix2", "surfacemix3" ],
+
+  "hueShiftOptions" : [-45, 0, 45],
+
+  "surfaceParameters" : {
+    "mainBlock" : "ice",
+    "subBlocks" : [ "slush", "snow" ],
+    "ores" : "surfaceOres",
+
+    "statusParameters" : {
+      "temperatureBounds" : [-30, 5],
+      "dayNightTemperatureVariability" : 15,
+      "temperatureVariability" : 5
+    },
+
+    "surfacePlaceables" : {
+      "grassMod" : [ "snow" ],
+      "grassModDensity" : 0.2,
+
+      "items" : [
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+          "type" : "microdungeon",
+          "microdungeons" : [ "ice" ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 0.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:minibiomeChests",
+
+          "type" : "treasureBox",
+          "treasureBoxSets" : [ "iceChest" ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+          "type" : "object",
+          "objectSets" : [
+            {
+              "pool" : [ [0.35, "iceshard1" ], [0.35, "iceshard2" ], [0.35, "iceshard3" ], [0.35, "iceshard4" ], [0.35, "iceshard5" ] ],
+              "parameters" : { }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
+
+

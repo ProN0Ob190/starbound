@@ -1,0 +1,10 @@
+{
+  "codexId" : "sewerstrange",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "glitchsewerbook_12.png",
+  "itemName" : "sewerstrangeCodex",
+  "rarity" : "common",
+  "description" : "A Strange Encounter",
+  "shortdescription" : "Strange Encounter"
+}

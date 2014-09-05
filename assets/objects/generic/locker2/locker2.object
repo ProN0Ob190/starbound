@@ -1,0 +1,37 @@
+{
+  "objectName" : "locker2",
+  "rarity" : "Common",
+  "objectType" : "container",
+
+  "category" : "storage",
+  "price" : 300,
+  "description" : "No doubt once contained love letters, bad apples and books never read.",
+  "shortdescription" : "Flat Locker",
+  "race" : "generic",
+
+  "apexDescription" : "A storage locker.",
+  "avianDescription" : "A metal box, probably built for storage.",
+  "floranDescription" : "Ssstorage.",
+  "glitchDescription" : "Measure. A small amount of storage.",
+  "humanDescription" : "There's no lock on this locker...",
+  "hylotlDescription" : "Useful storage.",
+
+  "inventoryIcon" : "locker2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "locker2.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+
+  ],
+
+  "openSounds" : [ "/sfx/objects/locker_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/locker_close.wav" ],
+  "slotCount" : 9,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

@@ -1,0 +1,47 @@
+{
+  "objectName" : "plantcabinet1",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "category" : "storage",
+  "price" : 750,
+  "description" : "A cabinet. Maybe there's some reading material inside.",
+  "shortdescription" : "Cabinet",
+  "race" : "floran",
+
+  "apexDescription" : "A cabinet.",
+  "avianDescription" : "A tantalising cabinet.",
+  "floranDescription" : "Floran put things inside.",
+  "glitchDescription" : "Statement. A cabinet.",
+  "humanDescription" : "An adorable cabinet.",
+  "hylotlDescription" : "A crude, poorly-constructed cabinet.",
+
+  "state" : {
+    "kind" : "storage",
+    "openSounds" : [ "/sfx/objects/woodenbox_open.wav" ],
+    "closeSounds" : [ "/sfx/objects/woodenbox_close.wav" ],
+    "slotCount" : 16,
+    "uiconfig" : "/interface/chests/chest%slots%.config"
+  },
+
+  "inventoryIcon" : "plantcabinet1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "plantcabinet1.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_medium_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/chest_medium_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

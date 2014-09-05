@@ -1,0 +1,153 @@
+{
+  "type" : "minibossquadruped",
+
+  "categories" : [ "largequadruped" ],
+  "parts" : [ "legs", "chest", "tail", "head" ],
+  "partParameters" : "minibossquadruped.partparams",
+
+  "animation" : "minibossquadruped.animation",
+  "colors" : "/monsters/colors.config",
+  "reversed" : true,
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/ground/groundMonster.lua",
+      "/scripts/stateMachine.lua",
+      "/scripts/util.lua",
+      "/scripts/vec2.lua",
+
+      "/monsters/ground/aggroHopState.lua",
+      "/monsters/ground/approachState.lua",
+      "/monsters/ground/fleeState.lua",
+      "/monsters/ground/stunState.lua",
+      "/monsters/ground/knockoutState.lua",
+      "/monsters/ground/wanderState.lua",
+
+      "/monsters/ground/skills/createGroundRangedAttack.lua"
+    ],
+
+    "territoryDistance" : 40.0,
+    "territorialTargetRadius" : 20.0,
+    "minimalTargetRadius" : 6.0,
+    "targetSearchTime" : 0.5,
+    "targetHoldTime" : 5.0,
+
+    "closeDistance" : 1.5,
+
+    "wanderTime" : [4.0, 6.0],
+    "wanderMovementTime" : [2.0, 3.0],
+
+    "idleSoundTime" : [45.0, 60.0],
+    "painSoundTimer" : 2.0,
+
+    "jumpTargetDistance" : 4,
+    "jumpTime" : [0.8, 1.4],
+    "jumpNoise" : [ ],
+
+    "knockoutTime" : 1,
+    "knockoutEffect" : "blink",
+    "deathParticles" : "deathPoof",
+    "deathNoise" : [ "/sfx/npc/enemydeathpuff.wav" ],
+
+    "exhaustionTimer" : 3.0,
+    "exhaustionTimeout" : 3.0,
+    "exhaustionDistanceLimit" : 1.0,
+
+    "wanderJumpProbability" : 0.1
+  },
+
+  "dropPools" : [
+    {
+      "default" : "minibosstreasure"
+    }
+  ],
+
+  "familyParameters" : [
+    [
+      {
+        "skillCount" : 3,
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [ "burrowSpecial" ]
+      },
+      {
+        "skillCount" : 3,
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [ "shieldSpecial" ]
+      },
+      {
+        "skillCount" : 3,
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [ "recoverSpecial" ]
+      },
+      {
+        "skillCount" : 3,
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [ "chargeAttack" ]
+      },
+      {
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [ "chargeAttack" ]
+      },
+      {
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [  ]
+      },
+      {
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [  ]
+      },
+      {
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [  ]
+      },
+      {
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [  ]
+      }
+    ]
+  ],
+
+  "variantParameters" : [
+    [
+      [1, {
+          "scale" : 1.5,
+          "metaBoundBox" : [-2.5, -2.5, 2.5, 2.5],
+
+          "movementSettings" : {
+            "collisionPoly" : [ [-2.75, -1.65], [-1.7, -2.7], [1.7, -2.7], [2.75, -1.65], [2.75, -0.15], [1.55, 0.75], [-1.55, 0.75], [-2.75, -0.15] ],
+            "mass" : 2.0,
+            "walkSpeed" : 6,
+            "runSpeed" : 13
+          },
+
+          "blockedSensors" : [ [3.0, -1], [3.0, -0.5], [3.0, 0.0], [3.0, 0.5] ],
+          "fallSensors" : [ [0.5, -2.5], [0.5, -3.5], [0.5, -4.5], [2.0, -2.5], [2.0, -3.5], [2.0, -4.5] ],
+
+          "touchDamage" : {
+            "poly" : [ [-2.75, -1.65], [-1.7, -2.7], [1.7, -2.7], [2.75, -1.65], [2.75, -0.15], [1.55, 0.75], [-1.55, 0.75], [-2.75, -0.15] ],
+            "damage" : 25,
+            "teamType" : "enemy",
+            "damageSourceKind" : "bite",
+            "statusEffects" : [ ]
+          },
+
+          "statusParameters" : {
+            "baseMaxHealth" : 120,
+            "damageConfig" : "/damage/damageresponse/groundnpc.config",
+            "bodyMaterialKind" : "organic"
+          },
+
+          "innateStatusEffects" : [
+            {
+              "kind" : "Protection",
+              "amount" : 1.0
+            }
+          ],
+
+          "mouthOffset" : [2.25, 0],
+          "feetOffset" : [0, -14]
+        } ]
+    ]
+
+  ]
+}

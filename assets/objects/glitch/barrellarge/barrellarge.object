@@ -1,0 +1,40 @@
+{
+  "objectName" : "barrellarge",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "description" : "A barrel. Sadly not full of wine.",
+  "shortdescription" : "Large Barrel",
+  "race" : "glitch",
+  "category" : "storage",
+  "price" : 750,
+
+  "apexDescription" : "A wooden barrel. Anything inside?",
+  "avianDescription" : "A rounded wooden container held together with iron.",
+  "floranDescription" : "Floran can put thingsss insside and roll it around.",
+  "glitchDescription" : "Observe. A barrel, storage for cheap items.",
+  "humanDescription" : "A barrel. Good for storing food and materials.",
+  "hylotlDescription" : "A barrel for storing goods.",
+
+  "inventoryIcon" : "barrellargeicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "barrellarge.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/woodenbox_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/woodenbox_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+
+}

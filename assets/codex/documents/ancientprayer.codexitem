@@ -1,0 +1,10 @@
+{
+  "codexId" : "ancientprayer",
+  "title" : "Reading material",
+  "inventoryIcon" : "aviantemplebook_01.png",
+  "codexkind" : "codex",
+  "itemName" : "ancientprayerCodex",
+  "rarity" : "common",
+  "description" : "An Ancient Avian Prayer",
+  "shortdescription" : "Ancient Prayer"
+}

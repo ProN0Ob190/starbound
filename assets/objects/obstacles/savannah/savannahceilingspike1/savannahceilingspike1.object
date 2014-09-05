@@ -1,0 +1,63 @@
+{
+  "objectName" : "savannahceilingspike1",
+  "rarity" : "Common",
+  "category" : "other",
+  "price" : 500,
+  "objectItem" : "drysand",
+
+  "description" : "Watch out!",
+  "shortdescription" : "Sharp spikes.",
+  "race" : "generic",
+
+  "apexDescription" : "Sharp stone spikes.",
+  "avianDescription" : "The stone looks razor sharp.",
+  "floranDescription" : "Sssharp and pointy.",
+  "glitchDescription" : "Cautious. Sharp rock could penetrate Glitch shell.",
+  "humanDescription" : "I'd better not touch these.",
+  "hylotlDescription" : "I will gracefully avoid these.",
+
+  "particleEmitter" : {
+    "emissionRate" : 0.1,
+    "emissionVariance" : 0.05,
+    "pixelOrigin" : [0, 0],
+
+    "particle" : {
+      "type" : "textured",
+      "image" : "/particles/hazard/hazardstat.png",
+      "size" : 1.0,
+      "color" : [73, 179, 253, 255],
+      "fade" : 0,
+      "destructionAction" : "shrink",
+      "destructionTime" : 7,
+      "initialVelocity" : [3, -4],
+      "finalVelocity" : [-3, -2],
+      "approach" : [4, 1],
+      "timeToLive" : 1,
+      "layer" : "middle"
+    }
+
+  },
+
+  "inventoryIcon" : "ceilingicon.png",
+  "orientations" : [
+    {
+      "image" : "savannahceilingspike1.png:<color>",
+      "imagePosition" : [0, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+
+    }
+  ],
+
+  "touchDamage" : {
+    "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
+    "damage" : 10,
+
+    "damageType" : "IgnoresDef",
+    "damageSourceKind" : "default"
+  }
+
+}

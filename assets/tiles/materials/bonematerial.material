@@ -1,0 +1,25 @@
+{
+  "materialId" : 129,
+  "materialName" : "bonematerial",
+  "particleColor" : [231, 223, 189, 255],
+  "itemDrop" : "bonematerial",
+  "description" : "Polished bone made into a building material.",
+  "shortdescription" : "Bone Block",
+  "glitchDescription" : "Analysis. This bone came from a huge creature.",
+  "floranDescription" : "Bonesss!",
+  "footstepSound" : "/sfx/blocks/footstep_bone.wav",
+  "falling" : true,
+  "cascading" : true,
+  "health" : 2,
+  "breathable" : "notBreathable",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "bonematerial.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "name" : "rain",
+  "icon" : "/interface/cockpit/weather/rain.png",
+
+  "particles" : [
+    {
+
+      "density" : 0.05,
+      "autoRotate" : true,
+
+      "particle" : {
+        "type" : "textured",
+        "image" : "/particles/rain/1.png",
+        "velocity" : [0, -35.5],
+        "approach" : [15, 15],
+        "angularVelocity" : 0,
+        "timeToLive" : 100,
+        "destructionAction" : "Image",
+        "destructionTime" : 0.1,
+        "destructionImage" : "/particles/splash/1.png",
+        "collidesForeground" : true,
+        "collidesLiquid" : true
+      }
+    },
+    {
+      "density" : 0.05,
+      "autoRotate" : true,
+
+      "particle" : {
+        "type" : "textured",
+        "image" : "/particles/rain/2.png",
+        "velocity" : [0, -25.5],
+        "approach" : [15, 15],
+        "angularVelocity" : 0,
+        "timeToLive" : 100,
+        "destructionAction" : "Image",
+        "destructionTime" : 0.1,
+        "destructionImage" : "/particles/splash/1.png",
+        "collidesForeground" : true,
+        "collidesLiquid" : true
+      }
+    },
+    {
+      "density" : 0.05,
+      "autoRotate" : true,
+
+      "particle" : {
+        "type" : "textured",
+        "image" : "/particles/rain/3.png",
+        "velocity" : [0, -20.5],
+        "approach" : [15, 15],
+        "angularVelocity" : 0,
+        "timeToLive" : 100,
+        "destructionAction" : "Image",
+        "destructionTime" : 0.1,
+        "destructionImage" : "/particles/splash/1.png",
+        "collidesForeground" : true,
+        "collidesLiquid" : true
+      }
+    }
+  ],
+
+
+
+  "duration" : [40, 100],
+  "lightningFrequency" : 0.07,
+  "maximumWind" : 15.0,
+
+  "weatherNoises" : [ "/sfx/weather/rain_medium.ogg" ]
+}

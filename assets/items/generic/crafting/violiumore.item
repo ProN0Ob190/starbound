@@ -1,0 +1,11 @@
+{
+  "itemName" : "violiumore",
+  "rarity" : "Rare",
+  "inventoryIcon" : "violiumore.png",
+  "description" : "Violium ore. Can be used for smelting or repairs. Pick up ore and right click mining tool to repair.",
+  "shortdescription" : "Violium Ore",
+
+  "learnBlueprintsOnPickup" : [
+    "separatortable"
+  ]
+}

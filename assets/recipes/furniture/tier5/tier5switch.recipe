@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 2 }
+  ],
+  "output" : { "item" : "tier5switch", "count" : 1 },
+  "groups" : [ "acceleratortable", "wire", "objects", "all" ]
+}

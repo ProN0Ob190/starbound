@@ -1,0 +1,10 @@
+{
+  "codexId" : "florvilprint",
+  "title" : "Reading material",
+  "codexkind" : "codex",
+  "inventoryIcon" : "floranvillagebook_11.png",
+  "itemName" : "florvilprintCodex",
+  "rarity" : "common",
+  "description" : "A Printed Page",
+  "shortdescription" : "Printed Page"
+}

@@ -1,0 +1,43 @@
+{
+  "objectName" : "tribalbookcase1",
+  "rarity" : "Common",
+  "description" : "Hand-made and beautiful, this bookcase is intricately carved.",
+  "shortdescription" : "Large Avian Bookcase",
+  "race" : "avian",
+  "objectType" : "container",
+  "category" : "storage",
+  "price" : 1000,
+
+
+
+  "apexDescription" : "This bookcase appears to be the product of someone's hobby.",
+  "avianDescription" : "The grounded collect books from all over the universe.",
+  "floranDescription" : "Hsss bookss, wasste of time.",
+  "glitchDescription" : "Observation. This bookcase looks home made.",
+  "humanDescription" : "It looks as if this bookcase was made for fun.",
+  "hylotlDescription" : "Though amateur, this bookcase is charming.",
+
+
+
+  "openSounds" : [ "/sfx/objects/bookcase_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/bookcase_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+  "inventoryIcon" : "tribalbookcase1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "tribalbookcase1.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

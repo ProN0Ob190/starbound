@@ -1,0 +1,58 @@
+{
+  "objectName" : "glitchdungeonpod",
+  "rarity" : "Common",
+
+  "category" : "--todo--",
+  "price" : 0,
+  "description" : "A material dispensing pod.",
+  "shortdescription" : "Dispensing Pod",
+  "race" : "generic",
+
+  "apexDescription" : "This pod dispenses materials for crafting.",
+  "avianDescription" : "Free crafting materials. Nice.",
+  "floranDescription" : "Machine ssspit crafting items at Floran.",
+  "glitchDescription" : "Wonder. A machine that gives materials for free!",
+  "humanDescription" : "This is like a gashapon machine, but useful!",
+  "hylotlDescription" : "A pod that supplies basic materials.",
+
+  "inventoryIcon" : "glitchdungeonpodicon.png",
+  "lightColor" : [219, 36, 88],
+
+  "orientations" : [
+
+
+    {
+      "imageLayers" : [ { "image" : "glitchdungeonpod.png:default", "fullbright" : true }, { "image" : "glitchdungeonpod2.png:default" } ],
+      "flipImages" : true,
+      "imagePosition" : [-12, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left",
+      "lightPosition" : [0, 3],
+      "collision" : "platform"
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/tis1/tis1.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/generic/glitchdungeonpod/glitchdungeonpod.animation",
+  "animationParts" : {
+    "tis1" : "glitchdungeonpod.png"
+  },
+  "animationPosition" : [-12, 0],
+
+  "useSounds" : [ "/sfx/objects/bardoor_open.wav" ],
+
+  "inboundNodes" : [ ],
+  "outboundNodes" : [ ],
+
+  "breakDropOptions" : [ ],
+
+  "projectileOptions" : [
+    {
+      "projectileType" : "matterblockprojectile2",
+      "projectileParams" : { }
+    }
+  ]
+}

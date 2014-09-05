@@ -1,0 +1,84 @@
+{
+  "objectName" : "coralcreepseed",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "The berries are poisonous to anyone but those of aquatic disposition.",
+  "shortdescription" : "Coralcreep Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 161,
+
+
+  "apexDescription" : "Coralcreep, one of Big Ape's preferred methods of dealing with problematic politicians.",
+  "avianDescription" : "Poisonous. Lethally so.",
+  "floranDescription" : "Even plantsss can hurt Floran. Make sssick.",
+  "glitchDescription" : "Trepidation. Would the coralcreep cause problems for Glitch internal systems? Possibly not.",
+  "humanDescription" : "If humans eat these... well, it's not pretty.",
+  "hylotlDescription" : "Delicious coralcreep. A true delicacy. Everyone should try it.",
+
+  "inventoryIcon" : "coralcreepseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "coralcreepseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "coralcreep",
+            "count" : 1
+          },
+          {
+            "name" : "coralcreepseed",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "coralcreep",
+            "count" : 1
+          },
+          {
+            "name" : "plantfibre",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "coralcreep",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [645, 645],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [645, 645],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

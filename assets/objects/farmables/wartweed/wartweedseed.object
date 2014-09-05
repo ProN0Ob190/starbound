@@ -1,0 +1,83 @@
+{
+  "objectName" : "wartweedseed",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Wartweed! It has a tough skin, regrows easily.",
+  "shortdescription" : "Wartweed Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 94,
+
+  "apexDescription" : "An easily-sustainable crop.",
+  "avianDescription" : "Wartweeds are hard to peck through.",
+  "floranDescription" : "Perfeccct for Floran to eat or kick.",
+  "glitchDescription" : "Statement. The wartweed's skin is almost as tough as the Glitch's.",
+  "humanDescription" : "Looking at this plant makes me feel a bit weird.",
+  "hylotlDescription" : "A tough, dull plant favoured by poor farmers.",
+
+  "inventoryIcon" : "wartweedseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "wartweedseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "wartweed",
+            "count" : 1
+          },
+          {
+            "name" : "wartweedseed",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "wartweed",
+            "count" : 1
+          },
+          {
+            "name" : "plantfibre",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "wartweed",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [425, 425],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [430, 430],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

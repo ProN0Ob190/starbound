@@ -1,0 +1,17 @@
+{
+  "modId" : 25,
+  "modName" : "titanium",
+  "itemDrop" : "titaniumore",
+  "Description" : "Titanium.",
+  "health" : 10,
+  "harvestLevel" : 4,
+  "breaksWithTile" : true,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "titanium.png",
+    "variants" : 8,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

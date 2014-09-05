@@ -1,0 +1,70 @@
+{
+  "objectName" : "floranchandelier",
+  "rarity" : "Common",
+  "description" : "Torches have been stuck to a sapling in lieu of a fancy chandelier.",
+  "shortdescription" : "Primitive Chandelier",
+  "race" : "floran",
+
+  "hydrophobic" : true,
+
+  "apexDescription" : "It appears as if a young tree has been hung upside down with torches attached.",
+  "avianDescription" : "A chandelier made from a tree.",
+  "floranDescription" : "Floran make hanging light from sssmall tree. Floran attach torch with bone. Make sssure light not burn.",
+  "glitchDescription" : "Amused. It appears to be a small tree hanging from the ceiling.",
+  "humanDescription" : "It looks as if the Floran have used a sapling to make a chandelier.",
+  "hylotlDescription" : "This is one of the few Floran creations that isn't made from bone in some way. Wait... what's that holding the torches.",
+
+  "category" : "light",
+  "price" : 800,
+  "lightColor" : [229, 212, 195],
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.1,
+
+  "statusEffects" : [
+    {
+      "kind" : "Warmth",
+      "amount" : 5,
+      "range" : 2
+    } ],
+
+  "inventoryIcon" : "floranchandeliericon.png",
+  "orientations" : [
+    {
+      "image" : "floranchandelier.png:<color>.<frame>",
+      "imagePosition" : [-16, -16],
+	  
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "animationPosition" : [-16, -16],
+
+      "spaces" : [ [-1, 0], [0, 0], [-2, -1], [-1, -1], [0, -1], [1, -1], [-2, -2], [-1, -2], [0, -2], [1, -2] ],
+      "anchors" : [ "top" ]
+    },
+	{
+      "image" : "floranchandelier.png:<color>.<frame>",
+      "imagePosition" : [-16, -16],
+	  
+	  "direction" : "right",
+	  "animationPosition" : [-16, -16],
+
+      "spaces" : [ [-1, 0], [0, 0], [-2, -1], [-1, -1], [0, -1], [1, -1], [-2, -2], [-1, -2], [0, -2], [1, -2] ],
+      "anchors" : [ "top" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/torch.wav",
+
+  "animation" : "floranchandelier.animation",
+  "animationParts" : {
+    "bg" : "floranchandelier.png",
+    "fg" : "floranchandelierlit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inboundNodes" : [ [0, 0] ],
+  
+  "interactive" : false
+
+}

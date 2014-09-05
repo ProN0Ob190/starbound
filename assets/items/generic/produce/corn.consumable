@@ -1,0 +1,13 @@
+{
+  "itemName" : "corn",
+  "rarity" : "Common",
+  "inventoryIcon" : "cornicon.png",
+  "description" : "Good for digestion!",
+  "shortdescription" : "Corn",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 25
+      }
+    ] ]
+}

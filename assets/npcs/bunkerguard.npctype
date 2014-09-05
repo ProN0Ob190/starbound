@@ -1,0 +1,120 @@
+{
+  "type" : "bunkerguard",
+  "baseType" : "guard",
+
+  "disableWornArmor" : true,
+  "innateStatusEffects" : [
+    {
+      "kind" : "Protection",
+      "amount" : 1.0
+    }
+  ],
+
+  "damageTeam" : 1,
+
+  "levelVariance" : [0.25, 0.5],
+
+  "scripts" : [
+    "/npcs/main.lua",
+    "/npcs/timers.lua",
+    "/scripts/sensors.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua",
+
+    "/npcs/meleeAttackState.lua",
+    "/npcs/rangedAttackState.lua",
+
+    "/npcs/guard/guardState.lua",
+    "/npcs/guard/returnToPostState.lua"
+  ],
+
+  "scriptConfig" : {
+    "attackerLimit" : 6,
+    "attackerLimitCooldown" : 3,
+    "noticePlayersRadius" : 30,
+
+    "guard" : {
+      "noticeDistance" : 30,
+      "hailDistance" : -1,
+      "stopDistance" : -1,
+      "attackDistance" : 30,
+
+      "attackSayingPercent" : 25,
+
+      "dialog" : {
+        "attack" : {
+          "default" : [ "Intruder!"
+          ],
+          "human" : {
+            "default" : [
+              "Intruder!",
+              "We've got a hostile!",
+              "Take 'em down!",
+              "Open fire!",
+              "Target acquired!",
+              "You've trespassed for the last time!",
+              "I made my bullets extra explodey, just for you!",
+              "My aim is true! Except for just then.",
+              "Die faster!",
+              "Big fish eats little fish! Guess which one you are?",
+              "How many bullets can you take? Let's find out.",
+              "There's no escaping for you!",
+              "I hope you wrote a will!",
+              "Look behind you! It's your imminent dooooom!",
+              "Prepare to die, scum!",
+              "I am your death, stranger.",
+              "Your expiry date has come!",
+              "Hostile at twelve o'clock!"
+            ]
+          }
+        }
+      }
+    },
+
+    "returnToPost" : {
+      "moveTime" : 20,
+      "minDistance" : 2
+    }
+  },
+
+  "items" : {
+    "human" : [
+      [0, [
+          {
+            "head" : [ { "name" : "soldierhead", "parameters" : { "colorIndex" : 7 } } ],
+            "chest" : [ { "name" : "soldierchest", "parameters" : { "colorIndex" : 7 } } ],
+            "legs" : [ { "name" : "soldierpants", "parameters" : { "colorIndex" : 7 } } ],
+            "primary" : [
+              { "name" : "generatedgun", "parameters" : { "definition" : "pulserifle" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedsword", "parameters" : { "definition" : "nightstick" } }
+            ]
+          },
+          {
+            "head" : [ { "name" : "soldierhead", "parameters" : { "colorIndex" : 8 } } ],
+            "chest" : [ { "name" : "soldierchest", "parameters" : { "colorIndex" : 8 } } ],
+            "legs" : [ { "name" : "soldierpants", "parameters" : { "colorIndex" : 8 } } ],
+            "primary" : [
+              { "name" : "generatedsword", "parameters" : { "definition" : "nightstick" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "parameters" : { "definition" : "riotshield" } }
+            ]
+          }
+        ] ]
+    ]
+  },
+
+  "dropPools" : [ "bunkerguardtreasure" ],
+
+  "statusParameters" : {
+    "baseMaxHealth" : 40,
+    "baseMaxEnergy" : 40,
+    "bodyMaterialKind" : "organic",
+    "damageConfig" : "/damage/damageresponse/npcs.config",
+    "invulnerabilityTime" : 0,
+    "energyReplenishmentRate" : 10.0
+  }
+}
