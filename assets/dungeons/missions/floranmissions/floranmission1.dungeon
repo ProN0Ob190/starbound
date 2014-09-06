@@ -105,22 +105,8 @@
     },
 
     {
-      "value" : [255, 222, 178, 255],
-      "comment" : "overwritable background main biome block",
-      "rules" : [ [ "allowOverdrawing" ] ],
-      "brush" : [ [ "clear" ], [ "surfacebackground", { "variant" : 0 } ] ]
-    },
-
-    {
       "value" : [204, 186, 143, 255],
       "comment" : "foreground main biome block",
-      "brush" : [ [ "surface", { "variant" : 0 } ] ]
-    },
-
-    {
-      "value" : [204, 176, 143, 255],
-      "comment" : "overwritable foreground main biome block",
-      "rules" : [ [ "allowOverdrawing" ] ],
       "brush" : [ [ "surface", { "variant" : 0 } ] ]
     },
 
@@ -131,22 +117,8 @@
     },
 
     {
-      "value" : [178, 222, 255, 255],
-      "comment" : "overwritable background sub biome block #1",
-      "rules" : [ [ "allowOverdrawing" ] ],
-      "brush" : [ [ "clear" ], [ "surfacebackground", { "variant" : 1 } ] ]
-    },
-
-    {
       "value" : [143, 186, 204, 255],
       "comment" : "foreground sub biome block #1",
-      "brush" : [ [ "surface", { "variant" : 1 } ] ]
-    },
-
-    {
-      "value" : [143, 176, 204, 255],
-      "comment" : "overwritable foreground sub biome block #1",
-      "rules" : [ [ "allowOverdrawing" ] ],
       "brush" : [ [ "surface", { "variant" : 1 } ] ]
     },
 
@@ -157,25 +129,11 @@
     },
 
     {
-      "value" : [222, 245, 178, 255],
-      "comment" : "overwritable background sub biome block #2",
-      "rules" : [ [ "allowOverdrawing" ] ],
-      "brush" : [ [ "clear" ], [ "surfacebackground", { "variant" : 2 } ] ]
-    },
-
-    {
       "value" : [177, 204, 143, 255],
       "comment" : "foreground sub biome block #2",
       "brush" : [ [ "surface", { "variant" : 2 } ] ]
     },
-
-    {
-      "value" : [177, 194, 143, 255],
-      "comment" : "overwritable foreground sub biome block #2",
-      "rules" : [ [ "allowOverdrawing" ] ],
-      "brush" : [ [ "surface", { "variant" : 2 } ] ]
-    },
-
+    
     {
       "value" : [1, 0, 0, 255],
       "comment" : "wire #1",
@@ -354,6 +312,72 @@
       "value" : [30, 0, 0, 255],
       "comment" : "wire #30",
       "brush" : [ [ "wire", { "group" : "group30", "local" : true } ] ]
+    },
+    
+    {
+      "value" : [0, 1, 0, 255],
+      "comment" : "and",
+      "brush" : [ [ "clear" ], [ "object", "and" ] ]
+    },
+    
+    {
+      "value" : [0, 2, 0, 255],
+      "comment" : "dlatch",
+      "brush" : [ [ "clear" ], [ "object", "dlatch" ] ]
+    },
+    
+    {
+      "value" : [0, 3, 0, 255],
+      "comment" : "not",
+      "brush" : [ [ "clear" ], [ "object", "not" ] ]
+    },
+    
+    {
+      "value" : [0, 4, 0, 255],
+      "comment" : "or",
+      "brush" : [ [ "clear" ], [ "object", "or" ] ]
+    },
+    
+    {
+      "value" : [0, 5, 0, 255],
+      "comment" : "timer",
+      "brush" : [ [ "clear" ], [ "object", "timer" ] ]
+    },
+    
+    {
+      "value" : [0, 6, 0, 255],
+      "comment" : "timer1s",
+      "brush" : [ [ "clear" ], [ "object", "timer1s" ] ]
+    },
+    
+    {
+      "value" : [0, 7, 0, 255],
+      "comment" : "timer2s",
+      "brush" : [ [ "clear" ], [ "object", "timer2s" ] ]
+    },
+    
+    {
+      "value" : [0, 8, 0, 255],
+      "comment" : "timer3s",
+      "brush" : [ [ "clear" ], [ "object", "timer3s" ] ]
+    },
+    
+    {
+      "value" : [0, 9, 0, 255],
+      "comment" : "timer4s",
+      "brush" : [ [ "clear" ], [ "object", "timer4s" ] ]
+    },
+    
+    {
+      "value" : [0, 10, 0, 255],
+      "comment" : "timer5s",
+      "brush" : [ [ "clear" ], [ "object", "timer5s" ] ]
+    },
+
+    {
+      "value" : [0, 11, 0, 255],
+      "comment" : "xor",
+      "brush" : [ [ "clear" ], [ "object", "xor" ] ]
     },
 
     {
@@ -610,7 +634,7 @@
     {
       "value" : [217, 163, 108, 255],
       "comment" : "foreground dirt",
-      "brush" : [ [ "clear" ], [ "front", "dirt" ] ]
+      "brush" : [ [ "clear" ], [ "back", "dirt" ], [ "front", "dirt" ] ]
     },
 
     {
@@ -622,7 +646,7 @@
     {
       "value" : [108, 144, 217, 255],
       "comment" : "foreground rock14",
-      "brush" : [ [ "clear" ], [ "front", "rock14" ] ]
+      "brush" : [ [ "clear" ], [ "back", "rock14" ], [ "front", "rock14" ] ]
     },
 
     {
@@ -646,7 +670,7 @@
     {
       "value" : [108, 217, 191, 255],
       "comment" : "foreground castlewalls1",
-      "brush" : [ [ "clear" ], [ "front", "castlewalls1" ] ]
+      "brush" : [ [ "clear" ], [ "back", "castlewalls1" ], [ "front", "castlewalls1" ] ]
     },
 
     {
@@ -1950,7 +1974,7 @@
     },
 
     {
-      "value" : [166, 8, 8, 255],
+      "value" : [166, 35, 8, 255],
       "comment" : "barrellarge",
       "brush" : [ [ "clear" ], [ "object", "barrellarge" ] ]
     },
@@ -2100,7 +2124,7 @@
     },
 
     {
-      "value" : [166, 87, 8, 255],
+      "value" : [87, 8, 166, 255],
       "comment" : "thewayisblocked",
       "brush" : [ [ "clear" ], [ "object", "thewayisblocked" ] ]
     },
@@ -2214,6 +2238,12 @@
     },
 
     {
+      "value" : [166, 8, 113, 255],
+      "comment" : "drip2",
+      "brush" : [ [ "clear" ], [ "object", "drip2" ] ]
+    },
+
+    {
       "value" : [140, 8, 166, 255],
       "comment" : "dirttrapdoor facing left",
       "brush" : [ [ "clear" ], [ "object", "dirttrapdoor", { "direction" : "left" } ] ]
@@ -2223,6 +2253,30 @@
       "value" : [118, 7, 140, 255],
       "comment" : "dirttrapdoor facing right",
       "brush" : [ [ "clear" ], [ "object", "dirttrapdoor", { "direction" : "right" } ] ]
+    },
+
+    {
+      "value" : [166, 8, 166, 255],
+      "comment" : "huntingpressureplate facing left",
+      "brush" : [ [ "clear" ], [ "object", "huntingpressureplate", { "direction" : "left" } ] ]
+    },
+
+    {
+      "value" : [140, 7, 140, 255],
+      "comment" : "huntingpressureplate facing right",
+      "brush" : [ [ "clear" ], [ "object", "huntingpressureplate", { "direction" : "right" } ] ]
+    },
+
+    {
+      "value" : [166, 8, 140, 255],
+      "comment" : "campfire facing left",
+      "brush" : [ [ "clear" ], [ "object", "campfire", { "direction" : "left" } ] ]
+    },
+
+    {
+      "value" : [140, 7, 118, 255],
+      "comment" : "campfire facing right",
+      "brush" : [ [ "clear" ], [ "object", "campfire", { "direction" : "right" } ] ]
     },
 
     // NPC MONSTER SPAWN BRUSHES //
