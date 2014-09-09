@@ -14,9 +14,12 @@
   "price" : 200,
   
   "lightColor" : [155, 107, 179],
-  "flickerDistance" : 1,
-  "flickerStrength" : 0.1,
-  "flickerTiming" : 4,
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0.025,
 
   "apexDescription" : "An ideal workstation for crafting weapons and armors that are supremely durable.",
   "avianDescription" : "A separator's crafting table. Perfect for a close range combat specialist.",

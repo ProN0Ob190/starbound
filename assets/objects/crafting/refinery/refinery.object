@@ -17,9 +17,13 @@
   "humanDescription" : "It prints money! Sort of!",
   "hylotlDescription" : "An extremely capitalist device for turning ore into pixels.",
 
-  "lightColor" : [229, 218, 207],
-  "flickerDistance" : 0.5,
-  "flickerStrength" : 0.1,
+  "lightColor" : [179, 149, 107],
+
+  "flickerPeriod" : 0.5,
+  "flickerMinIntensity" : 0.9,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
 
   "particleEmitter" : {
     "emissionRate" : 1.0,
@@ -46,7 +50,9 @@
   "inventoryIcon" : "refineryicon.png",
   "orientations" : [
     {
-      "image" : "refinery.png:<color>.<frame>",
+      "imageLayers" : [ { "image" : "refinery.png:<color>.<frame>", "fullbright" : true }, { "image" : "refinerylit.png:<color>.<frame>" } ],
+      "direction" : "left",
+      "flipImages" : true,
 
       "imagePosition" : [0, 0],
       "frames" : 4,
@@ -54,7 +60,17 @@
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "refinery.png:<color>.<frame>", "fullbright" : true }, { "image" : "refinerylit.png:<color>.<frame>" } ],
+      "direction" : "right",
 
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
     }
   ],
 

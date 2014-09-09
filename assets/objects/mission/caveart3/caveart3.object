@@ -33,7 +33,7 @@
       "image" : "caveart3.png:<color>",
       "direction" : "right",
 
-      "imagePosition" : [-16, -8],
+      "imagePosition" : [-40, -8],
       "frames" : 1,
       "animationCycle" : 1.0,
 

@@ -14,9 +14,12 @@
   "price" : 200,
   
   "lightColor" : [107, 179, 107],
-  "flickerDistance" : 1,
-  "flickerStrength" : 0.1,
-  "flickerTiming" : 4,
+
+  "flickerPeriod" : 2.00,
+  "flickerMinIntensity" : 0.8,
+  "flickerMaxIntensity" : 1.0,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0,
 
   "apexDescription" : "A table for crafting equipment ideal for a gunner.",
   "avianDescription" : "An accelerator's crafting table. Perfect for the marksman.",

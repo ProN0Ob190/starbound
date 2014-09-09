@@ -14,10 +14,13 @@
 
   "category" : "decorative",
   "price" : 500,
-  "lightColor" : [27, 68, 89],
-  "flickerDistance" : 0.2,
-  "flickerStrength" : 0.05,
-  "flickerTiming" : 4,
+  "lightColor" : [0, 60, 89],
+
+  "flickerPeriod" : 0.5,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.05,
+  "flickerIntensityVariance" : 0.0,
 
   "inventoryIcon" : "screen5icon.png",
   "orientations" : [

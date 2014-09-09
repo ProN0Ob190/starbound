@@ -16,9 +16,12 @@
   "hylotlDescription" : "Similar devices are used defensively beneath the ocean. The Hylotl build moats of electricity to keep out intruders.",
 
   "lightColor" : [28, 181, 238],
-  "flickerDistance" : 0.2,
-  "flickerStrength" : 0.05,
-  "flickerTiming" : 4,
+
+  "flickerPeriod" : 0.2,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.05,
+  "flickerIntensityVariance" : 0.025,
 
   "inventoryIcon" : "teslaspikeicon.png",
   "orientations" : [
@@ -29,8 +32,14 @@
       "animationCycle" : 0.6,
 
       "spaceScan" : 0.1,
-      "anchors" : [ "top", "left" ]
+      "anchors" : [ "top", "left" ],
+          "touchDamage" : {
+            "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
+            "damage" : 20,
 
+            "damageType" : "IgnoresDef",
+            "damageSourceKind" : "electroshock"
+          }
     },
 
     {
@@ -40,8 +49,14 @@
       "animationCycle" : 0.6,
 
       "spaceScan" : 0.1,
-      "anchors" : [ "top", "right" ]
+      "anchors" : [ "top", "right" ],
+          "touchDamage" : {
+            "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
+            "damage" : 20,
 
+            "damageType" : "IgnoresDef",
+            "damageSourceKind" : "electroshock"
+          }
     },
 
     {
@@ -51,8 +66,14 @@
       "animationCycle" : 0.6,
 
       "spaceScan" : 0.1,
-      "anchors" : [ "bottom", "left" ]
+      "anchors" : [ "bottom", "left" ],
+          "touchDamage" : {
+            "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
+            "damage" : 20,
 
+            "damageType" : "IgnoresDef",
+            "damageSourceKind" : "electroshock"
+          }
     },
 
     {
@@ -62,8 +83,14 @@
       "animationCycle" : 0.6,
 
       "spaceScan" : 0.1,
-      "anchors" : [ "bottom", "right" ]
+      "anchors" : [ "bottom", "right" ],
+          "touchDamage" : {
+            "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
+            "damage" : 20,
 
+            "damageType" : "IgnoresDef",
+            "damageSourceKind" : "electroshock"
+          }
     },
 
     {
@@ -73,8 +100,14 @@
       "animationCycle" : 0.6,
 
       "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+      "anchors" : [ "bottom" ],
+          "touchDamage" : {
+            "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
+            "damage" : 20,
 
+            "damageType" : "IgnoresDef",
+            "damageSourceKind" : "electroshock"
+          }
     },
 
     {
@@ -84,8 +117,14 @@
       "animationCycle" : 0.6,
 
       "spaceScan" : 0.1,
-      "anchors" : [ "top" ]
+      "anchors" : [ "top" ],
+          "touchDamage" : {
+            "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
+            "damage" : 20,
 
+            "damageType" : "IgnoresDef",
+            "damageSourceKind" : "electroshock"
+          }
     },
 
     {
@@ -95,8 +134,14 @@
       "animationCycle" : 0.6,
 
       "spaceScan" : 0.1,
-      "anchors" : [ "left" ]
+      "anchors" : [ "left" ],
+          "touchDamage" : {
+            "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
+            "damage" : 20,
 
+            "damageType" : "IgnoresDef",
+            "damageSourceKind" : "electroshock"
+          }
     },
 
     {
@@ -106,19 +151,16 @@
       "animationCycle" : 0.6,
 
       "spaceScan" : 0.1,
-      "anchors" : [ "right" ]
+      "anchors" : [ "right" ],
+          "touchDamage" : {
+            "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
+            "damage" : 20,
 
+            "damageType" : "IgnoresDef",
+            "damageSourceKind" : "electroshock"
+          }
     }
   ],
-
-  "statusEffects" : [
-    {
-      "kind" : "electroshock",
-      "amount" : 7,
-      "range" : 0
-    }
-  ],
-
   "soundEffect" : "/sfx/objects/teslaspike.wav"
 
 }

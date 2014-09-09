@@ -8,9 +8,12 @@
   "race" : "apex",
   "fullbright" : true,
   "lightColor" : [17, 107, 140],
-  "flickerDistance" : 0.2,
-  "flickerStrength" : 0.05,
-  "flickerTiming" : 3,
+
+  "flickerPeriod" : 0.2,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.05,
+  "flickerIntensityVariance" : 0.025,
 
   "apexDescription" : "More Apex equipment. Experimentation or torture, who knows?",
   "avianDescription" : "Is this electricity? Avians use crystal resonance to power our technology.",

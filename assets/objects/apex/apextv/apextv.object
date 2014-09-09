@@ -16,9 +16,6 @@
   "hylotlDescription" : "The only images of Big Ape appear to be artificial.",
 
   "lightColor" : [64, 107, 128],
-  "flickerDistance" : 0.2,
-  "flickerStrength" : 0.05,
-  "flickerTiming" : 1,
 
   "inventoryIcon" : "apextvicon.png",
   "orientations" : [

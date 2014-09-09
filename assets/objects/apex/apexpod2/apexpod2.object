@@ -4,9 +4,13 @@
   "category" : "light",
   "price" : 2000,
   "lightColor" : [115, 179, 89],
-  "flickerDistance" : 1.0,
-  "flickerStrength" : 0.1,
-  "flickerTiming" : 1,
+
+  "flickerPeriod" : 1,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0,
+  
   "description" : "The pod is empty.",
   "shortdescription" : "Apex Life Support Pod",
   "race" : "apex",

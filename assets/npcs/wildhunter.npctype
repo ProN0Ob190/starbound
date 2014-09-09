@@ -71,9 +71,9 @@
     "floran" : [
       [0, [
           {
-            "head" : [ { "name" : "florantier5head" } ],
-            "chest" : [ { "name" : "florantier5chest" } ],
-            "legs" : [ { "name" : "florantier5pants" } ],
+            "head" : [ { "name" : "florantier5head", "parameters" : { "colorIndex" : 7 } } ],
+            "chest" : [ { "name" : "florantier5chest", "parameters" : { "colorIndex" : 7 } } ],
+            "legs" : [ { "name" : "florantier5pants", "parameters" : { "colorIndex" : 7 } } ],
             "primary" : [
               { "name" : "generatedsword", "parameters" : { "definition" : "commonspear" } },
               { "name" : "generatedsword", "parameters" : { "definition" : "commonaxe" } },

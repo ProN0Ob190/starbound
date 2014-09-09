@@ -17,7 +17,20 @@
   "inventoryIcon" : "huntingpike2icon.png",
   "orientations" : [
     {
-      "dualImage" : "huntingpike2.png:<color>",
+      "image" : "huntingpike2.png:<color>",
+      "direction" : "left",
+      "flipImages" : true,
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+    {
+      "image" : "huntingpike2.png:<color>",
+      "direction" : "right",
       "imagePosition" : [0, 0],
       "frames" : 1,
       "animationCycle" : 0.5,

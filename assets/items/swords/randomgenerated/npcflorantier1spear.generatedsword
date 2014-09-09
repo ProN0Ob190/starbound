@@ -1,0 +1,53 @@
+{
+  "name" : "npcflorantier1spear",
+  "baseDps" : [2.5, 3.5],
+  "rateOfSwing" : [1, 1.25],
+  "multiplier" : 0.35,
+  "firePosition" : [32.5, -8.5],
+  "fireAfterWindup" : true,
+  "bladeBehindHandle" : false,
+  "muzzleFlashes" : [ ],
+  "soundEffect" : [ "/sfx/melee/swing_spear.wav" ],
+  "kind" : "npcflorantier1spear",
+  "tooltipKind" : "sword",
+
+  "primaryStances" : {
+    "directional" : true,
+    "projectileTypes" : [ "spearswoosh1" ],
+    "projectile" : {
+      "speed" : 0.4
+    },
+    "idle" : {
+      "twoHanded" : false,
+      "armAngle" : -90,
+      "swordAngle" : -90,
+      "handPosition" : [0.5, -3.5],
+      "armFrameOverride" : "idleMelee",
+      "duration" : 0.1
+    },
+    "windup" : {
+      "twoHanded" : true,
+      "armAngle" : -110,
+      "swordAngle" : -90,
+      "handPosition" : [1.5, 1.5],
+      "duration" : 0.07,
+      "statusEffects" : [
+        { "kind" : "shieldsuppressed", "duration" : 0.1 }
+      ]
+    },
+    "cooldown" : {
+      "twoHanded" : true,
+      "armAngle" : -50,
+      "swordAngle" : -90,
+      "handPosition" : [1.5, -19.5],
+      "duration" : 0.2,
+      "statusEffects" : [
+        { "kind" : "shieldsuppressed", "duration" : 0.1 }
+      ]
+    }
+  },
+  "palette" : [
+    { "ffca8a" : "b5b5b5", "e0975c" : "808080", "a85636" : "555555", "6f2919" : "303030" }
+  ],
+  "nameGenerator" : "spearnames.config:nameGen"
+}

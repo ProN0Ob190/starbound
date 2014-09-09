@@ -6,7 +6,7 @@
   "itemDrop" : "ruinsplatform",
   "shortdescription" : "Ruins Platform",
   "description" : "Old dusty wood platform. Looks decrepid.",
-  "footstepSound" : "/sfx/blocks/footstep_girder.wav",
+  "footstepSound" : "/sfx/blocks/footstep_wood.wav",
 
   "renderTemplate" : "/tiles/platformtemplate.config",
   "renderParameters" : {

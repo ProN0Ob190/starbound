@@ -144,7 +144,7 @@
 
           "touchDamage" : {
             "poly" : [ [1.0, 0.2], [-1.0, 0.5], [1.0, 0.8] ],
-            "damage" : 10,
+            "damage" : 20,
 
             "damageType" : "IgnoresDef",
             "damageSourceKind" : "spear"

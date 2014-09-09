@@ -16,9 +16,6 @@
   "hylotlDescription" : "Is this the brute responsible for the Apex regime?",
 
   "lightColor" : [89, 149, 179],
-  "flickerDistance" : 0.2,
-  "flickerStrength" : 0.05,
-  "flickerTiming" : 1,
 
   "inventoryIcon" : "apexhdtvicon.png",
   "orientations" : [

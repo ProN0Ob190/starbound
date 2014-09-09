@@ -14,9 +14,12 @@
   "price" : 200,
   
   "lightColor" : [179, 124, 62],
-  "flickerDistance" : 1,
-  "flickerStrength" : 0.1,
-  "flickerTiming" : 1,
+
+  "flickerPeriod" : 0.4,
+  "flickerMinIntensity" : 0.925,
+  "flickerMaxIntensity" : 0.975,
+  "flickerPeriodVariance" : 0.1,
+  "flickerIntensityVariance" : 0.025,
 
   "apexDescription" : "A metalwork station. I can use steel and other materials here.",
   "avianDescription" : "A metalwork station. I can use steel and other materials here.",

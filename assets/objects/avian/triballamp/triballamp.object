@@ -21,10 +21,13 @@
       "range" : 2
     } ],
 
-  "lightColor" : [217, 65, 54],
-  "flickerDistance" : 0.5,
-  "flickerStrength" : 0.1,
-  "flickerTiming" : 3,
+  "lightColor" : [217, 65, 76],
+
+  "flickerPeriod" : 0.5,
+  "flickerMinIntensity" : 0.725,
+  "flickerMaxIntensity" : 0.8,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0,
 
   "inventoryIcon" : "triballampicon.png",
   "orientations" : [

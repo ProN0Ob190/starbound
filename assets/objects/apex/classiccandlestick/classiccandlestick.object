@@ -16,9 +16,13 @@
 
   "category" : "light",
   "price" : 800,
-  "lightColor" : [179, 158, 116],
-  "flickerDistance" : 0.5,
-  "flickerStrength" : 0.1,
+  "lightColor" : [179, 149, 107],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
 
   "statusEffects" : [
     {

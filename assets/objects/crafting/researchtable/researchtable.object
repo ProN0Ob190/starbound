@@ -14,9 +14,12 @@
   "price" : 200,
   
   "lightColor" : [35, 51, 51],
-  "flickerDistance" : 1,
-  "flickerStrength" : 0.1,
-  "flickerTiming" : 4,
+
+  "flickerPeriod" : 0.5,
+  "flickerMinIntensity" : 0.9,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0,
 
   "apexDescription" : "I can create specialized stations and devices with this.",
   "avianDescription" : "A research table.",

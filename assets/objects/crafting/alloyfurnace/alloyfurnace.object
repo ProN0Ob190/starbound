@@ -21,9 +21,13 @@
   "humanDescription" : "An alloy furnace, hot enough to smelt steel and other materials.",
   "hylotlDescription" : "A very hot, imposing, alloy furnace. I can make stronger materials with this.",
 
-  "lightColor" : [179, 165, 152],
-  "flickerDistance" : 0.5,
-  "flickerStrength" : 0.1,
+  "lightColor" : [179, 149, 107],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
 
   "inventoryIcon" : "alloyfurnaceicon.png",
   "orientations" : [

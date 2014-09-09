@@ -4,9 +4,13 @@
   "category" : "light",
   "price" : 2500,
   "lightColor" : [115, 179, 89],
-  "flickerDistance" : 1.0,
-  "flickerStrength" : 0.1,
-  "flickerTiming" : 1,
+
+  "flickerPeriod" : 1,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0,
+  
   "description" : "There's an Apex in there, connected to a bunch of wires and tubes.",
   "shortdescription" : "Apex Life Support Pod",
   "race" : "apex",

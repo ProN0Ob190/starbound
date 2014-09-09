@@ -14,9 +14,12 @@
   "price" : 200,
   
   "lightColor" : [107, 131, 179],
-  "flickerDistance" : 0.5,
-  "flickerStrength" : 0.1,
-  "flickerTiming" : 1,
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0.025,
 
   "apexDescription" : "The equipment I can make here would provide a lot of destructive power at the cost of my defence.",
   "avianDescription" : "A manipulator's crafting table. They are masters of pure destructive power, but tend to be frail themselves.",

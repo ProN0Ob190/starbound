@@ -7,10 +7,13 @@
 
   "category" : "decorative",
   "price" : 500,
-  "lightColor" : [27, 68, 89],
-  "flickerDistance" : 0.2,
-  "flickerStrength" : 0.05,
-  "flickerTiming" : 4,
+  "lightColor" : [0, 60, 89],
+
+  "flickerPeriod" : 1.0,
+  "flickerMinIntensity" : 0.9,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.05,
+  "flickerIntensityVariance" : 0.0,
 
   "apexDescription" : "Some long-tailed creature?",
   "avianDescription" : "The Avians were investigating the reproduction of other species.",

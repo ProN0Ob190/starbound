@@ -16,9 +16,13 @@
   "humanDescription" : "An old torch.",
   "hylotlDescription" : "The Hylotl do not light torches. Beneath the ocean, air is too precious to waste.",
 
-  "lightColor" : [191, 177, 163],
-  "flickerDistance" : 0.5,
-  "flickerStrength" : 0.1,
+  "lightColor" : [179, 149, 107],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
 
   "statusEffects" : [
     {

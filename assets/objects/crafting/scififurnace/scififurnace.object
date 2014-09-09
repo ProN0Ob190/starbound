@@ -22,9 +22,12 @@
   "hylotlDescription" : "An atomic blast furnace. I can make incredible materials with this.",
 
   "lightColor" : [125, 143, 179],
-  "flickerDistance" : 0.5,
-  "flickerStrength" : 0.1,
-  "flickerTiming" : 2,
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
 
   "inventoryIcon" : "scififurnaceicon.png",
   "orientations" : [

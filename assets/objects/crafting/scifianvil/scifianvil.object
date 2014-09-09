@@ -13,10 +13,13 @@
   "category" : "crafting",
   "price" : 200,
   
-  "lightColor" : [125, 143, 179],
-  "flickerDistance" : 0.5,
-  "flickerStrength" : 0.1,
-  "flickerTiming" : 1,
+  "lightColor" : [89, 119, 179],
+
+  "flickerPeriod" : 0.9,
+  "flickerMinIntensity" : 0.75,
+  "flickerMaxIntensity" : 0.8,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0,
 
   "apexDescription" : "A replicator. I can create high quality equipment with this.",
   "avianDescription" : "A replicator. I can create high quality equipment with this.",
